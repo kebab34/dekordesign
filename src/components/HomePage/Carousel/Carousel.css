@@ -1,0 +1,136 @@
+.carousel {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-content {
+  text-align: center;
+  max-width: 900px;
+  padding: 0 40px;
+}
+
+.carousel-line {
+  width: 80px;
+  height: 1px;
+  background-color: #d4af37;
+  margin: 0 auto 30px;
+}
+
+.carousel-title {
+  font-size: 68px;
+  font-weight: 300;
+  margin: 0 0 25px 0;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.carousel-subtitle {
+  font-size: 20px;
+  margin: 0 0 50px 0;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #e0e0e0;
+}
+
+.hero-button {
+  padding: 18px 50px;
+  font-size: 13px;
+  background-color: transparent;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-button:hover {
+  background-color: #d4af37;
+  color: #0a0a0a;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-arrow {
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #fff;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-arrow:hover {
+  background-color: rgba(212, 175, 55, 0.3);
+  border-color: #d4af37;
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 15px;
+}
+
+.indicator {
+  width: 40px;
+  height: 2px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.indicator-active {
+  background-color: #d4af37;
+}
+
+.indicator-inactive {
+  background-color: rgba(255,255,255,0.3);
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 42px;
+  }
+  
+  .carousel-subtitle {
+    font-size: 16px;
+  }
+}
