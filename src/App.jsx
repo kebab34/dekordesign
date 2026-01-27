@@ -1,24 +1,25 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Carousel from './components/HomePage/Carousel/Carousel';
-import RoomCategories from './components/HomePage/RoomCategories/RoomCategories';
-import ProductCategories from './components/HomePage/ProductCategories/ProductCategories';
-import FeaturedProducts from './components/HomePage/FeaturedProducts/FeaturedProducts';
-import CTASection from './components/HomePage/CTASection/CTASection';
 import Footer from './components/Footer/Footer';
+import HomePage from './pages/HomePage';
+import CollectionsPage from './components/CollectionsPage/CollectionsPage';
+import CataloguePage from './components/CataloguePage/CataloguePage';
 import './App.css';
 
 const App = () => {
   return (
-    <div className="app-container">
-      <Header />
-      <Carousel />
-      <RoomCategories />
-      <ProductCategories />
-      <FeaturedProducts />
-      <CTASection />
-      <Footer />
-    </div>
+    <Router>
+      <div className="app-container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/collections" element={<CollectionsPage />} />
+          <Route path="/catalogues" element={<CataloguePage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

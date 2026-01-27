@@ -1,136 +1,820 @@
-.carousel {
+/* ═══════════════════════════════════════════════════════════════════════════
+   LUXURY CAROUSEL - Premium Animation Experience
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.luxury-carousel {
   position: relative;
   height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   PARTICULES DORÉES FLOTTANTES
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.golden-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
   overflow: hidden;
 }
 
-.carousel-slide {
+.particle {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: opacity 2s ease-in-out;
+  width: 4px;
+  height: 4px;
+  background: radial-gradient(circle, #d4af37 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  animation: floatParticle 6s infinite ease-in-out;
 }
 
-.carousel-image {
+@keyframes floatParticle {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(100vh) scale(0);
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(50vh) scale(1);
+  }
+  100% {
+    transform: translateY(-10vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   VIGNETTE CINÉMATIQUE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.cinematic-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.7) 100%),
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, transparent 20%, transparent 80%, rgba(0,0,0,0.5) 100%);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CADRE LUXUEUX DORÉ
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.luxury-frame {
+  position: absolute;
+  inset: 30px;
+  z-index: 15;
+  pointer-events: none;
+}
+
+.frame-corner {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.frame-corner::before,
+.frame-corner::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(90deg, #d4af37, #f4e4bc, #d4af37);
+  opacity: 0.6;
+}
+
+.frame-top-left {
+  top: 0;
+  left: 0;
+}
+.frame-top-left::before {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: 0;
+}
+.frame-top-left::after {
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.frame-top-right {
+  top: 0;
+  right: 0;
+}
+.frame-top-right::before {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  right: 0;
+}
+.frame-top-right::after {
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.frame-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.frame-bottom-left::before {
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+}
+.frame-bottom-left::after {
+  width: 1px;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.frame-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.frame-bottom-right::before {
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+}
+.frame-bottom-right::after {
+  width: 1px;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SLIDES AVEC EFFET KEN BURNS & CROSSFADE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.luxury-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+/* Slide active qui entre */
+.luxury-slide.active.entering {
+  visibility: visible;
+  z-index: 3;
+  animation: slideEnter 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Slide précédente qui sort */
+.luxury-slide.exiting {
+  visibility: visible;
+  z-index: 2;
+  animation: slideExit 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Slide active sans transition (état initial) */
+.luxury-slide.active:not(.entering) {
+  opacity: 1;
+  visibility: visible;
+  z-index: 3;
+}
+
+@keyframes slideEnter {
+  0% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideExit {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+
+.slide-image-wrapper {
+  position: absolute;
+  inset: -50px;
+  overflow: hidden;
+}
+
+.slide-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: brightness(0.5) saturate(1.1);
+  transform: scale(1.1);
 }
 
-.carousel-overlay {
+.luxury-slide.active .slide-image {
+  animation: kenBurns 8s ease-out forwards;
+}
+
+.luxury-slide.exiting .slide-image {
+  animation: none;
+}
+
+@keyframes kenBurns {
+  0% {
+    transform: scale(1.1) translateX(-1%);
+  }
+  100% {
+    transform: scale(1.18) translateX(1%);
+  }
+}
+
+/* Variation pour les slides paires */
+.luxury-slide:nth-child(even).active .slide-image {
+  animation: kenBurnsAlt 8s ease-out forwards;
+}
+
+@keyframes kenBurnsAlt {
+  0% {
+    transform: scale(1.1) translateY(-1%);
+  }
+  100% {
+    transform: scale(1.18) translateY(1%);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   OVERLAY ET CONTENU
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.slide-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%);
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 3;
 }
 
-.carousel-content {
+.content-wrapper {
   text-align: center;
-  max-width: 900px;
-  padding: 0 40px;
+  max-width: 1000px;
+  padding: 0 60px;
 }
 
-.carousel-line {
-  width: 80px;
+/* ─────────────────────────────────────────────────────────────────────────────
+   LIGNE DÉCORATIVE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.decorative-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+.luxury-slide.active .decorative-line {
+  animation: fadeInUp 1s ease-out 0.3s forwards;
+}
+
+.luxury-slide.exiting .decorative-line {
+  animation: fadeOutContent 0.6s ease-out forwards;
+}
+
+.line-left,
+.line-right {
+  width: 0;
   height: 1px;
-  background-color: #d4af37;
-  margin: 0 auto 30px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
 }
 
-.carousel-title {
-  font-size: 68px;
-  font-weight: 300;
-  margin: 0 0 25px 0;
-  letter-spacing: 2px;
-  line-height: 1.2;
+.luxury-slide.active .line-left,
+.luxury-slide.active .line-right {
+  animation: expandLine 1.2s ease-out 0.5s forwards;
 }
 
-.carousel-subtitle {
-  font-size: 20px;
-  margin: 0 0 50px 0;
-  letter-spacing: 3px;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #e0e0e0;
+@keyframes expandLine {
+  to {
+    width: 100px;
+  }
 }
 
-.hero-button {
-  padding: 18px 50px;
-  font-size: 13px;
-  background-color: transparent;
+.line-diamond {
   color: #d4af37;
-  border: 1px solid #d4af37;
-  cursor: pointer;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.4s ease;
-  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  opacity: 0;
+  transform: rotate(0deg);
 }
 
-.hero-button:hover {
-  background-color: #d4af37;
+.luxury-slide.active .line-diamond {
+  animation: spinIn 0.8s ease-out 0.7s forwards;
+}
+
+@keyframes spinIn {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TITRE AVEC ANIMATION LETTRE PAR LETTRE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 6vw, 80px);
+  font-weight: 300;
+  color: #fff;
+  margin: 0 0 30px;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.title-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%) rotateX(-90deg);
+  transform-origin: bottom center;
+}
+
+.luxury-slide.active .title-char {
+  animation: charReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.luxury-slide.exiting .slide-title {
+  animation: fadeOutContent 0.5s ease-out forwards;
+}
+
+@keyframes charReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SOUS-TITRE AVEC EFFET REVEAL
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.slide-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(16px, 2vw, 24px);
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+  overflow: hidden;
+}
+
+.subtitle-inner {
+  display: block;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.luxury-slide.active .subtitle-inner {
+  animation: subtitleReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 1.5s forwards;
+}
+
+.luxury-slide.exiting .slide-subtitle {
+  animation: fadeOutContent 0.5s ease-out 0.1s forwards;
+}
+
+@keyframes subtitleReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   BOUTON CTA LUXUEUX
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.cta-wrapper {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.luxury-slide.active .cta-wrapper {
+  animation: fadeInUp 1s ease-out 1.8s forwards;
+}
+
+.luxury-slide.exiting .cta-wrapper {
+  animation: fadeOutContent 0.4s ease-out 0.15s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutContent {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.luxury-cta {
+  position: relative;
+  padding: 22px 60px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.luxury-cta:hover {
+  transform: scale(1.05);
+}
+
+.cta-text {
+  position: relative;
+  z-index: 2;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: #d4af37;
+  transition: color 0.4s ease;
+}
+
+.luxury-cta:hover .cta-text {
   color: #0a0a0a;
 }
 
-.carousel-nav {
+.cta-border {
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  inset: 0;
+  border: 1px solid #d4af37;
+  transition: all 0.4s ease;
+}
+
+.luxury-cta:hover .cta-border {
+  background: linear-gradient(135deg, #d4af37, #f4e4bc, #d4af37);
+  border-color: transparent;
+}
+
+.cta-shine {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.luxury-cta:hover .cta-shine {
+  left: 100%;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   NAVIGATION LATÉRALE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.side-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
-  gap: 40px;
-}
-
-.nav-arrow {
-  background-color: transparent;
-  border: 1px solid rgba(255,255,255,0.4);
-  color: #fff;
-  font-size: 20px;
-  width: 50px;
-  height: 50px;
+  justify-content: center;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
 }
 
-.nav-arrow:hover {
-  background-color: rgba(212, 175, 55, 0.3);
+.side-nav-left {
+  left: 40px;
+}
+
+.side-nav-right {
+  right: 40px;
+}
+
+.nav-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-line {
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background: #fff;
+  transition: all 0.3s ease;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.side-nav-left .nav-line-1 {
+  top: 10px;
+  transform: translateX(-50%) rotate(-45deg);
+  transform-origin: left center;
+}
+
+.side-nav-left .nav-line-2 {
+  bottom: 10px;
+  transform: translateX(-50%) rotate(45deg);
+  transform-origin: left center;
+}
+
+.side-nav-right .nav-line-1 {
+  top: 10px;
+  transform: translateX(-50%) rotate(45deg);
+  transform-origin: right center;
+}
+
+.side-nav-right .nav-line-2 {
+  bottom: 10px;
+  transform: translateX(-50%) rotate(-45deg);
+  transform-origin: right center;
+}
+
+.side-nav:hover .nav-line {
+  background: #d4af37;
+  width: 25px;
+}
+
+.side-nav::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.side-nav:hover::before {
   border-color: #d4af37;
+  transform: scale(1.1);
 }
 
-.carousel-indicators {
+/* ─────────────────────────────────────────────────────────────────────────────
+   INDICATEURS DE PROGRESSION
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.luxury-indicators {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
   display: flex;
-  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.indicator {
-  width: 40px;
-  height: 2px;
+.indicator-line {
+  display: flex;
+  gap: 30px;
+}
+
+.luxury-indicator {
+  position: relative;
+  background: transparent;
   border: none;
   cursor: pointer;
-  transition: all 0.4s;
+  padding: 10px 0;
+  overflow: hidden;
 }
 
-.indicator-active {
-  background-color: #d4af37;
+.indicator-number {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
 }
 
-.indicator-inactive {
-  background-color: rgba(255,255,255,0.3);
+.luxury-indicator.active .indicator-number {
+  color: #d4af37;
+}
+
+.luxury-indicator:hover .indicator-number {
+  color: #fff;
+}
+
+.indicator-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.indicator-progress::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #d4af37;
+}
+
+.luxury-indicator.active .indicator-progress::after {
+  animation: progressFill 7s linear forwards;
+}
+
+@keyframes progressFill {
+  to {
+    width: 100%;
+  }
+}
+
+.indicator-total {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.indicator-total .current {
+  color: #d4af37;
+}
+
+.indicator-total .separator {
+  margin: 0 8px;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SCROLL INDICATOR
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.scroll-line {
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, #d4af37, transparent);
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scaleY(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+.scroll-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.5);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   RESPONSIVE
+   ───────────────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 1024px) {
+  .side-nav {
+    width: 60px;
+    height: 60px;
+  }
+
+  .side-nav-left {
+    left: 20px;
+  }
+
+  .side-nav-right {
+    right: 20px;
+  }
+
+  .luxury-frame {
+    inset: 20px;
+  }
+
+  .frame-corner {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 768px) {
-  .carousel-title {
-    font-size: 42px;
+  .side-nav {
+    display: none;
   }
-  
-  .carousel-subtitle {
-    font-size: 16px;
+
+  .luxury-frame {
+    inset: 15px;
+  }
+
+  .frame-corner {
+    width: 30px;
+    height: 30px;
+  }
+
+  .content-wrapper {
+    padding: 0 30px;
+  }
+
+  .slide-subtitle {
+    letter-spacing: 3px;
+  }
+
+  .luxury-cta {
+    padding: 18px 40px;
+  }
+
+  .cta-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .luxury-indicators {
+    bottom: 40px;
+  }
+
+  .indicator-line {
+    gap: 20px;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+
+  @keyframes expandLine {
+    to {
+      width: 50px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .decorative-line {
+    margin-bottom: 25px;
+  }
+
+  .slide-title {
+    margin-bottom: 20px;
+  }
+
+  .slide-subtitle {
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+  }
+
+  .golden-particles {
+    display: none;
   }
 }

@@ -1,7 +1,22 @@
+.featured-section {
+  position: relative;
+}
+
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.featured-grid.fade-out {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.featured-grid.fade-in {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .featured-card {
@@ -9,6 +24,7 @@
   height: 500px;
   overflow: hidden;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .featured-image-wrapper {
@@ -66,6 +82,30 @@
   letter-spacing: 2px;
 }
 
+/* CTA Button */
+.featured-cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.view-all-btn {
+  display: inline-block;
+  padding: 18px 50px;
+  background-color: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #d4af37;
+  color: #0a0a0a;
+}
+
 @media (max-width: 1200px) {
   .featured-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -75,5 +115,14 @@
 @media (max-width: 768px) {
   .featured-grid {
     grid-template-columns: 1fr;
+  }
+
+  .featured-card {
+    height: 400px;
+  }
+
+  .view-all-btn {
+    padding: 15px 40px;
+    font-size: 12px;
   }
 }
