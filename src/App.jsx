@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import CollectionsPage from './components/CollectionsPage/CollectionsPage';
 import CataloguePage from './components/CataloguePage/CataloguePage';
+import ContactPage from './components/ContactPage/ContactPage';
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
           <Route path="/catalogues" element={<CataloguePage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </div>
