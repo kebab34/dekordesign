@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import CollectionsPage from './components/CollectionsPage/CollectionsPage';
 import CataloguePage from './components/CataloguePage/CataloguePage';
 import ContactPage from './components/ContactPage/ContactPage';
+import CollectionDetailPage from './components/CollectionDetailPage/CollectionDetailPage';
 import './App.css';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/collections" element={<CollectionsPage />} />
           <Route path="/catalogues" element={<CataloguePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/collection/:collectionName" element={<CollectionDetailPage />} />
         </Routes>
         <Footer />
       </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import {
   productsData,
   roomCategoriesData,
@@ -194,7 +194,11 @@ const CollectionsPage = () => {
           {filteredProducts.length > 0 ? (
             <div className="collections-grid">
               {filteredProducts.map((product) => (
-                <div key={product.id} className="collection-card">
+                <Link
+                  key={product.id}
+                  to={`/collection/${encodeURIComponent(product.name)}`}
+                  className="collection-card"
+                >
                   <div className="collection-image-wrapper">
                     <img
                       src={product.image}
@@ -205,7 +209,7 @@ const CollectionsPage = () => {
                   <div className="collection-info">
                     <h3 className="collection-name">{product.name}</h3>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           ) : (
