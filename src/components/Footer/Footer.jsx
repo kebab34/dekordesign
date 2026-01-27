@@ -19,8 +19,9 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h4 className="footer-title">CONTACT</h4>
-          <p className="footer-text">contact@dekor-design.fr</p>
-          <p className="footer-text">+33 (0)4 XX XX XX XX</p>
+          <p className="footer-text">contact@dekordesign.fr</p>
+          <p className="footer-text">+33 9 87 59 48 58</p>
+          <p className="footer-text">4 Bd Etienne Astegiano, 06150 Cannes</p>
         </div>
         <div className="footer-column">
           <h4 className="footer-title">SUIVEZ-NOUS</h4>
