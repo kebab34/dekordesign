@@ -1,35 +1,40 @@
 import React from 'react';
 import './CataloguePage.css';
+import generalCatalogueImage from '../../image/catalogue/general.png';
+import boisCatalogueImage from '../../image/catalogue/bois.png';
+import oversizeCatalogueImage from '../../image/catalogue/oversize.png';
+import salleDeBainCatalogueImage from '../../image/catalogue/bain.png';
+import muralCatalogueImage from '../../image/catalogue/mur.png';  
 
 const catalogues = [
   {
     id: 1,
     name: 'Catalogue Général',
-    image: 'https://images.unsplash.com/photo-1615971677499-5467cbab01c0?w=600&q=80',
+    image: generalCatalogueImage,
     pdf: '/catalogue/genel-katalog.pdf'
   },
   {
     id: 2,
     name: 'Catalogue Bois',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80',
+    image: boisCatalogueImage,
     pdf: '/catalogue/ahsap-katalogu.pdf'
   },
   {
     id: 3,
     name: 'Catalogue Oversize',
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80',
+    image: oversizeCatalogueImage,
     pdf: '/catalogue/oversize-katalogu.pdf'
   },
   {
     id: 4,
     name: 'Catalogue Salle de Bain',
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80',
+    image: salleDeBainCatalogueImage,
     pdf: '/catalogue/banyo-katalogu.pdf'
   },
   {
     id: 5,
     name: 'Catalogue Mural',
-    image: 'https://images.unsplash.com/photo-1615875474908-9ef74b97172f?w=600&q=80',
+    image: muralCatalogueImage,
     pdf: '/catalogue/duvar-katalogu.pdf'
   }
 ];
