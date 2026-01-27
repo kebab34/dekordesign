@@ -43,6 +43,8 @@
   height: 450px;
   overflow: hidden;
   cursor: pointer;
+  display: block;
+  text-decoration: none;
 }
 
 .room-image {

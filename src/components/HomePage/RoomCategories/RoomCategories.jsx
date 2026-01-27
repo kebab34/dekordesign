@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { roomCategoriesData } from '../../../data/content';
 import './RoomCategories.css';
 
@@ -12,13 +13,17 @@ const RoomCategories = () => {
       </div>
       <div className="room-grid">
         {roomCategoriesData.map((room, index) => (
-          <div key={index} className="room-card">
+          <Link
+            key={index}
+            to={`/collections?category=${encodeURIComponent(room.name)}`}
+            className="room-card"
+          >
             <img src={room.image} alt={room.name} className="room-image" />
             <div className="room-overlay">
               <h3 className="room-name">{room.name}</h3>
               <div className="room-line"></div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
