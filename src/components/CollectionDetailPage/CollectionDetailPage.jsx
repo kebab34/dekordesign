@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { productsData } from '../../data/content';
 import './CollectionDetailPage.css';
@@ -6,6 +6,7 @@ import './CollectionDetailPage.css';
 const CollectionDetailPage = () => {
   const { collectionName } = useParams();
   const decodedName = decodeURIComponent(collectionName);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   // Trouver le produit de cette collection
   const product = productsData.find(p => p.name === decodedName);
@@ -20,7 +21,7 @@ const CollectionDetailPage = () => {
   };
 
   // Récupérer les images de carrelage pour cette collection
-  const tileImages = collectionTileImages[decodedName] || [product?.image, product?.image];
+  const tileImages = collectionTileImages[decodedName] || [product?.image];
 
   // Si la collection n'existe pas
   if (!product) {
@@ -40,28 +41,27 @@ const CollectionDetailPage = () => {
       p.name !== product.name &&
       p.categories.some(cat => product.categories.includes(cat))
     )
-    .slice(0, 8);
+    .slice(0, 6);
 
-  // Variantes du produit (différentes tailles/matières)
-  const variants = tileImages.map((img, index) => {
-    const fileName = img.split('/').pop().replace('.jpg', '').replace('.png', '');
-    return {
-      id: index + 1,
-      name: fileName,
-      image: img,
-      material: product.material
-    };
-  });
-
-  // Documents disponibles (simulés)
-  const documents = [
-    { name: 'Fiche technique', type: 'PDF', size: '2.4 MB', icon: 'pdf' },
-    { name: 'Guide de pose', type: 'PDF', size: '1.8 MB', icon: 'pdf' },
-    { name: 'Certificat CE', type: 'PDF', size: '0.5 MB', icon: 'pdf' }
-  ];
+  // Lightbox
+  const openLightbox = (src) => setSelectedImage(src);
+  const closeLightbox = () => setSelectedImage(null);
 
   return (
     <section className="collection-detail-page">
+      {/* Lightbox */}
+      {selectedImage && (
+        <div className="lightbox" onClick={closeLightbox}>
+          <button className="lightbox-close" onClick={closeLightbox}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <line x1="18" y1="6" x2="6" y2="18"/>
+              <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+          <img src={selectedImage} alt="Vue agrandie" onClick={(e) => e.stopPropagation()} />
+        </div>
+      )}
+
       {/* Breadcrumb */}
       <div className="breadcrumb">
         <Link to="/">Accueil</Link>
@@ -71,21 +71,40 @@ const CollectionDetailPage = () => {
         <span className="current">{product.name}</span>
       </div>
 
-      {/* Section Hero - Photos */}
-      <div className="hero-section">
-        <div className="hero-main-image">
+      {/* Galerie Bento Grid */}
+      <div className="bento-gallery">
+        <div className="bento-item bento-item-main" onClick={() => openLightbox(product.image)}>
           <img src={product.image} alt={`${product.name} ambiance`} />
-          <div className="hero-collection-name">
-            <span className="hero-name-text">{product.name}</span>
+          <div className="bento-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              <line x1="11" y1="8" x2="11" y2="14"/>
+              <line x1="8" y1="11" x2="14" y2="11"/>
+            </svg>
+          </div>
+          <div className="collection-name-overlay">
+            <span className="collection-name-text">{product.name}</span>
           </div>
         </div>
-        <div className="hero-side-images">
-          <div className="side-image">
-            <img src={tileImages[0]} alt={`${product.name} carrelage 1`} />
-          </div>
-          <div className="side-image">
-            <img src={tileImages[1] || tileImages[0]} alt={`${product.name} carrelage 2`} />
-          </div>
+        <div className="bento-side">
+          {[tileImages[0], tileImages[1] || tileImages[0], tileImages[2] || product.image].map((img, index) => (
+            <div
+              key={index}
+              className="bento-item bento-item-small"
+              onClick={() => openLightbox(img)}
+            >
+              <img src={img} alt={`${product.name} détail ${index + 1}`} />
+              <div className="bento-overlay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <circle cx="11" cy="11" r="8"/>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                  <line x1="11" y1="8" x2="11" y2="14"/>
+                  <line x1="8" y1="11" x2="14" y2="11"/>
+                </svg>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -94,16 +113,39 @@ const CollectionDetailPage = () => {
         <div className="variants-list">
           <h3 className="section-subtitle">Produits disponibles</h3>
           <div className="variants-grid">
-            {variants.map((variant) => (
-              <div key={variant.id} className="variant-card">
-                <div className="variant-image">
-                  <img src={variant.image} alt={variant.name} />
+            {tileImages.map((img, index) => {
+              const fileName = img.split('/').pop().replace('.jpg', '').replace('.png', '');
+
+              // Extraire les dimensions du nom de fichier (ex: "40X120", "60X60")
+              const sizeMatch = fileName.match(/(\d+)[xX](\d+)/);
+              let scaleClass = 'scale-default';
+
+              if (sizeMatch) {
+                const width = parseInt(sizeMatch[1]);
+                const height = parseInt(sizeMatch[2]);
+                const ratio = width / height;
+
+                if (ratio < 0.5) {
+                  // Format très allongé comme 30x90, 40x120
+                  scaleClass = 'scale-small';
+                } else if (ratio < 0.9) {
+                  // Format rectangulaire comme 30x60
+                  scaleClass = 'scale-medium';
+                }
+                // ratio >= 0.9 = carré ou presque, garde scale-default
+              }
+
+              return (
+                <div key={index} className="variant-card" onClick={() => openLightbox(img)}>
+                  <div className={`variant-image ${scaleClass}`}>
+                    <img src={img} alt={fileName} />
+                  </div>
+                  <div className="variant-info">
+                    <span className="variant-name">{fileName}</span>
+                  </div>
                 </div>
-                <div className="variant-info">
-                  <span className="variant-name">{variant.name}</span>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 
@@ -118,9 +160,8 @@ const CollectionDetailPage = () => {
                 ))}
               </div>
             </div>
-
             <p>
-              Cette surface, où le blanc intemporel rencontre sa forme la plus pure, apporte fraîcheur et élégance aux espaces. Son veinage naturel offre une esthétique unique à chaque cadre.
+              La collection <strong>{product.name}</strong> incarne l'alliance parfaite entre esthétique contemporaine et savoir-faire artisanal. Chaque pièce est conçue pour transformer vos espaces en véritables œuvres d'art.
             </p>
           </div>
         </div>
@@ -130,7 +171,11 @@ const CollectionDetailPage = () => {
       <div className="documents-section">
         <h3 className="section-subtitle">Documents à télécharger</h3>
         <div className="documents-grid">
-          {documents.map((doc, index) => (
+          {[
+            { name: 'Fiche technique', type: 'PDF', size: '2.4 MB' },
+            { name: 'Guide de pose', type: 'PDF', size: '1.8 MB' },
+            { name: 'Certificat CE', type: 'PDF', size: '0.5 MB' }
+          ].map((doc, index) => (
             <div key={index} className="document-card">
               <div className="document-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
