@@ -119,11 +119,21 @@ const CollectionDetailPage = () => {
               // Extraire les dimensions du nom de fichier (ex: "40X120", "60X60")
               const sizeMatch = fileName.match(/(\d+)[xX](\d+)/);
               let scaleClass = 'scale-default';
+              let size = '';
+              let productName = fileName;
 
               if (sizeMatch) {
                 const width = parseInt(sizeMatch[1]);
                 const height = parseInt(sizeMatch[2]);
                 const ratio = width / height;
+                size = `${width}x${height}`;
+
+                // Extraire le nom sans la taille et sans "- FACE X"
+                productName = fileName
+                  .replace(/\d+[xX]\d+/g, '')
+                  .replace(/- FACE \d+/gi, '')
+                  .replace(/-/g, '')
+                  .trim();
 
                 if (ratio < 0.5) {
                   // Format très allongé comme 30x90, 40x120
@@ -141,7 +151,8 @@ const CollectionDetailPage = () => {
                     <img src={img} alt={fileName} />
                   </div>
                   <div className="variant-info">
-                    <span className="variant-name">{fileName}</span>
+                    <span className="variant-name">{productName}</span>
+                    {size && <span className="variant-size">{size}</span>}
                   </div>
                 </div>
               );
@@ -161,8 +172,7 @@ const CollectionDetailPage = () => {
               </div>
             </div>
             <p>
-              La collection <strong>{product.name}</strong> incarne l'alliance parfaite entre esthétique contemporaine et savoir-faire artisanal. Chaque pièce est conçue pour transformer vos espaces en véritables œuvres d'art.
-            </p>
+              Cette surface, où le blanc intemporel rencontre sa forme la plus pure, apporte fraîcheur et élégance aux espaces. Son veinage naturel offre une esthétique unique à chaque cadre.            </p>
           </div>
         </div>
       </div>
@@ -172,9 +182,9 @@ const CollectionDetailPage = () => {
         <h3 className="section-subtitle">Documents à télécharger</h3>
         <div className="documents-grid">
           {[
-            { name: 'Fiche technique', type: 'PDF', size: '2.4 MB' },
-            { name: 'Guide de pose', type: 'PDF', size: '1.8 MB' },
-            { name: 'Certificat CE', type: 'PDF', size: '0.5 MB' }
+            { name: 'Fiche Produit', type: 'RAR', size: '5.9 Mo', file: '/abella/abella-foy.rar' },
+            { name: 'Texture', type: 'RAR', size: '12.4 Mo', file: '/abella/abella-texture.rar' },
+            { name: 'Render', type: 'RAR', size: '3.5 Mo', file: '/abella/abella-render.rar' }
           ].map((doc, index) => (
             <div key={index} className="document-card">
               <div className="document-icon">
@@ -190,39 +200,48 @@ const CollectionDetailPage = () => {
                 <span className="document-name">{doc.name}</span>
                 <span className="document-meta">{doc.type} • {doc.size}</span>
               </div>
-              <button className="document-download">
+              <a href={doc.file} download className="document-download">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                   <polyline points="7 10 12 15 17 10"/>
                   <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
-              </button>
+              </a>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Section Collections Similaires */}
-      <div className="similar-section">
-        <div className="similar-header">
-          <h3 className="section-subtitle">Collections similaires</h3>
-          <Link to="/collections" className="view-all-link">Voir toutes les collections</Link>
+      {/* Section Autres Collections */}
+      <div className="other-collections-section">
+        <div className="section-header">
+          <div className="gold-line"></div>
+          <h2 className="section-title">DÉCOUVREZ NOS AUTRES COLLECTIONS</h2>
         </div>
-        <div className="similar-grid">
-          {similarProducts.map((item) => (
+
+        <div className="other-collections-grid">
+          {similarProducts.slice(0, 4).map((item) => (
             <Link
               key={item.id}
               to={`/collection/${encodeURIComponent(item.name)}`}
-              className="similar-card"
+              className="other-collection-card"
             >
-              <div className="similar-image">
-                <img src={item.image} alt={item.name} />
-              </div>
-              <div className="similar-info">
-                <span className="similar-name">{item.name}</span>
+              <div className="other-collection-image-wrapper">
+                <img src={item.image} alt={item.name} className="other-collection-image" />
+                <div className="other-collection-overlay">
+                  <div className="other-collection-hover">
+                    <h4 className="other-collection-name">{item.name}</h4>
+                  </div>
+                </div>
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="other-collections-cta">
+          <Link to="/collections" className="view-all-btn">
+            Voir toutes nos collections
+          </Link>
         </div>
       </div>
     </section>
