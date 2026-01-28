@@ -145,8 +145,15 @@ const CollectionDetailPage = () => {
                 // ratio >= 0.9 = carré ou presque, garde scale-default
               }
 
+              // Nom complet pour le lien (ex: "ABELLA 40X120")
+              const fullProductName = `${productName} ${size}`.trim();
+
               return (
-                <div key={index} className="variant-card" onClick={() => openLightbox(img)}>
+                <Link
+                  key={index}
+                  to={`/product/${encodeURIComponent(fullProductName)}`}
+                  className="variant-card"
+                >
                   <div className={`variant-image ${scaleClass}`}>
                     <img src={img} alt={fileName} />
                   </div>
@@ -154,7 +161,7 @@ const CollectionDetailPage = () => {
                     <span className="variant-name">{productName}</span>
                     {size && <span className="variant-size">{size}</span>}
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>

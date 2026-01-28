@@ -232,6 +232,8 @@
   background-color: transparent;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
+  display: block;
 }
 
 .variant-card:hover {

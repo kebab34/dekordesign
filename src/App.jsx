@@ -7,6 +7,7 @@ import CollectionsPage from './components/CollectionsPage/CollectionsPage';
 import CataloguePage from './components/CataloguePage/CataloguePage';
 import ContactPage from './components/ContactPage/ContactPage';
 import CollectionDetailPage from './components/CollectionDetailPage/CollectionDetailPage';
+import ProductDetailPage from './components/ProductDetailPage/ProductDetailPage';
 import './App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/catalogues" element={<CataloguePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/collection/:collectionName" element={<CollectionDetailPage />} />
+          <Route path="/product/:productName" element={<ProductDetailPage />} />
         </Routes>
         <Footer />
       </div>
