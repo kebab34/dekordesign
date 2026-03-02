@@ -301,6 +301,70 @@
   letter-spacing: 0.5px;
 }
 
+/* Variante avec données détaillées */
+.variant-image-detailed {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #111;
+}
+
+.variant-image-detailed img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.variant-card:hover .variant-image-detailed img {
+  transform: scale(1.05);
+}
+
+/* Tags variante (couleur, surface) */
+.variant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.variant-surface,
+.variant-color {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+}
+
+.variant-surface {
+  background: rgba(212, 175, 55, 0.15);
+  color: #d4af37;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.variant-color {
+  background: rgba(255, 255, 255, 0.05);
+  color: #aaa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Specs communes */
+.common-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.spec-tag {
+  font-size: 12px;
+  padding: 4px 12px;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  color: #d4af37;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
 /* Description */
 .collection-description {
   padding: 0;
