@@ -1,0 +1,428 @@
+.cui-page {
+  padding: 60px 60px 80px;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+.cui-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cui-gold-line {
+  width: 60px;
+  height: 2px;
+  background-color: #d4af37;
+  margin: 0 auto 20px;
+}
+
+.cui-title {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+
+.cui-subtitle {
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 2px;
+}
+
+/* ── Layout ─────────────────────────────────────────────── */
+.cui-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+.cui-sidebar-toggle {
+  display: none;
+}
+
+.cui-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+}
+
+.cui-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  margin-bottom: 24px;
+}
+
+.cui-sidebar-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.cui-clear-btn {
+  background: none;
+  border: none;
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.cui-clear-btn:hover { opacity: 0.7; }
+
+/* Filter group */
+.cui-filter-group {
+  margin-bottom: 20px;
+}
+
+.cui-filter-label {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+/* Dropdown */
+.cui-dropdown {
+  position: relative;
+}
+
+.cui-dropdown-trigger {
+  width: 100%;
+  padding: 10px 14px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: border-color 0.2s;
+  text-align: left;
+}
+
+.cui-dropdown-trigger:hover,
+.cui-dropdown-trigger.open {
+  border-color: #d4af37;
+}
+
+.cui-dropdown-trigger.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cui-dropdown-arrow {
+  width: 10px;
+  height: 6px;
+  color: #d4af37;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.cui-dropdown-trigger.open .cui-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.cui-dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  z-index: 100;
+  animation: cuiDrop 0.15s ease;
+}
+
+@keyframes cuiDrop {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.cui-dropdown-list {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.cui-dropdown-list::-webkit-scrollbar { width: 4px; }
+.cui-dropdown-list::-webkit-scrollbar-track { background: #1a1a1a; }
+.cui-dropdown-list::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 2px; }
+
+.cui-dropdown-item {
+  padding: 10px 14px;
+  color: #aaa;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.15s;
+}
+
+.cui-dropdown-item:hover {
+  background: rgba(212,175,55,0.1);
+  color: #fff;
+  border-left-color: #d4af37;
+}
+
+.cui-dropdown-item.active {
+  background: rgba(212,175,55,0.15);
+  color: #d4af37;
+  border-left-color: #d4af37;
+}
+
+/* Active filter tags */
+.cui-active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #222;
+}
+
+.cui-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: rgba(212,175,55,0.1);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 2px;
+  color: #d4af37;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.cui-tag button {
+  background: none;
+  border: none;
+  color: #d4af37;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0;
+  line-height: 1;
+}
+
+/* ── Main ──────────────────────────────────────────────── */
+.cui-main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Search bar */
+.cui-search-bar {
+  margin-bottom: 30px;
+}
+
+.cui-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.cui-search > svg {
+  position: absolute;
+  left: 14px;
+  width: 16px;
+  height: 16px;
+  stroke: #555;
+  pointer-events: none;
+}
+
+.cui-search-input {
+  width: 100%;
+  padding: 11px 40px 11px 42px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.cui-search-input:focus { border-color: #d4af37; }
+.cui-search-input::placeholder { color: #555; }
+
+.cui-search-clear {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.cui-search-clear:hover { color: #fff; }
+
+/* Grid — 3 colonnes car les images sont paysage */
+.cui-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cui-card {
+  text-decoration: none;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.cui-card:hover { transform: translateY(-5px); }
+
+.cui-img-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #111;
+  position: relative;
+}
+
+.cui-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.cui-card:hover .cui-img { transform: scale(1.06); }
+
+/* Overlay "Découvrir" */
+.cui-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cui-card:hover .cui-card-overlay { opacity: 1; }
+
+.cui-card-discover {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid rgba(255,255,255,0.7);
+  padding: 10px 24px;
+}
+
+.cui-card-info { padding: 14px 4px 6px; }
+
+.cui-card-cat {
+  display: block;
+  font-size: 10px;
+  color: #d4af37;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.cui-card-name {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 0 5px 0;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+.cui-card:hover .cui-card-name { color: #d4af37; }
+
+.cui-card-finish {
+  font-size: 11px;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+/* Empty */
+.cui-empty {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cui-empty p { color: #888; font-size: 16px; margin-bottom: 20px; }
+
+.cui-empty button {
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-size: 13px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cui-empty button:hover { background-color: #d4af37; color: #0a0a0a; }
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .cui-layout { flex-direction: column; }
+
+  .cui-sidebar-toggle {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+    text-align: center;
+  }
+
+  .cui-sidebar-toggle:hover { border-color: #d4af37; }
+
+  .cui-sidebar {
+    width: 100%;
+    position: static;
+    display: none;
+  }
+
+  .cui-sidebar.open { display: block; }
+}
+
+@media (max-width: 900px) {
+  .cui-page { padding: 40px 30px 60px; }
+  .cui-title { font-size: 32px; letter-spacing: 5px; }
+  .cui-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .cui-search { max-width: 100%; }
+}
+
+@media (max-width: 576px) {
+  .cui-page { padding: 30px 15px 50px; }
+  .cui-title { font-size: 24px; letter-spacing: 3px; }
+  .cui-grid { grid-template-columns: 1fr; gap: 14px; }
+}

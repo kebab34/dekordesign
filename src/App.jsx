@@ -18,6 +18,8 @@ import DusPage from './components/DusPage/DusPage';
 import DusDetailPage from './components/DusDetailPage/DusDetailPage';
 import AksesuarPage from './components/AksesuarPage/AksesuarPage';
 import AksesuarDetailPage from './components/AksesuarDetailPage/AksesuarDetailPage';
+import CuisinePage from './components/CuisinePage/CuisinePage';
+import CuisineDetailPage from './components/CuisineDetailPage/CuisineDetailPage';
 import './App.css';
 
 const App = () => {
@@ -42,6 +44,8 @@ const App = () => {
           <Route path="/douche/:productId" element={<DusDetailPage />} />
           <Route path="/bain-accessoires" element={<AksesuarPage />} />
           <Route path="/bain-accessoires/:productId" element={<AksesuarDetailPage />} />
+          <Route path="/cuisines" element={<CuisinePage />} />
+          <Route path="/cuisines/:productId" element={<CuisineDetailPage />} />
         </Routes>
         <Footer />
       </div>

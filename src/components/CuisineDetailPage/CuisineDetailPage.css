@@ -1,0 +1,348 @@
+.cuisine-detail-page {
+  padding: 80px 60px 80px;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+.cdet-not-found {
+  text-align: center;
+  padding: 120px 20px;
+  color: #888;
+}
+
+.cdet-not-found h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cdet-back-link {
+  color: #d4af37;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+/* Lightbox */
+.cdet-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  animation: cdetFadeIn 0.2s ease;
+}
+
+@keyframes cdetFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.cdet-lightbox img {
+  max-width: 90%;
+  max-height: 88%;
+  object-fit: contain;
+}
+
+.cdet-lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 46px;
+  height: 46px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.cdet-lightbox-close:hover { background: rgba(255,255,255,0.2); }
+
+.cdet-lightbox-close svg {
+  width: 20px;
+  height: 20px;
+  stroke: #fff;
+}
+
+/* Breadcrumb */
+.cdet-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.cdet-breadcrumb a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cdet-breadcrumb a:hover { color: #d4af37; }
+
+.cdet-breadcrumb span:last-child { color: #fff; }
+
+/* Main layout — image paysage en haut, infos en dessous sur 2 colonnes */
+.cdet-main {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 70px;
+  max-width: 1300px;
+  margin: 0 auto 80px;
+  align-items: start;
+}
+
+/* Image */
+.cdet-image-wrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: zoom-in;
+  aspect-ratio: 3 / 2;
+  background: #111;
+}
+
+.cdet-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.cdet-image-wrap:hover .cdet-image { transform: scale(1.04); }
+
+.cdet-zoom-hint {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.cdet-image-wrap:hover .cdet-zoom-hint { opacity: 1; }
+
+.cdet-zoom-hint svg {
+  width: 18px;
+  height: 18px;
+  stroke: #fff;
+}
+
+/* Info panel */
+.cdet-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 8px;
+}
+
+.cdet-category {
+  font-size: 12px;
+  color: #d4af37;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.cdet-name {
+  font-size: 48px;
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: 6px;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.cdet-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(212, 175, 55, 0.2);
+  margin: 24px 0;
+}
+
+/* Description */
+.cdet-desc {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 1.9;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+/* Specs */
+.cdet-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cdet-spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 13px;
+  gap: 16px;
+}
+
+.cdet-spec-label {
+  color: #555;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.cdet-spec-value {
+  color: #ddd;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
+
+/* Actions */
+.cdet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.cdet-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 36px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.cdet-contact-btn:hover {
+  background-color: #d4af37;
+  color: #0a0a0a;
+}
+
+
+/* Similar */
+.cdet-similar {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.cdet-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cdet-gold-line {
+  width: 50px;
+  height: 2px;
+  background: #d4af37;
+  margin: 0 auto 16px;
+}
+
+.cdet-section-title {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  color: #fff;
+  margin: 0;
+}
+
+.cdet-similar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cdet-similar-card {
+  text-decoration: none;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.cdet-similar-card:hover { transform: translateY(-4px); }
+
+.cdet-similar-img-wrap {
+  aspect-ratio: 3 / 2;
+  background: #111;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.cdet-similar-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.cdet-similar-card:hover .cdet-similar-img-wrap img { transform: scale(1.06); }
+
+.cdet-similar-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0);
+  transition: background 0.3s;
+}
+
+.cdet-similar-card:hover .cdet-similar-overlay {
+  background: rgba(0,0,0,0.2);
+}
+
+.cdet-similar-name {
+  display: block;
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.cdet-similar-card:hover .cdet-similar-name { color: #d4af37; }
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .cdet-main {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cdet-name { font-size: 36px; }
+}
+
+@media (max-width: 768px) {
+  .cuisine-detail-page { padding: 60px 30px 60px; }
+
+  .cdet-similar-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .cuisine-detail-page { padding: 40px 15px 50px; }
+
+  .cdet-name { font-size: 28px; letter-spacing: 4px; }
+}

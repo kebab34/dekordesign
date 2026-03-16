@@ -74,6 +74,18 @@ const Header = () => {
             </Link>
           </NavDropdown>
 
+          <NavDropdown label="CUISINES" to="/cuisines">
+            <Link to="/cuisines" className="dropdown-item">
+              Tous les modèles
+            </Link>
+            <div className="dropdown-divider"></div>
+            <Link to="/cuisines?style=Moderne" className="dropdown-item">Moderne</Link>
+            <Link to="/cuisines?style=Classique" className="dropdown-item">Classique</Link>
+            <Link to="/cuisines?style=Contemporain" className="dropdown-item">Contemporain</Link>
+            <Link to="/cuisines?style=Naturel" className="dropdown-item">Naturel</Link>
+            <Link to="/cuisines?style=Rustique" className="dropdown-item">Rustique</Link>
+          </NavDropdown>
+
           <Link to="/catalogues" className="nav-link">CATALOGUES</Link>
           <Link to="/realisations" className="nav-link">RÉALISATIONS</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>
