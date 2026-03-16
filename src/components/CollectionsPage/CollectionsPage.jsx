@@ -52,7 +52,7 @@ const CollectionsPage = () => {
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Données des filtres
   const categoryOptions = roomCategoriesData.map(cat => cat.name);

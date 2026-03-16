@@ -26,9 +26,9 @@ const Footer = () => {
         <div className="footer-column">
           <h4 className="footer-title">SUIVEZ-NOUS</h4>
           <div className="social-links">
-            <a href="#" className="social-link">Instagram</a>
-            <a href="#" className="social-link">Pinterest</a>
-            <a href="#" className="social-link">LinkedIn</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">Instagram</a>
+            <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" className="social-link">Pinterest</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
           </div>
         </div>
       </div>

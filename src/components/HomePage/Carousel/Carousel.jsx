@@ -50,7 +50,7 @@ const Carousel = () => {
         clearTimeout(transitionTimeoutRef.current);
       }
     };
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const getSlideClass = (index) => {
     if (index === slides.current) return 'luxury-slide active entering';
