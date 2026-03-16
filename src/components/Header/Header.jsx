@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { roomCategoriesData } from '../../data/content';
 import './Header.css';
 import logo from '../../image/logo2.png';
@@ -31,7 +31,6 @@ const NavDropdown = ({ label, to, children }) => {
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileExpanded, setMobileExpanded] = useState('');
-  const location = useLocation();
 
   const closeMenu = () => { setMenuOpen(false); setMobileExpanded(''); };
 
