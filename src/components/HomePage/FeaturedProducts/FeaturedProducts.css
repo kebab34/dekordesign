@@ -114,15 +114,38 @@
 
 @media (max-width: 768px) {
   .featured-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .featured-card {
-    height: 400px;
+    height: 280px;
+  }
+
+  .featured-overlay {
+    padding: 20px;
+  }
+
+  .featured-name {
+    font-size: 18px;
   }
 
   .view-all-btn {
-    padding: 15px 40px;
-    font-size: 12px;
+    padding: 14px 30px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+  }
+
+  .featured-card {
+    height: 200px;
+  }
+
+  .featured-cta {
+    margin-top: 30px;
   }
 }

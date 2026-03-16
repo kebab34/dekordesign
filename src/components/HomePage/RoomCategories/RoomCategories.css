@@ -96,13 +96,59 @@
   .room-grid {
     grid-template-columns: 1fr;
   }
-  
-  .section {
-    padding: 0 30px;
-    margin: 80px auto;
+
+  .room-card {
+    height: 300px;
   }
-  
+
+  .section {
+    padding: 0 20px;
+    margin: 60px auto;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
   .section-title {
-    font-size: 32px;
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  .section-subtitle {
+    font-size: 13px;
+  }
+
+  .room-overlay {
+    padding: 30px;
+  }
+
+  .room-name {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .room-card {
+    height: 220px;
+  }
+
+  .section {
+    padding: 0 15px;
+    margin: 40px auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .room-overlay {
+    padding: 20px;
+  }
+
+  .room-name {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 }

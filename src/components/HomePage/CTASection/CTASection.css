@@ -47,10 +47,32 @@
 
 @media (max-width: 768px) {
   .cta-section {
-    padding: 80px 30px;
+    padding: 70px 25px;
   }
-  
+
   .cta-title {
-    font-size: 36px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+
+  .cta-text {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-section {
+    padding: 50px 15px;
+  }
+
+  .cta-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .cta-button {
+    padding: 14px 35px;
+    font-size: 12px;
   }
 }
