@@ -24,6 +24,9 @@
   background-color: transparent;
   overflow: hidden;
   transition: transform 0.4s;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
 }
 
 .product-card:hover {

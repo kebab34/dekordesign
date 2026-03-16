@@ -29,32 +29,38 @@ export const productCategoriesData = [
   {
     name: 'Cuisines sur Mesure',
     description: 'Créations architecturales où fonctionnalité et esthétique s\'harmonisent',
-    image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=900&q=80',
+    path: '/cuisines'
   },
   {
     name: 'Meubles de Salle de Bain',
     description: 'Collections Verona, Perla, Ole et Wave - Design exclusif sur mesure',
-    image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=900&q=80',
+    path: '/sanitaire'
   },
   {
     name: 'Baignoires & Vasques',
     description: 'Pièces sculpturales alliant confort absolu et design contemporain',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80',
+    path: '/accessoires'
   },
   {
     name: 'Revêtements Premium',
     description: 'Marbres naturels, céramiques italiennes et pierres d\'exception',
-    image: 'https://images.unsplash.com/photo-1615875474908-9ef74b97172f?w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1615875474908-9ef74b97172f?w=900&q=80',
+    path: '/collections'
   },
   {
     name: 'Robinetterie de Luxe',
     description: 'Finitions sophistiquées - or brossé, noir mat, chrome poli',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80',
+    path: '/armaturler'
   },
   {
-    name: 'Mobilier d\'Exception',
-    description: 'Pièces uniques et collections design pour vos intérieurs',
-    image: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?w=900&q=80'
+    name: 'Systèmes de Douche',
+    description: 'Solutions douche premium — colonnes, parois et receveurs d\'exception',
+    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80',
+    path: '/douche'
   }
 ];
 
