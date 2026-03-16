@@ -9,6 +9,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "anthropic": "^0.0.0",
+    "pdf-lib": "^1.17.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0",
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "puppeteer-core": "^24.37.5",
     "sharp": "^0.34.5"
   }
 }

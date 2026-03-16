@@ -8,6 +8,16 @@ import CataloguePage from './components/CataloguePage/CataloguePage';
 import ContactPage from './components/ContactPage/ContactPage';
 import CollectionDetailPage from './components/CollectionDetailPage/CollectionDetailPage';
 import ProductDetailPage from './components/ProductDetailPage/ProductDetailPage';
+import SanitairePage from './components/SanitairePage/SanitairePage';
+import SanitaireDetailPage from './components/SanitaireDetailPage/SanitaireDetailPage';
+import TamamlayiciPage from './components/TamamlayiciPage/TamamlayiciPage';
+import TamamlayiciDetailPage from './components/TamamlayiciDetailPage/TamamlayiciDetailPage';
+import ArmaturlerPage from './components/ArmaturlerPage/ArmaturlerPage';
+import ArmaturlerDetailPage from './components/ArmaturlerDetailPage/ArmaturlerDetailPage';
+import DusPage from './components/DusPage/DusPage';
+import DusDetailPage from './components/DusDetailPage/DusDetailPage';
+import AksesuarPage from './components/AksesuarPage/AksesuarPage';
+import AksesuarDetailPage from './components/AksesuarDetailPage/AksesuarDetailPage';
 import './App.css';
 
 const App = () => {
@@ -22,6 +32,16 @@ const App = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/collection/:collectionName" element={<CollectionDetailPage />} />
           <Route path="/product/:productName" element={<ProductDetailPage />} />
+          <Route path="/sanitaire" element={<SanitairePage />} />
+          <Route path="/sanitaire/:productId" element={<SanitaireDetailPage />} />
+          <Route path="/accessoires" element={<TamamlayiciPage />} />
+          <Route path="/accessoires/:productId" element={<TamamlayiciDetailPage />} />
+          <Route path="/armaturler" element={<ArmaturlerPage />} />
+          <Route path="/armaturler/:productId" element={<ArmaturlerDetailPage />} />
+          <Route path="/douche" element={<DusPage />} />
+          <Route path="/douche/:productId" element={<DusDetailPage />} />
+          <Route path="/bain-accessoires" element={<AksesuarPage />} />
+          <Route path="/bain-accessoires/:productId" element={<AksesuarDetailPage />} />
         </Routes>
         <Footer />
       </div>

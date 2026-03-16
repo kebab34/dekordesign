@@ -43,6 +43,24 @@
   color: #d4af37;
 }
 
+.nav-link-arrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-arrow {
+  color: #d4af37;
+  opacity: 0.7;
+  transition: transform 0.2s, opacity 0.2s;
+  flex-shrink: 0;
+}
+
+.nav-item-dropdown:hover .nav-arrow {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
 /* Dropdown */
 .nav-item-dropdown {
   position: relative;
