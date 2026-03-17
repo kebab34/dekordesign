@@ -829,7 +829,7 @@
   }
 
   .luxury-frame {
-    inset: 10px;
+    display: none;
   }
 
   .luxury-indicators {

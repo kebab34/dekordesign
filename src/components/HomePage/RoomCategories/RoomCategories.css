@@ -92,6 +92,25 @@
   background-color: #d4af37;
 }
 
+@media (max-width: 900px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .room-card {
+    height: 320px;
+  }
+
+  .section {
+    padding: 0 30px;
+    margin: 80px auto;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+}
+
 @media (max-width: 768px) {
   .room-grid {
     grid-template-columns: 1fr;

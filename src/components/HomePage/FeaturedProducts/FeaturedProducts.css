@@ -137,12 +137,12 @@
 
 @media (max-width: 480px) {
   .featured-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 2px;
   }
 
   .featured-card {
-    height: 200px;
+    height: 240px;
   }
 
   .featured-cta {

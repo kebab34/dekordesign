@@ -148,3 +148,13 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 360px) {
+  .product-image-container {
+    height: 180px;
+  }
+
+  .product-name {
+    font-size: 14px;
+  }
+}
