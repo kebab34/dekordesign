@@ -22,6 +22,8 @@ import CuisinePage from './components/CuisinePage/CuisinePage';
 import CuisineDetailPage from './components/CuisineDetailPage/CuisineDetailPage';
 import KobosPage from './components/KobosPage/KobosPage';
 import KobosDetailPage from './components/KobosDetailPage/KobosDetailPage';
+import SopranoPage from './components/SopranoPage/SopranoPage';
+import SopranoDetailPage from './components/SopranoDetailPage/SopranoDetailPage';
 import './App.css';
 
 const App = () => {
@@ -50,6 +52,8 @@ const App = () => {
           <Route path="/cuisines/:productId" element={<CuisineDetailPage />} />
           <Route path="/meubles" element={<KobosPage />} />
           <Route path="/meubles/:slug" element={<KobosDetailPage />} />
+          <Route path="/cuisines-soprano" element={<SopranoPage />} />
+          <Route path="/cuisines-soprano/:slug" element={<SopranoDetailPage />} />
         </Routes>
         <Footer />
       </div>
