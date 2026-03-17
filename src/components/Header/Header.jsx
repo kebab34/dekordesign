@@ -64,6 +64,7 @@ const Header = () => {
 
           <NavDropdown label="SALLE DE BAIN" to="/sanitaire">
             <Link to="/sanitaire" className="dropdown-item">Appareils sanitaires</Link>
+            <Link to="/meubles" className="dropdown-item">Meubles de salle de bain</Link>
             <Link to="/armaturler" className="dropdown-item">Robinetterie</Link>
             <Link to="/douche" className="dropdown-item">Systèmes de douche</Link>
             <Link to="/accessoires" className="dropdown-item">Produits complémentaires</Link>
@@ -129,6 +130,7 @@ const Header = () => {
             {mobileExpanded === 'bain' && (
               <div className="mobile-submenu">
                 <Link to="/sanitaire" className="mobile-sublink" onClick={closeMenu}>Appareils sanitaires</Link>
+                <Link to="/meubles" className="mobile-sublink" onClick={closeMenu}>Meubles de salle de bain</Link>
                 <Link to="/armaturler" className="mobile-sublink" onClick={closeMenu}>Robinetterie</Link>
                 <Link to="/douche" className="mobile-sublink" onClick={closeMenu}>Systèmes de douche</Link>
                 <Link to="/accessoires" className="mobile-sublink" onClick={closeMenu}>Produits complémentaires</Link>

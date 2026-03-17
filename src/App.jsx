@@ -20,6 +20,8 @@ import AksesuarPage from './components/AksesuarPage/AksesuarPage';
 import AksesuarDetailPage from './components/AksesuarDetailPage/AksesuarDetailPage';
 import CuisinePage from './components/CuisinePage/CuisinePage';
 import CuisineDetailPage from './components/CuisineDetailPage/CuisineDetailPage';
+import KobosPage from './components/KobosPage/KobosPage';
+import KobosDetailPage from './components/KobosDetailPage/KobosDetailPage';
 import './App.css';
 
 const App = () => {
@@ -46,6 +48,8 @@ const App = () => {
           <Route path="/bain-accessoires/:productId" element={<AksesuarDetailPage />} />
           <Route path="/cuisines" element={<CuisinePage />} />
           <Route path="/cuisines/:productId" element={<CuisineDetailPage />} />
+          <Route path="/meubles" element={<KobosPage />} />
+          <Route path="/meubles/:slug" element={<KobosDetailPage />} />
         </Routes>
         <Footer />
       </div>
