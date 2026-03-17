@@ -109,14 +109,6 @@ const KobosDetailPage = () => {
 
           {/* CTA */}
           <div className="kd-cta">
-            <a
-              href={product.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="kd-btn-outline"
-            >
-              Voir chez Kobos
-            </a>
             <Link to="/contact" className="kd-btn-gold">
               Demander un devis
             </Link>
