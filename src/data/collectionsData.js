@@ -5,18 +5,49 @@
 export const collectionsData = {
   'Abella': {
     slug: 'abella',
-    images: [
-    '/collection/ABELLA 40X120.jpg'
+    mainImage: 'https://bienseramik.b-cdn.net/uploads/abella-2.png',
+    products: [
+      {
+        id: 0,
+        name: 'Abella 40x120',
+        color: 'Blanc',
+        size: '40x120',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/W168ZDRAD30X0XMAAW10.png',
+        faces: [
+          'https://bienseramik.b-cdn.net/uploads/W168ZDRAD30X0XMAAW10.png',
+        ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Abella Dekofon 40x120',
+        color: 'Décor',
+        size: '40x120',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/W168XDRAD3040XMAAW10.png',
+        faces: [
+          'https://bienseramik.b-cdn.net/uploads/W168XDRAD3040XMAAW10.png',
+        ],
+        specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Abella 60x60',
+        color: 'Blanc',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/P015XDRAD30X0XMAAW10.png',
+        faces: [
+          'https://bienseramik.b-cdn.net/uploads/P015XDRAD30X0XMAAW10.png',
+        ],
+        specifications: {}
+      },
     ],
-    documents: [
-      // Exemple: { name: 'Fiche Produit', file: '/collections/abella/docs/fiche.pdf', size: '' }
-    ],
-    specs: {
-      // À remplir depuis le PDF produit
-      // finition: '',
-      // epaisseur: '',
-      // rectifie: '',
-      // typesProduit: '',
+    documents: [],
+    commonSpecs: {
+      finition: 'Mat',
+      design: 'Marbre',
     }
   },
   'Adel': {

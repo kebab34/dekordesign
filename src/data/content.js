@@ -47,7 +47,7 @@ export const productCategoriesData = [
   {
     name: 'Revêtements Premium',
     description: 'Marbres naturels, céramiques italiennes et pierres d\'exception',
-    image: 'https://images.unsplash.com/photo-1615875474908-9ef74b97172f?w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=900&q=80',
     path: '/collections'
   },
   {

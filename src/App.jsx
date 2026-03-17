@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
@@ -26,10 +26,20 @@ import SopranoPage from './components/SopranoPage/SopranoPage';
 import SopranoDetailPage from './components/SopranoDetailPage/SopranoDetailPage';
 import './App.css';
 
+const ScrollToTop = () => {
+  const location = useLocation();
+  const navType = useNavigationType();
+  useEffect(() => {
+    if (navType !== 'POP') window.scrollTo(0, 0);
+  }, [location, navType]);
+  return null;
+};
+
 const App = () => {
   return (
     <Router>
       <div className="app-container">
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />

@@ -732,8 +732,9 @@
   }
 
   .bento-side {
-    height: 120px;
-    gap: 10px;
+    flex-direction: row;
+    height: 110px;
+    gap: 6px;
   }
 
   .collection-name-overlay {
@@ -780,39 +781,127 @@
 
 @media (max-width: 576px) {
   .collection-detail-page {
-    padding: 75px 20px 40px;
+    padding: 70px 0 40px;
   }
 
-  .bento-item-main {
-    height: 280px;
+  .breadcrumb {
+    padding: 0 16px;
+    margin-bottom: 20px;
+    font-size: 11px;
   }
 
-  .bento-item-main::after {
-    width: 100%;
-    height: 40%;
-  }
-
-  .bento-side {
+  /* Galerie : image principale pleine largeur + miniatures horizontales */
+  .bento-gallery {
     flex-direction: column;
+    gap: 3px;
+    margin-bottom: 28px;
     height: auto;
   }
 
+  .bento-item-main {
+    height: 260px;
+    border-radius: 0;
+    flex: none;
+  }
+
+  .bento-side {
+    flex-direction: row;
+    height: 88px;
+    gap: 3px;
+    width: 100%;
+    flex: none;
+  }
+
   .bento-item-small {
-    height: 140px;
+    flex: 1;
+    height: 100%;
+    border-radius: 0;
   }
 
   .collection-name-overlay {
-    bottom: 20px;
-    left: 20px;
+    bottom: 14px;
+    left: 14px;
+  }
+
+  .collection-name-overlay::before {
+    width: 28px;
+    top: -10px;
   }
 
   .collection-name-text {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 3px;
   }
 
-  .other-collections-section .section-title {
-    font-size: 18px;
+  /* Produits + description */
+  .products-description-section {
+    padding: 0 16px;
+    gap: 28px;
+  }
+
+  .section-subtitle {
+    font-size: 11px;
     letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  .variants-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .variant-image {
+    height: 100px;
+  }
+
+  .variant-name {
+    font-size: 11px;
+  }
+
+  .variant-size {
+    font-size: 10px;
+  }
+
+  /* Description */
+  .collection-description {
+    padding: 0;
+  }
+
+  .description-content p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  /* Documents */
+  .documents-section {
+    padding: 0 16px;
+  }
+
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Autres collections */
+  .other-collections-section {
+    padding: 0 16px;
+  }
+
+  .other-collections-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+  }
+
+  .other-collection-card {
+    height: 160px;
+  }
+
+  .other-collections-section .section-title {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .view-all-btn {
+    padding: 12px 30px;
+    font-size: 11px;
   }
 }

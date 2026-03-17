@@ -8,6 +8,7 @@ const allColors = [...new Set(kobosData.flatMap(p => p.colors))].filter(Boolean)
 const KobosPage = () => {
   const [activeColor, setActiveColor] = useState('');
   const [search, setSearch] = useState('');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const filtered = useMemo(() => kobosData.filter(p => {
     if (activeColor && !p.colors.includes(activeColor)) return false;
@@ -27,7 +28,7 @@ const KobosPage = () => {
 
       <div className="kobos-layout">
         {/* Sidebar */}
-        <aside className="kobos-sidebar">
+        <aside className={`kobos-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="kobos-sidebar-head">
             <h3 className="kobos-sidebar-title">FILTRES</h3>
             {(activeColor || search) && (
@@ -91,7 +92,12 @@ const KobosPage = () => {
               )}
             </div>
           )}
+          <button className="kobos-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="kobos-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         {/* Grille */}
         <div className="kobos-main">
@@ -133,6 +139,16 @@ const KobosPage = () => {
           )}
         </div>
       </div>
+
+      <button className="kobos-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeColor, search].filter(Boolean).length > 0 && (
+          <span className="kobos-filters-fab-badge">{[activeColor, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

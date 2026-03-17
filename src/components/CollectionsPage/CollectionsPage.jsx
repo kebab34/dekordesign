@@ -164,7 +164,7 @@ const CollectionsPage = () => {
       </div>
 
       <div className="collections-content">
-        {/* Sidebar Filtres */}
+        {/* Sidebar Filtres desktop */}
         <aside className={`filters-sidebar ${isFilterOpen ? 'open' : ''}`}>
           <div className="filters-header">
             <h3 className="filters-title">Filtres</h3>
@@ -179,14 +179,25 @@ const CollectionsPage = () => {
           {renderDropdown('collection', 'Collection', collectionNames, 'Toutes les collections')}
           {renderDropdown('size', 'Taille', sizeOptions, 'Toutes les tailles')}
           {renderDropdown('material', 'Matière', materialOptions, 'Toutes les matières')}
+
+          {/* Bouton fermer (mobile) */}
+          <button className="filters-close-btn" onClick={() => setIsFilterOpen(false)}>
+            Fermer
+          </button>
         </aside>
 
-        {/* Toggle filtres mobile */}
-        <button
-          className="filters-toggle"
-          onClick={() => setIsFilterOpen(!isFilterOpen)}
-        >
-          {isFilterOpen ? 'Masquer les filtres' : 'Afficher les filtres'}
+        {/* Overlay mobile */}
+        {isFilterOpen && (
+          <div className="filters-overlay" onClick={() => setIsFilterOpen(false)} />
+        )}
+
+        {/* Bouton flottant mobile */}
+        <button className="filters-fab" onClick={() => setIsFilterOpen(true)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+            <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+          </svg>
+          Filtres
+          {activeFiltersCount > 0 && <span className="filters-fab-badge">{activeFiltersCount}</span>}
         </button>
 
         {/* Grille produits */}
@@ -205,6 +216,9 @@ const CollectionsPage = () => {
                       alt={product.name}
                       className="collection-image"
                     />
+                    <div className="col-name-overlay">
+                      <h3 className="collection-name-mob">{product.name}</h3>
+                    </div>
                   </div>
                   <div className="collection-info">
                     <h3 className="collection-name">{product.name}</h3>

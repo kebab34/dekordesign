@@ -105,10 +105,6 @@ const DusPage = () => {
 
       <div className="dus-layout">
         {/* ── Sidebar ─────────────────────────────────────── */}
-        <button className="dus-sidebar-toggle" onClick={() => setSidebarOpen(o => !o)}>
-          {sidebarOpen ? 'Masquer les filtres' : 'Afficher les filtres'}
-        </button>
-
         <aside className={`dus-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="dus-sidebar-header">
             <h3 className="dus-sidebar-title">FILTRES</h3>
@@ -159,7 +155,12 @@ const DusPage = () => {
               {search         && <span className="dus-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
+          <button className="dus-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="dus-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         {/* ── Main ────────────────────────────────────────── */}
         <div className="dus-main">
@@ -212,6 +213,16 @@ const DusPage = () => {
           )}
         </div>
       </div>
+
+      <button className="dus-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length > 0 && (
+          <span className="dus-filters-fab-badge">{[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

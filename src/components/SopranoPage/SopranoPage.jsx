@@ -10,6 +10,7 @@ const SopranoPage = () => {
   const [activeStyle, setActiveStyle] = useState('');
   const [activeColor, setActiveColor] = useState('');
   const [search,      setSearch]      = useState('');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const filtered = useMemo(() => sopranoData.filter(p => {
     if (activeStyle && p.style !== activeStyle) return false;
@@ -33,7 +34,7 @@ const SopranoPage = () => {
 
       <div className="sop-layout">
         {/* Sidebar */}
-        <aside className="sop-sidebar">
+        <aside className={`sop-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="sop-sidebar-head">
             <h3 className="sop-sidebar-title">FILTRES</h3>
             {hasFilters && (
@@ -86,7 +87,12 @@ const SopranoPage = () => {
               {search      && <span className="sop-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
+          <button className="sop-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="sop-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         {/* Grille */}
         <div className="sop-main">
@@ -124,6 +130,16 @@ const SopranoPage = () => {
           )}
         </div>
       </div>
+
+      <button className="sop-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeStyle, activeColor, search].filter(Boolean).length > 0 && (
+          <span className="sop-filters-fab-badge">{[activeStyle, activeColor, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

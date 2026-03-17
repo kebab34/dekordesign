@@ -105,10 +105,6 @@ const ArmaturlerPage = () => {
 
       <div className="arm-layout">
         {/* ── Sidebar ─────────────────────────────────────── */}
-        <button className="arm-sidebar-toggle" onClick={() => setSidebarOpen(o => !o)}>
-          {sidebarOpen ? 'Masquer les filtres' : 'Afficher les filtres'}
-        </button>
-
         <aside className={`arm-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="arm-sidebar-header">
             <h3 className="arm-sidebar-title">FILTRES</h3>
@@ -159,7 +155,12 @@ const ArmaturlerPage = () => {
               {search         && <span className="arm-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
+          <button className="arm-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="arm-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         {/* ── Main ────────────────────────────────────────── */}
         <div className="arm-main">
@@ -212,6 +213,16 @@ const ArmaturlerPage = () => {
           )}
         </div>
       </div>
+
+      <button className="arm-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length > 0 && (
+          <span className="arm-filters-fab-badge">{[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

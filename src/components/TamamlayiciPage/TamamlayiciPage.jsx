@@ -6,6 +6,7 @@ import './TamamlayiciPage.css';
 const TamamlayiciPage = () => {
   const [activeCategory, setActiveCategory] = useState('');
   const [search, setSearch] = useState('');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const filtered = tamamlayiciData.filter(p => {
     const matchCat = !activeCategory || p.category === activeCategory;
@@ -23,7 +24,7 @@ const TamamlayiciPage = () => {
         </p>
       </div>
 
-      <div className="tamamlayici-controls">
+      <div className={`tamamlayici-controls ${sidebarOpen ? 'open' : ''}`}>
         <div className="tamamlayici-cats">
           <button
             className={`tcat-btn ${activeCategory === '' ? 'active' : ''}`}
@@ -54,7 +55,13 @@ const TamamlayiciPage = () => {
             <button className="tsearch-clear" onClick={() => setSearch('')}>✕</button>
           )}
         </div>
+
+        <button className="tamamlayici-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
       </div>
+
+      {sidebarOpen && (
+        <div className="tamamlayici-filters-overlay" onClick={() => setSidebarOpen(false)} />
+      )}
 
       <div className="tamamlayici-grid">
         {filtered.map(product => (
@@ -88,6 +95,16 @@ const TamamlayiciPage = () => {
           </button>
         </div>
       )}
+
+      <button className="tamamlayici-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeCategory, search].filter(Boolean).length > 0 && (
+          <span className="tamamlayici-filters-fab-badge">{[activeCategory, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

@@ -6,7 +6,7 @@ import './ProductCategories.css';
 const ProductCategories = () => {
   return (
     <section className="dark-section">
-      <div className="section-header">
+      <div className="pc-section-header">
         <div className="gold-line"></div>
         <h2 className="section-title">NOS EXPERTISES</h2>
         <p className="section-subtitle-light">L'excellence dans chaque détail</p>
@@ -19,10 +19,9 @@ const ProductCategories = () => {
               <div className="product-overlay">
                 <span className="explore-button">EXPLORER</span>
               </div>
-            </div>
-            <div className="product-info">
-              <h3 className="product-name">{category.name}</h3>
-              <p className="product-description">{category.description}</p>
+              <div className="product-name-bar">
+                <h3 className="product-name">{category.name}</h3>
+              </div>
             </div>
           </Link>
         ))}

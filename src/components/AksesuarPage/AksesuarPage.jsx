@@ -105,10 +105,6 @@ const AksesuarPage = () => {
 
       <div className="aks-layout">
         {/* ── Sidebar ─────────────────────────────────────── */}
-        <button className="aks-sidebar-toggle" onClick={() => setSidebarOpen(o => !o)}>
-          {sidebarOpen ? 'Masquer les filtres' : 'Afficher les filtres'}
-        </button>
-
         <aside className={`aks-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="aks-sidebar-header">
             <h3 className="aks-sidebar-title">FILTRES</h3>
@@ -161,7 +157,12 @@ const AksesuarPage = () => {
               {search         && <span className="aks-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
+          <button className="aks-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="aks-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         {/* ── Main ────────────────────────────────────────── */}
         <div className="aks-main">
@@ -214,6 +215,16 @@ const AksesuarPage = () => {
           )}
         </div>
       </div>
+
+      <button className="aks-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length > 0 && (
+          <span className="aks-filters-fab-badge">{[activeCategory, activeSerie, activeColor, activeType, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

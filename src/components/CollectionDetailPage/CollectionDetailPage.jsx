@@ -32,10 +32,17 @@ const CollectionDetailPage = () => {
     || (collData.images && collData.images[0])
     || product.image;
 
-  // Images galerie bento (3 images de côté)
-  const bentoSideImages = hasProducts
+  // Images galerie bento (3 images de côté) — sans doublons
+  const rawSideImages = hasProducts
     ? collData.products.slice(0, 3).map(p => p.thumbnail)
     : (collData.images || []).slice(1, 4);
+
+  // Déduplique par rapport à mainImage, complète avec product.image si besoin
+  const uniqueSideImages = rawSideImages.filter(img => img && img !== mainImage);
+  if (uniqueSideImages.length < 3 && product.image && product.image !== mainImage && !uniqueSideImages.includes(product.image)) {
+    uniqueSideImages.push(product.image);
+  }
+  const bentoSideImages = uniqueSideImages.slice(0, 3);
 
   // Documents
   const documents = collData.documents || [];
@@ -113,10 +120,9 @@ const CollectionDetailPage = () => {
             <span className="collection-name-text">{product.name}</span>
           </div>
         </div>
-        <div className="bento-side">
-          {[0, 1, 2].map((i) => {
-            const img = bentoSideImages[i] || mainImage;
-            return (
+        {bentoSideImages.length > 0 && (
+          <div className="bento-side">
+            {bentoSideImages.map((img, i) => (
               <div key={i} className="bento-item bento-item-small" onClick={() => openLightbox(img)}>
                 <img src={img} alt={`${product.name} vue ${i + 2}`} />
                 <div className="bento-overlay">
@@ -128,9 +134,9 @@ const CollectionDetailPage = () => {
                   </svg>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Section Produits + Description */}

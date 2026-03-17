@@ -98,10 +98,6 @@ const CuisinePage = () => {
       </div>
 
       <div className="cui-layout">
-        <button className="cui-sidebar-toggle" onClick={() => setSidebarOpen(o => !o)}>
-          {sidebarOpen ? 'Masquer les filtres' : 'Afficher les filtres'}
-        </button>
-
         <aside className={`cui-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="cui-sidebar-header">
             <h3 className="cui-sidebar-title">FILTRES</h3>
@@ -139,7 +135,12 @@ const CuisinePage = () => {
               {search          && <span className="cui-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
+          <button className="cui-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
         </aside>
+
+        {sidebarOpen && (
+          <div className="cui-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
 
         <div className="cui-main">
           <div className="cui-search-bar">
@@ -190,6 +191,16 @@ const CuisinePage = () => {
           )}
         </div>
       </div>
+
+      <button className="cui-filters-fab" onClick={() => setSidebarOpen(true)}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
+        </svg>
+        Filtres
+        {[activeCategory, activeFinition, activePoignees, search].filter(Boolean).length > 0 && (
+          <span className="cui-filters-fab-badge">{[activeCategory, activeFinition, activePoignees, search].filter(Boolean).length}</span>
+        )}
+      </button>
     </section>
   );
 };

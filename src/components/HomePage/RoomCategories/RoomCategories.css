@@ -130,12 +130,11 @@
   }
 
   .section-title {
-    font-size: 28px;
-    letter-spacing: 3px;
+    display: none;
   }
 
   .section-subtitle {
-    font-size: 13px;
+    display: none;
   }
 
   .room-overlay {
