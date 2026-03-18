@@ -77,14 +77,16 @@ const Header = () => {
           </NavDropdown>
 
           <NavDropdown label="MENUISERIE" to="/menuiserie">
-            <Link to="/menuiserie/pvc" className="dropdown-item">Portes &amp; Fenêtres PVC</Link>
-            <Link to="/menuiserie/alu" className="dropdown-item">Portes &amp; Fenêtres ALU</Link>
-            <Link to="/menuiserie/volets" className="dropdown-item">Volets Roulants</Link>
-            <Link to="/menuiserie/guillotine" className="dropdown-item">Systèmes Guillotine</Link>
-            <Link to="/menuiserie/portes-garage" className="dropdown-item">Portes de Garage</Link>
-            <Link to="/menuiserie/portes-entree" className="dropdown-item">Portes d'Entrée</Link>
-            <Link to="/menuiserie/moustiquaires" className="dropdown-item">Moustiquaires</Link>
-            <Link to="/menuiserie/solutions-verre" className="dropdown-item">Solutions Verre</Link>
+            <Link to="/menuiserie" className="dropdown-item">Tout voir</Link>
+            <div className="dropdown-divider"></div>
+            <Link to="/menuiserie?cat=pvc" className="dropdown-item">Portes &amp; Fenêtres PVC</Link>
+            <Link to="/menuiserie?cat=alu" className="dropdown-item">Portes &amp; Fenêtres ALU</Link>
+            <Link to="/menuiserie?cat=volets" className="dropdown-item">Volets Roulants</Link>
+            <Link to="/menuiserie?cat=guillotine" className="dropdown-item">Systèmes Guillotine</Link>
+            <Link to="/menuiserie?cat=portes-garage" className="dropdown-item">Portes de Garage</Link>
+            <Link to="/menuiserie?cat=portes-entree" className="dropdown-item">Portes d'Entrée</Link>
+            <Link to="/menuiserie?cat=moustiquaires" className="dropdown-item">Moustiquaires</Link>
+            <Link to="/menuiserie?cat=solutions-verre" className="dropdown-item">Solutions Verre</Link>
           </NavDropdown>
 
           <Link to="/catalogues" className="nav-link">CATALOGUES</Link>
@@ -169,14 +171,15 @@ const Header = () => {
             </button>
             {mobileExpanded === 'menuiserie' && (
               <div className="mobile-submenu">
-                <Link to="/menuiserie/pvc" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres PVC</Link>
-                <Link to="/menuiserie/alu" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres ALU</Link>
-                <Link to="/menuiserie/volets" className="mobile-sublink" onClick={closeMenu}>Volets Roulants</Link>
-                <Link to="/menuiserie/guillotine" className="mobile-sublink" onClick={closeMenu}>Systèmes Guillotine</Link>
-                <Link to="/menuiserie/portes-garage" className="mobile-sublink" onClick={closeMenu}>Portes de Garage</Link>
-                <Link to="/menuiserie/portes-entree" className="mobile-sublink" onClick={closeMenu}>Portes d'Entrée</Link>
-                <Link to="/menuiserie/moustiquaires" className="mobile-sublink" onClick={closeMenu}>Moustiquaires</Link>
-                <Link to="/menuiserie/solutions-verre" className="mobile-sublink" onClick={closeMenu}>Solutions Verre</Link>
+                <Link to="/menuiserie" className="mobile-sublink" onClick={closeMenu}>Tout voir</Link>
+                <Link to="/menuiserie?cat=pvc" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres PVC</Link>
+                <Link to="/menuiserie?cat=alu" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres ALU</Link>
+                <Link to="/menuiserie?cat=volets" className="mobile-sublink" onClick={closeMenu}>Volets Roulants</Link>
+                <Link to="/menuiserie?cat=guillotine" className="mobile-sublink" onClick={closeMenu}>Systèmes Guillotine</Link>
+                <Link to="/menuiserie?cat=portes-garage" className="mobile-sublink" onClick={closeMenu}>Portes de Garage</Link>
+                <Link to="/menuiserie?cat=portes-entree" className="mobile-sublink" onClick={closeMenu}>Portes d'Entrée</Link>
+                <Link to="/menuiserie?cat=moustiquaires" className="mobile-sublink" onClick={closeMenu}>Moustiquaires</Link>
+                <Link to="/menuiserie?cat=solutions-verre" className="mobile-sublink" onClick={closeMenu}>Solutions Verre</Link>
               </div>
             )}
           </div>

@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { menuiserieData } from '../../data/menuiserieData';
+import { menuiserieProducts, menuiserieCategories } from '../../data/menuiserieData';
 import './MenuiserieDetailPage.css';
 
 const MenuiserieDetailPage = () => {
-  const { slug, productId } = useParams();
+  const { productId } = useParams();
 
-  const section = menuiserieData[slug];
-  if (!section) return null;
-
-  const product = section.products.find(p => p.id === productId);
+  const product = menuiserieProducts.find(p => p.id === productId);
   if (!product) return null;
 
-  const similar = section.products.filter(p => p.id !== productId).slice(0, 4);
+  const catLabel = menuiserieCategories.find(c => c.slug === product.mainCategory)?.name;
+
+  const similar = menuiserieProducts
+    .filter(p => p.mainCategory === product.mainCategory && p.id !== product.id)
+    .slice(0, 4);
 
   return (
     <section className="mdet-page">
@@ -20,7 +21,7 @@ const MenuiserieDetailPage = () => {
       <div className="mdet-breadcrumb">
         <Link to="/menuiserie" className="mdet-bread-link">Menuiserie</Link>
         <span className="mdet-bread-sep">/</span>
-        <Link to={`/menuiserie/${slug}`} className="mdet-bread-link">{section.title}</Link>
+        <Link to={`/menuiserie?cat=${product.mainCategory}`} className="mdet-bread-link">{catLabel}</Link>
         <span className="mdet-bread-sep">/</span>
         <span className="mdet-bread-current">{product.name}</span>
       </div>
@@ -32,12 +33,12 @@ const MenuiserieDetailPage = () => {
             src={product.image}
             alt={product.name}
             className="mdet-img"
-            onError={e => { e.target.style.opacity = '0.15'; }}
+            onError={e => { e.target.style.opacity = '0.1'; }}
           />
         </div>
 
         <div className="mdet-info">
-          <span className="mdet-cat">{product.category}</span>
+          <span className="mdet-cat">{catLabel}</span>
           <h1 className="mdet-name">{product.name}</h1>
           <div className="mdet-gold-line"></div>
           <p className="mdet-desc">{product.description}</p>
@@ -68,14 +69,14 @@ const MenuiserieDetailPage = () => {
           <h3 className="mdet-similar-title">AUTRES PRODUITS</h3>
           <div className="mdet-similar-grid">
             {similar.map(p => (
-              <Link key={p.id} to={`/menuiserie/${slug}/${p.id}`} className="mdet-similar-card">
+              <Link key={p.id} to={`/menuiserie/${p.id}`} className="mdet-similar-card">
                 <div className="mdet-similar-img-wrap">
                   <img
                     src={p.image}
                     alt={p.name}
                     className="mdet-similar-img"
                     loading="lazy"
-                    onError={e => { e.target.style.opacity = '0.15'; }}
+                    onError={e => { e.target.style.opacity = '0.1'; }}
                   />
                 </div>
                 <span className="mdet-similar-name">{p.name}</span>

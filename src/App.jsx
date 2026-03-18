@@ -25,7 +25,6 @@ import KobosDetailPage from './components/KobosDetailPage/KobosDetailPage';
 import SopranoPage from './components/SopranoPage/SopranoPage';
 import SopranoDetailPage from './components/SopranoDetailPage/SopranoDetailPage';
 import MenuiseriePage from './components/MenuiseriePage/MenuiseriePage';
-import MenuiserieSubPage from './components/MenuiserieSubPage/MenuiserieSubPage';
 import MenuiserieDetailPage from './components/MenuiserieDetailPage/MenuiserieDetailPage';
 import './App.css';
 
@@ -68,8 +67,7 @@ const App = () => {
           <Route path="/cuisines-soprano" element={<SopranoPage />} />
           <Route path="/cuisines-soprano/:slug" element={<SopranoDetailPage />} />
           <Route path="/menuiserie" element={<MenuiseriePage />} />
-          <Route path="/menuiserie/:slug" element={<MenuiserieSubPage />} />
-          <Route path="/menuiserie/:slug/:productId" element={<MenuiserieDetailPage />} />
+          <Route path="/menuiserie/:productId" element={<MenuiserieDetailPage />} />
         </Routes>
         <Footer />
       </div>
