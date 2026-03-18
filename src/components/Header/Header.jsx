@@ -76,6 +76,17 @@ const Header = () => {
             <Link to="/cuisines-soprano" className="dropdown-item">Meubles de cuisine</Link>
           </NavDropdown>
 
+          <NavDropdown label="MENUISERIE" to="/menuiserie">
+            <Link to="/menuiserie/pvc" className="dropdown-item">Portes &amp; Fenêtres PVC</Link>
+            <Link to="/menuiserie/alu" className="dropdown-item">Portes &amp; Fenêtres ALU</Link>
+            <Link to="/menuiserie/volets" className="dropdown-item">Volets Roulants</Link>
+            <Link to="/menuiserie/guillotine" className="dropdown-item">Systèmes Guillotine</Link>
+            <Link to="/menuiserie/portes-garage" className="dropdown-item">Portes de Garage</Link>
+            <Link to="/menuiserie/portes-entree" className="dropdown-item">Portes d'Entrée</Link>
+            <Link to="/menuiserie/moustiquaires" className="dropdown-item">Moustiquaires</Link>
+            <Link to="/menuiserie/solutions-verre" className="dropdown-item">Solutions Verre</Link>
+          </NavDropdown>
+
           <Link to="/catalogues" className="nav-link">CATALOGUES</Link>
           <Link to="/realisations" className="nav-link">RÉALISATIONS</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>
@@ -145,6 +156,27 @@ const Header = () => {
               <div className="mobile-submenu">
                 <Link to="/cuisines" className="mobile-sublink" onClick={closeMenu}>Carrelages cuisine</Link>
                 <Link to="/cuisines-soprano" className="mobile-sublink" onClick={closeMenu}>Meubles de cuisine</Link>
+              </div>
+            )}
+          </div>
+
+          <div className="mobile-section">
+            <button className="mobile-section-toggle" onClick={() => toggleSection('menuiserie')}>
+              MENUISERIE
+              <svg viewBox="0 0 10 6" width="8" height="5" className={mobileExpanded === 'menuiserie' ? 'rotated' : ''}>
+                <path d="M0 0l5 6 5-6z" fill="currentColor"/>
+              </svg>
+            </button>
+            {mobileExpanded === 'menuiserie' && (
+              <div className="mobile-submenu">
+                <Link to="/menuiserie/pvc" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres PVC</Link>
+                <Link to="/menuiserie/alu" className="mobile-sublink" onClick={closeMenu}>Portes &amp; Fenêtres ALU</Link>
+                <Link to="/menuiserie/volets" className="mobile-sublink" onClick={closeMenu}>Volets Roulants</Link>
+                <Link to="/menuiserie/guillotine" className="mobile-sublink" onClick={closeMenu}>Systèmes Guillotine</Link>
+                <Link to="/menuiserie/portes-garage" className="mobile-sublink" onClick={closeMenu}>Portes de Garage</Link>
+                <Link to="/menuiserie/portes-entree" className="mobile-sublink" onClick={closeMenu}>Portes d'Entrée</Link>
+                <Link to="/menuiserie/moustiquaires" className="mobile-sublink" onClick={closeMenu}>Moustiquaires</Link>
+                <Link to="/menuiserie/solutions-verre" className="mobile-sublink" onClick={closeMenu}>Solutions Verre</Link>
               </div>
             )}
           </div>
