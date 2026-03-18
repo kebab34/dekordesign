@@ -200,36 +200,33 @@ export const menuiserieProducts = [
     description: 'Coffre demi-linteau encastré — profil discret sous le plafond ou le plancher haut',
     specs: { Type: 'Demi Linteau', Coffre: 'Semi-encastré' },
   },
-  // ── Guillotine (photos de scène → cover) ─────────────────────────────
+  // ── Guillotine (une seule carte, variants 2/3/4 panneaux) ────────────
   {
-    id: 'guillotine-2-panneaux',
-    name: 'Guillotine 2 Panneaux',
+    id: 'guillotine',
+    name: 'Systèmes Guillotine',
     mainCategory: 'guillotine',
     subCategory: 'Systèmes Guillotine',
     cover: true,
     image: `${U}/Giyotin-s.jpg`,
-    description: 'Baie guillotine 2 vantaux coulissants — idéale pour terrasses et vérandas',
-    specs: { Panneaux: '2', Application: 'Terrasse / Véranda', Ouverture: '100 %' },
-  },
-  {
-    id: 'guillotine-3-panneaux',
-    name: 'Guillotine 3 Panneaux',
-    mainCategory: 'guillotine',
-    subCategory: 'Systèmes Guillotine',
-    cover: true,
-    image: `${U}/Giyotin-s.jpg`,
-    description: 'Baie guillotine 3 vantaux — grandes baies vitrées panoramiques',
-    specs: { Panneaux: '3', Application: 'Grande baie vitrée', Ouverture: '100 %' },
-  },
-  {
-    id: 'guillotine-4-panneaux',
-    name: 'Guillotine 4 Panneaux',
-    mainCategory: 'guillotine',
-    subCategory: 'Systèmes Guillotine',
-    cover: true,
-    image: `${U}/Giyotin-s.jpg`,
-    description: 'Baie guillotine 4 vantaux — ouverture maximale pour les très grandes surfaces',
-    specs: { Panneaux: '4', Application: 'Très grande baie', Ouverture: '100 %' },
+    description: "Baie panoramique coulissante — ouverture totale sur l'extérieur. Disponible en 2, 3 ou 4 panneaux.",
+    specs: {},
+    variants: [
+      {
+        label: '2 Panneaux',
+        description: 'Baie guillotine 2 vantaux coulissants — idéale pour terrasses et vérandas. Ouverture complète à 100 %.',
+        specs: { Panneaux: '2', Application: 'Terrasse / Véranda', Ouverture: '100 %' },
+      },
+      {
+        label: '3 Panneaux',
+        description: 'Baie guillotine 3 vantaux — grandes baies vitrées panoramiques pour espaces lumineux.',
+        specs: { Panneaux: '3', Application: 'Grande baie vitrée', Ouverture: '100 %' },
+      },
+      {
+        label: '4 Panneaux',
+        description: "Baie guillotine 4 vantaux — ouverture maximale pour les très grandes surfaces. L'espace s'efface.",
+        specs: { Panneaux: '4', Application: 'Très grande baie', Ouverture: '100 %' },
+      },
+    ],
   },
   // ── Portes de Garage (photos de scène → cover) ────────────────────────
   {

@@ -168,6 +168,38 @@
   margin-bottom: 24px;
 }
 
+/* Variants */
+.mdet-variants {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.mdet-variant-btn {
+  padding: 9px 22px;
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 2px;
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mdet-variant-btn:hover {
+  border-color: #888;
+  color: #fff;
+}
+
+.mdet-variant-btn.active {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  color: #0a0a0a;
+}
+
 .mdet-desc {
   font-size: 15px;
   color: #aaa;

@@ -6,6 +6,7 @@ import './MenuiserieDetailPage.css';
 const MenuiserieDetailPage = () => {
   const { productId } = useParams();
   const [lightbox, setLightbox] = useState(false);
+  const [variantIdx, setVariantIdx] = useState(0);
 
   const product = menuiserieProducts.find(p => p.id === productId);
   const catLabel = menuiserieCategories.find(c => c.slug === product?.mainCategory)?.name;
@@ -13,7 +14,10 @@ const MenuiserieDetailPage = () => {
     ? menuiserieProducts.filter(p => p.mainCategory === product.mainCategory && p.id !== product.id).slice(0, 4)
     : [];
 
-  // Fermer avec Escape
+  // Reset variant quand on change de produit
+  useEffect(() => { setVariantIdx(0); }, [productId]);
+
+  // Escape pour fermer la lightbox
   useEffect(() => {
     if (!lightbox) return;
     const handler = (e) => { if (e.key === 'Escape') setLightbox(false); };
@@ -28,6 +32,11 @@ const MenuiserieDetailPage = () => {
   }, [lightbox]);
 
   if (!product) return null;
+
+  const hasVariants = product.variants && product.variants.length > 0;
+  const activeVariant = hasVariants ? product.variants[variantIdx] : null;
+  const displayDesc  = activeVariant ? activeVariant.description  : product.description;
+  const displaySpecs = activeVariant ? activeVariant.specs        : product.specs;
 
   return (
     <section className="mdet-page">
@@ -65,14 +74,30 @@ const MenuiserieDetailPage = () => {
           <span className="mdet-cat">{catLabel}</span>
           <h1 className="mdet-name">{product.name}</h1>
           <div className="mdet-gold-line"></div>
-          <p className="mdet-desc">{product.description}</p>
 
-          {product.specs && Object.keys(product.specs).length > 0 && (
+          {/* Sélecteur de variantes */}
+          {hasVariants && (
+            <div className="mdet-variants">
+              {product.variants.map((v, i) => (
+                <button
+                  key={v.label}
+                  className={`mdet-variant-btn ${variantIdx === i ? 'active' : ''}`}
+                  onClick={() => setVariantIdx(i)}
+                >
+                  {v.label}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <p className="mdet-desc">{displayDesc}</p>
+
+          {displaySpecs && Object.keys(displaySpecs).length > 0 && (
             <div className="mdet-specs">
               <h3 className="mdet-specs-title">CARACTÉRISTIQUES</h3>
               <table className="mdet-specs-table">
                 <tbody>
-                  {Object.entries(product.specs).map(([key, val]) => (
+                  {Object.entries(displaySpecs).map(([key, val]) => (
                     <tr key={key}>
                       <td className="mdet-spec-key">{key}</td>
                       <td className="mdet-spec-val">{val}</td>
