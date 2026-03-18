@@ -1,19 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { menuiserieProducts, menuiserieCategories } from '../../data/menuiserieData';
 import './MenuiserieDetailPage.css';
 
 const MenuiserieDetailPage = () => {
   const { productId } = useParams();
+  const [lightbox, setLightbox] = useState(false);
 
   const product = menuiserieProducts.find(p => p.id === productId);
+  const catLabel = menuiserieCategories.find(c => c.slug === product?.mainCategory)?.name;
+  const similar = product
+    ? menuiserieProducts.filter(p => p.mainCategory === product.mainCategory && p.id !== product.id).slice(0, 4)
+    : [];
+
+  // Fermer avec Escape
+  useEffect(() => {
+    if (!lightbox) return;
+    const handler = (e) => { if (e.key === 'Escape') setLightbox(false); };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [lightbox]);
+
+  // Bloquer le scroll quand lightbox ouverte
+  useEffect(() => {
+    document.body.style.overflow = lightbox ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [lightbox]);
+
   if (!product) return null;
-
-  const catLabel = menuiserieCategories.find(c => c.slug === product.mainCategory)?.name;
-
-  const similar = menuiserieProducts
-    .filter(p => p.mainCategory === product.mainCategory && p.id !== product.id)
-    .slice(0, 4);
 
   return (
     <section className="mdet-page">
@@ -28,13 +42,19 @@ const MenuiserieDetailPage = () => {
 
       {/* Main content */}
       <div className="mdet-content">
-        <div className="mdet-img-wrapper">
+        {/* Image cliquable */}
+        <div className="mdet-img-wrapper" onClick={() => setLightbox(true)} title="Voir en grand">
           <img
             src={product.image}
             alt={product.name}
             className="mdet-img"
             onError={e => { e.target.style.opacity = '0.1'; }}
           />
+          <div className="mdet-img-zoom-hint">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="20" height="20">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+            </svg>
+          </div>
         </div>
 
         <div className="mdet-info">
@@ -83,6 +103,23 @@ const MenuiserieDetailPage = () => {
               </Link>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Lightbox */}
+      {lightbox && (
+        <div className="mdet-lightbox" onClick={() => setLightbox(false)}>
+          <button className="mdet-lightbox-close" onClick={() => setLightbox(false)} aria-label="Fermer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+          <img
+            src={product.image}
+            alt={product.name}
+            className="mdet-lightbox-img"
+            onClick={e => e.stopPropagation()}
+          />
         </div>
       )}
     </section>
