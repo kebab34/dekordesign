@@ -37,6 +37,7 @@ const MenuiserieDetailPage = () => {
   const activeVariant = hasVariants ? product.variants[variantIdx] : null;
   const displayDesc  = activeVariant ? activeVariant.description  : product.description;
   const displaySpecs = activeVariant ? activeVariant.specs        : product.specs;
+  const displayImage = (activeVariant && activeVariant.image) ? activeVariant.image : product.image;
 
   return (
     <section className="mdet-page">
@@ -58,7 +59,7 @@ const MenuiserieDetailPage = () => {
           title="Voir en grand"
         >
           <img
-            src={product.image}
+            src={displayImage}
             alt={product.name}
             className="mdet-img"
             onError={e => { e.target.style.opacity = '0.1'; }}
@@ -144,7 +145,7 @@ const MenuiserieDetailPage = () => {
             </svg>
           </button>
           <img
-            src={product.image}
+            src={displayImage}
             alt={product.name}
             className="mdet-lightbox-img"
             onClick={e => e.stopPropagation()}
