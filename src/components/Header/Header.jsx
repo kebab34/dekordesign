@@ -89,6 +89,13 @@ const Header = () => {
             <Link to="/menuiserie?cat=solutions-verre" className="dropdown-item">Solutions Verre</Link>
           </NavDropdown>
 
+          <NavDropdown label="EXTÉRIEUR" to="/exterieur">
+            <Link to="/exterieur" className="dropdown-item">Tout voir</Link>
+            <div className="dropdown-divider"></div>
+            <Link to="/exterieur?cat=pergola" className="dropdown-item">Pergolas</Link>
+            <Link to="/exterieur?cat=protection" className="dropdown-item">Protection Solaire</Link>
+          </NavDropdown>
+
           <Link to="/catalogues" className="nav-link">CATALOGUES</Link>
           <Link to="/realisations" className="nav-link">RÉALISATIONS</Link>
           <Link to="/contact" className="nav-link">CONTACT</Link>
@@ -180,6 +187,22 @@ const Header = () => {
                 <Link to="/menuiserie?cat=portes-entree" className="mobile-sublink" onClick={closeMenu}>Portes d'Entrée</Link>
                 <Link to="/menuiserie?cat=moustiquaires" className="mobile-sublink" onClick={closeMenu}>Moustiquaires</Link>
                 <Link to="/menuiserie?cat=solutions-verre" className="mobile-sublink" onClick={closeMenu}>Solutions Verre</Link>
+              </div>
+            )}
+          </div>
+
+          <div className="mobile-section">
+            <button className="mobile-section-toggle" onClick={() => toggleSection('exterieur')}>
+              EXTÉRIEUR
+              <svg viewBox="0 0 10 6" width="8" height="5" className={mobileExpanded === 'exterieur' ? 'rotated' : ''}>
+                <path d="M0 0l5 6 5-6z" fill="currentColor"/>
+              </svg>
+            </button>
+            {mobileExpanded === 'exterieur' && (
+              <div className="mobile-submenu">
+                <Link to="/exterieur" className="mobile-sublink" onClick={closeMenu}>Tout voir</Link>
+                <Link to="/exterieur?cat=pergola" className="mobile-sublink" onClick={closeMenu}>Pergolas</Link>
+                <Link to="/exterieur?cat=protection" className="mobile-sublink" onClick={closeMenu}>Protection Solaire</Link>
               </div>
             )}
           </div>

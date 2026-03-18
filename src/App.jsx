@@ -26,6 +26,8 @@ import SopranoPage from './components/SopranoPage/SopranoPage';
 import SopranoDetailPage from './components/SopranoDetailPage/SopranoDetailPage';
 import MenuiseriePage from './components/MenuiseriePage/MenuiseriePage';
 import MenuiserieDetailPage from './components/MenuiserieDetailPage/MenuiserieDetailPage';
+import ExterieurPage from './components/ExterieurPage/ExterieurPage';
+import ExterieurDetailPage from './components/ExterieurDetailPage/ExterieurDetailPage';
 import './App.css';
 
 const ScrollToTop = () => {
@@ -68,6 +70,8 @@ const App = () => {
           <Route path="/cuisines-soprano/:slug" element={<SopranoDetailPage />} />
           <Route path="/menuiserie" element={<MenuiseriePage />} />
           <Route path="/menuiserie/:productId" element={<MenuiserieDetailPage />} />
+          <Route path="/exterieur" element={<ExterieurPage />} />
+          <Route path="/exterieur/:productId" element={<ExterieurDetailPage />} />
         </Routes>
         <Footer />
       </div>
