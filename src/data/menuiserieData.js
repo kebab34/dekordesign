@@ -13,7 +13,7 @@ export const menuiserieCategories = [
 ];
 
 export const menuiserieProducts = [
-  // ── PVC — Portes ─────────────────────────────────────────────────────
+  // ── PVC — Portes (photo produit découpée → contain) ──────────────────
   {
     id: 'porte-aluplast-70',
     name: 'Porte PVC Aluplast 70mm',
@@ -32,7 +32,7 @@ export const menuiserieProducts = [
     description: 'Profil PVC Aluplast 85mm — 6 chambres, isolation thermique Uf ≤ 0,95 W/m²K',
     specs: { Profil: 'Aluplast 85mm', Chambres: '6', 'Uf (W/m²K)': '≤ 0,95', Vitrage: 'Triple' },
   },
-  // ── PVC — Fenêtres ───────────────────────────────────────────────────
+  // ── PVC — Fenêtres (diagrammes produit → contain) ────────────────────
   {
     id: 'fenetre-ideal-2000',
     name: 'Fenêtre IDEAL 2000',
@@ -87,12 +87,13 @@ export const menuiserieProducts = [
     description: 'Gamme haut de gamme — 8 chambres, Uf ≤ 0,91 W/m²K, performance maximale',
     specs: { Profil: 'IDEAL 8000', Chambres: '8', 'Uf (W/m²K)': '≤ 0,91', Vitrage: 'Triple' },
   },
-  // ── PVC — Coulissants ────────────────────────────────────────────────
+  // ── PVC — Coulissants (photos de scène → cover) ──────────────────────
   {
     id: 'coulissant-multi-slide',
     name: 'Multi Slide',
     mainCategory: 'pvc',
     subCategory: 'Coulissants PVC',
+    cover: true,
     image: `${U}/easy-multi-slide.png`,
     description: "Baie coulissante multi-vantaux — grandes ouvertures panoramiques jusqu'à 4 vantaux",
     specs: { Système: 'Multi Slide', 'Max. vantaux': '4', 'Uw (W/m²K)': '≤ 1,2' },
@@ -102,6 +103,7 @@ export const menuiserieProducts = [
     name: 'Smart Slide',
     mainCategory: 'pvc',
     subCategory: 'Coulissants PVC',
+    cover: true,
     image: `${U}/Smart-Slide.jpeg`,
     description: 'Coulissant semi-automatisé — ouverture et fermeture assistées par simple contact',
     specs: { Système: 'Smart Slide', Commande: 'Semi-automatique' },
@@ -111,6 +113,7 @@ export const menuiserieProducts = [
     name: 'Levant-Coulissante',
     mainCategory: 'pvc',
     subCategory: 'Coulissants PVC',
+    cover: true,
     image: `${U}/Hebeschiebe.png`,
     description: "Vantail levant-coulissant — étanchéité optimale grâce au joint compressé en position fermée",
     specs: { Système: 'Levant-Coulissant', Étanchéité: 'Haute' },
@@ -120,16 +123,18 @@ export const menuiserieProducts = [
     name: 'IDEAL 4000 Coulissant',
     mainCategory: 'pvc',
     subCategory: 'Coulissants PVC',
+    cover: true,
     image: `${U}/Paralel-Sürme1.jpg`,
     description: 'Version coulissante du profil IDEAL 4000 — solution économique pour baies coulissantes',
     specs: { Profil: 'IDEAL 4000', Système: 'Coulissant' },
   },
-  // ── ALU ──────────────────────────────────────────────────────────────
+  // ── ALU (photos de scène → cover) ────────────────────────────────────
   {
     id: 'cs77-hi',
     name: 'CS77 Hi',
     mainCategory: 'alu',
     subCategory: 'Aluminium',
+    cover: true,
     image: `${U05}/comfort_without_compromise.jpg`,
     description: 'Fenêtre et porte-fenêtre haute isolation — Uf ≤ 1,0 W/m²K, triple vitrage',
     specs: { Système: 'Reynaers CS77 Hi', 'Uf (W/m²K)': '≤ 1,0', Application: 'Fenêtre / Porte-fenêtre', Vitrage: 'Triple' },
@@ -139,6 +144,7 @@ export const menuiserieProducts = [
     name: 'CS77 Tilt & Turn',
     mainCategory: 'alu',
     subCategory: 'Aluminium',
+    cover: true,
     image: `${U05}/CS77-Key-feature.jpg`,
     description: "Oscillo-battant aluminium — polyvalence maximale, ouverture à la française ou en soufflet",
     specs: { Système: 'Reynaers CS77', Ouverture: 'Oscillo-battant', Vitrage: 'Double ou Triple' },
@@ -148,16 +154,18 @@ export const menuiserieProducts = [
     name: 'CS77 Slide',
     mainCategory: 'alu',
     subCategory: 'Aluminium',
+    cover: true,
     image: `${U05}/The-right-track.jpg`,
     description: 'Baie coulissante aluminium — grandes ouvertures, allure architecturale premium',
     specs: { Système: 'Reynaers CS77 Slide', Application: 'Baie coulissante', Vitrage: 'Double ou Triple' },
   },
-  // ── Volets ───────────────────────────────────────────────────────────
+  // ── Volets (photos de scène → cover) ─────────────────────────────────
   {
     id: 'volet-monoblock',
     name: 'Volet Monoblock',
     mainCategory: 'volets',
     subCategory: 'Volets Roulants',
+    cover: true,
     image: `${U}/Panjur-Monoblock-scaled.jpeg`,
     description: 'Coffre intégré dans le dormant — finition impeccable, aucun coffre apparent',
     specs: { Type: 'Monoblock', Coffre: 'Intégré', Pose: 'Neuve' },
@@ -167,6 +175,7 @@ export const menuiserieProducts = [
     name: 'Volet Pose en Applique',
     mainCategory: 'volets',
     subCategory: 'Volets Roulants',
+    cover: true,
     image: `${U}/Panjur-diştan-takma-.jpeg`,
     description: 'Coffre posé en applique sur le mur — solution idéale pour la rénovation',
     specs: { Type: 'Applique', Coffre: 'Apparent', Pose: 'Rénovation' },
@@ -176,6 +185,7 @@ export const menuiserieProducts = [
     name: 'Volet Coffre Titan',
     mainCategory: 'volets',
     subCategory: 'Volets Roulants',
+    cover: true,
     image: `${U}/Panjur-Gizli-kutu.jpeg`,
     description: 'Coffre renforcé haute résistance — performances thermiques et mécaniques accrues',
     specs: { Type: 'Coffre Titan', Résistance: 'Haute', Application: 'Toutes poses' },
@@ -185,16 +195,18 @@ export const menuiserieProducts = [
     name: 'Volet Demi Linteau',
     mainCategory: 'volets',
     subCategory: 'Volets Roulants',
+    cover: true,
     image: `${U}/Panjur-yarim-lento.jpeg`,
     description: 'Coffre demi-linteau encastré — profil discret sous le plafond ou le plancher haut',
     specs: { Type: 'Demi Linteau', Coffre: 'Semi-encastré' },
   },
-  // ── Guillotine ───────────────────────────────────────────────────────
+  // ── Guillotine (photos de scène → cover) ─────────────────────────────
   {
     id: 'guillotine-2-panneaux',
     name: 'Guillotine 2 Panneaux',
     mainCategory: 'guillotine',
     subCategory: 'Systèmes Guillotine',
+    cover: true,
     image: `${U}/Giyotin-s.jpg`,
     description: 'Baie guillotine 2 vantaux coulissants — idéale pour terrasses et vérandas',
     specs: { Panneaux: '2', Application: 'Terrasse / Véranda', Ouverture: '100 %' },
@@ -204,6 +216,7 @@ export const menuiserieProducts = [
     name: 'Guillotine 3 Panneaux',
     mainCategory: 'guillotine',
     subCategory: 'Systèmes Guillotine',
+    cover: true,
     image: `${U}/Giyotin-s.jpg`,
     description: 'Baie guillotine 3 vantaux — grandes baies vitrées panoramiques',
     specs: { Panneaux: '3', Application: 'Grande baie vitrée', Ouverture: '100 %' },
@@ -213,16 +226,18 @@ export const menuiserieProducts = [
     name: 'Guillotine 4 Panneaux',
     mainCategory: 'guillotine',
     subCategory: 'Systèmes Guillotine',
+    cover: true,
     image: `${U}/Giyotin-s.jpg`,
     description: 'Baie guillotine 4 vantaux — ouverture maximale pour les très grandes surfaces',
     specs: { Panneaux: '4', Application: 'Très grande baie', Ouverture: '100 %' },
   },
-  // ── Portes de Garage ─────────────────────────────────────────────────
+  // ── Portes de Garage (photos de scène → cover) ────────────────────────
   {
     id: 'garage-sectionnelle',
     name: 'Porte Sectionnelle',
     mainCategory: 'portes-garage',
     subCategory: 'Portes de Garage',
+    cover: true,
     image: `${U}/Garaj-Kapisi-seksiyonel-2.jpeg`,
     description: 'Porte de garage sectionnelle — panneaux articulés, montée verticale, isolation optimale',
     specs: { Type: 'Sectionnelle', Mouvement: 'Vertical', Isolation: 'Renforcée', Motorisation: 'En option' },
@@ -232,11 +247,12 @@ export const menuiserieProducts = [
     name: 'Porte Enroulable',
     mainCategory: 'portes-garage',
     subCategory: 'Portes de Garage',
+    cover: true,
     image: `${U}/Garaj-kapisi-sarmal.jpeg`,
     description: "Porte de garage enroulable — lames qui s'enroulent discrètement en haut de l'ouverture",
     specs: { Type: 'Enroulable', Mouvement: 'Enroulement', Motorisation: 'Disponible' },
   },
-  // ── Portes d'Entrée (52 modèles) ─────────────────────────────────────
+  // ── Portes d'Entrée (photo produit → contain) ────────────────────────
   ...Array.from({ length: 52 }, (_, i) => {
     const n = i + 1;
     return {
@@ -249,12 +265,13 @@ export const menuiserieProducts = [
       specs: { Modèle: `${n}`, Fermeture: 'Multi-points', Finition: 'Laquée' },
     };
   }),
-  // ── Moustiquaires ────────────────────────────────────────────────────
+  // ── Moustiquaires (photos de scène → cover) ───────────────────────────
   {
     id: 'moustiquaire-fixe',
     name: 'Moustiquaire Fixe',
     mainCategory: 'moustiquaires',
     subCategory: 'Moustiquaires',
+    cover: true,
     image: `${U}/sineklik-pileli.jpeg`,
     description: 'Moustiquaire fixe — installation permanente, cadre aluminium robuste',
     specs: { Type: 'Fixe', Cadre: 'Aluminium', Installation: 'Permanente' },
@@ -264,6 +281,7 @@ export const menuiserieProducts = [
     name: 'Moustiquaire Enroulable',
     mainCategory: 'moustiquaires',
     subCategory: 'Moustiquaires',
+    cover: true,
     image: `${U}/Store-Sineklik.jpeg`,
     description: "Moustiquaire enroulable — s'escamote automatiquement, design discret",
     specs: { Type: 'Enroulable', Mécanisme: 'Ressort automatique' },
@@ -273,6 +291,7 @@ export const menuiserieProducts = [
     name: 'Moustiquaire Plissée',
     mainCategory: 'moustiquaires',
     subCategory: 'Moustiquaires',
+    cover: true,
     image: `${U}/sineklik-pileli.jpeg`,
     description: "Moustiquaire plissée — idéale pour les portes, s'escamote latéralement en accordéon",
     specs: { Type: 'Plissée', Application: 'Porte', Mécanisme: 'Accordéon' },
@@ -282,16 +301,18 @@ export const menuiserieProducts = [
     name: 'Moustiquaire Coulissante',
     mainCategory: 'moustiquaires',
     subCategory: 'Moustiquaires',
+    cover: true,
     image: `${U}/Store-Sineklik.jpeg`,
     description: 'Moustiquaire coulissante — pour baies coulissantes et grandes ouvertures',
     specs: { Type: 'Coulissante', Application: 'Baie coulissante' },
   },
-  // ── Solutions Verre ──────────────────────────────────────────────────
+  // ── Solutions Verre (photos de scène → cover) ─────────────────────────
   {
     id: 'verre-classique',
     name: 'Verre Classique',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Isicam.jpeg`,
     description: 'Double vitrage classique — rapport qualité/prix optimal',
     specs: { Type: 'Classique', Vitrage: 'Double', 'Ug (W/m²K)': '1,1' },
@@ -301,6 +322,7 @@ export const menuiserieProducts = [
     name: 'Verre Feuilleté',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Lamine-Cam-e1623347791212.jpeg`,
     description: 'Verre feuilleté sécurité — en cas de bris, les fragments restent adhérents au film PVB',
     specs: { Type: 'Feuilleté', Sécurité: 'Anti-bris', Norme: 'EN 356' },
@@ -310,6 +332,7 @@ export const menuiserieProducts = [
     name: 'Verre Trempé',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Temperli-cam.jpeg`,
     description: 'Verre trempé thermiquement — résistance mécanique 5× supérieure au verre ordinaire',
     specs: { Type: 'Trempé', Résistance: '5× standard', Norme: 'EN 12150' },
@@ -319,6 +342,7 @@ export const menuiserieProducts = [
     name: 'Verre à Contrôle Solaire',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Low-E-cam-1.jpeg`,
     description: 'Contrôle solaire — limite les apports de chaleur tout en laissant passer la lumière naturelle',
     specs: { Type: 'Contrôle Solaire', 'Facteur solaire g': '≤ 0,35', 'TL (%)': '≥ 60' },
@@ -328,6 +352,7 @@ export const menuiserieProducts = [
     name: 'Verre Décoratif',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Reflekte-cam.jpeg`,
     description: 'Verre décoratif — textures, imprimés et couleurs pour une touche design sur mesure',
     specs: { Type: 'Décoratif', Finitions: 'Multiples' },
@@ -337,6 +362,7 @@ export const menuiserieProducts = [
     name: 'Verre Anti-Effraction',
     mainCategory: 'solutions-verre',
     subCategory: 'Solutions Verre',
+    cover: true,
     image: `${U}/Akustik-Cam1.png`,
     description: "Verre anti-effraction — résistance aux tentatives d'intrusion, classes P2A à P8B",
     specs: { Type: 'Anti-Effraction', Classe: 'P2A à P8B', Norme: 'EN 356' },

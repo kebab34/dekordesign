@@ -43,7 +43,11 @@ const MenuiserieDetailPage = () => {
       {/* Main content */}
       <div className="mdet-content">
         {/* Image cliquable */}
-        <div className="mdet-img-wrapper" onClick={() => setLightbox(true)} title="Voir en grand">
+        <div
+          className={`mdet-img-wrapper ${product.cover ? 'mdet-img-wrapper--cover' : ''}`}
+          onClick={() => setLightbox(true)}
+          title="Voir en grand"
+        >
           <img
             src={product.image}
             alt={product.name}

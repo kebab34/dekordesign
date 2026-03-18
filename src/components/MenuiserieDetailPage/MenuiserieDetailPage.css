@@ -59,6 +59,15 @@
   object-fit: contain;
 }
 
+/* Photo de scène */
+.mdet-img-wrapper--cover {
+  background-color: #141414;
+}
+
+.mdet-img-wrapper--cover .mdet-img {
+  object-fit: cover;
+}
+
 .mdet-img-zoom-hint {
   position: absolute;
   bottom: 12px;

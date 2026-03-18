@@ -275,7 +275,20 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  transition: none;
+}
+
+/* Photo de scène : cover + zoom au hover */
+.men-img-wrapper--cover {
+  background-color: #141414;
+}
+
+.men-img-wrapper--cover .men-img {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.men-card:hover .men-img-wrapper--cover .men-img {
+  transform: scale(1.05);
 }
 
 .men-card-info {

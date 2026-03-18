@@ -167,7 +167,7 @@ const MenuiseriePage = () => {
       <div className="men-grid">
         {filtered.map(product => (
           <Link key={product.id} to={`/menuiserie/${product.id}`} className="men-card">
-            <div className="men-img-wrapper">
+            <div className={`men-img-wrapper ${product.cover ? 'men-img-wrapper--cover' : ''}`}>
               <img
                 src={product.image}
                 alt={product.name}
