@@ -115,6 +115,9 @@ const KobosPage = () => {
                   {product.images.length > 1 && (
                     <span className="kobos-img-count">{product.images.length} photos</span>
                   )}
+                  <div className="kobos-name-overlay">
+                    <p className="kobos-name-mob">{product.name}</p>
+                  </div>
                 </div>
                 <div className="kobos-card-info">
                   <h3 className="kobos-card-name">{product.name}</h3>
