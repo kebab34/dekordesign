@@ -27,16 +27,10 @@ export const roomCategoriesData = [
 
 export const productCategoriesData = [
   {
-    name: 'Carrelages Cuisine',
-    description: 'Céramiques et grès italiens pour des cuisines d\'exception',
-    image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=900&q=80',
-    path: '/cuisines'
-  },
-  {
-    name: 'Meubles de Cuisine',
-    description: 'Collections Soprano — design contemporain et finitions haut de gamme',
+    name: 'Cuisines sur Mesure',
+    description: 'Atölye Mutfak & Soprano — 31 modèles, tous styles et finitions',
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80',
-    path: '/cuisines-soprano'
+    path: '/cuisines'
   },
   {
     name: 'Appareils Sanitaires',

@@ -1,17 +1,40 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { cuisineData, cuisineCategories } from '../../data/cuisineData';
+import { cuisineData } from '../../data/cuisineData';
+import { sopranoData } from '../../data/sopranoData';
 import './CuisinePage.css';
 
-const uniqueVals = (field) =>
-  [...new Set(cuisineData.map(p => p.specs[field]).filter(Boolean))].sort();
+// ── Normalisation des deux sources ───────────────────────────────────────────
+const allProducts = [
+  ...cuisineData.map(p => ({
+    key: `atolye-${p.id}`,
+    name: p.name,
+    image: p.image,
+    style: p.category,
+    finition: p.specs['Finition'] || '',
+    colors: [],
+    marque: 'Atölye Mutfak',
+    path: `/cuisines/${p.id}`,
+  })),
+  ...sopranoData.map(p => ({
+    key: `soprano-${p.id}`,
+    name: p.name,
+    image: p.image,
+    style: p.style,
+    finition: '',
+    colors: p.colors,
+    marque: 'Soprano',
+    path: `/cuisines-soprano/${p.slug}`,
+  })),
+];
 
-const FINITIONS = uniqueVals('Finition');
-const POIGNEES  = uniqueVals('Poignées');
+const STYLES    = [...new Set(allProducts.map(p => p.style))].sort();
+const FINITIONS = [...new Set(cuisineData.map(p => p.specs['Finition']).filter(Boolean))].sort();
+const COULEURS  = [...new Set(sopranoData.flatMap(p => p.colors))].filter(Boolean).sort();
 
+// ── Dropdown générique ────────────────────────────────────────────────────────
 const FilterDropdown = ({ title, options, active, onSelect }) => {
   const [open, setOpen] = useState(false);
-
   return (
     <div className="cui-filter-group">
       <p className="cui-filter-label">{title}</p>
@@ -51,47 +74,54 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
   );
 };
 
+// ── Page ──────────────────────────────────────────────────────────────────────
 const CuisinePage = () => {
   const location = useLocation();
-  const [activeCategory, setActiveCategory] = useState('');
+  const [activeMarque,   setActiveMarque]   = useState('');
+  const [activeStyle,    setActiveStyle]    = useState('');
   const [activeFinition, setActiveFinition] = useState('');
-  const [activePoignees, setActivePoignees] = useState('');
+  const [activeCouleur,  setActiveCouleur]  = useState('');
   const [search,         setSearch]         = useState('');
   const [sidebarOpen,    setSidebarOpen]    = useState(false);
 
+  // Sync URL params (?marque=atolye|soprano, ?style=...)
   useEffect(() => {
-    const params = new URLSearchParams(location.search);
-    const style = params.get('style');
-    if (style && cuisineCategories.includes(style)) {
-      setActiveCategory(style);
-    }
+    const p = new URLSearchParams(location.search);
+    const m = p.get('marque') || '';
+    if (m === 'atolye') setActiveMarque('Atölye Mutfak');
+    else if (m === 'soprano') setActiveMarque('Soprano');
+    else setActiveMarque('');
+    setActiveStyle(p.get('style') || '');
   }, [location.search]);
 
-  const filtered = useMemo(() => cuisineData.filter(p => {
-    if (activeCategory && p.category !== activeCategory) return false;
-    if (activeFinition  && p.specs['Finition']  !== activeFinition)  return false;
-    if (activePoignees  && p.specs['Poignées']  !== activePoignees)  return false;
-    if (search) {
-      const q = search.toLowerCase();
-      return p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q);
-    }
+  const filtered = useMemo(() => allProducts.filter(p => {
+    if (activeMarque   && p.marque !== activeMarque) return false;
+    if (activeStyle    && p.style  !== activeStyle)  return false;
+    if (activeFinition && p.finition !== activeFinition) return false;
+    if (activeCouleur  && !p.colors.includes(activeCouleur)) return false;
+    if (search && !p.name.toLowerCase().includes(search.toLowerCase())) return false;
     return true;
-  }), [activeCategory, activeFinition, activePoignees, search]);
+  }), [activeMarque, activeStyle, activeFinition, activeCouleur, search]);
 
-  const hasFilters = activeCategory || activeFinition || activePoignees || search;
+  const hasFilters = activeMarque || activeStyle || activeFinition || activeCouleur || search;
 
   const clearAll = () => {
-    setActiveCategory('');
+    setActiveMarque('');
+    setActiveStyle('');
     setActiveFinition('');
-    setActivePoignees('');
+    setActiveCouleur('');
     setSearch('');
   };
+
+  // Les finitions/couleurs ne sont pertinentes que si la marque correspondante est visible
+  const showFinition = !activeMarque || activeMarque === 'Atölye Mutfak';
+  const showCouleur  = !activeMarque || activeMarque === 'Soprano';
 
   return (
     <section className="cui-page">
       <div className="cui-header">
         <div className="cui-gold-line"></div>
-        <h2 className="cui-title">CUISINES</h2>
+        <h2 className="cui-title">CUISINES SUR MESURE</h2>
         <p className="cui-subtitle">
           {filtered.length} modèle{filtered.length > 1 ? 's' : ''} trouvé{filtered.length > 1 ? 's' : ''}
         </p>
@@ -106,51 +136,16 @@ const CuisinePage = () => {
             )}
           </div>
 
-          <FilterDropdown
-            title="STYLE"
-            options={cuisineCategories}
-            active={activeCategory}
-            onSelect={setActiveCategory}
-          />
-
-          <FilterDropdown
-            title="FINITION"
-            options={FINITIONS}
-            active={activeFinition}
-            onSelect={setActiveFinition}
-          />
-
-          <FilterDropdown
-            title="POIGNÉES"
-            options={POIGNEES}
-            active={activePoignees}
-            onSelect={setActivePoignees}
-          />
-
-          {hasFilters && (
-            <div className="cui-active-filters">
-              {activeCategory && <span className="cui-tag">{activeCategory} <button onClick={() => setActiveCategory('')}>×</button></span>}
-              {activeFinition  && <span className="cui-tag">{activeFinition} <button onClick={() => setActiveFinition('')}>×</button></span>}
-              {activePoignees  && <span className="cui-tag">{activePoignees} <button onClick={() => setActivePoignees('')}>×</button></span>}
-              {search          && <span className="cui-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
-            </div>
-          )}
-          <button className="cui-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
-        </aside>
-
-        {sidebarOpen && (
-          <div className="cui-filters-overlay" onClick={() => setSidebarOpen(false)} />
-        )}
-
-        <div className="cui-main">
-          <div className="cui-search-bar">
+          {/* Recherche */}
+          <div className="cui-filter-group">
+            <p className="cui-filter-label">RECHERCHE</p>
             <div className="cui-search">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
               <input
                 type="text"
-                placeholder="Rechercher un modèle..."
+                placeholder="Nom du modèle..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 className="cui-search-input"
@@ -159,9 +154,57 @@ const CuisinePage = () => {
             </div>
           </div>
 
+          {/* Marque */}
+          <div className="cui-filter-group">
+            <p className="cui-filter-label">MARQUE</p>
+            <div className="cui-option-list">
+              {['Atölye Mutfak', 'Soprano'].map(m => (
+                <div
+                  key={m}
+                  className={`cui-option ${activeMarque === m ? 'active' : ''}`}
+                  onClick={() => {
+                    setActiveMarque(prev => prev === m ? '' : m);
+                    setActiveFinition('');
+                    setActiveCouleur('');
+                  }}
+                >
+                  {m}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <FilterDropdown title="STYLE" options={STYLES} active={activeStyle} onSelect={setActiveStyle} />
+
+          {showFinition && (
+            <FilterDropdown title="FINITION" options={FINITIONS} active={activeFinition} onSelect={setActiveFinition} />
+          )}
+
+          {showCouleur && (
+            <FilterDropdown title="COULEUR" options={COULEURS} active={activeCouleur} onSelect={setActiveCouleur} />
+          )}
+
+          {hasFilters && (
+            <div className="cui-active-filters">
+              {activeMarque   && <span className="cui-tag">{activeMarque}   <button onClick={() => setActiveMarque('')}>×</button></span>}
+              {activeStyle    && <span className="cui-tag">{activeStyle}    <button onClick={() => setActiveStyle('')}>×</button></span>}
+              {activeFinition && <span className="cui-tag">{activeFinition} <button onClick={() => setActiveFinition('')}>×</button></span>}
+              {activeCouleur  && <span className="cui-tag">{activeCouleur}  <button onClick={() => setActiveCouleur('')}>×</button></span>}
+              {search         && <span className="cui-tag">"{search}"       <button onClick={() => setSearch('')}>×</button></span>}
+            </div>
+          )}
+
+          <button className="cui-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
+        </aside>
+
+        {sidebarOpen && (
+          <div className="cui-filters-overlay" onClick={() => setSidebarOpen(false)} />
+        )}
+
+        <div className="cui-main">
           <div className="cui-grid">
             {filtered.map(product => (
-              <Link key={product.id} to={`/cuisines/${product.id}`} className="cui-card">
+              <Link key={product.key} to={product.path} className="cui-card">
                 <div className="cui-img-wrapper">
                   <img
                     src={product.image}
@@ -173,11 +216,14 @@ const CuisinePage = () => {
                   <div className="cui-card-overlay">
                     <span className="cui-card-discover">Découvrir</span>
                   </div>
+                  <span className="cui-marque-badge">{product.marque}</span>
                 </div>
                 <div className="cui-card-info">
-                  <span className="cui-card-cat">{product.category}</span>
+                  <span className="cui-card-cat">{product.style}</span>
                   <h3 className="cui-card-name">{product.name}</h3>
-                  <span className="cui-card-finish">{product.specs['Finition']}</span>
+                  <span className="cui-card-finish">
+                    {product.finition || (product.colors.length > 0 ? product.colors.slice(0, 3).join(' · ') : '')}
+                  </span>
                 </div>
               </Link>
             ))}
@@ -197,8 +243,10 @@ const CuisinePage = () => {
           <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
         </svg>
         Filtres
-        {[activeCategory, activeFinition, activePoignees, search].filter(Boolean).length > 0 && (
-          <span className="cui-filters-fab-badge">{[activeCategory, activeFinition, activePoignees, search].filter(Boolean).length}</span>
+        {[activeMarque, activeStyle, activeFinition, activeCouleur, search].filter(Boolean).length > 0 && (
+          <span className="cui-filters-fab-badge">
+            {[activeMarque, activeStyle, activeFinition, activeCouleur, search].filter(Boolean).length}
+          </span>
         )}
       </button>
     </section>

@@ -72,8 +72,10 @@ const Header = () => {
           </NavDropdown>
 
           <NavDropdown label="CUISINES" to="/cuisines">
-            <Link to="/cuisines" className="dropdown-item">Carrelages cuisine</Link>
-            <Link to="/cuisines-soprano" className="dropdown-item">Meubles de cuisine</Link>
+            <Link to="/cuisines" className="dropdown-item">Tout voir</Link>
+            <div className="dropdown-divider"></div>
+            <Link to="/cuisines?marque=atolye" className="dropdown-item">Atölye Mutfak</Link>
+            <Link to="/cuisines?marque=soprano" className="dropdown-item">Soprano</Link>
           </NavDropdown>
 
           <NavDropdown label="MENUISERIE" to="/menuiserie">
@@ -163,8 +165,9 @@ const Header = () => {
             </button>
             {mobileExpanded === 'cuisines' && (
               <div className="mobile-submenu">
-                <Link to="/cuisines" className="mobile-sublink" onClick={closeMenu}>Carrelages cuisine</Link>
-                <Link to="/cuisines-soprano" className="mobile-sublink" onClick={closeMenu}>Meubles de cuisine</Link>
+                <Link to="/cuisines" className="mobile-sublink" onClick={closeMenu}>Tout voir</Link>
+                <Link to="/cuisines?marque=atolye" className="mobile-sublink" onClick={closeMenu}>Atölye Mutfak</Link>
+                <Link to="/cuisines?marque=soprano" className="mobile-sublink" onClick={closeMenu}>Soprano</Link>
               </div>
             )}
           </div>
