@@ -27,33 +27,33 @@ export const roomCategoriesData = [
 
 export const productCategoriesData = [
   {
-    name: 'Cuisines sur Mesure',
-    description: 'Créations architecturales où fonctionnalité et esthétique s\'harmonisent',
+    name: 'Carrelages Cuisine',
+    description: 'Céramiques et grès italiens pour des cuisines d\'exception',
     image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=900&q=80',
     path: '/cuisines'
   },
   {
-    name: 'Meubles de Salle de Bain',
-    description: 'Collections Verona, Perla, Ole et Wave - Design exclusif sur mesure',
+    name: 'Meubles de Cuisine',
+    description: 'Collections Soprano — design contemporain et finitions haut de gamme',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80',
+    path: '/cuisines-soprano'
+  },
+  {
+    name: 'Appareils Sanitaires',
+    description: 'Baignoires, vasques et WC aux lignes architecturales épurées',
     image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=900&q=80',
     path: '/sanitaire'
   },
   {
-    name: 'Baignoires & Vasques',
-    description: 'Pièces sculpturales alliant confort absolu et design contemporain',
+    name: 'Meubles de Salle de Bain',
+    description: 'Collections Kobos — élégance et fonctionnalité sur mesure',
     image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80',
-    path: '/accessoires'
-  },
-  {
-    name: 'Revêtements Premium',
-    description: 'Marbres naturels, céramiques italiennes et pierres d\'exception',
-    image: 'https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=900&q=80',
-    path: '/collections'
+    path: '/meubles'
   },
   {
     name: 'Robinetterie de Luxe',
-    description: 'Finitions sophistiquées - or brossé, noir mat, chrome poli',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80',
+    description: 'Finitions sophistiquées — or brossé, noir mat, chrome poli',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=900&q=80',
     path: '/armaturler'
   },
   {
@@ -61,7 +61,31 @@ export const productCategoriesData = [
     description: 'Solutions douche premium — colonnes, parois et receveurs d\'exception',
     image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80',
     path: '/douche'
-  }
+  },
+  {
+    name: 'Produits Complémentaires',
+    description: 'Accessoires et compléments pour sublimer votre salle de bain',
+    image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=900&q=80',
+    path: '/accessoires'
+  },
+  {
+    name: 'Accessoires de Bain',
+    description: 'Miroirs, porte-serviettes et accessoires design pour votre espace',
+    image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80',
+    path: '/bain-accessoires'
+  },
+  {
+    name: 'Menuiserie',
+    description: 'Portes, fenêtres PVC & ALU, volets roulants et systèmes guillotine',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80',
+    path: '/menuiserie'
+  },
+  {
+    name: 'Extérieur & Pergolas',
+    description: 'Pergolas motorisées, stores ZIP et vitrages guillotine pour vos terrasses',
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=900&q=80',
+    path: '/exterieur'
+  },
 ];
 
 // Liste des collections disponibles
