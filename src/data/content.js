@@ -29,55 +29,55 @@ export const productCategoriesData = [
   {
     name: 'Cuisines sur Mesure',
     description: 'Atölye Mutfak & Soprano — 31 modèles, tous styles et finitions',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80',
+    image: 'https://www.atolyemutfak.com.tr/uploads/artus-kitchen-01-1200x791.webp',
     path: '/cuisines'
   },
   {
     name: 'Appareils Sanitaires',
     description: 'Baignoires, vasques et WC aux lignes architecturales épurées',
-    image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=900&q=80',
+    image: 'https://bienseramik.b-cdn.net/uploads/banyo-seramik-saglik-gerecleri.jpg',
     path: '/sanitaire'
   },
   {
     name: 'Meubles de Salle de Bain',
     description: 'Collections Kobos — élégance et fonctionnalité sur mesure',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&q=80',
+    image: 'https://cdn.techex.com.tr/www.kobosbanyo.com/uploads/33ebeda9-07f8-4d58-92ff-f5d1a6446031.jpg?boyut=800,800',
     path: '/meubles'
   },
   {
     name: 'Robinetterie de Luxe',
     description: 'Finitions sophistiquées — or brossé, noir mat, chrome poli',
-    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=900&q=80',
+    image: 'https://bienseramik.b-cdn.net/uploads/banyo-armaturler.jpg',
     path: '/armaturler'
   },
   {
     name: 'Systèmes de Douche',
     description: 'Solutions douche premium — colonnes, parois et receveurs d\'exception',
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80',
+    image: 'https://bienseramik.b-cdn.net/uploads/ara-kategori-dus-sistemleri-urunleri.jpg',
     path: '/douche'
   },
   {
     name: 'Produits Complémentaires',
     description: 'Accessoires et compléments pour sublimer votre salle de bain',
-    image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=900&q=80',
+    image: 'https://bienseramik.b-cdn.net/uploads/banyo-gomme-rezervuarlar.jpg',
     path: '/accessoires'
   },
   {
     name: 'Accessoires de Bain',
     description: 'Miroirs, porte-serviettes et accessoires design pour votre espace',
-    image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=900&q=80',
+    image: 'https://bienseramik.b-cdn.net/uploads/banyo-aksesuarlari_v1.jpg',
     path: '/bain-accessoires'
   },
   {
     name: 'Menuiserie',
     description: 'Portes, fenêtres PVC & ALU, volets roulants et systèmes guillotine',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80',
+    image: 'https://www.geniuspergola.com/img/_19365022112019_.jpg',
     path: '/menuiserie'
   },
   {
     name: 'Extérieur & Pergolas',
     description: 'Pergolas motorisées, stores ZIP et vitrages guillotine pour vos terrasses',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=900&q=80',
+    image: 'https://www.geniuspergola.com/img/_1705122112019_.jpg',
     path: '/exterieur'
   },
 ];
