@@ -1,0 +1,7252 @@
+{
+  "adel": {
+    "colors": [
+      "GREY",
+      "IVORY",
+      "WHITE"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "ADEL GREY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "IVORY",
+        "format": "60×120",
+        "file": "ADEL IVORY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "60×120",
+        "file": "ADEL WHITE 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ADEL 60X120 IVORY.jpg",
+      "ADEL 60X120.jpg"
+    ]
+  },
+  "adela": {
+    "colors": [
+      "ANTRASIT  DEKOFON",
+      "ANTRASIT",
+      "BEYAZ",
+      "BEYAZ DEKOFON",
+      "GREY",
+      "GREY  DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT  DEKOFON",
+        "format": "30×90",
+        "file": "ADELA ANTRASIT  DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "30×90",
+        "file": "ADELA ANTRASIT 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ",
+        "format": "30×90",
+        "file": "ADELA BEYAZ 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ DEKOFON",
+        "format": "30×90",
+        "file": "ADELA BEYAZ DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "30×90",
+        "file": "ADELA GREY  30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "45×45",
+        "file": "ADELA GREY  45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY  DEKOFON",
+        "format": "30×90",
+        "file": "ADELA GREY  DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ADELA 30X90 GREY.jpg"
+    ]
+  },
+  "adonis": {
+    "colors": [
+      "STANDARD",
+      "MAT 30X90 DEKOFON",
+      "MAT 30X90 FON",
+      "MAT"
+    ],
+    "formats": [
+      "60×60",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "ADONIS 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "MAT 30X90 DEKOFON",
+        "format": "",
+        "file": "ADONIS MAT 30X90 DEKOFON - FACE 1.jpg"
+      },
+      {
+        "color": "MAT 30X90 FON",
+        "format": "",
+        "file": "ADONIS MAT 30X90 FON - FACE 1.jpg"
+      },
+      {
+        "color": "MAT",
+        "format": "45×45",
+        "file": "ADONIS MAT 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ADONIS 30X90 BEYAZ.jpg",
+      "Adonis.jpg"
+    ]
+  },
+  "adria": {
+    "colors": [
+      "ANTRASIT YER KAROSU",
+      "ANTRASİT",
+      "KAHVE DUVAR",
+      "KAHVE YER KAROSU",
+      "MIX DEKOFON",
+      "WHITE DEKOFON",
+      "WHITE DUVAR",
+      "WHITE YER KAROSU"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT YER KAROSU",
+        "format": "",
+        "file": "ADRIA ANTRASIT YER KAROSU - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASİT",
+        "format": "30×90",
+        "file": "ADRIA ANTRASİT 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "KAHVE DUVAR",
+        "format": "30×90",
+        "file": "ADRIA KAHVE DUVAR 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "KAHVE YER KAROSU",
+        "format": "",
+        "file": "ADRIA KAHVE YER KAROSU - FACE 1.jpg"
+      },
+      {
+        "color": "MIX DEKOFON",
+        "format": "30×90",
+        "file": "ADRIA MIX DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE DEKOFON",
+        "format": "30×90",
+        "file": "ADRIA WHITE DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE DUVAR",
+        "format": "30×90",
+        "file": "ADRIA WHITE DUVAR 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE YER KAROSU",
+        "format": "",
+        "file": "ADRIA WHITE YER KAROSU - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ADRIA 30X90 BANYO RENDER 1 kopya.jpg",
+      "ADRIA 30X90 BANYO RENDER 2 kopya.jpg",
+      "ADRIA-30X90-RENDER.jpg"
+    ]
+  },
+  "alba": {
+    "colors": [
+      "STANDARD",
+      "AUTUMN",
+      "SPRING",
+      "SUMMER",
+      "WINTER"
+    ],
+    "formats": [
+      "19,7×19,7"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "19,7×19,7",
+        "file": "ALBA 19,7X19,7.jpg"
+      },
+      {
+        "color": "AUTUMN",
+        "format": "19,7×19,7",
+        "file": "ALBA AUTUMN 19,7X19,7.jpg"
+      },
+      {
+        "color": "SPRING",
+        "format": "19,7×19,7",
+        "file": "ALBA SPRING 19,7X19,7.jpg"
+      },
+      {
+        "color": "SUMMER",
+        "format": "19,7×19,7",
+        "file": "ALBA SUMMER 19,7X19,7.jpg"
+      },
+      {
+        "color": "WINTER",
+        "format": "19,7×19,7",
+        "file": "ALBA WINTER 19,7X19,7.jpg"
+      }
+    ],
+    "renders": [
+      "ALBA 19.7X19.7.jpg"
+    ]
+  },
+  "albero": {
+    "colors": [
+      "EBONI",
+      "GREY",
+      "OAK"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "EBONI",
+        "format": "60×60",
+        "file": "ALBERO EBONI 60X60-FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×60",
+        "file": "ALBERO GREY 60X60-FACE 1.jpg"
+      },
+      {
+        "color": "OAK",
+        "format": "60×60",
+        "file": "ALBERO OAK 60X60-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ALBERO 60X60-1.jpg",
+      "ALBERO 60X60.jpg"
+    ]
+  },
+  "aldonsa": {
+    "colors": [
+      "BEYAZ"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BEYAZ",
+        "format": "60×120",
+        "file": "ALDONSA BEYAZ 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "alin": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "30×90",
+        "file": "ALIN 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "45×45",
+        "file": "ALIN 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×90",
+        "file": "ALIN DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ALIN 30X90.jpg"
+    ]
+  },
+  "altus": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ALTUS 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "alyssa": {
+    "colors": [
+      "60X60 ALYSSA ANTRASIT",
+      "60X60 ALYSSA BONE",
+      "GREY MAT"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "60X60 ALYSSA ANTRASIT",
+        "format": "",
+        "file": "60X60 ALYSSA ANTRASIT FACE 1.jpg"
+      },
+      {
+        "color": "60X60 ALYSSA BONE",
+        "format": "",
+        "file": "60X60 ALYSSA BONE FACE 1.jpg"
+      },
+      {
+        "color": "GREY MAT",
+        "format": "60×60",
+        "file": "ALYSSA GREY MAT 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ALYSSA GREY  60X60.jpg"
+    ]
+  },
+  "antiasit": {
+    "colors": [
+      "Anti Asit_33x33 Beige",
+      "Anti Asit_33x33 Beyaz",
+      "Anti Asit_33x33 Grey"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Anti Asit_33x33 Beige",
+        "format": "",
+        "file": "Anti Asit_33x33 Beige.jpg"
+      },
+      {
+        "color": "Anti Asit_33x33 Beyaz",
+        "format": "",
+        "file": "Anti Asit_33x33 Beyaz.jpg"
+      },
+      {
+        "color": "Anti Asit_33x33 Grey",
+        "format": "",
+        "file": "Anti Asit_33x33 Grey.jpg"
+      }
+    ],
+    "renders": [
+      "Anti-Asit 33x33-1.jpg",
+      "Anti-Asit 33x33-2.jpg"
+    ]
+  },
+  "anticatto": {
+    "colors": [
+      "BIANCO",
+      "MISTO"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BIANCO",
+        "format": "60×60",
+        "file": "ANTICATTO BIANCO 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "MISTO",
+        "format": "60×60",
+        "file": "ANTICATTO MISTO 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ANTICATTO MISTO 60X60.jpg"
+    ]
+  },
+  "antique-carrara": {
+    "colors": [
+      "40X120 DEKOR - 1",
+      "40X120 POLYGON DEKOR - 1",
+      "STANDARD",
+      "ANTUQUE CARRARA 40X120 DEKOFON - 1",
+      "ANTUQUE CARRARA 40X120 DEKOFON - 2",
+      "ANTUQUE CARRARA 40X120 DEKOFON - 3",
+      "ANTUQUE CARRARA 40X120 FON - 1",
+      "ANTUQUE CARRARA 40X120 FON - 2",
+      "ANTUQUE CARRARA 40X120 FON - 3"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "40X120 DEKOR - 1",
+        "format": "",
+        "file": "ANTIQUE CARRARA 40X120 DEKOR - 1.jpg"
+      },
+      {
+        "color": "40X120 POLYGON DEKOR - 1",
+        "format": "",
+        "file": "ANTIQUE CARRARA 40X120 POLYGON DEKOR - 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "ANTIQUE CARRARA 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTUQUE CARRARA 40X120 DEKOFON - 1",
+        "format": "",
+        "file": "ANTUQUE CARRARA 40X120 DEKOFON - 1.jpg"
+      },
+      {
+        "color": "ANTUQUE CARRARA 40X120 DEKOFON - 2",
+        "format": "",
+        "file": "ANTUQUE CARRARA 40X120 DEKOFON - 2.jpg"
+      },
+      {
+        "color": "ANTUQUE CARRARA 40X120 DEKOFON - 3",
+        "format": "",
+        "file": "ANTUQUE CARRARA 40X120 DEKOFON - 3.jpg"
+      },
+      {
+        "color": "ANTUQUE CARRARA 40X120 FON - 1",
+        "format": "",
+        "file": "ANTUQUE CARRARA 40X120 FON - 1.jpg"
+      },
+      {
+        "color": "ANTUQUE CARRARA 40X120 FON - 2",
+        "format": "",
+        "file": "ANTUQUE CARRARA 40X120 FON - 2.jpg"
+      }
+    ],
+    "renders": [
+      "ANTIQUE CARRARA.jpg"
+    ]
+  },
+  "arch": {
+    "colors": [
+      "40X40 ARCH GREY FACE1",
+      "40X40 ARCH GREY FACE2",
+      "40X40 ARCH GREY FACE3",
+      "40X40 ARCH GREY FACE4",
+      "40X40 ARCH GREY FACE5",
+      "40X40 ARCH GREY FACE6",
+      "40X40 ARCH GREY FACE7",
+      "40X40 ARCH GREY FACE8",
+      "A.GRI 40X40 MAT FACE1",
+      "A.GRI 40X40 MAT FACE2",
+      "A.GRI 40X40 MAT FACE3",
+      "A.GRI 40X40 MAT FACE4",
+      "A.GRI 40X40 MAT FACE5",
+      "A.GRI 40X40 MAT FACE6",
+      "A.GRI 40X40 MAT FACE7",
+      "A.GRI 40X40 MAT FACE8",
+      "ACIK GRI 30X60 PRLK FACE1",
+      "ACIK GRI 30X60 PRLK FACE2",
+      "ACIK GRI 30X60 PRLK FACE3",
+      "ACIK GRI 30X60 PRLK FACE4",
+      "ACIK GRI 30X60 PRLK FACE5",
+      "ACIK GRI 30X60 PRLK FACE6",
+      "ACIK GRI 30X60 PRLK FACE7",
+      "ACIK GRI 30X60 PRLK FACE8",
+      "AGRI",
+      "GREY  FON 30X60 PRLK FACE1",
+      "GREY  FON 30X60 PRLK FACE2",
+      "GREY  FON 30X60 PRLK FACE3",
+      "GREY  FON 30X60 PRLK FACE4",
+      "GREY  FON 30X60 PRLK FACE5",
+      "GREY  FON 30X60 PRLK FACE6",
+      "GREY  FON 30X60 PRLK FACE7",
+      "GREY  FON 30X60 PRLK FACE8",
+      "GREY DEKOFON 30X60 FACE1",
+      "GREY DEKOFON 30X60 FACE2",
+      "GREY DEKOFON 30X60 FACE3",
+      "GREY DEKOFON 30X60 FACE4",
+      "GRI",
+      "MixDekor"
+    ],
+    "formats": [
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "40X40 ARCH GREY FACE1",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE1.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE2",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE2.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE3",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE3.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE4",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE4.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE5",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE5.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE6",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE6.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE7",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE7.jpg"
+      },
+      {
+        "color": "40X40 ARCH GREY FACE8",
+        "format": "",
+        "file": "40X40 ARCH GREY FACE8.jpg"
+      }
+    ],
+    "renders": [
+      "ARCH-1.JPG",
+      "Arch-30x60.jpg",
+      "ARCH.JPG"
+    ]
+  },
+  "arcides": {
+    "colors": [
+      "ANTRASİT",
+      "BONE",
+      "GREY",
+      "GRI",
+      "LATTE-",
+      "SMOKE",
+      "VIZON"
+    ],
+    "formats": [
+      "60×60",
+      "60×120",
+      "30×60"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASİT",
+        "format": "60×60",
+        "file": "ARCIDES ANTRASİT  60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASİT",
+        "format": "60×120",
+        "file": "ARCIDES ANTRASİT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "60×120",
+        "file": "ARCIDES BONE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "60×60",
+        "file": "ARCIDES BONE 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×60",
+        "file": "ARCIDES GREY 60x60 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "60×120",
+        "file": "ARCIDES GRI 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "LATTE-",
+        "format": "30×60",
+        "file": "ARCIDES LATTE-30X60-FACE 1.jpg"
+      },
+      {
+        "color": "LATTE-",
+        "format": "60×120",
+        "file": "ARCIDES LATTE-60X120-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ARCIDES ANTRACITE 30X60.jpg",
+      "ARCIDES BONE 30X60.jpg",
+      "ARCIDES GREY 30X60.jpg"
+    ]
+  },
+  "arcos": {
+    "colors": [
+      "MAT MOCHA",
+      "MAT SILVER",
+      "MAT SMOKE"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "MAT MOCHA",
+        "format": "60×120",
+        "file": "ARCOS MAT MOCHA 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "MAT SILVER",
+        "format": "60×120",
+        "file": "ARCOS MAT SILVER 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "MAT SMOKE",
+        "format": "60×120",
+        "file": "ARCOS MAT SMOKE 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ARCOS 60X120.jpg"
+    ]
+  },
+  "aristo": {
+    "colors": [
+      "GREY",
+      "LIGHT GREY",
+      "VIZON"
+    ],
+    "formats": [
+      "60×120",
+      "80×80"
+    ],
+    "face1s": [
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "ARISTO GREY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "80×80",
+        "file": "ARISTO GREY 80X80 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT GREY",
+        "format": "80×80",
+        "file": "ARISTO LIGHT GREY 80X80 - FACE 1.jpg"
+      },
+      {
+        "color": "VIZON",
+        "format": "80×80",
+        "file": "ARISTO VIZON  80X80 - FACE 1.jpg"
+      },
+      {
+        "color": "VIZON",
+        "format": "60×120",
+        "file": "ARISTO VIZON 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "arno": {
+    "colors": [
+      "50X50 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "50X50 TEK FACE",
+        "format": "",
+        "file": "ARNO 50X50 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "ARNO 50X50.jpg"
+    ]
+  },
+  "assos": {
+    "colors": [
+      "30x90 MAT ASOS DEKOFON FACE1",
+      "30x90 MAT ASOS DEKOFON FACE10",
+      "30x90 MAT ASOS DEKOFON FACE11",
+      "30x90 MAT ASOS DEKOFON FACE12",
+      "30x90 MAT ASOS DEKOFON FACE13",
+      "30x90 MAT ASOS DEKOFON FACE14",
+      "30x90 MAT ASOS DEKOFON FACE15",
+      "30x90 MAT ASOS DEKOFON FACE16",
+      "30x90 MAT ASOS DEKOFON FACE2",
+      "30x90 MAT ASOS DEKOFON FACE3",
+      "30x90 MAT ASOS DEKOFON FACE4",
+      "30x90 MAT ASOS DEKOFON FACE5",
+      "30x90 MAT ASOS DEKOFON FACE6",
+      "30x90 MAT ASOS DEKOFON FACE7",
+      "30x90 MAT ASOS DEKOFON FACE8",
+      "30x90 MAT ASOS DEKOFON FACE9",
+      "30x90 MAT ASOS FON FACE1",
+      "30x90 MAT ASOS FON FACE10",
+      "30x90 MAT ASOS FON FACE11",
+      "30x90 MAT ASOS FON FACE12",
+      "30x90 MAT ASOS FON FACE13",
+      "30x90 MAT ASOS FON FACE14",
+      "30x90 MAT ASOS FON FACE15",
+      "30x90 MAT ASOS FON FACE16",
+      "30x90 MAT ASOS FON FACE2",
+      "30x90 MAT ASOS FON FACE3",
+      "30x90 MAT ASOS FON FACE4",
+      "30x90 MAT ASOS FON FACE5",
+      "30x90 MAT ASOS FON FACE6",
+      "30x90 MAT ASOS FON FACE7",
+      "30x90 MAT ASOS FON FACE8",
+      "30x90 MAT ASOS FON FACE9"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE1",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE1.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE10",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE10.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE11",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE11.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE12",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE12.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE13",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE13.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE14",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE14.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE15",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE15.jpg"
+      },
+      {
+        "color": "30x90 MAT ASOS DEKOFON FACE16",
+        "format": "",
+        "file": "30x90 MAT ASOS DEKOFON FACE16.jpg"
+      }
+    ],
+    "renders": [
+      "ASOS 30X90 1.jpg",
+      "ASOS 30X90 2.jpg",
+      "ASOS 30X90 3.jpg"
+    ]
+  },
+  "astoria": {
+    "colors": [
+      "45X45 ASTORIA CREMA-1",
+      "45X45 ASTORIA CREMA-2",
+      "45X45 ASTORIA CREMA-3",
+      "CREMA DEKOFON_1",
+      "CREMA DEKOFON_2",
+      "CREMA DEKOFON_3",
+      "CREMA DEKOR_1",
+      "CREMA DEKOR_2",
+      "CREMA DEKOR_3",
+      "CREMA_1",
+      "CREMA_2",
+      "CREMA_3",
+      "GRI",
+      "GRI DEKOFON_1",
+      "GRI DEKOFON_2",
+      "GRI DEKOFON_3",
+      "GRI DEKOR_1",
+      "GRI DEKOR_2",
+      "GRI DEKOR_3",
+      "GRI_1",
+      "GRI_2",
+      "GRI_3",
+      "KAHVE DEKOFON_1",
+      "KAHVE DEKOFON_2",
+      "KAHVE DEKOFON_3",
+      "KAHVE DEKOR_1",
+      "KAHVE DEKOR_2",
+      "KAHVE DEKOR_3",
+      "KAHVE_1",
+      "KAHVE_2",
+      "KAHVE_3",
+      "TURKUAZ DEKOFON_1",
+      "TURKUAZ DEKOFON_2",
+      "TURKUAZ DEKOFON_3",
+      "TURKUAZ DEKOR_1",
+      "TURKUAZ DEKOR_2",
+      "TURKUAZ DEKOR_3",
+      "TURKUAZ_1",
+      "TURKUAZ_2",
+      "TURKUAZ_3"
+    ],
+    "formats": [
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "45X45 ASTORIA CREMA-1",
+        "format": "",
+        "file": "45X45 ASTORIA CREMA-1.jpg"
+      },
+      {
+        "color": "45X45 ASTORIA CREMA-2",
+        "format": "",
+        "file": "45X45 ASTORIA CREMA-2.jpg"
+      },
+      {
+        "color": "45X45 ASTORIA CREMA-3",
+        "format": "",
+        "file": "45X45 ASTORIA CREMA-3.jpg"
+      },
+      {
+        "color": "CREMA DEKOFON_1",
+        "format": "",
+        "file": "ASTORIA CREMA DEKOFON_1.jpg"
+      },
+      {
+        "color": "CREMA DEKOFON_2",
+        "format": "",
+        "file": "ASTORIA CREMA DEKOFON_2.jpg"
+      },
+      {
+        "color": "CREMA DEKOFON_3",
+        "format": "",
+        "file": "ASTORIA CREMA DEKOFON_3.jpg"
+      },
+      {
+        "color": "CREMA DEKOR_1",
+        "format": "",
+        "file": "ASTORIA CREMA DEKOR_1.jpg"
+      },
+      {
+        "color": "CREMA DEKOR_2",
+        "format": "",
+        "file": "ASTORIA CREMA DEKOR_2.jpg"
+      }
+    ],
+    "renders": [
+      "ASTORIA 30x90 KAHVE 3D.jpg",
+      "ASTORIA 30x90 TURKUAZ 3D.jpg",
+      "ASTORIA-30x90-GRI.jpg"
+    ]
+  },
+  "atelier": {
+    "colors": [
+      "Ash-",
+      "Pearl-",
+      "Teak-",
+      "Walnut-"
+    ],
+    "formats": [
+      "15×60"
+    ],
+    "face1s": [
+      {
+        "color": "Ash-",
+        "format": "15×60",
+        "file": "AtelierAsh-15x60.jpg"
+      },
+      {
+        "color": "Pearl-",
+        "format": "15×60",
+        "file": "AtelierPearl-15x60.jpg"
+      },
+      {
+        "color": "Teak-",
+        "format": "15×60",
+        "file": "AtelierTeak-15x60.jpg"
+      },
+      {
+        "color": "Walnut-",
+        "format": "15×60",
+        "file": "AtelierWalnut-15x60.jpg"
+      }
+    ],
+    "renders": [
+      "Atelier-Pealr.jpg"
+    ]
+  },
+  "atlantik": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ATLANTIK 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ATLANTİK 60X120.jpg"
+    ]
+  },
+  "avanos": {
+    "colors": [
+      "40X120 DUVAR KAROSU",
+      "STANDARD",
+      "BEIGE",
+      "BEIGE DEKOFON",
+      "DEKOFON 40X120 DUVAR KAROSU"
+    ],
+    "formats": [
+      "60×60",
+      "40×120"
+    ],
+    "face1s": [
+      {
+        "color": "40X120 DUVAR KAROSU",
+        "format": "",
+        "file": "AVANOS 40X120 DUVAR KAROSU - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "AVANOS 60x60  - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE",
+        "format": "40×120",
+        "file": "AVANOS BEIGE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE DEKOFON",
+        "format": "40×120",
+        "file": "AVANOS BEIGE DEKOFON 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON 40X120 DUVAR KAROSU",
+        "format": "",
+        "file": "AVANOS DEKOFON 40X120 DUVAR KAROSU - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "AVANOS 40X120 (REV).jpg",
+      "AVANOS 40X120-2.jpg"
+    ]
+  },
+  "belgium-stone": {
+    "colors": [
+      "BelgiumStoneGri30x60_1",
+      "BelgiumStoneGri30x60_2",
+      "BelgiumStoneGri30x60_3",
+      "BelgiumStoneGri60x60_1",
+      "BelgiumStoneGri60x60_2",
+      "BelgiumStoneGri60x60_3",
+      "BelgiumStoneSiyah30x60_1",
+      "BelgiumStoneSiyah30x60_2",
+      "BelgiumStoneSiyah30x60_3",
+      "BelgiumStoneSiyah60x60_1",
+      "BelgiumStoneSiyah60x60_2",
+      "BelgiumStoneSiyah60x60_3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "BelgiumStoneGri30x60_1",
+        "format": "",
+        "file": "BelgiumStoneGri30x60_1.jpg"
+      },
+      {
+        "color": "BelgiumStoneGri30x60_2",
+        "format": "",
+        "file": "BelgiumStoneGri30x60_2.jpg"
+      },
+      {
+        "color": "BelgiumStoneGri30x60_3",
+        "format": "",
+        "file": "BelgiumStoneGri30x60_3.jpg"
+      },
+      {
+        "color": "BelgiumStoneGri60x60_1",
+        "format": "",
+        "file": "BelgiumStoneGri60x60_1.jpg"
+      },
+      {
+        "color": "BelgiumStoneGri60x60_2",
+        "format": "",
+        "file": "BelgiumStoneGri60x60_2.jpg"
+      },
+      {
+        "color": "BelgiumStoneGri60x60_3",
+        "format": "",
+        "file": "BelgiumStoneGri60x60_3.jpg"
+      },
+      {
+        "color": "BelgiumStoneSiyah30x60_1",
+        "format": "",
+        "file": "BelgiumStoneSiyah30x60_1.jpg"
+      },
+      {
+        "color": "BelgiumStoneSiyah30x60_2",
+        "format": "",
+        "file": "BelgiumStoneSiyah30x60_2.jpg"
+      }
+    ],
+    "renders": [
+      "belgium stone-SPA.jpg",
+      "belgiumstone_siyah2.jpg",
+      "belgium_stone.jpg"
+    ]
+  },
+  "belita": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "BELITA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "BELITA 60X120 RENDER 2.jpg",
+      "BELITA 60X120.jpg"
+    ]
+  },
+  "bellatrix": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "BELLATRIX 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "BELLATRIX 60X120.jpg"
+    ]
+  },
+  "bengal": {
+    "colors": [
+      "DEKOFON",
+      "OXIDO",
+      "PERLA",
+      "Dekor"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "DEKOFON",
+        "format": "30×90",
+        "file": "BENGAL DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "OXIDO",
+        "format": "30×90",
+        "file": "BENGAL OXIDO 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "PERLA",
+        "format": "30×90",
+        "file": "BENGAL PERLA 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "PERLA",
+        "format": "45×45",
+        "file": "BENGAL PERLA 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "Dekor",
+        "format": "",
+        "file": "BengalDekor.jpg"
+      }
+    ],
+    "renders": [
+      "BENGAL 30X90 1.jpg",
+      "BENGAL 30X90 2.jpg",
+      "BENGAL 30X90.jpg"
+    ]
+  },
+  "beton": {
+    "colors": [
+      "ANTRASIT",
+      "BIANCO",
+      "GRI",
+      "Bianco-60x120-1",
+      "Bianco-60x120-2",
+      "Bianco-60x120-3",
+      "Gri-60x120-1",
+      "Gri-60x120-2",
+      "Gri-60x120-3"
+    ],
+    "formats": [
+      "30×60",
+      "61×61"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT",
+        "format": "30×60",
+        "file": "BETON ANTRASIT 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "61×61",
+        "file": "BETON ANTRASIT 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "30×60",
+        "file": "BETON BIANCO 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "61×61",
+        "file": "BETON BIANCO 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "30×60",
+        "file": "BETON GRI 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "61×61",
+        "file": "BETON GRI 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "Bianco-60x120-1",
+        "format": "",
+        "file": "BetonBianco-60x120-1.jpg"
+      },
+      {
+        "color": "Bianco-60x120-2",
+        "format": "",
+        "file": "BetonBianco-60x120-2.jpg"
+      }
+    ],
+    "renders": [
+      "Beton-Gri-60x120.jpg",
+      "Beton33x33.jpg"
+    ]
+  },
+  "black-star": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "120×180",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "BLACK STAR 120X180.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "BLACK STAR 60X120.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "BLACK STAR 60X60.jpg"
+      }
+    ],
+    "renders": [
+      "BLACK - WHITE STAR 120X180 R1.jpg",
+      "BLACK - WHITE STAR 120X180 R2-2.jpg",
+      "BLACK - WHITE STAR 120X180 R2.jpg"
+    ]
+  },
+  "boho": {
+    "colors": [
+      "DARK GREY 60X120-1",
+      "DARK GREY 60X120-2",
+      "DARK GREY 60X120-3",
+      "LIGHT GRI-60X120-2",
+      "LIGHT GRI-60X120-3",
+      "LIGHT GRI-"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "DARK GREY 60X120-1",
+        "format": "",
+        "file": "BOHO DARK GREY 60X120-1.jpg"
+      },
+      {
+        "color": "DARK GREY 60X120-2",
+        "format": "",
+        "file": "BOHO DARK GREY 60X120-2.jpg"
+      },
+      {
+        "color": "DARK GREY 60X120-3",
+        "format": "",
+        "file": "BOHO DARK GREY 60X120-3.jpg"
+      },
+      {
+        "color": "LIGHT GRI-60X120-2",
+        "format": "",
+        "file": "BOHO LIGHT GRI-60X120-2.jpg"
+      },
+      {
+        "color": "LIGHT GRI-60X120-3",
+        "format": "",
+        "file": "BOHO LIGHT GRI-60X120-3.jpg"
+      },
+      {
+        "color": "LIGHT GRI-",
+        "format": "60×120",
+        "file": "BOHO LIGHT GRI-60X120.jpg"
+      }
+    ],
+    "renders": [
+      "BOHO LIGHT GREY.jpg",
+      "BOHO LIGHT GRI 60X120.jpg"
+    ]
+  },
+  "bona-dea": {
+    "colors": [
+      "BIANCO",
+      "CREMA",
+      "CREMA 50X50  P1",
+      "CREMA 50X50  P2",
+      "CREMA 50X50  P3",
+      "CREMA 50X50  P4",
+      "CREMA 50X50  P5",
+      "DARK GREY 100X100 MAT P1",
+      "DARK GREY 100X100 MAT P2",
+      "DARK GREY 100X100 MAT P3",
+      "DARK GREY 100X100 MAT P4",
+      "DARK GREY 100X100 MAT P5",
+      "DARK GREY 100X100 MAT P6",
+      "DARK GREY",
+      "DARK GREY 50X50 P1",
+      "DARK GREY 50X50 P2",
+      "DARK GREY 50X50 P3",
+      "DARK GREY 50X50 P4",
+      "DARK GREY 50X50 P5",
+      "DARK GREY DEKOFON",
+      "IVORY",
+      "IVORY 50X50 P1",
+      "IVORY 50X50 P2",
+      "IVORY 50X50 P3",
+      "IVORY 50X50 P4",
+      "IVORY 50X50 P5",
+      "LIGHT GREY",
+      "LIGHT GREY DEKOFON",
+      "IVORY DEKOFON-",
+      "BONE DEA BIANCO 50X50 P1",
+      "BONE DEA BIANCO 50X50 P2",
+      "BONE DEA BIANCO 50X50 P3",
+      "BONE DEA BIANCO 50X50 P4",
+      "BONE DEA BIANCO 50X50 P5",
+      "BONE DEA LIGHT GREY 50X50 P1",
+      "BONE DEA LIGHT GREY 50X50 P2",
+      "BONE DEA LIGHT GREY 50X50 P3",
+      "BONE DEA LIGHT GREY 50X50 P4",
+      "BONE DEA LIGHT GREY 50X50 P5"
+    ],
+    "formats": [
+      "100×100",
+      "30×120",
+      "30×60",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BIANCO",
+        "format": "100×100",
+        "file": "BONA DEA BIANCO 100X100 - FACE 1.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "30×120",
+        "file": "BONA DEA BIANCO 30X120 - FACE 3.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "30×60",
+        "file": "BONA DEA BIANCO 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "60×120",
+        "file": "BONA DEA BIANCO 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BIANCO",
+        "format": "60×60",
+        "file": "BONA DEA BIANCO 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "CREMA",
+        "format": "100×100",
+        "file": "BONA DEA CREMA 100X100 - FACE 1.jpg"
+      },
+      {
+        "color": "CREMA",
+        "format": "30×120",
+        "file": "BONA DEA CREMA 30X120 - FACE 4.jpg"
+      },
+      {
+        "color": "CREMA",
+        "format": "30×60",
+        "file": "BONA DEA CREMA 30X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Bona Dea 100x100 Crema -Dark grey-Light Grey Mix 1.jpg",
+      "Bona Dea 100x100 Crema -Dark grey-Light Grey Mix 2.jpg",
+      "BONA DEA 60X60 3D Acik Renk.jpg"
+    ]
+  },
+  "bond": {
+    "colors": [
+      "BAZALT DEKOFON",
+      "BEIGE",
+      "BEJ",
+      "WOOD DEKOFON"
+    ],
+    "formats": [
+      "40×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BAZALT DEKOFON",
+        "format": "40×120",
+        "file": "BOND BAZALT DEKOFON 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE",
+        "format": "40×120",
+        "file": "BOND BEIGE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEJ",
+        "format": "60×60",
+        "file": "BOND BEJ 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "WOOD DEKOFON",
+        "format": "40×120",
+        "file": "BOND WOOD DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "BOND 40X120.jpg",
+      "BOND BAZALT 40X120.jpg"
+    ]
+  },
+  "bosco": {
+    "colors": [
+      "BIEN_BOSCO"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "BIEN_BOSCO",
+        "format": "",
+        "file": "BIEN_BOSCO - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "BOSCO 20X120 -2 RENK AYRIMI REV.jpg"
+    ]
+  },
+  "brano": {
+    "colors": [
+      "30X90 BRANO MAT BEYAZ",
+      "30X90 BRILLO BEYAZ",
+      "40X120 BRANO BEYAZ",
+      "40X120 BRILLO BEYAZ"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 BRANO MAT BEYAZ",
+        "format": "",
+        "file": "30X90 BRANO MAT BEYAZ.jpg"
+      },
+      {
+        "color": "30X90 BRILLO BEYAZ",
+        "format": "",
+        "file": "30X90 BRILLO BEYAZ.jpg"
+      },
+      {
+        "color": "40X120 BRANO BEYAZ",
+        "format": "",
+        "file": "40X120 BRANO BEYAZ.jpg"
+      },
+      {
+        "color": "40X120 BRILLO BEYAZ",
+        "format": "",
+        "file": "40X120 BRILLO BEYAZ.jpg"
+      }
+    ],
+    "renders": [
+      "BRANO 30X90.jpg"
+    ]
+  },
+  "bravas": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "100×100"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "100×100",
+        "file": "BRAVAS 100X100 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "BRAVAS 100X100.jpg"
+    ]
+  },
+  "brillo": {
+    "colors": [
+      "30X90 BRANO MAT BEYAZ",
+      "30X90 BRILLO BEYAZ",
+      "40X120 BRANO BEYAZ",
+      "40X120 BRILLO BEYAZ"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 BRANO MAT BEYAZ",
+        "format": "",
+        "file": "30X90 BRANO MAT BEYAZ.jpg"
+      },
+      {
+        "color": "30X90 BRILLO BEYAZ",
+        "format": "",
+        "file": "30X90 BRILLO BEYAZ.jpg"
+      },
+      {
+        "color": "40X120 BRANO BEYAZ",
+        "format": "",
+        "file": "40X120 BRANO BEYAZ.jpg"
+      },
+      {
+        "color": "40X120 BRILLO BEYAZ",
+        "format": "",
+        "file": "40X120 BRILLO BEYAZ.jpg"
+      }
+    ],
+    "renders": [
+      "BRILLO-40X120.jpg"
+    ]
+  },
+  "buxy": {
+    "colors": [
+      "Antrasit30x60-1",
+      "Antrasit30x60-2",
+      "Gri30x60-1",
+      "Gri30x60-2"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Antrasit30x60-1",
+        "format": "",
+        "file": "BuxyAntrasit30x60-1.jpg"
+      },
+      {
+        "color": "Antrasit30x60-2",
+        "format": "",
+        "file": "BuxyAntrasit30x60-2.jpg"
+      },
+      {
+        "color": "Gri30x60-1",
+        "format": "",
+        "file": "BuxyGri30x60-1.jpg"
+      },
+      {
+        "color": "Gri30x60-2",
+        "format": "",
+        "file": "BuxyGri30x60-2.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "calacatta-marmi": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON-",
+      "DEKOR-",
+      "FLORAL DEKOFON-"
+    ],
+    "formats": [
+      "45×45",
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "45×45",
+        "file": "CALACATTA MARMI 45X45-FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON-",
+        "format": "30×90",
+        "file": "CALACATTA MARMI DEKOFON-30X90-FACE 1.jpg"
+      },
+      {
+        "color": "DEKOR-",
+        "format": "30×90",
+        "file": "CALACATTA MARMI DEKOR-30X90-FACE 1.jpg"
+      },
+      {
+        "color": "FLORAL DEKOFON-",
+        "format": "30×90",
+        "file": "CALACATTA MARMI FLORAL DEKOFON-30X90-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "30×90",
+        "file": "CALACATTA MARMI-30X90-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CALACATTA 60X120 YENİ.jpg",
+      "CALACATTA MARMI 30x60.jpg",
+      "CALACATTA MARMI 30X90  1.jpg"
+    ]
+  },
+  "camouflage": {
+    "colors": [
+      "MAT"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "MAT",
+        "format": "60×120",
+        "file": "CAMOUFLAGE MAT 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CAMOUFLAGE 60X120 2.jpg",
+      "CAMOUFLAGE 60X120.jpg"
+    ]
+  },
+  "capella": {
+    "colors": [
+      "MAT"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "MAT",
+        "format": "60×120",
+        "file": "CAPELLA MAT 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CAPELLA 60X120 2.jpg",
+      "CAPELLA 60X120.jpg"
+    ]
+  },
+  "cappadocia": {
+    "colors": [
+      "GREY DEKOFON DUVAR KAROSU",
+      "GREY DUVAR KAROSU",
+      "GREY YER KAROSU",
+      "SAND DEKOFON DUVAR KAROSU",
+      "SAND DUVAR KAROSU",
+      "SAND YER KAROSU"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "GREY DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CAPPADOCIA GREY DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CAPPADOCIA GREY DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY YER KAROSU",
+        "format": "45×45",
+        "file": "CAPPADOCIA GREY YER KAROSU 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "SAND DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CAPPADOCIA SAND DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "SAND DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CAPPADOCIA SAND DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "SAND YER KAROSU",
+        "format": "45×45",
+        "file": "CAPPADOCIA SAND YER KAROSU 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CAPPADOCIA GREY DEKOFON  30X90 - RENDER 2.jpg",
+      "CAPPADOCIA SAND DEKOFON 30X90 -2.jpg"
+    ]
+  },
+  "carbon": {
+    "colors": [
+      "ANTRACIT",
+      "GREY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRACIT",
+        "format": "60×120",
+        "file": "CARBON ANTRACIT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "CARBON GREY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "casta": {
+    "colors": [
+      "BEIGE DEKOFON DUVAR KAROSU",
+      "BEIGE DUVAR KAROSU",
+      "BEIGE MATIS DEKOFON DUVAR KAROSU",
+      "BEIGE YER KAROSU",
+      "GREY DEKOFON DUVAR KAROSU",
+      "GREY DUVAR KAROSU",
+      "GREY MATIS DEKOFON DUVAR KAROSU",
+      "GREY YER KAROSU"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "BEIGE DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA BEIGE DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA BEIGE DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE MATIS DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA BEIGE MATIS DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE YER KAROSU",
+        "format": "45×45",
+        "file": "CASTA BEIGE YER KAROSU 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA GREY DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA GREY DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY MATIS DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "CASTA GREY MATIS DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY YER KAROSU",
+        "format": "45×45",
+        "file": "CASTA GREY YER KAROSU 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CASTA 30X90 GREY.jpg",
+      "CASTA BEIGE 30X90.jpg",
+      "CASTA GREY 30X90.jpg"
+    ]
+  },
+  "catalpa": {
+    "colors": [
+      "50X50 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "50X50 TEK FACE",
+        "format": "",
+        "file": "CATALPA 50X50 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "CATALPA 50X50 -2.jpg",
+      "CATALPA 50X50.jpg"
+    ]
+  },
+  "chakra": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "CHAKRA 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "60×120",
+        "file": "CHAKRA DEKOFON 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CHAKRA 60X120.jpg"
+    ]
+  },
+  "charlotte": {
+    "colors": [
+      "BLACK"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BLACK",
+        "format": "60×120",
+        "file": "CHARLOTTE BLACK 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CHARLOTTE 60X120 .jpg"
+    ]
+  },
+  "charm": {
+    "colors": [
+      "BLUE",
+      "RUST"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BLUE",
+        "format": "60×120",
+        "file": "CHARM BLUE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "RUST",
+        "format": "60×120",
+        "file": "CHARM RUST 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "chester": {
+    "colors": [
+      "ANTRASIT MAT",
+      "KAHVE MAT"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT MAT",
+        "format": "50×50",
+        "file": "CHESTER ANTRASIT MAT 50X50 - FACE 1.jpg"
+      },
+      {
+        "color": "KAHVE MAT",
+        "format": "50×50",
+        "file": "CHESTER KAHVE MAT 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CHESTER 60X60 BEIGE .jpg",
+      "CHESTER 60X60 BEIGE-2.jpg",
+      "CHESTER 60X60 GREY-2.jpg"
+    ]
+  },
+  "cleopatra": {
+    "colors": [
+      "60x120 F1",
+      "60x120 F2",
+      "60x120 F3",
+      "BOOKMATCH 120X180 - A",
+      "BOOKMATCH 120X180 - B"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60x120 F1",
+        "format": "",
+        "file": "CLEOPATRA 60x120 F1.jpg"
+      },
+      {
+        "color": "60x120 F2",
+        "format": "",
+        "file": "CLEOPATRA 60x120 F2.jpg"
+      },
+      {
+        "color": "60x120 F3",
+        "format": "",
+        "file": "CLEOPATRA 60x120 F3.jpg"
+      },
+      {
+        "color": "BOOKMATCH 120X180 - A",
+        "format": "",
+        "file": "CLEOPATRA BOOKMATCH 120X180 - A.jpg"
+      },
+      {
+        "color": "BOOKMATCH 120X180 - B",
+        "format": "",
+        "file": "CLEOPATRA BOOKMATCH 120X180 - B.jpg"
+      }
+    ],
+    "renders": [
+      "CLEOPATRA BOOKMATCH BANYO SAHNE kopya.JPG",
+      "CLEOPATRA BOOKMATCH RETRO SAHNE kopya.JPG",
+      "CLEOPATRA-60x120-RENDER-01.jpg"
+    ]
+  },
+  "clio": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "concept": {
+    "colors": [
+      "AGRI 120X180 face1",
+      "AGRI",
+      "ANTRACIT",
+      "ANTRASIT",
+      "BEJ",
+      "BEYAZ",
+      "GRI 120X180 face1",
+      "GRI",
+      "TAUPE 120X180 face1",
+      "TAUPE",
+      "VİZON 120X180 face2",
+      "VİZON"
+    ],
+    "formats": [
+      "30×60",
+      "60×120",
+      "60×60",
+      "120×180"
+    ],
+    "face1s": [
+      {
+        "color": "AGRI 120X180 face1",
+        "format": "",
+        "file": "CONCEPT AGRI 120X180 face1.jpg"
+      },
+      {
+        "color": "AGRI",
+        "format": "30×60",
+        "file": "CONCEPT AGRI 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "AGRI",
+        "format": "60×120",
+        "file": "CONCEPT AGRI 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "AGRI",
+        "format": "60×60",
+        "file": "CONCEPT AGRI 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRACIT",
+        "format": "120×180",
+        "file": "CONCEPT ANTRACIT 120X180 face 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "30×60",
+        "file": "CONCEPT ANTRASIT 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "60×120",
+        "file": "CONCEPT ANTRASIT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "60×60",
+        "file": "CONCEPT ANTRASIT 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Concept 120x180 Render 1.jpg",
+      "Concept 120x180 Render 2.jpg",
+      "Concept 120x180 Render 3.jpg"
+    ]
+  },
+  "coper": {
+    "colors": [
+      "MOSS",
+      "SKY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "MOSS",
+        "format": "60×120",
+        "file": "COPER MOSS 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "SKY",
+        "format": "60×120",
+        "file": "COPER SKY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "COPER 60X120 2.jpg",
+      "COPER 60X120.jpg"
+    ]
+  },
+  "country": {
+    "colors": [
+      "WOOD VENGE 20X120-1",
+      "WOOD VENGE 20X120-2",
+      "WOOD VENGE 20X120-3",
+      "WOOD WALNUT 20X120-1",
+      "WOOD WALNUT 20X120-2",
+      "WOOD WALNUT 20X120-3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "WOOD VENGE 20X120-1",
+        "format": "",
+        "file": "COUNTRY WOOD VENGE 20X120-1.jpg"
+      },
+      {
+        "color": "WOOD VENGE 20X120-2",
+        "format": "",
+        "file": "COUNTRY WOOD VENGE 20X120-2.jpg"
+      },
+      {
+        "color": "WOOD VENGE 20X120-3",
+        "format": "",
+        "file": "COUNTRY WOOD VENGE 20X120-3.jpg"
+      },
+      {
+        "color": "WOOD WALNUT 20X120-1",
+        "format": "",
+        "file": "COUNTRY WOOD WALNUT 20X120-1.jpg"
+      },
+      {
+        "color": "WOOD WALNUT 20X120-2",
+        "format": "",
+        "file": "COUNTRY WOOD WALNUT 20X120-2.jpg"
+      },
+      {
+        "color": "WOOD WALNUT 20X120-3",
+        "format": "",
+        "file": "COUNTRY WOOD WALNUT 20X120-3.jpg"
+      }
+    ],
+    "renders": [
+      "COUNTRY WOOD VENGE 20X120-1.jpg",
+      "COUNTRY WOOD VENGE 20X120-2.jpg",
+      "COUNTRY WOOD WALNUT 20X120-1.jpg"
+    ]
+  },
+  "crag": {
+    "colors": [
+      "ANTHRACITE",
+      "COTTO 60X120 MAT P1",
+      "COTTO 60X120 MAT P2",
+      "COTTO 60X120 MAT P3",
+      "COTTO 60X120 MAT P4",
+      "COTTO 60X120 MAT P5",
+      "COTTO 60X120 MAT P6",
+      "GREY",
+      "IVORY 60X120 MAT",
+      "MOCHA",
+      "WHITE 60X120 P1",
+      "WHITE 60X120 P2",
+      "WHITE 60X120 P3",
+      "WHITE 60X120 P4",
+      "WHITE 60X120 P5"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "ANTHRACITE",
+        "format": "60×120",
+        "file": "CRAG ANTHRACITE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P1",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P1.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P2",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P2.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P3",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P3.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P4",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P4.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P5",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P5.jpg"
+      },
+      {
+        "color": "COTTO 60X120 MAT P6",
+        "format": "",
+        "file": "CRAG COTTO 60X120 MAT P6.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "CRAG GREY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "CRAG 60X120 ANTRASIT.jpg",
+      "CRAG 60X120 GREY.jpg",
+      "CRAG 60X120 IVORY.jpg"
+    ]
+  },
+  "darkness": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "DARKNESS 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "DARKNESS 60X120.jpg"
+    ]
+  },
+  "delbin": {
+    "colors": [
+      "BEYAZ",
+      "DEKOFON",
+      "FUME",
+      "GRI"
+    ],
+    "formats": [
+      "30×60",
+      "40×40"
+    ],
+    "face1s": [
+      {
+        "color": "BEYAZ",
+        "format": "30×60",
+        "file": "DELBIN BEYAZ 30X60-FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×60",
+        "file": "DELBIN DEKOFON 30X60.jpg"
+      },
+      {
+        "color": "FUME",
+        "format": "30×60",
+        "file": "DELBIN FUME 30X60-FACE 1.jpg"
+      },
+      {
+        "color": "FUME",
+        "format": "40×40",
+        "file": "DELBIN FUME 40X40-FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "30×60",
+        "file": "DELBIN GRI 30X60-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "DELBIN 30X60 WHITE-GREY.jpg",
+      "DELBIN FUME 30X60.jpg"
+    ]
+  },
+  "destiny": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "DESTINY 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "DESTINY 60X60.jpg"
+    ]
+  },
+  "dina": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "diva": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "DIVA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "DIVA 60X120.jpg"
+    ]
+  },
+  "dora": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "DORA 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "DORA 60X60 .jpg"
+    ]
+  },
+  "dove": {
+    "colors": [
+      "20X40 DOVE MAT BEYAZ",
+      "20X40 DOVE PARLAK BEYAZ",
+      "30X60 DOVE PARLAK BEYAZ",
+      "30X90 DOVE PARLAK BEYAZ"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "20X40 DOVE MAT BEYAZ",
+        "format": "",
+        "file": "20X40 DOVE MAT BEYAZ.jpg"
+      },
+      {
+        "color": "20X40 DOVE PARLAK BEYAZ",
+        "format": "",
+        "file": "20X40 DOVE PARLAK BEYAZ.jpg"
+      },
+      {
+        "color": "30X60 DOVE PARLAK BEYAZ",
+        "format": "",
+        "file": "30X60 DOVE PARLAK BEYAZ.jpg"
+      },
+      {
+        "color": "30X90 DOVE PARLAK BEYAZ",
+        "format": "",
+        "file": "30X90 DOVE PARLAK BEYAZ.jpg"
+      }
+    ],
+    "renders": [
+      "DOVE 20X40 MAT BEYAZ.jpg",
+      "DOVE 20X40 PARLAK BEYAZ.jpg"
+    ]
+  },
+  "elan": {
+    "colors": [
+      "ANTRACIT",
+      "BONE",
+      "BROWN",
+      "GREY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRACIT",
+        "format": "60×120",
+        "file": "ELAN ANTRACIT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "60×120",
+        "file": "ELAN BONE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BROWN",
+        "format": "60×120",
+        "file": "ELAN BROWN 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "ELAN GREY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "eleganza": {
+    "colors": [
+      "ELAGANZA WALNUT",
+      "ELAGANZA_MAPLE",
+      "OAK"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "ELAGANZA WALNUT",
+        "format": "",
+        "file": "ELAGANZA WALNUT - FACE 1.jpg"
+      },
+      {
+        "color": "ELAGANZA_MAPLE",
+        "format": "",
+        "file": "ELAGANZA_MAPLE - FACE 1.jpg"
+      },
+      {
+        "color": "OAK",
+        "format": "",
+        "file": "ELEGANZA OAK - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Eleganza Oak 20x120 REV.jpg"
+    ]
+  },
+  "elitra": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ELITRA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ELITRA 60X120 2.jpg",
+      "ELITRA 60X120.jpg"
+    ]
+  },
+  "elora": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ELORA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "enzo": {
+    "colors": [
+      "ANTRASİT",
+      "ANTRASİT MAT",
+      "GRI",
+      "GRI MAT",
+      "MIX DEKOFON",
+      "WHITE",
+      "WHITE  MAT",
+      "WHITE DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASİT",
+        "format": "30×90",
+        "file": "ENZO ANTRASİT 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASİT MAT",
+        "format": "45×45",
+        "file": "ENZO ANTRASİT MAT 45x45 face 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "30×90",
+        "file": "ENZO GRI 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI MAT",
+        "format": "45×45",
+        "file": "ENZO GRI MAT 45x45 face 1.jpg"
+      },
+      {
+        "color": "MIX DEKOFON",
+        "format": "30×90",
+        "file": "ENZO MIX DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "30×90",
+        "file": "ENZO WHITE  30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE  MAT",
+        "format": "45×45",
+        "file": "ENZO WHITE  MAT 45x45 face 1.jpg"
+      },
+      {
+        "color": "WHITE DEKOFON",
+        "format": "30×90",
+        "file": "ENZO WHITE DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ENZO 30X90-1.jpg",
+      "ENZO 30X90-2.jpg",
+      "ENZO 30X90.jpg"
+    ]
+  },
+  "epona": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "estel": {
+    "colors": [
+      "30X90 PARLAK AZUL FON FACE1",
+      "30X90 PARLAK AZUL FON FACE2",
+      "30X90 PARLAK AZUL FON FACE3",
+      "30X90 PARLAK AZUL FON FACE4",
+      "30X90 PARLAK AZUL FON FACE5",
+      "30X90 PARLAK AZUL FON FACE6",
+      "30X90 PARLAK ESTEL DEKOFON FACE1",
+      "30X90 PARLAK ESTEL DEKOFON FACE2",
+      "30X90 PARLAK ESTEL DEKOFON FACE3",
+      "30X90 PARLAK ESTEL DEKOFON FACE4",
+      "30X90 PARLAK ESTEL DEKOFON FACE5",
+      "30X90 PARLAK ESTEL DEKOFON FACE6",
+      "30X90 PARLAK LATTE FON FACE1",
+      "30X90 PARLAK LATTE FON FACE2",
+      "30X90 PARLAK LATTE FON FACE3",
+      "30X90 PARLAK LATTE FON FACE4",
+      "30X90 PARLAK LATTE FON FACE5",
+      "30X90 PARLAK LATTE FON FACE6",
+      "30X90 PARLAK OLIVE FON FACE1",
+      "30X90 PARLAK OLIVE FON FACE2",
+      "30X90 PARLAK OLIVE FON FACE3",
+      "30X90 PARLAK OLIVE FON FACE4",
+      "30X90 PARLAK OLIVE FON FACE5",
+      "30X90 PARLAK OLIVE FON FACE6",
+      "30X90 PARLAK RUBY FON FACE1",
+      "30X90 PARLAK RUBY FON FACE2",
+      "30X90 PARLAK RUBY FON FACE3",
+      "30X90 PARLAK RUBY FON FACE4",
+      "30X90 PARLAK RUBY FON FACE5",
+      "30X90 PARLAK RUBY FON FACE6"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 PARLAK AZUL FON FACE1",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE1.jpg"
+      },
+      {
+        "color": "30X90 PARLAK AZUL FON FACE2",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE2.jpg"
+      },
+      {
+        "color": "30X90 PARLAK AZUL FON FACE3",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE3.jpg"
+      },
+      {
+        "color": "30X90 PARLAK AZUL FON FACE4",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE4.jpg"
+      },
+      {
+        "color": "30X90 PARLAK AZUL FON FACE5",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE5.jpg"
+      },
+      {
+        "color": "30X90 PARLAK AZUL FON FACE6",
+        "format": "",
+        "file": "30X90 PARLAK AZUL FON FACE6.jpg"
+      },
+      {
+        "color": "30X90 PARLAK ESTEL DEKOFON FACE1",
+        "format": "",
+        "file": "30X90 PARLAK ESTEL DEKOFON FACE1.jpg"
+      },
+      {
+        "color": "30X90 PARLAK ESTEL DEKOFON FACE2",
+        "format": "",
+        "file": "30X90 PARLAK ESTEL DEKOFON FACE2.jpg"
+      }
+    ],
+    "renders": [
+      "ESTEL 30X90 1.jpg",
+      "ESTEL 30X90 2.jpg"
+    ]
+  },
+  "europe": {
+    "colors": [
+      "BEIGE",
+      "BLACK",
+      "GREY",
+      "GRIGE",
+      "WHITE"
+    ],
+    "formats": [
+      "30×40",
+      "30×401"
+    ],
+    "face1s": [
+      {
+        "color": "BEIGE",
+        "format": "30×40",
+        "file": "EUROPE BEIGE 30x40.jpg"
+      },
+      {
+        "color": "BLACK",
+        "format": "30×40",
+        "file": "EUROPE BLACK 30X40.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "30×40",
+        "file": "EUROPE GREY 30X40.jpg"
+      },
+      {
+        "color": "GRIGE",
+        "format": "30×401",
+        "file": "EUROPE GRIGE 30X401.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "30×40",
+        "file": "EUROPE WHITE 30X40.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "everest": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "EVEREST 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "EVEREST 60X120.jpg"
+    ]
+  },
+  "fair": {
+    "colors": [
+      "GRIS",
+      "GRIS DEKOFON",
+      "GRIS DEKOR",
+      "NERO",
+      "NERO DEKOFON",
+      "NERO DEKOR"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "GRIS",
+        "format": "30×90",
+        "file": "FAIR GRIS 30X90.jpg"
+      },
+      {
+        "color": "GRIS",
+        "format": "45×45",
+        "file": "FAIR GRIS 45X45.jpg"
+      },
+      {
+        "color": "GRIS DEKOFON",
+        "format": "30×90",
+        "file": "FAIR GRIS DEKOFON 30X90.jpg"
+      },
+      {
+        "color": "GRIS DEKOR",
+        "format": "30×90",
+        "file": "FAIR GRIS DEKOR 30X90.jpg"
+      },
+      {
+        "color": "NERO",
+        "format": "30×90",
+        "file": "FAIR NERO 30X90.jpg"
+      },
+      {
+        "color": "NERO",
+        "format": "45×45",
+        "file": "FAIR NERO 45X45.jpg"
+      },
+      {
+        "color": "NERO DEKOFON",
+        "format": "30×90",
+        "file": "FAIR NERO DEKOFON 30X90.jpg"
+      },
+      {
+        "color": "NERO DEKOR",
+        "format": "30×90",
+        "file": "FAIR NERO DEKOR 30X90.jpg"
+      }
+    ],
+    "renders": [
+      "FAIR GRIS 30x90.jpg",
+      "FAIR NERO 30x90.jpg",
+      "FAIR NERO DEKOR 30X90 1.jpg"
+    ]
+  },
+  "famous": {
+    "colors": [
+      "30X90 DEKOFON",
+      "STANDARD",
+      "40X120 DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "40×120",
+      "45×45",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "30X90 DEKOFON",
+        "format": "",
+        "file": "FAMOUS 30X90 DEKOFON-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "30×90",
+        "file": "FAMOUS 30X90-FACE 1.jpg"
+      },
+      {
+        "color": "40X120 DEKOFON",
+        "format": "",
+        "file": "FAMOUS 40X120 DEKOFON-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "40×120",
+        "file": "FAMOUS 40X120-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "45×45",
+        "file": "FAMOUS 45X45-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "FAMOUS 60X60-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "FAMOUS 40X120 - FASHION SHOP REV.jpg",
+      "FAMOUS 40X120 ACI R.JPG",
+      "FAMOUS 40X120 GENELR.JPG"
+    ]
+  },
+  "fenix": {
+    "colors": [
+      "GREY",
+      "_CHERRY",
+      "_MAPLE",
+      "_TEAK"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "GREY",
+        "format": "",
+        "file": "FENIX GREY - FACE 1.jpg"
+      },
+      {
+        "color": "_CHERRY",
+        "format": "",
+        "file": "FENIX_CHERRY - FACE 1.jpg"
+      },
+      {
+        "color": "_MAPLE",
+        "format": "",
+        "file": "FENIX_MAPLE - FACE 1.jpg"
+      },
+      {
+        "color": "_TEAK",
+        "format": "",
+        "file": "FENIX_TEAK - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "FENİX GREY REV.jpg"
+    ]
+  },
+  "fortuna": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "FORTUNA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "FORTUNA 60X120-2.jpg",
+      "FORTUNA 60x120.jpg"
+    ]
+  },
+  "fraxinus": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "FRAXINUS 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "FRAXINUS 50X50.jpg"
+    ]
+  },
+  "fresno": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "FRESNO 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "FRESNO 50X50.jpg"
+    ]
+  },
+  "fuji": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "gaudi": {
+    "colors": [
+      "DEKOFON"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "DEKOFON",
+        "format": "30×90",
+        "file": "GAUDI DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GAUDI 30X90.jpg"
+    ]
+  },
+  "gemma": {
+    "colors": [
+      "GOLD",
+      "MINT",
+      "PEACH",
+      "PERLA",
+      "SKY",
+      "SMOKE"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "GOLD",
+        "format": "60×120",
+        "file": "GEMMA GOLD 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "MINT",
+        "format": "60×120",
+        "file": "GEMMA MINT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "PEACH",
+        "format": "60×120",
+        "file": "GEMMA PEACH 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "PERLA",
+        "format": "60×120",
+        "file": "GEMMA PERLA 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "SKY",
+        "format": "60×120",
+        "file": "GEMMA SKY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "SMOKE",
+        "format": "60×120",
+        "file": "GEMMA SMOKE 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GEMMA 60X120 1.jpg",
+      "GEMMA 60X120 2.jpg",
+      "GEMMA 60X120 3.jpg"
+    ]
+  },
+  "geo-wood": {
+    "colors": [
+      "Geowood"
+    ],
+    "formats": [
+      "60×60",
+      "60×602"
+    ],
+    "face1s": [
+      {
+        "color": "Geowood",
+        "format": "60×60",
+        "file": "Geowood60x60.jpg"
+      },
+      {
+        "color": "Geowood",
+        "format": "60×602",
+        "file": "Geowood60x602.jpg"
+      }
+    ],
+    "renders": [
+      "GeoWood.jpg"
+    ]
+  },
+  "gordion": {
+    "colors": [
+      "DARK GREY",
+      "TAUPE",
+      "WHITE",
+      "WHITE DEKOFON"
+    ],
+    "formats": [
+      "40×120"
+    ],
+    "face1s": [
+      {
+        "color": "DARK GREY",
+        "format": "40×120",
+        "file": "GORDION DARK GREY 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "TAUPE",
+        "format": "40×120",
+        "file": "GORDION TAUPE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "40×120",
+        "file": "GORDION WHITE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE DEKOFON",
+        "format": "40×120",
+        "file": "GORDION WHITE DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GORDION 40X120 TAUPE.jpg",
+      "GORDION 40X120.jpg",
+      "GORDION GREY 100X100.jpg"
+    ]
+  },
+  "grace": {
+    "colors": [
+      "BONE",
+      "GREY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BONE",
+        "format": "60×120",
+        "file": "GRACE BONE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "GRACE GREY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GRACE 60X120 GREY.jpg",
+      "GRACE BONE 60X120.jpg"
+    ]
+  },
+  "grand": {
+    "colors": [
+      "40X120 ASH 1",
+      "40X120 ASH 2",
+      "40X120 ASH 3",
+      "40X120 ASH ORGANIC DEKOFON 1",
+      "40X120 ASH ORGANIC DEKOFON 2",
+      "40X120 ASH PATCWORK DEKOFON 1",
+      "40X120 ASH PATCWORK DEKOFON 2",
+      "40X120 WHITE 1",
+      "40X120 WHITE 2",
+      "40X120 WHITE 3",
+      "40X120 WHITE ORGANIC DEKOFON 1",
+      "40X120 WHITE ORGANIC DEKOFON 2",
+      "40X120 WHITE PATCWORK DEKOFON 1",
+      "40X120 WHITE PATCWORK DEKOFON 2",
+      "ASH 60X60-1",
+      "ASH 60X60-2",
+      "ASH 60X60-3",
+      "WHITE 60X60-1",
+      "WHITE 60X60-2",
+      "WHITE 60X60-3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "40X120 ASH 1",
+        "format": "",
+        "file": "GRAND 40X120 ASH 1.jpg"
+      },
+      {
+        "color": "40X120 ASH 2",
+        "format": "",
+        "file": "GRAND 40X120 ASH 2.jpg"
+      },
+      {
+        "color": "40X120 ASH 3",
+        "format": "",
+        "file": "GRAND 40X120 ASH 3.jpg"
+      },
+      {
+        "color": "40X120 ASH ORGANIC DEKOFON 1",
+        "format": "",
+        "file": "GRAND 40X120 ASH ORGANIC DEKOFON 1.jpg"
+      },
+      {
+        "color": "40X120 ASH ORGANIC DEKOFON 2",
+        "format": "",
+        "file": "GRAND 40X120 ASH ORGANIC DEKOFON 2.jpg"
+      },
+      {
+        "color": "40X120 ASH PATCWORK DEKOFON 1",
+        "format": "",
+        "file": "GRAND 40X120 ASH PATCWORK DEKOFON 1.jpg"
+      },
+      {
+        "color": "40X120 ASH PATCWORK DEKOFON 2",
+        "format": "",
+        "file": "GRAND 40X120 ASH PATCWORK DEKOFON 2.jpg"
+      },
+      {
+        "color": "40X120 WHITE 1",
+        "format": "",
+        "file": "GRAND 40X120 WHITE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GRAND 40X120 ORGANIC_ASH_f01.jpg",
+      "GRAND 40X120 pachwork_white_f.jpg",
+      "GRAND 40X120.jpg"
+    ]
+  },
+  "grassland": {
+    "colors": [
+      "BLUE",
+      "GREEN"
+    ],
+    "formats": [
+      "30×60",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BLUE",
+        "format": "30×60",
+        "file": "GRASSLAND BLUE 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BLUE",
+        "format": "60×120",
+        "file": "GRASSLAND BLUE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BLUE",
+        "format": "60×60",
+        "file": "GRASSLAND BLUE 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "30×60",
+        "file": "GRASSLAND GREEN 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "60×120",
+        "file": "GRASSLAND GREEN 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "60×60",
+        "file": "GRASSLAND GREEN 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "GRASSLAND 60X120 3D RENDER REV kopya.jpg",
+      "GRASSLAND 60X120 BLUE RENK AYRIMI.jpg",
+      "GRASSLAND 60X120 BLUE-2.jpg"
+    ]
+  },
+  "greta": {
+    "colors": [
+      "50X50 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "50X50 TEK FACE",
+        "format": "",
+        "file": "GRETA 50X50 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "GRETA 50X50.jpg"
+    ]
+  },
+  "hampton": {
+    "colors": [
+      "ANTRASİT 100X100 - 1",
+      "ANTRASİT 100X100 - 2",
+      "ANTRASİT 100X100 - 3",
+      "ANTRASİT 30X60 - 1",
+      "ANTRASİT 30X60 - 2",
+      "ANTRASİT 30X60 - 3",
+      "ANTRASİT 60X120 - 1",
+      "ANTRASİT 60X120 - 2",
+      "ANTRASİT 60X120 - 3",
+      "ANTRASİT 60X60 - 1",
+      "ANTRASİT 60X60 - 2",
+      "ANTRASİT 60X60 - 3",
+      "BIANCO 100X100 - 1",
+      "BIANCO 100X100 - 2",
+      "BIANCO 100X100 - 3",
+      "BIANCO 30X60 - 1",
+      "BIANCO 30X60 - 2",
+      "BIANCO 30X60 - 3",
+      "BIANCO 60X120 - 1",
+      "BIANCO 60X120 - 2",
+      "BIANCO 60X120 - 3",
+      "BIANCO 60X60 - 1",
+      "BIANCO 60X60 - 2",
+      "BIANCO 60X60 - 3",
+      "GRİ 100X100 - 1",
+      "GRİ 100X100 - 2",
+      "GRİ 100X100 - 3",
+      "GRİ 30X60 - 1",
+      "GRİ 30X60 - 2",
+      "GRİ 30X60 - 3",
+      "GRİ 60X120 - 1",
+      "GRİ 60X120 - 2",
+      "GRİ 60X120 - 3",
+      "GRİ 60X60 - 1",
+      "GRİ 60X60 - 2",
+      "GRİ 60X60 - 3",
+      "LATTE 100X100 - 1",
+      "LATTE 100X100 - 2",
+      "LATTE 100X100 - 3",
+      "LATTE 30X60 - 1",
+      "LATTE 30X60 - 2",
+      "LATTE 30X60 - 3",
+      "LATTE 60X120 - 1",
+      "LATTE 60X120 - 2",
+      "LATTE 60X120 - 3",
+      "LATTE 60X60 - 1",
+      "LATTE 60X60 - 2",
+      "LATTE 60X60 - 3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "ANTRASİT 100X100 - 1",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 100X100 - 1.jpg"
+      },
+      {
+        "color": "ANTRASİT 100X100 - 2",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 100X100 - 2.jpg"
+      },
+      {
+        "color": "ANTRASİT 100X100 - 3",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 100X100 - 3.jpg"
+      },
+      {
+        "color": "ANTRASİT 30X60 - 1",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 30X60 - 1.jpg"
+      },
+      {
+        "color": "ANTRASİT 30X60 - 2",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 30X60 - 2.jpg"
+      },
+      {
+        "color": "ANTRASİT 30X60 - 3",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 30X60 - 3.jpg"
+      },
+      {
+        "color": "ANTRASİT 60X120 - 1",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 60X120 - 1.jpg"
+      },
+      {
+        "color": "ANTRASİT 60X120 - 2",
+        "format": "",
+        "file": "HAMPTON ANTRASİT 60X120 - 2.jpg"
+      }
+    ],
+    "renders": [
+      "HAMPTON 120X120.jpg",
+      "HAMPTON GRI 120X180-1.jpg",
+      "HAMPTON GRI 120X180-2.jpg"
+    ]
+  },
+  "harley": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "helen": {
+    "colors": [
+      "BONE",
+      "BONE DEKOFON",
+      "TAUPE",
+      "TAUPE DEKOFON"
+    ],
+    "formats": [
+      "40×120"
+    ],
+    "face1s": [
+      {
+        "color": "BONE",
+        "format": "40×120",
+        "file": "HELEN BONE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE DEKOFON",
+        "format": "40×120",
+        "file": "HELEN BONE DEKOFON 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "TAUPE",
+        "format": "40×120",
+        "file": "HELEN TAUPE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "TAUPE DEKOFON",
+        "format": "40×120",
+        "file": "HELEN TAUPE DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "HELEN 40X120 TAUPE.jpg",
+      "HELEN 40X120.jpg",
+      "HELEN BONE 40X120.jpg"
+    ]
+  },
+  "helios": {
+    "colors": [
+      "DEKOFON DUVAR KAROSU",
+      "DUVAR KAROSU",
+      "YER KAROSU"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "HELIOS DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "DUVAR KAROSU",
+        "format": "30×90",
+        "file": "HELIOS DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "YER KAROSU",
+        "format": "45×45",
+        "file": "HELIOS YER KAROSU 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "HELIOS 30X90 DETAY.jpg",
+      "HELIOS 30X90-1.jpg",
+      "HELIOS 30X90.jpg"
+    ]
+  },
+  "herringwood": {
+    "colors": [
+      "50X50 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "50X50 TEK FACE",
+        "format": "",
+        "file": "HERRINGWOOD 50X50 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "HERRINGWOOD 50X50.jpg"
+    ]
+  },
+  "himalaya": {
+    "colors": [
+      "ICE"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "ICE",
+        "format": "60×120",
+        "file": "HIMALAYA ICE 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Himalaya 60x120-2.jpg",
+      "Himalaya 60x120.jpg"
+    ]
+  },
+  "hormigon-molde": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "HORMIGON MOLDE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "HORMIGON MOLDE 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "HORMIGON MOLDE  60X120-2.jpg",
+      "HORMIGON MOLDE 60X120 - RENDER kopya.jpg",
+      "HORMIGON MOLDE 60X120-1.jpg"
+    ]
+  },
+  "hypnos": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "HYPNOS 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "HYPNOS 60X60 FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "HYPNOS 60x120.jpg",
+      "HYPNOS---60X120---DETAY-MASA.jpg",
+      "HYPNOS---60X120---DETAY.jpg"
+    ]
+  },
+  "imperial": {
+    "colors": [
+      "Beyaz",
+      "BeyazDekofon",
+      "BeyazDekor-",
+      "Gri",
+      "GriDekofon",
+      "GriDekor-",
+      "GriHexagonDekofon"
+    ],
+    "formats": [
+      "30×60",
+      "40×40"
+    ],
+    "face1s": [
+      {
+        "color": "Beyaz",
+        "format": "30×60",
+        "file": "imperialBeyaz30x60.jpg"
+      },
+      {
+        "color": "Beyaz",
+        "format": "40×40",
+        "file": "imperialBeyaz40x40.jpg"
+      },
+      {
+        "color": "BeyazDekofon",
+        "format": "30×60",
+        "file": "imperialBeyazDekofon30x60.jpg"
+      },
+      {
+        "color": "BeyazDekor-",
+        "format": "30×60",
+        "file": "imperialBeyazDekor-30x60.jpg"
+      },
+      {
+        "color": "Gri",
+        "format": "30×60",
+        "file": "imperialGri30x60.jpg"
+      },
+      {
+        "color": "Gri",
+        "format": "40×40",
+        "file": "imperialGri40x40.jpg"
+      },
+      {
+        "color": "GriDekofon",
+        "format": "30×60",
+        "file": "imperialGriDekofon30x60.jpg"
+      },
+      {
+        "color": "GriDekor-",
+        "format": "30×60",
+        "file": "imperialGriDekor-30x60.jpg"
+      }
+    ],
+    "renders": [
+      "imperial 30x60.jpg"
+    ]
+  },
+  "inca": {
+    "colors": [
+      "ANTRACITE",
+      "DEKOFON",
+      "LIGHT GREY",
+      "VIZON DEKOFON",
+      "VIZON DUVAR KAROSU",
+      "VIZON YER KAROSU",
+      "WHITE"
+    ],
+    "formats": [
+      "30×60",
+      "40×40"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRACITE",
+        "format": "30×60",
+        "file": "INCA ANTRACITE 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×60",
+        "file": "INCA DEKOFON 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT GREY",
+        "format": "30×60",
+        "file": "INCA LIGHT GREY 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT GREY",
+        "format": "40×40",
+        "file": "INCA LIGHT GREY 40X40 - FACE 1.jpg"
+      },
+      {
+        "color": "VIZON DEKOFON",
+        "format": "30×60",
+        "file": "INCA VIZON DEKOFON 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "VIZON DUVAR KAROSU",
+        "format": "30×60",
+        "file": "INCA VIZON DUVAR KAROSU 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "VIZON YER KAROSU",
+        "format": "40×40",
+        "file": "INCA VIZON YER KAROSU 40X40 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "30×60",
+        "file": "INCA WHITE 30X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "iroko": {
+    "colors": [
+      "20X120  BROWN",
+      "20X120 BROWN",
+      "20X120 PEARL",
+      "20X120 WARMGREY"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "20X120  BROWN",
+        "format": "",
+        "file": "IROKO 20X120  BROWN - FACE 1.jpg"
+      },
+      {
+        "color": "20X120 BROWN",
+        "format": "",
+        "file": "IROKO 20X120 BROWN - FACE 3.jpg"
+      },
+      {
+        "color": "20X120 PEARL",
+        "format": "",
+        "file": "IROKO 20X120 PEARL - FACE 1.jpg"
+      },
+      {
+        "color": "20X120 WARMGREY",
+        "format": "",
+        "file": "IROKO 20X120 WARMGREY - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "IROKO PEARL 20X120.jpg"
+    ]
+  },
+  "joya": {
+    "colors": [
+      "60X120 FACE 1",
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "60X120 FACE 1",
+        "format": "",
+        "file": "JOYA 60X120 FACE 1 .jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "JOYA 60X120 FACE 2.jpg"
+      }
+    ],
+    "renders": [
+      "JOYA 60X120 -3.jpg",
+      "JOYA 60X120 YATAK ODASI.jpg",
+      "JOYA 60x120.jpg"
+    ]
+  },
+  "juno": {
+    "colors": [
+      "DIAMOND",
+      "DIAMOND DEKOFON",
+      "DIAMOND FON",
+      "EMERALD DEKOFON",
+      "EMERALD FON",
+      "MOSAIC FLORAL DEKOFON",
+      "RUBY DEKOFON",
+      "RUBY FON",
+      "SAPPHIRE DEKOFON",
+      "SAPPHIRE FON"
+    ],
+    "formats": [
+      "45×45",
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "DIAMOND",
+        "format": "45×45",
+        "file": "JUNO DIAMOND 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "DIAMOND DEKOFON",
+        "format": "30×90",
+        "file": "JUNO DIAMOND DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "DIAMOND FON",
+        "format": "",
+        "file": "JUNO DIAMOND FON - FACE 1.jpg"
+      },
+      {
+        "color": "EMERALD DEKOFON",
+        "format": "30×90",
+        "file": "JUNO EMERALD DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "EMERALD FON",
+        "format": "30×90",
+        "file": "JUNO EMERALD FON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "MOSAIC FLORAL DEKOFON",
+        "format": "30×90",
+        "file": "JUNO MOSAIC FLORAL DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "RUBY DEKOFON",
+        "format": "30×90",
+        "file": "JUNO RUBY DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "RUBY FON",
+        "format": "30×90",
+        "file": "JUNO RUBY FON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "JUNO 30X90  SAPHIRE.jpg",
+      "JUNO 30X90 EMERALD.jpg",
+      "JUNO 30X90 RUBY-EMERALD.jpg"
+    ]
+  },
+  "kaleidos": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "kapteyn": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "KAPTEYN 60x120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "KAPTEYN 60X120 2.jpg",
+      "KAPTEYN 60X120.jpg"
+    ]
+  },
+  "karsos": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "klein": {
+    "colors": [
+      "COOL",
+      "FON",
+      "NATURAL"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "COOL",
+        "format": "20×120",
+        "file": "KLEIN COOL 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "FON",
+        "format": "20×120",
+        "file": "KLEIN FON 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "NATURAL",
+        "format": "20×120",
+        "file": "KLEIN NATURAL 20X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "KLEIN 20X120-2.jpg"
+    ]
+  },
+  "la-vita": {
+    "colors": [
+      "BLACK",
+      "DEKOFON",
+      "WHITE"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "BLACK",
+        "format": "30×90",
+        "file": "LA VITA BLACK 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×90",
+        "file": "LA VITA DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "30×90",
+        "file": "LA VITA WHITE 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "45×45",
+        "file": "LA VITA WHITE 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LA-VITA-30X90-R1.jpg",
+      "LA-VITA-30X90-R2.jpg"
+    ]
+  },
+  "larimar-ocean": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "larix": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "LARIX 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LARIX 60X120.jpg"
+    ]
+  },
+  "las-palmas": {
+    "colors": [
+      "ANTRASIT SEMILAPPATO",
+      "BEIGE",
+      "BEJ 120X120 01",
+      "BEJ 120X120 02",
+      "BEJ 120X120 03",
+      "BEJ 120X120 04",
+      "BEJ 120X120 05",
+      "BEJ 120X120 06",
+      "BEJ 60X60 01",
+      "BEJ 60X60 02REV",
+      "BEJ 60X60 03",
+      "BEJ 60X60 04",
+      "BEJ 60X60 05",
+      "BEJ 60X60 06",
+      "BEJ 60X60 07",
+      "BEJ 60X60 08",
+      "BEJ 60X60 09",
+      "BEJ 60X60 10",
+      "BEJ 60X60 11",
+      "BEJ 60X60 12",
+      "GREY",
+      "GREY 60X60 01",
+      "GREY 60X60 02",
+      "GREY 60X60 03",
+      "GREY 60X60 04",
+      "GREY 60X60 05",
+      "GREY 60X60 06",
+      "GREY 60X60 07",
+      "GREY 60X60 08",
+      "GREY 60X60 09",
+      "GREY 60X60 10",
+      "GREY 60X60 11",
+      "GREY 60X60 12",
+      "MOCHA SEMILAPPATO",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P1",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P2",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P3",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P4",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P5",
+      "LASPALMAS ANTRASIT 60X120 FULLAPPATO P6",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P1",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P2",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P3",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P4",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P5",
+      "LASPALMAS CARBON 60X120 FULLAPPATO P6",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P1",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P2",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P3",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P4",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P5",
+      "LASPALMAS CARBON 60X120 SEMILAPPATO P6",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P1",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P2",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P3",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P4",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P5",
+      "LASPALMAS MOCHA 60X120 FULLAPPATO P6",
+      "LASPALMAS WHITE 60X120 FULLAPPATO"
+    ],
+    "formats": [
+      "60×120",
+      "100×100"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT SEMILAPPATO",
+        "format": "60×120",
+        "file": "LAS PALMAS ANTRASIT SEMILAPPATO 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE",
+        "format": "100×100",
+        "file": "LAS PALMAS BEIGE 100X100 - FACE 1.jpg"
+      },
+      {
+        "color": "BEIGE",
+        "format": "60×120",
+        "file": "LAS PALMAS BEIGE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEJ 120X120 01",
+        "format": "",
+        "file": "LAS PALMAS BEJ 120X120 01.jpg"
+      },
+      {
+        "color": "BEJ 120X120 02",
+        "format": "",
+        "file": "LAS PALMAS BEJ 120X120 02.jpg"
+      },
+      {
+        "color": "BEJ 120X120 03",
+        "format": "",
+        "file": "LAS PALMAS BEJ 120X120 03.jpg"
+      },
+      {
+        "color": "BEJ 120X120 04",
+        "format": "",
+        "file": "LAS PALMAS BEJ 120X120 04.jpg"
+      },
+      {
+        "color": "BEJ 120X120 05",
+        "format": "",
+        "file": "LAS PALMAS BEJ 120X120 05.jpg"
+      }
+    ],
+    "renders": [
+      "LAS PALMAS 100X100 BEIGE.jpg",
+      "LAS PALMAS 100X100 GREY.jpg",
+      "LAS PALMAS 100X100-1.jpg"
+    ]
+  },
+  "limra": {
+    "colors": [
+      "60X120 LIMRA BEIGE",
+      "60X120 LIMRA GREY"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 LIMRA BEIGE",
+        "format": "",
+        "file": "60X120 LIMRA BEIGE FACE 1.jpg"
+      },
+      {
+        "color": "60X120 LIMRA GREY",
+        "format": "",
+        "file": "60X120 LIMRA GREY FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LIMRA 60X120 BEIGE.jpg"
+    ]
+  },
+  "lisbon": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "logs": {
+    "colors": [
+      "GOLDEN OAK",
+      "HAZELNUT",
+      "LIGHT BEIGE",
+      "SPECIAL WALNUT"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "GOLDEN OAK",
+        "format": "20×120",
+        "file": "LOGS GOLDEN OAK 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "HAZELNUT",
+        "format": "20×120",
+        "file": "LOGS HAZELNUT 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT BEIGE",
+        "format": "20×120",
+        "file": "LOGS LIGHT BEIGE 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "SPECIAL WALNUT",
+        "format": "20×120",
+        "file": "LOGS SPECIAL WALNUT 20X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LOGS 20X120  SPECIAL WALNUT.jpg",
+      "LOGS 20X120 GOLDEN OAK 1.jpg",
+      "LOGS 20X120 GOLDEN OAK 2.jpg"
+    ]
+  },
+  "loreto": {
+    "colors": [
+      "DARK",
+      "LIGHT"
+    ],
+    "formats": [
+      "61×61"
+    ],
+    "face1s": [
+      {
+        "color": "DARK",
+        "format": "61×61",
+        "file": "LORETO DARK 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT",
+        "format": "61×61",
+        "file": "LORETO LIGHT 61X61 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LORETO 61X61.jpg"
+    ]
+  },
+  "loris": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "luca": {
+    "colors": [
+      "BONE",
+      "LIGHT GREY",
+      "TAUPE"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BONE",
+        "format": "60×60",
+        "file": "LUCA BONE 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "LIGHT GREY",
+        "format": "60×60",
+        "file": "LUCA LIGHT GREY 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "TAUPE",
+        "format": "60×60",
+        "file": "LUCA TAUPE 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "LUCA LIGHT GREY 60X60.jpg"
+    ]
+  },
+  "madero": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "MADERO 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MADERO 50X50.jpg"
+    ]
+  },
+  "madran": {
+    "colors": [
+      "MAT VANILLA",
+      "MINK"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "MAT VANILLA",
+        "format": "60×120",
+        "file": "MADRAN MAT VANILLA 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "MINK",
+        "format": "60×120",
+        "file": "MADRAN MINK 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MADRAN 60X120.jpg"
+    ]
+  },
+  "magellan": {
+    "colors": [
+      "ANTRASiT-",
+      "BONE-",
+      "NEW GREY-"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASiT-",
+        "format": "60×60",
+        "file": "MAGELLAN-ANTRASiT-60x60-FACE 1.jpg"
+      },
+      {
+        "color": "BONE-",
+        "format": "60×60",
+        "file": "MAGELLAN-BONE-60x60-FACE 1.jpg"
+      },
+      {
+        "color": "NEW GREY-",
+        "format": "60×60",
+        "file": "MAGELLAN-NEW GREY-60X60-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MAGELLAN 60X60 ANTRASIT.jpg",
+      "MAGELLAN 60X60 GREY.jpg",
+      "MAGELLAN BONE 60X60.jpg"
+    ]
+  },
+  "magnifique": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "120×180",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "MAGNIFIQUE  120X180-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "MAGNIFIQUE 60X120-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "MAGNIFIQUE 60X60-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Magnifique 120x180 detay.jpg",
+      "MAGNIFIQUE 120X180 R.jpg",
+      "MAGNIFIQUE 120X180.jpg"
+    ]
+  },
+  "marmol": {
+    "colors": [
+      "Oldlace Dekofon--",
+      "Shadow Dekofon--",
+      "Dolace 45X45 F1",
+      "Dolace 45X45 F2",
+      "Dolace 45X45 F3",
+      "Oldlace F1-",
+      "Oldlace F2-",
+      "Oldlace F3-"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "Oldlace Dekofon--",
+        "format": "30×90",
+        "file": "Marmol Oldlace Dekofon--30x90-Face 1.jpg"
+      },
+      {
+        "color": "Shadow Dekofon--",
+        "format": "30×90",
+        "file": "Marmol Shadow Dekofon--30x90-Face 1.jpg"
+      },
+      {
+        "color": "Dolace 45X45 F1",
+        "format": "",
+        "file": "MarmolDolace 45X45 F1.jpg"
+      },
+      {
+        "color": "Dolace 45X45 F2",
+        "format": "",
+        "file": "MarmolDolace 45X45 F2.jpg"
+      },
+      {
+        "color": "Dolace 45X45 F3",
+        "format": "",
+        "file": "MarmolDolace 45X45 F3.jpg"
+      },
+      {
+        "color": "Oldlace F1-",
+        "format": "30×90",
+        "file": "MarmolOldlace F1-30x90.jpg"
+      },
+      {
+        "color": "Oldlace F2-",
+        "format": "30×90",
+        "file": "MarmolOldlace F2-30x90.jpg"
+      },
+      {
+        "color": "Oldlace F3-",
+        "format": "30×90",
+        "file": "MarmolOldlace F3-30x90.jpg"
+      }
+    ],
+    "renders": [
+      "MARMOL 30x90.jpg"
+    ]
+  },
+  "marvel": {
+    "colors": [
+      "BITTER",
+      "CARAMEL",
+      "CARAMEL DEKOFON",
+      "GRI",
+      "LATTE",
+      "LATTE DEKOFON"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "BITTER",
+        "format": "30×90",
+        "file": "MARVEL BITTER 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "CARAMEL",
+        "format": "30×90",
+        "file": "MARVEL CARAMEL 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "CARAMEL DEKOFON",
+        "format": "30×90",
+        "file": "MARVEL CARAMEL DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "30×90",
+        "file": "MARVEL GRI 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "LATTE",
+        "format": "30×90",
+        "file": "MARVEL LATTE 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "LATTE DEKOFON",
+        "format": "30×90",
+        "file": "MARVEL LATTE DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MARVEL CARAMEL 30X90.jpg"
+    ]
+  },
+  "marvy": {
+    "colors": [
+      "STANDARD",
+      "Dekofon",
+      "MatDekor-2-"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "30×90",
+        "file": "Marvy 30x90 - Face 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "45×45",
+        "file": "Marvy 45x45 - Face 1.jpg"
+      },
+      {
+        "color": "Dekofon",
+        "format": "30×90",
+        "file": "Marvy Dekofon 30x90 - Face 1.jpg"
+      },
+      {
+        "color": "MatDekor-2-",
+        "format": "30×90",
+        "file": "MarvyMatDekor-2-30x90.jpg"
+      }
+    ],
+    "renders": [
+      "MARVY 30X90 MAT.jpg"
+    ]
+  },
+  "maryo": {
+    "colors": [
+      "BEIGE",
+      "GREY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BEIGE",
+        "format": "60×120",
+        "file": "MARYO BEIGE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "MARYO GREY 60X120  - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "maxi": {
+    "colors": [
+      "Beyaz30x60-1",
+      "Beyaz30x60-2",
+      "Beyaz30x60-3",
+      "Beyaz40x40mat-1",
+      "BeyazDekofon-1",
+      "BeyazDekofon-2",
+      "BeyazDekofon-3",
+      "platindekor-1"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Beyaz30x60-1",
+        "format": "",
+        "file": "MaxiBeyaz30x60-1.jpg"
+      },
+      {
+        "color": "Beyaz30x60-2",
+        "format": "",
+        "file": "MaxiBeyaz30x60-2.jpg"
+      },
+      {
+        "color": "Beyaz30x60-3",
+        "format": "",
+        "file": "MaxiBeyaz30x60-3.jpg"
+      },
+      {
+        "color": "Beyaz40x40mat-1",
+        "format": "",
+        "file": "MaxiBeyaz40x40mat-1.jpg"
+      },
+      {
+        "color": "BeyazDekofon-1",
+        "format": "",
+        "file": "MaxiBeyazDekofon-1.jpg"
+      },
+      {
+        "color": "BeyazDekofon-2",
+        "format": "",
+        "file": "MaxiBeyazDekofon-2.jpg"
+      },
+      {
+        "color": "BeyazDekofon-3",
+        "format": "",
+        "file": "MaxiBeyazDekofon-3.jpg"
+      },
+      {
+        "color": "platindekor-1",
+        "format": "",
+        "file": "Maxiplatindekor-1.jpg"
+      }
+    ],
+    "renders": [
+      "MAXI 60X60.jpg",
+      "MAXI-30X60.jpg"
+    ]
+  },
+  "merlo": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "mia": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "100×100",
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "100×100",
+        "file": "MIA 100X100 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "MIA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MIA 100X100.jpg",
+      "MIA-60X120-1.jpg",
+      "MIA-60X120-2.jpg"
+    ]
+  },
+  "milenario": {
+    "colors": [
+      "BEIGE",
+      "BROWN",
+      "GREY",
+      "HONEY",
+      "WHITE"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "BEIGE",
+        "format": "20×120",
+        "file": "MILENARIO BEIGE 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BROWN",
+        "format": "20×120",
+        "file": "MILENARIO BROWN 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "20×120",
+        "file": "MILENARIO GREY 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "HONEY",
+        "format": "20×120",
+        "file": "MILENARIO HONEY 20x120 FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "20×120",
+        "file": "MILENARIO WHITE 20X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Milenario Beige 20x120.jpg",
+      "Milenario Brown 20x120.jpg",
+      "Milenario Honey 20x120.jpg"
+    ]
+  },
+  "minimo": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "MINIMO 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MINIMO 50X50.jpg"
+    ]
+  },
+  "miramar": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "MIRAMAR 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MIRAMAR 60X120 2.jpg",
+      "MIRAMAR 60X120.jpg"
+    ]
+  },
+  "miranda": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "MIRANDA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MIRANDA 60X120.jpg"
+    ]
+  },
+  "mirko": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "30×90",
+        "file": "MIRKO 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "45×45",
+        "file": "MIRKO 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×90",
+        "file": "MIRKO DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MIRKO 30X90-2.jpg",
+      "MIRKO 30X90.jpg"
+    ]
+  },
+  "modellato": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "MODELLATO 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MODELLATO 50X50 -1.jpg",
+      "MODELLATO 50X50 -2.jpg"
+    ]
+  },
+  "mood": {
+    "colors": [
+      "ANTRACITE 30X90 MAT",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE1",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE2",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE3",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE4",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE5",
+      "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE6",
+      "BEIGE",
+      "BEIGE FON 30X90 MAT FACE1",
+      "BEIGE FON 30X90 MAT FACE3",
+      "BEIGE FON 30X90 MAT FACE4",
+      "BEIGE FON 30X90 MAT FACE5",
+      "BEIGE FON 30X90 MAT FACE6",
+      "BEIGE FON 30X90 MAT FACE7",
+      "BEIGE FON 30X90 MAT FACE8",
+      "CEMENT DEKOFON 5 FACE 30X90 MAT FACE1",
+      "CEMENT DEKOFON 5 FACE 30X90 MAT FACE2",
+      "CEMENT DEKOFON 5 FACE 30X90 MAT FACE4",
+      "CEMENT DEKOFON 5 FACE 30X90 MAT FACE5",
+      "FABER BAMBOO 30X90 MAT FACE1",
+      "FABER BAMBOO 30X90 MAT FACE2",
+      "FABER BAMBOO 30X90 MAT FACE3",
+      "FABER BAMBOO 30X90 MAT FACE5",
+      "FABER BAMBOO 30X90 MAT FACE6",
+      "FABER CEMENT DEKOFON 6",
+      "FABER MIX WOOD DEKOFON 30X90 MAT 6",
+      "FABER OAK 30X90 MAT 6 FACE2",
+      "FABER OAK 30X90 MAT 6 FACE3",
+      "FABER OAK 30X90 MAT 6 FACE4",
+      "FABER OAK 30X90 MAT 6 FACE5",
+      "FABER OAK 30X90 MAT 6 FACE6",
+      "GREJ 8 FACE 30X90 MAT FACE1",
+      "GREJ 8 FACE 30X90 MAT FACE3",
+      "GREJ 8 FACE 30X90 MAT FACE4",
+      "GREJ 8 FACE 30X90 MAT FACE5",
+      "GREJ 8 FACE 30X90 MAT FACE6",
+      "GREJ 8 FACE 30X90 MAT FACE7",
+      "GREJ 8 FACE 30X90 MAT FACE8",
+      "GRI 8 FACE 30X90 MAT FACE1",
+      "GRI 8 FACE 30X90 MAT FACE2",
+      "GRI 8 FACE 30X90 MAT FACE3",
+      "GRI 8 FACE 30X90 MAT FACE4",
+      "GRI 8 FACE 30X90 MAT FACE5",
+      "GRI 8 FACE 30X90 MAT FACE6",
+      "GRI 8 FACE 30X90 MAT FACE7",
+      "GRI 8 FACE 30X90 MAT FACE8",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE1",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE2",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE3",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE4",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE5",
+      "OAK DEKOFON 6 FACE 30x90 MAT FACE6",
+      "WHITE",
+      "WHITE 8 FACE1",
+      "WHITE 8 FACE2",
+      "WHITE 8 FACE3",
+      "WHITE 8 FACE4",
+      "WHITE 8 FACE5",
+      "WHITE 8 FACE6",
+      "WHITE 8 FACE7",
+      "WHITE 8 FACE8"
+    ],
+    "formats": [
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRACITE 30X90 MAT",
+        "format": "",
+        "file": "MOOD ANTRACITE 30X90 MAT - FACE 1.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE1",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE1.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE2",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE2.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE3",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE3.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE4",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE4.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE5",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE5.jpg"
+      },
+      {
+        "color": "BAMBOO DEKOFON 6 FACE 30X90 MAT FACE6",
+        "format": "",
+        "file": "MOOD BAMBOO DEKOFON 6 FACE 30X90 MAT FACE6.jpg"
+      },
+      {
+        "color": "BEIGE",
+        "format": "45×45",
+        "file": "MOOD BEIGE 45X45 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "MOOD 30X90-1.jpg",
+      "MOOD 30X90-2.jpg",
+      "MOOD OAK  30X90 1.jpg"
+    ]
+  },
+  "mora": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "motto": {
+    "colors": [
+      "30X90 MOTTO BEYAZ FON FACE1",
+      "30X90 MOTTO BEYAZ FON FACE2",
+      "30X90 MOTTO BEYAZ FON FACE3",
+      "30X90 MOTTO BEYAZ FON FACE4",
+      "30X90 MOTTO BEYAZ FON FACE5",
+      "30X90 MOTTO BEYAZ FON FACE6",
+      "30X90 MOTTO BEYAZ FON FACE7",
+      "30X90 MOTTO BEYAZ FON FACE8",
+      "30X90 MOTTO BONE FON FACE1",
+      "30X90 MOTTO BONE FON FACE2",
+      "30X90 MOTTO BONE FON FACE3",
+      "30X90 MOTTO BONE FON FACE4",
+      "30X90 MOTTO BONE FON FACE5",
+      "30X90 MOTTO BONE FON FACE6",
+      "30X90 MOTTO BONE FON FACE7",
+      "30X90 MOTTO BONE FON FACE8",
+      "30X90 MOTTO GRI FON FACE1",
+      "30X90 MOTTO GRI FON FACE2",
+      "30X90 MOTTO GRI FON FACE3",
+      "30X90 MOTTO GRI FON FACE4",
+      "30X90 MOTTO GRI FON FACE5",
+      "30X90 MOTTO GRI FON FACE6",
+      "30X90 MOTTO GRI FON FACE7",
+      "30X90 MOTTO GRI FON FACE8",
+      "30X90 MOTTO TAUPE FON FACE1",
+      "30X90 MOTTO TAUPE FON FACE2",
+      "30X90 MOTTO TAUPE FON FACE3",
+      "30X90 MOTTO TAUPE FON FACE4",
+      "30X90 MOTTO TAUPE FON FACE5",
+      "30X90 MOTTO TAUPE FON FACE6",
+      "30X90 MOTTO TAUPE FON FACE7",
+      "30X90 MOTTO TAUPE FON FACE8",
+      "BEYAZ DEKOFON FACE1",
+      "BEYAZ DEKOFON FACE2",
+      "BEYAZ DEKOFON FACE3",
+      "BONE DEKOFON FACE1",
+      "BONE DEKOFON FACE2",
+      "BONE DEKOFON FACE3",
+      "GRI DEKOFON FACE1",
+      "GRI DEKOFON FACE2",
+      "GRI DEKOFON FACE3",
+      "TAUPE DEKOFON FACE1",
+      "TAUPE DEKOFON FACE2",
+      "TAUPE DEKOFON FACE3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE1",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE1.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE2",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE2.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE3",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE3.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE4",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE4.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE5",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE5.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE6",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE6.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE7",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE7.jpg"
+      },
+      {
+        "color": "30X90 MOTTO BEYAZ FON FACE8",
+        "format": "",
+        "file": "30X90 MOTTO BEYAZ FON FACE8.jpg"
+      }
+    ],
+    "renders": [
+      "MOTTO 30X90 GRİ.jpg"
+    ]
+  },
+  "naos": {
+    "colors": [
+      "FULLAP",
+      "WHITE MAT"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "FULLAP",
+        "format": "60×120",
+        "file": "NAOS FULLAP 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE MAT",
+        "format": "60×120",
+        "file": "NAOS WHITE MAT 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NAOS WHITE 60X120.jpg"
+    ]
+  },
+  "napoli": {
+    "colors": [
+      "GRI",
+      "FİLDİŞİ-"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "GRI",
+        "format": "50×50",
+        "file": "NAPOLI GRI 50X50 - FACE 1.jpg"
+      },
+      {
+        "color": "FİLDİŞİ-",
+        "format": "50×50",
+        "file": "NAPOLI-FİLDİŞİ-50X50-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NAPOLİ GRİ 50X50.jpg"
+    ]
+  },
+  "natura-wood": {
+    "colors": [
+      "NATURAWOOD BIRCH",
+      "NATURAWOOD EBONY",
+      "NATURAWOOD OAK",
+      "NATURAWOOD PINE"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "NATURAWOOD BIRCH",
+        "format": "20×120",
+        "file": "NATURAWOOD BIRCH 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "NATURAWOOD EBONY",
+        "format": "20×120",
+        "file": "NATURAWOOD EBONY 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "NATURAWOOD OAK",
+        "format": "20×120",
+        "file": "NATURAWOOD OAK 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "NATURAWOOD PINE",
+        "format": "20×120",
+        "file": "NATURAWOOD PINE 20X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NATURA WOOD 20X120 BIRCH.jpg",
+      "NATURA WOOD 20X120 EBONY.jpg",
+      "NATURA WOOD 20X120 OAK.jpg"
+    ]
+  },
+  "neva": {
+    "colors": [
+      "DEKOFON 30X60 PARLAK",
+      "FON 30X60 PARLAK",
+      "YER KAROSU 40X40 MAT"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "DEKOFON 30X60 PARLAK",
+        "format": "",
+        "file": "NEVA DEKOFON 30X60 PARLAK - FACE 1.jpg"
+      },
+      {
+        "color": "FON 30X60 PARLAK",
+        "format": "",
+        "file": "NEVA FON 30X60 PARLAK - FACE 1.jpg"
+      },
+      {
+        "color": "YER KAROSU 40X40 MAT",
+        "format": "",
+        "file": "NEVA YER KAROSU 40X40 MAT - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NEVA 30X60.jpg"
+    ]
+  },
+  "nevada": {
+    "colors": [
+      "AGri",
+      "Bone",
+      "Gri"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "AGri",
+        "format": "50×50",
+        "file": "NevadaAGri50x50.jpg"
+      },
+      {
+        "color": "Bone",
+        "format": "50×50",
+        "file": "NevadaBone50x50.jpg"
+      },
+      {
+        "color": "Gri",
+        "format": "50×50",
+        "file": "NevadaGri50x50.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "new-metro": {
+    "colors": [
+      "METRO BEYAZ 60X120 FULL LAPPATO"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "METRO BEYAZ 60X120 FULL LAPPATO",
+        "format": "",
+        "file": "METRO BEYAZ 60X120 FULL LAPPATO.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "newport": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "100×100",
+      "120×180",
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "100×100",
+        "file": "NEWPORT-100X100-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "NEWPORT-120X180-FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "NEWPORT-60X120-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NEWPORT 100X100.jpg",
+      "NEWPORT 120X180 2ACI.JPG",
+      "NEWPORT 120X180 GENEL2.JPG"
+    ]
+  },
+  "nile": {
+    "colors": [
+      "AGRI",
+      "ANTRASIT",
+      "ANTRASİT",
+      "BONE",
+      "GRI"
+    ],
+    "formats": [
+      "60×120",
+      "61×61"
+    ],
+    "face1s": [
+      {
+        "color": "AGRI",
+        "format": "60×120",
+        "file": "NILE AGRI 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "AGRI",
+        "format": "61×61",
+        "file": "NILE AGRI 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "61×61",
+        "file": "NILE ANTRASIT 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASİT",
+        "format": "60×120",
+        "file": "NILE ANTRASİT 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "61×61",
+        "file": "NILE BONE 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "60×120",
+        "file": "NILE GRI 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GRI",
+        "format": "61×61",
+        "file": "NILE GRI 61X61 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NILE 60X120 GRI 1.jpg",
+      "NILE 60X120 GRI 2.jpg"
+    ]
+  },
+  "nomerles": {
+    "colors": [
+      "VIZON"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "VIZON",
+        "format": "60×120",
+        "file": "NOMERLES VIZON 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "NOMERLES 60X120 GRI.jpg",
+      "NOMERLES 60X120.jpg",
+      "NOMERLES WHITE 60X120 -1.jpg"
+    ]
+  },
+  "norden": {
+    "colors": [
+      "TEAK-"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "TEAK-",
+        "format": "20×120",
+        "file": "NORDEN TEAK-20x120-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Norden Teak  20x120.jpg",
+      "Norden Teak 20x120 detay.jpg"
+    ]
+  },
+  "nuvola": {
+    "colors": [
+      "Dekofon",
+      "Dekor"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "Dekofon",
+        "format": "30×90",
+        "file": "Nuvola Dekofon 30x90 - Face 2.jpg"
+      },
+      {
+        "color": "Dekor",
+        "format": "30×90",
+        "file": "Nuvola Dekor 30x90 - Face 2.jpg"
+      }
+    ],
+    "renders": [
+      "NUVOLA 30X90 BANYO.jpg",
+      "NUVOLA 30X90 DETAY 1.jpg",
+      "NUVOLA 30X90 DETAY 2.jpg"
+    ]
+  },
+  "oasis": {
+    "colors": [
+      "LILA DEKOFON DUVAR KAROSU",
+      "LILA DUVAR KAROSU",
+      "LILA YER KAROSU",
+      "MURDUM DEKOFON DUVAR KAROSU",
+      "MURDUM DUVAR KAROSU",
+      "MURDUM YER KAROSU",
+      "YESIL DEKOFON DUVAR KAROSU",
+      "YESIL DUVAR KAROSU",
+      "YESIL YER KAROSU",
+      "LilaDekor - 1",
+      "LilaDekor - 2",
+      "MurdumDekor - 1",
+      "MurdumDekor - 2",
+      "YesilDekor"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "LILA DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS LILA DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "LILA DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS LILA DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "LILA YER KAROSU",
+        "format": "45×45",
+        "file": "OASIS LILA YER KAROSU 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "MURDUM DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS MURDUM DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "MURDUM DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS MURDUM DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "MURDUM YER KAROSU",
+        "format": "45×45",
+        "file": "OASIS MURDUM YER KAROSU 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "YESIL DEKOFON DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS YESIL DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "YESIL DUVAR KAROSU",
+        "format": "30×90",
+        "file": "OASIS YESIL DUVAR KAROSU 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "OASIS MURDUM 30X90 - RENDER kopya.jpg",
+      "OASIS MURDUM 30X90 - RENDER.jpg",
+      "OASIS YESIL 30X90 OK.jpg"
+    ]
+  },
+  "odin": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON"
+    ],
+    "formats": [
+      "40×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "40×120",
+        "file": "ODIN 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "ODIN 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "40×120",
+        "file": "ODIN DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ODIN 40X120 .jpg"
+    ]
+  },
+  "olbia": {
+    "colors": [
+      "GREY"
+    ],
+    "formats": [
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "OLBIA GREY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "60×60",
+        "file": "OLBIA GREY 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "OLBIA 60X120 .jpg",
+      "OLBIA-GREY-60X120---RENDER.jpg"
+    ]
+  },
+  "olivia": {
+    "colors": [
+      "Beyaz-",
+      "Siyah-"
+    ],
+    "formats": [
+      "30×60"
+    ],
+    "face1s": [
+      {
+        "color": "Beyaz-",
+        "format": "30×60",
+        "file": "OliviaBeyaz-30x60.jpg"
+      },
+      {
+        "color": "Siyah-",
+        "format": "30×60",
+        "file": "OliviaSiyah-30x60.jpg"
+      }
+    ],
+    "renders": [
+      "OLIVIA BEYAZ 30X60.jpg",
+      "OLIVIA SİYAH 30X60.jpg"
+    ]
+  },
+  "olmo": {
+    "colors": [
+      "20x120 tobacco olmo",
+      "BEJ-",
+      "CHESTNUT-",
+      "LATTE-",
+      "NOCE-"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "20x120 tobacco olmo",
+        "format": "",
+        "file": "20x120 tobacco olmo face 1.jpg"
+      },
+      {
+        "color": "BEJ-",
+        "format": "20×120",
+        "file": "OLMO-BEJ-20X120-FACE 1.jpg"
+      },
+      {
+        "color": "CHESTNUT-",
+        "format": "20×120",
+        "file": "OLMO-CHESTNUT-20X120-FACE 1.jpg"
+      },
+      {
+        "color": "LATTE-",
+        "format": "20×120",
+        "file": "OLMO-LATTE-20X120-FACE 1.jpg"
+      },
+      {
+        "color": "NOCE-",
+        "format": "20×120",
+        "file": "OLMO-NOCE-20X120-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "OLMO 20X120 CHESTNUT.jpg",
+      "OLMO TOBACCO 20X120.jpg",
+      "OLMO-20X120-CHESTNUT-REV.jpg"
+    ]
+  },
+  "onelia": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ONELIA 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "onixia": {
+    "colors": [
+      "GREY",
+      "SAND"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "GREY",
+        "format": "60×120",
+        "file": "ONIXIA GREY 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "SAND",
+        "format": "60×120",
+        "file": "ONIXIA SAND 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "orfe": {
+    "colors": [
+      "BONE",
+      "BONE DEKOFON"
+    ],
+    "formats": [
+      "40×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BONE",
+        "format": "40×120",
+        "file": "ORFE BONE 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "60×60",
+        "file": "ORFE BONE 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE DEKOFON",
+        "format": "40×120",
+        "file": "ORFE BONE DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "orla": {
+    "colors": [
+      "BRONZ 60X120 FULL LAPPATO",
+      "PERLA 60X120 FULL LAPPATO",
+      "PLATINUM 60X120 FULL LAPPATO",
+      "SILVER 60X120 FULL LAPPATO"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "BRONZ 60X120 FULL LAPPATO",
+        "format": "",
+        "file": "ORLA BRONZ 60X120 FULL LAPPATO.jpg"
+      },
+      {
+        "color": "PERLA 60X120 FULL LAPPATO",
+        "format": "",
+        "file": "ORLA PERLA 60X120 FULL LAPPATO.jpg"
+      },
+      {
+        "color": "PLATINUM 60X120 FULL LAPPATO",
+        "format": "",
+        "file": "ORLA PLATINUM 60X120 FULL LAPPATO.jpg"
+      },
+      {
+        "color": "SILVER 60X120 FULL LAPPATO",
+        "format": "",
+        "file": "ORLA SILVER 60X120 FULL LAPPATO.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "palazzo": {
+    "colors": [
+      "GREY 60X120 CANVAS FULLLAPPATO 28072020 F1",
+      "GREY 60X120 CANVAS FULLLAPPATO 28072020 F2",
+      "GREY 60X120 CANVAS FULLLAPPATO 28072020 F3",
+      "GREY 60X120 CANVAS FULLLAPPATO 28072020 F4",
+      "IVORY"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "GREY 60X120 CANVAS FULLLAPPATO 28072020 F1",
+        "format": "",
+        "file": "PALAZZO GREY 60X120 CANVAS FULLLAPPATO 28072020 F1.jpg"
+      },
+      {
+        "color": "GREY 60X120 CANVAS FULLLAPPATO 28072020 F2",
+        "format": "",
+        "file": "PALAZZO GREY 60X120 CANVAS FULLLAPPATO 28072020 F2.jpg"
+      },
+      {
+        "color": "GREY 60X120 CANVAS FULLLAPPATO 28072020 F3",
+        "format": "",
+        "file": "PALAZZO GREY 60X120 CANVAS FULLLAPPATO 28072020 F3.jpg"
+      },
+      {
+        "color": "GREY 60X120 CANVAS FULLLAPPATO 28072020 F4",
+        "format": "",
+        "file": "PALAZZO GREY 60X120 CANVAS FULLLAPPATO 28072020 F4.jpg"
+      },
+      {
+        "color": "IVORY",
+        "format": "60×120",
+        "file": "PALAZZO IVORY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "Palazzo 60x120 ivory detay.jpg",
+      "Palazzo 60x120 ivory.jpg",
+      "PALAZZO 60X120-1.jpg"
+    ]
+  },
+  "palmer": {
+    "colors": [
+      "WOODY 61X61 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "WOODY 61X61 TEK FACE",
+        "format": "",
+        "file": "PALMER WOODY 61X61 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "PALMER 61X61 -1.jpg",
+      "PALMER 61X61 -2.jpg"
+    ]
+  },
+  "pamfilya": {
+    "colors": [
+      "60X120 PAMFILYA"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 PAMFILYA",
+        "format": "",
+        "file": "60X120 PAMFILYA FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "PAMFILYA 60X120.jpg"
+    ]
+  },
+  "paris": {
+    "colors": [
+      "BLACK",
+      "BLACK DEKOFON",
+      "WHITE",
+      "WHITE DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "BLACK",
+        "format": "30×90",
+        "file": "PARIS BLACK 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BLACK DEKOFON",
+        "format": "30×90",
+        "file": "PARIS BLACK DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "30×90",
+        "file": "PARIS WHITE 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE",
+        "format": "45×45",
+        "file": "PARIS WHITE 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "WHITE DEKOFON",
+        "format": "30×90",
+        "file": "PARIS WHITE DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "PARIS 30X90.jpg"
+    ]
+  },
+  "parisian": {
+    "colors": [
+      "STANDARD",
+      "Beyaz-",
+      "Beyaz2-",
+      "Beyaz3-",
+      "BeyazFileliDekor",
+      "BeyazGeoDekor",
+      "Dekofon40x120-2",
+      "Dekofon"
+    ],
+    "formats": [
+      "40×120",
+      "40×1202",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "40×120",
+        "file": "Parisian40x120.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "40×1202",
+        "file": "Parisian40x1202.jpg"
+      },
+      {
+        "color": "Beyaz-",
+        "format": "60×60",
+        "file": "ParisianBeyaz-60x60.jpg"
+      },
+      {
+        "color": "Beyaz2-",
+        "format": "60×60",
+        "file": "ParisianBeyaz2-60x60.jpg"
+      },
+      {
+        "color": "Beyaz3-",
+        "format": "60×60",
+        "file": "ParisianBeyaz3-60x60.jpg"
+      },
+      {
+        "color": "BeyazFileliDekor",
+        "format": "",
+        "file": "ParisianBeyazFileliDekor.jpg"
+      },
+      {
+        "color": "BeyazGeoDekor",
+        "format": "",
+        "file": "ParisianBeyazGeoDekor.jpg"
+      },
+      {
+        "color": "Dekofon40x120-2",
+        "format": "",
+        "file": "ParisianDekofon40x120-2.jpg"
+      }
+    ],
+    "renders": [
+      "PARISIAN 40X120 .jpg",
+      "PARISIAN 40X120 DIKEY.jpg"
+    ]
+  },
+  "paros": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": [
+      "Paros-Koyu-Gri.jpg"
+    ]
+  },
+  "pastel": {
+    "colors": [
+      "Kirmizi",
+      "Siyah"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Kirmizi",
+        "format": "",
+        "file": "PastelKirmizi.jpg"
+      },
+      {
+        "color": "Siyah",
+        "format": "",
+        "file": "PastelSiyah.jpg"
+      }
+    ],
+    "renders": [
+      "pastel siyah.jpg"
+    ]
+  },
+  "pera": {
+    "colors": [
+      "30X90 PERA ACIK GRI DEKOFON1",
+      "30X90 PERA ACIK GRI DEKOFON2",
+      "30X90 PERA ACIK GRI DEKOFON3",
+      "30X90 PERA ACIK GRI DEKOFON4",
+      "30X90 PERA ACIK GRI F1",
+      "30X90 PERA ACIK GRI F2",
+      "30X90 PERA ACIK GRI F3",
+      "30X90 PERA ACIK GRI F4",
+      "30X90 PERA BEYAZ  DEKOFON1",
+      "30X90 PERA BEYAZ  DEKOFON2",
+      "30X90 PERA BEYAZ  DEKOFON3",
+      "30X90 PERA BEYAZ  DEKOFON4",
+      "30X90 PERA BEYAZ  F1",
+      "30X90 PERA BEYAZ  F2",
+      "30X90 PERA BEYAZ  F3",
+      "30X90 PERA BEYAZ  F4",
+      "30x90 PERA K GRI DEKOFON1",
+      "30x90 PERA K GRI DEKOFON2",
+      "30x90 PERA K GRI DEKOFON3",
+      "30x90 PERA K GRI DEKOFON4",
+      "30x90 PERA K GRI F1",
+      "30x90 PERA K GRI F2",
+      "30x90 PERA K GRI F3",
+      "30x90 PERA K GRI F4",
+      "45X45 PERA ACIK GRI YER F1",
+      "45X45 PERA BEYAZ F1",
+      "KOYU GRİ"
+    ],
+    "formats": [
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "30X90 PERA ACIK GRI DEKOFON1",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI DEKOFON1.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI DEKOFON2",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI DEKOFON2.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI DEKOFON3",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI DEKOFON3.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI DEKOFON4",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI DEKOFON4.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI F1",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI F1.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI F2",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI F2.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI F3",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI F3.jpg"
+      },
+      {
+        "color": "30X90 PERA ACIK GRI F4",
+        "format": "",
+        "file": "30X90 PERA ACIK GRI F4.jpg"
+      }
+    ],
+    "renders": [
+      "PERA 30X90.jpg"
+    ]
+  },
+  "picasso": {
+    "colors": [
+      "Akcaagac15x60-2",
+      "Akcaagac15x60-3",
+      "Akcaagac",
+      "Cira15x60 1",
+      "Cira15x60 2",
+      "Cira15x60 3",
+      "Mavi15x60-2",
+      "Mavi15x60-3",
+      "Mavi",
+      "Vizon15x60-2",
+      "Vizon15x60-3",
+      "Vizon"
+    ],
+    "formats": [
+      "15×60"
+    ],
+    "face1s": [
+      {
+        "color": "Akcaagac15x60-2",
+        "format": "",
+        "file": "PicassoAkcaagac15x60-2.jpg"
+      },
+      {
+        "color": "Akcaagac15x60-3",
+        "format": "",
+        "file": "PicassoAkcaagac15x60-3.jpg"
+      },
+      {
+        "color": "Akcaagac",
+        "format": "15×60",
+        "file": "PicassoAkcaagac15x60.jpg"
+      },
+      {
+        "color": "Cira15x60 1",
+        "format": "",
+        "file": "PicassoCira15x60 1.jpg"
+      },
+      {
+        "color": "Cira15x60 2",
+        "format": "",
+        "file": "PicassoCira15x60 2.jpg"
+      },
+      {
+        "color": "Cira15x60 3",
+        "format": "",
+        "file": "PicassoCira15x60 3.jpg"
+      },
+      {
+        "color": "Mavi15x60-2",
+        "format": "",
+        "file": "PicassoMavi15x60-2.jpg"
+      },
+      {
+        "color": "Mavi15x60-3",
+        "format": "",
+        "file": "PicassoMavi15x60-3.jpg"
+      }
+    ],
+    "renders": [
+      "PICASSO AKAĞAÇ.jpg",
+      "PICASSO BLUE.jpg",
+      "PICASSO FIREWOOD+blue.jpg"
+    ]
+  },
+  "piegato": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "PIEGATO 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "PIEGATO 60X120 .jpg"
+    ]
+  },
+  "quark": {
+    "colors": [
+      "60X120 QUARK ANTRASIT",
+      "60X120 QUARK BONE",
+      "60X120 QUARK GREY",
+      "60X120 QUARK MOKA"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 QUARK ANTRASIT",
+        "format": "",
+        "file": "60X120 QUARK ANTRASIT FACE 1.jpg"
+      },
+      {
+        "color": "60X120 QUARK BONE",
+        "format": "",
+        "file": "60X120 QUARK BONE FACE 1.jpg"
+      },
+      {
+        "color": "60X120 QUARK GREY",
+        "format": "",
+        "file": "60X120 QUARK GREY FACE 1.jpg"
+      },
+      {
+        "color": "60X120 QUARK MOKA",
+        "format": "",
+        "file": "60X120 QUARK MOKA FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "QUARK 60X120 MOKA-1.jpg",
+      "QUARK 60X120 MOKA-2.jpg"
+    ]
+  },
+  "regnum": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "REGNUM 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "REGNUM 60X120 2.jpg",
+      "REGNUM 60X120.jpg"
+    ]
+  },
+  "rio": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "riva": {
+    "colors": [
+      "DEKOFON 30X60 PARLAK",
+      "FON 30X60 PARLAK",
+      "YERKAROSU 40X40 MAT"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "DEKOFON 30X60 PARLAK",
+        "format": "",
+        "file": "RIVA DEKOFON 30X60 PARLAK - FACE 1.jpg"
+      },
+      {
+        "color": "FON 30X60 PARLAK",
+        "format": "",
+        "file": "RIVA FON 30X60 PARLAK - FACE 1.jpg"
+      },
+      {
+        "color": "YERKAROSU 40X40 MAT",
+        "format": "",
+        "file": "RIVA YERKAROSU 40X40 MAT - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "RIVA 30X60.jpg"
+    ]
+  },
+  "root": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": [
+      "ROOT 60X120 ASH.jpg",
+      "ROOT 60X120 CREMA.jpg",
+      "ROOT 60X120 SILVER .jpg"
+    ]
+  },
+  "rubi": {
+    "colors": [
+      "ANTRACIT 60X120 FULLAP",
+      "BONE 60X120 FULLAP",
+      "BROWN 60X120 FULLAP",
+      "GREY 60X120 FULLAP"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "ANTRACIT 60X120 FULLAP",
+        "format": "",
+        "file": "RUBI ANTRACIT 60X120 FULLAP - FACE 1.jpg"
+      },
+      {
+        "color": "BONE 60X120 FULLAP",
+        "format": "",
+        "file": "RUBI BONE 60X120 FULLAP - FACE 1.jpg"
+      },
+      {
+        "color": "BROWN 60X120 FULLAP",
+        "format": "",
+        "file": "RUBI BROWN 60X120 FULLAP - FACE 1.jpg"
+      },
+      {
+        "color": "GREY 60X120 FULLAP",
+        "format": "",
+        "file": "RUBI GREY 60X120 FULLAP - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "saaga": {
+    "colors": [
+      "ANTRACIT 30X40 SON",
+      "GREY MAT 30X40 SON",
+      "LIGHT BEIGE MAT 30X40 SON",
+      "SAGAA BROWN 30X40 SON"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "ANTRACIT 30X40 SON",
+        "format": "",
+        "file": "SAAGA ANTRACIT 30X40 SON.jpg"
+      },
+      {
+        "color": "GREY MAT 30X40 SON",
+        "format": "",
+        "file": "SAAGA GREY MAT 30X40 SON.jpg"
+      },
+      {
+        "color": "LIGHT BEIGE MAT 30X40 SON",
+        "format": "",
+        "file": "SAAGA LIGHT BEIGE MAT 30X40 SON.jpg"
+      },
+      {
+        "color": "SAGAA BROWN 30X40 SON",
+        "format": "",
+        "file": "SAGAA BROWN 30X40 SON.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "sakura": {
+    "colors": [
+      "61X61 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "61X61 TEK FACE",
+        "format": "",
+        "file": "SAKURA 61X61 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "SAKURA 61X61.jpg"
+    ]
+  },
+  "salamanca": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "20×120",
+        "file": "SALAMANCA  20X120 face 1.jpg"
+      }
+    ],
+    "renders": [
+      "Salamanca 20x120 -2.jpg",
+      "Salamanca 20x120 -3.jpg",
+      "SALAMANCA 20X120.jpg"
+    ]
+  },
+  "salt-cave": {
+    "colors": [
+      "ALMOND 60X120 MAT F1",
+      "ALMOND 60X120 MAT F2",
+      "ALMOND 60X120 MAT F3",
+      "ALMOND 60X120 MAT F4",
+      "ALMOND 60X120 MAT F5",
+      "ALMOND 60X120 MAT F6",
+      "ICE 60X120 MAT F1",
+      "ICE 60X120 MAT F2",
+      "ICE 60X120 MAT F3",
+      "ICE 60X120 MAT F4",
+      "ICE 60X120 MAT F5",
+      "ICE 60X120 MAT F6",
+      "TAUPE 60X120 MAT F1",
+      "TAUPE 60X120 MAT F2",
+      "TAUPE 60X120 MAT F3",
+      "TAUPE 60X120 MAT F4",
+      "TAUPE 60X120 MAT F5",
+      "TAUPE 60X120 MAT F6"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "ALMOND 60X120 MAT F1",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F1.jpg"
+      },
+      {
+        "color": "ALMOND 60X120 MAT F2",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F2.jpg"
+      },
+      {
+        "color": "ALMOND 60X120 MAT F3",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F3.jpg"
+      },
+      {
+        "color": "ALMOND 60X120 MAT F4",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F4.jpg"
+      },
+      {
+        "color": "ALMOND 60X120 MAT F5",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F5.jpg"
+      },
+      {
+        "color": "ALMOND 60X120 MAT F6",
+        "format": "",
+        "file": "SALT CAVE ALMOND 60X120 MAT F6.jpg"
+      },
+      {
+        "color": "ICE 60X120 MAT F1",
+        "format": "",
+        "file": "SALT CAVE ICE 60X120 MAT F1.jpg"
+      },
+      {
+        "color": "ICE 60X120 MAT F2",
+        "format": "",
+        "file": "SALT CAVE ICE 60X120 MAT F2.jpg"
+      }
+    ],
+    "renders": [
+      "SALT CAVE 60X120 1.jpg",
+      "SALT CAVE 60X120 2.jpg",
+      "SALT CAVE 60X120-3.jpg"
+    ]
+  },
+  "sante": {
+    "colors": [
+      "beyaz yer 1",
+      "beyaz yer 2",
+      "beyaz yer 3",
+      "30X90 AQUA DEKOR",
+      "30X90 AQUA",
+      "30X90 HONEY DECOR",
+      "30X90 HONEY DEKOFON",
+      "30X90 HONEY",
+      "30X90 SMOKE DECOR",
+      "30x90 SMOKE DEKOFON",
+      "30X90 SMOKE",
+      "30X90 TURQUOIS DECOR",
+      "30X90 TURQUOIS F1",
+      "30X90 TURQUOIS F2",
+      "30X90 TURQUOIS F3",
+      "30X90 WHITE DECOR f1",
+      "30X90 WHITE",
+      "30X90 WHITE MOZAİK DEKOFON",
+      "AQUA 1",
+      "AQUA 2",
+      "AQUA 3",
+      "AQUA 30X90 DEKOFON",
+      "TURQUOIS 30X90 DEKOFON",
+      "smoke yer 1",
+      "smoke yer 2",
+      "smoke yer 3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "beyaz yer 1",
+        "format": "",
+        "file": "beyaz yer 1.jpg"
+      },
+      {
+        "color": "beyaz yer 2",
+        "format": "",
+        "file": "beyaz yer 2.jpg"
+      },
+      {
+        "color": "beyaz yer 3",
+        "format": "",
+        "file": "beyaz yer 3.jpg"
+      },
+      {
+        "color": "30X90 AQUA DEKOR",
+        "format": "",
+        "file": "SANTE 30X90 AQUA DEKOR.jpg"
+      },
+      {
+        "color": "30X90 AQUA",
+        "format": "",
+        "file": "SANTE 30X90 AQUA FACE 1.jpg"
+      },
+      {
+        "color": "30X90 HONEY DECOR",
+        "format": "",
+        "file": "SANTE 30X90 HONEY DECOR.jpg"
+      },
+      {
+        "color": "30X90 HONEY DEKOFON",
+        "format": "",
+        "file": "SANTE 30X90 HONEY DEKOFON.jpg"
+      },
+      {
+        "color": "30X90 HONEY",
+        "format": "",
+        "file": "SANTE 30X90 HONEY FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "SANTE 30X90 AQUA DETAY.jpg",
+      "SANTE 30X90 AQUA MUTFAK.JPG",
+      "SANTE 30X90 AQUA.jpg"
+    ]
+  },
+  "sara": {
+    "colors": [
+      "BLUE",
+      "BONE",
+      "BROWN",
+      "GREEN"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BLUE",
+        "format": "60×120",
+        "file": "SARA BLUE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "60×120",
+        "file": "SARA BONE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BROWN",
+        "format": "60×120",
+        "file": "SARA BROWN 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "60×120",
+        "file": "SARA GREEN 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "saten": {
+    "colors": [
+      "beyaz",
+      "havuz lacivert",
+      "havuz mavi"
+    ],
+    "formats": [
+      "30×40"
+    ],
+    "face1s": [
+      {
+        "color": "beyaz",
+        "format": "30×40",
+        "file": "Saten beyaz 30x40.jpg"
+      },
+      {
+        "color": "havuz lacivert",
+        "format": "30×40",
+        "file": "Saten havuz lacivert 30x40.jpg"
+      },
+      {
+        "color": "havuz mavi",
+        "format": "30×40",
+        "file": "Saten havuz mavi 30x40.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "sativa": {
+    "colors": [
+      "Bone",
+      "CollGri"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "Bone",
+        "format": "50×50",
+        "file": "SativaBone50x50.jpg"
+      },
+      {
+        "color": "CollGri",
+        "format": "50×50",
+        "file": "SativaCollGri50x50.jpg"
+      }
+    ],
+    "renders": [
+      "SATIVA 61X61-2.jpg",
+      "SATIVA 61X61.jpg"
+    ]
+  },
+  "sealong": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "SEALONG 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "sempre": {
+    "colors": [
+      "BIANCA",
+      "GRIGIO",
+      "NERO",
+      "ROSA"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BIANCA",
+        "format": "60×60",
+        "file": "SEMPRE BIANCA 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "GRIGIO",
+        "format": "60×60",
+        "file": "SEMPRE GRIGIO 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "NERO",
+        "format": "60×60",
+        "file": "SEMPRE NERO 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ROSA",
+        "format": "60×60",
+        "file": "SEMPRE ROSA 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "SEMPRE GRIGO 60X60.jpg",
+      "Sempre Grigo Mix 1.jpg",
+      "Sempre Grigo Mix 2.jpg"
+    ]
+  },
+  "serpantin": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "side": {
+    "colors": [
+      "BROWN",
+      "GREEN"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BROWN",
+        "format": "60×120",
+        "file": "SIDE BROWN 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "60×120",
+        "file": "SIDE GREEN 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "silyon": {
+    "colors": [
+      "STANDARD",
+      "BLUE"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "SILYON 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BLUE",
+        "format": "60×120",
+        "file": "SILYON BLUE 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "simirna": {
+    "colors": [
+      "60X120 GREY SEMILAP",
+      "60X120 SEMILAP BROWN"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 GREY SEMILAP",
+        "format": "",
+        "file": "SIMIRNA 60X120 GREY SEMILAP - FACE 1.jpg"
+      },
+      {
+        "color": "60X120 SEMILAP BROWN",
+        "format": "",
+        "file": "SIMIRNA 60X120 SEMILAP BROWN - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "stacy": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "50×50"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "50×50",
+        "file": "STACY 50X50 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "STACY 50X50-2.jpg",
+      "STACY 50X50.jpg"
+    ]
+  },
+  "star": {
+    "colors": [
+      "Kirmizi",
+      "MAVİ"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Kirmizi",
+        "format": "",
+        "file": "Star Kirmizi.jpg"
+      },
+      {
+        "color": "MAVİ",
+        "format": "",
+        "file": "Star MAVİ.jpg"
+      }
+    ],
+    "renders": [
+      "STAR 19,7x19,7.JPG"
+    ]
+  },
+  "star-line": {
+    "colors": [
+      "STARLINE",
+      "STARLINE DUVAR KAROSU",
+      "STARLINE DUVAR KAROSU DEKOFON"
+    ],
+    "formats": [
+      "45×45",
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "STARLINE",
+        "format": "45×45",
+        "file": "STARLINE 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "STARLINE DUVAR KAROSU",
+        "format": "30×90",
+        "file": "STARLINE DUVAR KAROSU 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "STARLINE DUVAR KAROSU DEKOFON",
+        "format": "30×90",
+        "file": "STARLINE DUVAR KAROSU DEKOFON 30X90 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "STARLINE 30X90.jpg"
+    ]
+  },
+  "statuario-goya": {
+    "colors": [
+      "STANDARD",
+      "DEKOFON"
+    ],
+    "formats": [
+      "100×100",
+      "120×180",
+      "40×120",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "100×100",
+        "file": "STATUARIO GOYA 100X100 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "STATUARIO GOYA 120X180 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "40×120",
+        "file": "STATUARIO GOYA 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "STATUARIO GOYA 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "STATUARIO GOYA 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "40×120",
+        "file": "STATUARIO GOYA DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "STATUARIO GOYA 100x100.jpg",
+      "STATUARIO GOYA 120x180 - (1) kopya.JPG",
+      "STATUARIO GOYA 120x180 - (2) kopya.JPG"
+    ]
+  },
+  "storm-rock": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "strato": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "120×180",
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "STRATO 120X180 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "STRATO 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "STRATO 120X180 R1.JPG",
+      "STRATO 120X180 R2.JPG",
+      "STRATO 120X180 R3.JPG"
+    ]
+  },
+  "stuart": {
+    "colors": [
+      "50X50 TEK FACE"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "50X50 TEK FACE",
+        "format": "",
+        "file": "STUART 50X50 TEK FACE.jpg"
+      }
+    ],
+    "renders": [
+      "STUART 50X50 2.jpg",
+      "STUART 50X50.jpg"
+    ]
+  },
+  "super-beyaz": {
+    "colors": [
+      "SuperBeyaz-"
+    ],
+    "formats": [
+      "30×60",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "SuperBeyaz-",
+        "format": "30×60",
+        "file": "SuperBeyaz-30X60.jpg"
+      },
+      {
+        "color": "SuperBeyaz-",
+        "format": "60×120",
+        "file": "SuperBeyaz-60X120.jpg"
+      },
+      {
+        "color": "SuperBeyaz-",
+        "format": "60×60",
+        "file": "SuperBeyaz-60X60.jpg"
+      }
+    ],
+    "renders": [
+      "SUPER BEYAZ 60X120.jpg"
+    ]
+  },
+  "swan": {
+    "colors": [
+      "Y 60x120 FACE  (1)",
+      "Y 60x120 FACE  (2)",
+      "Y 60x120 FACE  (3)",
+      "Y 60x120 FACE  (4)"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Y 60x120 FACE  (1)",
+        "format": "",
+        "file": "SWANY 60x120 FACE  (1).jpg"
+      },
+      {
+        "color": "Y 60x120 FACE  (2)",
+        "format": "",
+        "file": "SWANY 60x120 FACE  (2).jpg"
+      },
+      {
+        "color": "Y 60x120 FACE  (3)",
+        "format": "",
+        "file": "SWANY 60x120 FACE  (3).jpg"
+      },
+      {
+        "color": "Y 60x120 FACE  (4)",
+        "format": "",
+        "file": "SWANY 60x120 FACE  (4).jpg"
+      }
+    ],
+    "renders": [
+      "SWAN 60x120 R1.jpg",
+      "SWAN 60x120 R2.jpg",
+      "SWAN 60x120 R3.jpg"
+    ]
+  },
+  "terra": {
+    "colors": [
+      "30X90 BEJ",
+      "30X90 BEYAZ",
+      "30X90 GRİ",
+      "30X90 GÜL KURUSU",
+      "30X90 TURKUAZ",
+      "45X45 BEJ",
+      "45X45 BEYAZ",
+      "45X45 GRİ",
+      "MIX DEKOFON"
+    ],
+    "formats": [
+      "30×90"
+    ],
+    "face1s": [
+      {
+        "color": "30X90 BEJ",
+        "format": "",
+        "file": "TERRA 30X90 BEJ-FACE 1.jpg"
+      },
+      {
+        "color": "30X90 BEYAZ",
+        "format": "",
+        "file": "TERRA 30X90 BEYAZ-FACE 1.jpg"
+      },
+      {
+        "color": "30X90 GRİ",
+        "format": "",
+        "file": "TERRA 30X90 GRİ-FACE 1.jpg"
+      },
+      {
+        "color": "30X90 GÜL KURUSU",
+        "format": "",
+        "file": "TERRA 30X90 GÜL KURUSU-FACE 1.jpg"
+      },
+      {
+        "color": "30X90 TURKUAZ",
+        "format": "",
+        "file": "TERRA 30X90 TURKUAZ-FACE 1.jpg"
+      },
+      {
+        "color": "45X45 BEJ",
+        "format": "",
+        "file": "TERRA 45X45 BEJ-FACE 1.jpg"
+      },
+      {
+        "color": "45X45 BEYAZ",
+        "format": "",
+        "file": "TERRA 45X45 BEYAZ-FACE 1.jpg"
+      },
+      {
+        "color": "45X45 GRİ",
+        "format": "",
+        "file": "TERRA 45X45 GRİ-FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "30X90 Terra-Beyaz-Mavi.jpg",
+      "30X90 Terra-Gül-Kurusu.jpg",
+      "TERRA 30X90 RENDERGENEL.JPG"
+    ]
+  },
+  "tiana": {
+    "colors": [
+      "ANTRASIT",
+      "BEYAZ",
+      "BEYAZ DEKOFON"
+    ],
+    "formats": [
+      "40×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT",
+        "format": "40×120",
+        "file": "TIANA ANTRASIT 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ",
+        "format": "40×120",
+        "file": "TIANA BEYAZ 40X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ",
+        "format": "60×60",
+        "file": "TIANA BEYAZ 60X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ DEKOFON",
+        "format": "40×120",
+        "file": "TIANA BEYAZ DEKOFON 40X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "TIANA 40X120 1.jpg",
+      "TIANA 40X120 2.jpg",
+      "TIANA 40X120.jpg"
+    ]
+  },
+  "tiffany": {
+    "colors": [
+      "Kirmizi",
+      "Mavi",
+      "Siyah"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Kirmizi",
+        "format": "",
+        "file": "TiffanyKirmizi.jpg"
+      },
+      {
+        "color": "Mavi",
+        "format": "",
+        "file": "TiffanyMavi.jpg"
+      },
+      {
+        "color": "Siyah",
+        "format": "",
+        "file": "TiffanySiyah.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "tiger": {
+    "colors": [
+      "BLACK"
+    ],
+    "formats": [
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "BLACK",
+        "format": "60×120",
+        "file": "TIGER BLACK 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "BLACK",
+        "format": "60×60",
+        "file": "TIGER BLACK 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "TIGER-60X120-1.jpg",
+      "TIGER-60X120-2.jpg",
+      "TIGER-60X120-3.jpg"
+    ]
+  },
+  "tsuga": {
+    "colors": [
+      "20X120 ALMOND",
+      "20X120 MAUN",
+      "20X120 NATURAL"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "20X120 ALMOND",
+        "format": "",
+        "file": "TSUGA 20X120 ALMOND - FACE 1.jpg"
+      },
+      {
+        "color": "20X120 MAUN",
+        "format": "",
+        "file": "TSUGA 20X120 MAUN - FACE 1.jpg"
+      },
+      {
+        "color": "20X120 NATURAL",
+        "format": "",
+        "file": "TSUGA 20X120 NATURAL - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "TSUGA ALMOND 20x120.jpg"
+    ]
+  },
+  "turin": {
+    "colors": [
+      "60X120 TURIN GRI-1",
+      "60X120 TURIN GRI-2",
+      "60X120 TURIN GRI-3"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 TURIN GRI-1",
+        "format": "",
+        "file": "60X120 TURIN GRI-1.jpg"
+      },
+      {
+        "color": "60X120 TURIN GRI-2",
+        "format": "",
+        "file": "60X120 TURIN GRI-2.jpg"
+      },
+      {
+        "color": "60X120 TURIN GRI-3",
+        "format": "",
+        "file": "60X120 TURIN GRI-3.jpg"
+      }
+    ],
+    "renders": [
+      "TURIN HAKI  120X120.jpg"
+    ]
+  },
+  "twist": {
+    "colors": [
+      "BEYAZ",
+      "BLACK",
+      "GREY"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "BEYAZ",
+        "format": "",
+        "file": "BEYAZ.jpg"
+      },
+      {
+        "color": "BLACK",
+        "format": "",
+        "file": "BLACK.jpg"
+      },
+      {
+        "color": "GREY",
+        "format": "",
+        "file": "GREY.jpg"
+      }
+    ],
+    "renders": [
+      "TWIST 14X16.jpg"
+    ]
+  },
+  "urban": {
+    "colors": [
+      "ANTRASIT",
+      "BONE",
+      "DUNKEL",
+      "LATTE"
+    ],
+    "formats": [
+      "30×60",
+      "61×61"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASIT",
+        "format": "30×60",
+        "file": "URBAN ANTRASIT 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "ANTRASIT",
+        "format": "61×61",
+        "file": "URBAN ANTRASIT 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "30×60",
+        "file": "URBAN BONE 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "BONE",
+        "format": "61×61",
+        "file": "URBAN BONE 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "DUNKEL",
+        "format": "30×60",
+        "file": "URBAN DUNKEL 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "DUNKEL",
+        "format": "61×61",
+        "file": "URBAN DUNKEL 61X61 - FACE 1.jpg"
+      },
+      {
+        "color": "LATTE",
+        "format": "30×60",
+        "file": "URBAN LATTE 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "LATTE",
+        "format": "61×61",
+        "file": "URBAN LATTE 61X61 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "URBAN CONCRETE GREY 30X60 3D kopya.jpg",
+      "URBAN CONCRETE WHITE 30X60 3D kopya.jpg",
+      "Urban-Bone-Kucuk.jpg"
+    ]
+  },
+  "vales": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "valor": {
+    "colors": [
+      "BEYAZ",
+      "BEYAZ DEKOFON",
+      "SIYAH",
+      "SIYAH DEKOFON"
+    ],
+    "formats": [
+      "30×90",
+      "45×45"
+    ],
+    "face1s": [
+      {
+        "color": "BEYAZ",
+        "format": "30×90",
+        "file": "VALOR BEYAZ 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ",
+        "format": "45×45",
+        "file": "VALOR BEYAZ 45X45 - FACE 1.jpg"
+      },
+      {
+        "color": "BEYAZ DEKOFON",
+        "format": "30×90",
+        "file": "VALOR BEYAZ DEKOFON 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "SIYAH",
+        "format": "30×90",
+        "file": "VALOR SIYAH 30X90 - FACE 1.jpg"
+      },
+      {
+        "color": "SIYAH DEKOFON",
+        "format": "30×90",
+        "file": "VALOR SIYAH DEKOFON 30X90.jpg"
+      }
+    ],
+    "renders": [
+      "VALOR 30X90 RENK AYRIMI.jpg",
+      "VALOR 30X90.jpg"
+    ]
+  },
+  "venus": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "verona": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "",
+        "file": "Verona.jpg"
+      }
+    ],
+    "renders": [
+      "VERONA 30X60.jpg"
+    ]
+  },
+  "vigo": {
+    "colors": [
+      "30X90 DEKOFON",
+      "30X90 FON",
+      "45X45-1",
+      "45X45-2",
+      "45X45-3",
+      "45X45-4",
+      "45X45-5",
+      "45X45-6"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 DEKOFON",
+        "format": "",
+        "file": "VIGO 30X90 DEKOFON-FACE 1.jpg"
+      },
+      {
+        "color": "30X90 FON",
+        "format": "",
+        "file": "VIGO 30X90 FON-FACE 1.jpg"
+      },
+      {
+        "color": "45X45-1",
+        "format": "",
+        "file": "VIGO 45X45-1.jpg"
+      },
+      {
+        "color": "45X45-2",
+        "format": "",
+        "file": "VIGO 45X45-2.jpg"
+      },
+      {
+        "color": "45X45-3",
+        "format": "",
+        "file": "VIGO 45X45-3.jpg"
+      },
+      {
+        "color": "45X45-4",
+        "format": "",
+        "file": "VIGO 45X45-4.jpg"
+      },
+      {
+        "color": "45X45-5",
+        "format": "",
+        "file": "VIGO 45X45-5.jpg"
+      },
+      {
+        "color": "45X45-6",
+        "format": "",
+        "file": "VIGO 45X45-6.jpg"
+      }
+    ],
+    "renders": [
+      "VIGO 30X90.jpg"
+    ]
+  },
+  "vintage": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "violeta": {
+    "colors": [
+      "CAFE",
+      "GRIS"
+    ],
+    "formats": [
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "CAFE",
+        "format": "60×60",
+        "file": "VIOLETA CAFE 60X60  - FACE 1.jpg"
+      },
+      {
+        "color": "GRIS",
+        "format": "60×60",
+        "file": "VIOLETA GRIS 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "VIOLETA 60X60  GRIS.jpg",
+      "VIOLETA 60X60 CAFE .jpg"
+    ]
+  },
+  "vitray": {
+    "colors": [
+      "60X120 FULL LAPPATO"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "60X120 FULL LAPPATO",
+        "format": "",
+        "file": "VITRAY 60X120 FULL LAPPATO.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "void": {
+    "colors": [
+      "100X100 BONE",
+      "100X100 FUME",
+      "100X100 GREJ",
+      "100X100 GRI"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "100X100 BONE",
+        "format": "",
+        "file": "VOID 100X100 BONE - FACE 1.jpg"
+      },
+      {
+        "color": "100X100 FUME",
+        "format": "",
+        "file": "VOID 100X100 FUME - FACE 1.jpg"
+      },
+      {
+        "color": "100X100 GREJ",
+        "format": "",
+        "file": "VOID 100X100 GREJ - FACE 1.jpg"
+      },
+      {
+        "color": "100X100 GRI",
+        "format": "",
+        "file": "VOID 100X100 GRI - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "VOID 100X100 BONE.jpg",
+      "VOID 100X100 FUME.jpg",
+      "VOID 100X100 GREJ.jpg"
+    ]
+  },
+  "volare": {
+    "colors": [],
+    "formats": [],
+    "face1s": [],
+    "renders": []
+  },
+  "walter": {
+    "colors": [
+      "ANTRASİT",
+      "AÇIK GRİ",
+      "DEKOFON",
+      "GRİ"
+    ],
+    "formats": [
+      "30×60"
+    ],
+    "face1s": [
+      {
+        "color": "ANTRASİT",
+        "format": "30×60",
+        "file": "WALTER ANTRASİT 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "AÇIK GRİ",
+        "format": "30×60",
+        "file": "WALTER AÇIK GRİ 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "DEKOFON",
+        "format": "30×60",
+        "file": "WALTER DEKOFON 30X60.jpg"
+      },
+      {
+        "color": "GRİ",
+        "format": "30×60",
+        "file": "WALTER GRİ 30X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "WALTER 30X60 2.jpg",
+      "WALTER 30x60.jpg"
+    ]
+  },
+  "wario": {
+    "colors": [
+      "BLUE",
+      "GREEN"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "BLUE",
+        "format": "60×120",
+        "file": "WARIO BLUE 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "GREEN",
+        "format": "60×120",
+        "file": "WARIO GREEN 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "white-star": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "120×180",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "120×180",
+        "file": "WHITE STAR 120X180.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "WHITE STAR 60X120.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "WHITE STAR 60X60.jpg"
+      }
+    ],
+    "renders": [
+      "BLACK - WHITE STAR 120X180 R1.jpg",
+      "BLACK - WHITE STAR 120X180 R2-2.jpg",
+      "BLACK - WHITE STAR 120X180 R2.jpg"
+    ]
+  },
+  "windy": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "60×120"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "WINDY 60X120 - FACE 1.jpg"
+      }
+    ],
+    "renders": []
+  },
+  "yoga-wood": {
+    "colors": [
+      "YOGA GREY",
+      "YOGA IVORY",
+      "YOGA OAK",
+      "YOGA VENGE"
+    ],
+    "formats": [
+      "20×120"
+    ],
+    "face1s": [
+      {
+        "color": "YOGA GREY",
+        "format": "20×120",
+        "file": "YOGA GREY 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "YOGA IVORY",
+        "format": "20×120",
+        "file": "YOGA IVORY 20X120 - FACE 4.jpg"
+      },
+      {
+        "color": "YOGA OAK",
+        "format": "20×120",
+        "file": "YOGA OAK 20X120 - FACE 1.jpg"
+      },
+      {
+        "color": "YOGA VENGE",
+        "format": "20×120",
+        "file": "YOGA VENGE 20X120 - FACE 4.jpg"
+      }
+    ],
+    "renders": [
+      "YOGA 20X120 VENGE GENEL.JPG",
+      "YOGA IVORY 20X120.JPG",
+      "YOGA OAK 20X120_Interactive LightMix.JPG"
+    ]
+  },
+  "yuta": {
+    "colors": [
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE1",
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE2",
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE3",
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE4",
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE5",
+      "30X90 MAT YUTA BEYAZ DEKOFON FACE6",
+      "30X90 MAT YUTA BEYAZ FON FACE1",
+      "30X90 MAT YUTA BEYAZ FON FACE2",
+      "30X90 MAT YUTA BEYAZ FON FACE3",
+      "30X90 MAT YUTA BEYAZ FON FACE4",
+      "30X90 MAT YUTA BEYAZ FON FACE5",
+      "30X90 MAT YUTA BEYAZ FON FACE6",
+      "30X90 MAT YUTA KREM DEKOFON FACE1",
+      "30X90 MAT YUTA KREM DEKOFON FACE2",
+      "30X90 MAT YUTA KREM DEKOFON FACE3",
+      "30X90 MAT YUTA KREM DEKOFON FACE4",
+      "30X90 MAT YUTA KREM DEKOFON FACE5",
+      "30X90 MAT YUTA KREM DEKOFON FACE6",
+      "30X90 MAT YUTA KREM FON FACE1",
+      "30X90 MAT YUTA KREM FON FACE2",
+      "30X90 MAT YUTA KREM FON FACE3",
+      "30X90 MAT YUTA KREM FON FACE4",
+      "30X90 MAT YUTA KREM FON FACE5",
+      "30X90 MAT YUTA KREM FON FACE6"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE1",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE1.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE2",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE2.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE3",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE3.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE4",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE4.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE5",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE5.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ DEKOFON FACE6",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ DEKOFON FACE6.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ FON FACE1",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ FON FACE1.jpg"
+      },
+      {
+        "color": "30X90 MAT YUTA BEYAZ FON FACE2",
+        "format": "",
+        "file": "30X90 MAT YUTA BEYAZ FON FACE2.jpg"
+      }
+    ],
+    "renders": [
+      "YUTA 30X90 2 MOTTO LAVABO.jpg",
+      "YUTA 30X90 3 ALESTA KLOZET.jpg",
+      "YUTA 30X90.jpg"
+    ]
+  },
+  "zenith": {
+    "colors": [
+      "STANDARD"
+    ],
+    "formats": [
+      "30×60",
+      "60×120",
+      "60×60"
+    ],
+    "face1s": [
+      {
+        "color": "STANDARD",
+        "format": "30×60",
+        "file": "ZENITH 30X60 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×120",
+        "file": "ZENITH 60X120 - FACE 1.jpg"
+      },
+      {
+        "color": "STANDARD",
+        "format": "60×60",
+        "file": "ZENITH 60X60 - FACE 1.jpg"
+      }
+    ],
+    "renders": [
+      "ZENITH 60X120 1.jpg",
+      "ZENITH 60X120 2.jpg",
+      "ZENITH 60X120-2.jpg"
+    ]
+  },
+  "zigana": {
+    "colors": [
+      "Beyaz15x60-1",
+      "Beyaz15x60-2",
+      "Beyaz15x60-3",
+      "Beyaz15x60-4",
+      "Meşe15x60-1"
+    ],
+    "formats": [],
+    "face1s": [
+      {
+        "color": "Beyaz15x60-1",
+        "format": "",
+        "file": "ZiganaBeyaz15x60-1.jpg"
+      },
+      {
+        "color": "Beyaz15x60-2",
+        "format": "",
+        "file": "ZiganaBeyaz15x60-2.jpg"
+      },
+      {
+        "color": "Beyaz15x60-3",
+        "format": "",
+        "file": "ZiganaBeyaz15x60-3.jpg"
+      },
+      {
+        "color": "Beyaz15x60-4",
+        "format": "",
+        "file": "ZiganaBeyaz15x60-4.jpg"
+      },
+      {
+        "color": "Meşe15x60-1",
+        "format": "",
+        "file": "ZiganaMeşe15x60-1.jpg"
+      }
+    ],
+    "renders": [
+      "ZIGANA 15X60 CEVIZ.jpg"
+    ]
+  }
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Catalogue Carrelages — Dekor &amp; Design 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#1a1a1a;font-family:'Montserrat',sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+
+/* ══ TOUTES LES PAGES : 1600 × 960 px ══ */
+.pg-p, .pg-l{
+  width:1600px; height:960px;
+  position:relative; overflow:hidden;
+  display:block; margin:0 auto 4px;
+}
+
+/* ════════════════════════
+   COUVERTURE (paysage)
+   [TEXTE gauche] [RENDER droite]
+════════════════════════ */
+.cover{display:flex;flex-direction:row;background:#0c0c0c;}
+
+/* Panneau gauche titre */
+.cover-left{
+  flex:0 0 40%;height:100%;
+  background:#0c0c0c;
+  display:flex;flex-direction:column;
+  padding:52px 50px 44px 56px;
+  position:relative;z-index:1;
+}
+/* cover-left::after fade supprimé */
+.cover-bar{position:absolute;top:0;left:0;width:4px;height:100%;
+  background:linear-gradient(to bottom,#63c23e,#3a9e1e,rgba(58,158,30,0));}
+
+/* Render droite */
+.cover-right{
+  flex:1;height:100%;position:relative;overflow:hidden;
+}
+.cover-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+/* cover-right-fade supprimé */
+
+/* Contenu panneau gauche */
+.cover-logo{height:44px;width:auto;margin-bottom:auto;}
+.cover-spacer{flex:1;}
+.cover-eyebrow{font-size:11px;font-weight:700;letter-spacing:6px;color:#63c23e;text-transform:uppercase;margin-bottom:16px;}
+.cover-title{font-size:72px;font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:-1px;line-height:.93;margin-bottom:14px;}
+.cover-title .light{font-weight:100;font-style:italic;color:rgba(255,255,255,.65);}
+.cover-rule{width:56px;height:3px;background:#63c23e;margin:18px 0;}
+.cover-meta{display:flex;align-items:center;gap:22px;}
+.cover-count{font-size:36px;font-weight:900;color:#fff;line-height:1;}
+.cover-count-lbl{font-size:10px;font-weight:300;letter-spacing:3px;color:rgba(255,255,255,.4);text-transform:uppercase;margin-top:4px;}
+.cover-vdiv{width:1px;height:36px;background:rgba(255,255,255,.15);}
+.cover-year{font-size:10px;font-weight:200;letter-spacing:6px;color:rgba(255,255,255,.18);text-transform:uppercase;margin-top:28px;}
+
+/* ════════════════════════
+   PAGE LETTRE (paysage)
+════════════════════════ */
+.letter-pg{background:#0c0c0c;display:flex;align-items:center;justify-content:center;flex-direction:column;}
+.letter-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.08;}
+.letter-big{position:relative;font-size:520px;font-weight:900;color:rgba(255,255,255,.04);line-height:1;letter-spacing:-20px;user-select:none;}
+.letter-sub{position:relative;font-size:14px;font-weight:300;letter-spacing:10px;color:rgba(255,255,255,.35);text-transform:uppercase;margin-top:-38px;}
+.letter-cnt{position:relative;margin-top:24px;font-size:12px;font-weight:700;letter-spacing:4px;color:#63c23e;text-transform:uppercase;}
+.letter-logo{position:absolute;bottom:38px;left:50%;transform:translateX(-50%);height:36px;width:auto;opacity:.18;}
+
+/* ════════════════════════════════════════════
+   PAGE DOUBLE (2 collections) — PAYSAGE
+   [INFO1] [RENDER1] | [RENDER2] [INFO2]
+════════════════════════════════════════════ */
+.double-pg{display:flex;flex-direction:row;width:100%;height:100%;}
+
+/* Panneau info */
+.dp-info{
+  flex:0 0 22%;
+  height:100%;
+  background:#0e0e0e;
+  display:flex;
+  flex-direction:column;
+  padding:32px 26px 26px 28px;
+  position:relative;
+  overflow:hidden;
+}
+
+/* Barre verte séparatrice */
+.dp-bar-right{
+  position:absolute;top:0;right:0;width:2px;height:100%;
+  background:linear-gradient(to bottom,rgba(99,194,62,0) 5%,#63c23e 30%,#63c23e 70%,rgba(99,194,62,0) 95%);
+  opacity:.5;
+}
+.dp-bar-left{
+  position:absolute;top:0;left:0;width:2px;height:100%;
+  background:linear-gradient(to bottom,rgba(99,194,62,0) 5%,#63c23e 30%,#63c23e 70%,rgba(99,194,62,0) 95%);
+  opacity:.5;
+}
+
+/* Info RIGHT — texte aligné à droite */
+.dp-info.right{align-items:flex-end;text-align:right;padding:32px 28px 26px 26px;}
+
+/* Render */
+.dp-render{flex:0 0 28%;height:100%;position:relative;overflow:hidden;}
+
+/* Séparateur central */
+.dp-center-sep{flex:0 0 2px;height:100%;background:rgba(0,0,0,.9);position:relative;z-index:2;}
+
+.dp-render-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+
+/* fades supprimés — causaient du rose en PDF */
+
+/* ── Contenu panneaux info ── */
+.dp-header{display:flex;justify-content:flex-end;align-items:flex-start;width:100%;margin-bottom:20px;}
+.dp-info.right .dp-header{justify-content:flex-start;}
+.dp-num{font-size:11px;font-weight:300;letter-spacing:3px;color:rgba(255,255,255,.28);}
+
+.dp-cat{font-size:10px;font-weight:700;letter-spacing:4px;color:#63c23e;text-transform:uppercase;margin-bottom:8px;}
+.dp-name{font-size:28px;font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:.5px;line-height:.95;margin-bottom:10px;}
+.dp-bar{width:32px;height:3px;background:#63c23e;margin-bottom:18px;}
+.dp-info.right .dp-bar{margin-left:auto;}
+
+.dp-lbl{font-size:9px;font-weight:700;letter-spacing:4px;color:rgba(255,255,255,.3);text-transform:uppercase;margin-bottom:10px;}
+
+.dp-swatches{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;width:100%;}
+.dp-info.right .dp-swatches{justify-content:flex-end;}
+.dp-swatch{flex:0 0 calc(50% - 4px);position:relative;}
+.dp-sw-img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;}
+.dp-sw-name{font-size:9px;font-weight:400;letter-spacing:1.5px;color:rgba(255,255,255,.55);text-transform:uppercase;padding-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.dp-divider{width:100%;height:1px;background:rgba(255,255,255,.08);margin:12px 0;}
+
+.dp-formats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;}
+.dp-info.right .dp-formats{justify-content:flex-end;}
+.dp-fmt{font-size:11px;font-weight:700;color:rgba(255,255,255,.8);letter-spacing:.5px;
+  padding:5px 10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);white-space:nowrap;}
+
+.dp-spacer{flex:1;}
+
+.dp-footer{width:100%;display:flex;justify-content:space-between;align-items:flex-end;}
+.dp-info.right .dp-footer{flex-direction:row-reverse;}
+.dp-foot-txt{font-size:10px;font-weight:300;letter-spacing:2px;color:rgba(255,255,255,.2);text-transform:uppercase;line-height:1.8;}
+.dp-dot{width:8px;height:8px;border-radius:50%;background:#63c23e;opacity:.4;flex-shrink:0;}
+
+/* ════════════════════════════════════════
+   PAGE SIMPLE (1 collection) — PAYSAGE
+════════════════════════════════════════ */
+.single-pg{display:flex;flex-direction:row;width:100%;height:100%;}
+.sp-render{flex:0 0 60%;height:100%;position:relative;overflow:hidden;}
+.sp-render-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+/* sp-render-fade supprimé */
+.sp-info{flex:0 0 40%;height:100%;background:#0e0e0e;display:flex;flex-direction:column;padding:36px 36px 28px 40px;position:relative;}
+.sp-bar-line{position:absolute;top:0;left:0;width:2px;height:100%;
+  background:linear-gradient(to bottom,rgba(99,194,62,0) 5%,#63c23e 30%,#63c23e 70%,rgba(99,194,62,0) 95%);opacity:.5;}
+
+.sp-header{display:flex;justify-content:flex-end;align-items:flex-start;margin-bottom:28px;}
+.sp-num{font-size:12px;font-weight:300;letter-spacing:3px;color:rgba(255,255,255,.28);}
+.sp-cat{font-size:11px;font-weight:700;letter-spacing:4px;color:#63c23e;text-transform:uppercase;margin-bottom:10px;}
+.sp-name{font-size:38px;font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:.5px;line-height:.93;margin-bottom:12px;}
+.sp-bar{width:40px;height:3px;background:#63c23e;margin-bottom:24px;}
+.sp-lbl{font-size:10px;font-weight:700;letter-spacing:4px;color:rgba(255,255,255,.3);text-transform:uppercase;margin-bottom:12px;}
+.sp-swatches{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+.sp-swatch{flex:0 0 calc(33.33% - 8px);}
+.sp-sw-img{width:100%;aspect-ratio:1;object-fit:cover;display:block;}
+.sp-sw-name{font-size:9px;font-weight:400;letter-spacing:1.5px;color:rgba(255,255,255,.5);text-transform:uppercase;padding-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sp-divider{width:100%;height:1px;background:rgba(255,255,255,.08);margin:14px 0;}
+.sp-formats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+.sp-fmt{font-size:13px;font-weight:700;color:rgba(255,255,255,.85);letter-spacing:.5px;
+  padding:6px 14px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);}
+.sp-spacer{flex:1;}
+.sp-footer{display:flex;justify-content:space-between;align-items:flex-end;}
+.sp-foot-txt{font-size:11px;font-weight:300;letter-spacing:2px;color:rgba(255,255,255,.2);text-transform:uppercase;line-height:1.8;}
+.sp-green-dot{width:8px;height:8px;border-radius:50%;background:#63c23e;opacity:.4;}
+
+/* ════════════════════
+   PRINT
+════════════════════ */
+@media print{
+  body{background:none}
+  .pg-p,.pg-l{margin:0;page-break-after:always;break-after:page;}
+}
+@media screen{
+  body{padding:12px 0}
+  .pg-p,.pg-l{box-shadow:0 4px 40px rgba(0,0,0,.7);margin-bottom:6px;}
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+
+/* ════════════════════════════════════════
+   DB [slug, R/T, mainFile, fmt, formats[], swatches[]]
+════════════════════════════════════════ */
+const DB=[
+  ["adel","R","ADEL 60X120 IVORY.jpg","60 × 120",["60 × 120"],[{"color":"GREY","file":"ADEL GREY 60X120 - FACE 1.jpg"},{"color":"IVORY","file":"ADEL IVORY 60X120 - FACE 1.jpg"},{"color":"WHITE","file":"ADEL WHITE 60X120 - FACE 1.jpg"}]],
+  ["adela","R","ADELA 30X90 GREY.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"ANTRASIT  DEKOFON","file":"ADELA ANTRASIT  DEKOFON 30X90 - FACE 1.jpg"},{"color":"ANTRASIT","file":"ADELA ANTRASIT 30X90 - FACE 1.jpg"},{"color":"BEYAZ","file":"ADELA BEYAZ 30X90 - FACE 1.jpg"},{"color":"BEYAZ DEKOFON","file":"ADELA BEYAZ DEKOFON 30X90 - FACE 1.jpg"},{"color":"GREY","file":"ADELA GREY  30X90 - FACE 1.jpg"},{"color":"GREY  DEKOFON","file":"ADELA GREY  DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["adonis","R","ADONIS 30X90 BEYAZ.jpg","30 × 90",["45 × 45","60 × 60"],[{"color":"STANDARD","file":"ADONIS 60X60 - FACE 1.jpg"},{"color":"MAT","file":"ADONIS MAT 45X45 - FACE 1.jpg"}]],
+  ["adria","R","ADRIA 30X90 BANYO RENDER 1 kopya.jpg","30 × 90",["30 × 90"],[{"color":"ANTRASIT YER KAROSU","file":"ADRIA ANTRASIT YER KAROSU - FACE 1.jpg"},{"color":"ANTRASİT","file":"ADRIA ANTRASİT 30X90 - FACE 1.jpg"},{"color":"KAHVE DUVAR","file":"ADRIA KAHVE DUVAR 30X90 - FACE 1.jpg"},{"color":"KAHVE YER KAROSU","file":"ADRIA KAHVE YER KAROSU - FACE 1.jpg"},{"color":"MIX DEKOFON","file":"ADRIA MIX DEKOFON 30X90 - FACE 1.jpg"},{"color":"WHITE DEKOFON","file":"ADRIA WHITE DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["alba","R","ALBA 19.7X19.7.jpg","19.7 × 19.7",["19,7 × 19,7"],[{"color":"STANDARD","file":"ALBA 19,7X19,7.jpg"},{"color":"AUTUMN","file":"ALBA AUTUMN 19,7X19,7.jpg"},{"color":"SPRING","file":"ALBA SPRING 19,7X19,7.jpg"},{"color":"SUMMER","file":"ALBA SUMMER 19,7X19,7.jpg"},{"color":"WINTER","file":"ALBA WINTER 19,7X19,7.jpg"}]],
+  ["albero","R","ALBERO 60X60.jpg","60 × 60",["60 × 60"],[{"color":"EBONI","file":"ALBERO EBONI 60X60-FACE 1.jpg"},{"color":"GREY","file":"ALBERO GREY 60X60-FACE 1.jpg"},{"color":"OAK","file":"ALBERO OAK 60X60-FACE 1.jpg"}]],
+  ["aldonsa","T","ALDONSA BEYAZ 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BEYAZ","file":"ALDONSA BEYAZ 60X120 - FACE 1.jpg"}]],
+  ["alin","R","ALIN 30X90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"STANDARD","file":"ALIN 30X90 - FACE 1.jpg"},{"color":"DEKOFON","file":"ALIN DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["altus","T","ALTUS 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"ALTUS 60X120 - FACE 1.jpg"}]],
+  ["alyssa","R","ALYSSA GREY  60X60.jpg","60 × 60",["60 × 60"],[{"color":"GREY MAT","file":"ALYSSA GREY MAT 60X60 - FACE 1.jpg"}]],
+  ["antiasit","R","Anti-Asit 33x33-1.jpg","33 × 33",["33 × 33"],[]],
+  ["anticatto","R","ANTICATTO MISTO 60X60.jpg","60 × 60",["60 × 60"],[{"color":"BIANCO","file":"ANTICATTO BIANCO 60X60 - FACE 1.jpg"},{"color":"MISTO","file":"ANTICATTO MISTO 60X60 - FACE 1.jpg"}]],
+  ["antique-carrara","R","ANTIQUE CARRARA.jpg","60 × 120",["60 × 60"],[{"color":"STANDARD","file":"ANTIQUE CARRARA 60X60 - FACE 1.jpg"}]],
+  ["arch","R","ARCH.JPG","60 × 120",["60 × 120","60 × 60"],[]],
+  ["arcides","R","ARCIDES ANTRACITE 30X60.jpg","30 × 60",["30 × 60","60 × 120","60 × 60"],[{"color":"ANTRASİT","file":"ARCIDES ANTRASİT  60X60 - FACE 1.jpg"},{"color":"BONE","file":"ARCIDES BONE 60X120 - FACE 1.jpg"},{"color":"GREY","file":"ARCIDES GREY 60x60 - FACE 1.jpg"},{"color":"GRI","file":"ARCIDES GRI 60X120 - FACE 1.jpg"},{"color":"LATTE-","file":"ARCIDES LATTE-30X60-FACE 1.jpg"}]],
+  ["arcos","R","ARCOS 60X120.jpg","60 × 120",["60 × 120"],[{"color":"MAT MOCHA","file":"ARCOS MAT MOCHA 60X120 - FACE 1.jpg"},{"color":"MAT SILVER","file":"ARCOS MAT SILVER 60X120 - FACE 1.jpg"},{"color":"MAT SMOKE","file":"ARCOS MAT SMOKE 60X120 - FACE 1.jpg"}]],
+  ["aristo","T","ARISTO GREY 60X120 - FACE 1.jpg","60 × 120",["60 × 120","80 × 80"],[{"color":"GREY","file":"ARISTO GREY 60X120 - FACE 1.jpg"},{"color":"LIGHT GREY","file":"ARISTO LIGHT GREY 80X80 - FACE 1.jpg"},{"color":"VIZON","file":"ARISTO VIZON  80X80 - FACE 1.jpg"}]],
+  ["arno","R","ARNO 50X50.jpg","50 × 50",["50 × 50"],[]],
+  ["assos","R","ASOS 30X90 1.jpg","30 × 90",["30 × 90"],[]],
+  ["astoria","R","ASTORIA 30x90 KAHVE 3D.jpg","30 × 90",["45 × 45"],[{"color":"CREMA DEKOFON_1","file":"ASTORIA CREMA DEKOFON_1.jpg"},{"color":"CREMA DEKOFON_2","file":"ASTORIA CREMA DEKOFON_2.jpg"},{"color":"CREMA DEKOFON_3","file":"ASTORIA CREMA DEKOFON_3.jpg"},{"color":"CREMA DEKOR_1","file":"ASTORIA CREMA DEKOR_1.jpg"},{"color":"CREMA DEKOR_2","file":"ASTORIA CREMA DEKOR_2.jpg"}]],
+  ["atelier","R","Atelier-Pealr.jpg","30 × 90",["15 × 60"],[{"color":"Ash-","file":"AtelierAsh-15x60.jpg"},{"color":"Pearl-","file":"AtelierPearl-15x60.jpg"},{"color":"Teak-","file":"AtelierTeak-15x60.jpg"},{"color":"Walnut-","file":"AtelierWalnut-15x60.jpg"}]],
+  ["atlantik","R","ATLANTİK 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"ATLANTIK 60X120 - FACE 1.jpg"}]],
+  ["avanos","R","AVANOS 40X120 (REV).jpg","40 × 120",["40 × 120","60 × 60"],[{"color":"STANDARD","file":"AVANOS 60x60  - FACE 1.jpg"},{"color":"BEIGE","file":"AVANOS BEIGE 40X120 - FACE 1.jpg"},{"color":"BEIGE DEKOFON","file":"AVANOS BEIGE DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["belgium-stone","R","belgium stone-SPA.jpg","60 × 120",["60 × 120"],[]],
+  ["belita","R","BELITA 60X120 RENDER 2.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"BELITA 60X120 - FACE 1.jpg"}]],
+  ["bellatrix","R","BELLATRIX 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"BELLATRIX 60X120 - FACE 1.jpg"}]],
+  ["bengal","R","BENGAL 30X90 1.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"DEKOFON","file":"BENGAL DEKOFON 30X90 - FACE 1.jpg"},{"color":"OXIDO","file":"BENGAL OXIDO 30X90 - FACE 1.jpg"},{"color":"PERLA","file":"BENGAL PERLA 30X90 - FACE 1.jpg"},{"color":"Dekor","file":"BengalDekor.jpg"}]],
+  ["beton","R","Beton33x33.jpg","33 × 33",["30 × 60","61 × 61"],[{"color":"ANTRASIT","file":"BETON ANTRASIT 30X60 - FACE 1.jpg"},{"color":"BIANCO","file":"BETON BIANCO 30X60 - FACE 1.jpg"},{"color":"GRI","file":"BETON GRI 30X60 - FACE 1.jpg"}]],
+  ["black-star","R","BLACK - WHITE STAR 120X180 R1.jpg","120 × 180",["120 × 180","60 × 120","60 × 60"],[{"color":"STANDARD","file":"BLACK STAR 120X180.jpg"}]],
+  ["boho","R","BOHO LIGHT GREY.jpg","60 × 120",["60 × 120"],[{"color":"LIGHT GRI-","file":"BOHO LIGHT GRI-60X120.jpg"}]],
+  ["bona-dea","R","Bona Dea 100x100 Crema -Dark grey-Light Grey Mix 1.jpg","100 × 100",["100 × 100","30 × 120","30 × 60","60 × 120","60 × 60"],[{"color":"BIANCO","file":"BONA DEA BIANCO 100X100 - FACE 1.jpg"},{"color":"CREMA","file":"BONA DEA CREMA 100X100 - FACE 1.jpg"}]],
+  ["bond","R","BOND 40X120.jpg","40 × 120",["40 × 120","60 × 60"],[{"color":"BAZALT DEKOFON","file":"BOND BAZALT DEKOFON 40X120 - FACE 1.jpg"},{"color":"BEIGE","file":"BOND BEIGE 40X120 - FACE 1.jpg"},{"color":"BEJ","file":"BOND BEJ 60X60 - FACE 1.jpg"},{"color":"WOOD DEKOFON","file":"BOND WOOD DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["bosco","R","BOSCO 20X120 -2 RENK AYRIMI REV.jpg","20 × 120",["20 × 120"],[{"color":"BIEN_BOSCO","file":"BIEN_BOSCO - FACE 1.jpg"}]],
+  ["brano","R","BRANO 30X90.jpg","30 × 90",["30 × 90"],[]],
+  ["bravas","R","BRAVAS 100X100.jpg","100 × 100",["100 × 100"],[{"color":"STANDARD","file":"BRAVAS 100X100 - FACE 1.jpg"}]],
+  ["brillo","R","BRILLO-40X120.jpg","40 × 120",["40 × 120"],[]],
+  ["buxy","T","BuxyAntrasit30x60-1.jpg","30 × 60",["30 × 60"],[]],
+  ["calacatta-marmi","R","CALACATTA 60X120 YENİ.jpg","60 × 120",["30 × 90","45 × 45"],[{"color":"STANDARD","file":"CALACATTA MARMI 45X45-FACE 1.jpg"},{"color":"DEKOFON-","file":"CALACATTA MARMI DEKOFON-30X90-FACE 1.jpg"},{"color":"DEKOR-","file":"CALACATTA MARMI DEKOR-30X90-FACE 1.jpg"},{"color":"FLORAL DEKOFON-","file":"CALACATTA MARMI FLORAL DEKOFON-30X90-FACE 1.jpg"}]],
+  ["camouflage","R","CAMOUFLAGE 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"MAT","file":"CAMOUFLAGE MAT 60X120 - FACE 1.jpg"}]],
+  ["capella","R","CAPELLA 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"MAT","file":"CAPELLA MAT 60X120 - FACE 1.jpg"}]],
+  ["cappadocia","R","CAPPADOCIA GREY DEKOFON  30X90 - RENDER 2.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"GREY DUVAR KAROSU","file":"CAPPADOCIA GREY DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"GREY YER KAROSU","file":"CAPPADOCIA GREY YER KAROSU 45X45 - FACE 1.jpg"},{"color":"SAND DUVAR KAROSU","file":"CAPPADOCIA SAND DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"SAND YER KAROSU","file":"CAPPADOCIA SAND YER KAROSU 45X45 - FACE 1.jpg"}]],
+  ["carbon","T","CARBON ANTRACIT 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"ANTRACIT","file":"CARBON ANTRACIT 60X120 - FACE 1.jpg"},{"color":"GREY","file":"CARBON GREY 60X120 - FACE 1.jpg"}]],
+  ["casta","R","CASTA 30X90 GREY.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"BEIGE DUVAR KAROSU","file":"CASTA BEIGE DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"BEIGE YER KAROSU","file":"CASTA BEIGE YER KAROSU 45X45 - FACE 1.jpg"},{"color":"GREY DUVAR KAROSU","file":"CASTA GREY DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"GREY YER KAROSU","file":"CASTA GREY YER KAROSU 45X45 - FACE 1.jpg"}]],
+  ["catalpa","R","CATALPA 50X50 -2.jpg","50 × 50",["50 × 50"],[]],
+  ["chakra","R","CHAKRA 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"CHAKRA 60X120 - FACE 1.jpg"},{"color":"DEKOFON","file":"CHAKRA DEKOFON 60X120 - FACE 1.jpg"}]],
+  ["charlotte","R","CHARLOTTE 60X120 .jpg","60 × 120",["60 × 120"],[{"color":"BLACK","file":"CHARLOTTE BLACK 60X120 - FACE 1.jpg"}]],
+  ["charm","T","CHARM BLUE 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BLUE","file":"CHARM BLUE 60X120 - FACE 1.jpg"},{"color":"RUST","file":"CHARM RUST 60X120 - FACE 1.jpg"}]],
+  ["chester","R","CHESTER 60X60 BEIGE .jpg","60 × 60",["50 × 50"],[{"color":"ANTRASIT MAT","file":"CHESTER ANTRASIT MAT 50X50 - FACE 1.jpg"},{"color":"KAHVE MAT","file":"CHESTER KAHVE MAT 50X50 - FACE 1.jpg"}]],
+  ["cleopatra","R","CLEOPATRA BOOKMATCH BANYO SAHNE kopya.JPG","60 × 120",["60 × 120"],[]],
+  ["concept","R","Concept 120x180 Render 1.jpg","120 × 180",["120 × 180","30 × 60","60 × 120","60 × 60"],[{"color":"AGRI","file":"CONCEPT AGRI 30X60 - FACE 1.jpg"},{"color":"ANTRACIT","file":"CONCEPT ANTRACIT 120X180 face 1.jpg"},{"color":"ANTRASIT","file":"CONCEPT ANTRASIT 30X60 - FACE 1.jpg"}]],
+  ["coper","R","COPER 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"MOSS","file":"COPER MOSS 60X120 - FACE 1.jpg"},{"color":"SKY","file":"COPER SKY 60X120 - FACE 1.jpg"}]],
+  ["country","R","COUNTRY WOOD VENGE 20X120-1.jpg","20 × 120",["20 × 120"],[]],
+  ["crag","R","CRAG 60X120 ANTRASIT.jpg","60 × 120",["60 × 120"],[{"color":"ANTHRACITE","file":"CRAG ANTHRACITE 60X120 - FACE 1.jpg"},{"color":"GREY","file":"CRAG GREY 60X120 - FACE 1.jpg"}]],
+  ["darkness","R","DARKNESS 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"DARKNESS 60X120 - FACE 1.jpg"}]],
+  ["delbin","R","DELBIN 30X60 WHITE-GREY.jpg","30 × 60",["30 × 60","40 × 40"],[{"color":"BEYAZ","file":"DELBIN BEYAZ 30X60-FACE 1.jpg"},{"color":"DEKOFON","file":"DELBIN DEKOFON 30X60.jpg"},{"color":"FUME","file":"DELBIN FUME 30X60-FACE 1.jpg"},{"color":"GRI","file":"DELBIN GRI 30X60-FACE 1.jpg"}]],
+  ["destiny","R","DESTINY 60X60.jpg","60 × 60",["60 × 60"],[{"color":"STANDARD","file":"DESTINY 60X60 - FACE 1.jpg"}]],
+  ["diva","R","DIVA 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"DIVA 60X120 - FACE 1.jpg"}]],
+  ["dora","R","DORA 60X60 .jpg","60 × 60",["60 × 60"],[{"color":"STANDARD","file":"DORA 60X60 - FACE 1.jpg"}]],
+  ["dove","R","DOVE 20X40 MAT BEYAZ.jpg","20 × 40",["20 × 40"],[]],
+  ["elan","T","ELAN ANTRACIT 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"ANTRACIT","file":"ELAN ANTRACIT 60X120 - FACE 1.jpg"},{"color":"BONE","file":"ELAN BONE 60X120 - FACE 1.jpg"},{"color":"BROWN","file":"ELAN BROWN 60X120 - FACE 1.jpg"},{"color":"GREY","file":"ELAN GREY 60X120 - FACE 1.jpg"}]],
+  ["eleganza","R","Eleganza Oak 20x120 REV.jpg","20 × 120",["20 × 120"],[{"color":"ELAGANZA WALNUT","file":"ELAGANZA WALNUT - FACE 1.jpg"},{"color":"ELAGANZA_MAPLE","file":"ELAGANZA_MAPLE - FACE 1.jpg"},{"color":"OAK","file":"ELEGANZA OAK - FACE 1.jpg"}]],
+  ["elitra","R","ELITRA 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"ELITRA 60X120 - FACE 1.jpg"}]],
+  ["elora","T","ELORA 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"ELORA 60X120 - FACE 1.jpg"}]],
+  ["enzo","R","ENZO 30X90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"ANTRASİT","file":"ENZO ANTRASİT 30X90 - FACE 1.jpg"},{"color":"ANTRASİT MAT","file":"ENZO ANTRASİT MAT 45x45 face 1.jpg"},{"color":"GRI","file":"ENZO GRI 30X90 - FACE 1.jpg"},{"color":"GRI MAT","file":"ENZO GRI MAT 45x45 face 1.jpg"},{"color":"MIX DEKOFON","file":"ENZO MIX DEKOFON 30X90 - FACE 1.jpg"},{"color":"WHITE","file":"ENZO WHITE  30X90 - FACE 1.jpg"}]],
+  ["estel","R","ESTEL 30X90 1.jpg","30 × 90",["30 × 90"],[]],
+  ["europe","T","EUROPE BEIGE 30x40.jpg","30 × 40",["30 × 40","30 × 401"],[{"color":"BEIGE","file":"EUROPE BEIGE 30x40.jpg"},{"color":"BLACK","file":"EUROPE BLACK 30X40.jpg"},{"color":"GREY","file":"EUROPE GREY 30X40.jpg"},{"color":"GRIGE","file":"EUROPE GRIGE 30X401.jpg"},{"color":"WHITE","file":"EUROPE WHITE 30X40.jpg"}]],
+  ["everest","R","EVEREST 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"EVEREST 60X120 - FACE 1.jpg"}]],
+  ["fair","R","FAIR GRIS 30x90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"GRIS","file":"FAIR GRIS 30X90.jpg"},{"color":"GRIS DEKOFON","file":"FAIR GRIS DEKOFON 30X90.jpg"},{"color":"GRIS DEKOR","file":"FAIR GRIS DEKOR 30X90.jpg"},{"color":"NERO","file":"FAIR NERO 30X90.jpg"},{"color":"NERO DEKOFON","file":"FAIR NERO DEKOFON 30X90.jpg"},{"color":"NERO DEKOR","file":"FAIR NERO DEKOR 30X90.jpg"}]],
+  ["famous","R","FAMOUS 40X120 - FASHION SHOP REV.jpg","40 × 120",["30 × 90","40 × 120","45 × 45","60 × 60"],[{"color":"STANDARD","file":"FAMOUS 30X90-FACE 1.jpg"}]],
+  ["fenix","R","FENİX GREY REV.jpg","60 × 120",["60 × 120"],[{"color":"GREY","file":"FENIX GREY - FACE 1.jpg"},{"color":"_CHERRY","file":"FENIX_CHERRY - FACE 1.jpg"},{"color":"_MAPLE","file":"FENIX_MAPLE - FACE 1.jpg"},{"color":"_TEAK","file":"FENIX_TEAK - FACE 1.jpg"}]],
+  ["fortuna","R","FORTUNA 60x120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"FORTUNA 60X120 - FACE 1.jpg"}]],
+  ["fraxinus","R","FRAXINUS 50X50.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"FRAXINUS 50X50 - FACE 1.jpg"}]],
+  ["fresno","R","FRESNO 50X50.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"FRESNO 50X50 - FACE 1.jpg"}]],
+  ["gaudi","R","GAUDI 30X90.jpg","30 × 90",["30 × 90"],[{"color":"DEKOFON","file":"GAUDI DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["gemma","R","GEMMA 60X120 1.jpg","60 × 120",["60 × 120"],[{"color":"GOLD","file":"GEMMA GOLD 60X120 - FACE 1.jpg"},{"color":"MINT","file":"GEMMA MINT 60X120 - FACE 1.jpg"},{"color":"PEACH","file":"GEMMA PEACH 60X120 - FACE 1.jpg"},{"color":"PERLA","file":"GEMMA PERLA 60X120 - FACE 1.jpg"},{"color":"SKY","file":"GEMMA SKY 60X120 - FACE 1.jpg"},{"color":"SMOKE","file":"GEMMA SMOKE 60X120 - FACE 1.jpg"}]],
+  ["geo-wood","R","GeoWood.jpg","20 × 120",["60 × 60","60 × 602"],[{"color":"Geowood","file":"Geowood60x60.jpg"}]],
+  ["gordion","R","GORDION 40X120 TAUPE.jpg","40 × 120",["40 × 120"],[{"color":"DARK GREY","file":"GORDION DARK GREY 40X120 - FACE 1.jpg"},{"color":"TAUPE","file":"GORDION TAUPE 40X120 - FACE 1.jpg"},{"color":"WHITE","file":"GORDION WHITE 40X120 - FACE 1.jpg"},{"color":"WHITE DEKOFON","file":"GORDION WHITE DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["grace","R","GRACE 60X120 GREY.jpg","60 × 120",["60 × 120"],[{"color":"BONE","file":"GRACE BONE 60X120 - FACE 1.jpg"},{"color":"GREY","file":"GRACE GREY 60X120 - FACE 1.jpg"}]],
+  ["grand","R","GRAND 40X120 ORGANIC_ASH_f01.jpg","40 × 120",["40 × 120"],[]],
+  ["grassland","R","GRASSLAND 60X120 3D RENDER REV kopya.jpg","60 × 120",["30 × 60","60 × 120","60 × 60"],[{"color":"BLUE","file":"GRASSLAND BLUE 30X60 - FACE 1.jpg"},{"color":"GREEN","file":"GRASSLAND GREEN 30X60 - FACE 1.jpg"}]],
+  ["greta","R","GRETA 50X50.jpg","50 × 50",["50 × 50"],[]],
+  ["hampton","R","HAMPTON 120X120.jpg","120 × 120",["120 × 120"],[]],
+  ["helen","R","HELEN 40X120 TAUPE.jpg","40 × 120",["40 × 120"],[{"color":"BONE","file":"HELEN BONE 40X120 - FACE 1.jpg"},{"color":"BONE DEKOFON","file":"HELEN BONE DEKOFON 40X120 - FACE 1.jpg"},{"color":"TAUPE","file":"HELEN TAUPE 40X120 - FACE 1.jpg"},{"color":"TAUPE DEKOFON","file":"HELEN TAUPE DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["helios","R","HELIOS 30X90 DETAY.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"DEKOFON DUVAR KAROSU","file":"HELIOS DEKOFON DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"DUVAR KAROSU","file":"HELIOS DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"YER KAROSU","file":"HELIOS YER KAROSU 45X45 - FACE 1.jpg"}]],
+  ["herringwood","R","HERRINGWOOD 50X50.jpg","50 × 50",["50 × 50"],[]],
+  ["himalaya","R","Himalaya 60x120.jpg","60 × 120",["60 × 120"],[{"color":"ICE","file":"HIMALAYA ICE 60X120 - FACE 1.jpg"}]],
+  ["hormigon-molde","R","HORMIGON MOLDE  60X120-2.jpg","60 × 120",["60 × 120","60 × 60"],[{"color":"STANDARD","file":"HORMIGON MOLDE 60X120 - FACE 1.jpg"}]],
+  ["hypnos","R","HYPNOS 60x120.jpg","60 × 120",["60 × 120","60 × 60"],[{"color":"STANDARD","file":"HYPNOS 60X120 - FACE 1.jpg"}]],
+  ["imperial","R","imperial 30x60.jpg","30 × 60",["30 × 60","40 × 40"],[{"color":"Beyaz","file":"imperialBeyaz30x60.jpg"},{"color":"BeyazDekofon","file":"imperialBeyazDekofon30x60.jpg"},{"color":"BeyazDekor-","file":"imperialBeyazDekor-30x60.jpg"},{"color":"Gri","file":"imperialGri30x60.jpg"},{"color":"GriDekofon","file":"imperialGriDekofon30x60.jpg"},{"color":"GriDekor-","file":"imperialGriDekor-30x60.jpg"}]],
+  ["inca","T","INCA ANTRACITE 30X60 - FACE 1.jpg","30 × 60",["30 × 60","40 × 40"],[{"color":"ANTRACITE","file":"INCA ANTRACITE 30X60 - FACE 1.jpg"},{"color":"DEKOFON","file":"INCA DEKOFON 30X60 - FACE 1.jpg"},{"color":"LIGHT GREY","file":"INCA LIGHT GREY 30X60 - FACE 1.jpg"},{"color":"VIZON DEKOFON","file":"INCA VIZON DEKOFON 30X60 - FACE 1.jpg"},{"color":"VIZON DUVAR KAROSU","file":"INCA VIZON DUVAR KAROSU 30X60 - FACE 1.jpg"},{"color":"VIZON YER KAROSU","file":"INCA VIZON YER KAROSU 40X40 - FACE 1.jpg"}]],
+  ["iroko","R","IROKO PEARL 20X120.jpg","20 × 120",["20 × 120"],[]],
+  ["joya","R","JOYA 60X120 -3.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"JOYA 60X120 FACE 2.jpg"}]],
+  ["juno","R","JUNO 30X90  SAPHIRE.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"DIAMOND","file":"JUNO DIAMOND 45X45 - FACE 1.jpg"},{"color":"DIAMOND DEKOFON","file":"JUNO DIAMOND DEKOFON 30X90 - FACE 1.jpg"},{"color":"DIAMOND FON","file":"JUNO DIAMOND FON - FACE 1.jpg"},{"color":"EMERALD DEKOFON","file":"JUNO EMERALD DEKOFON 30X90 - FACE 1.jpg"},{"color":"EMERALD FON","file":"JUNO EMERALD FON 30X90 - FACE 1.jpg"},{"color":"MOSAIC FLORAL DEKOFON","file":"JUNO MOSAIC FLORAL DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["kapteyn","R","KAPTEYN 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"KAPTEYN 60x120 - FACE 1.jpg"}]],
+  ["klein","R","KLEIN 20X120-2.jpg","20 × 120",["20 × 120"],[{"color":"COOL","file":"KLEIN COOL 20X120 - FACE 1.jpg"},{"color":"FON","file":"KLEIN FON 20X120 - FACE 1.jpg"},{"color":"NATURAL","file":"KLEIN NATURAL 20X120 - FACE 1.jpg"}]],
+  ["larix","R","LARIX 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"LARIX 60X120 - FACE 1.jpg"}]],
+  ["las-palmas","R","LAS PALMAS 100X100 BEIGE.jpg","100 × 100",["100 × 100","60 × 120"],[{"color":"ANTRASIT SEMILAPPATO","file":"LAS PALMAS ANTRASIT SEMILAPPATO 60X120 - FACE 1.jpg"},{"color":"BEIGE","file":"LAS PALMAS BEIGE 100X100 - FACE 1.jpg"}]],
+  ["la-vita","R","LA-VITA-30X90-R1.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"BLACK","file":"LA VITA BLACK 30X90 - FACE 1.jpg"},{"color":"DEKOFON","file":"LA VITA DEKOFON 30X90 - FACE 1.jpg"},{"color":"WHITE","file":"LA VITA WHITE 30X90 - FACE 1.jpg"}]],
+  ["limra","R","LIMRA 60X120 BEIGE.jpg","60 × 120",["60 × 120"],[]],
+  ["logs","R","LOGS 20X120  SPECIAL WALNUT.jpg","20 × 120",["20 × 120"],[{"color":"GOLDEN OAK","file":"LOGS GOLDEN OAK 20X120 - FACE 1.jpg"},{"color":"HAZELNUT","file":"LOGS HAZELNUT 20X120 - FACE 1.jpg"},{"color":"LIGHT BEIGE","file":"LOGS LIGHT BEIGE 20X120 - FACE 1.jpg"},{"color":"SPECIAL WALNUT","file":"LOGS SPECIAL WALNUT 20X120 - FACE 1.jpg"}]],
+  ["loreto","R","LORETO 61X61.jpg","61 × 61",["61 × 61"],[{"color":"DARK","file":"LORETO DARK 61X61 - FACE 1.jpg"},{"color":"LIGHT","file":"LORETO LIGHT 61X61 - FACE 1.jpg"}]],
+  ["luca","R","LUCA LIGHT GREY 60X60.jpg","60 × 60",["60 × 60"],[{"color":"BONE","file":"LUCA BONE 60X60 - FACE 1.jpg"},{"color":"LIGHT GREY","file":"LUCA LIGHT GREY 60X60 - FACE 1.jpg"},{"color":"TAUPE","file":"LUCA TAUPE 60X60 - FACE 1.jpg"}]],
+  ["madero","R","MADERO 50X50.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"MADERO 50X50 - FACE 1.jpg"}]],
+  ["madran","R","MADRAN 60X120.jpg","60 × 120",["60 × 120"],[{"color":"MAT VANILLA","file":"MADRAN MAT VANILLA 60X120 - FACE 1.jpg"},{"color":"MINK","file":"MADRAN MINK 60X120 - FACE 1.jpg"}]],
+  ["magellan","R","MAGELLAN 60X60 ANTRASIT.jpg","60 × 60",["60 × 60"],[{"color":"ANTRASiT-","file":"MAGELLAN-ANTRASiT-60x60-FACE 1.jpg"},{"color":"BONE-","file":"MAGELLAN-BONE-60x60-FACE 1.jpg"},{"color":"NEW GREY-","file":"MAGELLAN-NEW GREY-60X60-FACE 1.jpg"}]],
+  ["magnifique","R","Magnifique 120x180 detay.jpg","120 × 180",["120 × 180","60 × 120","60 × 60"],[{"color":"STANDARD","file":"MAGNIFIQUE  120X180-FACE 1.jpg"}]],
+  ["marmol","R","MARMOL 30x90.jpg","30 × 90",["30 × 90"],[{"color":"Oldlace Dekofon--","file":"Marmol Oldlace Dekofon--30x90-Face 1.jpg"},{"color":"Shadow Dekofon--","file":"Marmol Shadow Dekofon--30x90-Face 1.jpg"},{"color":"Oldlace F1-","file":"MarmolOldlace F1-30x90.jpg"},{"color":"Oldlace F2-","file":"MarmolOldlace F2-30x90.jpg"},{"color":"Oldlace F3-","file":"MarmolOldlace F3-30x90.jpg"}]],
+  ["marvel","R","MARVEL CARAMEL 30X90.jpg","30 × 90",["30 × 90"],[{"color":"BITTER","file":"MARVEL BITTER 30X90 - FACE 1.jpg"},{"color":"CARAMEL","file":"MARVEL CARAMEL 30X90 - FACE 1.jpg"},{"color":"CARAMEL DEKOFON","file":"MARVEL CARAMEL DEKOFON 30X90 - FACE 1.jpg"},{"color":"GRI","file":"MARVEL GRI 30X90 - FACE 1.jpg"},{"color":"LATTE","file":"MARVEL LATTE 30X90 - FACE 1.jpg"},{"color":"LATTE DEKOFON","file":"MARVEL LATTE DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["marvy","R","MARVY 30X90 MAT.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"STANDARD","file":"Marvy 30x90 - Face 1.jpg"},{"color":"Dekofon","file":"Marvy Dekofon 30x90 - Face 1.jpg"},{"color":"MatDekor-2-","file":"MarvyMatDekor-2-30x90.jpg"}]],
+  ["maryo","T","MARYO BEIGE 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BEIGE","file":"MARYO BEIGE 60X120 - FACE 1.jpg"},{"color":"GREY","file":"MARYO GREY 60X120  - FACE 1.jpg"}]],
+  ["maxi","R","MAXI 60X60.jpg","60 × 60",["60 × 60"],[{"color":"BeyazDekofon-1","file":"MaxiBeyazDekofon-1.jpg"},{"color":"BeyazDekofon-2","file":"MaxiBeyazDekofon-2.jpg"},{"color":"BeyazDekofon-3","file":"MaxiBeyazDekofon-3.jpg"},{"color":"platindekor-1","file":"Maxiplatindekor-1.jpg"}]],
+  ["mia","R","MIA 100X100.jpg","100 × 100",["100 × 100","60 × 120"],[{"color":"STANDARD","file":"MIA 100X100 - FACE 1.jpg"}]],
+  ["milenario","R","Milenario Beige 20x120.jpg","20 × 120",["20 × 120"],[{"color":"BEIGE","file":"MILENARIO BEIGE 20X120 - FACE 1.jpg"},{"color":"BROWN","file":"MILENARIO BROWN 20X120 - FACE 1.jpg"},{"color":"GREY","file":"MILENARIO GREY 20X120 - FACE 1.jpg"},{"color":"HONEY","file":"MILENARIO HONEY 20x120 FACE 1.jpg"},{"color":"WHITE","file":"MILENARIO WHITE 20X120 - FACE 1.jpg"}]],
+  ["minimo","R","MINIMO 50X50.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"MINIMO 50X50 - FACE 1.jpg"}]],
+  ["miramar","R","MIRAMAR 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"MIRAMAR 60X120 - FACE 1.jpg"}]],
+  ["miranda","R","MIRANDA 60X120.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"MIRANDA 60X120 - FACE 1.jpg"}]],
+  ["mirko","R","MIRKO 30X90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"STANDARD","file":"MIRKO 30X90 - FACE 1.jpg"},{"color":"DEKOFON","file":"MIRKO DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["modellato","R","MODELLATO 50X50 -1.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"MODELLATO 50X50 - FACE 1.jpg"}]],
+  ["mood","R","MOOD 30X90-1.jpg","30 × 90",["45 × 45"],[{"color":"BEIGE","file":"MOOD BEIGE 45X45 - FACE 1.jpg"}]],
+  ["motto","R","MOTTO 30X90 GRİ.jpg","30 × 90",["30 × 90"],[]],
+  ["naos","R","NAOS WHITE 60X120.jpg","60 × 120",["60 × 120"],[{"color":"FULLAP","file":"NAOS FULLAP 60X120 - FACE 1.jpg"},{"color":"WHITE MAT","file":"NAOS WHITE MAT 60X120 - FACE 1.jpg"}]],
+  ["napoli","R","NAPOLİ GRİ 50X50.jpg","50 × 50",["50 × 50"],[{"color":"GRI","file":"NAPOLI GRI 50X50 - FACE 1.jpg"},{"color":"FİLDİŞİ-","file":"NAPOLI-FİLDİŞİ-50X50-FACE 1.jpg"}]],
+  ["natura-wood","R","NATURA WOOD 20X120 BIRCH.jpg","20 × 120",["20 × 120"],[{"color":"NATURAWOOD BIRCH","file":"NATURAWOOD BIRCH 20X120 - FACE 1.jpg"},{"color":"NATURAWOOD EBONY","file":"NATURAWOOD EBONY 20X120 - FACE 1.jpg"},{"color":"NATURAWOOD OAK","file":"NATURAWOOD OAK 20X120 - FACE 1.jpg"},{"color":"NATURAWOOD PINE","file":"NATURAWOOD PINE 20X120 - FACE 1.jpg"}]],
+  ["neva","R","NEVA 30X60.jpg","30 × 60",["30 × 60"],[]],
+  ["nevada","T","NevadaAGri50x50.jpg","50 × 50",["50 × 50"],[{"color":"AGri","file":"NevadaAGri50x50.jpg"},{"color":"Bone","file":"NevadaBone50x50.jpg"},{"color":"Gri","file":"NevadaGri50x50.jpg"}]],
+  ["new-metro","T","METRO BEYAZ 60X120 FULL LAPPATO.jpg","60 × 120",["60 × 120"],[]],
+  ["newport","R","NEWPORT 100X100.jpg","100 × 100",["100 × 100","120 × 180","60 × 120"],[{"color":"STANDARD","file":"NEWPORT-100X100-FACE 1.jpg"}]],
+  ["nile","R","NILE 60X120 GRI 1.jpg","60 × 120",["60 × 120","61 × 61"],[{"color":"AGRI","file":"NILE AGRI 60X120 - FACE 1.jpg"},{"color":"ANTRASIT","file":"NILE ANTRASIT 61X61 - FACE 1.jpg"},{"color":"ANTRASİT","file":"NILE ANTRASİT 60X120 - FACE 1.jpg"},{"color":"BONE","file":"NILE BONE 61X61 - FACE 1.jpg"},{"color":"GRI","file":"NILE GRI 60X120 - FACE 1.jpg"}]],
+  ["nomerles","R","NOMERLES 60X120 GRI.jpg","60 × 120",["60 × 120"],[{"color":"VIZON","file":"NOMERLES VIZON 60X120 - FACE 1.jpg"}]],
+  ["norden","R","Norden Teak  20x120.jpg","20 × 120",["20 × 120"],[{"color":"TEAK-","file":"NORDEN TEAK-20x120-FACE 1.jpg"}]],
+  ["nuvola","R","NUVOLA 30X90 BANYO.jpg","30 × 90",["30 × 90"],[{"color":"Dekofon","file":"Nuvola Dekofon 30x90 - Face 2.jpg"},{"color":"Dekor","file":"Nuvola Dekor 30x90 - Face 2.jpg"}]],
+  ["oasis","R","OASIS MURDUM 30X90 - RENDER kopya.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"LILA DUVAR KAROSU","file":"OASIS LILA DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"LILA YER KAROSU","file":"OASIS LILA YER KAROSU 45X45 - FACE 1.jpg"},{"color":"MURDUM DUVAR KAROSU","file":"OASIS MURDUM DUVAR KAROSU 30X90 - FACE 1.jpg"},{"color":"MURDUM YER KAROSU","file":"OASIS MURDUM YER KAROSU 45X45 - FACE 1.jpg"},{"color":"YESIL DUVAR KAROSU","file":"OASIS YESIL DUVAR KAROSU 30X90 - FACE 1.jpg"}]],
+  ["odin","R","ODIN 40X120 .jpg","40 × 120",["40 × 120","60 × 60"],[{"color":"STANDARD","file":"ODIN 40X120 - FACE 1.jpg"},{"color":"DEKOFON","file":"ODIN DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["olbia","R","OLBIA 60X120 .jpg","60 × 120",["60 × 120","60 × 60"],[{"color":"GREY","file":"OLBIA GREY 60X120 - FACE 1.jpg"}]],
+  ["olivia","R","OLIVIA BEYAZ 30X60.jpg","30 × 60",["30 × 60"],[{"color":"Beyaz-","file":"OliviaBeyaz-30x60.jpg"},{"color":"Siyah-","file":"OliviaSiyah-30x60.jpg"}]],
+  ["olmo","R","OLMO 20X120 CHESTNUT.jpg","20 × 120",["20 × 120"],[{"color":"BEJ-","file":"OLMO-BEJ-20X120-FACE 1.jpg"},{"color":"CHESTNUT-","file":"OLMO-CHESTNUT-20X120-FACE 1.jpg"},{"color":"LATTE-","file":"OLMO-LATTE-20X120-FACE 1.jpg"},{"color":"NOCE-","file":"OLMO-NOCE-20X120-FACE 1.jpg"}]],
+  ["onelia","T","ONELIA 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"ONELIA 60X120 - FACE 1.jpg"}]],
+  ["onixia","T","ONIXIA GREY 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"GREY","file":"ONIXIA GREY 60X120 - FACE 1.jpg"},{"color":"SAND","file":"ONIXIA SAND 60X120 - FACE 1.jpg"}]],
+  ["orfe","T","ORFE BONE 40X120 - FACE 1.jpg","40 × 120",["40 × 120","60 × 60"],[{"color":"BONE","file":"ORFE BONE 40X120 - FACE 1.jpg"},{"color":"BONE DEKOFON","file":"ORFE BONE DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["orla","T","ORLA BRONZ 60X120 FULL LAPPATO.jpg","60 × 120",["60 × 120"],[]],
+  ["palazzo","R","Palazzo 60x120 ivory detay.jpg","60 × 120",["60 × 120"],[{"color":"IVORY","file":"PALAZZO IVORY 60X120 - FACE 1.jpg"}]],
+  ["palmer","R","PALMER 61X61 -1.jpg","61 × 61",["61 × 61"],[]],
+  ["pamfilya","R","PAMFILYA 60X120.jpg","60 × 120",["60 × 120"],[]],
+  ["paris","R","PARIS 30X90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"BLACK","file":"PARIS BLACK 30X90 - FACE 1.jpg"},{"color":"BLACK DEKOFON","file":"PARIS BLACK DEKOFON 30X90 - FACE 1.jpg"},{"color":"WHITE","file":"PARIS WHITE 30X90 - FACE 1.jpg"},{"color":"WHITE DEKOFON","file":"PARIS WHITE DEKOFON 30X90 - FACE 1.jpg"}]],
+  ["parisian","R","PARISIAN 40X120 .jpg","40 × 120",["40 × 120","40 × 1202","60 × 60"],[{"color":"STANDARD","file":"Parisian40x120.jpg"},{"color":"Beyaz-","file":"ParisianBeyaz-60x60.jpg"},{"color":"Beyaz2-","file":"ParisianBeyaz2-60x60.jpg"},{"color":"Beyaz3-","file":"ParisianBeyaz3-60x60.jpg"},{"color":"BeyazFileliDekor","file":"ParisianBeyazFileliDekor.jpg"},{"color":"BeyazGeoDekor","file":"ParisianBeyazGeoDekor.jpg"}]],
+  ["paros","R","Paros-Koyu-Gri.jpg","60 × 120",["60 × 120"],[]],
+  ["pastel","R","pastel siyah.jpg","30 × 90",["30 × 90"],[{"color":"Kirmizi","file":"PastelKirmizi.jpg"},{"color":"Siyah","file":"PastelSiyah.jpg"}]],
+  ["pera","R","PERA 30X90.jpg","30 × 90",["45 × 45"],[]],
+  ["picasso","R","PICASSO AKAĞAÇ.jpg","20 × 120",["15 × 60"],[{"color":"Akcaagac","file":"PicassoAkcaagac15x60.jpg"}]],
+  ["piegato","R","PIEGATO 60X120 .jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"PIEGATO 60X120 - FACE 1.jpg"}]],
+  ["quark","R","QUARK 60X120 MOKA-1.jpg","60 × 120",["60 × 120"],[]],
+  ["regnum","R","REGNUM 60X120 2.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"REGNUM 60X120 - FACE 1.jpg"}]],
+  ["riva","R","RIVA 30X60.jpg","30 × 60",["30 × 60"],[]],
+  ["root","R","ROOT 60X120 ASH.jpg","60 × 120",["60 × 120"],[]],
+  ["rubi","T","RUBI ANTRACIT 60X120 FULLAP - FACE 1.jpg","60 × 120",["60 × 120"],[]],
+  ["saaga","T","SAAGA ANTRACIT 30X40 SON.jpg","30 × 40",["30 × 40"],[]],
+  ["sakura","R","SAKURA 61X61.jpg","61 × 61",["61 × 61"],[]],
+  ["salamanca","R","Salamanca 20x120 -2.jpg","20 × 120",["20 × 120"],[{"color":"STANDARD","file":"SALAMANCA  20X120 face 1.jpg"}]],
+  ["salt-cave","R","SALT CAVE 60X120 1.jpg","60 × 120",["60 × 120"],[]],
+  ["sante","R","SANTE 30X90 AQUA DETAY.jpg","30 × 90",["30 × 90"],[{"color":"beyaz yer 1","file":"beyaz yer 1.jpg"},{"color":"beyaz yer 2","file":"beyaz yer 2.jpg"},{"color":"beyaz yer 3","file":"beyaz yer 3.jpg"}]],
+  ["sara","T","SARA BLUE 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BLUE","file":"SARA BLUE 60X120 - FACE 1.jpg"},{"color":"BONE","file":"SARA BONE 60X120 - FACE 1.jpg"},{"color":"BROWN","file":"SARA BROWN 60X120 - FACE 1.jpg"},{"color":"GREEN","file":"SARA GREEN 60X120 - FACE 1.jpg"}]],
+  ["saten","T","Saten beyaz 30x40.jpg","30 × 40",["30 × 40"],[{"color":"beyaz","file":"Saten beyaz 30x40.jpg"},{"color":"havuz lacivert","file":"Saten havuz lacivert 30x40.jpg"},{"color":"havuz mavi","file":"Saten havuz mavi 30x40.jpg"}]],
+  ["sativa","R","SATIVA 61X61.jpg","61 × 61",["50 × 50"],[{"color":"Bone","file":"SativaBone50x50.jpg"},{"color":"CollGri","file":"SativaCollGri50x50.jpg"}]],
+  ["sealong","T","SEALONG 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"SEALONG 60X120 - FACE 1.jpg"}]],
+  ["sempre","R","SEMPRE GRIGO 60X60.jpg","60 × 60",["60 × 60"],[{"color":"BIANCA","file":"SEMPRE BIANCA 60X60 - FACE 1.jpg"},{"color":"GRIGIO","file":"SEMPRE GRIGIO 60X60 - FACE 1.jpg"},{"color":"NERO","file":"SEMPRE NERO 60X60 - FACE 1.jpg"},{"color":"ROSA","file":"SEMPRE ROSA 60X60 - FACE 1.jpg"}]],
+  ["side","T","SIDE BROWN 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BROWN","file":"SIDE BROWN 60X120 - FACE 1.jpg"},{"color":"GREEN","file":"SIDE GREEN 60X120 - FACE 1.jpg"}]],
+  ["silyon","T","SILYON 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"SILYON 60X120 - FACE 1.jpg"},{"color":"BLUE","file":"SILYON BLUE 60X120 - FACE 1.jpg"}]],
+  ["simirna","T","SIMIRNA 60X120 GREY SEMILAP - FACE 1.jpg","60 × 120",["60 × 120"],[]],
+  ["stacy","R","STACY 50X50.jpg","50 × 50",["50 × 50"],[{"color":"STANDARD","file":"STACY 50X50 - FACE 1.jpg"}]],
+  ["star","R","STAR 19,7x19,7.JPG","19.7 × 19.7",["19.7 × 19.7"],[{"color":"Kirmizi","file":"Star Kirmizi.jpg"},{"color":"MAVİ","file":"Star MAVİ.jpg"}]],
+  ["star-line","R","STARLINE 30X90.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"STARLINE","file":"STARLINE 45X45 - FACE 1.jpg"},{"color":"STARLINE DUVAR KAROSU","file":"STARLINE DUVAR KAROSU 30X90 - FACE 1.jpg"}]],
+  ["statuario-goya","R","STATUARIO GOYA 100x100.jpg","100 × 100",["100 × 100","120 × 180","40 × 120","60 × 120","60 × 60"],[{"color":"STANDARD","file":"STATUARIO GOYA 100X100 - FACE 1.jpg"},{"color":"DEKOFON","file":"STATUARIO GOYA DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["strato","R","STRATO 120X180 R1.JPG","120 × 180",["120 × 180","60 × 120"],[{"color":"STANDARD","file":"STRATO 120X180 - FACE 1.jpg"}]],
+  ["stuart","R","STUART 50X50 2.jpg","50 × 50",["50 × 50"],[]],
+  ["super-beyaz","R","SUPER BEYAZ 60X120.jpg","60 × 120",["30 × 60","60 × 120","60 × 60"],[{"color":"SuperBeyaz-","file":"SuperBeyaz-30X60.jpg"}]],
+  ["swan","R","SWAN 60x120 R1.jpg","60 × 120",["60 × 120"],[]],
+  ["terra","R","30X90 Terra-Beyaz-Mavi.jpg","30 × 90",["30 × 90"],[]],
+  ["tiana","R","TIANA 40X120 1.jpg","40 × 120",["40 × 120","60 × 60"],[{"color":"ANTRASIT","file":"TIANA ANTRASIT 40X120 - FACE 1.jpg"},{"color":"BEYAZ","file":"TIANA BEYAZ 40X120 - FACE 1.jpg"},{"color":"BEYAZ DEKOFON","file":"TIANA BEYAZ DEKOFON 40X120 - FACE 1.jpg"}]],
+  ["tiffany","T","TiffanyKirmizi.jpg","60 × 120",["60 × 120"],[{"color":"Kirmizi","file":"TiffanyKirmizi.jpg"},{"color":"Mavi","file":"TiffanyMavi.jpg"},{"color":"Siyah","file":"TiffanySiyah.jpg"}]],
+  ["tiger","R","TIGER-60X120-1.jpg","60 × 120",["60 × 120","60 × 60"],[{"color":"BLACK","file":"TIGER BLACK 60X120 - FACE 1.jpg"}]],
+  ["tsuga","R","TSUGA ALMOND 20x120.jpg","20 × 120",["20 × 120"],[]],
+  ["turin","R","TURIN HAKI  120X120.jpg","120 × 120",["120 × 120"],[]],
+  ["twist","R","TWIST 14X16.jpg","14 × 16",["14 × 16"],[{"color":"BEYAZ","file":"BEYAZ.jpg"},{"color":"BLACK","file":"BLACK.jpg"},{"color":"GREY","file":"GREY.jpg"}]],
+  ["urban","R","URBAN CONCRETE GREY 30X60 3D kopya.jpg","30 × 60",["30 × 60","61 × 61"],[{"color":"ANTRASIT","file":"URBAN ANTRASIT 30X60 - FACE 1.jpg"},{"color":"BONE","file":"URBAN BONE 30X60 - FACE 1.jpg"},{"color":"DUNKEL","file":"URBAN DUNKEL 30X60 - FACE 1.jpg"},{"color":"LATTE","file":"URBAN LATTE 30X60 - FACE 1.jpg"}]],
+  ["valor","R","VALOR 30X90 RENK AYRIMI.jpg","30 × 90",["30 × 90","45 × 45"],[{"color":"BEYAZ","file":"VALOR BEYAZ 30X90 - FACE 1.jpg"},{"color":"BEYAZ DEKOFON","file":"VALOR BEYAZ DEKOFON 30X90 - FACE 1.jpg"},{"color":"SIYAH","file":"VALOR SIYAH 30X90 - FACE 1.jpg"},{"color":"SIYAH DEKOFON","file":"VALOR SIYAH DEKOFON 30X90.jpg"}]],
+  ["verona","R","VERONA 30X60.jpg","30 × 60",["30 × 60"],[{"color":"STANDARD","file":"Verona.jpg"}]],
+  ["vigo","R","VIGO 30X90.jpg","30 × 90",["30 × 90"],[]],
+  ["violeta","R","VIOLETA 60X60  GRIS.jpg","60 × 60",["60 × 60"],[{"color":"CAFE","file":"VIOLETA CAFE 60X60  - FACE 1.jpg"},{"color":"GRIS","file":"VIOLETA GRIS 60X60 - FACE 1.jpg"}]],
+  ["vitray","T","VITRAY 60X120 FULL LAPPATO.jpg","60 × 120",["60 × 120"],[]],
+  ["void","R","VOID 100X100 BONE.jpg","100 × 100",["100 × 100"],[]],
+  ["walter","R","WALTER 30X60 2.jpg","30 × 60",["30 × 60"],[{"color":"ANTRASİT","file":"WALTER ANTRASİT 30X60 - FACE 1.jpg"},{"color":"AÇIK GRİ","file":"WALTER AÇIK GRİ 30X60 - FACE 1.jpg"},{"color":"DEKOFON","file":"WALTER DEKOFON 30X60.jpg"},{"color":"GRİ","file":"WALTER GRİ 30X60 - FACE 1.jpg"}]],
+  ["wario","T","WARIO BLUE 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"BLUE","file":"WARIO BLUE 60X120 - FACE 1.jpg"},{"color":"GREEN","file":"WARIO GREEN 60X120 - FACE 1.jpg"}]],
+  ["white-star","R","BLACK - WHITE STAR 120X180 R1.jpg","120 × 180",["120 × 180","60 × 120","60 × 60"],[{"color":"STANDARD","file":"WHITE STAR 120X180.jpg"}]],
+  ["windy","T","WINDY 60X120 - FACE 1.jpg","60 × 120",["60 × 120"],[{"color":"STANDARD","file":"WINDY 60X120 - FACE 1.jpg"}]],
+  ["yoga-wood","R","YOGA 20X120 VENGE GENEL.JPG","20 × 120",["20 × 120"],[{"color":"YOGA GREY","file":"YOGA GREY 20X120 - FACE 1.jpg"},{"color":"YOGA IVORY","file":"YOGA IVORY 20X120 - FACE 4.jpg"},{"color":"YOGA OAK","file":"YOGA OAK 20X120 - FACE 1.jpg"},{"color":"YOGA VENGE","file":"YOGA VENGE 20X120 - FACE 4.jpg"}]],
+  ["yuta","R","YUTA 30X90 2 MOTTO LAVABO.jpg","30 × 90",["30 × 90"],[]],
+  ["zenith","R","ZENITH 60X120 1.jpg","60 × 120",["30 × 60","60 × 120","60 × 60"],[{"color":"STANDARD","file":"ZENITH 30X60 - FACE 1.jpg"}]],
+  ["zigana","R","ZIGANA 15X60 CEVIZ.jpg","15 × 60",["15 × 60"],[]],
+];
+
+
+/* ── helpers ── */
+const toName = s => s.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join(' ');
+const src = (slug,type,file) =>
+  'docs/'+slug+'/'+(type==='R'?'RENDER':'TEXTURE')+'/'+encodeURIComponent(file);
+const mk = (tag,cls,html) => {
+  const e=document.createElement(tag);
+  if(cls) e.className=cls;
+  if(html!==undefined) e.innerHTML=html;
+  return e;
+};
+const img = (s,cls,lazy) => {
+  const i=document.createElement('img');
+  i.src=s;if(cls)i.className=cls;
+  i.loading=lazy===false?'eager':'lazy';
+  return i;
+};
+
+/* ════════════════════════
+   COUVERTURE (paysage)
+════════════════════════ */
+function cover(){
+  const d=mk('div','pg-p cover');
+
+  /* Panneau gauche titre */
+  const left=mk('div','cover-left');
+  left.appendChild(mk('div','cover-bar'));
+  const lo=img('logo-dekor.png','cover-logo',false); lo.alt='Dekor & Design'; left.appendChild(lo);
+  left.appendChild(mk('div','cover-spacer'));
+  left.appendChild(mk('div','cover-eyebrow','Showroom · Revêtement · Céramique'));
+  left.appendChild(mk('div','cover-title','Catalogue<br><span class="light">Carrelages</span>'));
+  left.appendChild(mk('div','cover-rule'));
+  left.appendChild(mk('div','cover-meta',
+    '<div><div class="cover-count">'+DB.length+'<span style="font-size:24px;font-weight:200">+</span></div>'+
+    '<div class="cover-count-lbl">Références</div></div>'+
+    '<div class="cover-vdiv"></div>'+
+    '<div><div class="cover-count">15<span style="font-size:24px;font-weight:200">+</span></div>'+
+    '<div class="cover-count-lbl">Formats</div></div>'+
+    '<div class="cover-vdiv"></div>'+
+    '<div><div class="cover-count">2025</div><div class="cover-count-lbl">Collection</div></div>'
+  ));
+  left.appendChild(mk('div','cover-year','Catalogue · 2025 · Carrelages'));
+  d.appendChild(left);
+
+  /* Render droite */
+  const right=mk('div','cover-right');
+  right.appendChild(img(src('concept','R','Concept 120x180 Render 1.jpg'),'cover-bg',false));
+  d.appendChild(right);
+
+  return d;
+}
+
+/* ════════════════
+   PAGE LETTRE
+════════════════ */
+function letterPage(letter, count, bgSlug, bgType, bgFile){
+  const d=mk('div','pg-l letter-pg');
+  if(bgSlug) d.appendChild(img(src(bgSlug,bgType,bgFile),'letter-bg'));
+  d.appendChild(mk('div','letter-big',letter));
+  d.appendChild(mk('div','letter-sub','Collections'));
+  d.appendChild(mk('div','letter-cnt',count+' référence'+(count>1?'s':'')));
+  const ll=img('logo-dekor.png','letter-logo'); ll.alt='D&D'; d.appendChild(ll);
+  return d;
+}
+
+/* ════════════════════════════════════
+   BUILDER panneau info (gauche ou droite)
+════════════════════════════════════ */
+let pageNum=2;
+
+function infoPanel(slug, type, file, fmt, formats, swatches, side){
+  const d=mk('div', 'dp-info'+(side==='right'?' right':''));
+
+  // Barre verte
+  d.appendChild(mk('div', side==='right'?'dp-bar-left':'dp-bar-right'));
+
+  // Header: numéro seulement (plus de logo)
+  const hdr=mk('div','dp-header');
+  hdr.appendChild(mk('div','dp-num',String(pageNum++).padStart(3,'0')));
+  d.appendChild(hdr);
+
+  // Nom
+  d.appendChild(mk('div','dp-cat','Carrelage · Collection'));
+  d.appendChild(mk('div','dp-name',toName(slug)));
+  d.appendChild(mk('div','dp-bar'));
+
+  // Swatches couleurs
+  const hasSwatch = swatches && swatches.length>0;
+  d.appendChild(mk('div','dp-lbl','Coloris'));
+  const swGrid=mk('div','dp-swatches');
+  if(hasSwatch){
+    swatches.slice(0,6).forEach(s=>{
+      const box=mk('div','dp-swatch');
+      const si=img(src(slug,'T',s.file),'dp-sw-img');
+      si.onerror=function(){this.style.background='#252525'};
+      box.appendChild(si);
+      box.appendChild(mk('div','dp-sw-name',s.color));
+      swGrid.appendChild(box);
+    });
+  } else {
+    // fallback swatch = render
+    const box=mk('div','dp-swatch');
+    const si=img(src(slug,type,file),'dp-sw-img');
+    si.onerror=function(){this.style.background='#252525'};
+    box.appendChild(si);
+    box.appendChild(mk('div','dp-sw-name','Référence'));
+    swGrid.appendChild(box);
+  }
+  d.appendChild(swGrid);
+
+  // Divider
+  d.appendChild(mk('div','dp-divider'));
+
+  // Formats
+  d.appendChild(mk('div','dp-lbl','Formats (cm)'));
+  const fmtRow=mk('div','dp-formats');
+  (formats && formats.length>0?formats:[fmt]).forEach(f=>fmtRow.appendChild(mk('span','dp-fmt',f)));
+  d.appendChild(fmtRow);
+
+  // Spacer
+  d.appendChild(mk('div','dp-spacer'));
+
+  // Footer : brand text uniquement côté droit
+  const foot=mk('div','dp-footer');
+  if(side==='right'){
+    foot.appendChild(mk('div','dp-foot-txt','Dekor &amp; Design<br>Showroom · 2025'));
+  }
+  foot.appendChild(mk('div','dp-dot'));
+  d.appendChild(foot);
+
+  return d;
+}
+
+/* ════════════════════════════════════
+   PAGE DOUBLE (2 collections)
+   [INFO LEFT] [RENDER 1] | [RENDER 2] [INFO RIGHT]
+════════════════════════════════════ */
+function doublePage(p1, p2){
+  const d=mk('div','pg-l');
+  const inner=mk('div','double-pg');
+
+  // Panneau gauche (collection 1)
+  inner.appendChild(infoPanel(p1[0],p1[1],p1[2],p1[3],p1[4],p1[5],'left'));
+
+  // Render 1 (gauche)
+  const r1=mk('div','dp-render');
+  const ri1=img(src(p1[0],p1[1],p1[2]),'dp-render-img');
+  ri1.onerror=function(){this.parentElement.style.background='#161616'};
+  r1.appendChild(ri1);
+  inner.appendChild(r1);
+
+  // Séparateur central
+  inner.appendChild(mk('div','dp-center-sep'));
+
+  // Render 2 (droite)
+  const r2=mk('div','dp-render');
+  const ri2=img(src(p2[0],p2[1],p2[2]),'dp-render-img');
+  ri2.onerror=function(){this.parentElement.style.background='#161616'};
+  r2.appendChild(ri2);
+  inner.appendChild(r2);
+
+  // Panneau droit (collection 2)
+  inner.appendChild(infoPanel(p2[0],p2[1],p2[2],p2[3],p2[4],p2[5],'right'));
+
+  d.appendChild(inner);
+  return d;
+}
+
+/* ════════════════════════════════════
+   PAGE SIMPLE (1 collection)
+════════════════════════════════════ */
+function singlePage(p){
+  const d=mk('div','pg-l');
+  const inner=mk('div','single-pg');
+
+  // Render
+  const r=mk('div','sp-render');
+  const ri=img(src(p[0],p[1],p[2]),'sp-render-img');
+  ri.onerror=function(){this.parentElement.style.background='#161616'};
+  r.appendChild(ri);
+  inner.appendChild(r);
+
+  // Info
+  const info=mk('div','sp-info');
+  info.appendChild(mk('div','sp-bar'));
+
+  const hdr=mk('div','sp-header');
+  hdr.appendChild(mk('div','sp-num',String(pageNum++).padStart(3,'0')));
+  info.appendChild(hdr);
+
+  info.appendChild(mk('div','sp-cat','Carrelage · Collection'));
+  info.appendChild(mk('div','sp-name',toName(p[0])));
+  info.appendChild(mk('div','sp-bar'));
+
+  info.appendChild(mk('div','sp-lbl','Coloris disponibles'));
+  const swG=mk('div','sp-swatches');
+  const swatches=p[5]||[];
+  if(swatches.length>0){
+    swatches.slice(0,6).forEach(s=>{
+      const box=mk('div','sp-swatch');
+      const si=img(src(p[0],'T',s.file),'sp-sw-img');
+      si.onerror=function(){this.style.background='#252525'};
+      box.appendChild(si);
+      box.appendChild(mk('div','sp-sw-name',s.color));
+      swG.appendChild(box);
+    });
+  } else {
+    const box=mk('div','sp-swatch');
+    const si=img(src(p[0],p[1],p[2]),'sp-sw-img');
+    si.onerror=function(){this.style.background='#252525'};
+    box.appendChild(si);
+    box.appendChild(mk('div','sp-sw-name','Référence'));
+    swG.appendChild(box);
+  }
+  info.appendChild(swG);
+  info.appendChild(mk('div','sp-divider'));
+  info.appendChild(mk('div','sp-lbl','Formats disponibles (cm)'));
+  const fmtRow=mk('div','sp-formats');
+  (p[4]&&p[4].length>0?p[4]:[p[3]]).forEach(f=>fmtRow.appendChild(mk('span','sp-fmt',f)));
+  info.appendChild(fmtRow);
+  info.appendChild(mk('div','sp-spacer'));
+  const foot=mk('div','sp-footer');
+  foot.appendChild(mk('div','sp-foot-txt','Dekor &amp; Design<br>Showroom · 2025'));
+  foot.appendChild(mk('div','sp-green-dot'));
+  info.appendChild(foot);
+
+  inner.appendChild(info);
+  d.appendChild(inner);
+  return d;
+}
+
+/* ══════════════════════
+   ASSEMBLAGE
+══════════════════════ */
+const root=document.getElementById('root');
+root.appendChild(cover());
+
+const heroByLetter={
+  A:['adria','R','ADRIA 30X90 BANYO RENDER 1 kopya.jpg'],
+  B:['bona-dea','R','Bona Dea 100x100 Crema -Dark grey-Light Grey Mix 1.jpg'],
+  C:['concept','R','Concept 120x180 Render 1.jpg'],
+  D:['darkness','R','DARKNESS 60X120.jpg'],
+  E:['eleganza','R','Eleganza Oak 20x120 REV.jpg'],
+  F:['famous','R','FAMOUS 40X120 - FASHION SHOP REV.jpg'],
+  G:['grassland','R','GRASSLAND 60X120 3D RENDER REV kopya.jpg'],
+  H:['hampton','R','HAMPTON 120X120.jpg'],
+  I:['imperial','R','imperial 30x60.jpg'],
+  J:['joya','R','JOYA 60X120 -3.jpg'],
+  K:['kapteyn','R','KAPTEYN 60X120 2.jpg'],
+  L:['las-palmas','R','LAS PALMAS 100X100 BEIGE.jpg'],
+  M:['magnifique','R','Magnifique 120x180 detay.jpg'],
+  N:['newport','R','NEWPORT 100X100.jpg'],
+  O:['olbia','R','OLBIA 60X120 .jpg'],
+  P:['palazzo','R','Palazzo 60x120 ivory detay.jpg'],
+  Q:['quark','R','QUARK 60X120 MOKA-1.jpg'],
+  R:['regnum','R','REGNUM 60X120 2.jpg'],
+  S:['strato','R','STRATO 120X180 R1.JPG'],
+  T:['turin','R','TURIN HAKI  120X120.jpg'],
+  U:['urban','R','URBAN CONCRETE GREY 30X60 3D kopya.jpg'],
+  V:['void','R','VOID 100X100 BONE.jpg'],
+  W:['walter','R','WALTER 30X60 2.jpg'],
+  Y:['yoga-wood','R','YOGA 20X120 VENGE GENEL.JPG'],
+  Z:['zenith','R','ZENITH 60X120 1.jpg'],
+};
+
+/* Grouper par lettre */
+const groups={};
+DB.forEach(r=>{
+  const L=toName(r[0])[0].toUpperCase();
+  (groups[L]=groups[L]||[]).push(r);
+});
+
+Object.keys(groups).sort().forEach(L=>{
+  const items=groups[L];
+  const hero=heroByLetter[L];
+
+  /* Page transition lettre */
+  root.appendChild(letterPage(L,items.length,
+    hero?hero[0]:null,hero?hero[1]:null,hero?hero[2]:null));
+
+  /* Pages produits : 2 par page */
+  for(let i=0;i<items.length;i+=2){
+    if(i+1<items.length){
+      root.appendChild(doublePage(items[i],items[i+1]));
+    } else {
+      root.appendChild(singlePage(items[i]));
+    }
+  }
+});
+
+</script>
+</body>
+</html>

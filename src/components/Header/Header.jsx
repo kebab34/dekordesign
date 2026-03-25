@@ -89,6 +89,8 @@ const Header = () => {
             <Link to="/menuiserie?cat=portes-entree" className="dropdown-item">Portes d'Entrée</Link>
             <Link to="/menuiserie?cat=moustiquaires" className="dropdown-item">Moustiquaires</Link>
             <Link to="/menuiserie?cat=solutions-verre" className="dropdown-item">Solutions Verre</Link>
+            <div className="dropdown-divider"></div>
+            <Link to="/portes-pivot" className="dropdown-item">Portes Pivot Aderka</Link>
           </NavDropdown>
 
           <NavDropdown label="EXTÉRIEUR" to="/exterieur">
@@ -190,6 +192,7 @@ const Header = () => {
                 <Link to="/menuiserie?cat=portes-entree" className="mobile-sublink" onClick={closeMenu}>Portes d'Entrée</Link>
                 <Link to="/menuiserie?cat=moustiquaires" className="mobile-sublink" onClick={closeMenu}>Moustiquaires</Link>
                 <Link to="/menuiserie?cat=solutions-verre" className="mobile-sublink" onClick={closeMenu}>Solutions Verre</Link>
+                <Link to="/portes-pivot" className="mobile-sublink" onClick={closeMenu}>Portes Pivot Aderka</Link>
               </div>
             )}
           </div>

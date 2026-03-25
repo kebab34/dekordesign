@@ -1,0 +1,275 @@
+.ade-page {
+  padding: 60px 40px 80px;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+/* Header */
+.ade-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ade-gold-line {
+  width: 60px;
+  height: 2px;
+  background-color: #d4af37;
+  margin: 0 auto 20px;
+}
+
+.ade-title {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #fff;
+  margin: 0 0 12px 0;
+}
+
+.ade-subtitle {
+  font-size: 13px;
+  color: #888;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Filter tabs */
+.ade-filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.ade-filter-btn {
+  padding: 9px 22px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #888;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 2px;
+}
+.ade-filter-btn:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+.ade-filter-btn.active {
+  background-color: #d4af37;
+  border-color: #d4af37;
+  color: #0a0a0a;
+}
+
+/* Back link */
+.ade-back {
+  max-width: 1400px;
+  margin: 0 auto 24px;
+  padding: 0 0 0 2px;
+}
+.ade-back-link {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.ade-back-link:hover { color: #d4af37; }
+
+/* Grid — 3 cols desktop, gap 2px like collections */
+.ade-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Card */
+.ade-card {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.ade-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.ade-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 12px;
+  transition: transform 0.5s ease;
+  display: block;
+}
+.ade-card:hover .ade-img {
+  transform: scale(1.04);
+}
+
+/* Series badge */
+.ade-series-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.65);
+  color: #d4af37;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  backdrop-filter: blur(4px);
+}
+
+/* Hover overlay */
+.ade-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+}
+.ade-card:hover .ade-overlay {
+  opacity: 1;
+}
+
+.ade-overlay-label {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d4af37;
+  padding-bottom: 4px;
+}
+
+/* Name overlay — hidden on desktop */
+.ade-name-overlay {
+  display: none;
+}
+
+/* Card info below image — desktop */
+.ade-card-info {
+  padding: 12px 8px 10px;
+  background: #0a0a0a;
+}
+
+.ade-card-name {
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0 0 4px 0;
+  transition: color 0.3s;
+}
+.ade-card:hover .ade-card-name {
+  color: #d4af37;
+}
+
+.ade-card-series {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Empty state */
+.ade-empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: #888;
+}
+.ade-empty p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.ade-empty button {
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+.ade-empty button:hover {
+  background-color: #d4af37;
+  color: #0a0a0a;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .ade-page { padding: 50px 30px 60px; }
+  .ade-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .ade-page { padding: 40px 0 60px; }
+  .ade-title { font-size: 28px; letter-spacing: 5px; }
+  .ade-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+  .ade-filters { padding: 0 16px; }
+  .ade-header { padding: 0 16px; }
+}
+
+@media (max-width: 576px) {
+  .ade-title { font-size: 22px; letter-spacing: 3px; }
+  .ade-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+
+  /* Hide card info below image on mobile */
+  .ade-card-info { display: none; }
+
+  /* Gradient + name inside image on mobile */
+  .ade-img-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .ade-name-overlay {
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    z-index: 2;
+  }
+
+  .ade-name-mob {
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+  }
+
+  .ade-card:nth-child(odd) .ade-name-overlay { text-align: right; }
+  .ade-card:nth-child(even) .ade-name-overlay { text-align: left; }
+
+  /* Shrink series badge */
+  .ade-series-badge { font-size: 9px; padding: 3px 7px; }
+}

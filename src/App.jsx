@@ -28,6 +28,9 @@ import MenuiseriePage from './components/MenuiseriePage/MenuiseriePage';
 import MenuiserieDetailPage from './components/MenuiserieDetailPage/MenuiserieDetailPage';
 import ExterieurPage from './components/ExterieurPage/ExterieurPage';
 import ExterieurDetailPage from './components/ExterieurDetailPage/ExterieurDetailPage';
+import AderkaSeriesPage from './components/AderkaSeriesPage/AderkaSeriesPage';
+import AderkaPage from './components/AderkaPage/AderkaPage';
+import AderkaDetailPage from './components/AderkaDetailPage/AderkaDetailPage';
 import './App.css';
 
 const ScrollToTop = () => {
@@ -72,6 +75,9 @@ const App = () => {
           <Route path="/menuiserie/:productId" element={<MenuiserieDetailPage />} />
           <Route path="/exterieur" element={<ExterieurPage />} />
           <Route path="/exterieur/:productId" element={<ExterieurDetailPage />} />
+          <Route path="/portes-pivot" element={<AderkaSeriesPage />} />
+          <Route path="/portes-pivot/:series" element={<AderkaPage />} />
+          <Route path="/portes-pivot/:series/:slug" element={<AderkaDetailPage />} />
         </Routes>
         <Footer />
       </div>
