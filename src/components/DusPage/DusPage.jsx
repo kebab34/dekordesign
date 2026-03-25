@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { dusData, dusCategories } from '../../data/dusData';
 import './DusPage.css';
 
@@ -95,6 +96,11 @@ const DusPage = () => {
 
   return (
     <section className="dus-page">
+      <SEO
+        title="Systèmes de Douche Premium — Colonnes & Parois"
+        description="Systèmes de douche premium : colonnes, parois en verre, receveurs extra-plats. Solutions douche complètes chez DekorDesign Alger."
+        canonical="/douche"
+      />
       <div className="dus-header">
         <div className="dus-gold-line"></div>
         <h2 className="dus-title">SYSTÈMES DE DOUCHE</h2>

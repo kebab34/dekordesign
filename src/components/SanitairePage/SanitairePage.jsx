@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { sanitaireData, sanitaireCategories } from '../../data/sanitaireData';
 import './SanitairePage.css';
 
@@ -94,6 +95,11 @@ const SanitairePage = () => {
 
   return (
     <section className="san-page">
+      <SEO
+        title="Appareils Sanitaires — Baignoires, Vasques & WC"
+        description="Gamme d'appareils sanitaires haut de gamme : baignoires, vasques, WC suspendus. Design contemporain pour votre salle de bain. DekorDesign Alger."
+        canonical="/sanitaire"
+      />
       <div className="san-header">
         <div className="san-gold-line"></div>
         <h2 className="san-title">SALLE DE BAIN</h2>

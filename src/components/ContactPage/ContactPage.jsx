@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import SEO from '../SEO/SEO';
 import emailjs from '@emailjs/browser';
 import './ContactPage.css';
 
@@ -56,6 +57,11 @@ const ContactPage = () => {
 
   return (
     <section className="contact-page">
+      <SEO
+        title="Contact — Showroom DekorDesign Alger"
+        description="Contactez DekorDesign pour un devis, une visite showroom ou des renseignements. Notre équipe vous accompagne dans votre projet de rénovation à Alger."
+        canonical="/contact"
+      />
       <div className="contact-header">
         <div className="gold-line"></div>
         <h2 className="contact-title">CONTACTEZ-NOUS</h2>

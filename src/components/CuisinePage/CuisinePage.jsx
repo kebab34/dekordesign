@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { cuisineData } from '../../data/cuisineData';
 import { sopranoData } from '../../data/sopranoData';
 import './CuisinePage.css';
@@ -119,6 +120,11 @@ const CuisinePage = () => {
 
   return (
     <section className="cui-page">
+      <SEO
+        title="Cuisines sur Mesure — Atölye Mutfak & Soprano"
+        description="Cuisines sur mesure haut de gamme : 31 modèles Atölye Mutfak & Soprano. Tous styles et finitions. Conception et installation à Alger."
+        canonical="/cuisines"
+      />
       <div className="cui-header">
         <div className="cui-gold-line"></div>
         <h2 className="cui-title">CUISINES SUR MESURE</h2>

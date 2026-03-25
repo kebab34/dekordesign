@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import SEO from '../SEO/SEO';
 import { useSearchParams, Link } from 'react-router-dom';
 import {
   productsData,
@@ -153,6 +154,11 @@ const CollectionsPage = () => {
 
   return (
     <section className="collections-page">
+      <SEO
+        title="Collections Carrelages — 244 Collections"
+        description="Explorez nos 244 collections de carrelages pour salle de bain, cuisine et intérieur. Marbre, grès cérame, bois, pierre naturelle. Livraison Alger et toute l'Algérie."
+        canonical="/collections"
+      />
       <div className="collections-header">
         <div className="gold-line"></div>
         <h2 className="collections-title">

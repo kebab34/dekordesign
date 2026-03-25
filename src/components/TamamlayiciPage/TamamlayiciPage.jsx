@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { tamamlayiciData, tamamlayiciCategories } from '../../data/tamamlayiciData';
 import './TamamlayiciPage.css';
 
@@ -16,6 +17,11 @@ const TamamlayiciPage = () => {
 
   return (
     <section className="tamamlayici-page">
+      <SEO
+        title="Produits Complémentaires — Réservoirs & Accessoires"
+        description="Produits complémentaires salle de bain : réservoirs, plomberie et accessoires. Tout pour compléter votre installation sanitaire. DekorDesign Alger."
+        canonical="/accessoires"
+      />
       <div className="tamamlayici-header">
         <div className="tgold-line"></div>
         <h2 className="tamamlayici-title">ACCESSOIRES SALLE DE BAIN</h2>

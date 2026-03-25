@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { seriesCovers } from '../../data/aderkaData';
 import './AderkaSeriesPage.css';
 
@@ -32,6 +33,11 @@ const SERIES_LIST = [
 
 const AderkaSeriesPage = () => (
   <section className="ase-page">
+    <SEO
+      title="Portes Pivot Aluminium — Aderka Door Systems"
+      description="Portes pivot aluminium Aderka : 4 séries exclusives, 19 modèles. Exclusive, Stoneline, Elegance, Woodline. Design architectural haut de gamme à Alger."
+      canonical="/portes-pivot"
+    />
     <div className="ase-header">
       <div className="ase-gold-line" />
       <h1 className="ase-title">PORTES PIVOT ALUMINIUM</h1>

@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { aksesuarData, aksesuarCategories } from '../../data/aksesuarData';
 import './AksesuarPage.css';
 
@@ -95,6 +96,11 @@ const AksesuarPage = () => {
 
   return (
     <section className="aks-page">
+      <SEO
+        title="Accessoires de Bain — Miroirs & Porte-Serviettes"
+        description="Accessoires de salle de bain design : miroirs, porte-serviettes, distributeurs. Collections complètes pour un espace harmonieux. DekorDesign Alger."
+        canonical="/bain-accessoires"
+      />
       <div className="aks-header">
         <div className="aks-gold-line"></div>
         <h2 className="aks-title">ACCESSOIRES SALLE DE BAIN</h2>

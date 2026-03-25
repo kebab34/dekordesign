@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { menuiserieCategories, menuiserieProducts } from '../../data/menuiserieData';
 import './MenuiseriePage.css';
 
@@ -59,6 +60,11 @@ const MenuiseriePage = () => {
 
   return (
     <section className="men-page">
+      <SEO
+        title="Menuiserie PVC & Aluminium — Portes & Fenêtres Alger"
+        description="Menuiserie PVC et aluminium : portes, fenêtres, volets roulants, systèmes guillotine. Qualité européenne, installation professionnelle à Alger."
+        canonical="/menuiserie"
+      />
 
       {/* ── Header ─────────────────────────────────────────────── */}
       <div className="men-header">

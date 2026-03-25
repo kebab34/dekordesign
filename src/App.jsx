@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
@@ -44,6 +45,7 @@ const ScrollToTop = () => {
 
 const App = () => {
   return (
+    <HelmetProvider>
     <Router>
       <div className="app-container">
         <ScrollToTop />
@@ -82,6 +84,7 @@ const App = () => {
         <Footer />
       </div>
     </Router>
+    </HelmetProvider>
   );
 };
 

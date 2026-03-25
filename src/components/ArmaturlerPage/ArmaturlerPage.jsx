@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { armaturlerData, armaturlerCategories } from '../../data/armaturlerData';
 import './ArmaturlerPage.css';
 
@@ -95,6 +96,11 @@ const ArmaturlerPage = () => {
 
   return (
     <section className="arm-page">
+      <SEO
+        title="Robinetterie de Luxe — Or Brossé, Noir Mat, Chrome"
+        description="Robinetterie haut de gamme : mitigeurs, thermostatiques, colonnes de douche. Finitions or brossé, noir mat, chrome poli. DekorDesign Alger."
+        canonical="/armaturler"
+      />
       <div className="arm-header">
         <div className="arm-gold-line"></div>
         <h2 className="arm-title">ROBINETTERIE &amp; DOUCHE</h2>

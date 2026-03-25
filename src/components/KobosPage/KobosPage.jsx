@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { kobosData } from '../../data/kobosData';
 import './KobosPage.css';
 
@@ -18,6 +19,11 @@ const KobosPage = () => {
 
   return (
     <section className="kobos-page">
+      <SEO
+        title="Meubles de Salle de Bain — Collections Kobos"
+        description="Collections Kobos : meubles de salle de bain élégants et fonctionnels. Vasques, miroirs, rangements sur mesure. Showroom DekorDesign Alger."
+        canonical="/meubles"
+      />
       <div className="kobos-header">
         <div className="kobos-gold-line"></div>
         <h2 className="kobos-title">MEUBLES DE SALLE DE BAIN</h2>

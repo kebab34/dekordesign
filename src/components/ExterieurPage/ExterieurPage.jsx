@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import SEO from '../SEO/SEO';
 import { exterieurProducts, exterieurCategories } from '../../data/exterieurData';
 import './ExterieurPage.css';
 
@@ -24,6 +25,11 @@ const ExterieurPage = () => {
 
   return (
     <section className="ext-page">
+      <SEO
+        title="Pergolas & Protection Solaire — Genius Pergola Alger"
+        description="Pergolas motorisées, stores ZIP et vitrages guillotine pour terrasses. Solutions sur mesure Genius Pergola. DekorDesign Alger."
+        canonical="/exterieur"
+      />
       {/* Header */}
       <div className="ext-header">
         <div className="ext-gold-line"></div>
