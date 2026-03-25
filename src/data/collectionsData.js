@@ -52,78 +52,49 @@ export const collectionsData = {
   },
   'Adel': {
     slug: 'adel',
-    mainImage: '/docs/adel/RENDER/ADEL 60X120 IVORY.jpg',
+    mainImage: 'https://bienseramik.b-cdn.net/uploads/adel-2.png',
     products: [
       {
         id: 0,
-        name: 'ADEL GREY 60X120',
-        color: 'Gris',
+        name: 'Adel White 60x120',
+        color: 'Blanc',
         size: '60x120',
-        surface: null,
-        thumbnail: '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 1.jpg',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXW50.png',
         faces: [
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 1.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 2.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 3.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 4.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 5.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 6.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 7.jpg',
-          '/docs/adel/TEXTURE/ADEL GREY 60X120 - FACE 8.jpg'
+          'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXW50.png',
         ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        specifications: {},
       },
       {
         id: 1,
-        name: 'ADEL IVORY 60X120',
+        name: 'Adel Ivory 60x120',
         color: 'Ivoire',
         size: '60x120',
-        surface: null,
-        thumbnail: '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 1.jpg',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXI50.png',
         faces: [
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 1.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 2.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 3.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 4.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 5.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 6.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 7.jpg',
-          '/docs/adel/TEXTURE/ADEL IVORY 60X120 - FACE 8.jpg'
+          'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXI50.png',
         ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        specifications: {},
       },
       {
         id: 2,
-        name: 'ADEL WHITE 60X120',
-        color: 'Blanc',
+        name: 'Adel Grey 60x120',
+        color: 'Gris',
         size: '60x120',
-        surface: null,
-        thumbnail: '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 1.jpg',
+        surface: 'Mat',
+        thumbnail: 'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXG50.png',
         faces: [
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 1.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 2.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 3.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 4.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 5.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 6.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 7.jpg',
-          '/docs/adel/TEXTURE/ADEL WHITE 60X120 - FACE 8.jpg'
+          'https://bienseramik.b-cdn.net/uploads/P156ZDBAI3TX0XPXXG50.png',
         ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
+        specifications: {},
+      },
     ],
-    documents: [
-      { name: 'Renders', file: '/docs/adel/adel-render.rar', type: 'RAR' },
-      { name: 'Textures', file: '/docs/adel/adel-texture.rar', type: 'RAR' }
-    ],
+    documents: [],
     commonSpecs: {
-      // À remplir depuis le PDF
+      finition: 'Mat',
+      design: 'Marbre',
     },
   },
   'Adela': {
@@ -4678,7 +4649,7 @@ export const collectionsData = {
       // typesProduit: '',
     }
   },
-  'Serpatin': {
+  'Serpantin': {
     slug: 'serpatin',
     images: [
     '/collection/SAUDI TRAVERTEN 60X120 .jpg'
