@@ -15,7 +15,7 @@ const ProductCategories = () => {
         {productCategoriesData.map((category, index) => (
           <Link key={index} to={category.path} className="product-card">
             <div className="product-image-container">
-              <img src={category.image} alt={category.name} className="product-image" />
+              <img src={category.image} alt={category.name} className="product-image" loading="lazy" />
               <div className="product-overlay">
                 <span className="explore-button">EXPLORER</span>
               </div>

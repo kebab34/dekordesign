@@ -1,38 +1,39 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
-import CollectionsPage from './components/CollectionsPage/CollectionsPage';
-import CataloguePage from './components/CataloguePage/CataloguePage';
-import ContactPage from './components/ContactPage/ContactPage';
-import CollectionDetailPage from './components/CollectionDetailPage/CollectionDetailPage';
-import ProductDetailPage from './components/ProductDetailPage/ProductDetailPage';
-import SanitairePage from './components/SanitairePage/SanitairePage';
-import SanitaireDetailPage from './components/SanitaireDetailPage/SanitaireDetailPage';
-import TamamlayiciPage from './components/TamamlayiciPage/TamamlayiciPage';
-import TamamlayiciDetailPage from './components/TamamlayiciDetailPage/TamamlayiciDetailPage';
-import ArmaturlerPage from './components/ArmaturlerPage/ArmaturlerPage';
-import ArmaturlerDetailPage from './components/ArmaturlerDetailPage/ArmaturlerDetailPage';
-import DusPage from './components/DusPage/DusPage';
-import DusDetailPage from './components/DusDetailPage/DusDetailPage';
-import AksesuarPage from './components/AksesuarPage/AksesuarPage';
-import AksesuarDetailPage from './components/AksesuarDetailPage/AksesuarDetailPage';
-import CuisinePage from './components/CuisinePage/CuisinePage';
-import CuisineDetailPage from './components/CuisineDetailPage/CuisineDetailPage';
-import KobosPage from './components/KobosPage/KobosPage';
-import KobosDetailPage from './components/KobosDetailPage/KobosDetailPage';
-import SopranoPage from './components/SopranoPage/SopranoPage';
-import SopranoDetailPage from './components/SopranoDetailPage/SopranoDetailPage';
-import MenuiseriePage from './components/MenuiseriePage/MenuiseriePage';
-import MenuiserieDetailPage from './components/MenuiserieDetailPage/MenuiserieDetailPage';
-import ExterieurPage from './components/ExterieurPage/ExterieurPage';
-import ExterieurDetailPage from './components/ExterieurDetailPage/ExterieurDetailPage';
-import AderkaSeriesPage from './components/AderkaSeriesPage/AderkaSeriesPage';
-import AderkaPage from './components/AderkaPage/AderkaPage';
-import AderkaDetailPage from './components/AderkaDetailPage/AderkaDetailPage';
 import './App.css';
+
+const CollectionsPage        = lazy(() => import('./components/CollectionsPage/CollectionsPage'));
+const CataloguePage          = lazy(() => import('./components/CataloguePage/CataloguePage'));
+const ContactPage            = lazy(() => import('./components/ContactPage/ContactPage'));
+const CollectionDetailPage   = lazy(() => import('./components/CollectionDetailPage/CollectionDetailPage'));
+const ProductDetailPage      = lazy(() => import('./components/ProductDetailPage/ProductDetailPage'));
+const SanitairePage          = lazy(() => import('./components/SanitairePage/SanitairePage'));
+const SanitaireDetailPage    = lazy(() => import('./components/SanitaireDetailPage/SanitaireDetailPage'));
+const TamamlayiciPage        = lazy(() => import('./components/TamamlayiciPage/TamamlayiciPage'));
+const TamamlayiciDetailPage  = lazy(() => import('./components/TamamlayiciDetailPage/TamamlayiciDetailPage'));
+const ArmaturlerPage         = lazy(() => import('./components/ArmaturlerPage/ArmaturlerPage'));
+const ArmaturlerDetailPage   = lazy(() => import('./components/ArmaturlerDetailPage/ArmaturlerDetailPage'));
+const DusPage                = lazy(() => import('./components/DusPage/DusPage'));
+const DusDetailPage          = lazy(() => import('./components/DusDetailPage/DusDetailPage'));
+const AksesuarPage           = lazy(() => import('./components/AksesuarPage/AksesuarPage'));
+const AksesuarDetailPage     = lazy(() => import('./components/AksesuarDetailPage/AksesuarDetailPage'));
+const CuisinePage            = lazy(() => import('./components/CuisinePage/CuisinePage'));
+const CuisineDetailPage      = lazy(() => import('./components/CuisineDetailPage/CuisineDetailPage'));
+const KobosPage              = lazy(() => import('./components/KobosPage/KobosPage'));
+const KobosDetailPage        = lazy(() => import('./components/KobosDetailPage/KobosDetailPage'));
+const SopranoPage            = lazy(() => import('./components/SopranoPage/SopranoPage'));
+const SopranoDetailPage      = lazy(() => import('./components/SopranoDetailPage/SopranoDetailPage'));
+const MenuiseriePage         = lazy(() => import('./components/MenuiseriePage/MenuiseriePage'));
+const MenuiserieDetailPage   = lazy(() => import('./components/MenuiserieDetailPage/MenuiserieDetailPage'));
+const ExterieurPage          = lazy(() => import('./components/ExterieurPage/ExterieurPage'));
+const ExterieurDetailPage    = lazy(() => import('./components/ExterieurDetailPage/ExterieurDetailPage'));
+const AderkaSeriesPage       = lazy(() => import('./components/AderkaSeriesPage/AderkaSeriesPage'));
+const AderkaPage             = lazy(() => import('./components/AderkaPage/AderkaPage'));
+const AderkaDetailPage       = lazy(() => import('./components/AderkaDetailPage/AderkaDetailPage'));
 
 const ScrollToTop = () => {
   const location = useLocation();
@@ -50,6 +51,7 @@ const App = () => {
       <div className="app-container">
         <ScrollToTop />
         <Header />
+        <Suspense fallback={<div style={{ minHeight: '60vh' }} />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
@@ -81,6 +83,7 @@ const App = () => {
           <Route path="/portes-pivot/:series" element={<AderkaPage />} />
           <Route path="/portes-pivot/:series/:slug" element={<AderkaDetailPage />} />
         </Routes>
+        </Suspense>
         <Footer />
       </div>
     </Router>

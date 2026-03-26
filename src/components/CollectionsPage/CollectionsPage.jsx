@@ -221,6 +221,7 @@ const CollectionsPage = () => {
                       src={product.image}
                       alt={product.name}
                       className="collection-image"
+                      loading="lazy"
                     />
                     <div className="col-name-overlay">
                       <h3 className="collection-name-mob">{product.name}</h3>

@@ -18,7 +18,7 @@ const RoomCategories = () => {
             to={`/collections?category=${encodeURIComponent(room.name)}`}
             className="room-card"
           >
-            <img src={room.image} alt={room.name} className="room-image" />
+            <img src={room.image} alt={room.name} className="room-image" loading="lazy" />
             <div className="room-overlay">
               <h3 className="room-name">{room.name}</h3>
               <div className="room-line"></div>

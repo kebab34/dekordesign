@@ -93,6 +93,8 @@ const Carousel = () => {
               src={slide.url}
               alt={slide.title}
               className="slide-image"
+              loading={index === 0 ? 'eager' : 'lazy'}
+              fetchPriority={index === 0 ? 'high' : 'auto'}
             />
           </div>
 
