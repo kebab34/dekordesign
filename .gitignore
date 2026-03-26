@@ -33,3 +33,18 @@ coverage/
 # Claude Code
 CLAUDE.md
 .claude/
+
+# Scraping scripts & data (dev tools only, not needed for deployment)
+scrape_*.js
+generate_*.js
+generate-pdf.js
+fix_*.js
+update_*.js
+add_seo.js
+*_raw.json
+*_result.json
+*_page.html
+aderka_*.html
+collection_images_patch.txt
+scripts/
+demo/
