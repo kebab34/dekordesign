@@ -140,7 +140,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Adela Gris Dekofon 30x90',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: '/tiles/adela/W188XDRAD2XW0XPXXG50.png',
@@ -1297,7 +1297,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'ARCH A.GRI 40X40 MAT',
-        color: 'Griss anthracite',
+        color: 'Gris anthracite',
         size: '40x40',
         surface: null,
         thumbnail: '/tiles/arch/D010XD0A58XX0XPXX000.png',
@@ -1318,7 +1318,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'ARCH ACIK GRI 30X60 PRLK',
-        color: 'Griss clair',
+        color: 'Gris clair',
         size: '30x60',
         surface: null,
         thumbnail: '/tiles/arch/P015XDBA58TX0XPXXG50.png',
@@ -1878,7 +1878,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'ARISTO LIGHT GREY 80X80',
-        color: 'Griss clair',
+        color: 'Gris clair',
         size: '80x80',
         surface: null,
         thumbnail: '/tiles/aristo/P156ZDRAF20X0XFAAQ50.png',
@@ -2372,92 +2372,68 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Belgium Stone Gris Clair 60x60',
-        color: 'Griss Clair',
-        size: '60x60',
-        surface: 'Mat',
-        thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAF50.png',
-        faces: [
-          '',
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
         name: 'Belgium Stone Gris 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAF50.png',
-        faces: [
-          '',
-        ],
+        faces: [],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Belgium Stone Gris Clair 30x60',
+        color: 'Gris Clair',
+        size: '30x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAG50.png',
+        faces: [],
         specifications: {}
       },
       {
         id: 2,
-        name: 'Belgium Stone Gris Clair 30x60',
-        color: 'Griss Clair',
-        size: '30x60',
-        surface: 'Mat',
-        thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAG50.png',
-        faces: [
-          '',
-        ],
-        specifications: {}
-      },
-      {
-        id: 3,
         name: 'Belgium Stone Gris 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D033XRRB250V0XMAAF50.png',
-        faces: [
-          '',
-        ],
+        faces: [],
         specifications: {}
       },
       {
-        id: 4,
+        id: 3,
         name: 'Belgium Stone Noir 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D033XRRB250V0XMAAG50.png',
-        faces: [
-          '',
-        ],
+        faces: [],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Belgium Stone Gris Mozaik 30x48.6',
+        color: 'Gris',
+        size: '30x48.6',
+        surface: 'Mat',
+        thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAF50.png',
+        faces: [],
         specifications: {}
       },
       {
         id: 5,
-        name: 'Belgium Stone Gris Mozaik 30.5x48.6',
-        color: 'Griss Mozaik',
-        size: '30.5x48.6',
-        surface: 'Mat',
-        thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAF50.png',
-        faces: [
-          '',
-        ],
-        specifications: {}
-      },
-      {
-        id: 6,
-        name: 'Belgium Stone Noir Mozaik 30.5x48.6',
-        color: 'Noir Mozaik',
-        size: '30.5x48.6',
+        name: 'Belgium Stone Noir Mozaik 30x48.6',
+        color: 'Noir',
+        size: '30x48.6',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAG50.png',
-        faces: [
-          '',
-        ],
+        faces: [],
         specifications: {}
       },
       {
         id: 7,
         name: 'Belgium Stone Gris Mozaik 33x33',
-        color: 'Griss Mozaik',
+        color: 'Gris',
         size: '33x33',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/P010XDCB250V0XMAAG50.png',
@@ -2481,7 +2457,7 @@ export const collectionsData = {
       {
         id: 9,
         name: 'Belgium Stone Gris Mozaik 30.5x30.5',
-        color: 'Griss Mozaik',
+        color: 'Gris',
         size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/P010XDRB25VX0XMXXF50.png',
@@ -2829,7 +2805,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Boho Gris Clair 120x120',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '120x120',
         surface: 'Mat',
         thumbnail: '/tiles/boho/P156XDRB500X0XMAAG40.png',
@@ -2841,7 +2817,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Boho Gris Clair 60x120',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
         thumbnail: '/tiles/boho/P156XDRB500X0XMAAG40.png',
@@ -2853,7 +2829,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Boho Gris Foncé 60x120',
-        color: 'Griss Foncé',
+        color: 'Gris Foncé',
         size: '60x120',
         surface: 'Mat',
         thumbnail: '/tiles/boho/P156XDRB500X0XMAAG60.png',
@@ -2893,7 +2869,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Bona Dea Gris Clair 120x120',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '120x120',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/G010ZDCB550X0XMAAC50.png',
@@ -2941,7 +2917,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Bona Dea Gris Clair 100x100',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '100x100',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/G015XDRB55TT0XMXXG60.png',
@@ -2953,7 +2929,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Bona Dea D. Gris 100x100',
-        color: 'D. Griss',
+        color: 'D. Gris',
         size: '100x100',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/G015XDRB55TX0XMXXC50.png',
@@ -3001,7 +2977,7 @@ export const collectionsData = {
       {
         id: 10,
         name: 'Bona Dea Gris Clair 60x120',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x120',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/G048XD0B55TT0XMXXG40.png',
@@ -3013,7 +2989,7 @@ export const collectionsData = {
       {
         id: 11,
         name: 'Bona Dea D. Gris 60x120',
-        color: 'D. Griss',
+        color: 'D. Gris',
         size: '60x120',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/G048XD0B55TT0XMXXG60.png',
@@ -3121,7 +3097,7 @@ export const collectionsData = {
       {
         id: 20,
         name: 'Bona Dea Gris Clair 60x60',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXG40.png',
@@ -3133,7 +3109,7 @@ export const collectionsData = {
       {
         id: 21,
         name: 'Bona Dea L. Gris Dekofon 60x60',
-        color: 'L. Griss Dekofon',
+        color: 'L. Gris Dekofon',
         size: '60x60',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXG60.png',
@@ -3145,7 +3121,7 @@ export const collectionsData = {
       {
         id: 22,
         name: 'Bona Dea Gris Clair 61x61',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '61x61',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXW50.png',
@@ -3157,7 +3133,7 @@ export const collectionsData = {
       {
         id: 23,
         name: 'Bona Dea L. Gris Dekofon 61x61',
-        color: 'L. Griss Dekofon',
+        color: 'L. Gris Dekofon',
         size: '61x61',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P177XDRB550X0XMAAC50.png',
@@ -3169,7 +3145,7 @@ export const collectionsData = {
       {
         id: 24,
         name: 'Bona Dea D. Gris 60x60',
-        color: 'D. Griss',
+        color: 'D. Gris',
         size: '60x60',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P177XDRB550X0XMAAG40.png',
@@ -3181,7 +3157,7 @@ export const collectionsData = {
       {
         id: 25,
         name: 'Bona Dea D. Gris Dekofon 60x60',
-        color: 'D. Griss Dekofon',
+        color: 'D. Gris Dekofon',
         size: '60x60',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P198XDRB550X0XCAAB50.png',
@@ -3193,7 +3169,7 @@ export const collectionsData = {
       {
         id: 26,
         name: 'Bona Dea D. Gris 61x61',
-        color: 'D. Griss',
+        color: 'D. Gris',
         size: '61x61',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXC50.png',
@@ -3205,7 +3181,7 @@ export const collectionsData = {
       {
         id: 27,
         name: 'Bona Dea D. Gris Dekofon 61x61',
-        color: 'D. Griss Dekofon',
+        color: 'D. Gris Dekofon',
         size: '61x61',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXG40.png',
@@ -3809,7 +3785,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Cappadocia Gris Décofon 30x90',
-        color: 'Griss Décofon',
+        color: 'Gris Décofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/cappadocia/W188ZDRC930X0XMAAB40.png',
@@ -3949,7 +3925,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Casta Gris Dekofon 30x90',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/casta/W188XDRC92050XMAAG50.png',
@@ -3961,7 +3937,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Casta Gris Matis Dekofon 30x90',
-        color: 'Griss Matis Dekofon',
+        color: 'Gris Matis Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/casta/W188ZDRC920V0XMAAG50.png',
@@ -5563,7 +5539,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Fair Gris Dekofon 30x90',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/fair/D188XDRF390X0XMAA050.png',
@@ -5575,7 +5551,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Fair Gris Dekor 30x90',
-        color: 'Griss Dekor',
+        color: 'Gris Dekor',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/fair/D188XDRF390X0XMAAG50.png',
@@ -5651,7 +5627,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Famous Gris Dekofon 40x120',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '40x120',
         surface: 'Mat',
         thumbnail: '/tiles/famous/P015XDRF34TX0XMXXG50.png',
@@ -5675,7 +5651,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Famous Gris Dekofon 30x90',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/famous/W168ZDRF340V0XMAAG50.png',
@@ -6111,7 +6087,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Gordion Mid Gris 100x100',
-        color: 'Mid Griss',
+        color: 'Mid Gris',
         size: '100x100',
         surface: 'Mat',
         thumbnail: '/tiles/gordion/P198XDRG520X0XMAAG10.png',
@@ -6159,7 +6135,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Gordion Gris Foncé 40x120',
-        color: 'Griss Foncé',
+        color: 'Gris Foncé',
         size: '40x120',
         surface: 'Mat',
         thumbnail: '/tiles/gordion/W168ZDRG52XV0XMXXG60.png',
@@ -6715,7 +6691,7 @@ export const collectionsData = {
       {
         id: 9,
         name: 'Helen Gris Dekofon 30x60',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Mat',
         thumbnail: '/tiles/helen/W168ZDRE55XV0XMXXB60.png',
@@ -7251,7 +7227,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Iroko Iroko Warm Gris 20x120',
-        color: 'Iroko Warm Griss',
+        color: 'Iroko Warm Gris',
         size: '20x120',
         surface: 'Mat',
         thumbnail: '/tiles/iroko/G192ZDRI21TV0XMXXG50.png',
@@ -7454,7 +7430,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Kaleidos Gris Foncé 80x80',
-        color: 'Griss Foncé',
+        color: 'Gris Foncé',
         size: '80x80',
         surface: 'Mat',
         thumbnail: '/tiles/kaleidos/KALEIDOS-BROWN-80X80-MAT-.jpg',
@@ -8308,7 +8284,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Luca Gris Clair 60x60',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
         thumbnail: '/tiles/luca/P015ZDRL94TX0XMXXB60.png',
@@ -8344,7 +8320,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Luca Gris Clair 30x40',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '30x40',
         surface: 'Mat',
         thumbnail: '/tiles/luca/S029XD0L940X0XMAAB60.png',
@@ -8380,7 +8356,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Luca Gris Clair 20x40',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '20x40',
         surface: 'Mat',
         thumbnail: '/tiles/luca/W200ZD0L940X0XMAAB60.png',
@@ -11304,7 +11280,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Pebble Clair Gris ',
-        color: 'Clair Griss ',
+        color: 'Clair Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
@@ -11368,7 +11344,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Pera Gris Clair 30x90',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/pera/W188XDRP72040XMAAG50.png',
@@ -11380,7 +11356,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Pera Clair Gris Dekofon 30x90',
-        color: 'Clair Griss Dekofon',
+        color: 'Clair Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/pera/W188XDRP72040XMAAW50.png',
@@ -11404,7 +11380,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Pera Gris Dekofon 30x90',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/pera/W188ZDRP720X0XMAAG50.png',
@@ -11428,7 +11404,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Pera Gris Clair 60x60',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
         thumbnail: '/tiles/pera/W188XDRP72040XMAAG40.png',
@@ -11814,7 +11790,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Rhea Gris ',
-        color: 'Griss ',
+        color: 'Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/rhea/RHEA-ANTHRACITE-60X60X2-MAT-P1.jpg',
@@ -13242,7 +13218,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Storm Rock Gris ',
-        color: 'Griss ',
+        color: 'Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/storm-rock/storm-rock-antrasit-suolo.jpg',
@@ -13464,7 +13440,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Tavas Gris ',
-        color: 'Griss ',
+        color: 'Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/tavas/TAVAS-GOLD-60X60X2-MAT-P1.jpg',
@@ -13488,7 +13464,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Tavas Clair Gris ',
-        color: 'Clair Griss ',
+        color: 'Clair Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
@@ -14355,7 +14331,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Venis Gris ',
-        color: 'Griss ',
+        color: 'Gris ',
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/venis/7BNT-VENIS-ANTRASIT-60X120X2-STARK-GRAPHITE-GS4BINARY-12FACE-VA10-RGB-P1.jpg',
@@ -14553,7 +14529,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Violeta Violata Gris Brillant 60x60',
-        color: 'Violata Griss Brillant',
+        color: 'Violata Gris Brillant',
         size: '60x60',
         surface: 'Brillant',
         thumbnail: '/tiles/violeta/G015ZDRV42TX0XPXXG00.png',
@@ -14873,7 +14849,7 @@ export const collectionsData = {
       {
         id: 22,
         name: 'Void Gris Dekofon 30x60',
-        color: 'Griss Dekofon',
+        color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Lappato',
         thumbnail: '/tiles/void/W010XDRV47030XMAAG50.png',
@@ -14924,7 +14900,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Volare Gris Clair 60x120',
-        color: 'Griss Clair',
+        color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
         thumbnail: '/tiles/volare/Volare-1-60x120.jpg',
