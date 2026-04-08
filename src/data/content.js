@@ -1,3 +1,5 @@
+import { collectionsData } from './collectionsData';
+
 export const carouselData = [
   {
     url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80',
@@ -116,10 +118,13 @@ export const collectionNames = [
   'Wario', 'White Star', 'Windy', 'Yoga Wood', 'Yuta', 'Zenith', 'Zigana'
 ];
 
-// Liste des tailles disponibles
-export const sizeOptions = [
-  '30x30', '40x40', '60x60', '80x80', '100x100', '120x60', '120x120'
-];
+// Liste des tailles disponibles (depuis les vraies données collections)
+const _allSizes = Object.values(collectionsData).flatMap(c => (c.products || []).map(p => p.size)).filter(Boolean);
+export const sizeOptions = [...new Set(_allSizes)].sort((a, b) => {
+  const [aw, ah] = a.split('x').map(Number);
+  const [bw, bh] = b.split('x').map(Number);
+  return (aw * ah) - (bw * bh);
+});
 
 // Liste des matières (à compléter)
 export const materialOptions = [
@@ -375,18 +380,20 @@ const collectionImages = {
 };
 
 // Produits avec tous les attributs pour le filtrage
-// sizes et categories sont des tableaux pour permettre plusieurs valeurs par produit
 export const productsData = collectionNames.map((name, index) => {
+  const slug = name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+  const collData = Object.values(collectionsData).find(c => c.slug === slug) || {};
+  const products = collData.products || [];
+
+  // Tailles réelles depuis les produits de la collection
+  const sizes = [...new Set(products.map(p => p.size).filter(Boolean))];
+
+  // Matière depuis la surface des produits
+  const surfaces = [...new Set(products.map(p => p.surface).filter(Boolean))];
+  const material = surfaces.length > 0 ? surfaces[0] : 'Grès cérame';
+
+  // Catégories : intérieur + salle de bain par défaut (carrelages)
   const allCategories = ['Cuisine', 'Salle de Bain', 'Intérieur', 'Extérieur', 'Jardin', 'Terrasse'];
-  const materials = ['Céramique', 'Marbre', 'Grès cérame', 'Pierre naturelle'];
-  const allSizes = ['30x30', '40x40', '60x60', '80x80', '100x100', '120x60', '120x120'];
-
-  // Génère 2-4 tailles pour chaque produit
-  const numSizes = 2 + (index % 3);
-  const startSize = index % 4;
-  const sizes = allSizes.slice(startSize, startSize + numSizes);
-
-  // Génère 2-4 catégories pour chaque produit
   const numCategories = 2 + (index % 3);
   const startCategory = index % 3;
   const categories = allCategories.slice(startCategory, startCategory + numCategories);
@@ -397,7 +404,7 @@ export const productsData = collectionNames.map((name, index) => {
     image: collectionImages[name] || '/collection/CONCEPT 60X120.jpg',
     categories: categories.length > 0 ? categories : ['Intérieur', 'Salle de Bain'],
     collection: name,
-    sizes: sizes.length > 0 ? sizes : ['60x60', '80x80'],
-    material: materials[index % materials.length]
+    sizes: sizes.length > 0 ? sizes : ['60x60'],
+    material: material,
   };
 });
