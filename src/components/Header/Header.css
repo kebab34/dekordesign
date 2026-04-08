@@ -220,7 +220,56 @@
 .mobile-sublink:hover { color: #d4af37; }
 
 /* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
+  .nav {
+    gap: 22px;
+  }
+  .nav-link {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  .header-content {
+    padding: 20px 36px;
+  }
+  .logo {
+    height: 52px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .nav {
+    gap: 14px;
+  }
+  .nav-link {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+  .header-content {
+    padding: 18px 28px;
+  }
+  .logo {
+    height: 46px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    gap: 10px;
+  }
+  .nav-link {
+    font-size: 10.5px;
+    letter-spacing: 0.6px;
+  }
+  .header-content {
+    padding: 15px 20px;
+  }
+  .logo {
+    height: 40px;
+  }
+}
+
+/* Hamburger à partir de 900px */
+@media (max-width: 900px) {
   .nav {
     display: none;
   }
@@ -234,11 +283,21 @@
   }
 
   .header-content {
-    padding: 16px 20px;
+    padding: 14px 20px;
   }
 
   .logo {
-    height: 44px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 14px 16px;
+  }
+
+  .logo {
+    height: 38px;
   }
 }
 
