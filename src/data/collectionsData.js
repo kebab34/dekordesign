@@ -25,7 +25,7 @@ export const collectionsData = {
         color: 'Décor',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/abella/P015XDRAD30X0XMAAW10.png',
         faces: [
           '',
         ],
@@ -37,7 +37,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/abella/W168XDRAD3040XMAAW10.png',
         faces: [
           '',
         ],
@@ -72,7 +72,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/adel/P156ZDBAI3TX0XPXXG50.png',
         faces: [
           '',
         ],
@@ -84,7 +84,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/adel/P156ZDBAI3TX0XPXXI50.png',
         faces: [
           '',
         ],
@@ -119,7 +119,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/ADELA BEYAZ 30X90 - FACE 3yenı.jpg',
         faces: [
           '',
         ],
@@ -131,7 +131,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/W188XDRAD2040XPAAF50.png',
         faces: [
           '',
         ],
@@ -143,7 +143,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/W188XDRAD2XW0XPXXG50.png',
         faces: [
           '',
         ],
@@ -155,7 +155,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/W188ZDRAD20X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -167,7 +167,7 @@ export const collectionsData = {
         color: 'Anthracite Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/W188ZDRAD20X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -179,7 +179,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/adela/W188ZDRAD2XX0XPXXG50.png',
         faces: [
           '',
         ],
@@ -225,7 +225,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/adonis/P015XDRA540X0XMAAW50.png',
         faces: [
           '',
           '',
@@ -245,7 +245,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/adonis/W188XDRA54040XSAAW50.png',
         faces: [
           '',
           '',
@@ -265,7 +265,7 @@ export const collectionsData = {
         color: '',
         size: '45x45',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/adonis/W188ZDRA540X0XSAAW50.png',
         faces: [
           '',
           '',
@@ -320,7 +320,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x90',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/adria/P015XDRAD30X0XMAAW10.png',
         faces: [
           '',
           '',
@@ -336,7 +336,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '30x90',
         surface: 'Mural',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/P156ZDBAI3TX0XPXXG50.png',
         faces: [
           '',
           '',
@@ -352,7 +352,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '',
         surface: 'Sol',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/P156ZDBAI3TX0XPXXI50.png',
         faces: [
           '',
           '',
@@ -368,7 +368,7 @@ export const collectionsData = {
         color: 'Mix',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/P156ZDBAI3TX0XPXXW50.png',
         faces: [
           '',
           '',
@@ -384,7 +384,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/W168XDRAD3040XMAAW10.png',
         faces: [
           '',
           '',
@@ -400,7 +400,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Mural',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/W168ZDRAD30X0XMAAW10.png',
         faces: [
           '',
           '',
@@ -416,7 +416,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '',
         surface: 'Sol',
-        thumbnail: '',
+        thumbnail: '/tiles/adria/W188XDRAA9040XPAI000.png',
         faces: [
           '',
           '',
@@ -446,7 +446,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/agreylion/AGRILION-ANTRACIT-60X120X2-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -458,7 +458,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/agreylion/AGRILION-BONE-60X120X2-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -470,7 +470,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/agreylion/AGRILION-GREY-60X120X2-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -510,7 +510,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/agusta/AGUSTA-COFFEE-30X60-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -552,7 +552,7 @@ export const collectionsData = {
         color: 'Automne',
         size: '19x7',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alba/F028XD0A130X0XMAA000.png',
         faces: [
           ''
         ],
@@ -566,7 +566,7 @@ export const collectionsData = {
         color: 'Printemps',
         size: '19x7',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alba/F028XD0A130X0XMAA040.png',
         faces: [
           ''
         ],
@@ -580,7 +580,7 @@ export const collectionsData = {
         color: 'Été',
         size: '19x7',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alba/F028XD0A130X0XMAAW60.png',
         faces: [
           ''
         ],
@@ -594,7 +594,7 @@ export const collectionsData = {
         color: 'Hiver',
         size: '19x7',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alba/F028XD0A130X0XMAAY70.png',
         faces: [
           ''
         ],
@@ -638,7 +638,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/albero/G015XDRA420V0BMAAB50.png',
         faces: [
           '',
           '',
@@ -654,7 +654,7 @@ export const collectionsData = {
         color: 'Chêne',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/albero/G015XDRA420V0BMAAG50.png',
         faces: [
           '',
           '',
@@ -696,7 +696,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/alboran/ALBORAN-BEIGE--30X60-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -772,7 +772,7 @@ export const collectionsData = {
         color: '',
         size: '45x45',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alin/W188XDRAC8040XPAAW50.png',
         faces: [
           '',
           '',
@@ -788,7 +788,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/alin/W188ZDRAC80X0XPAAW50.png',
         faces: [
           '',
           '',
@@ -867,7 +867,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alyssa/P015ZDRAD5TX0XMXXE50.png',
         faces: [
           '',
           '',
@@ -883,7 +883,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/alyssa/P015ZDRAD5TX0XMXXG00.png',
         faces: [
           '',
           '',
@@ -924,7 +924,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/amethist/AMETHST-ANTRACIT-60X120X2-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -994,7 +994,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '33x33',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/antiasit/F033CR0A710X0XMAAB50.png',
         faces: [
           ''
         ],
@@ -1008,7 +1008,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '33x33',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/antiasit/F033CR0A710X0XMAAG50.png',
         faces: [
           ''
         ],
@@ -1080,7 +1080,7 @@ export const collectionsData = {
         color: 'Mixte',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/anticatto/G015XDRAB20X0XMAAW50.png',
         faces: [
           '',
           '',
@@ -1124,7 +1124,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/D168XDRA630K0XPAAW50.png',
         faces: [
           ''
         ],
@@ -1138,7 +1138,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/D168XDRA630V0XPAAW50.png',
         faces: [
           '',
           '',
@@ -1154,7 +1154,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/G015XDRA63TX0XPXXW50.png',
         faces: [
           ''
         ],
@@ -1168,7 +1168,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/G048ZD0A630X0XPAAW50.png',
         faces: [
           ''
         ],
@@ -1182,7 +1182,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/W168QDRA63040XPAAW50.png',
         faces: [
           ''
         ],
@@ -1196,7 +1196,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/W168ZDRA630X0XPAAW50.png',
         faces: [
           ''
         ],
@@ -1210,7 +1210,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/D168XDRA630K0XPAAW50.png',
         faces: [
           ''
         ],
@@ -1224,7 +1224,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/antique-carrara/D168XDRA630V0XPAAW50.png',
         faces: [
           ''
         ],
@@ -1300,7 +1300,7 @@ export const collectionsData = {
         color: 'Griss anthracite',
         size: '40x40',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/D010XD0A58XX0XPXX000.png',
         faces: [
           '',
           '',
@@ -1321,7 +1321,7 @@ export const collectionsData = {
         color: 'Griss clair',
         size: '30x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/P015XDBA58TX0XPXXG50.png',
         faces: [
           '',
           '',
@@ -1342,7 +1342,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/P156XDBA58TX0XPXXG40.png',
         faces: [
           '',
           '',
@@ -1358,7 +1358,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/P156XDBA58TX0XPXXG50.png',
         faces: [
           '',
           '',
@@ -1376,7 +1376,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/arch/W010XD0A58XT0XPXXG50.png',
         faces: [
           '',
           '',
@@ -1397,7 +1397,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Dekofon',
-        thumbnail: '',
+        thumbnail: '/tiles/arch/W010XD0A58XX0XPXXG40.png',
         faces: [
           '',
           '',
@@ -1414,7 +1414,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/W010XD0A58XX0XPXXG50.png',
         faces: [
           '',
           '',
@@ -1430,7 +1430,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/D010XD0A58XX0XPXX000.png',
         faces: [
           '',
           '',
@@ -1448,7 +1448,7 @@ export const collectionsData = {
         color: 'Mix',
         size: '',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arch/P015XDBA58TX0XPXXG50.png',
         faces: [
           ''
         ],
@@ -1495,7 +1495,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G010XD0A70TX0XMXXE50.png',
         faces: [
           '',
           '',
@@ -1511,7 +1511,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G010XDCA70TX0XMXXF40.png',
         faces: [
           '',
           '',
@@ -1527,7 +1527,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G010XDCA70TX0XMXXF50.png',
         faces: [
           '',
           '',
@@ -1546,7 +1546,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G010XDCA70TX0XMXXG50.png',
         faces: [
           '',
           '',
@@ -1565,7 +1565,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G015XDAA70TX0FPXXB40.png',
         faces: [
           '',
           '',
@@ -1581,7 +1581,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '30x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G015XDAA70TX0FPXXE50.png',
         faces: [
           '',
           '',
@@ -1600,7 +1600,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G015XDAA70TX0FPXXF40.png',
         faces: [
           '',
           '',
@@ -1616,7 +1616,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G015XDAA70TX0FPXXF50.png',
         faces: [
           '',
           '',
@@ -1635,7 +1635,7 @@ export const collectionsData = {
         color: 'Fumé',
         size: '30x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G015XDRA70TX0XMXXG50.png',
         faces: [
           '',
           '',
@@ -1654,7 +1654,7 @@ export const collectionsData = {
         color: 'Fumé',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G048XD0A70TX0XMXXB40.png',
         faces: [
           '',
           '',
@@ -1670,7 +1670,7 @@ export const collectionsData = {
         color: 'Fumé',
         size: '60x60',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G048XD0A70TX0XMXXE50.png',
         faces: [
           '',
           '',
@@ -1689,7 +1689,7 @@ export const collectionsData = {
         color: 'Vison',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcides/G048XD0A70TX0XMXXF40.png',
         faces: [
           '',
           '',
@@ -1740,7 +1740,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcos/P156ZDRAI4TX0XMXX170.png',
         faces: [
           '',
           '',
@@ -1761,7 +1761,7 @@ export const collectionsData = {
         color: 'Fumé',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/arcos/P156ZDRAI4TX0XMXXF40.png',
         faces: [
           '',
           '',
@@ -1807,7 +1807,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/aren/P156ZDRAJ30X0XCAAB50.png',
         faces: [
           '',
         ],
@@ -1819,7 +1819,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/aren/P156ZDRAJ30X0XCAAG50.png',
         faces: [
           '',
         ],
@@ -1864,7 +1864,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '80x80',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/aristo/P156ZDBAF2TX0XPXXG50.png',
         faces: [
           '',
           '',
@@ -1881,7 +1881,7 @@ export const collectionsData = {
         color: 'Griss clair',
         size: '80x80',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/aristo/P156ZDRAF20X0XFAAQ50.png',
         faces: [
           '',
           '',
@@ -1898,7 +1898,7 @@ export const collectionsData = {
         color: 'Vison',
         size: '80x80',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/aristo/P180XDRAF20V0XMAAG40.png',
         faces: [
           '',
           '',
@@ -1915,7 +1915,7 @@ export const collectionsData = {
         color: 'Vison',
         size: '60x120',
         surface: null,
-        thumbnail: '',
+        thumbnail: '/tiles/aristo/P180XDRAF20V0XMAAQ50.png',
         faces: [
           '',
           '',
@@ -2029,7 +2029,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Fon',
-        thumbnail: '',
+        thumbnail: '/tiles/assos/P156ZDRAI5TX0XMXXC40.png',
         faces: [
           '',
           '',
@@ -2084,7 +2084,7 @@ export const collectionsData = {
         color: 'Crema Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/D188XDRA910X0XPAAC50.png',
         faces: [
           '',
         ],
@@ -2096,7 +2096,7 @@ export const collectionsData = {
         color: 'Crema Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/D188XDRA910X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -2108,7 +2108,7 @@ export const collectionsData = {
         color: 'Turkuaz',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188XDRA91040XPAAC50.png',
         faces: [
           '',
         ],
@@ -2120,7 +2120,7 @@ export const collectionsData = {
         color: 'Turkuaz Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188XDRA91040XPAAG50.png',
         faces: [
           '',
         ],
@@ -2132,7 +2132,7 @@ export const collectionsData = {
         color: 'Café',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188XDRA91040XPAAK50.png',
         faces: [
           '',
         ],
@@ -2144,7 +2144,7 @@ export const collectionsData = {
         color: 'Café Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188XDRA91040XPAAT50.png',
         faces: [
           '',
         ],
@@ -2156,7 +2156,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188ZDRA910X0XPAAC50.png',
         faces: [
           '',
         ],
@@ -2168,7 +2168,7 @@ export const collectionsData = {
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188ZDRA910X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -2180,7 +2180,7 @@ export const collectionsData = {
         color: 'Gris Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188ZDRA910X0XPAAK50.png',
         faces: [
           '',
         ],
@@ -2192,7 +2192,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/astoria/W188ZDRA910X0XPAAT50.png',
         faces: [
           '',
         ],
@@ -2232,7 +2232,7 @@ export const collectionsData = {
         color: 'Teak',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/atelier/G038XD0A500V0XMAA750.png',
         faces: [
           '',
         ],
@@ -2244,7 +2244,7 @@ export const collectionsData = {
         color: 'Walnut',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/atelier/G038XD0A500V0XMAAB50.png',
         faces: [
           '',
         ],
@@ -2256,7 +2256,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/atelier/G038XD0A500V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -2324,7 +2324,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/avanos/P015XDRAC50X0XMAAK50.png',
         faces: [
           '',
         ],
@@ -2336,7 +2336,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/avanos/W168XDRAC5040XMAAK50.png',
         faces: [
           '',
         ],
@@ -2348,7 +2348,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/avanos/W168ZDRAC50V0XMAAK50.png',
         faces: [
           '',
         ],
@@ -2388,7 +2388,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -2400,7 +2400,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D013XRRB250V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -2412,7 +2412,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D033XRRB250V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -2424,7 +2424,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D033XRRB250V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -2436,7 +2436,7 @@ export const collectionsData = {
         color: 'Griss Mozaik',
         size: '30x486',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -2448,7 +2448,7 @@ export const collectionsData = {
         color: 'Noir Mozaik',
         size: '30x486',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -2460,7 +2460,7 @@ export const collectionsData = {
         color: 'Griss Mozaik',
         size: '33x33',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/P010XDCB250V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -2472,7 +2472,7 @@ export const collectionsData = {
         color: 'Noir Mozaik',
         size: '33x33',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/P010XDCB25VX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -2484,7 +2484,7 @@ export const collectionsData = {
         color: 'Griss Mozaik',
         size: '305x305',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/P010XDRB25VX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -2496,7 +2496,7 @@ export const collectionsData = {
         color: 'Noir Mozaik',
         size: '305x305',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/belgium-stone/P015XDRB25VX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -2592,7 +2592,7 @@ export const collectionsData = {
         color: 'Oxido',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/D188XDRB790V0XPAA290.png',
         faces: [
           '',
         ],
@@ -2604,7 +2604,7 @@ export const collectionsData = {
         color: 'Perla',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/P015ZDRB790X0XMAA280.png',
         faces: [
           '',
         ],
@@ -2616,7 +2616,7 @@ export const collectionsData = {
         color: 'Oxido',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/P015ZDRB790X0XMAA290.png',
         faces: [
           '',
         ],
@@ -2628,7 +2628,7 @@ export const collectionsData = {
         color: 'Perla',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/P156ZDRB79TX0XMXX280.png',
         faces: [
           '',
         ],
@@ -2640,7 +2640,7 @@ export const collectionsData = {
         color: 'Oxido',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/P156ZDRB79TX0XMXX290.png',
         faces: [
           '',
         ],
@@ -2652,7 +2652,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/W188XDRB79040XPAA280.png',
         faces: [
           '',
         ],
@@ -2664,7 +2664,7 @@ export const collectionsData = {
         color: 'Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/bengal/W188ZDRB790X0XPAA280.png',
         faces: [
           '',
         ],
@@ -2704,7 +2704,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/G010XDAB21TX0FPXXG50.png',
         faces: [
           '',
         ],
@@ -2716,7 +2716,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/G010XDAB21TX0FPXXW50.png',
         faces: [
           '',
         ],
@@ -2728,7 +2728,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/G015XDAB21TX0FPXXG50.png',
         faces: [
           '',
         ],
@@ -2740,7 +2740,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/G015XDAB21TX0FPXXW50.png',
         faces: [
           '',
         ],
@@ -2752,7 +2752,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/P010XDAB21VX0FPXXF50.png',
         faces: [
           '',
         ],
@@ -2764,7 +2764,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/P015XDAB21VX0FPXXF50.png',
         faces: [
           '',
         ],
@@ -2776,7 +2776,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/beton/P156XDAB21TX0FPXXG50.png',
         faces: [
           '',
         ],
@@ -2844,7 +2844,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/boho/P156XDRB500X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -2856,7 +2856,7 @@ export const collectionsData = {
         color: 'Griss Foncé',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/boho/P156XDRB500X0XMAAG60.png',
         faces: [
           '',
         ],
@@ -2896,7 +2896,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '120x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G010ZDCB550X0XMAAC50.png',
         faces: [
           '',
         ],
@@ -2908,7 +2908,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDAB55TX0FPXXC50.png',
         faces: [
           '',
         ],
@@ -2920,7 +2920,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB550X0XMAAC50.png',
         faces: [
           '',
         ],
@@ -2932,7 +2932,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB55TT0XMXXG40.png',
         faces: [
           '',
         ],
@@ -2944,7 +2944,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB55TT0XMXXG60.png',
         faces: [
           '',
         ],
@@ -2956,7 +2956,7 @@ export const collectionsData = {
         color: 'D. Griss',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB55TX0XMXXC50.png',
         faces: [
           '',
         ],
@@ -2968,7 +2968,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB55TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -2980,7 +2980,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015XDRB55TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -2992,7 +2992,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G015ZDRB550X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3004,7 +3004,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TT0XMXXG40.png',
         faces: [
           '',
         ],
@@ -3016,7 +3016,7 @@ export const collectionsData = {
         color: 'D. Griss',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TT0XMXXG60.png',
         faces: [
           '',
         ],
@@ -3028,7 +3028,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TT0XMXXI50.png',
         faces: [
           '',
         ],
@@ -3040,7 +3040,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TX0XMXXC50.png',
         faces: [
           '',
         ],
@@ -3052,7 +3052,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -3064,7 +3064,7 @@ export const collectionsData = {
         color: 'Ivoire Dekofon',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -3076,7 +3076,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048XD0B55TX0XMXXI50.png',
         faces: [
           '',
         ],
@@ -3088,7 +3088,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/G048ZD0B550X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3100,7 +3100,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P156XDRB550X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -3112,7 +3112,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXC50.png',
         faces: [
           '',
         ],
@@ -3124,7 +3124,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -3136,7 +3136,7 @@ export const collectionsData = {
         color: 'L. Griss Dekofon',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -3148,7 +3148,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P156XDRB55TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -3160,7 +3160,7 @@ export const collectionsData = {
         color: 'L. Griss Dekofon',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P177XDRB550X0XMAAC50.png',
         faces: [
           '',
         ],
@@ -3172,7 +3172,7 @@ export const collectionsData = {
         color: 'D. Griss',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P177XDRB550X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -3184,7 +3184,7 @@ export const collectionsData = {
         color: 'D. Griss Dekofon',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P198XDRB550X0XCAAB50.png',
         faces: [
           '',
         ],
@@ -3196,7 +3196,7 @@ export const collectionsData = {
         color: 'D. Griss',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXC50.png',
         faces: [
           '',
         ],
@@ -3208,7 +3208,7 @@ export const collectionsData = {
         color: 'D. Griss Dekofon',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -3220,7 +3220,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -3232,7 +3232,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/bona-dea/P198XDRB55TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -3272,7 +3272,7 @@ export const collectionsData = {
         color: 'Wood Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/P015ZDRB930V0XMAAB50.png',
         faces: [
           '',
         ],
@@ -3284,7 +3284,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W168QDRB93XW0XMXXG50.png',
         faces: [
           '',
         ],
@@ -3296,7 +3296,7 @@ export const collectionsData = {
         color: 'Bazalt Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W168QDRB93XW0XMXXK50.png',
         faces: [
           '',
         ],
@@ -3308,7 +3308,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W168ZDRB93XX0XMXXB50.png',
         faces: [
           '',
         ],
@@ -3320,7 +3320,7 @@ export const collectionsData = {
         color: 'Wood Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W168ZDRB93XX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -3332,7 +3332,7 @@ export const collectionsData = {
         color: 'Bazalt Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W188XDRB93040XMAAG50.png',
         faces: [
           '',
         ],
@@ -3344,7 +3344,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/bond/W188XDRB93XW0XMXXK50.png',
         faces: [
           '',
         ],
@@ -3412,7 +3412,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/brano/S029XX0M430X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3424,7 +3424,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/brano/W010ZX0M430X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3436,7 +3436,7 @@ export const collectionsData = {
         color: 'Mat Pergamon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/brano/W010ZXRM430X0XMAA160.png',
         faces: [
           '',
         ],
@@ -3448,7 +3448,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/brano/W168ZXRM430X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3516,7 +3516,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/brillo/S029XX0B230X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -3528,7 +3528,7 @@ export const collectionsData = {
         color: 'Brillant Pergamon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/brillo/W010ZX0B230X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -3540,7 +3540,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '30x40',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/brillo/W010ZXRB230X0XPAA160.png',
         faces: [
           '',
         ],
@@ -3580,7 +3580,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/buxy/G010XD0B19XX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -3620,7 +3620,7 @@ export const collectionsData = {
         color: 'Glossy Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/D188XDRC500X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -3632,7 +3632,7 @@ export const collectionsData = {
         color: 'Glossy Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W010ZDRC500X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3644,7 +3644,7 @@ export const collectionsData = {
         color: 'Mat',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W010ZDRC500X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -3656,7 +3656,7 @@ export const collectionsData = {
         color: 'Mat Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W188XDRC50040XMAAW50.png',
         faces: [
           '',
         ],
@@ -3668,7 +3668,7 @@ export const collectionsData = {
         color: 'Glossy',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W188XDRC50040XPAAW50.png',
         faces: [
           '',
         ],
@@ -3680,7 +3680,7 @@ export const collectionsData = {
         color: 'Mat',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W188ZDRC500X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -3692,7 +3692,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/calacatta-marmi/W188ZDRC500X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -3788,7 +3788,7 @@ export const collectionsData = {
         color: 'Sable Décofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/cappadocia/W188XDRC93040XMAAB40.png',
         faces: [
           '',
         ],
@@ -3800,7 +3800,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/cappadocia/W188XDRC93040XMAAG40.png',
         faces: [
           '',
         ],
@@ -3812,7 +3812,7 @@ export const collectionsData = {
         color: 'Griss Décofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/cappadocia/W188ZDRC930X0XMAAB40.png',
         faces: [
           '',
         ],
@@ -3824,7 +3824,7 @@ export const collectionsData = {
         color: 'Sable',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/cappadocia/W188ZDRC930X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -3836,7 +3836,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/cappadocia/W188XDRC93040XMAAB40.png',
         faces: [
           '',
         ],
@@ -3876,7 +3876,7 @@ export const collectionsData = {
         color: 'Antracit',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/carbon/P156ZDRCH20V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -3916,7 +3916,7 @@ export const collectionsData = {
         color: 'Beige Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/casta/W188XDRC92040XMAAB50.png',
         faces: [
           '',
         ],
@@ -3928,7 +3928,7 @@ export const collectionsData = {
         color: 'Beige Matis Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/casta/W188XDRC92040XMAAG50.png',
         faces: [
           '',
         ],
@@ -3940,7 +3940,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/casta/W188XDRC92050XMAAB50.png',
         faces: [
           '',
         ],
@@ -3952,7 +3952,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/casta/W188XDRC92050XMAAG50.png',
         faces: [
           '',
         ],
@@ -3964,7 +3964,7 @@ export const collectionsData = {
         color: 'Griss Matis Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/casta/W188ZDRC920V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -4032,7 +4032,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/chakra/P156ZDRCD5TT0XMXXM50.png',
         faces: [
           '',
         ],
@@ -4100,7 +4100,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/charm/P156ZDRCH30X0XFAAK30.png',
         faces: [
           '',
         ],
@@ -4140,7 +4140,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/chester/G048XD0C310V0XMAAB60.png',
         faces: [
           '',
         ],
@@ -4180,7 +4180,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/cleopatra/P010ZDCC830X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -4219,7 +4219,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/clio/CLIO-GREY-100X100-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -4259,7 +4259,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDCC18JX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -4271,7 +4271,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDCC18TX0XMXXQ50.png',
         faces: [
           '',
         ],
@@ -4283,7 +4283,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18TX0XMXXB50.png',
         faces: [
           '',
         ],
@@ -4295,7 +4295,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -4307,7 +4307,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18V10XMXXG50.png',
         faces: [
           '',
         ],
@@ -4319,7 +4319,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18VX0XMXX050.png',
         faces: [
           '',
         ],
@@ -4331,7 +4331,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18VX0XMXXB60.png',
         faces: [
           '',
         ],
@@ -4343,7 +4343,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P010XDRC18VX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -4355,7 +4355,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18JX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -4367,7 +4367,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18TX0XMXXB50.png',
         faces: [
           '',
         ],
@@ -4379,7 +4379,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18TX0XMXXQ50.png',
         faces: [
           '',
         ],
@@ -4391,7 +4391,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -4403,7 +4403,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18VX0XMXX050.png',
         faces: [
           '',
         ],
@@ -4415,7 +4415,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18VX0XMXXB60.png',
         faces: [
           '',
         ],
@@ -4427,7 +4427,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18VX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -4439,7 +4439,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P015XDRC18VX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -4451,7 +4451,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDAC18VX0FPXXG50.png',
         faces: [
           '',
         ],
@@ -4463,7 +4463,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDRC18JX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -4475,7 +4475,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDRC18TX0XMXXB50.png',
         faces: [
           '',
         ],
@@ -4487,7 +4487,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDRC18TX0XMXXQ50.png',
         faces: [
           '',
         ],
@@ -4499,7 +4499,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDRC18TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -4511,7 +4511,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/concept/P156XDRC18VX0XMXXB60.png',
         faces: [
           '',
         ],
@@ -4551,7 +4551,7 @@ export const collectionsData = {
         color: 'Sky',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/coper/P156ZDBCG5TX0XPXXK50.png',
         faces: [
           '',
         ],
@@ -4591,7 +4591,7 @@ export const collectionsData = {
         color: 'Venge',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/country/G192XD0C530V0XMAAK70.png',
         faces: [
           '',
         ],
@@ -4631,7 +4631,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crag/P156XDRC780V0XMAAK30.png',
         faces: [
           '',
         ],
@@ -4643,7 +4643,7 @@ export const collectionsData = {
         color: 'Cotto',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crag/P156ZDRC780V0XMAAK70.png',
         faces: [
           '',
         ],
@@ -4655,7 +4655,7 @@ export const collectionsData = {
         color: 'Moka',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crag/P156ZDRC780V0XMAAW50.png',
         faces: [
           '',
         ],
@@ -4667,7 +4667,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crag/P156ZDRC78JX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -4679,7 +4679,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crag/P156ZDRC78TX0XMXXI50.png',
         faces: [
           '',
         ],
@@ -4719,7 +4719,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/crotone/P015BDRCF80V0BMAAG50.png',
         faces: [
           '',
         ],
@@ -4787,7 +4787,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/delbin/W010ZDRD320X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -4799,7 +4799,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/delbin/W010ZDRD320X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -4839,7 +4839,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/destiny/G015XDRD380X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -4851,7 +4851,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/destiny/G015XDRD380X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -4974,7 +4974,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/dove/W010ZX0D340X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -4986,7 +4986,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/dove/W010ZX0D340X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -4998,7 +4998,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '20x40',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/dove/W188ZXRD340X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -5010,7 +5010,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '20x40',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/dove/W200XX0D340X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -5050,7 +5050,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/elan/P156ZDRE660X0XFAAE50.png',
         faces: [
           '',
         ],
@@ -5062,7 +5062,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/elan/P156ZDRE660X0XFAAF50.png',
         faces: [
           '',
         ],
@@ -5074,7 +5074,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/elan/P156ZDRE660X0XFAAG50.png',
         faces: [
           '',
         ],
@@ -5114,7 +5114,7 @@ export const collectionsData = {
         color: 'Walnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/eleganza/G192ZDRE54TV0XMXXB40.png',
         faces: [
           '',
         ],
@@ -5126,7 +5126,7 @@ export const collectionsData = {
         color: 'Oak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/eleganza/G192ZDRE54TV0XMXXB50.png',
         faces: [
           '',
         ],
@@ -5222,7 +5222,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/enzo/W188XDRE42040XMAI000.png',
         faces: [
           '',
         ],
@@ -5234,7 +5234,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/enzo/W188XDRE42040XMAIW50.png',
         faces: [
           '',
         ],
@@ -5246,7 +5246,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/enzo/W188ZDRE420X0XMAIF50.png',
         faces: [
           '',
         ],
@@ -5258,7 +5258,7 @@ export const collectionsData = {
         color: 'Mix Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/enzo/W188ZDRE420X0XMAIG50.png',
         faces: [
           '',
         ],
@@ -5270,7 +5270,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/enzo/W188ZDRE420X0XMAIW50.png',
         faces: [
           '',
         ],
@@ -5338,7 +5338,7 @@ export const collectionsData = {
         color: 'Ruby',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/estel/W188ZDRE62040XPAAW50.png',
         faces: [
           '',
         ],
@@ -5350,7 +5350,7 @@ export const collectionsData = {
         color: 'Olive',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/estel/W188ZDRE620V0XPAA270.png',
         faces: [
           '',
         ],
@@ -5362,7 +5362,7 @@ export const collectionsData = {
         color: 'Azul',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/estel/W188ZDRE620V0XPAAP50.png',
         faces: [
           '',
         ],
@@ -5374,7 +5374,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/estel/W188ZDRE620V0XPAAW50.png',
         faces: [
           '',
         ],
@@ -5414,7 +5414,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/S029XD0E360X0XMAA050.png',
         faces: [
           '',
         ],
@@ -5426,7 +5426,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/S029XD0E360X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -5438,7 +5438,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/S029XD0E360X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -5450,7 +5450,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/S029XD0E360X0XMAAG60.png',
         faces: [
           '',
         ],
@@ -5462,7 +5462,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/S029XD0E360X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -5474,7 +5474,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/W010ZDRE360X0XMAA050.png',
         faces: [
           '',
         ],
@@ -5486,7 +5486,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/W010ZDRE360X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -5498,7 +5498,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/europe/W010ZDRE360X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -5566,7 +5566,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fair/D188XDRF390X0XMAA050.png',
         faces: [
           '',
         ],
@@ -5578,7 +5578,7 @@ export const collectionsData = {
         color: 'Griss Dekor',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fair/D188XDRF390X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -5590,7 +5590,7 @@ export const collectionsData = {
         color: 'Nero',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fair/W188XXRF39040XMAA050.png',
         faces: [
           '',
         ],
@@ -5602,7 +5602,7 @@ export const collectionsData = {
         color: 'Nero Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fair/W188XXRF39040XMAAG50.png',
         faces: [
           '',
         ],
@@ -5614,7 +5614,7 @@ export const collectionsData = {
         color: 'Nero Dekor',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fair/W188ZXRF390V0XMAA050.png',
         faces: [
           '',
         ],
@@ -5654,7 +5654,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/famous/P015XDRF34TX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -5666,7 +5666,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/famous/W168QDRF34040XMAAG50.png',
         faces: [
           '',
         ],
@@ -5678,7 +5678,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/famous/W168ZDRF340V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -5690,7 +5690,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/famous/W188XDRF34040XMAAG50.png',
         faces: [
           '',
         ],
@@ -5730,7 +5730,7 @@ export const collectionsData = {
         color: 'Cherry',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fenix/G192ZDRFA7TV0XMXXA40.png',
         faces: [
           '',
         ],
@@ -5742,7 +5742,7 @@ export const collectionsData = {
         color: 'Teak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fenix/G192ZDRFA7TV0XMXXG50.png',
         faces: [
           '',
         ],
@@ -5754,7 +5754,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fenix/G192ZDRFA7TV0XMXXI50.png',
         faces: [
           '',
         ],
@@ -5906,7 +5906,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fuji/FUJI-ANTRASIT-60X120-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -5918,7 +5918,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/fuji/FUJI-BEIGE--60X120-FACE-(1).jpg',
         faces: [
           '',
         ],
@@ -5986,7 +5986,7 @@ export const collectionsData = {
         color: 'Or',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/gemma/P156ZDBG56TX0XPXX140.png',
         faces: [
           '',
         ],
@@ -5998,7 +5998,7 @@ export const collectionsData = {
         color: 'Peach',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/gemma/P156ZDBG56TX0XPXX290.png',
         faces: [
           '',
         ],
@@ -6010,7 +6010,7 @@ export const collectionsData = {
         color: 'Sky',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/gemma/P156ZDBG56TX0XPXX890.png',
         faces: [
           '',
         ],
@@ -6022,7 +6022,7 @@ export const collectionsData = {
         color: 'Mint',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/gemma/P156ZDBG56TX0XPXXF40.png',
         faces: [
           '',
         ],
@@ -6034,7 +6034,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/gemma/P156ZDBG56TX0XPXXM50.png',
         faces: [
           '',
         ],
@@ -6102,7 +6102,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/P198XDRG520X0XMAAE00.png',
         faces: [
           '',
         ],
@@ -6114,7 +6114,7 @@ export const collectionsData = {
         color: 'Mid Griss',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/P198XDRG520X0XMAAG10.png',
         faces: [
           '',
         ],
@@ -6126,7 +6126,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/P198XDRG520X0XMAAQ50.png',
         faces: [
           '',
         ],
@@ -6138,7 +6138,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/W168QDRG52XW0XMXXW50.png',
         faces: [
           '',
         ],
@@ -6150,7 +6150,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/W168ZDRG52XV0XMXXB60.png',
         faces: [
           '',
         ],
@@ -6162,7 +6162,7 @@ export const collectionsData = {
         color: 'Griss Foncé',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/gordion/W168ZDRG52XV0XMXXG60.png',
         faces: [
           '',
         ],
@@ -6202,7 +6202,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grace/P156ZDRG57TX0XMXXE50.png',
         faces: [
           '',
         ],
@@ -6242,7 +6242,7 @@ export const collectionsData = {
         color: 'Blanc Patchwork Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grand/G015XDRG290V0XMAAQ50.png',
         faces: [
           '',
         ],
@@ -6254,7 +6254,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grand/G015XDRG290V0XMAAW50.png',
         faces: [
           '',
         ],
@@ -6266,7 +6266,7 @@ export const collectionsData = {
         color: 'Ash Organic Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grand/W168QDRG29050XMAAQ50.png',
         faces: [
           '',
         ],
@@ -6278,7 +6278,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grand/W168XDRG29040XMAAW50.png',
         faces: [
           '',
         ],
@@ -6290,7 +6290,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/grand/W168ZDRG290V0XMAAQ50.png',
         faces: [
           '',
         ],
@@ -6330,7 +6330,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/grassland/P010XDCG400X0XMAAY50.png',
         faces: [
           '',
         ],
@@ -6342,7 +6342,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/grassland/P010ZDCG400X0XMAAM60.png',
         faces: [
           '',
         ],
@@ -6354,7 +6354,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/grassland/P015XDRG400X0XMAAY50.png',
         faces: [
           '',
         ],
@@ -6422,7 +6422,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P010XDCH25TX0XMXXB40.png',
         faces: [
           '',
         ],
@@ -6434,7 +6434,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P010XDCH25TX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -6446,7 +6446,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P010XDCH25TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -6458,7 +6458,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P015XDRH25TX0XMXXB40.png',
         faces: [
           '',
         ],
@@ -6470,7 +6470,7 @@ export const collectionsData = {
         color: 'Grisgio',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P015XDRH25TX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -6482,7 +6482,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P015XDRH25TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -6494,7 +6494,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P156XDRH250X0XMAAB40.png',
         faces: [
           '',
         ],
@@ -6506,7 +6506,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P156XDRH250X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -6518,7 +6518,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P156XDRH250X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -6530,7 +6530,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P156XDRH25TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -6542,7 +6542,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P198XDRH250X0XMAAB40.png',
         faces: [
           '',
         ],
@@ -6554,7 +6554,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/hampton/P198XDRH250X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -6622,7 +6622,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-BONE-DEKOFON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6634,7 +6634,7 @@ export const collectionsData = {
         color: 'Bone Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-BONE-FON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6646,7 +6646,7 @@ export const collectionsData = {
         color: 'Taupe Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-GREY-DEKOFON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6658,7 +6658,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-GREY-FON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6670,7 +6670,7 @@ export const collectionsData = {
         color: 'Bone Dekofon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-TAUPE-DEKOFON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6682,7 +6682,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/HELEN-TAUPE-FON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -6694,7 +6694,7 @@ export const collectionsData = {
         color: 'Taupe Dekofon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/W168QDRE55XW0XMXXB60.png',
         faces: [
           '',
         ],
@@ -6706,7 +6706,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/W168QDRE55XW0XMXXE50.png',
         faces: [
           '',
         ],
@@ -6718,7 +6718,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/helen/W168ZDRE55XV0XMXXB60.png',
         faces: [
           '',
         ],
@@ -6758,7 +6758,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W010XD0H39040XPAA130.png',
         faces: [
           '',
         ],
@@ -6770,7 +6770,7 @@ export const collectionsData = {
         color: 'Or',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W010XD0H39040XPAA140.png',
         faces: [
           '',
         ],
@@ -6782,7 +6782,7 @@ export const collectionsData = {
         color: 'Or Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W010ZD0H390X0XPAA130.png',
         faces: [
           '',
         ],
@@ -6794,7 +6794,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W010ZD0H390X0XPAA140.png',
         faces: [
           '',
         ],
@@ -6806,7 +6806,7 @@ export const collectionsData = {
         color: 'Argent Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W188XDRH39040XPAAK90.png',
         faces: [
           '',
         ],
@@ -6818,7 +6818,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/helios/W188ZDRH390X0XPAAK90.png',
         faces: [
           '',
         ],
@@ -6942,7 +6942,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/hypnos/P010ZDCH280X0XFAAM50.png',
         faces: [
           '',
         ],
@@ -6954,7 +6954,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/hypnos/P015ZDRH280X0XFAAM50.png',
         faces: [
           '',
         ],
@@ -6994,7 +6994,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/D010XD0I180V0XPAAG50.png',
         faces: [
           '',
         ],
@@ -7006,7 +7006,7 @@ export const collectionsData = {
         color: 'Blanc Dekor',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/D010XD0I180V0XPAAW50.png',
         faces: [
           '',
         ],
@@ -7018,7 +7018,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/F018ZD0I180X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -7030,7 +7030,7 @@ export const collectionsData = {
         color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/G048ZD0I180X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -7042,7 +7042,7 @@ export const collectionsData = {
         color: 'Gris Hexagon Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/P015ZDRI180X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -7054,7 +7054,7 @@ export const collectionsData = {
         color: 'Gris Dekor',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/W010XD0I18010XPAAG50.png',
         faces: [
           '',
         ],
@@ -7066,7 +7066,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '50x50',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/W010XD0I18040XPAAG50.png',
         faces: [
           '',
         ],
@@ -7078,7 +7078,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '50x50',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/W010XD0I18040XPAAW50.png',
         faces: [
           '',
         ],
@@ -7090,7 +7090,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/W010XDRI180X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -7102,7 +7102,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/imperial/W010ZD0I180X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -7142,7 +7142,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/G048XD0I26TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -7154,7 +7154,7 @@ export const collectionsData = {
         color: 'Vizon Dekofon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/W010XD0I26040XMAIQ50.png',
         faces: [
           '',
         ],
@@ -7166,7 +7166,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/W010ZD0I26020XMAI000.png',
         faces: [
           '',
         ],
@@ -7178,7 +7178,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/W010ZD0I260X0XMAIF50.png',
         faces: [
           '',
         ],
@@ -7190,7 +7190,7 @@ export const collectionsData = {
         color: 'Mix Dekofon',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/W010ZD0I260X0XMAIG50.png',
         faces: [
           '',
         ],
@@ -7202,7 +7202,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/inca/W010ZD0I260X0XMAIQ50.png',
         faces: [
           '',
         ],
@@ -7242,7 +7242,7 @@ export const collectionsData = {
         color: 'Iroko Brun',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/iroko/G192ZDRI21TV0XMXXB40.png',
         faces: [
           '',
         ],
@@ -7254,7 +7254,7 @@ export const collectionsData = {
         color: 'Iroko Warm Griss',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/iroko/G192ZDRI21TV0XMXXG50.png',
         faces: [
           '',
         ],
@@ -7294,7 +7294,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/joya/P010ZDCJ090X0XFAA000.png',
         faces: [
           '',
         ],
@@ -7334,7 +7334,7 @@ export const collectionsData = {
         color: 'Diamond',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ13040XPAA260.png',
         faces: [
           '',
         ],
@@ -7346,7 +7346,7 @@ export const collectionsData = {
         color: 'Emerald Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ13040XPAA270.png',
         faces: [
           '',
         ],
@@ -7358,7 +7358,7 @@ export const collectionsData = {
         color: 'Emerald',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ13040XPAAW50.png',
         faces: [
           '',
         ],
@@ -7370,7 +7370,7 @@ export const collectionsData = {
         color: 'Mosaic Floral Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ13040XPAAW60.png',
         faces: [
           '',
         ],
@@ -7382,7 +7382,7 @@ export const collectionsData = {
         color: 'Ruby Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ13050XPAAW50.png',
         faces: [
           '',
         ],
@@ -7394,7 +7394,7 @@ export const collectionsData = {
         color: 'Ruby',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ130V0XPAA260.png',
         faces: [
           '',
         ],
@@ -7406,7 +7406,7 @@ export const collectionsData = {
         color: 'Sapphire Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ130V0XPAA270.png',
         faces: [
           '',
         ],
@@ -7418,7 +7418,7 @@ export const collectionsData = {
         color: 'Sapphire',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/juno/W188XDRJ130V0XPAAW50.png',
         faces: [
           '',
         ],
@@ -7457,7 +7457,7 @@ export const collectionsData = {
         color: 'Griss Foncé',
         size: '80x80',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/kaleidos/KALEIDOS-BROWN-80X80-MAT-.jpg',
         faces: [
           '',
         ],
@@ -7469,7 +7469,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '80x80',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/kaleidos/KALEIDOS-DARK-GREY-80X80-MAT-.jpg',
         faces: [
           '',
         ],
@@ -7593,7 +7593,7 @@ export const collectionsData = {
         color: 'Fon',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/klein/G192XD0K430X0XMAAK20.png',
         faces: [
           '',
         ],
@@ -7605,7 +7605,7 @@ export const collectionsData = {
         color: 'Naturel',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/klein/G192XD0K430X0XMAAK50.png',
         faces: [
           '',
         ],
@@ -7645,7 +7645,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/la-vita/W188ZDRL64010XPAA000.png',
         faces: [
           '',
         ],
@@ -7657,7 +7657,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/la-vita/W188ZDRL640X0XPAA050.png',
         faces: [
           '',
         ],
@@ -7669,7 +7669,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/la-vita/W188ZDRL640X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -7792,7 +7792,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
         faces: [
           '',
         ],
@@ -7804,7 +7804,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-BEIGE-100X100---FACE-1.jpg',
         faces: [
           '',
         ],
@@ -7816,7 +7816,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-BEIGE-60X120---FACE-1.jpg',
         faces: [
           '',
         ],
@@ -7828,7 +7828,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-GREY-100X100---FACE-1.jpg',
         faces: [
           '',
         ],
@@ -7840,7 +7840,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-GREY-60X120---FACE-1.jpg',
         faces: [
           '',
         ],
@@ -7852,7 +7852,7 @@ export const collectionsData = {
         color: 'Moka',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P015ZDRL760X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -7864,7 +7864,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P015ZDRL760X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -7876,7 +7876,7 @@ export const collectionsData = {
         color: 'Carbon',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDAL76TX0XPXXB40.png',
         faces: [
           '',
         ],
@@ -7888,7 +7888,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDRL760X0XCAAG50.png',
         faces: [
           '',
         ],
@@ -7900,7 +7900,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDRL760X0XFAA050.png',
         faces: [
           '',
         ],
@@ -7912,7 +7912,7 @@ export const collectionsData = {
         color: 'Antracit',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDRL760X0XFAAF50.png',
         faces: [
           '',
         ],
@@ -7924,7 +7924,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDRL760X0XFAAK30.png',
         faces: [
           '',
         ],
@@ -7936,7 +7936,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P156ZDRL760X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -7948,7 +7948,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P177XDRL760X0XFAAB50.png',
         faces: [
           '',
         ],
@@ -7960,7 +7960,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/las-palmas/P198XDRL760X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -7999,7 +7999,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -8011,7 +8011,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/lefke/LEFKE-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -8051,7 +8051,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/limra/P015ZDRL930X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -8063,7 +8063,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/limra/P015ZDRL930X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -8075,7 +8075,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/limra/P156ZDRL93TX0XMXXB50.png',
         faces: [
           '',
         ],
@@ -8143,7 +8143,7 @@ export const collectionsData = {
         color: 'Hazelnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/logs/G192ZDRL88TV0XMXXB40.png',
         faces: [
           '',
         ],
@@ -8155,7 +8155,7 @@ export const collectionsData = {
         color: 'Clair Beige',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/logs/G192ZDRL88TV0XMXXB50.png',
         faces: [
           '',
         ],
@@ -8167,7 +8167,7 @@ export const collectionsData = {
         color: 'Special Walnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/logs/G192ZDRL88TV0XMXXN50.png',
         faces: [
           '',
         ],
@@ -8207,7 +8207,7 @@ export const collectionsData = {
         color: 'Foncé',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/loreto/G015ZDRL750V0XMAAG00.png',
         faces: [
           '',
         ],
@@ -8219,7 +8219,7 @@ export const collectionsData = {
         color: 'Clair',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/loreto/G015ZDRL750V0XMAAG40.png',
         faces: [
           '',
         ],
@@ -8231,7 +8231,7 @@ export const collectionsData = {
         color: 'Foncé',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/loreto/G048ZD0L75TX0XMXXG00.png',
         faces: [
           '',
         ],
@@ -8271,7 +8271,7 @@ export const collectionsData = {
         color: 'Dekofon ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/loris/30X90-MAT-LORIS-DEKOFON-FACE1.jpg',
         faces: [
           '',
         ],
@@ -8311,7 +8311,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/P015ZDRL94TX0XMXXB60.png',
         faces: [
           '',
         ],
@@ -8323,7 +8323,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/P015ZDRL94TX0XMXXE00.png',
         faces: [
           '',
         ],
@@ -8335,7 +8335,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/P015ZDRL94TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -8347,7 +8347,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/S029XD0L940X0XMAAB60.png',
         faces: [
           '',
         ],
@@ -8359,7 +8359,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/S029XD0L940X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -8371,7 +8371,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/S029XD0L940X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -8383,7 +8383,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/W200ZD0L940X0XMAAB60.png',
         faces: [
           '',
         ],
@@ -8395,7 +8395,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/luca/W200ZD0L940X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -8463,7 +8463,7 @@ export const collectionsData = {
         color: 'Mink',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/madran/P156ZDRMS2TX0XMXXC40.png',
         faces: [
           '',
         ],
@@ -8503,7 +8503,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/magellan/G015ZDRM690V0BMAAG50.png',
         faces: [
           '',
         ],
@@ -8515,7 +8515,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/magellan/G048XD0M690V0AMAAE50.png',
         faces: [
           '',
         ],
@@ -8527,7 +8527,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/magellan/G048XD0M690V0BMAAF50.png',
         faces: [
           '',
         ],
@@ -8567,7 +8567,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/magnifique/P010ZDCD330X0XFAA050.png',
         faces: [
           '',
         ],
@@ -8579,7 +8579,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/magnifique/P015XDRD330X0XFAA050.png',
         faces: [
           '',
         ],
@@ -8619,7 +8619,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/manhattan/P015BDRM59JV0BMXXG50.png',
         faces: [
           '',
         ],
@@ -8631,7 +8631,7 @@ export const collectionsData = {
         color: 'Dunkel Gris',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/manhattan/P015BDRM59TV0BMXXB50.png',
         faces: [
           '',
         ],
@@ -8643,7 +8643,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/manhattan/P015BDRM59YV0BMXXG60.png',
         faces: [
           '',
         ],
@@ -8655,7 +8655,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/manhattan/P045BDRM590V0BMAAB50.png',
         faces: [
           '',
         ],
@@ -8667,7 +8667,7 @@ export const collectionsData = {
         color: 'Dunkel Gris',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/manhattan/P045BDRM590V0BMAAG50.png',
         faces: [
           '',
         ],
@@ -8707,7 +8707,7 @@ export const collectionsData = {
         color: 'Oldlace Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/D188XDRM070X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -8719,7 +8719,7 @@ export const collectionsData = {
         color: 'Oldlace Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/D188XDRM070X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -8731,7 +8731,7 @@ export const collectionsData = {
         color: 'Shadow',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/W188XDRM07040XPAAG50.png',
         faces: [
           '',
         ],
@@ -8743,7 +8743,7 @@ export const collectionsData = {
         color: 'Shadow Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/W188XDRM07040XPAAW50.png',
         faces: [
           '',
         ],
@@ -8755,7 +8755,7 @@ export const collectionsData = {
         color: 'Shadow Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/W188ZDRM070X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -8767,7 +8767,7 @@ export const collectionsData = {
         color: 'Oldlace',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/W188ZDRM070X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -8779,7 +8779,7 @@ export const collectionsData = {
         color: 'Shadow',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marmol/D188XDRM070X0XPAAG50.png',
         faces: [
           '',
         ],
@@ -8819,7 +8819,7 @@ export const collectionsData = {
         color: 'Latte Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvel/W188XDRMP7XW0XPXXB40.png',
         faces: [
           '',
         ],
@@ -8831,7 +8831,7 @@ export const collectionsData = {
         color: 'Caramel',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvel/W188ZDRMP7XX0XPXXB40.png',
         faces: [
           '',
         ],
@@ -8843,7 +8843,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvel/W188ZDRMP7XX0XPXXG50.png',
         faces: [
           '',
         ],
@@ -8855,7 +8855,7 @@ export const collectionsData = {
         color: 'Bitter',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvel/W188ZDRMP7XX0XPXXK60.png',
         faces: [
           '',
         ],
@@ -8867,7 +8867,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvel/W188ZDRMP7XX0XPXXV10.png',
         faces: [
           '',
         ],
@@ -8907,7 +8907,7 @@ export const collectionsData = {
         color: 'Brillant Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/D188XDRMM80X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -8919,7 +8919,7 @@ export const collectionsData = {
         color: 'Brillant Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/D188XDRMM80X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -8931,7 +8931,7 @@ export const collectionsData = {
         color: 'Mat',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/W188XDRMM8040XMAAW50.png',
         faces: [
           '',
         ],
@@ -8943,7 +8943,7 @@ export const collectionsData = {
         color: 'Mat Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/W188XDRMM8040XPAAW50.png',
         faces: [
           '',
         ],
@@ -8955,7 +8955,7 @@ export const collectionsData = {
         color: 'Mat Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/W188ZDRMM80X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -8967,7 +8967,7 @@ export const collectionsData = {
         color: 'Mat',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/marvy/W188ZDRMM80X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -9007,7 +9007,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/maryo/P156ZDRMS70X0XFAAB50.png',
         faces: [
           '',
         ],
@@ -9047,7 +9047,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/maxi/D010XD0M720X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -9059,7 +9059,7 @@ export const collectionsData = {
         color: 'Blanc Platin Dekor',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/maxi/G015XDRM720X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -9071,7 +9071,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/maxi/G015ZDRM72XX0XPXXW50.png',
         faces: [
           '',
         ],
@@ -9083,7 +9083,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/maxi/G048ZD0M720X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -9095,7 +9095,7 @@ export const collectionsData = {
         color: 'Brillant Blanc',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/maxi/W010XD0M72040XPAAW50.png',
         faces: [
           '',
         ],
@@ -9163,7 +9163,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/mia/P156ZDBM73TX0XPXXB40.png',
         faces: [
           '',
         ],
@@ -9203,7 +9203,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/milenario/G192XD0B640X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -9215,7 +9215,7 @@ export const collectionsData = {
         color: 'Honey',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/milenario/G192XD0B640X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -9227,7 +9227,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/milenario/G192XD0B640X0XMAAK40.png',
         faces: [
           '',
         ],
@@ -9239,7 +9239,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/milenario/G192XD0B640X0XMAAK50.png',
         faces: [
           '',
         ],
@@ -9363,7 +9363,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/mirko/W188XDRMN6040XPAAG50.png',
         faces: [
           '',
         ],
@@ -9431,7 +9431,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0040XMAAK10.png',
         faces: [
           '',
         ],
@@ -9443,7 +9443,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0050XMAAB50.png',
         faces: [
           '',
         ],
@@ -9455,7 +9455,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0XL0XMXXB40.png',
         faces: [
           '',
         ],
@@ -9467,7 +9467,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0XL0XMXXB50.png',
         faces: [
           '',
         ],
@@ -9479,7 +9479,7 @@ export const collectionsData = {
         color: 'Oak Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0XL0XMXXG70.png',
         faces: [
           '',
         ],
@@ -9491,7 +9491,7 @@ export const collectionsData = {
         color: 'Faber Oak Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0XW0XMXXB40.png',
         faces: [
           '',
         ],
@@ -9503,7 +9503,7 @@ export const collectionsData = {
         color: 'Bamboo Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188XDRMQ0XW0XMXXG70.png',
         faces: [
           '',
         ],
@@ -9515,7 +9515,7 @@ export const collectionsData = {
         color: 'Faber Bamboo Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188ZDRMQ0XV0XMXXB50.png',
         faces: [
           '',
         ],
@@ -9527,7 +9527,7 @@ export const collectionsData = {
         color: 'Faber Mix Wood Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188ZDRMQ0XV0XMXXF50.png',
         faces: [
           '',
         ],
@@ -9539,7 +9539,7 @@ export const collectionsData = {
         color: 'Cement Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188ZDRMQ0XV0XMXXG50.png',
         faces: [
           '',
         ],
@@ -9551,7 +9551,7 @@ export const collectionsData = {
         color: 'Faber Cement Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mood/W188ZDRMQ0XV0XMXXG60.png',
         faces: [
           '',
         ],
@@ -9619,7 +9619,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188XDRMR6040XMAAB60.png',
         faces: [
           '',
         ],
@@ -9631,7 +9631,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188XDRMR6040XMAAE50.png',
         faces: [
           '',
         ],
@@ -9643,7 +9643,7 @@ export const collectionsData = {
         color: 'Bone Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188XDRMR6040XMAAG50.png',
         faces: [
           '',
         ],
@@ -9655,7 +9655,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188XDRMR6XW0XMXXW50.png',
         faces: [
           '',
         ],
@@ -9667,7 +9667,7 @@ export const collectionsData = {
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188ZDRMR60V0XMAAB60.png',
         faces: [
           '',
         ],
@@ -9679,7 +9679,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188ZDRMR60V0XMAAE50.png',
         faces: [
           '',
         ],
@@ -9691,7 +9691,7 @@ export const collectionsData = {
         color: 'Taupe Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/motto/W188ZDRMR60V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -9731,7 +9731,7 @@ export const collectionsData = {
         color: 'Café ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -9771,7 +9771,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/naos/P156ZDRN590X0XFAAG40.png',
         faces: [
           '',
         ],
@@ -9811,7 +9811,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/napoli/G018XD0N320X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -9851,7 +9851,7 @@ export const collectionsData = {
         color: 'Oak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/natura-wood/G192XD0N160V0XMAAB30.png',
         faces: [
           '',
         ],
@@ -9863,7 +9863,7 @@ export const collectionsData = {
         color: 'Pine',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/natura-wood/G192XD0N160V0XMAAB50.png',
         faces: [
           '',
         ],
@@ -9875,7 +9875,7 @@ export const collectionsData = {
         color: 'Eboni',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/natura-wood/G192XD0N160V0XMAAE30.png',
         faces: [
           '',
         ],
@@ -9915,7 +9915,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/neva/W010XD0N46040XPAAW50.png',
         faces: [
           '',
         ],
@@ -9927,7 +9927,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/neva/W010ZD0N460X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -9967,7 +9967,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/nevada/G018XD0N130X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -9979,7 +9979,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/nevada/G018XD0N130X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -10047,7 +10047,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/newport/P156XDBN24TX0XPXXW50.png',
         faces: [
           '',
         ],
@@ -10087,7 +10087,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/G010ZDCN100X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -10099,7 +10099,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/G015XDAN10TX0FPXXF50.png',
         faces: [
           '',
         ],
@@ -10111,7 +10111,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/G015XDAN10TX0FPXXG40.png',
         faces: [
           '',
         ],
@@ -10123,7 +10123,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/G015XDAN10TX0FPXXG50.png',
         faces: [
           '',
         ],
@@ -10135,7 +10135,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/P156XDRN10TX0XPXXF50.png',
         faces: [
           '',
         ],
@@ -10147,7 +10147,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/nile/P156XDRN10TX0XPXXG10.png',
         faces: [
           '',
         ],
@@ -10187,7 +10187,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/nomerles/P156ZDRN49TX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -10199,7 +10199,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/nomerles/P156ZDRN49TX0XMXXG50.png',
         faces: [
           '',
         ],
@@ -10211,7 +10211,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/nomerles/P156ZDRN49TX0XMXXQ50.png',
         faces: [
           '',
         ],
@@ -10279,7 +10279,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/nuvola/D188XDRN290K0XMAAW50.png',
         faces: [
           '',
         ],
@@ -10291,7 +10291,7 @@ export const collectionsData = {
         color: 'Blanc Dekor',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/nuvola/D188XDRN290X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -10303,7 +10303,7 @@ export const collectionsData = {
         color: 'Blanc Polygon Dekor',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/nuvola/W188XDRN29040XMAAW50.png',
         faces: [
           '',
         ],
@@ -10343,7 +10343,7 @@ export const collectionsData = {
         color: 'Lila Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/D188XDRQ350V0XPAAD50.png',
         faces: [
           '',
         ],
@@ -10355,7 +10355,7 @@ export const collectionsData = {
         color: 'Lila Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/D188XDRQ350V0XPAAW90.png',
         faces: [
           '',
         ],
@@ -10367,7 +10367,7 @@ export const collectionsData = {
         color: 'Murdum',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/D188XDRQ350V0XPAAY80.png',
         faces: [
           '',
         ],
@@ -10379,7 +10379,7 @@ export const collectionsData = {
         color: 'Murdum Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/W188XDRQ35040XPAAD50.png',
         faces: [
           '',
         ],
@@ -10391,7 +10391,7 @@ export const collectionsData = {
         color: 'Murdum Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/W188XDRQ35040XPAAW90.png',
         faces: [
           '',
         ],
@@ -10403,7 +10403,7 @@ export const collectionsData = {
         color: 'Yesil',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/W188XDRQ35040XPAAY80.png',
         faces: [
           '',
         ],
@@ -10415,7 +10415,7 @@ export const collectionsData = {
         color: 'Yesil Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/W188ZDRQ350X0XPAAD50.png',
         faces: [
           '',
         ],
@@ -10427,7 +10427,7 @@ export const collectionsData = {
         color: 'Yesil Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/oasis/W188ZDRQ350X0XPAAW90.png',
         faces: [
           '',
         ],
@@ -10467,7 +10467,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '40x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/odin/G015ZDRQ370X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -10479,7 +10479,7 @@ export const collectionsData = {
         color: 'Brillant',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/odin/G048ZD0Q370X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -10491,7 +10491,7 @@ export const collectionsData = {
         color: 'Brillant',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/odin/W168XDRQ37040XPAAW50.png',
         faces: [
           '',
         ],
@@ -10531,7 +10531,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/olbia/P015XDRQ360X0XFAAG50.png',
         faces: [
           '',
         ],
@@ -10571,7 +10571,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/olivia/W010XXRQ230V0XPAA050.png',
         faces: [
           '',
         ],
@@ -10611,7 +10611,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/olmo/G192XD0Q250X0XMAAB40.png',
         faces: [
           '',
         ],
@@ -10623,7 +10623,7 @@ export const collectionsData = {
         color: 'Chestnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/olmo/G192XD0Q250X0XMAAB50.png',
         faces: [
           '',
         ],
@@ -10635,7 +10635,7 @@ export const collectionsData = {
         color: 'Tobacco',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/olmo/G192XD0Q250X0XMAAB70.png',
         faces: [
           '',
         ],
@@ -10647,7 +10647,7 @@ export const collectionsData = {
         color: 'Noce',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/olmo/G192XD0Q250X0XMAAE20.png',
         faces: [
           '',
         ],
@@ -10715,7 +10715,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/onixia/P156ZDRQ490X0XFAAB40.png',
         faces: [
           '',
         ],
@@ -10755,7 +10755,7 @@ export const collectionsData = {
         color: 'Bone Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/orfe/P015ZDRQ410V0XMAAE50.png',
         faces: [
           '',
         ],
@@ -10767,7 +10767,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/orfe/W168QDRQ41040XMAAB50.png',
         faces: [
           '',
         ],
@@ -10779,7 +10779,7 @@ export const collectionsData = {
         color: 'Beige Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/orfe/W168QDRQ41XW0XMXXB50.png',
         faces: [
           '',
         ],
@@ -10791,7 +10791,7 @@ export const collectionsData = {
         color: 'Bouquet Dekofon',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/orfe/W168QDRQ41XW0XMXXE50.png',
         faces: [
           '',
         ],
@@ -10803,7 +10803,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/orfe/W168ZDRQ41XV0XMXXB50.png',
         faces: [
           '',
         ],
@@ -10843,7 +10843,7 @@ export const collectionsData = {
         color: 'Bronz',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/orla/P156ZDRQ510X0XFAA170.png',
         faces: [
           '',
         ],
@@ -10855,7 +10855,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/orla/P156ZDRQ510X0XFAA180.png',
         faces: [
           '',
         ],
@@ -10867,7 +10867,7 @@ export const collectionsData = {
         color: 'Platinum',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/orla/P156ZDRQ510X0XFAA290.png',
         faces: [
           '',
         ],
@@ -10907,7 +10907,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/palazzo/P156XDRP780X0XFAAG50.png',
         faces: [
           '',
         ],
@@ -10975,7 +10975,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pamfilya/P015ZDRPA30X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -10987,7 +10987,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pamfilya/P156ZDRPA3TX0XMXXF50.png',
         faces: [
           '',
         ],
@@ -10999,7 +10999,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pamfilya/P156ZDRPA3TX0XMXXG40.png',
         faces: [
           '',
         ],
@@ -11039,7 +11039,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/paris/W188XDRP92040XPAA050.png',
         faces: [
           '',
         ],
@@ -11051,7 +11051,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/paris/W188XDRP92040XPAAW50.png',
         faces: [
           '',
         ],
@@ -11063,7 +11063,7 @@ export const collectionsData = {
         color: 'Noir Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/paris/W188ZDRP920X0XPAA050.png',
         faces: [
           '',
         ],
@@ -11075,7 +11075,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/paris/W188ZDRP920X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -11115,7 +11115,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '40x120',
         surface: 'Satiné',
-        thumbnail: '',
+        thumbnail: '/tiles/parisian/D168XDRP57010XSAAW50.png',
         faces: [
           '',
         ],
@@ -11127,7 +11127,7 @@ export const collectionsData = {
         color: 'Blanc File Dekor',
         size: '40x120',
         surface: 'Satiné',
-        thumbnail: '',
+        thumbnail: '/tiles/parisian/D168XDRP570X0XSAAW50.png',
         faces: [
           '',
         ],
@@ -11139,7 +11139,7 @@ export const collectionsData = {
         color: 'Blanc Geo Dekor',
         size: '40x120',
         surface: 'Satiné',
-        thumbnail: '',
+        thumbnail: '/tiles/parisian/P015XDRP570X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -11151,7 +11151,7 @@ export const collectionsData = {
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Satiné',
-        thumbnail: '',
+        thumbnail: '/tiles/parisian/W168QDRP57040XSAAW50.png',
         faces: [
           '',
         ],
@@ -11191,7 +11191,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/paros/D013XDRP490X0XMAAG60.png',
         faces: [
           '',
         ],
@@ -11203,7 +11203,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/paros/D013XDRP490X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -11215,7 +11215,7 @@ export const collectionsData = {
         color: 'Gris Foncés',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/paros/G010XD0P490X0XMAAB60.png',
         faces: [
           '',
         ],
@@ -11227,7 +11227,7 @@ export const collectionsData = {
         color: 'Blanc Mozaik',
         size: '305x305',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/paros/P010XDCP490X0XFAAG40.png',
         faces: [
           '',
         ],
@@ -11239,7 +11239,7 @@ export const collectionsData = {
         color: 'Gris Foncés Mozaik',
         size: '305x305',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/paros/P010XDCP490X0XFAAG60.png',
         faces: [
           '',
         ],
@@ -11279,7 +11279,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pastel/F028XD0P480X0XMAA050.png',
         faces: [
           '',
         ],
@@ -11319,7 +11319,7 @@ export const collectionsData = {
         color: 'Sable ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -11359,7 +11359,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188XDRP72040XMAAG40.png',
         faces: [
           '',
         ],
@@ -11371,7 +11371,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188XDRP72040XMAAG50.png',
         faces: [
           '',
         ],
@@ -11383,7 +11383,7 @@ export const collectionsData = {
         color: 'Clair Griss Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188XDRP72040XMAAW50.png',
         faces: [
           '',
         ],
@@ -11395,7 +11395,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188ZDRP720X0XMAAG40.png',
         faces: [
           '',
         ],
@@ -11407,7 +11407,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188ZDRP720X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -11419,7 +11419,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188ZDRP720X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -11431,7 +11431,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188XDRP72040XMAAG40.png',
         faces: [
           '',
         ],
@@ -11443,7 +11443,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/pera/W188XDRP72040XMAAG50.png',
         faces: [
           '',
         ],
@@ -11483,7 +11483,7 @@ export const collectionsData = {
         color: 'Cira',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/picasso/D013XDRP300V0XMAAB30.png',
         faces: [
           '',
         ],
@@ -11495,7 +11495,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/picasso/D013XDRP300V0XMAAM50.png',
         faces: [
           '',
         ],
@@ -11507,7 +11507,7 @@ export const collectionsData = {
         color: 'Mavi',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/picasso/G038XD0P300V0XMAAB30.png',
         faces: [
           '',
         ],
@@ -11519,7 +11519,7 @@ export const collectionsData = {
         color: 'Tinder Mosaic',
         size: '305x305',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/picasso/G038XD0P300V0XMAAE30.png',
         faces: [
           '',
         ],
@@ -11531,7 +11531,7 @@ export const collectionsData = {
         color: 'Bleu Mosaic',
         size: '305x305',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/picasso/G038XD0P300V0XMAAM50.png',
         faces: [
           '',
         ],
@@ -11599,7 +11599,7 @@ export const collectionsData = {
         color: 'Moka',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quark/P156ZDRQ420V0XMAAE00.png',
         faces: [
           '',
         ],
@@ -11611,7 +11611,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quark/P156ZDRQ42TV0XMXXG00.png',
         faces: [
           '',
         ],
@@ -11623,7 +11623,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quark/P156ZDRQ42TV0XMXXG50.png',
         faces: [
           '',
         ],
@@ -11663,7 +11663,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P015BDRQ14JX0BMXXG50.png',
         faces: [
           '',
         ],
@@ -11675,7 +11675,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P015BDRQ14TX0BMXXB50.png',
         faces: [
           '',
         ],
@@ -11687,7 +11687,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P015BDRQ14TX0BMXXE50.png',
         faces: [
           '',
         ],
@@ -11699,7 +11699,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P015BDRQ14VX0BMXXF50.png',
         faces: [
           '',
         ],
@@ -11711,7 +11711,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P045BDRQ140V0BMAAE50.png',
         faces: [
           '',
         ],
@@ -11723,7 +11723,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/quarzt/P045BDRQ140V0BMAAG50.png',
         faces: [
           '',
         ],
@@ -11817,7 +11817,7 @@ export const collectionsData = {
         color: 'Griss ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/rhea/RHEA-ANTHRACITE-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -11829,7 +11829,7 @@ export const collectionsData = {
         color: 'Ivoire ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/rhea/RHEA-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -11868,7 +11868,7 @@ export const collectionsData = {
         color: 'Foncé ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/rio/10BNT-RIO-BEIGE-DIGITALDESIGN-PJ23105-60X120-MAT-EN35-BMS205-GS4BINARY-RB2-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -11880,7 +11880,7 @@ export const collectionsData = {
         color: 'Clair ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/rio/10BNT-RIO-DARK-DIGITALDESIGN-PJ23105-60X120-MAT-EN35-BMS205-GS4BINARY-RD2-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -11920,7 +11920,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/riva/W010XD0R40040XPAAW50.png',
         faces: [
           '',
         ],
@@ -11932,7 +11932,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/riva/W010ZD0R400X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -11972,7 +11972,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/root/P156XDRS870X0XMAAC50.png',
         faces: [
           '',
         ],
@@ -11984,7 +11984,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/root/P156XDRS870X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -11996,7 +11996,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/root/P156XDRS870X0XMAAQ50.png',
         faces: [
           '',
         ],
@@ -12008,7 +12008,7 @@ export const collectionsData = {
         color: 'Argent',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/root/P198XDRS870X0XFAAG50.png',
         faces: [
           '',
         ],
@@ -12048,7 +12048,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/rubi/P156ZDRR530X0XFAAE50.png',
         faces: [
           '',
         ],
@@ -12060,7 +12060,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/rubi/P156ZDRR530X0XFAAF50.png',
         faces: [
           '',
         ],
@@ -12072,7 +12072,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/rubi/P156ZDRR530X0XFAAG50.png',
         faces: [
           '',
         ],
@@ -12112,7 +12112,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/saaga/S029XD0S880X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -12124,7 +12124,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/saaga/S029XD0S880X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -12164,7 +12164,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sakura/G015ZDRR390X0XMAAK30.png',
         faces: [
           '',
         ],
@@ -12232,7 +12232,7 @@ export const collectionsData = {
         color: 'Almond',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/salt-cave/P156XDRSB30X0XMAAB60.png',
         faces: [
           '',
         ],
@@ -12244,7 +12244,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/salt-cave/P156XDRSB30X0XMAAI70.png',
         faces: [
           '',
         ],
@@ -12284,7 +12284,7 @@ export const collectionsData = {
         color: 'Blanc Decor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/D188XDRSB10X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -12296,7 +12296,7 @@ export const collectionsData = {
         color: 'Turquiose',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/D188XDRSB10X0XPAAM50.png',
         faces: [
           '',
         ],
@@ -12308,7 +12308,7 @@ export const collectionsData = {
         color: 'Turquiose Decor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/D188XDRSB10X0XPAAS50.png',
         faces: [
           '',
         ],
@@ -12320,7 +12320,7 @@ export const collectionsData = {
         color: 'Aqua',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/D188XDRSB10X0XPAAT50.png',
         faces: [
           '',
         ],
@@ -12332,7 +12332,7 @@ export const collectionsData = {
         color: 'Aqua Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/D188XDRSB10X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -12344,7 +12344,7 @@ export const collectionsData = {
         color: 'Aqua Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB1010XPAAF50.png',
         faces: [
           '',
         ],
@@ -12356,7 +12356,7 @@ export const collectionsData = {
         color: 'Honey',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB1010XPAAM50.png',
         faces: [
           '',
         ],
@@ -12368,7 +12368,7 @@ export const collectionsData = {
         color: 'Honey Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB10X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -12380,7 +12380,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB10X0XPAAM50.png',
         faces: [
           '',
         ],
@@ -12392,7 +12392,7 @@ export const collectionsData = {
         color: 'Fumée Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB10X0XPAAT50.png',
         faces: [
           '',
         ],
@@ -12404,7 +12404,7 @@ export const collectionsData = {
         color: 'Fumée Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB10X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -12416,7 +12416,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/sante/W188ZDRSB1XX0XPXXS50.png',
         faces: [
           '',
         ],
@@ -12456,7 +12456,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sara/P156ZDRSH80X0XCAAE50.png',
         faces: [
           '',
         ],
@@ -12468,7 +12468,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sara/P156ZDRSH80X0XCAAK50.png',
         faces: [
           '',
         ],
@@ -12480,7 +12480,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sara/P156ZDRSH80X0XCAAM50.png',
         faces: [
           '',
         ],
@@ -12535,7 +12535,7 @@ export const collectionsData = {
         color: 'Havuz Mavi',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/satin/S029XX0S110X0XMAA260.png',
         faces: [
           '',
         ],
@@ -12547,7 +12547,7 @@ export const collectionsData = {
         color: 'Havuz Marine',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/satin/S029XX0S110X0XMAAM70.png',
         faces: [
           '',
         ],
@@ -12587,7 +12587,7 @@ export const collectionsData = {
         color: 'Cool Gris',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sativa/G018XD0S13TX0XMXXE50.png',
         faces: [
           '',
         ],
@@ -12655,7 +12655,7 @@ export const collectionsData = {
         color: 'Rosa',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/F028XD0SA40X0XMAA050.png',
         faces: [
           '',
         ],
@@ -12667,7 +12667,7 @@ export const collectionsData = {
         color: 'Grisgio',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/F028XD0SA40X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -12679,7 +12679,7 @@ export const collectionsData = {
         color: 'Grisgio',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/F028XD0SA40X0XMAAP50.png',
         faces: [
           '',
         ],
@@ -12691,7 +12691,7 @@ export const collectionsData = {
         color: 'Nero',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/F028XD0SA40X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -12703,7 +12703,7 @@ export const collectionsData = {
         color: 'Nero',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G015XDRSA4010XMAA050.png',
         faces: [
           '',
         ],
@@ -12715,7 +12715,7 @@ export const collectionsData = {
         color: 'Junior Bianca',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G015XDRSA4010XMAAG50.png',
         faces: [
           '',
         ],
@@ -12727,7 +12727,7 @@ export const collectionsData = {
         color: 'Junior Grisgio',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G015XDRSA4010XMAAW50.png',
         faces: [
           '',
         ],
@@ -12739,7 +12739,7 @@ export const collectionsData = {
         color: 'Junior Nero',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G015XDRSA40X0XMAA050.png',
         faces: [
           '',
         ],
@@ -12751,7 +12751,7 @@ export const collectionsData = {
         color: 'Junior Bianca',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G015ZDRSA40X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -12763,7 +12763,7 @@ export const collectionsData = {
         color: 'Junior Rosa',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G048XD0SA40X0XMAA050.png',
         faces: [
           '',
         ],
@@ -12775,7 +12775,7 @@ export const collectionsData = {
         color: 'Junior Grisgio',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G048XD0SA40X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -12787,7 +12787,7 @@ export const collectionsData = {
         color: 'Junior Nero',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/sempre/G048XD0SA40X0XMAAP50.png',
         faces: [
           '',
         ],
@@ -12814,7 +12814,7 @@ export const collectionsData = {
         color: 'Sable ',
         size: '',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/serpantin/SERPANTIN-SAND-60X120-FULL-LAPPATO-P1.jpg',
         faces: [
           '',
         ],
@@ -12826,7 +12826,7 @@ export const collectionsData = {
         color: 'Blanc ',
         size: '',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/serpantin/SERPANTIN-WHITE-60X120-FULL-LAPPATO-P1.jpg',
         faces: [
           '',
         ],
@@ -12893,7 +12893,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/side/P156ZDRSH90X0XCAAK50.png',
         faces: [
           '',
         ],
@@ -12933,7 +12933,7 @@ export const collectionsData = {
         color: 'Or',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/silyon/P156ZDRSI20X0XFAA140.png',
         faces: [
           '',
         ],
@@ -12973,7 +12973,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/simirna/P156ZDRS300X0XCAAG50.png',
         faces: [
           '',
         ],
@@ -13041,7 +13041,7 @@ export const collectionsData = {
         color: 'Mavi',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/star/F028XD0S700X0XMAAA50.png',
         faces: [
           '',
         ],
@@ -13081,7 +13081,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/star-line/W188XDRSC0040XPAAK90.png',
         faces: [
           '',
         ],
@@ -13093,7 +13093,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/star-line/W188ZDRSC00X0XPAAK90.png',
         faces: [
           '',
         ],
@@ -13133,7 +13133,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/G048ZD0SB00X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -13145,7 +13145,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/P010XDCSB00X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -13157,7 +13157,7 @@ export const collectionsData = {
         color: '',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/P015XDRSB00X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -13169,7 +13169,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/P156ZDRSB0TX0XMXXW50.png',
         faces: [
           '',
         ],
@@ -13181,7 +13181,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '40x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/P198XDRSB00X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -13193,7 +13193,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/statuario-goya/W168QDRSB0040XPAAW50.png',
         faces: [
           '',
         ],
@@ -13233,7 +13233,7 @@ export const collectionsData = {
         color: 'Cotto ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/storm-rock/STORM-ROCK-ANTHRACITE-60X120-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13245,7 +13245,7 @@ export const collectionsData = {
         color: 'Griss ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/storm-rock/storm-rock-antrasit-suolo.jpg',
         faces: [
           '',
         ],
@@ -13257,7 +13257,7 @@ export const collectionsData = {
         color: 'New Vert ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/storm-rock/STORM-ROCK-COTTO-60X120-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13269,7 +13269,7 @@ export const collectionsData = {
         color: 'Suola',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/storm-rock/storm-rock-cotto-suolo.jpg',
         faces: [
           '',
         ],
@@ -13281,7 +13281,7 @@ export const collectionsData = {
         color: 'Blanc ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/storm-rock/storm-rock-green-suolo.jpg',
         faces: [
           '',
         ],
@@ -13364,7 +13364,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sper-white/P010XXBS73TX0XPXXW50.png',
         faces: [
           '',
         ],
@@ -13376,7 +13376,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sper-white/P015ZXRS730X0XFAAW50.png',
         faces: [
           '',
         ],
@@ -13388,7 +13388,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/sper-white/P156ZXBS73TX0XPXXW50.png',
         faces: [
           '',
         ],
@@ -13455,7 +13455,7 @@ export const collectionsData = {
         color: 'Or ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tavas/TAVAS-CREAM-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13467,7 +13467,7 @@ export const collectionsData = {
         color: 'Griss ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tavas/TAVAS-GOLD-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13479,7 +13479,7 @@ export const collectionsData = {
         color: 'Noce ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tavas/TAVAS-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13491,7 +13491,7 @@ export const collectionsData = {
         color: 'Clair Griss ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -13531,7 +13531,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/terra/W188ZDRT51020XMAAG50.png',
         faces: [
           '',
         ],
@@ -13543,7 +13543,7 @@ export const collectionsData = {
         color: 'Turkuaz',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/terra/W188ZDRT510X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -13555,7 +13555,7 @@ export const collectionsData = {
         color: 'Gul Kurusu',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/terra/W188ZDRT510X0XMAAT50.png',
         faces: [
           '',
         ],
@@ -13567,7 +13567,7 @@ export const collectionsData = {
         color: 'Mix Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/terra/W188ZDRT510X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -13579,7 +13579,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/terra/W188ZDRT510X0XMAAW60.png',
         faces: [
           '',
         ],
@@ -13619,7 +13619,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/thanos/P015BDRT770V0BMAAB50.png',
         faces: [
           '',
         ],
@@ -13631,7 +13631,7 @@ export const collectionsData = {
         color: 'Gris Foncés',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/thanos/P015BDRT770V0BMAAG60.png',
         faces: [
           '',
         ],
@@ -13643,7 +13643,7 @@ export const collectionsData = {
         color: 'Sable',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/thanos/P156BDRT770V0BMAAB50.png',
         faces: [
           '',
         ],
@@ -13655,7 +13655,7 @@ export const collectionsData = {
         color: 'Gris Foncés',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/thanos/P156BDRT770V0BMAAG40.png',
         faces: [
           '',
         ],
@@ -13695,7 +13695,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '40x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/tiana/P015ZDRT650X0XMAAW50.png',
         faces: [
           '',
         ],
@@ -13707,7 +13707,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '40x120',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/tiana/W168QDRT65040XPAAW50.png',
         faces: [
           '',
         ],
@@ -13719,7 +13719,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/tiana/W168ZDRT650X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -13759,7 +13759,7 @@ export const collectionsData = {
         color: 'Mavi',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tiffany/F028XD0T290X0XMAA050.png',
         faces: [
           '',
         ],
@@ -13771,7 +13771,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tiffany/F028XD0T290X0XMAAM50.png',
         faces: [
           '',
         ],
@@ -13839,7 +13839,7 @@ export const collectionsData = {
         color: 'Almond',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tsuga/G192ZDRT69TV0XMXXI70.png',
         faces: [
           '',
         ],
@@ -13851,7 +13851,7 @@ export const collectionsData = {
         color: 'Maun',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/tsuga/G192ZDRT69TV0XMXXN40.png',
         faces: [
           '',
         ],
@@ -13891,7 +13891,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/turin/P156ZDBT42TX0XPXXG50.png',
         faces: [
           '',
         ],
@@ -13931,7 +13931,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '142x164',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/twist/S039XX0T260X0XMAA050.png',
         faces: [
           '',
         ],
@@ -13943,7 +13943,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '142x164',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/twist/S039XX0T260X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -13983,7 +13983,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/D150XDRU010V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -13995,7 +13995,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/D150XDRU010V0XMAAG60.png',
         faces: [
           '',
         ],
@@ -14007,7 +14007,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G010XD0U010V0XMAAB40.png',
         faces: [
           '',
         ],
@@ -14019,7 +14019,7 @@ export const collectionsData = {
         color: 'Dunkel',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G010XD0U010V0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14031,7 +14031,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G015XDRU010V0XMAAB40.png',
         faces: [
           '',
         ],
@@ -14043,7 +14043,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G015XDRU010V0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14055,7 +14055,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G015XDRU010V0XMAAF50.png',
         faces: [
           '',
         ],
@@ -14067,7 +14067,7 @@ export const collectionsData = {
         color: 'Dunkel Muretto Mosaic',
         size: '30x68',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G015XDRU01TX0XMXXG60.png',
         faces: [
           '',
         ],
@@ -14079,7 +14079,7 @@ export const collectionsData = {
         color: 'Anthracite Muretto Mosaic',
         size: '30x68',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G048XD0U010V0XMAAB40.png',
         faces: [
           '',
         ],
@@ -14091,7 +14091,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/G048XD0U010V0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14103,7 +14103,7 @@ export const collectionsData = {
         color: 'Dunkel',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S028XD0U010X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14115,7 +14115,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S028XD0U010X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -14127,7 +14127,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S028XD0U010X0XMAAG60.png',
         faces: [
           '',
         ],
@@ -14139,7 +14139,7 @@ export const collectionsData = {
         color: 'Dunkel',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S029XD0U010X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14151,7 +14151,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S029XD0U010X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -14163,7 +14163,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/S029XD0U010X0XMAAG60.png',
         faces: [
           '',
         ],
@@ -14175,7 +14175,7 @@ export const collectionsData = {
         color: 'Dunkel',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/W200ZX0U010X0XMAAE50.png',
         faces: [
           '',
         ],
@@ -14187,7 +14187,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '197x197',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/urban/W200ZX0U010X0XMAAF50.png',
         faces: [
           '',
         ],
@@ -14255,7 +14255,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/valor/W188XDRV40040XPAA050.png',
         faces: [
           '',
         ],
@@ -14267,7 +14267,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/valor/W188XDRV40040XPAAW50.png',
         faces: [
           '',
         ],
@@ -14279,7 +14279,7 @@ export const collectionsData = {
         color: 'Noir Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/valor/W188ZDRV400X0XPAA050.png',
         faces: [
           '',
         ],
@@ -14291,7 +14291,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/valor/W188ZDRV400X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -14318,7 +14318,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/vedra-graphite/P015BDRV570X0BMAAG60.png',
         faces: [
           '',
         ],
@@ -14358,7 +14358,7 @@ export const collectionsData = {
         color: 'Griss ',
         size: '',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/venis/7BNT-VENIS-ANTRASIT-60X120X2-STARK-GRAPHITE-GS4BINARY-12FACE-VA10-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -14385,7 +14385,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/venis/7BNT-VENIS-ANTRASIT-60X120X2-STARK-GRAPHITE-GS4BINARY-12FACE-VA10-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -14397,7 +14397,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/venis/URGE-7BNT-FRT-VENIS-GREY-60X60X2-ENG1504-BAS3005-QUARTZROLYEF-GS4BINARY-12FACE-VG4-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -14409,7 +14409,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/venis/7BNT-VENIS-ANTRASIT-60X120X2-STARK-GRAPHITE-GS4BINARY-12FACE-VA10-RGB-P1.jpg',
         faces: [
           '',
         ],
@@ -14477,7 +14477,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/vigo/W188XDRV25040XPAAW50.png',
         faces: [
           '',
         ],
@@ -14489,7 +14489,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/vigo/W188ZDRV250X0XPAAW50.png',
         faces: [
           '',
         ],
@@ -14556,7 +14556,7 @@ export const collectionsData = {
         color: 'Violata Griss Brillant',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/violeta/G015ZDRV42TX0XPXXG00.png',
         faces: [
           '',
         ],
@@ -14624,7 +14624,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P010ZDCV470X0BMAAE10.png',
         faces: [
           '',
         ],
@@ -14636,7 +14636,7 @@ export const collectionsData = {
         color: 'Grej',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P010ZDCV470X0BMAAF40.png',
         faces: [
           '',
         ],
@@ -14648,7 +14648,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P010ZDCV470X0BMAAG10.png',
         faces: [
           '',
         ],
@@ -14660,7 +14660,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P010ZDCV470X0BMAAG50.png',
         faces: [
           '',
         ],
@@ -14672,7 +14672,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P015ZDRV470X0BMAAE10.png',
         faces: [
           '',
         ],
@@ -14684,7 +14684,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P015ZDRV470X0BMAAF40.png',
         faces: [
           '',
         ],
@@ -14696,7 +14696,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P015ZDRV470X0BMAAG10.png',
         faces: [
           '',
         ],
@@ -14708,7 +14708,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P015ZDRV470X0BMAAG50.png',
         faces: [
           '',
         ],
@@ -14720,7 +14720,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P048ZD0V470X0XMAAE10.png',
         faces: [
           '',
         ],
@@ -14732,7 +14732,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P048ZD0V470X0XMAAF40.png',
         faces: [
           '',
         ],
@@ -14744,7 +14744,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P048ZD0V470X0XMAAG10.png',
         faces: [
           '',
         ],
@@ -14756,7 +14756,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P048ZD0V470X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -14768,7 +14768,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P156ZDRV470X0XMAAE10.png',
         faces: [
           '',
         ],
@@ -14780,7 +14780,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P156ZDRV470X0XMAAG10.png',
         faces: [
           '',
         ],
@@ -14792,7 +14792,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P156ZDRV470X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -14804,7 +14804,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P177XDRV470X0XMAAE10.png',
         faces: [
           '',
         ],
@@ -14816,7 +14816,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P198XDRV470X0XMAAE10.png',
         faces: [
           '',
         ],
@@ -14828,7 +14828,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P198XDRV470X0XMAAF40.png',
         faces: [
           '',
         ],
@@ -14840,7 +14840,7 @@ export const collectionsData = {
         color: 'Bone Dekofon',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P198XDRV470X0XMAAG10.png',
         faces: [
           '',
         ],
@@ -14852,7 +14852,7 @@ export const collectionsData = {
         color: 'Greige',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/P198XDRV470X0XMAAG50.png',
         faces: [
           '',
         ],
@@ -14864,7 +14864,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/W010XDRV47030XMAAE50.png',
         faces: [
           '',
         ],
@@ -14876,7 +14876,7 @@ export const collectionsData = {
         color: 'Griss Dekofon',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/W010XDRV47030XMAAG50.png',
         faces: [
           '',
         ],
@@ -14888,7 +14888,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '30x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/void/W010XDRV47030XMAAW50.png',
         faces: [
           '',
         ],
@@ -14927,7 +14927,7 @@ export const collectionsData = {
         color: 'Griss Clair',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/volare/Volare-1-60x120.jpg',
         faces: [
           '',
         ],
@@ -14939,7 +14939,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/volare/Volare-2-60x120.jpg',
         faces: [
           '',
         ],
@@ -14951,7 +14951,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/volare/VOLARE-GREY-60X120-MAT-P1.jpg',
         faces: [
           '',
         ],
@@ -14991,7 +14991,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/walter/W010ZD0W14010XPAAG40.png',
         faces: [
           '',
         ],
@@ -15003,7 +15003,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/walter/W010ZD0W140X0XPAAF50.png',
         faces: [
           '',
         ],
@@ -15015,7 +15015,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '',
+        thumbnail: '/tiles/walter/W010ZD0W140X0XPAAG40.png',
         faces: [
           '',
         ],
@@ -15055,7 +15055,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/wario/P156ZDRWA20X0XFAAM50.png',
         faces: [
           '',
         ],
@@ -15095,7 +15095,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/white-star/P015XDRSA60X0XCAAW50.png',
         faces: [
           '',
         ],
@@ -15163,7 +15163,7 @@ export const collectionsData = {
         color: 'Oak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yoga-wood/G192XD0Y140V0XMAAB50.png',
         faces: [
           '',
         ],
@@ -15175,7 +15175,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yoga-wood/G192XD0Y140V0XMAAG50.png',
         faces: [
           '',
         ],
@@ -15187,7 +15187,7 @@ export const collectionsData = {
         color: 'Venge',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yoga-wood/G192XD0Y140V0XMAAI50.png',
         faces: [
           '',
         ],
@@ -15227,7 +15227,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yuta/W010ZDRY200V0XMAAC50.png',
         faces: [
           '',
         ],
@@ -15239,7 +15239,7 @@ export const collectionsData = {
         color: 'Crème',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yuta/W010ZDRY200V0XMAAW50.png',
         faces: [
           '',
         ],
@@ -15251,7 +15251,7 @@ export const collectionsData = {
         color: 'Crème Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yuta/W188ZDRY20040XMAAC50.png',
         faces: [
           '',
         ],
@@ -15263,7 +15263,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yuta/W188ZDRY20040XMAAW50.png',
         faces: [
           '',
         ],
@@ -15275,7 +15275,7 @@ export const collectionsData = {
         color: 'Crème',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/yuta/W188ZDRY200V0XMAAC50.png',
         faces: [
           '',
         ],
@@ -15315,7 +15315,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/zenith/P010XDRZ100X0XFAA000.png',
         faces: [
           '',
         ],
@@ -15327,7 +15327,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '',
+        thumbnail: '/tiles/zenith/P015XDRZ100X0XFAA000.png',
         faces: [
           '',
         ],
@@ -15367,7 +15367,7 @@ export const collectionsData = {
         color: 'Chêne',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/zigana/G038XD0Z030V0XMAAB50.png',
         faces: [
           '',
         ],
@@ -15379,7 +15379,7 @@ export const collectionsData = {
         color: 'Noyer',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '',
+        thumbnail: '/tiles/zigana/G038XD0Z030V0XMAAN50.png',
         faces: [
           '',
         ],
