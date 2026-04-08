@@ -207,7 +207,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: null,
-        thumbnail: '/tiles/adonis/adonis-2.png',
+        thumbnail: '/tiles/adonis/adonis-60x60.png',
         faces: [
           '',
           '',
@@ -225,7 +225,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: '/tiles/adonis/adonis-3.png',
+        thumbnail: '/tiles/adonis/adonis-dekofon.png',
         faces: [
           '',
           '',
@@ -245,7 +245,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Fon',
-        thumbnail: '/tiles/adonis/adonis-2.png',
+        thumbnail: '/tiles/adonis/adonis-blanc.png',
         faces: [
           '',
           '',
@@ -265,7 +265,7 @@ export const collectionsData = {
         color: '',
         size: '45x45',
         surface: null,
-        thumbnail: '/tiles/adonis/adonis-3.png',
+        thumbnail: '/tiles/adonis/adonis-blanc.png',
         faces: [
           '',
           '',
