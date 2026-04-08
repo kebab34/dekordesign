@@ -1,0 +1,386 @@
+.adkd-page {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.adkd-notfound {
+  padding: 100px 60px;
+  text-align: center;
+  background: #0a0a0a;
+  color: #888;
+}
+.adkd-notfound a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+/* ── Hero split layout ─────────────────────────────────── */
+.adkd-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+/* Left — image col */
+.adkd-hero-img-col {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adkd-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  padding: 40px;
+}
+
+.adkd-hero-img-overlay {
+  display: none;
+}
+
+/* Right — info col */
+.adkd-hero-info-col {
+  padding: 60px 70px 80px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #0a0a0a;
+}
+
+/* Breadcrumb */
+.adkd-breadcrumb {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.adkd-breadcrumb a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.adkd-breadcrumb a:hover { color: #d4af37; }
+.adkd-breadcrumb span:last-child { color: #d4af37; }
+
+/* Gold line */
+.adkd-gold-line {
+  width: 50px;
+  height: 2px;
+  background: #d4af37;
+  margin-bottom: 20px;
+}
+
+/* Series badge */
+.adkd-series-badge {
+  display: inline-block;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #d4af37;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  margin-bottom: 20px;
+}
+
+/* Name */
+.adkd-name {
+  font-size: 52px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  color: #fff;
+  margin: 0 0 28px 0;
+  line-height: 1.1;
+}
+
+/* Description */
+.adkd-description {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.9;
+  margin: 0 0 40px 0;
+  max-width: 480px;
+}
+
+/* Specs grid */
+.adkd-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-bottom: 44px;
+  border-top: 1px solid #1e1e1e;
+}
+
+.adkd-spec-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.adkd-spec-item:nth-child(odd) {
+  padding-right: 24px;
+  border-right: 1px solid #1e1e1e;
+}
+.adkd-spec-item:nth-child(even) {
+  padding-left: 24px;
+}
+
+.adkd-spec-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.adkd-spec-value {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e0e0e0;
+  letter-spacing: 1px;
+}
+
+/* CTA */
+.adkd-cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.adkd-btn-gold {
+  padding: 16px 36px;
+  background-color: #d4af37;
+  color: #0a0a0a;
+  border: none;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+.adkd-btn-gold:hover { background-color: #e8c84a; }
+
+.adkd-btn-outline {
+  padding: 16px 30px;
+  background-color: transparent;
+  color: #bbb;
+  border: 1px solid #2e2e2e;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.adkd-btn-outline:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+
+/* ── Features bar ────────────────────────────────────────── */
+.adkd-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  background: #0d0d0d;
+}
+
+.adkd-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 36px 32px;
+  border-right: 1px solid #1a1a1a;
+}
+.adkd-feature-item:last-child { border-right: none; }
+
+.adkd-feature-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #d4af37;
+  margin-top: 2px;
+}
+.adkd-feature-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.adkd-feature-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #e0e0e0;
+  letter-spacing: 0.5px;
+  margin: 0 0 5px 0;
+}
+
+.adkd-feature-sub {
+  font-size: 11px;
+  color: #555;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+/* ── Related models ─────────────────────────────────────── */
+.adkd-related {
+  padding: 80px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.adkd-related-header {
+  margin-bottom: 40px;
+}
+
+.adkd-related-title {
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 8px;
+  color: #fff;
+  margin: 0;
+}
+
+.adkd-related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+.adkd-related-card {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.adkd-related-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+}
+.adkd-related-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 16px;
+  transition: transform 0.6s ease;
+  display: block;
+}
+.adkd-related-card:hover .adkd-related-img-wrap img {
+  transform: scale(1.05);
+}
+
+.adkd-related-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.adkd-related-card:hover .adkd-related-overlay { opacity: 1; }
+.adkd-related-overlay span {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 1px solid #d4af37;
+  padding-bottom: 4px;
+}
+
+.adkd-related-info {
+  padding: 14px 4px 10px;
+  background: #0a0a0a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.adkd-related-name {
+  font-size: 13px;
+  font-weight: 300;
+  color: #ccc;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin: 0;
+  transition: color 0.3s;
+}
+.adkd-related-card:hover .adkd-related-name { color: #d4af37; }
+
+.adkd-related-series {
+  font-size: 10px;
+  color: #444;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 1200px) {
+  .adkd-hero-info-col { padding: 50px 50px 70px 50px; }
+  .adkd-name { font-size: 42px; }
+  .adkd-related-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 1024px) {
+  .adkd-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .adkd-hero-img-col {
+    position: relative;
+    height: 70vh;
+  }
+  .adkd-hero-info-col {
+    padding: 50px 50px 60px;
+    justify-content: flex-start;
+  }
+  .adkd-breadcrumb { margin-bottom: 32px; }
+  .adkd-features { grid-template-columns: repeat(2, 1fr); }
+  .adkd-feature-item:nth-child(2) { border-right: none; }
+  .adkd-feature-item:nth-child(3) { border-right: 1px solid #1a1a1a; }
+  .adkd-related-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .adkd-hero-img-col { height: 60vh; }
+  .adkd-hero-info-col { padding: 40px 24px 50px; }
+  .adkd-name { font-size: 34px; letter-spacing: 6px; }
+  .adkd-features { grid-template-columns: repeat(2, 1fr); }
+  .adkd-related { padding: 60px 24px; }
+  .adkd-related-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 576px) {
+  .adkd-hero-img-col { height: 55vh; }
+  .adkd-hero-info-col { padding: 32px 16px 40px; }
+  .adkd-name { font-size: 26px; letter-spacing: 4px; }
+  .adkd-description { font-size: 13px; }
+  .adkd-specs { grid-template-columns: 1fr 1fr; }
+  .adkd-cta { flex-direction: column; }
+  .adkd-btn-gold, .adkd-btn-outline { text-align: center; }
+  .adkd-features { grid-template-columns: 1fr; }
+  .adkd-feature-item { border-right: none !important; border-bottom: 1px solid #1a1a1a; }
+  .adkd-feature-item:last-child { border-bottom: none; }
+  .adkd-related { padding: 50px 16px; }
+  .adkd-related-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+  .adkd-related-title { font-size: 16px; letter-spacing: 5px; }
+}

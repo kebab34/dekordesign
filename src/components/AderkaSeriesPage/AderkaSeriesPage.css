@@ -1,0 +1,162 @@
+.ase-page {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  padding: 80px 40px;
+}
+
+/* Header */
+.ase-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ase-gold-line {
+  width: 60px;
+  height: 2px;
+  background: #d4af37;
+  margin: 0 auto 24px;
+}
+
+.ase-title {
+  font-size: 42px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  color: #fff;
+  margin: 0 0 14px 0;
+}
+
+.ase-subtitle {
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Grid — 4 colonnes portrait */
+.ase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Card */
+.ase-card {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.ase-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background: #111;
+}
+
+.ase-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 16px;
+  transition: transform 0.6s ease;
+  display: block;
+}
+.ase-card:hover .ase-img {
+  transform: scale(1.04);
+}
+
+/* Overlay gradient */
+.ase-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+  transition: background 0.4s;
+}
+.ase-card:hover .ase-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.35) 60%, rgba(0,0,0,0.1) 100%);
+}
+
+/* Info overlay */
+.ase-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 20px 24px;
+  z-index: 2;
+}
+
+.ase-count {
+  display: block;
+  font-size: 10px;
+  color: #d4af37;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.ase-name {
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 6px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  line-height: 1.1;
+}
+
+.ase-desc {
+  font-size: 11px;
+  color: #bbb;
+  letter-spacing: 0.5px;
+  margin: 0 0 16px 0;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.ase-card:hover .ase-desc {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ase-cta {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #d4af37;
+  border-bottom: 1px solid #d4af37;
+  padding-bottom: 3px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease 0.05s, transform 0.35s ease 0.05s;
+}
+.ase-card:hover .ase-cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .ase-page { padding: 60px 24px; }
+  .ase-grid { grid-template-columns: repeat(2, 1fr); }
+  .ase-title { font-size: 32px; letter-spacing: 7px; }
+  /* Always show desc on tablet */
+  .ase-desc, .ase-cta {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .ase-page { padding: 40px 0 60px; }
+  .ase-header { padding: 0 16px; }
+  .ase-title { font-size: 24px; letter-spacing: 5px; }
+  .ase-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+  .ase-name { font-size: 18px; letter-spacing: 4px; }
+  .ase-info { padding: 20px 12px 16px; }
+  .ase-desc { display: none; }
+}

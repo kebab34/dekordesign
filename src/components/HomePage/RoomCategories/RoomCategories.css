@@ -1,0 +1,172 @@
+.section {
+  max-width: 1600px;
+  margin: 120px auto;
+  padding: 0 60px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.gold-line {
+  width: 60px;
+  height: 1px;
+  background-color: #d4af37;
+  margin: 0 auto 30px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #999;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.room-card {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.room-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+  filter: brightness(0.7);
+}
+
+.room-card:hover .room-image {
+  transform: scale(1.1);
+}
+
+.room-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
+  transition: background 0.4s;
+}
+
+.room-card:hover .room-overlay {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%);
+}
+
+.room-name {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin: 0 0 20px 0;
+}
+
+.room-line {
+  width: 50px;
+  height: 1px;
+  background-color: #d4af37;
+}
+
+@media (max-width: 900px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .room-card {
+    height: 320px;
+  }
+
+  .section {
+    padding: 0 30px;
+    margin: 80px auto;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .room-card {
+    height: 300px;
+  }
+
+  .section {
+    padding: 0 20px;
+    margin: 60px auto;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    display: none;
+  }
+
+  .section-subtitle {
+    display: none;
+  }
+
+  .room-overlay {
+    padding: 30px;
+  }
+
+  .room-name {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .room-card {
+    height: 220px;
+  }
+
+  .section {
+    padding: 0 15px;
+    margin: 40px auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .room-overlay {
+    padding: 20px;
+  }
+
+  .room-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,185 @@
+.catalogue-page {
+  padding: 80px 60px;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+.catalogue-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.catalogue-title {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #fff;
+  margin: 20px 0 15px 0;
+}
+
+.catalogue-subtitle {
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 2px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.catalogue-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.catalogue-card {
+  width: 280px;
+  text-align: center;
+}
+
+.catalogue-image-wrapper {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.catalogue-card:hover .catalogue-image-wrapper {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(212, 175, 55, 0.15);
+}
+
+.catalogue-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.catalogue-card:hover .catalogue-image {
+  transform: scale(1.05);
+}
+
+.catalogue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.catalogue-image-wrapper:hover .catalogue-overlay {
+  opacity: 1;
+}
+
+.view-icon {
+  width: 40px;
+  height: 40px;
+  color: #d4af37;
+}
+
+.catalogue-overlay span {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.catalogue-info {
+  padding: 25px 10px;
+}
+
+.catalogue-name {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+}
+
+.catalogue-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
+  background-color: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.catalogue-download-btn:hover {
+  background-color: #d4af37;
+  color: #0a0a0a;
+}
+
+.download-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .catalogue-grid {
+    gap: 30px;
+  }
+
+  .catalogue-card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 900px) {
+  .catalogue-page {
+    padding: 60px 30px;
+  }
+
+  .catalogue-title {
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  .catalogue-card {
+    width: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .catalogue-page {
+    padding: 40px 20px;
+  }
+
+  .catalogue-title {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  .catalogue-grid {
+    gap: 25px;
+  }
+
+  .catalogue-card {
+    width: 100%;
+    max-width: 280px;
+  }
+}

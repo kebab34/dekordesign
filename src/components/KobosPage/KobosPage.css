@@ -1,0 +1,440 @@
+.kobos-page {
+  padding: 60px 60px 80px;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+.kobos-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.kobos-gold-line {
+  width: 60px;
+  height: 2px;
+  background-color: #d4af37;
+  margin: 0 auto 20px;
+}
+
+.kobos-title {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+
+.kobos-subtitle {
+  font-size: 14px;
+  color: #888;
+  letter-spacing: 2px;
+}
+
+/* Layout */
+.kobos-layout {
+  display: flex;
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+/* Sidebar */
+.kobos-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+}
+
+/* ── Bouton flottant mobile ─────────────────────────────── */
+.kobos-filters-fab {
+  display: none;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  background: #d4af37;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.kobos-filters-fab-badge {
+  background: #0a0a0a;
+  color: #d4af37;
+  font-size: 11px;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kobos-filters-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 199;
+  backdrop-filter: blur(2px);
+}
+.kobos-filters-close-btn {
+  display: none;
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.kobos-filters-close-btn:hover { border-color: #d4af37; }
+
+.kobos-sidebar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(212,175,55,0.2);
+  margin-bottom: 24px;
+}
+
+.kobos-sidebar-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.kobos-clear {
+  background: none;
+  border: none;
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.kobos-clear:hover { opacity: 1; }
+
+.kobos-filter-group {
+  margin-bottom: 24px;
+}
+
+.kobos-filter-label {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+
+/* Search */
+.kobos-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.kobos-search-input {
+  width: 100%;
+  padding: 10px 36px 10px 14px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+.kobos-search-input:focus { border-color: #d4af37; }
+.kobos-search-input::placeholder { color: #555; }
+
+.kobos-search-clear {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0;
+  transition: color 0.2s;
+}
+.kobos-search-clear:hover { color: #fff; }
+
+/* Color list */
+.kobos-color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.kobos-color-item {
+  padding: 9px 14px;
+  color: #aaa;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+.kobos-color-item:hover {
+  background: rgba(212,175,55,0.08);
+  color: #fff;
+  border-left-color: #d4af37;
+}
+.kobos-color-item.active {
+  background: rgba(212,175,55,0.12);
+  color: #d4af37;
+  border-left-color: #d4af37;
+}
+
+/* Tags */
+.kobos-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid #222;
+}
+
+.kobos-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: rgba(212,175,55,0.1);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 2px;
+  color: #d4af37;
+  font-size: 11px;
+}
+.kobos-tag button {
+  background: none;
+  border: none;
+  color: #d4af37;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Grid */
+.kobos-main { flex: 1; min-width: 0; }
+
+.kobos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.kobos-card {
+  text-decoration: none;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.kobos-card:hover { transform: translateY(-6px); }
+
+.kobos-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.kobos-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.kobos-card:hover .kobos-img { transform: scale(1.05); }
+
+.kobos-img-count {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.55);
+  color: #d4af37;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  border-radius: 2px;
+  backdrop-filter: blur(4px);
+}
+
+.kobos-card-info {
+  padding: 14px 4px 8px;
+}
+
+.kobos-card-name {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+.kobos-card:hover .kobos-card-name { color: #d4af37; }
+
+.kobos-card-colors {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 1px;
+  margin: 0 0 4px 0;
+}
+
+.kobos-card-sizes {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Empty */
+.kobos-empty {
+  text-align: center;
+  padding: 80px 20px;
+}
+.kobos-empty p { color: #888; font-size: 16px; margin-bottom: 20px; }
+.kobos-empty button {
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-size: 13px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.kobos-empty button:hover { background-color: #d4af37; color: #0a0a0a; }
+
+/* Overlay nom (masqué sur desktop) */
+.kobos-name-overlay {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .kobos-layout { flex-direction: column; align-items: stretch; }
+  .kobos-sidebar { width: 100%; position: static; }
+  .kobos-main { width: 100%; }
+  .kobos-color-list { flex-direction: row; flex-wrap: wrap; gap: 6px; }
+  .kobos-color-item { border-left: none; border-bottom: 2px solid transparent; border-radius: 2px; }
+  .kobos-color-item:hover, .kobos-color-item.active { border-bottom-color: #d4af37; background: rgba(212,175,55,0.08); }
+  .kobos-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  /* Bottom sheet */
+  .kobos-sidebar {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    width: 100% !important;
+    max-height: 75vh;
+    overflow-y: auto;
+    background: #141414;
+    border-top: 1px solid #333;
+    border-radius: 16px 16px 0 0;
+    padding: 24px 20px 32px !important;
+    transform: translateY(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    top: auto !important;
+  }
+  .kobos-sidebar.open {
+    transform: translateY(0) !important;
+    display: block !important;
+  }
+  .kobos-sidebar::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #444;
+    border-radius: 2px;
+    margin: 0 auto 20px;
+  }
+  .kobos-filters-overlay { display: block; }
+  .kobos-filters-fab { display: flex; }
+  .kobos-filters-close-btn { display: block; }
+}
+
+@media (max-width: 900px) {
+  .kobos-page { padding: 40px 30px 60px; }
+  .kobos-title { font-size: 32px; letter-spacing: 5px; }
+  .kobos-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+
+@media (max-width: 576px) {
+  .kobos-page { padding: 30px 10px 80px; }
+  .kobos-title { font-size: 22px; letter-spacing: 3px; }
+  .kobos-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+
+  /* Cacher les détails sous l'image */
+  .kobos-card-info { display: none; }
+
+  /* Gradient + nom dans l'image */
+  .kobos-img-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  .kobos-name-overlay {
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    z-index: 1;
+  }
+
+  .kobos-name-mob {
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.9);
+  }
+
+  /* Impair → droite, pair → gauche (comme collections) */
+  .kobos-card:nth-child(odd) .kobos-name-overlay { text-align: right; }
+  .kobos-card:nth-child(even) .kobos-name-overlay { text-align: left; }
+
+  /* Compteur photos discret */
+  .kobos-img-count { font-size: 9px; padding: 2px 6px; }
+}
