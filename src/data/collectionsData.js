@@ -534,9 +534,9 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALBA 19,7X19,7',
+        name: 'ALBA 19.7x19.7',
         color: '',
-        size: '19x7',
+        size: '19.7x19.7',
         surface: null,
         thumbnail: '/tiles/alba/F028XD0A130X0XMAA000.png',
         faces: [
@@ -548,9 +548,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ALBA AUTUMN 19,7X19,7',
+        name: 'ALBA AUTUMN 19.7x19.7',
         color: 'Automne',
-        size: '19x7',
+        size: '19.7x19.7',
         surface: null,
         thumbnail: '/tiles/alba/F028XD0A130X0XMAA000.png',
         faces: [
@@ -562,9 +562,9 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ALBA SPRING 19,7X19,7',
+        name: 'ALBA SPRING 19.7x19.7',
         color: 'Printemps',
-        size: '19x7',
+        size: '19.7x19.7',
         surface: null,
         thumbnail: '/tiles/alba/F028XD0A130X0XMAA040.png',
         faces: [
@@ -576,9 +576,9 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'ALBA SUMMER 19,7X19,7',
+        name: 'ALBA SUMMER 19.7x19.7',
         color: 'Été',
-        size: '19x7',
+        size: '19.7x19.7',
         surface: null,
         thumbnail: '/tiles/alba/F028XD0A130X0XMAAW60.png',
         faces: [
@@ -590,9 +590,9 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ALBA WINTER 19,7X19,7',
+        name: 'ALBA WINTER 19.7x19.7',
         color: 'Hiver',
-        size: '19x7',
+        size: '19.7x19.7',
         surface: null,
         thumbnail: '/tiles/alba/F028XD0A130X0XMAAY70.png',
         faces: [
@@ -2432,9 +2432,9 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Belgium Stone Gris Mozaik 30x486',
+        name: 'Belgium Stone Gris Mozaik 30.5x48.6',
         color: 'Griss Mozaik',
-        size: '30x486',
+        size: '30.5x48.6',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAF50.png',
         faces: [
@@ -2444,9 +2444,9 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Belgium Stone Noir Mozaik 30x486',
+        name: 'Belgium Stone Noir Mozaik 30.5x48.6',
         color: 'Noir Mozaik',
-        size: '30x486',
+        size: '30.5x48.6',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/D036XRRB250V0XMAAG50.png',
         faces: [
@@ -2480,9 +2480,9 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Belgium Stone Gris Mozaik 305x305',
+        name: 'Belgium Stone Gris Mozaik 30.5x30.5',
         color: 'Griss Mozaik',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/P010XDRB25VX0XMXXF50.png',
         faces: [
@@ -2492,9 +2492,9 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Belgium Stone Noir Mozaik 305x305',
+        name: 'Belgium Stone Noir Mozaik 30.5x30.5',
         color: 'Noir Mozaik',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/P015XDRB25VX0XMXXG50.png',
         faces: [
@@ -6926,9 +6926,9 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Hypnos 60x1201',
+        name: 'Hypnos 60x120',
         color: '',
-        size: '60x1201',
+        size: '60x120',
         surface: 'Full Lappato',
         thumbnail: '/tiles/hypnos/P010ZDCH280X0XFAAM50.png',
         faces: [
@@ -11225,7 +11225,7 @@ export const collectionsData = {
         id: 4,
         name: 'Paros Blanc Mozaik 305x305',
         color: 'Blanc Mozaik',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Full Lappato',
         thumbnail: '/tiles/paros/P010XDCP490X0XFAAG40.png',
         faces: [
@@ -11237,7 +11237,7 @@ export const collectionsData = {
         id: 5,
         name: 'Paros Gris Foncés Mozaik 305x305',
         color: 'Gris Foncés Mozaik',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Full Lappato',
         thumbnail: '/tiles/paros/P010XDCP490X0XFAAG60.png',
         faces: [
@@ -11517,7 +11517,7 @@ export const collectionsData = {
         id: 4,
         name: 'Picasso Tinder Mosaic 305x305',
         color: 'Tinder Mosaic',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/picasso/G038XD0P300V0XMAAE30.png',
         faces: [
@@ -11529,7 +11529,7 @@ export const collectionsData = {
         id: 5,
         name: 'Picasso Bleu Mosaic 305x305',
         color: 'Bleu Mosaic',
-        size: '305x305',
+        size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/picasso/G038XD0P300V0XMAAM50.png',
         faces: [
@@ -13915,9 +13915,9 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Twist Blanc 142x164',
+        name: 'Twist Blanc 14.2x16.4',
         color: 'Blanc',
-        size: '142x164',
+        size: '14.2x16.4',
         surface: 'Mat',
         thumbnail: '/tiles/twist/S039XX0T260X0XMAA050.png',
         faces: [
@@ -13927,9 +13927,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Twist Gris 142x164',
+        name: 'Twist Gris 14.2x16.4',
         color: 'Gris',
-        size: '142x164',
+        size: '14.2x16.4',
         surface: 'Mat',
         thumbnail: '/tiles/twist/S039XX0T260X0XMAA050.png',
         faces: [
@@ -13939,9 +13939,9 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Twist Noir 142x164',
+        name: 'Twist Noir 14.2x16.4',
         color: 'Noir',
-        size: '142x164',
+        size: '14.2x16.4',
         surface: 'Mat',
         thumbnail: '/tiles/twist/S039XX0T260X0XMAAG50.png',
         faces: [
