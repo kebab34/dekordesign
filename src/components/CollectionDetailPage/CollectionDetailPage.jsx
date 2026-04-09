@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { productsData } from '../../data/content';
@@ -10,12 +10,14 @@ const CollectionDetailPage = () => {
   const { collectionName } = useParams();
   const decodedName = decodeURIComponent(collectionName);
 
-  const [lightbox, setLightbox] = useState(null); // { images: [], index: 0 }
+  const [lightbox, setLightbox] = useState(null);
+  const [heroIndex, setHeroIndex] = useState(0);
+  const heroTimerRef = useRef(null);
 
   const product = productsData.find(p => p.name === decodedName);
   const collData = collectionsData[decodedName];
 
-  useEffect(() => { window.scrollTo(0, 0); }, [collectionName]);
+  useEffect(() => { window.scrollTo(0, 0); setHeroIndex(0); }, [collectionName]);
 
   const closeLightbox = useCallback(() => setLightbox(null), []);
 
@@ -30,6 +32,21 @@ const CollectionDetailPage = () => {
     return () => window.removeEventListener('keydown', handler);
   }, [lightbox, closeLightbox]);
 
+  const hasProducts = collData ? collData.products && collData.products.length > 0 : false;
+  const mainImage = collData ? (collData.mainImage || (hasProducts ? collData.products[0].thumbnail : null) || product?.image) : null;
+  const renders = collData?.renders && collData.renders.length > 0 ? collData.renders : (mainImage ? [mainImage] : []);
+  const documents = collData?.documents || [];
+  const commonSpecs = collData?.commonSpecs || collData?.specs || {};
+
+  // Auto-avance du slider hero
+  useEffect(() => {
+    if (renders.length <= 1) return;
+    heroTimerRef.current = setInterval(() => {
+      setHeroIndex(i => (i + 1) % renders.length);
+    }, 5000);
+    return () => clearInterval(heroTimerRef.current);
+  }, [renders.length, collectionName]);
+
   if (!product || !collData) {
     return (
       <section className="cdp">
@@ -41,14 +58,17 @@ const CollectionDetailPage = () => {
     );
   }
 
-  const hasProducts = collData.products && collData.products.length > 0;
-  const mainImage = collData.mainImage || (hasProducts ? collData.products[0].thumbnail : null) || product.image;
-  const documents = collData.documents || [];
-  const commonSpecs = collData.commonSpecs || collData.specs || {};
-
   const similarProducts = productsData
     .filter(p => p.name !== product.name && p.categories.some(cat => product.categories.includes(cat)))
     .slice(0, 4);
+
+  const goHero = (idx) => {
+    setHeroIndex(idx);
+    clearInterval(heroTimerRef.current);
+    heroTimerRef.current = setInterval(() => {
+      setHeroIndex(i => (i + 1) % renders.length);
+    }, 5000);
+  };
 
   const openProduct = (prod) => {
     const validFaces = (prod.faces || []).filter(f => f && f.trim() !== '');
@@ -57,7 +77,7 @@ const CollectionDetailPage = () => {
     setLightbox({ images, index: 0 });
   };
 
-  const openImage = (img) => setLightbox({ images: [img], index: 0 });
+  const openRenders = () => setLightbox({ images: renders, index: heroIndex });
 
   // Nettoie le nom produit (retire le préfixe collection)
   const cleanName = (name) => name
@@ -102,15 +122,25 @@ const CollectionDetailPage = () => {
         </div>
       )}
 
-      {/* ── Hero ── */}
-      <div className="cdp-hero" onClick={() => openImage(mainImage)}>
-        <img src={mainImage} alt={product.name} className="cdp-hero-img"
-          onError={e => { if (e.target.src !== product.image) e.target.src = product.image; }} />
+      {/* ── Hero Slider ── */}
+      <div className="cdp-hero" onClick={openRenders}>
+
+        {/* Images empilées avec transition */}
+        {renders.map((src, i) => (
+          <img
+            key={src}
+            src={src}
+            alt={`${product.name} render ${i + 1}`}
+            className={`cdp-hero-img ${i === heroIndex ? 'active' : ''}`}
+            onError={e => { if (e.target.src !== product.image) e.target.src = product.image; }}
+          />
+        ))}
+
         <div className="cdp-hero-overlay">
           <div className="cdp-breadcrumb">
-            <Link to="/">{t('collectionDetail.home')}</Link>
+            <Link to="/" onClick={e => e.stopPropagation()}>{t('collectionDetail.home')}</Link>
             <span>/</span>
-            <Link to="/collections">Collections</Link>
+            <Link to="/collections" onClick={e => e.stopPropagation()}>Collections</Link>
             <span>/</span>
             <span>{product.name}</span>
           </div>
@@ -120,13 +150,40 @@ const CollectionDetailPage = () => {
             <div className="cdp-hero-line"><span className="cdp-hero-diamond">◆</span></div>
             <p className="cdp-hero-sub">{product.categories.map(c => t(`roomCategories.${c}`, c)).join(' · ')}</p>
           </div>
-          <div className="cdp-hero-zoom-hint">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="18" height="18">
-              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
-            </svg>
-            <span>{t('collectionDetail.viewRender')}</span>
+
+          {/* Bas du hero : dots + hint */}
+          <div className="cdp-hero-bottom">
+            {renders.length > 1 && (
+              <div className="cdp-hero-dots">
+                {renders.map((_, i) => (
+                  <button
+                    key={i}
+                    className={`cdp-hero-dot ${i === heroIndex ? 'active' : ''}`}
+                    onClick={e => { e.stopPropagation(); goHero(i); }}
+                  />
+                ))}
+              </div>
+            )}
+            <div className="cdp-hero-zoom-hint">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="16" height="16">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+              </svg>
+              <span>{renders.length > 1 ? `${renders.length} vues` : t('collectionDetail.viewRender')}</span>
+            </div>
           </div>
         </div>
+
+        {/* Flèches si plusieurs renders */}
+        {renders.length > 1 && (
+          <>
+            <button className="cdp-hero-prev" onClick={e => { e.stopPropagation(); goHero((heroIndex - 1 + renders.length) % renders.length); }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button className="cdp-hero-next" onClick={e => { e.stopPropagation(); goHero((heroIndex + 1) % renders.length); }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </>
+        )}
       </div>
 
       {/* ── Body ── */}
@@ -169,7 +226,7 @@ const CollectionDetailPage = () => {
           ) : (
             <div className="cdp-grid">
               {(collData.images || [product.image]).map((img, i) => (
-                <div key={i} className="cdp-card" onClick={() => openImage(img)}>
+                <div key={i} className="cdp-card" onClick={() => setLightbox({ images: [img], index: 0 })}>
                   <div className="cdp-card-img">
                     <img src={img} alt={`Vue ${i + 1}`} loading="lazy" />
                     <div className="cdp-card-hover">

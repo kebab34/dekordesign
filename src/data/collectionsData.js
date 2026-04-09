@@ -5,6 +5,9 @@
 export const collectionsData = {
   'Abella': {
     slug: 'abella',
+    renders: [
+      '/tiles/abella/abella-render.png',
+    ],
     mainImage: '/tiles/abella/abella-render.png',
     products: [
       {
@@ -52,6 +55,10 @@ export const collectionsData = {
   },
   'Adel': {
     slug: 'adel',
+    renders: [
+      '/tiles/adel/adel-render.png',
+      '/tiles/adel/adel-render-2.png',
+    ],
     mainImage: '/tiles/adel/adel-render-2.png',
     products: [
       {
@@ -99,6 +106,10 @@ export const collectionsData = {
   },
   'Adela': {
     slug: 'adela',
+    renders: [
+      '/tiles/adela/adela-render.png',
+      '/tiles/adela/adela-render-2.png',
+    ],
     mainImage: '/tiles/adela/adela-render-2.png',
     products: [
       {
@@ -199,6 +210,10 @@ export const collectionsData = {
   },
   'Adonis': {
     slug: 'adonis',
+    renders: [
+      '/tiles/adonis/adonis-render.png',
+      '/tiles/adonis/adonis-render-2.png',
+    ],
     mainImage: '/tiles/adonis/adonis-render-2.png',
     products: [
       {
@@ -296,6 +311,11 @@ export const collectionsData = {
   },
   'Adria': {
     slug: 'adria',
+    renders: [
+      '/tiles/adria/adria-render.png',
+      '/tiles/adria/adria-render2.png',
+      '/tiles/adria/adria-render-3.png',
+    ],
     mainImage: '/tiles/adria/adria-render-3.png',
     products: [
       {
@@ -530,6 +550,9 @@ export const collectionsData = {
   },
   'Alba': {
     slug: 'alba',
+    renders: [
+      '/tiles/alba/alba-render.png',
+    ],
     mainImage: '/tiles/alba/alba-render.png',
     products: [
       {
@@ -614,6 +637,10 @@ export const collectionsData = {
   },
   'Albero': {
     slug: 'albero',
+    renders: [
+      '/tiles/albero/albero-render.png',
+      '/tiles/albero/albero-render-2.png',
+    ],
     mainImage: '/tiles/albero/albero-render-2.png',
     products: [
       {
@@ -676,6 +703,10 @@ export const collectionsData = {
   },
   'Alboran': {
     slug: 'alboran',
+    renders: [
+      '/tiles/alboran/alboran-render.jpg',
+      '/tiles/alboran/alboran-render-2.jpg',
+    ],
     mainImage: '/tiles/alboran/alboran-beige.jpg',
     products: [
       {
@@ -716,6 +747,9 @@ export const collectionsData = {
   },
   'Aldonsa': {
     slug: 'aldonsa',
+    renders: [
+      '/tiles/aldonsa/aldonsa-render.jpg',
+    ],
     mainImage: '/tiles/aldonsa/aldonsa-render.jpg',
     products: [
       {
@@ -745,6 +779,9 @@ export const collectionsData = {
   },
   'Alin': {
     slug: 'alin',
+    renders: [
+      '/tiles/alin/alin-render.png',
+    ],
     mainImage: '/tiles/alin/alin-render.png',
     products: [
       {
@@ -813,6 +850,9 @@ export const collectionsData = {
   },
   'Altus': {
     slug: 'altus',
+    renders: [
+      '/tiles/altus/altus-render.jpg',
+    ],
     mainImage: '/tiles/altus/altus-render.jpg',
     products: [
       {
@@ -843,6 +883,9 @@ export const collectionsData = {
   },
   'Alyssa': {
     slug: 'alyssa',
+    renders: [
+      '/tiles/alyssa/alyssa-render.png',
+    ],
     mainImage: '/tiles/alyssa/alyssa-render.png',
     products: [
       {
@@ -905,6 +948,10 @@ export const collectionsData = {
   },
   'Amethist': {
     slug: 'amethist',
+    renders: [
+      '/tiles/amethist/amthist-render.jpg',
+      '/tiles/amethist/amethist-render-2.jpg',
+    ],
     products: [
       {
         id: 0,
@@ -972,6 +1019,10 @@ export const collectionsData = {
   },
   'Antiasit': {
     slug: 'antiasit',
+    renders: [
+      '/tiles/antiasit/antiasit-render.png',
+      '/tiles/antiasit/antiasit-render-2.png',
+    ],
     mainImage: '/tiles/antiasit/antiasit-render-2.png',
     products: [
       {
@@ -1056,6 +1107,11 @@ export const collectionsData = {
   },
   'Anticatto': {
     slug: 'anticatto',
+    renders: [
+      '/tiles/anticatto/anticatto-render.png',
+      '/tiles/anticatto/anticatto-render-2.png',
+      '/tiles/anticatto/anticatto-render--3.png',
+    ],
     mainImage: '/tiles/anticatto/anticatto-render--3.png',
     products: [
       {
@@ -1102,6 +1158,9 @@ export const collectionsData = {
   },
   'Antique Carrara': {
     slug: 'antique-carrara',
+    renders: [
+      '/tiles/antique-carrara/antique-carrara-render.png',
+    ],
     mainImage: '/tiles/antique-carrara/antique-carrara-render.png',
     products: [
       {
@@ -1244,6 +1303,9 @@ export const collectionsData = {
   },
   'Aqua Marin': {
     slug: 'aqua-marin',
+    renders: [
+      '/tiles/aqua-marin/aquamarin-render.jpg',
+    ],
     products: [
       {
         id: 0,
@@ -1271,6 +1333,11 @@ export const collectionsData = {
   },
   'Arch': {
     slug: 'arch',
+    renders: [
+      '/tiles/arch/arch-render.png',
+      '/tiles/arch/arch-render-2.png',
+      '/tiles/arch/arch-render-3.png',
+    ],
     mainImage: '/tiles/arch/arch-render-2.png',
     products: [
       {
@@ -1468,6 +1535,11 @@ export const collectionsData = {
   },
   'Arcides': {
     slug: 'arcides',
+    renders: [
+      '/tiles/arcides/arcides-render.png',
+      '/tiles/arcides/arcides-render-2.png',
+      '/tiles/arcides/arcides-render-3.png',
+    ],
     mainImage: '/tiles/arcides/arcides-render-2.png',
     products: [
       {
@@ -1711,6 +1783,9 @@ export const collectionsData = {
   },
   'Arcos': {
     slug: 'arcos',
+    renders: [
+      '/tiles/arcos/arcos-render.png',
+    ],
     mainImage: '/tiles/arcos/arcos-render.png',
     products: [
       {
@@ -1839,6 +1914,10 @@ export const collectionsData = {
   },
   'Aristo': {
     slug: 'aristo',
+    renders: [
+      '/tiles/aristo/aristo-render.png',
+      '/tiles/aristo/aristo-render-2.png',
+    ],
     mainImage: '/tiles/aristo/aristo-render-2.png',
     products: [
       {
@@ -1937,6 +2016,9 @@ export const collectionsData = {
   },
   'Arno': {
     slug: 'arno',
+    renders: [
+      '/tiles/arno/arno-render.png',
+    ],
     mainImage: '/tiles/arno/arno-render.png',
     products: [
       {
@@ -1965,6 +2047,9 @@ export const collectionsData = {
   },
   'Artanes Oxide': {
     slug: 'artanes-oxide',
+    renders: [
+      '/tiles/artanes-oxide/artanes-oxide-render.jpg',
+    ],
     products: [
       {
         id: 0,
@@ -1992,6 +2077,11 @@ export const collectionsData = {
   },
   'Assos': {
     slug: 'assos',
+    renders: [
+      '/tiles/assos/assos-render.png',
+      '/tiles/assos/assos-render-2.png',
+      '/tiles/assos/assos-render-3.png',
+    ],
     mainImage: '/tiles/assos/assos-render-2.png',
     products: [
       {
@@ -2212,6 +2302,10 @@ export const collectionsData = {
   },
   'Atelier': {
     slug: 'atelier',
+    renders: [
+      '/tiles/atelier/atelier-render.png',
+      '/tiles/atelier/atelier-render-2.png',
+    ],
     mainImage: '/tiles/atelier/atelier-render-2.png',
     products: [
       {
@@ -2276,6 +2370,9 @@ export const collectionsData = {
   },
   'Atlantik': {
     slug: 'atlantik',
+    renders: [
+      '/tiles/atlantik/atlantik-render.png',
+    ],
     mainImage: '/tiles/atlantik/atlantik-render.png',
     products: [
       {
@@ -2304,6 +2401,11 @@ export const collectionsData = {
   },
   'Avanos': {
     slug: 'avanos',
+    renders: [
+      '/tiles/avanos/avanos-render.png',
+      '/tiles/avanos/avanos-render-2.png',
+      '/tiles/avanos/avanos-render-3.png',
+    ],
     mainImage: '/tiles/avanos/avanos-render-2.png',
     products: [
       {
@@ -2368,6 +2470,11 @@ export const collectionsData = {
   },
   'Belgium Stone': {
     slug: 'belgium-stone',
+    renders: [
+      '/tiles/belgium-stone/belgium-stone-render.png',
+      '/tiles/belgium-stone/belgium-stone-render-2.png',
+      '/tiles/belgium-stone/belgium-stone-render-3.png',
+    ],
     mainImage: '/tiles/belgium-stone/belgium-stone-render-2.png',
     products: [
       {
