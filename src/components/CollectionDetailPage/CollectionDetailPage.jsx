@@ -51,7 +51,9 @@ const CollectionDetailPage = () => {
     .slice(0, 4);
 
   const openProduct = (prod) => {
-    const images = prod.faces && prod.faces.length > 0 ? prod.faces : [prod.thumbnail];
+    const validFaces = (prod.faces || []).filter(f => f && f.trim() !== '');
+    const images = validFaces.length > 0 ? validFaces : [prod.thumbnail].filter(Boolean);
+    if (images.length === 0) return;
     setLightbox({ images, index: 0 });
   };
 
@@ -102,7 +104,8 @@ const CollectionDetailPage = () => {
 
       {/* ── Hero ── */}
       <div className="cdp-hero" onClick={() => openImage(mainImage)}>
-        <img src={mainImage} alt={product.name} className="cdp-hero-img" />
+        <img src={mainImage} alt={product.name} className="cdp-hero-img"
+          onError={e => { if (e.target.src !== product.image) e.target.src = product.image; }} />
         <div className="cdp-hero-overlay">
           <div className="cdp-breadcrumb">
             <Link to="/">{t('collectionDetail.home')}</Link>
@@ -141,10 +144,11 @@ const CollectionDetailPage = () => {
               {collData.products.map((prod) => (
                 <div key={prod.id} className="cdp-card" onClick={() => openProduct(prod)}>
                   <div className="cdp-card-img">
-                    <img src={prod.thumbnail} alt={prod.name} loading="lazy" />
+                    <img src={prod.thumbnail} alt={prod.name} loading="lazy"
+                      onError={e => { if (e.target.src !== mainImage) e.target.src = mainImage; }} />
                     <div className="cdp-card-hover">
-                      {prod.faces && prod.faces.length > 1 && (
-                        <span className="cdp-faces-count">{prod.faces.length} faces</span>
+                      {prod.faces && prod.faces.filter(f => f && f.trim() !== '').length > 1 && (
+                        <span className="cdp-faces-count">{prod.faces.filter(f => f && f.trim() !== '').length} faces</span>
                       )}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="28" height="28">
                         <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/>
