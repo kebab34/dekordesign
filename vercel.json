@@ -9,6 +9,7 @@
     { "src": "/collection/(.*)", "dest": "/collection/$1" },
     { "src": "/images/(.*)", "dest": "/images/$1" },
     { "src": "/docs/(.*)", "dest": "/docs/$1" },
+    { "src": "/tiles/(.*)", "dest": "/tiles/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
