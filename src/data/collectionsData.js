@@ -5,10 +5,11 @@
 export const collectionsData = {
   'Abella': {
     slug: 'abella',
+    categories: ['Intérieur', 'Salle de Bain', 'Cuisine'],
     renders: [
       '/tiles/abella/abella-render.png',
     ],
-    mainImage: '/tiles/abella/abella-render.png',
+    mainImage: '/tiles/adel/adel-render-2.png',
     products: [
       {
         id: 0,
@@ -16,7 +17,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: '/tiles/abella/abella-blanc-60x60.png',
+        thumbnail: '/tiles/abella/abella-blanc.png',
         faces: [
           '',
         ],
@@ -40,7 +41,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '/tiles/abella/abella-blanc.png',
+        thumbnail: '/tiles/abella/abella-blanc-60x60.png',
         faces: [
           '',
         ],
@@ -55,6 +56,7 @@ export const collectionsData = {
   },
   'Adel': {
     slug: 'adel',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/adel/adel-render.png',
       '/tiles/adel/adel-render-2.png',
@@ -106,19 +108,20 @@ export const collectionsData = {
   },
   'Adela': {
     slug: 'adela',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/adela/adela-render.png',
       '/tiles/adela/adela-render-2.png',
     ],
-    mainImage: '/tiles/adela/adela-render-2.png',
+    mainImage: '/tiles/adela/adela-render.png',
     products: [
       {
         id: 0,
-        name: 'Adela Blanc 30x90',
+        name: 'Adela Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '/tiles/adela/adela-blanc-dekofon.png',
+        thumbnail: '/tiles/adela/adela-blanc.png',
         faces: [
           '',
         ],
@@ -126,7 +129,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Adela Blanc Dekofon 30x90',
+        name: 'Adela Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -138,7 +141,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Adela Gris 30x90',
+        name: 'Adela Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
@@ -150,7 +153,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Adela Gris Dekofon 30x90',
+        name: 'Adela Grey Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -162,7 +165,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Adela Anthracite 30x90',
+        name: 'Adela Antrasit 30x90',
         color: 'Anthracite',
         size: '30x90',
         surface: 'Brillant',
@@ -174,7 +177,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Adela Anthracite Dekofon 30x90',
+        name: 'Adela Antrasit Dekofon 30x90',
         color: 'Anthracite Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -186,7 +189,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Adela Blanc 60x60',
+        name: 'Adela White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -210,6 +213,7 @@ export const collectionsData = {
   },
   'Adonis': {
     slug: 'adonis',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/adonis/adonis-render.png',
       '/tiles/adonis/adonis-render-2.png',
@@ -218,8 +222,8 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ADONIS 60X60',
-        color: '',
+        name: 'Adonis Beyaz 60x60',
+        color: 'Blanc',
         size: '60x60',
         surface: null,
         thumbnail: '/tiles/adonis/adonis-60x60.png',
@@ -236,8 +240,8 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ADONIS MAT 30X90 DEKOFON',
-        color: '',
+        name: 'Adonis Beyaz Dekofon 30x90',
+        color: 'Blanc',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: '/tiles/adonis/adonis-dekofon.png',
@@ -256,37 +260,12 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ADONIS MAT 30X90 FON',
-        color: '',
+        name: 'Adonis Beyaz 30x90',
+        color: 'Blanc',
         size: '30x90',
         surface: 'Fon',
         thumbnail: '/tiles/adonis/adonis-blanc.png',
         faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 3,
-        name: 'ADONIS MAT 45X45',
-        color: '',
-        size: '45x45',
-        surface: null,
-        thumbnail: '/tiles/adonis/adonis-blanc.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
           '',
           '',
           '',
@@ -311,9 +290,10 @@ export const collectionsData = {
   },
   'Adria': {
     slug: 'adria',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/adria/adria-render.png',
-      '/tiles/adria/adria-render2.png',
+      '/tiles/adria/adria-render-2.png',
       '/tiles/adria/adria-render-3.png',
     ],
     mainImage: '/tiles/adria/adria-render-3.png',
@@ -336,7 +316,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ADRIA ANTRASİT 30X90',
+        name: 'Adria Antrasit 30x90',
         color: 'Anthracite',
         size: '30x90',
         surface: null,
@@ -352,7 +332,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ADRIA KAHVE DUVAR 30X90',
+        name: 'Adria Kahve 30x90',
         color: 'Brun',
         size: '30x90',
         surface: 'Mural',
@@ -384,7 +364,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ADRIA MIX DEKOFON 30X90',
+        name: 'Adria Mix Dekofon 30x90',
         color: 'Mix',
         size: '30x90',
         surface: 'Dekofon',
@@ -400,7 +380,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'ADRIA WHITE DEKOFON 30X90',
+        name: 'Adria Beyaz Dekofon 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Dekofon',
@@ -416,7 +396,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'ADRIA WHITE DUVAR 30X90',
+        name: 'Adria Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mural',
@@ -445,6 +425,18 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 8,
+        name: 'Adria Beyaz 60x60',
+        color: 'Beyaz',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/adria/adria-white-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -458,11 +450,12 @@ export const collectionsData = {
   },
   'Agrilion': {
     slug: 'agrilion',
+    categories: ['Jardin'],
     mainImage: '/collection/CONCEPT 60X120.jpg',
     products: [
       {
         id: 0,
-        name: 'Agrilion Gris 60x120',
+        name: 'Agrilion Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -510,11 +503,12 @@ export const collectionsData = {
   },
   'Agusta': {
     slug: 'agusta',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/agusta/agusta-cafe.jpg',
     products: [
       {
         id: 0,
-        name: 'Agusta Café 30x60',
+        name: 'Agusta Coffee 30x60',
         color: 'Café',
         size: '30x60',
         surface: 'Mat',
@@ -550,6 +544,7 @@ export const collectionsData = {
   },
   'Alba': {
     slug: 'alba',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/alba/alba-render.png',
     ],
@@ -557,7 +552,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALBA 19.7x19.7',
+        name: 'Alba 19.7x19.7',
         color: '',
         size: '19.7x19.7',
         surface: null,
@@ -571,7 +566,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ALBA AUTUMN 19.7x19.7',
+        name: 'Alba Autumn 19.7x19.7',
         color: 'Automne',
         size: '19.7x19.7',
         surface: null,
@@ -585,7 +580,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ALBA SPRING 19.7x19.7',
+        name: 'Alba Spring 19.7x19.7',
         color: 'Printemps',
         size: '19.7x19.7',
         surface: null,
@@ -599,7 +594,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'ALBA SUMMER 19.7x19.7',
+        name: 'Alba Summer 19.7x19.7',
         color: 'Été',
         size: '19.7x19.7',
         surface: null,
@@ -613,7 +608,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ALBA WINTER 19.7x19.7',
+        name: 'Alba Winter 19.7x19.7',
         color: 'Hiver',
         size: '19.7x19.7',
         surface: null,
@@ -637,6 +632,7 @@ export const collectionsData = {
   },
   'Albero': {
     slug: 'albero',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/albero/albero-render.png',
       '/tiles/albero/albero-render-2.png',
@@ -645,7 +641,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALBERO EBONI 60X60',
+        name: 'Albero Eboni 60x60',
         color: 'Ébène',
         size: '60x60',
         surface: null,
@@ -661,7 +657,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ALBERO GREY 60X60',
+        name: 'Albero Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: null,
@@ -677,7 +673,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ALBERO OAK 60X60',
+        name: 'Albero Oak 60x60',
         color: 'Chêne',
         size: '60x60',
         surface: null,
@@ -703,6 +699,7 @@ export const collectionsData = {
   },
   'Alboran': {
     slug: 'alboran',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/alboran/alboran-render.jpg',
       '/tiles/alboran/alboran-render-2.jpg',
@@ -723,7 +720,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Alboran Gris 30x60',
+        name: 'Alboran Grey 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -747,6 +744,7 @@ export const collectionsData = {
   },
   'Aldonsa': {
     slug: 'aldonsa',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/aldonsa/aldonsa-render.jpg',
     ],
@@ -754,7 +752,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALDONSA BEYAZ 60X120',
+        name: 'Aldonsa 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: null,
@@ -779,6 +777,7 @@ export const collectionsData = {
   },
   'Alin': {
     slug: 'alin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/alin/alin-render.png',
     ],
@@ -786,7 +785,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALIN 30X90',
+        name: 'Alin 30x90',
         color: '',
         size: '30x90',
         surface: null,
@@ -821,7 +820,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ALIN DEKOFON 30X90',
+        name: 'Alin Dekofon 30x90',
         color: '',
         size: '30x90',
         surface: 'Dekofon',
@@ -837,6 +836,18 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 3,
+        name: 'Alin 60x60',
+        color: '',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/alin/alin-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -850,6 +861,7 @@ export const collectionsData = {
   },
   'Altus': {
     slug: 'altus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/altus/altus-render.jpg',
     ],
@@ -857,7 +869,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ALTUS 60X120',
+        name: 'Altus 60x120',
         color: '',
         size: '60x120',
         surface: null,
@@ -883,6 +895,7 @@ export const collectionsData = {
   },
   'Alyssa': {
     slug: 'alyssa',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/alyssa/alyssa-render.png',
     ],
@@ -890,7 +903,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: '60X60 ALYSSA ANTRASIT',
+        name: 'Alyssa Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: null,
@@ -906,7 +919,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: '60X60 ALYSSA BONE',
+        name: 'Alyssa Bone 60x60',
         color: 'Beige',
         size: '60x60',
         surface: null,
@@ -922,7 +935,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ALYSSA GREY MAT 60X60',
+        name: 'Alyssa Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: null,
@@ -948,8 +961,9 @@ export const collectionsData = {
   },
   'Amethist': {
     slug: 'amethist',
+    categories: ['Jardin'],
     renders: [
-      '/tiles/amethist/amthist-render.jpg',
+      '/tiles/amethist/amethist-render.jpg',
       '/tiles/amethist/amethist-render-2.jpg',
     ],
     mainImage: '/tiles/antiasit/antiasit-render-2.png',
@@ -995,6 +1009,26 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 3,
+        name: 'Amethist Anthracite 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/amethist/amethist-anthracite.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Amethist Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/amethist/amethist-gris.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -1006,8 +1040,83 @@ export const collectionsData = {
       // À remplir depuis le PDF
     },
   },
+
+  'Antares': {
+    slug: 'antares',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/antares/antares.jpg',
+    products: [
+      {
+        id: 0,
+        name: 'Antares',
+        color: '',
+        size: '',
+        surface: 'Mat',
+        thumbnail: '/tiles/antares/antares.jpg',
+        faces: [''],
+        specifications: {},
+      },,
+      {
+        id: 1,
+        name: 'Antares 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/antares/antares.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [],
+    commonSpecs: {},
+  },
+  'Antiasit': {
+    slug: 'antiasit',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [
+      '/tiles/antiasit/antiasit-render.png',
+      '/tiles/antiasit/antiasit-render-2.png',
+    ],
+    mainImage: '/tiles/antiasit/antiasit-render.png',
+    products: [
+      {
+        id: 0,
+        name: 'Antiasit Bej 33x33',
+        color: 'Beige',
+        size: '33x33',
+        surface: 'Mat',
+        thumbnail: '/tiles/antiasit/antiasit-beige.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 1,
+        name: 'Antiasit Beyaz 33x33',
+        color: 'Blanc',
+        size: '33x33',
+        surface: 'Mat',
+        thumbnail: '/tiles/antiasit/antiasit-blanc.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 2,
+        name: 'Antiasit Gri 33x33',
+        color: 'Gris',
+        size: '33x33',
+        surface: 'Mat',
+        thumbnail: '/tiles/antiasit/antiasit-gris.png',
+        faces: [''],
+        specifications: {},
+      },
+    ],
+    documents: [],
+    commonSpecs: {},
+  },
   'Antibes': {
     slug: 'antibes',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/antibes/antibes.jpg',
     products: [
       {
@@ -1036,16 +1145,17 @@ export const collectionsData = {
   },
   'Anticatto': {
     slug: 'anticatto',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/anticatto/anticatto-render.png',
       '/tiles/anticatto/anticatto-render-2.png',
-      '/tiles/anticatto/anticatto-render--3.png',
+      '/tiles/anticatto/anticatto-render.png',
     ],
-    mainImage: '/tiles/anticatto/anticatto-render--3.png',
+    mainImage: '/tiles/anticatto/anticatto-render.png',
     products: [
       {
         id: 0,
-        name: 'ANTICATTO BIANCO 60X60',
+        name: 'Anticatto Bianco 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: null,
@@ -1061,7 +1171,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ANTICATTO MISTO 60X60',
+        name: 'Anticatto Misto 60x60',
         color: 'Mixte',
         size: '60x60',
         surface: null,
@@ -1087,6 +1197,7 @@ export const collectionsData = {
   },
   'Antique Carrara': {
     slug: 'antique-carrara',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/antique-carrara/antique-carrara-render.png',
     ],
@@ -1094,7 +1205,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ANTIQUE CARRARA 40X120 DEKOR - 1',
+        name: 'Antique Carrara Dekor 40x120',
         color: '',
         size: '40x120',
         surface: null,
@@ -1108,7 +1219,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ANTIQUE CARRARA 40X120 POLYGON DEKOR - 1',
+        name: 'Antique Carrara Polygon Dekor 40x120',
         color: '',
         size: '40x120',
         surface: null,
@@ -1122,7 +1233,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ANTIQUE CARRARA 60X60',
+        name: 'Antique Carrara Parlak 60x60',
         color: '',
         size: '60x60',
         surface: null,
@@ -1138,7 +1249,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'ANTUQUE CARRARA 40X120 DEKOFON - 1',
+        name: 'Antique Carrara Dekofon 40x120',
         color: '',
         size: '40x120',
         surface: 'Dekofon',
@@ -1152,7 +1263,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ANTUQUE CARRARA 40X120 DEKOFON - 2',
+        name: 'Antique Carrara Dekofon 40x120',
         color: '',
         size: '40x120',
         surface: 'Dekofon',
@@ -1166,7 +1277,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'ANTUQUE CARRARA 40X120 DEKOFON - 3',
+        name: 'Antique Carrara Dekofon 40x120',
         color: '',
         size: '40x120',
         surface: 'Dekofon',
@@ -1180,7 +1291,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'ANTUQUE CARRARA 40X120 FON - 1',
+        name: 'Antique Carrara 40x120',
         color: '',
         size: '40x120',
         surface: 'Fon',
@@ -1194,7 +1305,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'ANTUQUE CARRARA 40X120 FON - 2',
+        name: 'Antique Carrara 40x120',
         color: '',
         size: '40x120',
         surface: 'Fon',
@@ -1208,7 +1319,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'ANTUQUE CARRARA 40X120 FON - 3',
+        name: 'Antique Carrara 40x120',
         color: '',
         size: '40x120',
         surface: 'Fon',
@@ -1219,6 +1330,16 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 9,
+        name: 'Antique Carrara Parlak 61x61',
+        color: 'Parlak',
+        size: '61x61',
+        surface: 'Brillant',
+        thumbnail: '/tiles/antique-carrara/antique-carrara-parlak-61x61.png',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -1232,8 +1353,9 @@ export const collectionsData = {
   },
   'Aqua Marin': {
     slug: 'aqua-marin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/aqua-marin/aquamarin-render.jpg',
+      '/tiles/aqua-marin/aqua-marin-render.jpg',
     ],
     mainImage: '/tiles/arch/arch-render-2.png',
     products: [
@@ -1302,7 +1424,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'ARCH AGRI 60X120',
+        name: 'Arch Açık Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: null,
@@ -1318,7 +1440,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ARCH AGRI 60X60',
+        name: 'Arch Açık Gri Parlak 60x60',
         color: 'Gris',
         size: '60x60',
         surface: null,
@@ -1357,7 +1479,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'ARCH GREY DEKOFON 30X60',
+        name: 'Arch Gri Dekofon 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Dekofon',
@@ -1374,7 +1496,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'ARCH GRI 60X120',
+        name: 'Arch Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: null,
@@ -1390,7 +1512,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'ARCH GRI 60X60',
+        name: 'Arch Gri Parlak 60x60',
         color: 'Gris',
         size: '60x60',
         surface: null,
@@ -1419,6 +1541,16 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 10,
+        name: 'Aqua Marin 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/aqua-marin/aquamarin.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -1432,6 +1564,7 @@ export const collectionsData = {
   },
   'Arcides': {
     slug: 'arcides',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/arcides/arcides-render.png',
       '/tiles/arcides/arcides-render-2.png',
@@ -1441,7 +1574,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ARCIDES ANTRASİT  60X60',
+        name: 'Arcides Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: null,
@@ -1460,7 +1593,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ARCIDES ANTRASİT 60X120',
+        name: 'Arcides Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: null,
@@ -1476,7 +1609,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ARCIDES BONE 60X120',
+        name: 'Arcides Bone 60x120',
         color: 'Beige',
         size: '60x120',
         surface: null,
@@ -1492,7 +1625,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'ARCIDES BONE 60X60',
+        name: 'Arcides Bone 60x60',
         color: 'Beige',
         size: '60x60',
         surface: null,
@@ -1511,7 +1644,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ARCIDES GREY 60x60',
+        name: 'Arcides Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: null,
@@ -1530,7 +1663,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'ARCIDES GRI 60X120',
+        name: 'Arcides Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: null,
@@ -1565,7 +1698,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'ARCIDES LATTE-60X120',
+        name: 'Arcides Latte 60x120',
         color: 'Latte',
         size: '60x120',
         surface: null,
@@ -1581,7 +1714,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'ARCIDES LATTE-60X60',
+        name: 'Arcides Latte 60x60',
         color: 'Latte',
         size: '60x60',
         surface: null,
@@ -1600,7 +1733,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'ARCIDES SMOKE 30X60',
+        name: 'Arcides Smoke 30x60',
         color: 'Fumé',
         size: '30x60',
         surface: null,
@@ -1619,7 +1752,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'ARCIDES SMOKE 60X120',
+        name: 'Arcides Smoke 60x120',
         color: 'Fumé',
         size: '60x120',
         surface: null,
@@ -1635,7 +1768,7 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'ARCIDES SMOKE 60X60',
+        name: 'Arcides Smoke 60x60',
         color: 'Fumé',
         size: '60x60',
         surface: null,
@@ -1667,6 +1800,190 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 13,
+        name: 'Arcides Antrasit 61x61',
+        color: 'Anthracite',
+        size: '61x61',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-anthracite-60x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 14,
+        name: 'Arcides Bone 61x61',
+        color: 'Bone',
+        size: '61x61',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-bone.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 15,
+        name: 'Arcides Gris 61x61',
+        color: 'Gris',
+        size: '61x61',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-gris-60x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 16,
+        name: 'Arcides Latte 61x61',
+        color: 'Latte',
+        size: '61x61',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-latte-60x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 17,
+        name: 'Arcides Smoke 61x61',
+        color: 'Smoke',
+        size: '61x61',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-smoke-60x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 18,
+        name: 'Arcides Antrasit 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-anthracite.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 19,
+        name: 'Arcides Bone 60x120',
+        color: 'Bone',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-bone.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 20,
+        name: 'Arcides Grey 60x120',
+        color: 'Gris',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-gris.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 21,
+        name: 'Arcides Latte 60x120',
+        color: 'Latte',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-latte.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 22,
+        name: 'Arcides Smoke 60x120',
+        color: 'Smoke',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-smoke.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 23,
+        name: 'Arcides Antrasit 60x60',
+        color: 'Anthracite',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-anthracite-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 24,
+        name: 'Arcides Bone 60x60',
+        color: 'Beige',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-latte-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 25,
+        name: 'Arcides Latte 60x60',
+        color: 'Latte',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-latte-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 26,
+        name: 'Arcides Smoke 60x60',
+        color: 'Fumé',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-smoke-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 27,
+        name: 'Arcides Antrasit 30x60',
+        color: 'Anthracite',
+        size: '30x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-anthracite.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 28,
+        name: 'Arcides Bone 30x60',
+        color: 'Beige',
+        size: '30x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-bone.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 29,
+        name: 'Arcides Grey 30x60',
+        color: 'Grey',
+        size: '30x60',
+        surface: null,
+        thumbnail: '/tiles/arcides/arcides-gris.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -1680,6 +1997,7 @@ export const collectionsData = {
   },
   'Arcos': {
     slug: 'arcos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/arcos/arcos-render.png',
     ],
@@ -1687,7 +2005,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ARCOS MAT MOCHA 60X120',
+        name: 'Arcos Mocha 60x120',
         color: 'Moka',
         size: '60x120',
         surface: null,
@@ -1708,7 +2026,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ARCOS MAT SILVER 60X120',
+        name: 'Arcos Silver 60x120',
         color: 'Argent',
         size: '60x120',
         surface: null,
@@ -1729,7 +2047,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'ARCOS MAT SMOKE 60X120',
+        name: 'Arcos Smoke 60x120',
         color: 'Fumé',
         size: '60x120',
         surface: null,
@@ -1757,13 +2075,113 @@ export const collectionsData = {
       // À remplir depuis le PDF
     },
   },
+
+  'Arch': {
+    slug: 'arch',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [
+      '/tiles/arch/arch-render.png',
+      '/tiles/arch/arch-render-2.png',
+      '/tiles/arch/arch-render-3.png',
+    ],
+    mainImage: '/tiles/arch/arch-render.png',
+    products: [
+      {
+        id: 0,
+        name: 'Arch Gri 30x60',
+        color: 'Gris',
+        size: '30x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/arch/arch-gris-30x60.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 1,
+        name: 'Arch Açık Gri 30x60',
+        color: 'Gris Clair',
+        size: '30x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/arch/arch-acik-gris-30x60.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 2,
+        name: 'Arch Gri 60x120',
+        color: 'Gris',
+        size: '60x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/arch/arch-gris.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 3,
+        name: 'Arch Gris Brillant',
+        color: 'Gris',
+        size: '',
+        surface: 'Brillant',
+        thumbnail: '/tiles/arch/arch-gris-parlak.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 4,
+        name: 'Arch Décor',
+        color: 'Mix',
+        size: '',
+        surface: 'Dekofon',
+        thumbnail: '/tiles/arch/arch-mix-dekor.png',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 5,
+        name: 'Arch Gris Décor',
+        color: 'Gris',
+        size: '',
+        surface: 'Dekofon',
+        thumbnail: '/tiles/arch/arch-gris-dekofon.png',
+        faces: [''],
+        specifications: {},
+      },,
+      {
+        id: 6,
+        name: 'Arch Açık Gri Mat 50x50',
+        color: 'Açık Gri',
+        size: '50x50',
+        surface: 'Mat',
+        thumbnail: '/tiles/arch/arch-acik-gris-30x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Arch Mix Dekor 30x60',
+        color: 'Mix',
+        size: '30x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/arch/arch-mix-dekor.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      }
+    ],
+    documents: [],
+    commonSpecs: {},
+  },
   'Aren': {
     slug: 'aren',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/aren/aren-beige.png',
     products: [
       {
         id: 0,
-        name: 'Aren Blanc 60x120',
+        name: 'Aren White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
@@ -1787,7 +2205,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Aren Gris 60x120',
+        name: 'Aren Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -1811,6 +2229,7 @@ export const collectionsData = {
   },
   'Aristo': {
     slug: 'aristo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/aristo/aristo-render.png',
       '/tiles/aristo/aristo-render-2.png',
@@ -1819,7 +2238,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ARISTO GREY 60X120',
+        name: 'Aristo Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: null,
@@ -1836,11 +2255,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'ARISTO GREY 80X80',
+        name: 'Aristo Açık Gri 80x80',
         color: 'Gris',
         size: '80x80',
         surface: null,
-        thumbnail: '/tiles/aristo/aristo-gris.png',
+        thumbnail: '/tiles/aristo/aristo-acik-gris.png',
         faces: [
           '',
           '',
@@ -1851,26 +2270,11 @@ export const collectionsData = {
           // À remplir depuis le PDF
         },
       },
-      {
-        id: 2,
-        name: 'ARISTO LIGHT GREY 80X80',
-        color: 'Gris clair',
-        size: '80x80',
-        surface: null,
-        thumbnail: '/tiles/aristo/aristo-vizon-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+      
       },
       {
         id: 3,
-        name: 'ARISTO VIZON  80X80',
+        name: 'Aristo Vizon 80x80',
         color: 'Vison',
         size: '80x80',
         surface: null,
@@ -1887,7 +2291,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'ARISTO VIZON 60X120',
+        name: 'Aristo Vizon 60x120',
         color: 'Vison',
         size: '60x120',
         surface: null,
@@ -1913,6 +2317,7 @@ export const collectionsData = {
   },
   'Arno': {
     slug: 'arno',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/arno/arno-render.png',
     ],
@@ -1920,7 +2325,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ARNO 50X50 TEK FACE',
+        name: 'Arno 50x50',
         color: '',
         size: '50x50',
         surface: null,
@@ -1944,6 +2349,7 @@ export const collectionsData = {
   },
   'Artanes Oxide': {
     slug: 'artanes-oxide',
+    categories: ['Jardin'],
     renders: [
       '/tiles/artanes-oxide/artanes-oxide-render.jpg',
     ],
@@ -1951,7 +2357,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: '30x90 MAT ASOS DEKOFON',
+        name: 'Assos Dekofon 30x90',
         color: '',
         size: '30x90',
         surface: 'Dekofon',
@@ -1980,7 +2386,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: '30x90 MAT ASOS FON',
+        name: 'Assos 30x90',
         color: '',
         size: '30x90',
         surface: 'Fon',
@@ -2006,6 +2412,16 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
+      },
+      {
+        id: 2,
+        name: 'Artanes Oxide 60x120',
+        color: 'Oxide',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/artanes-oxide/artane-oxide.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -2017,8 +2433,124 @@ export const collectionsData = {
       // À remplir depuis le PDF
     },
   },
+
+  'Assos': {
+    slug: 'assos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    renders: [
+      '/tiles/assos/assos-render.png',
+      '/tiles/assos/assos-render-2.png',
+      '/tiles/assos/assos-render-3.png',
+    ],
+    mainImage: '/tiles/assos/assos-render.png',
+    products: [
+      {
+        id: 0,
+        name: 'Assos Beige 60x120',
+        color: 'Beige',
+        size: '60x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/assos/assos-beige-60x120.jpg',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 1,
+        name: 'Assos Grey 60x120',
+        color: 'Gris',
+        size: '60x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/assos/assos-gris-60x120.jpg',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 2,
+        name: 'Assos Noche 60x120',
+        color: 'Noche',
+        size: '60x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/assos/assos-noche-60x120.jpg',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 3,
+        name: 'Assos Silver 60x120',
+        color: 'Argent',
+        size: '60x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/assos/assos-silver-60x120.jpg',
+        faces: [''],
+        specifications: {},
+      },
+      {
+        id: 4,
+        name: 'Assos Décor 30x90',
+        color: 'Mix',
+        size: '30x90',
+        surface: 'Dekofon',
+        thumbnail: '/tiles/assos/assos-dekofon-30x90.png',
+        faces: [''],
+        specifications: {},
+      },,
+      {
+        id: 5,
+        name: 'Assos 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/assos/assos-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Assos Beige 60x120',
+        color: 'Beige',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/assos/assos-beige-60x120.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Assos Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/assos/assos-gris-60x120.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 8,
+        name: 'Assos Noche 60x120',
+        color: 'Noche',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/assos/assos-noche-60x120.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 9,
+        name: 'Assos Silver 60x120',
+        color: 'Silver',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/assos/assos-silver-60x120.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [],
+    commonSpecs: {},
+  },
   'Astoria': {
     slug: 'astoria',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/astoria/astoria-2.png',
     products: [
       {
@@ -2083,7 +2615,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Astoria Café 30x90',
+        name: 'Astoria Kahve 30x90',
         color: 'Café',
         size: '30x90',
         surface: 'Brillant',
@@ -2095,7 +2627,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Astoria Café Dekofon 30x90',
+        name: 'Astoria Kahve Dekofon 30x90',
         color: 'Café Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -2107,7 +2639,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Astoria Gris 30x90',
+        name: 'Astoria Gri 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
@@ -2119,7 +2651,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Astoria Gris Dekofon 30x90',
+        name: 'Astoria Gri Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -2131,7 +2663,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Astoria Gris Dekor 30x90',
+        name: 'Astoria Gri Dekor 30x90',
         color: 'Gris Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -2167,6 +2699,7 @@ export const collectionsData = {
   },
   'Atelier': {
     slug: 'atelier',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/atelier/atelier-render.png',
       '/tiles/atelier/atelier-render-2.png',
@@ -2175,7 +2708,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Atelier Perle 15x60',
+        name: 'Atelier Pearl 15x60',
         color: 'Perle',
         size: '15x60',
         surface: 'Mat',
@@ -2235,6 +2768,7 @@ export const collectionsData = {
   },
   'Atlantik': {
     slug: 'atlantik',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/atlantik/atlantik-render.png',
     ],
@@ -2266,6 +2800,7 @@ export const collectionsData = {
   },
   'Avanos': {
     slug: 'avanos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/avanos/avanos-render.png',
       '/tiles/avanos/avanos-render-2.png',
@@ -2335,6 +2870,7 @@ export const collectionsData = {
   },
   'Belgium Stone': {
     slug: 'belgium-stone',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/belgium-stone/belgium-stone-render.png',
       '/tiles/belgium-stone/belgium-stone-render-2.png',
@@ -2344,7 +2880,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Belgium Stone Gris 60x60',
+        name: 'Belgium Stone Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -2354,7 +2890,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Belgium Stone Gris Clair 30x60',
+        name: 'Belgium Stone Light Grey 30x60',
         color: 'Gris Clair',
         size: '30x60',
         surface: 'Mat',
@@ -2364,7 +2900,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Belgium Stone Gris 30x60',
+        name: 'Belgium Stone Grey 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -2374,7 +2910,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Belgium Stone Noir 30x60',
+        name: 'Belgium Stone Black 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Mat',
@@ -2384,7 +2920,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Belgium Stone Gris Mozaik 30x48.6',
+        name: 'Belgium Stone Grey Mozaik 30x48.6',
         color: 'Gris',
         size: '30x48.6',
         surface: 'Mat',
@@ -2394,7 +2930,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Belgium Stone Noir Mozaik 30x48.6',
+        name: 'Belgium Stone Black Mozaik 30x48.6',
         color: 'Noir',
         size: '30x48.6',
         surface: 'Mat',
@@ -2404,7 +2940,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Belgium Stone Gris Mozaik 33x33',
+        name: 'Belgium Stone Grey Mozaik 33x33',
         color: 'Gris',
         size: '33x33',
         surface: 'Mat',
@@ -2416,7 +2952,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Belgium Stone Noir Mozaik 33x33',
+        name: 'Belgium Stone Black Mozaik 33x33',
         color: 'Noir Mozaik',
         size: '33x33',
         surface: 'Mat',
@@ -2428,7 +2964,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Belgium Stone Gris Mozaik 30.5x30.5',
+        name: 'Belgium Stone Grey Mozaik 30.5x30.5',
         color: 'Gris',
         size: '30.5x30.5',
         surface: 'Mat',
@@ -2440,11 +2976,23 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Belgium Stone Noir Mozaik 30.5x30.5',
+        name: 'Belgium Stone Black Mozaik 30.5x30.5',
         color: 'Noir Mozaik',
         size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: '/tiles/belgium-stone/belgium-stone-black-mozaik-30x48,6.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 11,
+        name: 'Belgium Stone Light Grey 60x60',
+        color: 'Light Grey',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/belgium-stone/beligum-stone-gris-60x60.png',
         faces: [
           '',
         ],
@@ -2464,6 +3012,7 @@ export const collectionsData = {
   },
   'Belita': {
     slug: 'belita',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/belita/belita-render.png',
       '/tiles/belita/belita-render-2.png',
@@ -2496,11 +3045,12 @@ export const collectionsData = {
   },
   'Bellatrix': {
     slug: 'bellatrix',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/bellatrix/bellatix-render.png',
+      '/tiles/bellatrix/bellatrix-render.png',
       '/tiles/bellatrix/bellatrix-render-2.png',
     ],
-    mainImage: '/tiles/bellatrix/bellatix-render.png',
+    mainImage: '/tiles/bellatrix/bellatrix-render.png',
     products: [
       {
         id: 0,
@@ -2528,6 +3078,7 @@ export const collectionsData = {
   },
   'Bengal': {
     slug: 'bengal',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/bengal/bengal-render.png',
       '/tiles/bengal/bengal-render-2.png',
@@ -2645,6 +3196,7 @@ export const collectionsData = {
   },
   'Beton': {
     slug: 'beton',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/beton/beton-render.png',
       '/tiles/beton/beton-render-2.png',
@@ -2653,7 +3205,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Beton Blanc 60x120',
+        name: 'Beton Bianco 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
@@ -2665,7 +3217,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Beton Gris 60x120',
+        name: 'Beton Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -2677,7 +3229,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Beton Blanc 60x60',
+        name: 'Beton Bianco 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Lappato',
@@ -2689,7 +3241,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Beton Gris 60x60',
+        name: 'Beton Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Lappato',
@@ -2701,7 +3253,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Beton Anthracite 60x60',
+        name: 'Beton Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: 'Lappato',
@@ -2713,7 +3265,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Beton Blanc 30x60',
+        name: 'Beton Bianco 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Lappato',
@@ -2725,7 +3277,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Beton Gris 30x60',
+        name: 'Beton Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Lappato',
@@ -2737,7 +3289,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Beton Anthracite 30x60',
+        name: 'Beton Antrasit 30x60',
         color: 'Anthracite',
         size: '30x60',
         surface: 'Lappato',
@@ -2761,6 +3313,7 @@ export const collectionsData = {
   },
   'Black Star': {
     slug: 'black-star',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/black-star/black-star-render.png',
       '/tiles/black-star/black-star-render-2.png',
@@ -2794,6 +3347,7 @@ export const collectionsData = {
   },
   'Boho': {
     slug: 'boho',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/boho/boho-render.png',
       '/tiles/boho/boho-render-2.png',
@@ -2815,7 +3369,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Boho Gris Clair 60x120',
+        name: 'Boho Light Grey 60x120',
         color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
@@ -2827,11 +3381,23 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Boho Gris Foncé 60x120',
+        name: 'Boho Dark Grey 60x120',
         color: 'Gris Foncé',
         size: '60x120',
         surface: 'Mat',
         thumbnail: '/tiles/boho/boho-light-grey.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Boho Light Grey 20x120',
+        color: 'Gris Clair',
+        size: '20x120',
+        surface: 'Mat',
+        thumbnail: '/tiles/boho/boho-light-grey-120x120.png',
         faces: [
           '',
         ],
@@ -2851,6 +3417,7 @@ export const collectionsData = {
   },
   'Bona Dea': {
     slug: 'bona-dea',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/bona-dea/bona-dea-render.png',
       '/tiles/bona-dea/bona-dea-render-2.png',
@@ -2884,7 +3451,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Bona Dea Blanc 100x100',
+        name: 'Bona Dea Bianco 100x100',
         color: 'Blanc',
         size: '100x100',
         surface: 'Lappato',
@@ -2912,7 +3479,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-beige-30x60.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
           '',
         ],
@@ -2920,8 +3487,20 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Bona Dea Gris Clair 100x100',
+        name: 'Bona Dea Light Grey 100x100',
         color: 'Gris Clair',
+        size: '100x100',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Bona Dea Dark Grey 100x100',
+        color: 'D. Gris',
         size: '100x100',
         surface: 'Lappato',
         thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
@@ -2931,20 +3510,8 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 6,
-        name: 'Bona Dea D. Gris 100x100',
-        color: 'D. Gris',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
-        faces: [
-          '',
-        ],
-        specifications: {}
-      },
-      {
         id: 7,
-        name: 'Bona Dea Blanc 60x120',
+        name: 'Bona Dea Bianco 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
@@ -2980,7 +3547,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Bona Dea Gris Clair 60x120',
+        name: 'Bona Dea Light Grey 60x120',
         color: 'Gris Clair',
         size: '60x120',
         surface: 'Lappato',
@@ -2992,7 +3559,7 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Bona Dea D. Gris 60x120',
+        name: 'Bona Dea Dark Grey 60x120',
         color: 'D. Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -3004,7 +3571,7 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Bona Dea Blanc 60x60',
+        name: 'Bona Dea Bianco 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Lappato',
@@ -3016,11 +3583,11 @@ export const collectionsData = {
       },
       {
         id: 13,
-        name: 'Bona Dea Blanc 61x61',
+        name: 'Bona Dea Bianco 61x61',
         color: 'Blanc',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-ivory-dekofon-61x61.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-bianco-60x60.png',
         faces: [
           '',
         ],
@@ -3028,11 +3595,11 @@ export const collectionsData = {
       },
       {
         id: 14,
-        name: 'Bona Dea Ivoire 61x61',
+        name: 'Bona Dea Ivory 61x61',
         color: 'Ivoire',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-61x61.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-ivory-61x61.png',
         faces: [
           '',
         ],
@@ -3040,11 +3607,11 @@ export const collectionsData = {
       },
       {
         id: 15,
-        name: 'Bona Dea Ivoire Dekofon 61x61',
+        name: 'Bona Dea Ivory Dekofon 61x61',
         color: 'Ivoire Dekofon',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-dekofon-61x61.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-ivory-dekofon-61x61.png',
         faces: [
           '',
         ],
@@ -3068,7 +3635,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-dekofon-60x60.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-crema-60x60.png',
         faces: [
           '',
         ],
@@ -3092,7 +3659,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-beige-30x60.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
           '',
         ],
@@ -3100,7 +3667,7 @@ export const collectionsData = {
       },
       {
         id: 20,
-        name: 'Bona Dea Gris Clair 60x60',
+        name: 'Bona Dea Light Grey 60x60',
         color: 'Gris Clair',
         size: '60x60',
         surface: 'Lappato',
@@ -3112,7 +3679,7 @@ export const collectionsData = {
       },
       {
         id: 21,
-        name: 'Bona Dea L. Gris Dekofon 60x60',
+        name: 'Bona Dea Light Grey Dekofon 60x60',
         color: 'L. Gris Dekofon',
         size: '60x60',
         surface: 'Lappato',
@@ -3124,7 +3691,7 @@ export const collectionsData = {
       },
       {
         id: 22,
-        name: 'Bona Dea Gris Clair 61x61',
+        name: 'Bona Dea Light Grey 61x61',
         color: 'Gris Clair',
         size: '61x61',
         surface: 'Lappato',
@@ -3136,7 +3703,7 @@ export const collectionsData = {
       },
       {
         id: 23,
-        name: 'Bona Dea L. Gris Dekofon 61x61',
+        name: 'Bona Dea Light Grey Dekofon 61x61',
         color: 'L. Gris Dekofon',
         size: '61x61',
         surface: 'Lappato',
@@ -3148,7 +3715,7 @@ export const collectionsData = {
       },
       {
         id: 24,
-        name: 'Bona Dea D. Gris 60x60',
+        name: 'Bona Dea Dark Grey 60x60',
         color: 'D. Gris',
         size: '60x60',
         surface: 'Lappato',
@@ -3160,7 +3727,7 @@ export const collectionsData = {
       },
       {
         id: 25,
-        name: 'Bona Dea D. Gris Dekofon 60x60',
+        name: 'Bona Dea Dark Grey Dekofon 60x60',
         color: 'D. Gris Dekofon',
         size: '60x60',
         surface: 'Lappato',
@@ -3172,11 +3739,11 @@ export const collectionsData = {
       },
       {
         id: 26,
-        name: 'Bona Dea D. Gris 61x61',
+        name: 'Bona Dea Dark Grey 61x61',
         color: 'D. Gris',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-61x61.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
           '',
         ],
@@ -3184,11 +3751,11 @@ export const collectionsData = {
       },
       {
         id: 27,
-        name: 'Bona Dea D. Gris Dekofon 61x61',
+        name: 'Bona Dea Dark Grey Dekofon 61x61',
         color: 'D. Gris Dekofon',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-dekofon-61x61.png',
+        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
         faces: [
           '',
         ],
@@ -3217,6 +3784,128 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 30,
+        name: 'Bona Dea Beige 60x120',
+        color: 'Beige',
+        size: '60x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-beige-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 31,
+        name: 'Bona Dea Bianco 60x120',
+        color: 'Bianco',
+        size: '60x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-bianco-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 32,
+        name: 'Bona Dea Crema 60x120',
+        color: 'Crema',
+        size: '60x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-crema-30x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 33,
+        name: 'Bona Dea Dark Grey 60x120',
+        color: 'Dark Grey',
+        size: '60x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 34,
+        name: 'Bona Dea Light Grey 60x120',
+        color: 'Light Grey',
+        size: '60x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 35,
+        name: 'Bona Dea Crema 60x60',
+        color: 'Crema',
+        size: '60x60',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-crema-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 36,
+        name: 'Bona Dea Dark Grey 60x60',
+        color: 'D. Gris',
+        size: '60x60',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 37,
+        name: 'Bona Dea Dark Grey Dekofon 60x60',
+        color: 'D. Gris Dekofon',
+        size: '60x60',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 38,
+        name: 'Bona Dea Light Grey Dekofon 60x60',
+        color: 'L. Gris Dekofon',
+        size: '60x60',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-dekofon-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 39,
+        name: 'Bona Dea Crema 20x120',
+        color: 'Crema',
+        size: '20x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-crema-30x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 40,
+        name: 'Bona Dea Light Grey 20x120',
+        color: 'L. Gris',
+        size: '20x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/bona-dea/bona-dea-light-grey-60x120.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -3232,6 +3921,7 @@ export const collectionsData = {
   },
   'Bond': {
     slug: 'bond',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/bond/bond-render.png',
       '/tiles/bond/bond-render-2.png',
@@ -3265,7 +3955,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Bond Gris 40x120',
+        name: 'Bond Grey 40x120',
         color: 'Gris',
         size: '40x120',
         surface: 'Mat',
@@ -3349,6 +4039,7 @@ export const collectionsData = {
   },
   'Bosco': {
     slug: 'bosco',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/bosco/bosco-render.png',
       '/tiles/bosco/bosco-render-2.png',
@@ -3381,6 +4072,7 @@ export const collectionsData = {
   },
   'Brano': {
     slug: 'brano',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/brano/brano-render.png',
       '/tiles/brano/brano-render-2.png',
@@ -3390,7 +4082,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Brano Mat Blanc 40x120',
+        name: 'Brano Mat Beyaz 40x120',
         color: 'Mat Blanc',
         size: '40x120',
         surface: 'Mat',
@@ -3402,7 +4094,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Brano Mat Blanc 30x90',
+        name: 'Brano Mat Beyaz 30x90',
         color: 'Mat Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -3414,7 +4106,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Brano Mat Blanc 30x60',
+        name: 'Brano Mat Beyaz 30x60',
         color: 'Mat Blanc',
         size: '30x60',
         surface: 'Mat',
@@ -3438,7 +4130,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Brano Mat Blanc 30x40',
+        name: 'Brano Mat Beyaz 30x40',
         color: 'Mat Blanc',
         size: '30x40',
         surface: 'Mat',
@@ -3462,6 +4154,7 @@ export const collectionsData = {
   },
   'Bravas': {
     slug: 'bravas',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/bravas/bravas-render.png',
     ],
@@ -3493,6 +4186,7 @@ export const collectionsData = {
   },
   'Brillo': {
     slug: 'brillo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/brillo/brillo-render.png',
       '/tiles/brillo/brillo-render-2.png',
@@ -3501,7 +4195,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Brillo Brillant Blanc 30x90',
+        name: 'Brillo Parlak Beyaz 30x90',
         color: 'Brillant Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -3513,7 +4207,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Brillo Brillant Blanc 30x60',
+        name: 'Brillo Parlak Beyaz 30x60',
         color: 'Brillant Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -3525,7 +4219,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Brillo Brillant Pergamon 30x60',
+        name: 'Brillo Parlak Pergamon 30x60',
         color: 'Brillant Pergamon',
         size: '30x60',
         surface: 'Brillant',
@@ -3537,7 +4231,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Brillo Brillant Blanc 30x40',
+        name: 'Brillo Parlak Beyaz 30x40',
         color: 'Brillant Blanc',
         size: '30x40',
         surface: 'Brillant',
@@ -3561,11 +4255,12 @@ export const collectionsData = {
   },
   'Buxy': {
     slug: 'buxy',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/buxy/buxy-antrasit.png',
     products: [
       {
         id: 0,
-        name: 'Buxy Gris 30x60',
+        name: 'Buxy Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -3577,7 +4272,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Buxy Anthracite 30x60',
+        name: 'Buxy Antrasit 30x60',
         color: 'Anthracite',
         size: '30x60',
         surface: 'Mat',
@@ -3601,16 +4296,17 @@ export const collectionsData = {
   },
   'Calacatta Marmi': {
     slug: 'calacatta-marmi',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/calacatta-marmi/calacatta-marmi-render.png',
-      '/tiles/calacatta-marmi/calacatta-marmi-render3.png',
+      '/tiles/calacatta-marmi/calacatta-marmi-render-3.png',
       '/tiles/calacatta-marmi/calacatta-marmi-render-2.png',
     ],
     mainImage: '/tiles/calacatta-marmi/calacatta-marmi-render-2.png',
     products: [
       {
         id: 0,
-        name: 'Calacatta Marmi Glossy 30x90',
+        name: 'Calacatta Marmi Parlak 30x90',
         color: 'Glossy',
         size: '30x90',
         surface: 'Brillant',
@@ -3622,7 +4318,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Calacatta Marmi Glossy Dekofon 30x90',
+        name: 'Calacatta Marmi Parlak Dekofon 30x90',
         color: 'Glossy Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -3634,7 +4330,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Calacatta Marmi Glossy Dekor 30x90',
+        name: 'Calacatta Marmi Parlak Dekor 30x90',
         color: 'Glossy Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -3670,7 +4366,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Calacatta Marmi Glossy 30x60',
+        name: 'Calacatta Marmi Parlak 30x60',
         color: 'Glossy',
         size: '30x60',
         surface: 'Brillant',
@@ -3718,6 +4414,7 @@ export const collectionsData = {
   },
   'Camouflage': {
     slug: 'camouflage',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/camouflage/camouflage-render.png',
       '/tiles/camouflage/camouflage-render-2.png',
@@ -3750,6 +4447,7 @@ export const collectionsData = {
   },
   'Capella': {
     slug: 'capella',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/capella/capella-render.png',
       '/tiles/capella/capella-render-2.png',
@@ -3782,6 +4480,7 @@ export const collectionsData = {
   },
   'Cappadocia': {
     slug: 'cappadocia',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/cappadocia/cappadocia-render.png',
       '/tiles/cappadocia/cappadocia-render-2.png',
@@ -3791,7 +4490,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Cappadocia Sable 30x90',
+        name: 'Cappadocia Sand 30x90',
         color: 'Sable',
         size: '30x90',
         surface: 'Mat',
@@ -3803,7 +4502,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Cappadocia Sable Décofon 30x90',
+        name: 'Cappadocia Sand Decofon 30x90',
         color: 'Sable Décofon',
         size: '30x90',
         surface: 'Mat',
@@ -3815,7 +4514,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Cappadocia Gris 30x90',
+        name: 'Cappadocia Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -3827,7 +4526,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Cappadocia Gris Décofon 30x90',
+        name: 'Cappadocia Grey Decofon 30x90',
         color: 'Gris Décofon',
         size: '30x90',
         surface: 'Mat',
@@ -3839,7 +4538,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Cappadocia Sable 60x60',
+        name: 'Cappadocia Sand 60x60',
         color: 'Sable',
         size: '60x60',
         surface: 'Mat',
@@ -3851,7 +4550,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Cappadocia Gris 60x60',
+        name: 'Cappadocia Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -3875,6 +4574,7 @@ export const collectionsData = {
   },
   'Carbon': {
     slug: 'carbon',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/carbon/carbon-render.png',
     ],
@@ -3882,7 +4582,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Carbon Gris 60x120',
+        name: 'Carbon Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -3894,7 +4594,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Carbon Antracit 60x120',
+        name: 'Carbon Anthracite 60x120',
         color: 'Antracit',
         size: '60x120',
         surface: 'Mat',
@@ -3918,6 +4618,7 @@ export const collectionsData = {
   },
   'Casta': {
     slug: 'casta',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/casta/casta-render.png',
       '/tiles/casta/casta-render-2.png',
@@ -3963,7 +4664,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Casta Gris 30x90',
+        name: 'Casta Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -3975,7 +4676,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Casta Gris Dekofon 30x90',
+        name: 'Casta Grey Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -3987,7 +4688,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Casta Gris Matis Dekofon 30x90',
+        name: 'Casta Grey Matis Dekofon 30x90',
         color: 'Gris Matis Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -4011,10 +4712,11 @@ export const collectionsData = {
   },
   'Catalpa': {
     slug: 'catalpa',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/catalpa/catalpa-render.png',
-      '/tiles/catalpa/catalpa-render2.png',
-      '/tiles/catalpa/catalpa-render3.png',
+      '/tiles/catalpa/catalpa-render-2.png',
+      '/tiles/catalpa/catalpa-render-3.png',
     ],
     mainImage: '/tiles/catalpa/catalpa-render.png',
     products: [
@@ -4044,6 +4746,7 @@ export const collectionsData = {
   },
   'Chakra': {
     slug: 'chakra',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/chakra/chakra-render.png',
       '/tiles/chakra/chakra-render-2.png',
@@ -4089,10 +4792,11 @@ export const collectionsData = {
   },
   'Charlotte': {
     slug: 'charlotte',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/charlotte/charlotte-render.png',
-      '/tiles/charlotte/charlotte-render2.png',
-      '/tiles/charlotte/charlotte-render3.png',
+      '/tiles/charlotte/charlotte-render-2.png',
+      '/tiles/charlotte/charlotte-render-3.png',
     ],
     mainImage: '/tiles/charlotte/charlotte-render.png',
     products: [
@@ -4122,8 +4826,9 @@ export const collectionsData = {
   },
   'Charm': {
     slug: 'charm',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/charm/charm-render1.png',
+      '/tiles/charm/charm-render.png',
       '/tiles/charm/charm-render-2.png',
       '/tiles/charm/charm-render-3.png',
     ],
@@ -4131,7 +4836,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Charm Rouille 60x120',
+        name: 'Charm Rust 60x120',
         color: 'Rouille',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4143,7 +4848,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Charm Bleu 60x120',
+        name: 'Charm Blue 60x120',
         color: 'Bleu',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4167,6 +4872,7 @@ export const collectionsData = {
   },
   'Chester': {
     slug: 'chester',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/chester/chester-render.png',
       '/tiles/chester/chester-render-2.png',
@@ -4176,7 +4882,7 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Chester Beige 61x61',
+        name: 'Chester Bej 61x61',
         color: 'Beige',
         size: '61x61',
         surface: 'Mat',
@@ -4188,7 +4894,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Chester Gris 61x61',
+        name: 'Chester Gri 61x61',
         color: 'Gris',
         size: '61x61',
         surface: 'Mat',
@@ -4212,12 +4918,13 @@ export const collectionsData = {
   },
   'Cleopatra': {
     slug: 'cleopatra',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/cleopatra/Cleopatra-render.png',
-      '/tiles/cleopatra/cleopatra-render2.png',
-      '/tiles/cleopatra/cleopatra-render3.png',
+      '/tiles/cleopatra/cleopatra-render.png',
+      '/tiles/cleopatra/cleopatra-render-2.png',
+      '/tiles/cleopatra/cleopatra-render-3.png',
     ],
-    mainImage: '/tiles/cleopatra/Cleopatra-render.png',
+    mainImage: '/tiles/cleopatra/cleopatra-render.png',
     products: [
       {
         id: 0,
@@ -4257,6 +4964,7 @@ export const collectionsData = {
   },
   'Clio': {
     slug: 'clio',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/clio/clio-render.jpg',
       '/tiles/clio/clio-render-2.jpg',
@@ -4300,16 +5008,17 @@ export const collectionsData = {
   },
   'Concept': {
     slug: 'concept',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
       '/tiles/concept/concept-render.png',
-      '/tiles/concept/concept-render2.png',
-      '/tiles/concept/concept-render3.png',
+      '/tiles/concept/concept-render-2.png',
+      '/tiles/concept/concept-render-3.png',
     ],
     mainImage: '/tiles/concept/concept-render.png',
     products: [
       {
         id: 0,
-        name: 'Concept Blanc 60x120',
+        name: 'Concept Beyaz 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4321,7 +5030,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Concept Beige 60x120',
+        name: 'Concept Bej 60x120',
         color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4345,7 +5054,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Concept Taupe 60x120',
+        name: 'Concept Beyaz 60x120',
         color: 'Taupe',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4357,7 +5066,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Concept Gris Clairs 60x120',
+        name: 'Concept Açık Gri 60x120',
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4369,7 +5078,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Concept Gris 60x120',
+        name: 'Concept Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4381,7 +5090,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Concept Anthracite 60x120',
+        name: 'Concept Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
@@ -4393,7 +5102,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Concept Blanc 60x60',
+        name: 'Concept Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4405,7 +5114,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Concept Beige 60x60',
+        name: 'Concept Bej 60x60',
         color: 'Beige',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4429,7 +5138,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Concept Taupe 60x60',
+        name: 'Concept Vizon 60x60',
         color: 'Taupe',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4441,7 +5150,7 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Concept Gris Clairs 60x60',
+        name: 'Concept Açık Gri 60x60',
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4453,7 +5162,7 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Concept Gris 60x60',
+        name: 'Concept Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4465,7 +5174,7 @@ export const collectionsData = {
       },
       {
         id: 13,
-        name: 'Concept Anthracite 60x60',
+        name: 'Concept Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4477,7 +5186,7 @@ export const collectionsData = {
       },
       {
         id: 14,
-        name: 'Concept Noir 60x60',
+        name: 'Concept Siyah 60x60',
         color: 'Noir',
         size: '60x60',
         surface: 'Full Lappato',
@@ -4489,7 +5198,7 @@ export const collectionsData = {
       },
       {
         id: 15,
-        name: 'Concept Blanc 30x60',
+        name: 'Concept Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Full Lappato',
@@ -4501,7 +5210,7 @@ export const collectionsData = {
       },
       {
         id: 16,
-        name: 'Concept Beige 30x60',
+        name: 'Concept Bej 30x60',
         color: 'Beige',
         size: '30x60',
         surface: 'Full Lappato',
@@ -4537,7 +5246,7 @@ export const collectionsData = {
       },
       {
         id: 19,
-        name: 'Concept Gris Clairs 30x60',
+        name: 'Concept Açık Gri 30x60',
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Full Lappato',
@@ -4549,7 +5258,7 @@ export const collectionsData = {
       },
       {
         id: 20,
-        name: 'Concept Gris 30x60',
+        name: 'Concept Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Full Lappato',
@@ -4561,7 +5270,7 @@ export const collectionsData = {
       },
       {
         id: 21,
-        name: 'Concept Anthracite 30x60',
+        name: 'Concept Antrasit 30x60',
         color: 'Anthracite',
         size: '30x60',
         surface: 'Full Lappato',
@@ -4573,11 +5282,135 @@ export const collectionsData = {
       },
       {
         id: 22,
-        name: 'Concept Noir 30x60',
+        name: 'Concept Siyah 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Full Lappato',
         thumbnail: '/tiles/concept/concept-vizon-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 23,
+        name: 'Concept Açık Gri 60x120',
+        color: 'Açık Gri',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-acik-gris-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 24,
+        name: 'Concept Antrasit 60x120',
+        color: 'Antrasit',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-antrasit-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 25,
+        name: 'Concept Bej 60x120',
+        color: 'Bej',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-beige-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 26,
+        name: 'Concept Bej 60x120',
+        color: 'Bej',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-beige-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 27,
+        name: 'Concept Beyaz 60x120',
+        color: 'Beyaz',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-beyaz-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 28,
+        name: 'Concept Gri 60x120',
+        color: 'Gri',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-gris-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 29,
+        name: 'Concept Gri 60x120',
+        color: 'Gri',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-gris-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 30,
+        name: 'Concept Vizon 60x120',
+        color: 'Vizon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-vizon-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 31,
+        name: 'Concept Vizon 60x120',
+        color: 'Vizon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-vizon-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 32,
+        name: 'Concept Vizon 60x120',
+        color: 'Vizon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/concept/concept-vizon-60x120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 33,
+        name: 'Concept Bej 60x60',
+        color: 'Beige',
+        size: '60x60',
+        surface: 'Full Lappato',
+        thumbnail: '/tiles/concept/concept-beige-60x60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 34,
+        name: 'Concept Gri 60x60',
+        color: 'Gris',
+        size: '60x60',
+        surface: 'Full Lappato',
+        thumbnail: '/tiles/concept/concept-gris-60x60.png',
         faces: [
           '',
         ],
@@ -4597,12 +5430,13 @@ export const collectionsData = {
   },
   'Coper': {
     slug: 'coper',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/coper/Coper-render.png',
-      '/tiles/coper/coper-render2.png',
-      '/tiles/coper/coper-render3.png',
+      '/tiles/coper/coper-render.png',
+      '/tiles/coper/coper-render-2.png',
+      '/tiles/coper/coper-render-3.png',
     ],
-    mainImage: '/tiles/coper/Coper-render.png',
+    mainImage: '/tiles/coper/coper-render.png',
     products: [
       {
         id: 0,
@@ -4642,12 +5476,13 @@ export const collectionsData = {
   },
   'Country': {
     slug: 'country',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/country/Country-render.png',
-      '/tiles/country/country-render2.png',
-      '/tiles/country/country-render3.png',
+      '/tiles/country/country-render.png',
+      '/tiles/country/country-render-2.png',
+      '/tiles/country/country-render-3.png',
     ],
-    mainImage: '/tiles/country/Country-render.png',
+    mainImage: '/tiles/country/country-render.png',
     products: [
       {
         id: 0,
@@ -4687,16 +5522,17 @@ export const collectionsData = {
   },
   'Crag': {
     slug: 'crag',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
-      '/tiles/crag/Crag-render.png',
-      '/tiles/crag/crag-render2.png',
-      '/tiles/crag/crag-render3.png',
+      '/tiles/crag/crag-render.png',
+      '/tiles/crag/crag-render-2.png',
+      '/tiles/crag/crag-render-3.png',
     ],
-    mainImage: '/tiles/crag/Crag-render.png',
+    mainImage: '/tiles/crag/crag-render.png',
     products: [
       {
         id: 0,
-        name: 'Crag Blanc 60x120',
+        name: 'Crag White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Mat',
@@ -4708,7 +5544,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Crag Ivoire 60x120',
+        name: 'Crag Ivory 60x120',
         color: 'Ivoire',
         size: '60x120',
         surface: 'Mat',
@@ -4732,7 +5568,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Crag Moka 60x120',
+        name: 'Crag Mocha 60x120',
         color: 'Moka',
         size: '60x120',
         surface: 'Mat',
@@ -4744,7 +5580,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Crag Gris 60x120',
+        name: 'Crag Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -4780,6 +5616,7 @@ export const collectionsData = {
   },
   'Crotone': {
     slug: 'crotone',
+    categories: ['Jardin'],
     renders: [
       '/tiles/crotone/crotone-render.png',
       '/tiles/crotone/crotone-render-2.png',
@@ -4825,6 +5662,7 @@ export const collectionsData = {
   },
   'Darkness': {
     slug: 'darkness',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/darkness/darkness-render.png',
       '/tiles/darkness/darkness-render-2.png',
@@ -4858,16 +5696,17 @@ export const collectionsData = {
   },
   'Delbin': {
     slug: 'delbin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/delbin/Delbin-render.png',
-      '/tiles/delbin/delbin-render2.png',
-      '/tiles/delbin/delbin-render3.png',
+      '/tiles/delbin/delbin-render.png',
+      '/tiles/delbin/delbin-render-2.png',
+      '/tiles/delbin/delbin-render-3.png',
     ],
-    mainImage: '/tiles/delbin/Delbin-render.png',
+    mainImage: '/tiles/delbin/delbin-render.png',
     products: [
       {
         id: 0,
-        name: 'Delbin Blanc 30x60',
+        name: 'Delbin Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -4879,7 +5718,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Delbin Gris 30x60',
+        name: 'Delbin Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
@@ -4891,7 +5730,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Delbin Fumée 30x60',
+        name: 'Delbin Füme 30x60',
         color: 'Fumée',
         size: '30x60',
         surface: 'Brillant',
@@ -4915,16 +5754,17 @@ export const collectionsData = {
   },
   'Destiny': {
     slug: 'destiny',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/destiny/Destiny-render.png',
-      '/tiles/destiny/destiny-render2.png',
-      '/tiles/destiny/destiny-render3.png',
+      '/tiles/destiny/destiny-render.png',
+      '/tiles/destiny/destiny-render-2.png',
+      '/tiles/destiny/destiny-render-3.png',
     ],
-    mainImage: '/tiles/destiny/Destiny-render.png',
+    mainImage: '/tiles/destiny/destiny-render.png',
     products: [
       {
         id: 0,
-        name: 'Destiny Brillant Blanc 60x60',
+        name: 'Destiny Parlak Beyaz 60x60',
         color: 'Brillant Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -4936,7 +5776,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Destiny Mat Blanc 60x60',
+        name: 'Destiny Mat Beyaz 60x60',
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -4948,11 +5788,23 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Destiny Brillant Blanc 61x61',
+        name: 'Destiny Parlak Beyaz 61x61',
         color: 'Brillant Blanc',
         size: '61x61',
         surface: 'Brillant',
         thumbnail: '/tiles/destiny/destiny-parlak-beyaz-61x61.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Destiny Parlak Beyaz 60x60',
+        color: 'Brillant Blanc',
+        size: '60x60',
+        surface: 'Brillant',
+        thumbnail: '/tiles/destiny/destiny-parlak-beyaz-60x60.png',
         faces: [
           '',
         ],
@@ -4972,6 +5824,7 @@ export const collectionsData = {
   },
   'Dina': {
     slug: 'dina',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/dina/dina-render.jpg',
       '/tiles/dina/dina-render-2.jpg',
@@ -5004,10 +5857,11 @@ export const collectionsData = {
   },
   'Diva': {
     slug: 'diva',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/diva/diva-render.png',
-      '/tiles/diva/diva-render2.png',
-      '/tiles/diva/diva-render3.png',
+      '/tiles/diva/diva-render-2.png',
+      '/tiles/diva/diva-render-3.png',
     ],
     mainImage: '/tiles/diva/diva-render.png',
     products: [
@@ -5037,16 +5891,17 @@ export const collectionsData = {
   },
   'Dora': {
     slug: 'dora',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/dora/dora-render.png',
-      '/tiles/dora/dora-render2.png',
-      '/tiles/dora/dora-render3.png',
+      '/tiles/dora/dora-render-2.png',
+      '/tiles/dora/dora-render-3.png',
     ],
     mainImage: '/tiles/dora/dora-render.png',
     products: [
       {
         id: 0,
-        name: 'Dora Brillant 60x60',
+        name: 'Dora Parlak 60x60',
         color: 'Brillant',
         size: '60x60',
         surface: 'Brillant',
@@ -5070,16 +5925,17 @@ export const collectionsData = {
   },
   'Dove': {
     slug: 'dove',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/dove/Dove-render.png',
-      '/tiles/dove/dove-render2.png',
-      '/tiles/dove/dove-render3.png',
+      '/tiles/dove/dove-render.png',
+      '/tiles/dove/dove-render-2.png',
+      '/tiles/dove/dove-render-3.png',
     ],
-    mainImage: '/tiles/dove/Dove-render.png',
+    mainImage: '/tiles/dove/dove-render.png',
     products: [
       {
         id: 0,
-        name: 'Dove Mat Blanc 30x90',
+        name: 'Dove Mat Beyaz 30x90',
         color: 'Mat Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -5091,7 +5947,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Dove Brillant Blanc 30x60',
+        name: 'Dove Parlak Beyaz 30x60',
         color: 'Brillant Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -5103,7 +5959,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Dove Mat Blanc 30x60',
+        name: 'Dove Mat Beyaz 30x60',
         color: 'Mat Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -5115,7 +5971,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Dove Brillant Blanc 20x40',
+        name: 'Dove Parlak Beyaz 20x40',
         color: 'Brillant Blanc',
         size: '20x40',
         surface: 'Brillant',
@@ -5127,7 +5983,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Dove Mat Blanc 20x40',
+        name: 'Dove Mat Beyaz 20x40',
         color: 'Mat Blanc',
         size: '20x40',
         surface: 'Brillant',
@@ -5151,12 +6007,13 @@ export const collectionsData = {
   },
   'Elan': {
     slug: 'elan',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/elan/elan-render1.jpg',
-      '/tiles/elan/elan-render2.png',
-      '/tiles/elan/elan-render3.png',
+      '/tiles/elan/elan-render.jpg',
+      '/tiles/elan/elan-render-2.png',
+      '/tiles/elan/elan-render-3.png',
     ],
-    mainImage: '/tiles/elan/elan-render1.jpg',
+    mainImage: '/tiles/elan/elan-render.jpg',
     products: [
       {
         id: 0,
@@ -5172,7 +6029,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Elan Brun 60x120',
+        name: 'Elan Brown 60x120',
         color: 'Brun',
         size: '60x120',
         surface: 'Full Lappato',
@@ -5184,7 +6041,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Elan Gris 60x120',
+        name: 'Elan Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -5196,7 +6053,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Elan Anthracite 60x120',
+        name: 'Elan Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
@@ -5220,12 +6077,13 @@ export const collectionsData = {
   },
   'Eleganza': {
     slug: 'eleganza',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/eleganza/Eleganza-render.png',
-      '/tiles/eleganza/eleganza-render2.png',
-      '/tiles/eleganza/eleganza-render3.png',
+      '/tiles/eleganza/eleganza-render.png',
+      '/tiles/eleganza/eleganza-render-2.png',
+      '/tiles/eleganza/eleganza-render-3.png',
     ],
-    mainImage: '/tiles/eleganza/Eleganza-render.png',
+    mainImage: '/tiles/eleganza/eleganza-render.png',
     products: [
       {
         id: 0,
@@ -5277,10 +6135,11 @@ export const collectionsData = {
   },
   'Elitra': {
     slug: 'elitra',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/elitra/elitra-render.png',
-      '/tiles/elitra/elitra-render2.png',
-      '/tiles/elitra/elitra-render3.png',
+      '/tiles/elitra/elitra-render-2.png',
+      '/tiles/elitra/elitra-render-3.png',
     ],
     mainImage: '/tiles/elitra/elitra-render.png',
     products: [
@@ -5310,12 +6169,13 @@ export const collectionsData = {
   },
   'Elora': {
     slug: 'elora',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/elora/elora-render1.png',
-      '/tiles/elora/elora-render2.png',
-      '/tiles/elora/elora-render3.png',
+      '/tiles/elora/elora-render.png',
+      '/tiles/elora/elora-render-2.png',
+      '/tiles/elora/elora-render-3.png',
     ],
-    mainImage: '/tiles/elora/elora-render1.png',
+    mainImage: '/tiles/elora/elora-render.png',
     products: [
       {
         id: 0,
@@ -5343,16 +6203,17 @@ export const collectionsData = {
   },
   'Enzo': {
     slug: 'enzo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/enzo/Enzo-render.png',
-      '/tiles/enzo/enzo-render2.png',
-      '/tiles/enzo/enzo-render3.png',
+      '/tiles/enzo/enzo-render.png',
+      '/tiles/enzo/enzo-render-2.png',
+      '/tiles/enzo/enzo-render-3.png',
     ],
-    mainImage: '/tiles/enzo/Enzo-render.png',
+    mainImage: '/tiles/enzo/enzo-render.png',
     products: [
       {
         id: 0,
-        name: 'Enzo Blanc 30x90',
+        name: 'Enzo Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -5364,7 +6225,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Enzo Blanc Dekofon 30x90',
+        name: 'Enzo Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -5376,7 +6237,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Enzo Gris 30x90',
+        name: 'Enzo Gri 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -5388,7 +6249,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Enzo Anthracite 30x90',
+        name: 'Enzo Antrasit 30x90',
         color: 'Anthracite',
         size: '30x90',
         surface: 'Mat',
@@ -5412,7 +6273,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Enzo Blanc 60x60',
+        name: 'Enzo Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
@@ -5436,10 +6297,11 @@ export const collectionsData = {
   },
   'Epona': {
     slug: 'epona',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
       '/tiles/epona/epona-render.jpg',
-      '/tiles/epona/epona-render2.jpg',
-      '/tiles/epona/epona-render3.jpg',
+      '/tiles/epona/epona-render-2.jpg',
+      '/tiles/epona/epona-render-3.jpg',
     ],
     mainImage: '/tiles/epona/epona-render.jpg',
     products: [
@@ -5469,12 +6331,13 @@ export const collectionsData = {
   },
   'Estel': {
     slug: 'estel',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/estel/Estel-render.png',
-      '/tiles/estel/estel-render2.png',
-      '/tiles/estel/estel-render3.png',
+      '/tiles/estel/estel-render.png',
+      '/tiles/estel/estel-render-2.png',
+      '/tiles/estel/estel-render-3.png',
     ],
-    mainImage: '/tiles/estel/Estel-render.png',
+    mainImage: '/tiles/estel/estel-render.png',
     products: [
       {
         id: 0,
@@ -5550,16 +6413,17 @@ export const collectionsData = {
   },
   'Europe': {
     slug: 'europe',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     renders: [
-      '/tiles/europe/europe-render1.png',
-      '/tiles/europe/europe-render2.png',
-      '/tiles/europe/europe-render3.png',
+      '/tiles/europe/europe-render.png',
+      '/tiles/europe/europe-render-2.png',
+      '/tiles/europe/europe-render-3.png',
     ],
-    mainImage: '/tiles/europe/europe-render1.png',
+    mainImage: '/tiles/europe/europe-render.png',
     products: [
       {
         id: 0,
-        name: 'Europe Blanc 30x60',
+        name: 'Europe White 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
@@ -5583,7 +6447,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Europe Gris 30x60',
+        name: 'Europe Grey 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -5595,7 +6459,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Europe Noir 30x60',
+        name: 'Europe Black 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Mat',
@@ -5607,7 +6471,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Europe Blanc 30x40',
+        name: 'Europe White 30x40',
         color: 'Blanc',
         size: '30x40',
         surface: 'Mat',
@@ -5631,7 +6495,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Europe Gris 30x40',
+        name: 'Europe Grey 30x40',
         color: 'Gris',
         size: '30x40',
         surface: 'Mat',
@@ -5655,7 +6519,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Europe Noir 30x40',
+        name: 'Europe Black 30x40',
         color: 'Noir',
         size: '30x40',
         surface: 'Mat',
@@ -5679,12 +6543,13 @@ export const collectionsData = {
   },
   'Everest': {
     slug: 'everest',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     renders: [
-      '/tiles/everest/Everest-render.png',
-      '/tiles/everest/everest-render2.png',
-      '/tiles/everest/everest-render3.png',
+      '/tiles/everest/everest-render.png',
+      '/tiles/everest/everest-render-2.png',
+      '/tiles/everest/everest-render-3.png',
     ],
-    mainImage: '/tiles/everest/Everest-render.png',
+    mainImage: '/tiles/everest/everest-render.png',
     products: [
       {
         id: 0,
@@ -5712,6 +6577,7 @@ export const collectionsData = {
   },
   'Fair': {
     slug: 'fair',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/fair/fair-gris-dekofon.png',
     products: [
       {
@@ -5800,11 +6666,12 @@ export const collectionsData = {
   },
   'Famous': {
     slug: 'famous',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/famous/famous-grey-30x90.png',
     products: [
       {
         id: 0,
-        name: 'Famous Gris 40x120',
+        name: 'Famous Grey 40x120',
         color: 'Gris',
         size: '40x120',
         surface: 'Mat',
@@ -5816,7 +6683,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Famous Gris Dekofon 40x120',
+        name: 'Famous Grey Dekofon 40x120',
         color: 'Gris Dekofon',
         size: '40x120',
         surface: 'Mat',
@@ -5828,7 +6695,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Famous Gris 30x90',
+        name: 'Famous Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -5840,7 +6707,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Famous Gris Dekofon 30x90',
+        name: 'Famous Grey Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -5852,7 +6719,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Famous Gris 60x60',
+        name: 'Famous Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -5876,6 +6743,7 @@ export const collectionsData = {
   },
   'Fenix': {
     slug: 'fenix',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/fenix/fenix-cherry.png',
     products: [
       {
@@ -5916,7 +6784,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Fenix Gris 20x120',
+        name: 'Fenix Grey 20x120',
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
@@ -5940,7 +6808,8 @@ export const collectionsData = {
   },
   'Flevo': {
     slug: 'flevo',
-    mainImage: '/tiles/flevo/Flevo-render.png',
+    categories: ['Jardin'],
+    mainImage: '/tiles/flevo/flevo-render.png',
     products: [
       {
         id: 0,
@@ -5948,7 +6817,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/flevo/Flevo-render.png',
+        thumbnail: '/tiles/flevo/flevo-render.png',
         faces: [
           '',
         ],
@@ -5968,7 +6837,8 @@ export const collectionsData = {
   },
   'Fortuna': {
     slug: 'fortuna',
-    mainImage: '/tiles/fortuna/Fortuna-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/fortuna/fortuna-render.png',
     products: [
       {
         id: 0,
@@ -5976,7 +6846,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/fortuna/Fortuna-render.png',
+        thumbnail: '/tiles/fortuna/fortuna-render.png',
         faces: [
           '',
         ],
@@ -5996,7 +6866,8 @@ export const collectionsData = {
   },
   'Fraxinus': {
     slug: 'fraxinus',
-    mainImage: '/tiles/fraxinus/Fraxinus-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/fraxinus/fraxinus-render.png',
     products: [
       {
         id: 0,
@@ -6004,7 +6875,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/fraxinus/Fraxinus-render.png',
+        thumbnail: '/tiles/fraxinus/fraxinus-render.png',
         faces: [
           '',
         ],
@@ -6024,7 +6895,8 @@ export const collectionsData = {
   },
   'Fresno': {
     slug: 'fresno',
-    mainImage: '/tiles/fresno/Fresno-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/fresno/fresno-render.png',
     products: [
       {
         id: 0,
@@ -6032,7 +6904,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/fresno/Fresno-render.png',
+        thumbnail: '/tiles/fresno/fresno-render.png',
         faces: [
           '',
         ],
@@ -6052,11 +6924,12 @@ export const collectionsData = {
   },
   'Fuji': {
     slug: 'fuji',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/fuji/fuji-antracite.jpg',
     products: [
       {
         id: 0,
-        name: 'Fuji Anracit 60x120',
+        name: 'Fuji Anthracite 60x120',
         color: 'Anracit',
         size: '60x120',
         surface: 'Mat',
@@ -6080,7 +6953,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Fuji Gris 60x120',
+        name: 'Fuji Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -6104,7 +6977,8 @@ export const collectionsData = {
   },
   'Gaudi': {
     slug: 'gaudi',
-    mainImage: '/tiles/gaudi/Gaudi-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/gaudi/gaudi-render.png',
     products: [
       {
         id: 0,
@@ -6112,7 +6986,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '/tiles/gaudi/Gaudi-render.png',
+        thumbnail: '/tiles/gaudi/gaudi-render.png',
         faces: [
           '',
         ],
@@ -6132,11 +7006,12 @@ export const collectionsData = {
   },
   'Gemma': {
     slug: 'gemma',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/gemma/gemma-gold.png',
     products: [
       {
         id: 0,
-        name: 'Gemma Perle 60x120',
+        name: 'Gemma Pearl 60x120',
         color: 'Perle',
         size: '60x120',
         surface: 'Full Lappato',
@@ -6148,7 +7023,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Gemma Or 60x120',
+        name: 'Gemma Gold 60x120',
         color: 'Or',
         size: '60x120',
         surface: 'Full Lappato',
@@ -6196,7 +7071,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Gemma Fumée 60x120',
+        name: 'Gemma Smoke 60x120',
         color: 'Fumée',
         size: '60x120',
         surface: 'Full Lappato',
@@ -6220,7 +7095,8 @@ export const collectionsData = {
   },
   'Geo Wood': {
     slug: 'geo-wood',
-    mainImage: '/tiles/geo-wood/Geo Wood-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/geo-wood/geo-wood-render.png',
     products: [
       {
         id: 0,
@@ -6228,7 +7104,7 @@ export const collectionsData = {
         color: '',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/geo-wood/Geo Wood-render.png',
+        thumbnail: '/tiles/geo-wood/geo-wood.png',
         faces: [
           '',
         ],
@@ -6248,6 +7124,7 @@ export const collectionsData = {
   },
   'Gordion': {
     slug: 'gordion',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/gordion/gordion-blanc.png',
     products: [
       {
@@ -6256,7 +7133,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/gordion/gordion-blanc.png',
+        thumbnail: '/tiles/gordion/gordion-bone-100x100.png',
         faces: [
           '',
         ],
@@ -6268,7 +7145,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/gordion/gordion-blanc.png',
+        thumbnail: '/tiles/gordion/gordion-vizon-100x100.png',
         faces: [
           '',
         ],
@@ -6276,11 +7153,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Gordion Mid Gris 100x100',
+        name: 'Gordion Mid Grey 100x100',
         color: 'Mid Gris',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/gordion/gordion-bone-100x100.png',
+        thumbnail: '/tiles/gordion/gordion-mid-gris-100x100.png',
         faces: [
           '',
         ],
@@ -6288,7 +7165,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Gordion Blanc 40x120',
+        name: 'Gordion White 40x120',
         color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
@@ -6300,7 +7177,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Gordion Blanc Dekofon 40x120',
+        name: 'Gordion White Dekofon 40x120',
         color: 'Blanc Dekofon',
         size: '40x120',
         surface: 'Mat',
@@ -6312,7 +7189,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Gordion Taupe 40x120',
+        name: 'Gordion Vizon 40x120',
         color: 'Taupe',
         size: '40x120',
         surface: 'Mat',
@@ -6324,7 +7201,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Gordion Gris Foncé 40x120',
+        name: 'Gordion Dark Grey 40x120',
         color: 'Gris Foncé',
         size: '40x120',
         surface: 'Mat',
@@ -6348,6 +7225,7 @@ export const collectionsData = {
   },
   'Grace': {
     slug: 'grace',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/grace/grace-bone.png',
     products: [
       {
@@ -6364,7 +7242,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Grace Gris 60x120',
+        name: 'Grace Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -6388,11 +7266,12 @@ export const collectionsData = {
   },
   'Grand': {
     slug: 'grand',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/grand/grand-ash-40x120.png',
     products: [
       {
         id: 0,
-        name: 'Grand Blanc 40x120',
+        name: 'Grand White 40x120',
         color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
@@ -6404,7 +7283,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Grand Blanc Patchwork Dekofon 40x120',
+        name: 'Grand White Patchwork Dekofon 40x120',
         color: 'Blanc Patchwork Dekofon',
         size: '40x120',
         surface: 'Mat',
@@ -6440,7 +7319,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Grand Blanc 60x60',
+        name: 'Grand White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
@@ -6476,11 +7355,12 @@ export const collectionsData = {
   },
   'Grassland': {
     slug: 'grassland',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/grassland/grassland-blue-30x60.png',
     products: [
       {
         id: 0,
-        name: 'Grassland Vert 60x60',
+        name: 'Grassland Green 60x60',
         color: 'Vert',
         size: '60x60',
         surface: 'Full Lappato',
@@ -6492,7 +7372,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Grassland Bleu 60x60',
+        name: 'Grassland Blue 60x60',
         color: 'Bleu',
         size: '60x60',
         surface: 'Full Lappato',
@@ -6504,7 +7384,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Grassland Vert 30x60',
+        name: 'Grassland Green 30x60',
         color: 'Vert',
         size: '30x60',
         surface: 'Full Lappato',
@@ -6516,7 +7396,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Grassland Bleu 30x60',
+        name: 'Grassland Blue 30x60',
         color: 'Bleu',
         size: '30x60',
         surface: 'Full Lappato',
@@ -6524,6 +7404,26 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Grassland Blue 60x120',
+        color: 'Blue',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/grassland/grassland-blue-30x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Grassland Green 60x120',
+        color: 'Green',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/grassland/grassland-green-30x60.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -6540,7 +7440,8 @@ export const collectionsData = {
   },
   'Greta': {
     slug: 'greta',
-    mainImage: '/tiles/greta/Greta-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/greta/greta-render.png',
     products: [
       {
         id: 0,
@@ -6548,7 +7449,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/greta/Greta-render.png',
+        thumbnail: '/tiles/greta/greta-render.png',
         faces: [
           '',
         ],
@@ -6568,15 +7469,16 @@ export const collectionsData = {
   },
   'Hampton': {
     slug: 'hampton',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/hampton/hampton-anthracite-100X100.png',
     products: [
       {
         id: 0,
-        name: 'Hampton Blanc 100x100',
+        name: 'Hampton Bianco 100x100',
         color: 'Blanc',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/hampton/hampton-anthracite-100X100.png',
+        thumbnail: '/tiles/hampton/hampton-bianco-100X100.png',
         faces: [
           '',
         ],
@@ -6588,7 +7490,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/hampton/hampton-anthracite-100X100.png',
+        thumbnail: '/tiles/hampton/hampton-latte-100X100.png',
         faces: [
           '',
         ],
@@ -6608,7 +7510,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Hampton Blanc 60x120',
+        name: 'Hampton Bianco 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Mat',
@@ -6632,7 +7534,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Hampton Grisgio 60x120',
+        name: 'Hampton Grigio 60x120',
         color: 'Grisgio',
         size: '60x120',
         surface: 'Mat',
@@ -6656,7 +7558,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Hampton Blanc 60x60',
+        name: 'Hampton Bianco 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
@@ -6692,7 +7594,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Hampton Blanc 30x60',
+        name: 'Hampton Bianco 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
@@ -6725,6 +7627,28 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 13,
+        name: 'Hampton Açık Gri 61x61',
+        color: 'Açık Gri',
+        size: '61x61',
+        surface: 'Mat',
+        thumbnail: '/tiles/hampton/hampton-grigio-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 14,
+        name: 'Hampton Açık Gri 60x60',
+        color: 'Açık Gri',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/hampton/hampton-latte-60X60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -6740,6 +7664,7 @@ export const collectionsData = {
   },
   'Harley': {
     slug: 'harley',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/harley/harley-render.jpg',
     products: [
       {
@@ -6768,6 +7693,7 @@ export const collectionsData = {
   },
   'Helen': {
     slug: 'helen',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/helen/helen-bone-30X60.jpg',
     products: [
       {
@@ -6868,7 +7794,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Helen Gris 30x60',
+        name: 'Helen Grey 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -6880,11 +7806,23 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Helen Gris Dekofon 30x60',
+        name: 'Helen Grey Dekofon 30x60',
         color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Mat',
         thumbnail: '/tiles/helen/helen-tapue-40X120.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 10,
+        name: 'Helen Taupe 60x60',
+        color: 'Taupe',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/helen/helen-taupe-30X60.jpg',
         faces: [
           '',
         ],
@@ -6904,6 +7842,7 @@ export const collectionsData = {
   },
   'Helios': {
     slug: 'helios',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/helios/helios-30X90.png',
     products: [
       {
@@ -6932,7 +7871,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Helios Or 30x60',
+        name: 'Helios Gold 30x60',
         color: 'Or',
         size: '30x60',
         surface: 'Brillant',
@@ -6944,7 +7883,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Helios Or Dekofon 30x60',
+        name: 'Helios Gold Dekofon 30x60',
         color: 'Or Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -6956,7 +7895,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Helios Argent 30x60',
+        name: 'Helios Silver 30x60',
         color: 'Argent',
         size: '30x60',
         surface: 'Brillant',
@@ -6968,7 +7907,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Helios Argent Dekofon 30x60',
+        name: 'Helios Silver Dekofon 30x60',
         color: 'Argent Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -7004,7 +7943,8 @@ export const collectionsData = {
   },
   'Herringwood': {
     slug: 'herringwood',
-    mainImage: '/tiles/herringwood/Herringwood-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/herringwood/herringwood-render.png',
     products: [
       {
         id: 0,
@@ -7012,7 +7952,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/herringwood/Herringwood-render.png',
+        thumbnail: '/tiles/herringwood/herringwood-render.png',
         faces: [
           '',
         ],
@@ -7032,7 +7972,8 @@ export const collectionsData = {
   },
   'Himalaya': {
     slug: 'himalaya',
-    mainImage: '/tiles/himalaya/Himalaya-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/himalaya/himalaya-render.png',
     products: [
       {
         id: 0,
@@ -7040,7 +7981,7 @@ export const collectionsData = {
         color: 'Ice',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/himalaya/Himalaya-render.png',
+        thumbnail: '/tiles/himalaya/himalaya-render.png',
         faces: [
           '',
         ],
@@ -7060,6 +8001,7 @@ export const collectionsData = {
   },
   'Hormigon Molde': {
     slug: 'hormigon-molde',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/hormigon-molde/Hormigon Molde.png',
     products: [
       {
@@ -7068,7 +8010,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/hormigon-molde/Hormigon Molde-render.png',
+        thumbnail: '/tiles/hormigon-molde/hormigon-molde-render.png',
         faces: [
           '',
         ],
@@ -7088,6 +8030,7 @@ export const collectionsData = {
   },
   'Hypnos': {
     slug: 'hypnos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/hypnos/hypnos-30X60.png',
     products: [
       {
@@ -7140,11 +8083,12 @@ export const collectionsData = {
   },
   'Imperial': {
     slug: 'imperial',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/imperial/imperial-beyaz-60x60.png',
     products: [
       {
         id: 0,
-        name: 'Imperial Blanc 30x60',
+        name: 'İmperial Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -7156,7 +8100,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Imperial Blanc Dekofon 30x60',
+        name: 'Imperial Beyaz Dekofon 30x60',
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -7168,7 +8112,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Imperial Blanc Dekor 30x60',
+        name: 'İmperial Beyaz Dekor 30x60',
         color: 'Blanc Dekor',
         size: '30x60',
         surface: 'Brillant',
@@ -7180,7 +8124,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Imperial Gris 30x60',
+        name: 'İmperial Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
@@ -7192,7 +8136,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Imperial Gris Dekofon 30x60',
+        name: 'İmperial Gri Dekofon 30x60',
         color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -7204,7 +8148,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Imperial Gris Hexagon Dekofon 30x60',
+        name: 'İmperial Gri Hexagon Dekofon 30x60',
         color: 'Gris Hexagon Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -7216,7 +8160,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Imperial Gris Dekor 30x60',
+        name: 'İmperial Gri Dekor 30x60',
         color: 'Gris Dekor',
         size: '30x60',
         surface: 'Brillant',
@@ -7228,7 +8172,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Imperial Blanc 50x50',
+        name: 'İmperial Beyaz 50x50',
         color: 'Blanc',
         size: '50x50',
         surface: 'Brillant',
@@ -7240,7 +8184,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Imperial Gris 50x50',
+        name: 'İmperial Gri 50x50',
         color: 'Gris',
         size: '50x50',
         surface: 'Brillant',
@@ -7252,7 +8196,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Imperial Blanc 60x60',
+        name: 'İmperial Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -7264,11 +8208,11 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Imperial Blanc 61x61',
+        name: 'Imperial İmperial Beyaz 61x61',
         color: 'Blanc',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '/tiles/imperial/ımperıal-beyaz-50x50.png',
+        thumbnail: '/tiles/imperial/imperial-beyaz-61x61.png',
         faces: [
           '',
         ],
@@ -7288,11 +8232,12 @@ export const collectionsData = {
   },
   'Inca': {
     slug: 'inca',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/inca/inca-anthrasit-30X60.png',
     products: [
       {
         id: 0,
-        name: 'Inca Blanc 30x60',
+        name: 'Inca Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
@@ -7328,7 +8273,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Inca Gris 30x60',
+        name: 'Inca Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
@@ -7340,7 +8285,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Inca Anthracite 30x60',
+        name: 'Inca Antrasit 30x60',
         color: 'Anthracite',
         size: '30x60',
         surface: 'Mat',
@@ -7364,11 +8309,11 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Inca Blanc 61x61',
+        name: 'Inca Beyaz 61x61',
         color: 'Blanc',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/inca/inca-anthrasit-30X60.png',
+        thumbnail: '/tiles/inca/inca-beyaz-61x61.png',
         faces: [
           '',
         ],
@@ -7388,11 +8333,12 @@ export const collectionsData = {
   },
   'Iroko': {
     slug: 'iroko',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/iroko/iroko-brown-20X120.png',
     products: [
       {
         id: 0,
-        name: 'Iroko Iroko Perle 20x120',
+        name: 'Iroko Pearl 20x120',
         color: 'Iroko Perle',
         size: '20x120',
         surface: 'Mat',
@@ -7404,7 +8350,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Iroko Iroko Brun 20x120',
+        name: 'Iroko Brown 20x120',
         color: 'Iroko Brun',
         size: '20x120',
         surface: 'Mat',
@@ -7416,7 +8362,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Iroko Iroko Warm Gris 20x120',
+        name: 'Iroko Warm Grey 20x120',
         color: 'Iroko Warm Gris',
         size: '20x120',
         surface: 'Mat',
@@ -7440,6 +8386,7 @@ export const collectionsData = {
   },
   'Joya': {
     slug: 'joya',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/joya/joya-30X60.png',
     products: [
       {
@@ -7480,6 +8427,7 @@ export const collectionsData = {
   },
   'Juno': {
     slug: 'juno',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/juno/juno-diamond-dekofon.png',
     products: [
       {
@@ -7604,10 +8552,11 @@ export const collectionsData = {
   },
   'Kaleidos': {
     slug: 'kaleidos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
-        name: 'Kaleidos Brun 80x80',
+        name: 'Kaleidos Brown 80x80',
         color: 'Brun',
         size: '80x80',
         surface: 'Mat',
@@ -7619,7 +8568,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Kaleidos Gris Foncé 80x80',
+        name: 'Kaleidos Dark Grey 80x80',
         color: 'Gris Foncé',
         size: '80x80',
         surface: 'Mat',
@@ -7631,11 +8580,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Kaleidos Gris 80x80',
+        name: 'Kaleidos Grey 80x80',
         color: 'Gris',
         size: '80x80',
         surface: 'Mat',
-        thumbnail: '/tiles/kaleidos/kaleidos-dark-grey-80X80.jpg',
+        thumbnail: '/tiles/kaleidos/kaleidos-grey-80X80.jpg',
         faces: [
           '',
         ],
@@ -7655,6 +8604,7 @@ export const collectionsData = {
   },
   'Kallos': {
     slug: 'kallos',
+    categories: ['Jardin'],
     mainImage: '/tiles/kaleidos/kaleidos-brown-80X80.jpg',
     products: [
       {
@@ -7663,10 +8613,20 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: '/tiles/kallos/Kallos-render.png',
+        thumbnail: '/tiles/kallos/kallos-render.png',
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Kallos 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/kallos/Kallos.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -7683,7 +8643,8 @@ export const collectionsData = {
   },
   'Kapteyn': {
     slug: 'kapteyn',
-    mainImage: '/tiles/kapteyn/Kapteyn-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/kapteyn/kapteyn-render.png',
     products: [
       {
         id: 0,
@@ -7691,7 +8652,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/kapteyn/Kapteyn-render.png',
+        thumbnail: '/tiles/kapteyn/kapteyn-render.png',
         faces: [
           '',
         ],
@@ -7711,6 +8672,7 @@ export const collectionsData = {
   },
   'Karsos': {
     slug: 'karsos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/karsos/karsos.jpg',
     products: [
       {
@@ -7739,6 +8701,7 @@ export const collectionsData = {
   },
   'Klein': {
     slug: 'klein',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/klein/klein-cool.png',
     products: [
       {
@@ -7767,7 +8730,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Klein Naturel 20x120',
+        name: 'Klein Natural 20x120',
         color: 'Naturel',
         size: '20x120',
         surface: 'Mat',
@@ -7791,11 +8754,12 @@ export const collectionsData = {
   },
   'La Vita': {
     slug: 'la-vita',
-    mainImage: '/tiles/la-vita/La Vita-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/la-vita/la-vita-render.png',
     products: [
       {
         id: 0,
-        name: 'La Vita Blanc 30x90',
+        name: 'La Vita White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -7807,11 +8771,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'La Vita Noir 30x90',
+        name: 'La Vita Black 30x90',
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '/tiles/la-vita/La Vita-render.png',
+        thumbnail: '/tiles/la-vita/la-vita-render.png',
         faces: [
           '',
         ],
@@ -7831,7 +8795,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'La Vita Blanc 60x60',
+        name: 'La Vita White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -7855,6 +8819,7 @@ export const collectionsData = {
   },
   'Lamuna': {
     slug: 'lamuna',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -7882,6 +8847,7 @@ export const collectionsData = {
   },
   'Larimar Ocean': {
     slug: 'larimar-ocean',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/lamuna/lamuna.jpg',
     products: [
       {
@@ -7890,7 +8856,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/larimar-ocean/larimar-render1.jpg',
+        thumbnail: '/tiles/larimar-ocean/larimar-ocean-render.jpg',
         faces: [
           '',
         ],
@@ -7910,7 +8876,8 @@ export const collectionsData = {
   },
   'Larix': {
     slug: 'larix',
-    mainImage: '/tiles/larix/Larix-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    mainImage: '/tiles/larix/larix-render.png',
     products: [
       {
         id: 0,
@@ -7918,7 +8885,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/larix/Larix-render.png',
+        thumbnail: '/tiles/larix/larix-render.png',
         faces: [
           '',
         ],
@@ -7938,15 +8905,16 @@ export const collectionsData = {
   },
   'Las Palmas': {
     slug: 'las-palmas',
-    mainImage: '/tiles/las-palmas/Las Palmas-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    mainImage: '/tiles/las-palmas/las-palmas-render.png',
     products: [
       {
         id: 0,
-        name: 'Las Palmas Beige 120x120',
+        name: 'Las Palmas Carbon 100x100',
         color: 'Beige',
         size: '120x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
+        thumbnail: '/tiles/las-palmas/las-palmas-carbon-60X120.png',
         faces: [
           '',
         ],
@@ -7954,11 +8922,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Las Palmas Beige 100x100',
+        name: 'Las Palmas Bej 100x100',
         color: 'Beige',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/las-palmas/LAS-PALMAS-BEIGE-60X120---FACE-1.jpg',
+        thumbnail: '/tiles/las-palmas/las-palmas-bej-60X120.png',
         faces: [
           '',
         ],
@@ -7966,11 +8934,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Las Palmas Gris 100x100',
+        name: 'Las Palmas Gri 100x100',
         color: 'Gris',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/las-palmas/LAS-PALMAS-BEIGE-60X120---FACE-1.jpg',
+        thumbnail: '/tiles/las-palmas/las-palmas-gris-60X120.png',
         faces: [
           '',
         ],
@@ -7978,7 +8946,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Las Palmas Blanc 60x120',
+        name: 'Las Palmas White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
@@ -8002,11 +8970,11 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Las Palmas Gris 60x120',
+        name: 'Las Palmas Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/las-palmas/Las Palmas-render.png',
+        thumbnail: '/tiles/las-palmas/las-palmas-render.png',
         faces: [
           '',
         ],
@@ -8014,7 +8982,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Las Palmas Moka 60x120',
+        name: 'Las Palmas Mocha 60x120',
         color: 'Moka',
         size: '60x120',
         surface: 'Full Lappato',
@@ -8050,7 +9018,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Las Palmas Beige 60x60',
+        name: 'Las Palmas Bej 60x60',
         color: 'Beige',
         size: '60x60',
         surface: 'Full Lappato',
@@ -8062,7 +9030,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Las Palmas Gris 60x60',
+        name: 'Las Palmas Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
@@ -8074,7 +9042,7 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Las Palmas Antracit 60x120',
+        name: 'Las Palmas Anthracite 60x120',
         color: 'Antracit',
         size: '60x120',
         surface: 'Full Lappato',
@@ -8098,7 +9066,7 @@ export const collectionsData = {
       },
       {
         id: 13,
-        name: 'Las Palmas Gris 60x120',
+        name: 'Las Palmas Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -8110,11 +9078,11 @@ export const collectionsData = {
       },
       {
         id: 14,
-        name: 'Las Palmas Beige 100x100',
+        name: 'Las Palmas Anthracite 100x100',
         color: 'Beige',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/las-palmas/las-palmas-carbon-60X120.png',
+        thumbnail: '/tiles/las-palmas/las-palmas-anthracite-60X120.png',
         faces: [
           '',
         ],
@@ -8131,6 +9099,118 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 16,
+        name: 'Las Palmas Anthracite 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 17,
+        name: 'Las Palmas Bej 60x120',
+        color: 'Bej',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-bej-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 18,
+        name: 'Las Palmas Bej 60x120',
+        color: 'Bej',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-bej-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 19,
+        name: 'Las Palmas Carbon 60x120',
+        color: 'Carbon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-carbon-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 20,
+        name: 'Las Palmas Carbon 60x120',
+        color: 'Carbon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-carbon-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 21,
+        name: 'Las Palmas Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-gris-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 22,
+        name: 'Las Palmas Mocha 60x120',
+        color: 'Mocha',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-mocha-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 23,
+        name: 'Las Palmas Mocha 60x120',
+        color: 'Mocha',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-mocha-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 24,
+        name: 'Las Palmas White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-blanc-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 25,
+        name: 'Las Palmas White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/las-palmas/las-palmas-blanc-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 26,
+        name: 'Las Palmas Bej 20x120',
+        color: 'Bej',
+        size: '20x120',
+        surface: 'Full Lappato',
+        thumbnail: '/tiles/las-palmas/las-palmas-bej-60X120.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -8143,9 +9223,10 @@ export const collectionsData = {
       // rectifie: '',
       // typesProduit: '',
     }
-  },
+  },    // typesProduit: '',
   'Lefke': {
     slug: 'lefke',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -8161,7 +9242,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Lefke Gris 60x60',
+        name: 'Lefke Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -8173,7 +9254,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Lefke Ivoire 60x60',
+        name: 'Lefke Ivory 60x60',
         color: 'Ivoire',
         size: '60x60',
         surface: 'Mat',
@@ -8197,11 +9278,12 @@ export const collectionsData = {
   },
   'Limra': {
     slug: 'limra',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
     products: [
       {
         id: 0,
-        name: 'Limra Beige 60x120',
+        name: 'Limra Bej 60x120',
         color: 'Beige',
         size: '60x120',
         surface: 'Mat',
@@ -8213,7 +9295,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Limra Gris 60x120',
+        name: 'Limra Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -8225,7 +9307,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Limra Beige 60x60',
+        name: 'Limra Bej 60x60',
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
@@ -8237,7 +9319,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Limra Gris 60x60',
+        name: 'Limra Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -8261,15 +9343,16 @@ export const collectionsData = {
   },
   'Lisbon': {
     slug: 'lisbon',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/lisbon/lisbon.jpg',
     products: [
       {
         id: 0,
-        name: 'Lisbon',
+        name: 'Lisbon 30x60',
         color: '',
-        size: '',
+        size: '30x60',
         surface: 'Mat',
-        thumbnail: '/tiles/lisbon/lisbon-render.jpg',
+        thumbnail: '/tiles/lisbon/lisbon.jpg',
         faces: [
           '',
         ],
@@ -8289,11 +9372,12 @@ export const collectionsData = {
   },
   'Logs': {
     slug: 'logs',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/logs/logs-golden-oak.png',
     products: [
       {
         id: 0,
-        name: 'Logs Doré Oak 20x120',
+        name: 'Logs Golden Oak 20x120',
         color: 'Doré Oak',
         size: '20x120',
         surface: 'Mat',
@@ -8317,7 +9401,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Logs Clair Beige 20x120',
+        name: 'Logs Light Beige 20x120',
         color: 'Clair Beige',
         size: '20x120',
         surface: 'Mat',
@@ -8353,11 +9437,12 @@ export const collectionsData = {
   },
   'Loreto': {
     slug: 'loreto',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/loreto/loreto-dark-60X60.png',
     products: [
       {
         id: 0,
-        name: 'Loreto Clair 60x60',
+        name: 'Loreto Light 60x60',
         color: 'Clair',
         size: '60x60',
         surface: 'Mat',
@@ -8369,7 +9454,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Loreto Foncé 60x60',
+        name: 'Loreto Dark 60x60',
         color: 'Foncé',
         size: '60x60',
         surface: 'Mat',
@@ -8381,11 +9466,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Loreto Clair 61x61',
+        name: 'Loreto Light 61x61',
         color: 'Clair',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/loreto/loreto-dark-60X60.png',
+        thumbnail: '/tiles/loreto/loreto-light-61X61.png',
         faces: [
           '',
         ],
@@ -8393,11 +9478,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Loreto Foncé 61x61',
+        name: 'Loreto Dark 61x61',
         color: 'Foncé',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/loreto/loreto-dark-60X60.png',
+        thumbnail: '/tiles/loreto/loreto-dark-61X61.png',
         faces: [
           '',
         ],
@@ -8417,15 +9502,16 @@ export const collectionsData = {
   },
   'Loris': {
     slug: 'loris',
-    mainImage: '/tiles/loris/loris-greige-render.jpg',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/loris/loris-render.jpg',
     products: [
       {
         id: 0,
-        name: 'Loris',
+        name: 'Loris 30x90',
         color: '',
-        size: '',
+        size: '30x90',
         surface: 'Mat',
-        thumbnail: '/tiles/loris/loris-dekofon-30X90.jpg',
+        thumbnail: '/tiles/loris/loris-30X90.jpg',
         faces: [
           '',
         ],
@@ -8433,9 +9519,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Loris Dekofon ',
+        name: 'Loris Dekofon 30x90',
         color: 'Dekofon ',
-        size: '',
+        size: '30x90',
         surface: 'Mat',
         thumbnail: '/tiles/loris/loris-dekofon-30X90.jpg',
         faces: [
@@ -8457,6 +9543,7 @@ export const collectionsData = {
   },
   'Luca': {
     slug: 'luca',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/luca/luca-bone-60X60.png',
     products: [
       {
@@ -8473,7 +9560,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Luca Gris Clair 60x60',
+        name: 'Luca Light Grey 60x60',
         color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
@@ -8509,7 +9596,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Luca Gris Clair 30x40',
+        name: 'Luca Light Grey 30x40',
         color: 'Gris Clair',
         size: '30x40',
         surface: 'Mat',
@@ -8545,7 +9632,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Luca Gris Clair 20x40',
+        name: 'Luca Light Grey 20x40',
         color: 'Gris Clair',
         size: '20x40',
         surface: 'Mat',
@@ -8581,7 +9668,8 @@ export const collectionsData = {
   },
   'Madero': {
     slug: 'madero',
-    mainImage: '/tiles/madero/Madero-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/madero/madero-render.png',
     products: [
       {
         id: 0,
@@ -8589,7 +9677,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/madero/Madero-render.png',
+        thumbnail: '/tiles/madero/madero-render.png',
         faces: [
           '',
         ],
@@ -8609,7 +9697,8 @@ export const collectionsData = {
   },
   'Madran': {
     slug: 'madran',
-    mainImage: '/tiles/madran/Madran-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    mainImage: '/tiles/madran/madran-render.png',
     products: [
       {
         id: 0,
@@ -8617,7 +9706,7 @@ export const collectionsData = {
         color: 'Vanillia',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/madran/Madran-render.png',
+        thumbnail: '/tiles/madran/madran-render.png',
         faces: [
           '',
         ],
@@ -8629,7 +9718,7 @@ export const collectionsData = {
         color: 'Mink',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: '/tiles/madran/Madran-render.png',
+        thumbnail: '/tiles/madran/madran-render.png',
         faces: [
           '',
         ],
@@ -8649,6 +9738,7 @@ export const collectionsData = {
   },
   'Magellan': {
     slug: 'magellan',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/magellan/magellan-bone-61X61.png',
     products: [
       {
@@ -8665,7 +9755,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Magellan Gris 60x60',
+        name: 'Magellan Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -8677,11 +9767,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Magellan Gris 61x61',
+        name: 'Magellan Gri 61x61',
         color: 'Gris',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/magellan/magellan-bone-61X61.png',
+        thumbnail: '/tiles/magellan/magellan-gris-61X61.png',
         faces: [
           '',
         ],
@@ -8689,11 +9779,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Magellan Anthracite 61x61',
+        name: 'Magellan Antrasit 61x61',
         color: 'Anthracite',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/magellan/magellan-bone-61X61.png',
+        thumbnail: '/tiles/magellan/magelnlan-antrasit-61X61.png',
         faces: [
           '',
         ],
@@ -8713,11 +9803,12 @@ export const collectionsData = {
   },
   'Magnifique': {
     slug: 'magnifique',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/magnifique/magnifique-black-30X60.png',
     products: [
       {
         id: 0,
-        name: 'Magnifique Noir 60x120',
+        name: 'Magnifique Black 60x120',
         color: 'Noir',
         size: '60x120',
         surface: 'Full Lappato',
@@ -8729,7 +9820,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Magnifique Noir 60x60',
+        name: 'Magnifique Black 60x60',
         color: 'Noir',
         size: '60x60',
         surface: 'Full Lappato',
@@ -8741,7 +9832,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Magnifique Noir 30x60',
+        name: 'Magnifique Black 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Full Lappato',
@@ -8765,11 +9856,12 @@ export const collectionsData = {
   },
   'Manhattan': {
     slug: 'manhattan',
+    categories: ['Jardin'],
     mainImage: '/tiles/manhattan/manhattan-beige-45X90.png',
     products: [
       {
         id: 0,
-        name: 'Manhattan Beige 45x90',
+        name: 'Manhattan Bej 45x90',
         color: 'Beige',
         size: '45x90',
         surface: 'Mat',
@@ -8781,7 +9873,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Manhattan Gris 45x90',
+        name: 'Manhattan Gri 45x90',
         color: 'Gris',
         size: '45x90',
         surface: 'Mat',
@@ -8793,7 +9885,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Manhattan Dunkel Gris 45x90',
+        name: 'Manhattan Dunkel Gri 45x90',
         color: 'Dunkel Gris',
         size: '45x90',
         surface: 'Mat',
@@ -8805,7 +9897,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Manhattan Beige 60x60',
+        name: 'Manhattan Bej 60x60',
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
@@ -8817,7 +9909,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Manhattan Gris 60x60',
+        name: 'Manhattan Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -8838,6 +9930,18 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Manhattan Dunkel Gri 60x60',
+        color: 'Dunkel Gri',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/manhattan/manhattan-dunkel-gris-60X60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -8853,6 +9957,7 @@ export const collectionsData = {
   },
   'Marmol': {
     slug: 'marmol',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/marmol/marmol-oldlace-30X90.png',
     products: [
       {
@@ -8965,6 +10070,7 @@ export const collectionsData = {
   },
   'Marvel': {
     slug: 'marvel',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/marvel/marvel-60x60.png',
     products: [
       {
@@ -9005,7 +10111,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Marvel Gris 30x90',
+        name: 'Marvel Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Brillant',
@@ -9053,11 +10159,12 @@ export const collectionsData = {
   },
   'Marvy': {
     slug: 'marvy',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/marvy/marvy-60x60.png',
     products: [
       {
         id: 0,
-        name: 'Marvy Brillant 30x90',
+        name: 'Marvy Parlak 30x90',
         color: 'Brillant',
         size: '30x90',
         surface: 'Brillant',
@@ -9069,7 +10176,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Marvy Brillant Dekofon 30x90',
+        name: 'Marvy Parlak Dekofon 30x90',
         color: 'Brillant Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -9081,7 +10188,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Marvy Brillant Dekor 30x90',
+        name: 'Marvy Parlak Dekor 30x90',
         color: 'Brillant Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -9153,6 +10260,7 @@ export const collectionsData = {
   },
   'Maryo': {
     slug: 'maryo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/maryo/maryo-beige-60X120.png',
     products: [
       {
@@ -9169,7 +10277,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Maryo Gris 60x120',
+        name: 'Maryo Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -9193,11 +10301,12 @@ export const collectionsData = {
   },
   'Maxi': {
     slug: 'maxi',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/maxi/maxi-beyaz-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Maxi Blanc 30x60',
+        name: 'Maxi Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -9209,7 +10318,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Maxi Blanc Dekofon 30x60',
+        name: 'Maxi Beyaz Dekofon 30x60',
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Brillant',
@@ -9221,7 +10330,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Maxi Blanc Platin Dekor 30x60',
+        name: 'Maxi Beyaz Platin Dekor 30x60',
         color: 'Blanc Platin Dekor',
         size: '30x60',
         surface: 'Brillant',
@@ -9233,7 +10342,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Maxi Mat Blanc 60x60',
+        name: 'Maxi Mat Beyaz 60x60',
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -9245,7 +10354,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Maxi Brillant Blanc 60x60',
+        name: 'Maxi Parlak Beyaz 60x60',
         color: 'Brillant Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -9257,11 +10366,11 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Maxi Brillant Blanc 61x61',
+        name: 'Maxi Parlak Beyaz 61x61',
         color: 'Brillant Blanc',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '/tiles/maxi/maxi-beyaz-platin-dekor.png',
+        thumbnail: '/tiles/maxi/maxi-parlak-beyaz-61X61.png',
         faces: [
           '',
         ],
@@ -9281,15 +10390,16 @@ export const collectionsData = {
   },
   'Merlo': {
     slug: 'merlo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/merlo/merlo.jpg',
     products: [
       {
         id: 0,
-        name: 'Merlo',
+        name: 'Merlo 30x60',
         color: '',
-        size: '',
+        size: '30x60',
         surface: 'Mat',
-        thumbnail: '/tiles/merlo/merlo-render.jpg',
+        thumbnail: '/tiles/merlo/merlo.jpg',
         faces: [
           '',
         ],
@@ -9309,6 +10419,7 @@ export const collectionsData = {
   },
   'Mia': {
     slug: 'mia',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/mia/mia-100X100.png',
     products: [
       {
@@ -9334,6 +10445,16 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Mia 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/mia/mia-60X120.png',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -9349,11 +10470,12 @@ export const collectionsData = {
   },
   'Milenario': {
     slug: 'milenario',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/milenario/milenario-beige.png',
     products: [
       {
         id: 0,
-        name: 'Milenario Blanc 20x120',
+        name: 'Milenario White 20x120',
         color: 'Blanc',
         size: '20x120',
         surface: 'Mat',
@@ -9389,7 +10511,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Milenario Gris 20x120',
+        name: 'Milenario Grey 20x120',
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
@@ -9401,7 +10523,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Milenario Brun 20x120',
+        name: 'Milenario Brown 20x120',
         color: 'Brun',
         size: '20x120',
         surface: 'Mat',
@@ -9425,7 +10547,8 @@ export const collectionsData = {
   },
   'Minimo': {
     slug: 'minimo',
-    mainImage: '/tiles/minimo/Minimo-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/minimo/minimo-render.png',
     products: [
       {
         id: 0,
@@ -9433,7 +10556,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/minimo/Minimo-render.png',
+        thumbnail: '/tiles/minimo/minimo-render.png',
         faces: [
           '',
         ],
@@ -9453,7 +10576,8 @@ export const collectionsData = {
   },
   'Miramar': {
     slug: 'miramar',
-    mainImage: '/tiles/miramar/Miramar-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/miramar/miramar-render.png',
     products: [
       {
         id: 0,
@@ -9461,7 +10585,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/miramar/Miramar-render.png',
+        thumbnail: '/tiles/miramar/miramar-render.png',
         faces: [
           '',
         ],
@@ -9481,7 +10605,8 @@ export const collectionsData = {
   },
   'Miranda': {
     slug: 'miranda',
-    mainImage: '/tiles/miranda/Miranda-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/miranda/miranda-render.png',
     products: [
       {
         id: 0,
@@ -9489,7 +10614,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/miranda/Miranda-render.png',
+        thumbnail: '/tiles/miranda/miranda-render.png',
         faces: [
           '',
         ],
@@ -9509,6 +10634,7 @@ export const collectionsData = {
   },
   'Mirko': {
     slug: 'mirko',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/mirko/mirko-dekofon.png',
     products: [
       {
@@ -9549,7 +10675,8 @@ export const collectionsData = {
   },
   'Modellato': {
     slug: 'modellato',
-    mainImage: '/tiles/modellato/Modellato-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/modellato/modellato-render.png',
     products: [
       {
         id: 0,
@@ -9557,7 +10684,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/modellato/Modellato-render.png',
+        thumbnail: '/tiles/modellato/modellato-render.png',
         faces: [
           '',
         ],
@@ -9577,11 +10704,12 @@ export const collectionsData = {
   },
   'Mood': {
     slug: 'mood',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/mood/mood-anthracite.png',
     products: [
       {
         id: 0,
-        name: 'Mood Blanc 30x90',
+        name: 'Mood White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -9617,7 +10745,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Mood Gris 30x90',
+        name: 'Mood Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -9737,6 +10865,7 @@ export const collectionsData = {
   },
   'Mora': {
     slug: 'mora',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/mora/mora.jpg',
     products: [
       {
@@ -9749,6 +10878,16 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Mora 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/mora/mora.jpg',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -9765,11 +10904,12 @@ export const collectionsData = {
   },
   'Motto': {
     slug: 'motto',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/motto/motto-beyaz-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Motto Blanc 30x90',
+        name: 'Motto Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -9781,7 +10921,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Motto Blanc Dekofon 30x90',
+        name: 'Motto Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -9817,7 +10957,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Motto Gris 30x90',
+        name: 'Motto Gri 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -9829,7 +10969,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Motto Gris Dekofon 30x90',
+        name: 'Motto Gri Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -9877,6 +11017,7 @@ export const collectionsData = {
   },
   'Mystone': {
     slug: 'mystone',
+    categories: ['Jardin'],
     mainImage: '/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
     products: [
       {
@@ -9902,6 +11043,30 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Mystone Anthracite 60x60',
+        color: 'Anthracite',
+        size: '60x60',
+        surface: 'Full Lappato',
+        thumbnail: '/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Mystone Coffee 60x60',
+        color: 'Coffee',
+        size: '60x60',
+        surface: 'Full Lappato',
+        thumbnail: '/tiles/mystone/MYSTONE-COFFEE-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -9917,11 +11082,12 @@ export const collectionsData = {
   },
   'Naos': {
     slug: 'naos',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/naos/naos-60X120.png',
     products: [
       {
         id: 0,
-        name: 'Naos Blanc 60x120',
+        name: 'Naos White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
@@ -9957,11 +11123,12 @@ export const collectionsData = {
   },
   'Napoli': {
     slug: 'napoli',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/napoli/napoli-fildisi.png',
     products: [
       {
         id: 0,
-        name: 'Napoli Fildisi 50x50',
+        name: 'Napoli Fildişi 50x50',
         color: 'Fildisi',
         size: '50x50',
         surface: 'Mat',
@@ -9973,7 +11140,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Napoli Gris 50x50',
+        name: 'Napoli Gri 50x50',
         color: 'Gris',
         size: '50x50',
         surface: 'Mat',
@@ -9997,7 +11164,8 @@ export const collectionsData = {
   },
   'Natura Wood': {
     slug: 'natura-wood',
-    mainImage: '/tiles/natura-wood/Natura Wood-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/natura-wood/natura-wood-render.png',
     products: [
       {
         id: 0,
@@ -10061,6 +11229,7 @@ export const collectionsData = {
   },
   'Neva': {
     slug: 'neva',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/neva/neva-50x50.png',
     products: [
       {
@@ -10113,6 +11282,7 @@ export const collectionsData = {
   },
   'Nevada': {
     slug: 'nevada',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/nevada/nevada-bone.png',
     products: [
       {
@@ -10129,11 +11299,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Nevada Gris Clairs',
+        name: 'Nevada Açık Gri 50x50',
         color: 'Gris Clairs',
-        size: '',
+        size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/nevada/nevada-bone.png',
+        thumbnail: '/tiles/nevada/nevada-gris-clair.png',
         faces: [
           '',
         ],
@@ -10141,11 +11311,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Nevada Gris',
+        name: 'Nevada Gri 50x50',
         color: 'Gris',
-        size: '',
+        size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/nevada/nevada-gris-clair.png',
+        thumbnail: '/tiles/nevada/nevada-gris.png',
         faces: [
           '',
         ],
@@ -10165,11 +11335,12 @@ export const collectionsData = {
   },
   'New Metro': {
     slug: 'new-metro',
-    mainImage: '/tiles/new-metro/new-metro-render1.jpg',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/new-metro/new-metro-render.jpg',
     products: [
       {
         id: 0,
-        name: 'New Metro Blanc 60x120',
+        name: 'New Metro Beyaz 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10193,6 +11364,7 @@ export const collectionsData = {
   },
   'Newport': {
     slug: 'newport',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/newport/newport-100X100.png',
     products: [
       {
@@ -10233,11 +11405,12 @@ export const collectionsData = {
   },
   'Nile': {
     slug: 'nile',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/nile/nile-acik-gris-30X60.png',
     products: [
       {
         id: 0,
-        name: 'Nile Gris Clairs 60x120',
+        name: 'Nile Açık Gri 60x120',
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Brillant',
@@ -10249,7 +11422,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Nile Gris 60x120',
+        name: 'Nile Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Brillant',
@@ -10261,7 +11434,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Nile Anthracite 60x120',
+        name: 'Nile Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Brillant',
@@ -10273,7 +11446,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Nile Gris Clairs 60x60',
+        name: 'Nile Açık Gri 60x60',
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Brillant',
@@ -10285,7 +11458,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Nile Gris 60x60',
+        name: 'Nile Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Brillant',
@@ -10297,7 +11470,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Nile Anthracite 60x60',
+        name: 'Nile Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: 'Brillant',
@@ -10309,7 +11482,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Nile Gris Clairs 30x60',
+        name: 'Nile Açık Gri 30x60',
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Brillant',
@@ -10333,11 +11506,12 @@ export const collectionsData = {
   },
   'Nomerles': {
     slug: 'nomerles',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/nomerles/nomerles-antrasite.png',
     products: [
       {
         id: 0,
-        name: 'Nomerles Blanc 60x120',
+        name: 'Nomerles White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10361,7 +11535,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Nomerles Gris 60x120',
+        name: 'Nomerles Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10373,7 +11547,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Nomerles Anthracite 60x120',
+        name: 'Nomerles Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10381,6 +11555,76 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Nomerles Antrasit 60x120',
+        color: 'Antrasit',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-antrasite.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Nomerles Antrasit 60x120',
+        color: 'Antrasit',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-antrasite.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Nomerles Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-gris.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Nomerles Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-gris.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 8,
+        name: 'Nomerles Vizon 60x120',
+        color: 'Vizon',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-vizon.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 9,
+        name: 'Nomerles White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-white.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 10,
+        name: 'Nomerles White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/nomerles/nomerles-white.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -10397,7 +11641,8 @@ export const collectionsData = {
   },
   'Norden': {
     slug: 'norden',
-    mainImage: '/tiles/norden/Norden-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/norden/norden-render.png',
     products: [
       {
         id: 0,
@@ -10405,7 +11650,7 @@ export const collectionsData = {
         color: 'Teak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '/tiles/norden/Norden-render.png',
+        thumbnail: '/tiles/norden/norden-render.png',
         faces: [
           '',
         ],
@@ -10425,11 +11670,12 @@ export const collectionsData = {
   },
   'Nuvola': {
     slug: 'nuvola',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/nuvola/nuvola-beyaz-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Nuvola Blanc 30x90',
+        name: 'Nuvola Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -10441,7 +11687,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Nuvola Blanc Dekofon 30x90',
+        name: 'Nuvola Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -10453,7 +11699,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Nuvola Blanc Dekor 30x90',
+        name: 'Nuvola Beyaz Dekor 30x90',
         color: 'Blanc Dekor',
         size: '30x90',
         surface: 'Mat',
@@ -10465,7 +11711,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Nuvola Blanc Polygon Dekor 30x90',
+        name: 'Nuvola Beyaz Polygon Dekor 30x90',
         color: 'Blanc Polygon Dekor',
         size: '30x90',
         surface: 'Mat',
@@ -10489,6 +11735,7 @@ export const collectionsData = {
   },
   'Oasis': {
     slug: 'oasis',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/oasis/oasis-lila-dekofon.png',
     products: [
       {
@@ -10529,7 +11776,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Oasis Murdum 30x90',
+        name: 'Oasis Mürdüm 30x90',
         color: 'Murdum',
         size: '30x90',
         surface: 'Brillant',
@@ -10541,7 +11788,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Oasis Murdum Dekofon 30x90',
+        name: 'Oasis Mürdüm Dekofon 30x90',
         color: 'Murdum Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -10553,7 +11800,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Oasis Murdum Dekor 30x90',
+        name: 'Oasis Mürdüm Dekor 30x90',
         color: 'Murdum Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -10565,7 +11812,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Oasis Yesil 30x90',
+        name: 'Oasis Yeşil 30x90',
         color: 'Yesil',
         size: '30x90',
         surface: 'Brillant',
@@ -10577,7 +11824,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Oasis Yesil Dekofon 30x90',
+        name: 'Oasis Yeşil Dekofon 30x90',
         color: 'Yesil Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -10589,7 +11836,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Oasis Yesil Dekor 30x90',
+        name: 'Oasis Yeşil Dekor 30x90',
         color: 'Yesil Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -10613,6 +11860,7 @@ export const collectionsData = {
   },
   'Odin': {
     slug: 'odin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/odin/odin-40X120.png',
     products: [
       {
@@ -10641,7 +11889,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Odin Brillant 60x60',
+        name: 'Odin Parlak 60x60',
         color: 'Brillant',
         size: '60x60',
         surface: 'Brillant',
@@ -10653,11 +11901,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Odin Brillant 61x61',
+        name: 'Odin Parlak 61x61',
         color: 'Brillant',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '/tiles/odin/odin-40X120.png',
+        thumbnail: '/tiles/odin/odin-parlak-61X61.png',
         faces: [
           '',
         ],
@@ -10677,11 +11925,12 @@ export const collectionsData = {
   },
   'Olbia': {
     slug: 'olbia',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/olbia/olbia-gris-60X120.png',
     products: [
       {
         id: 0,
-        name: 'Olbia Gris 60x120',
+        name: 'Olbia Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10693,7 +11942,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Olbia Gris 60x60',
+        name: 'Olbia Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
@@ -10717,11 +11966,12 @@ export const collectionsData = {
   },
   'Olivia': {
     slug: 'olivia',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/olivia/olivia-blanc.png',
     products: [
       {
         id: 0,
-        name: 'Olivia Blanc 30x60',
+        name: 'Olivia Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
@@ -10733,7 +11983,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Olivia Noir 30x60',
+        name: 'Olivia Siyah 30x60',
         color: 'Noir',
         size: '30x60',
         surface: 'Brillant',
@@ -10757,6 +12007,7 @@ export const collectionsData = {
   },
   'Olmo': {
     slug: 'olmo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/olmo/olmo-bege.png',
     products: [
       {
@@ -10833,7 +12084,8 @@ export const collectionsData = {
   },
   'Onelia': {
     slug: 'onelia',
-    mainImage: '/tiles/onelia/onelia-render1.jpg',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/onelia/onelia-render.jpg',
     products: [
       {
         id: 0,
@@ -10841,7 +12093,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/onelia/onelia-render1.jpg',
+        thumbnail: '/tiles/onelia/onelia-render.jpg',
         faces: [
           '',
         ],
@@ -10861,11 +12113,12 @@ export const collectionsData = {
   },
   'Onixia': {
     slug: 'onixia',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/onixia/onixia-gris.png',
     products: [
       {
         id: 0,
-        name: 'Onixia Sable 60x120',
+        name: 'Onixia Sand 60x120',
         color: 'Sable',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10877,7 +12130,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Onixia Gris 60x120',
+        name: 'Onixia Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -10901,6 +12154,7 @@ export const collectionsData = {
   },
   'Orfe': {
     slug: 'orfe',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/orfe/orfe-beige.png',
     products: [
       {
@@ -10989,6 +12243,7 @@ export const collectionsData = {
   },
   'Orla': {
     slug: 'orla',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/orla/orla-bronz.png',
     products: [
       {
@@ -11017,7 +12272,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Orla Argent 60x120',
+        name: 'Orla Silver 60x120',
         color: 'Argent',
         size: '60x120',
         surface: 'Full Lappato',
@@ -11053,11 +12308,12 @@ export const collectionsData = {
   },
   'Palazzo': {
     slug: 'palazzo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/palazzo/palazzo-grey.png',
     products: [
       {
         id: 0,
-        name: 'Palazzo Ivoire 60x120',
+        name: 'Palazzo Ivory 60x120',
         color: 'Ivoire',
         size: '60x120',
         surface: 'Full Lappato',
@@ -11069,7 +12325,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Palazzo Gris 60x120',
+        name: 'Palazzo Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -11077,6 +12333,16 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Palazzo Ivory 60x120',
+        color: 'Ivory',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/palazzo/palazzo-ivory.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -11093,7 +12359,8 @@ export const collectionsData = {
   },
   'Palmer': {
     slug: 'palmer',
-    mainImage: '/tiles/palmer/Palmer-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/palmer/palmer-render.png',
     products: [
       {
         id: 0,
@@ -11101,7 +12368,7 @@ export const collectionsData = {
         color: '',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/palmer/Palmer-render.png',
+        thumbnail: '/tiles/palmer/Palmer.png',
         faces: [
           '',
         ],
@@ -11121,11 +12388,12 @@ export const collectionsData = {
   },
   'Pamfilya': {
     slug: 'pamfilya',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
     products: [
       {
         id: 0,
-        name: 'Pamfilya Gris Clairs 60x120',
+        name: 'Pamfilya Açık Gri 60x120',
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Mat',
@@ -11137,7 +12405,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Pamfilya Gris 60x120',
+        name: 'Pamfilya Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -11149,7 +12417,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Pamfilya Anthracite 60x120',
+        name: 'Pamfilya Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
@@ -11161,7 +12429,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Pamfilya Gris Clairs 60x60',
+        name: 'Pamfilya Açık Gri 60x60',
         color: 'Gris Clairs',
         size: '60x60',
         surface: 'Mat',
@@ -11185,11 +12453,12 @@ export const collectionsData = {
   },
   'Paris': {
     slug: 'paris',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/paris/paris-black-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Paris Blanc 30x90',
+        name: 'Paris White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -11201,7 +12470,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Paris Blanc Dekofon 30x90',
+        name: 'Paris White Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -11213,7 +12482,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Paris Noir 30x90',
+        name: 'Paris Black 30x90',
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
@@ -11225,7 +12494,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Paris Noir Dekofon 30x90',
+        name: 'Paris Black Dekofon 30x90',
         color: 'Noir Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -11237,7 +12506,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Paris Blanc 60x60',
+        name: 'Paris White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -11261,11 +12530,12 @@ export const collectionsData = {
   },
   'Parisian': {
     slug: 'parisian',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/parisian/parisian-beyaz-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Parisian Blanc 40x120',
+        name: 'Parisian Beyaz 40x120',
         color: 'Blanc',
         size: '40x120',
         surface: 'Satiné',
@@ -11277,7 +12547,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Parisian Blanc Dekofon 40x120',
+        name: 'Parisian Beyaz Dekofon 40x120',
         color: 'Blanc Dekofon',
         size: '40x120',
         surface: 'Satiné',
@@ -11289,7 +12559,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Parisian Blanc File Dekor 40x120',
+        name: 'Parisian Beyaz File Dekor 40x120',
         color: 'Blanc File Dekor',
         size: '40x120',
         surface: 'Satiné',
@@ -11301,7 +12571,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Parisian Blanc Geo Dekor 40x120',
+        name: 'Parisian Beyaz Geo Dekor 40x120',
         color: 'Blanc Geo Dekor',
         size: '40x120',
         surface: 'Satiné',
@@ -11313,7 +12583,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Parisian Mat Blanc 60x60',
+        name: 'Parisian Mat Beyaz 60x60',
         color: 'Mat Blanc',
         size: '60x60',
         surface: 'Satiné',
@@ -11337,11 +12607,12 @@ export const collectionsData = {
   },
   'Paros': {
     slug: 'paros',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/paros/paros-acik-gris.png',
     products: [
       {
         id: 0,
-        name: 'Paros Blanc 30x60',
+        name: 'Paros Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Full Lappato',
@@ -11365,7 +12636,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Paros Gris Clairs 30x60',
+        name: 'Paros Açık Gri 30x60',
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Full Lappato',
@@ -11377,7 +12648,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Paros Gris Foncés 30x60',
+        name: 'Paros Koyu Gri 30x60',
         color: 'Gris Foncés',
         size: '30x60',
         surface: 'Full Lappato',
@@ -11389,7 +12660,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Paros Blanc Mozaik 305x305',
+        name: 'Paros Beyaz Mozaik 30.5x30.5',
         color: 'Blanc Mozaik',
         size: '30.5x30.5',
         surface: 'Full Lappato',
@@ -11401,7 +12672,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Paros Gris Foncés Mozaik 305x305',
+        name: 'Paros Koyu Gri Mozaik 30.5x30.5',
         color: 'Gris Foncés Mozaik',
         size: '30.5x30.5',
         surface: 'Full Lappato',
@@ -11425,13 +12696,14 @@ export const collectionsData = {
   },
   'Pastel': {
     slug: 'pastel',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/pastel/pastel-noir-19,7x19,7.png',
     products: [
       {
         id: 0,
-        name: 'Pastel Kirmizi 197x197',
+        name: 'Pastel Kırmızı 19.7x19.7',
         color: 'Kirmizi',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/pastel/pastel-noir-19,7x19,7.png',
         faces: [
@@ -11441,9 +12713,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Pastel Noir 197x197',
+        name: 'Pastel Siyah 19.7x19.7',
         color: 'Noir',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/pastel/pastel-noir-19,7x19,7.png',
         faces: [
@@ -11465,6 +12737,7 @@ export const collectionsData = {
   },
   'Pebble': {
     slug: 'pebble',
+    categories: ['Jardin'],
     mainImage: '/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
     products: [
       {
@@ -11490,6 +12763,30 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Pebble Light Grey 60x60',
+        color: 'Light Grey',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Pebble Sand 60x60',
+        color: 'Sand',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/pebble/PEBBLE-SAND-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -11505,11 +12802,12 @@ export const collectionsData = {
   },
   'Pera': {
     slug: 'pera',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/pera/pera-beyaz-60x60.png',
     products: [
       {
         id: 0,
-        name: 'Pera Blanc 30x90',
+        name: 'Pera White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -11521,7 +12819,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Pera Blanc Dekofon 30x90',
+        name: 'Pera White Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -11533,7 +12831,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Pera Gris Clair 30x90',
+        name: 'Pera Light Grey 30x90',
         color: 'Gris Clair',
         size: '30x90',
         surface: 'Mat',
@@ -11545,7 +12843,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Pera Clair Gris Dekofon 30x90',
+        name: 'Pera Light Grey Dekofon 30x90',
         color: 'Clair Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -11557,7 +12855,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Pera Gris 30x90',
+        name: 'Pera Grey 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -11569,7 +12867,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Pera Gris Dekofon 30x90',
+        name: 'Pera Grey Dekofon 30x90',
         color: 'Gris Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -11581,7 +12879,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Pera Blanc 60x60',
+        name: 'Pera White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
@@ -11593,7 +12891,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Pera Gris Clair 60x60',
+        name: 'Pera Light Grey 60x60',
         color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
@@ -11605,7 +12903,7 @@ export const collectionsData = {
       },
       {
         id: 8,
-        name: 'Pera Gris 60x60',
+        name: 'Pera Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -11629,11 +12927,12 @@ export const collectionsData = {
   },
   'Picasso': {
     slug: 'picasso',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/picasso/picasso-akagac.png',
     products: [
       {
         id: 0,
-        name: 'Picasso Picossa Akagac 15x60',
+        name: 'Picossa Akağaç 15x60',
         color: 'Picossa Akagac',
         size: '15x60',
         surface: 'Mat',
@@ -11645,7 +12944,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Picasso Cira 15x60',
+        name: 'Picasso Çıra 15x60',
         color: 'Cira',
         size: '15x60',
         surface: 'Mat',
@@ -11681,7 +12980,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Picasso Tinder Mosaic 305x305',
+        name: 'Picasso Tinder Mosaic 30.5x30.5',
         color: 'Tinder Mosaic',
         size: '30.5x30.5',
         surface: 'Mat',
@@ -11693,7 +12992,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Picasso Bleu Mosaic 305x305',
+        name: 'Picasso Blue Mosaic 30.5x30.5',
         color: 'Bleu Mosaic',
         size: '30.5x30.5',
         surface: 'Mat',
@@ -11717,7 +13016,8 @@ export const collectionsData = {
   },
   'Piegato': {
     slug: 'piegato',
-    mainImage: '/tiles/piegato/Piegato-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/piegato/piegato-render.png',
     products: [
       {
         id: 0,
@@ -11725,7 +13025,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/piegato/Piegato-render.png',
+        thumbnail: '/tiles/piegato/piegato-render.png',
         faces: [
           '',
         ],
@@ -11745,6 +13045,7 @@ export const collectionsData = {
   },
   'Quark': {
     slug: 'quark',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/quark/quark-antrasit.png',
     products: [
       {
@@ -11773,7 +13074,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Quark Gris 60x120',
+        name: 'Quark Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -11785,7 +13086,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Quark Anthracite 60x120',
+        name: 'Quark Antrasit 60x120',
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
@@ -11809,7 +13110,8 @@ export const collectionsData = {
   },
   'Quarzt': {
     slug: 'quarzt',
-    mainImage: '/tiles/quarzt/Quarzt-render.png',
+    categories: ['Jardin'],
+    mainImage: '/tiles/quarzt/quarzt-render.png',
     products: [
       {
         id: 0,
@@ -11817,7 +13119,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: '/tiles/quarzt/Quarzt-render.png',
+        thumbnail: '/tiles/quarzt/quarzt-render.png',
         faces: [
           '',
         ],
@@ -11825,7 +13127,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Quarzt Beige 45x90',
+        name: 'Quarzt Bej 45x90',
         color: 'Beige',
         size: '45x90',
         surface: 'Mat',
@@ -11837,7 +13139,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Quarzt Gris 45x90',
+        name: 'Quarzt Gri 45x90',
         color: 'Gris',
         size: '45x90',
         surface: 'Mat',
@@ -11853,7 +13155,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: '/tiles/quarzt/Quarzt-render.png',
+        thumbnail: '/tiles/quarzt/quarzt-render.png',
         faces: [
           '',
         ],
@@ -11861,7 +13163,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Quarzt Beige 60x60',
+        name: 'Quarzt Bej 60x60',
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
@@ -11873,7 +13175,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Quarzt Gris 60x60',
+        name: 'Quarzt Gri 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
@@ -11885,7 +13187,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Quarzt Anthracite 60x60',
+        name: 'Quarzt Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
         surface: 'Mat',
@@ -11909,6 +13211,7 @@ export const collectionsData = {
   },
   'Radiance': {
     slug: 'radiance',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -11920,6 +13223,16 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Radiance 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -11936,6 +13249,7 @@ export const collectionsData = {
   },
   'Regnum': {
     slug: 'regnum',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
     products: [
       {
@@ -11944,7 +13258,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/regnum/Regnum-render.png',
+        thumbnail: '/tiles/regnum/regnum-render.png',
         faces: [
           '',
         ],
@@ -11964,6 +13278,7 @@ export const collectionsData = {
   },
   'Rhea': {
     slug: 'rhea',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -12000,6 +13315,42 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Rhea Anthracite 60x60',
+        color: 'Anthracite',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/rhea/rhea-anthracite.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Rhea Grey 60x60',
+        color: 'Grey',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/rhea/rhea-grey.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Rhea Ivory 60x60',
+        color: 'Ivory',
+        size: '60x60',
+        surface: null,
+        thumbnail: '/tiles/rhea/rhea-grey.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -12015,6 +13366,7 @@ export const collectionsData = {
   },
   'Rio': {
     slug: 'rio',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     products: [
       {
         id: 0,
@@ -12051,6 +13403,36 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Rio Beige 60x120',
+        color: 'Beige',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/rio/rio-beige.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Rio Dark 60x120',
+        color: 'Dark',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/rio/rio-dark.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Rio Light 60x120',
+        color: 'Light',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/rio/rio-light.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -12066,6 +13448,7 @@ export const collectionsData = {
   },
   'Riva': {
     slug: 'riva',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/rhea/rhea-anthracite.jpg',
     products: [
       {
@@ -12118,6 +13501,7 @@ export const collectionsData = {
   },
   'Root': {
     slug: 'root',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/root/root-ash-100X100.png',
     products: [
       {
@@ -12134,11 +13518,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Root Argent 100x100',
+        name: 'Root Silver 100x100',
         color: 'Argent',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/root/root-ash-100X100.png',
+        thumbnail: '/tiles/root/root-silver-100X100.png',
         faces: [
           '',
         ],
@@ -12170,7 +13554,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Root Argent 60x120',
+        name: 'Root Silver 60x120',
         color: 'Argent',
         size: '60x120',
         surface: 'Full Lappato',
@@ -12178,6 +13562,36 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Root Ash 60x120',
+        color: 'Ash',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/root/root-ash-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Root Crema 60x120',
+        color: 'Crema',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/root/root-crema-60X120.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Root Silver 60x120',
+        color: 'Silver',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/root/root-silver-60X120.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -12194,6 +13608,7 @@ export const collectionsData = {
   },
   'Rubi': {
     slug: 'rubi',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/rubi/rubi-anthracite.png',
     products: [
       {
@@ -12210,7 +13625,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Rubi Brun 60x120',
+        name: 'Rubi Brown 60x120',
         color: 'Brun',
         size: '60x120',
         surface: 'Full Lappato',
@@ -12222,7 +13637,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Rubi Gris 60x120',
+        name: 'Rubi Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -12258,11 +13673,12 @@ export const collectionsData = {
   },
   'Saaga': {
     slug: 'saaga',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/saaga/saaga-anthracite.png',
     products: [
       {
         id: 0,
-        name: 'Saaga Clair Beige 30x40',
+        name: 'Saaga Light Beige 30x40',
         color: 'Clair Beige',
         size: '30x40',
         surface: 'Mat',
@@ -12274,7 +13690,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Saaga Gris 30x40',
+        name: 'Saaga Grey 30x40',
         color: 'Gris',
         size: '30x40',
         surface: 'Mat',
@@ -12310,6 +13726,7 @@ export const collectionsData = {
   },
   'Sakura': {
     slug: 'sakura',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/sakura/sakura-60X60.png',
     products: [
       {
@@ -12318,7 +13735,7 @@ export const collectionsData = {
         color: '',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/sakura/sakura-60X60.png',
+        thumbnail: '/tiles/sakura/sakura-61x61.png',
         faces: [
           '',
         ],
@@ -12350,7 +13767,8 @@ export const collectionsData = {
   },
   'Salamanca': {
     slug: 'salamanca',
-    mainImage: '/tiles/salamanca/Salamanca-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/salamanca/salamanca-render.png',
     products: [
       {
         id: 0,
@@ -12358,7 +13776,7 @@ export const collectionsData = {
         color: '',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: '/tiles/salamanca/Salamanca-render.png',
+        thumbnail: '/tiles/salamanca/salamanca-render.png',
         faces: [
           '',
         ],
@@ -12378,7 +13796,8 @@ export const collectionsData = {
   },
   'Salt Cave': {
     slug: 'salt-cave',
-    mainImage: '/tiles/salt-cave/Salt Cave-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    mainImage: '/tiles/salt-cave/salt-cave-render.png',
     products: [
       {
         id: 0,
@@ -12430,11 +13849,12 @@ export const collectionsData = {
   },
   'Sante': {
     slug: 'sante',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/sante/sante-aqua-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Sante Blanc 30x90',
+        name: 'Sante White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -12446,7 +13866,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Sante Blanc Decor 30x90',
+        name: 'Sante White Decor 30x90',
         color: 'Blanc Decor',
         size: '30x90',
         surface: 'Brillant',
@@ -12542,7 +13962,7 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Sante Fumée 30x90',
+        name: 'Sante Smoke 30x90',
         color: 'Fumée',
         size: '30x90',
         surface: 'Brillant',
@@ -12554,7 +13974,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Sante Fumée Dekofon 30x90',
+        name: 'Sante Smoke Dekofon 30x90',
         color: 'Fumée Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -12566,7 +13986,7 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Sante Fumée Dekor 30x90',
+        name: 'Sante Smoke Dekor 30x90',
         color: 'Fumée Dekor',
         size: '30x90',
         surface: 'Brillant',
@@ -12578,7 +13998,7 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Sante Blanc 60x60',
+        name: 'Sante White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -12602,6 +14022,7 @@ export const collectionsData = {
   },
   'Sara': {
     slug: 'sara',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/sara/sara-blue.png',
     products: [
       {
@@ -12618,7 +14039,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Sara Brun 60x120',
+        name: 'Sara Brown 60x120',
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
@@ -12630,7 +14051,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Sara Vert 60x120',
+        name: 'Sara Green 60x120',
         color: 'Vert',
         size: '60x120',
         surface: 'Lappato',
@@ -12642,7 +14063,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Sara Bleu 60x120',
+        name: 'Sara Blue 60x120',
         color: 'Bleu',
         size: '60x120',
         surface: 'Lappato',
@@ -12666,6 +14087,7 @@ export const collectionsData = {
   },
   'Sarda': {
     slug: 'sarda',
+    categories: ['Jardin'],
     mainImage: '/tiles/sarda/sarda-render-2.jpg',
     products: [
       {
@@ -12675,6 +14097,18 @@ export const collectionsData = {
         size: '',
         surface: 'Mat',
         thumbnail: '/tiles/sarda/sarda-render-2.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Sarda 60x60',
+        color: 'Havuz Mavi',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/sarda/sarda.jpg',
         faces: [
           '',
         ],
@@ -12694,6 +14128,7 @@ export const collectionsData = {
   },
   'Saten': {
     slug: 'saten',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
@@ -12709,7 +14144,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Saten Havuz Marine 30x40',
+        name: 'Saten Havuz Lacivert 30x40',
         color: 'Havuz Marine',
         size: '30x40',
         surface: 'Mat',
@@ -12733,6 +14168,7 @@ export const collectionsData = {
   },
   'Sativa': {
     slug: 'sativa',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/collection/SATIVA 61X61-2.jpg',
     products: [
       {
@@ -12749,7 +14185,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Sativa Cool Gris 50x50',
+        name: 'Sativa Cool Gri 50x50',
         color: 'Cool Gris',
         size: '50x50',
         surface: 'Mat',
@@ -12773,7 +14209,8 @@ export const collectionsData = {
   },
   'Sealong': {
     slug: 'sealong',
-    mainImage: '/tiles/sealong/sealong-render1.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/sealong/sealong-render.png',
     products: [
       {
         id: 0,
@@ -12781,7 +14218,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '/tiles/sealong/sealong-render1.png',
+        thumbnail: '/tiles/sealong/sealong-render.png',
         faces: [
           '',
         ],
@@ -12801,6 +14238,7 @@ export const collectionsData = {
   },
   'Sempre': {
     slug: 'sempre',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/sempre/sempre-bianca-60X60.png',
     products: [
       {
@@ -12821,7 +14259,7 @@ export const collectionsData = {
         color: 'Rosa',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: '/tiles/sempre/sempre-rosa-61X61.png',
         faces: [
           '',
         ],
@@ -12829,7 +14267,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Sempre Grisgio 60x60',
+        name: 'Sempre Grigio 60x60',
         color: 'Grisgio',
         size: '60x60',
         surface: 'Mat',
@@ -12841,11 +14279,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Sempre Grisgio 61x61',
+        name: 'Sempre Grigio 61x61',
         color: 'Grisgio',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/sempre/sempre-grigio-60X60.png',
+        thumbnail: '/tiles/sempre/sempre-grigio-61x61.png',
         faces: [
           '',
         ],
@@ -12869,7 +14307,7 @@ export const collectionsData = {
         color: 'Nero',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: '/tiles/sempre/sempre-nero-61x61.png',
         faces: [
           '',
         ],
@@ -12889,7 +14327,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Sempre Junior Grisgio 60x60',
+        name: 'Sempre Junior Grigio 60x60',
         color: 'Junior Grisgio',
         size: '60x60',
         surface: 'Mat',
@@ -12913,9 +14351,9 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Sempre Junior Bianca 197x197',
+        name: 'Sempre Junior Bianca 19.7x19.7',
         color: 'Junior Bianca',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
@@ -12925,9 +14363,9 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Sempre Junior Rosa 197x197',
+        name: 'Sempre Junior Rosa 19.7x19.7',
         color: 'Junior Rosa',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
@@ -12937,9 +14375,9 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Sempre Junior Grisgio 197x197',
+        name: 'Sempre Junior Grigio 19.7x19.7',
         color: 'Junior Grisgio',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
@@ -12949,11 +14387,23 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Sempre Junior Nero 197x197',
+        name: 'Sempre Junior Nero 19.7x19.7',
         color: 'Junior Nero',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/sempre/sempre-bianca-60X60.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 13,
+        name: 'Sempre Grigio 60x60',
+        color: 'Grisgio',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/sempre/sempre-grigio-60X60.png',
         faces: [
           '',
         ],
@@ -12973,6 +14423,7 @@ export const collectionsData = {
   },
   'Serpantin': {
     slug: 'serpatin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
@@ -12997,6 +14448,26 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Serpantin Sand 60x120',
+        color: 'Sand',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/serpantin/serpantin-sand-60X120.webp',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Serpantin White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/serpantin/serpantin-white-60X120.webp',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -13012,6 +14483,7 @@ export const collectionsData = {
   },
   'Shell': {
     slug: 'shell',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -13023,6 +14495,16 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Shell 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/shell/7BANTSEET-SHELL-BEIGE-60X120X2-ENG1504-BAS3001-GS4BINARY-SSB3-RGB-P1.jpg',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -13039,11 +14521,12 @@ export const collectionsData = {
   },
   'Side': {
     slug: 'side',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/collection/STACY 50X50-2.jpg',
     products: [
       {
         id: 0,
-        name: 'Side Vert 60x120',
+        name: 'Side Green 60x120',
         color: 'Vert',
         size: '60x120',
         surface: 'Lappato',
@@ -13055,7 +14538,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Side Brun 60x120',
+        name: 'Side Brown 60x120',
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
@@ -13079,11 +14562,12 @@ export const collectionsData = {
   },
   'Silyon': {
     slug: 'silyon',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/silyon/silyon-blue.png',
     products: [
       {
         id: 0,
-        name: 'Silyon Bleu 60x120',
+        name: 'Silyon Blue 60x120',
         color: 'Bleu',
         size: '60x120',
         surface: 'Full Lappato',
@@ -13095,7 +14579,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Silyon Or 60x120',
+        name: 'Silyon Gold 60x120',
         color: 'Or',
         size: '60x120',
         surface: 'Full Lappato',
@@ -13119,11 +14603,12 @@ export const collectionsData = {
   },
   'Simirna': {
     slug: 'simirna',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/simirna/simirna-brown.png',
     products: [
       {
         id: 0,
-        name: 'Simirna Gris 60x120',
+        name: 'Simirna Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -13135,7 +14620,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Simirna Brun 60x120',
+        name: 'Simirna Brown 60x120',
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
@@ -13159,7 +14644,8 @@ export const collectionsData = {
   },
   'Stacy': {
     slug: 'stacy',
-    mainImage: '/tiles/stacy/Stacy-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/stacy/stacy-render.png',
     products: [
       {
         id: 0,
@@ -13167,7 +14653,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/stacy/Stacy-render.png',
+        thumbnail: '/tiles/stacy/stacy-render.png',
         faces: [
           '',
         ],
@@ -13187,13 +14673,14 @@ export const collectionsData = {
   },
   'Star': {
     slug: 'star',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/star/star-bleu-19,7x19,7.png',
     products: [
       {
         id: 0,
-        name: 'Star Kirmizi 197x197',
+        name: 'Star Kırmızı 19.7x19.7',
         color: 'Kirmizi',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/star/star-bleu-19,7x19,7.png',
         faces: [
@@ -13203,9 +14690,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Star Mavi 197x197',
+        name: 'Star Mavi 19.7x19.7',
         color: 'Mavi',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/star/star-bleu-19,7x19,7.png',
         faces: [
@@ -13227,7 +14714,8 @@ export const collectionsData = {
   },
   'Star Line': {
     slug: 'star-line',
-    mainImage: '/tiles/star-line/Star Line-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/star-line/star-line-render.png',
     products: [
       {
         id: 0,
@@ -13235,7 +14723,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: '/tiles/star-line/Star Line-render.png',
+        thumbnail: '/tiles/star-line/star-line-render.png',
         faces: [
           '',
         ],
@@ -13259,7 +14747,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: '/tiles/star-line/Star Line-render.png',
+        thumbnail: '/tiles/star-line/star-line-render.png',
         faces: [
           '',
         ],
@@ -13279,7 +14767,8 @@ export const collectionsData = {
   },
   'Statuario Goya': {
     slug: 'statuario-goya',
-    mainImage: '/tiles/statuario-goya/Statuario Goya-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
+    mainImage: '/tiles/statuario-goya/statuario-goya-render.png',
     products: [
       {
         id: 0,
@@ -13287,7 +14776,7 @@ export const collectionsData = {
         color: '',
         size: '100x100',
         surface: 'Brillant',
-        thumbnail: '/tiles/statuario-goya/Statuario Goya-render.png',
+        thumbnail: '/tiles/statuario-goya/statuario-goya-render.png',
         faces: [
           '',
         ],
@@ -13299,7 +14788,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: '/tiles/statuario-goya/Statuario Goya-render.png',
+        thumbnail: '/tiles/statuario-goya/statuario-goya-render.png',
         faces: [
           '',
         ],
@@ -13323,7 +14812,7 @@ export const collectionsData = {
         color: '',
         size: '61x61',
         surface: 'Brillant',
-        thumbnail: '/tiles/statuario-goya/statuario-goya-30x60.png',
+        thumbnail: '/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
           '',
         ],
@@ -13364,6 +14853,28 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Statuario Goya 60x120',
+        color: '',
+        size: '60x120',
+        surface: 'Brillant',
+        thumbnail: '/tiles/statuario-goya/statuario-goya-30x60.png',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 8,
+        name: 'Statuario Goya 60x60',
+        color: '',
+        size: '60x60',
+        surface: 'Brillant',
+        thumbnail: '/tiles/statuario-goya/statuario-goya-61x61.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -13379,6 +14890,7 @@ export const collectionsData = {
   },
   'Storm Rock': {
     slug: 'storm-rock',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/storm-rock/storm-rock-antracite.jpg',
     products: [
       {
@@ -13452,6 +14964,56 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Storm Rock Anthracite 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/storm-rock/storm-rock-antracite.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Storm Rock Cotto 60x120',
+        color: 'Cotto',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/storm-rock/storm-rock-cotto.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 8,
+        name: 'Storm Rock Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/storm-rock/storm-rock-gris.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 9,
+        name: 'Storm Rock New Green 60x120',
+        color: 'New Green',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/storm-rock/storm-rock-new-green.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 10,
+        name: 'Storm Rock White 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/storm-rock/storm-rock-white.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -13467,7 +15029,8 @@ export const collectionsData = {
   },
   'Strato': {
     slug: 'strato',
-    mainImage: '/tiles/strato/Strato-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/strato/strato-render.png',
     products: [
       {
         id: 0,
@@ -13475,7 +15038,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/strato/Strato-render.png',
+        thumbnail: '/tiles/strato/strato-render.png',
         faces: [
           '',
         ],
@@ -13495,7 +15058,8 @@ export const collectionsData = {
   },
   'Stuart': {
     slug: 'stuart',
-    mainImage: '/tiles/stuart/Stuart-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/stuart/stuart-render.png',
     products: [
       {
         id: 0,
@@ -13503,7 +15067,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: '/tiles/stuart/Stuart-render.png',
+        thumbnail: '/tiles/stuart/stuart-render.png',
         faces: [
           '',
         ],
@@ -13523,14 +15087,15 @@ export const collectionsData = {
   },
   'Süper Beyaz': {
     slug: 'super-beyaz',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
-        name: 'Süper Blanc 60x120',
+        name: 'Süper Beyaz 60x120',
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/sper-white/super-beyaz-30x60.png',
+        thumbnail: '/tiles/super-beyaz/super-beyaz-30x60.png',
         faces: [
           '',
         ],
@@ -13538,11 +15103,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Süper Blanc 60x60',
+        name: 'Süper Beyaz 60x60',
         color: '',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/sper-white/super-beyaz-30x60.png',
+        thumbnail: '/tiles/super-beyaz/super-beyaz-30x60.png',
         faces: [
           '',
         ],
@@ -13550,11 +15115,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Süper Blanc 30x60',
+        name: 'Süper Beyaz 30x60',
         color: '',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/sper-white/super-beyaz-60X60.png',
+        thumbnail: '/tiles/super-beyaz/super-beyaz-60X60.png',
         faces: [
           '',
         ],
@@ -13574,6 +15139,7 @@ export const collectionsData = {
   },
   'Swan': {
     slug: 'swan',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/collection/SWAN 60x120 R1.jpg',
     products: [
       {
@@ -13582,7 +15148,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/swan/Swan-render.png',
+        thumbnail: '/tiles/swan/swan-render.png',
         faces: [
           '',
         ],
@@ -13602,6 +15168,7 @@ export const collectionsData = {
   },
   'Tavas': {
     slug: 'tavas',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -13662,6 +15229,66 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Tavas Cream 60x60',
+        color: 'Cream',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/tavas/TAVAS-CREAM-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 6,
+        name: 'Tavas Gold 60x60',
+        color: 'Gold',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/tavas/TAVAS-GOLD-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 7,
+        name: 'Tavas Grey 60x60',
+        color: 'Grey',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/tavas/TAVAS-GREY-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 8,
+        name: 'Tavas Light Grey 60x60',
+        color: 'Light Grey',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 9,
+        name: 'Tavas Noce 60x60',
+        color: 'Noce',
+        size: '60x60',
+        surface: 'Mat',
+        thumbnail: '/tiles/tavas/TAVAS-NOCE-60X60X2-MAT-P1.jpg',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -13677,11 +15304,12 @@ export const collectionsData = {
   },
   'Terra': {
     slug: 'terra',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/tavas/TAVAS-CREAM-60X60X2-MAT-P1.jpg',
     products: [
       {
         id: 0,
-        name: 'Terra Blanc 30x90',
+        name: 'Terra Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -13693,7 +15321,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Terra Gris 30x90',
+        name: 'Terra Gri 30x90',
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
@@ -13717,7 +15345,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Terra Gul Kurusu 30x90',
+        name: 'Terra Gül Kurusu 30x90',
         color: 'Gul Kurusu',
         size: '30x90',
         surface: 'Mat',
@@ -13741,7 +15369,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Terra Blanc 60x60',
+        name: 'Terra Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Mat',
@@ -13765,11 +15393,12 @@ export const collectionsData = {
   },
   'Thanos': {
     slug: 'thanos',
+    categories: ['Jardin'],
     mainImage: '/tiles/thanos/thanos-acik-gris.png',
     products: [
       {
         id: 0,
-        name: 'Thanos Sable 60x120',
+        name: 'Thanos Sand 60x120',
         color: 'Sable',
         size: '60x120',
         surface: 'Mat',
@@ -13781,7 +15410,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Thanos Gris Clairs 60x120',
+        name: 'Thanos Açık Gri 60x120',
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Mat',
@@ -13793,7 +15422,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Thanos Gris Foncés 60x120',
+        name: 'Thanos Koyu Gri 60x120',
         color: 'Gris Foncés',
         size: '60x120',
         surface: 'Mat',
@@ -13805,7 +15434,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Thanos Sable 60x60',
+        name: 'Thanos Sand 60x60',
         color: 'Sable',
         size: '60x60',
         surface: 'Mat',
@@ -13817,7 +15446,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Thanos Gris Foncés 60x60',
+        name: 'Thanos Koyu Gri 60x60',
         color: 'Gris Foncés',
         size: '60x60',
         surface: 'Mat',
@@ -13841,11 +15470,12 @@ export const collectionsData = {
   },
   'Tiana': {
     slug: 'tiana',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/tiana/tiana-antrasit-40X120.png',
     products: [
       {
         id: 0,
-        name: 'Tiana Blanc 40x120',
+        name: 'Tiana Beyaz 40x120',
         color: 'Blanc',
         size: '40x120',
         surface: 'Brillant',
@@ -13857,7 +15487,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Tiana Anthracite 40x120',
+        name: 'Tiana Antrasit 40x120',
         color: 'Anthracite',
         size: '40x120',
         surface: 'Brillant',
@@ -13881,7 +15511,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Tiana Blanc 60x60',
+        name: 'Tiana Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -13905,13 +15535,14 @@ export const collectionsData = {
   },
   'Tiffany': {
     slug: 'tiffany',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/tiffany/tiffany-bleu.png',
     products: [
       {
         id: 0,
-        name: 'Tiffany Yesil 197x197',
+        name: 'Tiffany Yeşil 19.7x19.7',
         color: 'Yesil',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/tiffany/tiffany-bleu.png',
         faces: [
@@ -13921,9 +15552,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Tiffany Mavi 197x197',
+        name: 'Tiffany Mavi 19.7x19.7',
         color: 'Mavi',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/tiffany/tiffany-bleu.png',
         faces: [
@@ -13933,9 +15564,9 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Tiffany Noir 197x197',
+        name: 'Tiffany Siyah 19.7x19.7',
         color: 'Noir',
-        size: '197x197',
+        size: '19.7x19.7',
         surface: 'Mat',
         thumbnail: '/tiles/tiffany/tiffany-bleu.png',
         faces: [
@@ -13957,11 +15588,12 @@ export const collectionsData = {
   },
   'Tiger': {
     slug: 'tiger',
-    mainImage: '/tiles/tiger/Tiger-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/tiger/tiger-render.png',
     products: [
       {
         id: 0,
-        name: 'Tiger Noir 60x120',
+        name: 'Tiger Black 60x120',
         color: 'Noir',
         size: '60x120',
         surface: 'Full Lappato',
@@ -13985,11 +15617,12 @@ export const collectionsData = {
   },
   'Tsuga': {
     slug: 'tsuga',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/tsuga/tsuga-almond.png',
     products: [
       {
         id: 0,
-        name: 'Tsuga Naturel 20x120',
+        name: 'Tsuga Natural 20x120',
         color: 'Naturel',
         size: '20x120',
         surface: 'Mat',
@@ -14037,6 +15670,7 @@ export const collectionsData = {
   },
   'Turin': {
     slug: 'turin',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/turin/turin-gris-100X100.png',
     products: [
       {
@@ -14053,7 +15687,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Turin Gris 60x120',
+        name: 'Turin Gri 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
@@ -14077,11 +15711,12 @@ export const collectionsData = {
   },
   'Twist': {
     slug: 'twist',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/twist/twist-blanc.png',
     products: [
       {
         id: 0,
-        name: 'Twist Blanc 14.2x16.4',
+        name: 'Twist Beyaz 14.2x16.4',
         color: 'Blanc',
         size: '14.2x16.4',
         surface: 'Mat',
@@ -14093,7 +15728,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Twist Gris 14.2x16.4',
+        name: 'Twist Gri 14.2x16.4',
         color: 'Gris',
         size: '14.2x16.4',
         surface: 'Mat',
@@ -14105,7 +15740,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Twist Noir 14.2x16.4',
+        name: 'Twist Siyah 14.2x16.4',
         color: 'Noir',
         size: '14.2x16.4',
         surface: 'Mat',
@@ -14129,6 +15764,7 @@ export const collectionsData = {
   },
   'Urban': {
     slug: 'urban',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/urban/urban-anthracite-19,7x19,7.png',
     products: [
       {
@@ -14149,7 +15785,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/urban/urban-anthracite-19,7x19,7.png',
+        thumbnail: '/tiles/urban/urban-bone-61x61.png',
         faces: [
           '',
         ],
@@ -14173,7 +15809,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: '/tiles/urban/urban-anthracite-19,7x19,7.png',
+        thumbnail: '/tiles/urban/urban-latte-61x61.png',
         faces: [
           '',
         ],
@@ -14358,6 +15994,42 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 19,
+        name: 'Urban Anthracite 19.7x19.7',
+        color: 'Anthracite',
+        size: '19.7x19.7',
+        surface: 'Mat',
+        thumbnail: '/tiles/urban/urban-anthracite-19,7x19,7.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 20,
+        name: 'Urban Bone 19.7x19.7',
+        color: 'Bone',
+        size: '19.7x19.7',
+        surface: 'Mat',
+        thumbnail: '/tiles/urban/urban-bone-19,7x19,7.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 21,
+        name: 'Urban Dunkel 19.7x19.7',
+        color: 'Dunkel',
+        size: '19.7x19.7',
+        surface: 'Mat',
+        thumbnail: '/tiles/urban/urban-dunkel-19,7x19,7.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
       }
     ],
     documents: [
@@ -14373,6 +16045,7 @@ export const collectionsData = {
   },
   'Vales': {
     slug: 'vales',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/vales/vales-render.jpg',
     products: [
       {
@@ -14385,6 +16058,16 @@ export const collectionsData = {
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Vales 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/vales/vales.jpg',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -14401,11 +16084,12 @@ export const collectionsData = {
   },
   'Valor': {
     slug: 'valor',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/valor/valor-black-dekofon.png',
     products: [
       {
         id: 0,
-        name: 'Valor Blanc 30x90',
+        name: 'Valor White 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -14417,7 +16101,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Valor Blanc Dekofon 30x90',
+        name: 'Valor White Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -14429,7 +16113,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Valor Noir 30x90',
+        name: 'Valor Black 30x90',
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
@@ -14441,7 +16125,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Valor Noir Dekofon 30x90',
+        name: 'Valor Black Dekofon 30x90',
         color: 'Noir Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -14453,7 +16137,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Valor Blanc 60x60',
+        name: 'Valor White 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -14477,6 +16161,7 @@ export const collectionsData = {
   },
   'Vedra Grafit': {
     slug: 'vedra-grafit',
+    categories: ['Jardin'],
     products: [
       {
         id: 0,
@@ -14504,6 +16189,7 @@ export const collectionsData = {
   },
   'Venis': {
     slug: 'venis',
+    categories: ['Jardin'],
     mainImage: '/collection/VERONA 30X60.jpg',
     products: [
       {
@@ -14529,6 +16215,26 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 2,
+        name: 'Venis Anthracite 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/venis/venis-anthracite.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Venis Grey 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/venis/venis-gris.jpg',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -14544,10 +16250,11 @@ export const collectionsData = {
   },
   'Venüs': {
     slug: 'venus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
-        name: 'Venüs Blanc 60x120',
+        name: 'Venüs White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Lappato',
@@ -14559,7 +16266,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Venüs Gris 60x120',
+        name: 'Venüs Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -14595,6 +16302,7 @@ export const collectionsData = {
   },
   'Verona': {
     slug: 'verona',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/collection/VERONA 30X60.jpg',
     products: [
       {
@@ -14603,7 +16311,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: '/tiles/verona/Verona-render.png',
+        thumbnail: '/tiles/verona/verona-render.png',
         faces: [
           '',
         ],
@@ -14623,11 +16331,12 @@ export const collectionsData = {
   },
   'Vigo': {
     slug: 'vigo',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/vigo/vigo-60x60.png',
     products: [
       {
         id: 0,
-        name: 'Vigo Blanc 30x90',
+        name: 'Vigo Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
@@ -14639,7 +16348,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Vigo Blanc Dekofon 30x90',
+        name: 'Vigo Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Brillant',
@@ -14651,7 +16360,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Vigo Blanc 60x60',
+        name: 'Vigo Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
@@ -14675,6 +16384,7 @@ export const collectionsData = {
   },
   'Vintage': {
     slug: 'vintage',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     products: [
       {
         id: 0,
@@ -14702,11 +16412,12 @@ export const collectionsData = {
   },
   'Violeta': {
     slug: 'violeta',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/vintage/vintage-render.jpg',
     products: [
       {
         id: 0,
-        name: 'Violeta Café Brillant 60x60',
+        name: 'Violeta Cafe Parlak 60x60',
         color: 'Café Brillant',
         size: '60x60',
         surface: 'Brillant',
@@ -14718,7 +16429,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Violeta Violata Gris Brillant 60x60',
+        name: 'Violata Gris Parlak 60x60',
         color: 'Violata Gris Brillant',
         size: '60x60',
         surface: 'Brillant',
@@ -14742,7 +16453,8 @@ export const collectionsData = {
   },
   'Vitray': {
     slug: 'vitray',
-    mainImage: '/tiles/vitray/vitray-render1.jpg',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/vitray/vitray-render.jpg',
     products: [
       {
         id: 0,
@@ -14750,7 +16462,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/vitray/vitray-render1.jpg',
+        thumbnail: '/tiles/vitray/vitray-render.jpg',
         faces: [
           '',
         ],
@@ -14770,6 +16482,7 @@ export const collectionsData = {
   },
   'Void': {
     slug: 'void',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     mainImage: '/tiles/void/void-bone-100X100.png',
     products: [
       {
@@ -14802,7 +16515,7 @@ export const collectionsData = {
         color: 'Grej',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-100X100.png',
+        thumbnail: '/tiles/void/void-grej-100X100.png',
         faces: [
           '',
         ],
@@ -14810,11 +16523,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Void Gris 100x100',
+        name: 'Void Gri 100x100',
         color: 'Gris',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-30x60.png',
+        thumbnail: '/tiles/void/void-gris-100X100.png',
         faces: [
           '',
         ],
@@ -14822,11 +16535,11 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Void Fumée 100x100',
+        name: 'Void Füme 100x100',
         color: 'Fumée',
         size: '100x100',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-100X100.png',
+        thumbnail: '/tiles/void/void-fume-100X100.png',
         faces: [
           '',
         ],
@@ -14846,7 +16559,7 @@ export const collectionsData = {
       },
       {
         id: 6,
-        name: 'Void Greige 60x120',
+        name: 'Void Grej 60x120',
         color: 'Greige',
         size: '60x120',
         surface: 'Lappato',
@@ -14858,7 +16571,7 @@ export const collectionsData = {
       },
       {
         id: 7,
-        name: 'Void Gris 60x120',
+        name: 'Void Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Lappato',
@@ -14886,7 +16599,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-100X100.png',
+        thumbnail: '/tiles/void/void-bone-61x61.png',
         faces: [
           '',
         ],
@@ -14894,7 +16607,7 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Void Greige 60x60',
+        name: 'Void Grej 60x60',
         color: 'Greige',
         size: '60x60',
         surface: 'Lappato',
@@ -14906,11 +16619,11 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Void Greige 61x61',
+        name: 'Void Grej 61x61',
         color: 'Greige',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-100X100.png',
+        thumbnail: '/tiles/void/void-grej-61x61.png',
         faces: [
           '',
         ],
@@ -14918,7 +16631,7 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Void Gris 60x60',
+        name: 'Void Grey 60x60',
         color: 'Gris',
         size: '60x60',
         surface: 'Lappato',
@@ -14930,11 +16643,11 @@ export const collectionsData = {
       },
       {
         id: 13,
-        name: 'Void Gris 61x61',
+        name: 'Void Grey 61x61',
         color: 'Gris',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-gris-100X100.png',
+        thumbnail: '/tiles/void/void-gris-61X61.png',
         faces: [
           '',
         ],
@@ -14942,7 +16655,7 @@ export const collectionsData = {
       },
       {
         id: 14,
-        name: 'Void Fumée 60x60',
+        name: 'Void Füme 60x60',
         color: 'Fumée',
         size: '60x60',
         surface: 'Lappato',
@@ -14954,11 +16667,11 @@ export const collectionsData = {
       },
       {
         id: 15,
-        name: 'Void Fumée 61x61',
+        name: 'Void Füme 61x61',
         color: 'Fumée',
         size: '61x61',
         surface: 'Lappato',
-        thumbnail: '/tiles/void/void-bone-100X100.png',
+        thumbnail: '/tiles/void/void-fume-61x61.png',
         faces: [
           '',
         ],
@@ -14966,7 +16679,7 @@ export const collectionsData = {
       },
       {
         id: 16,
-        name: 'Void Blanc 30x60',
+        name: 'Void White 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Lappato',
@@ -14978,7 +16691,7 @@ export const collectionsData = {
       },
       {
         id: 17,
-        name: 'Void Blanc Dekofon 30x60',
+        name: 'Void White Dekofon 30x60',
         color: 'Blanc Dekofon',
         size: '30x60',
         surface: 'Lappato',
@@ -15014,7 +16727,7 @@ export const collectionsData = {
       },
       {
         id: 20,
-        name: 'Void Greige 30x60',
+        name: 'Void Grej 30x60',
         color: 'Greige',
         size: '30x60',
         surface: 'Lappato',
@@ -15026,7 +16739,7 @@ export const collectionsData = {
       },
       {
         id: 21,
-        name: 'Void Gris 30x60',
+        name: 'Void Grey 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Lappato',
@@ -15038,7 +16751,7 @@ export const collectionsData = {
       },
       {
         id: 22,
-        name: 'Void Gris Dekofon 30x60',
+        name: 'Void Grey Dekofon 30x60',
         color: 'Gris Dekofon',
         size: '30x60',
         surface: 'Lappato',
@@ -15050,11 +16763,23 @@ export const collectionsData = {
       },
       {
         id: 23,
-        name: 'Void Fumée 30x60',
+        name: 'Void Füme 30x60',
         color: 'Fumée',
         size: '30x60',
         surface: 'Lappato',
         thumbnail: '/tiles/void/void-bone-100X100.png',
+        faces: [
+          '',
+        ],
+        specifications: {}
+      },
+      {
+        id: 24,
+        name: 'Void Bone 20x120',
+        color: 'Bone',
+        size: '20x120',
+        surface: 'Lappato',
+        thumbnail: '/tiles/void/void-bone-60X120.png',
         faces: [
           '',
         ],
@@ -15074,10 +16799,11 @@ export const collectionsData = {
   },
   'Volare': {
     slug: 'volare',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
     products: [
       {
         id: 0,
-        name: 'Volare Gris 60x120',
+        name: 'Volare Grey 60x120',
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
@@ -15089,7 +16815,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Volare Gris Clair 60x120',
+        name: 'Volare Light Grey 60x120',
         color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
@@ -15113,7 +16839,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Volare Blanc 60x120',
+        name: 'Volare White 60x120',
         color: 'Blanc',
         size: '60x120',
         surface: 'Mat',
@@ -15137,11 +16863,12 @@ export const collectionsData = {
   },
   'Walter': {
     slug: 'walter',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/volare/volare-gris.jpg',
     products: [
       {
         id: 0,
-        name: 'Walter Gris Clairs 30x60',
+        name: 'Walter Açık Gri 30x60',
         color: 'Gris Clairs',
         size: '30x60',
         surface: 'Brillant',
@@ -15153,7 +16880,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Walter Gris 30x60',
+        name: 'Walter Gri 30x60',
         color: 'Gris',
         size: '30x60',
         surface: 'Brillant',
@@ -15165,7 +16892,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Walter Anthracite 30x60',
+        name: 'Walter Antrasit 30x60',
         color: 'Anthracite',
         size: '30x60',
         surface: 'Brillant',
@@ -15201,11 +16928,12 @@ export const collectionsData = {
   },
   'Wario': {
     slug: 'wario',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/wario/wario-blue.png',
     products: [
       {
         id: 0,
-        name: 'Wario Vert 60x120',
+        name: 'Wario Green 60x120',
         color: 'Vert',
         size: '60x120',
         surface: 'Full Lappato',
@@ -15217,7 +16945,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Wario Bleu 60x120',
+        name: 'Wario Blue 60x120',
         color: 'Bleu',
         size: '60x120',
         surface: 'Full Lappato',
@@ -15241,7 +16969,8 @@ export const collectionsData = {
   },
   'White Star': {
     slug: 'white-star',
-    mainImage: '/tiles/white-star/White Star-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/white-star/white-star-render.png',
     products: [
       {
         id: 0,
@@ -15249,7 +16978,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: '/tiles/white-star/White Star-render.png',
+        thumbnail: '/tiles/white-star/white-star-render.png',
         faces: [
           '',
         ],
@@ -15261,7 +16990,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Lappato',
-        thumbnail: '/tiles/white-star/White Star-render.png',
+        thumbnail: '/tiles/white-star/white-star-render.png',
         faces: [
           '',
         ],
@@ -15281,7 +17010,8 @@ export const collectionsData = {
   },
   'Windy': {
     slug: 'windy',
-    mainImage: '/tiles/windy/windy-render1.jpg',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/windy/windy-render.jpg',
     products: [
       {
         id: 0,
@@ -15289,10 +17019,20 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: '/tiles/windy/windy-render1.jpg',
+        thumbnail: '/tiles/windy/windy-render.jpg',
         faces: [
           '',
         ],
+        specifications: {}
+      },
+      {
+        id: 1,
+        name: 'Windy 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/windy/windy.png',
+        faces: [''],
         specifications: {}
       }
     ],
@@ -15309,11 +17049,12 @@ export const collectionsData = {
   },
   'Yoga Wood': {
     slug: 'yoga-wood',
-    mainImage: '/tiles/yoga-wood/Yoga Wood-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/yoga-wood/yoga-wood-render.png',
     products: [
       {
         id: 0,
-        name: 'Yoga Wood Ivoire 20x120',
+        name: 'Yoga Wood Ivory 20x120',
         color: 'Ivoire',
         size: '20x120',
         surface: 'Mat',
@@ -15337,7 +17078,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Yoga Wood Gris 20x120',
+        name: 'Yoga Wood Grey 20x120',
         color: 'Gris',
         size: '20x120',
         surface: 'Mat',
@@ -15373,11 +17114,12 @@ export const collectionsData = {
   },
   'Yuta': {
     slug: 'yuta',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/yuta/yuta-blanc-30X60.png',
     products: [
       {
         id: 0,
-        name: 'Yuta Blanc Dekofon 30x90',
+        name: 'Yuta Beyaz Dekofon 30x90',
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -15389,7 +17131,7 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Yuta Blanc 30x90',
+        name: 'Yuta Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
@@ -15401,7 +17143,7 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Yuta Crème 30x90',
+        name: 'Yuta Krem 30x90',
         color: 'Crème',
         size: '30x90',
         surface: 'Mat',
@@ -15413,7 +17155,7 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Yuta Crème Dekofon 30x90',
+        name: 'Yuta Krem Dekofon 30x90',
         color: 'Crème Dekofon',
         size: '30x90',
         surface: 'Mat',
@@ -15425,7 +17167,7 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Yuta Blanc 30x60',
+        name: 'Yuta Beyaz 30x60',
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
@@ -15437,7 +17179,7 @@ export const collectionsData = {
       },
       {
         id: 5,
-        name: 'Yuta Crème 30x60',
+        name: 'Yuta Krem 30x60',
         color: 'Crème',
         size: '30x60',
         surface: 'Mat',
@@ -15461,6 +17203,7 @@ export const collectionsData = {
   },
   'Zenith': {
     slug: 'zenith',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: '/tiles/zenith/zenith-30X60.png',
     products: [
       {
@@ -15498,6 +17241,16 @@ export const collectionsData = {
           '',
         ],
         specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Zenith 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/zenith/zenith-60X120.png',
+        faces: [''],
+        specifications: {}
       }
     ],
     documents: [
@@ -15513,15 +17266,16 @@ export const collectionsData = {
   },
   'Zigana': {
     slug: 'zigana',
-    mainImage: '/tiles/zigana/Zigana-render.png',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    mainImage: '/tiles/zigana/zigana-render.png',
     products: [
       {
         id: 0,
-        name: 'Zigana Blanc 15x60',
+        name: 'Zigana Beyaz 15x60',
         color: 'Blanc',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '/tiles/zigana/Zigana-render.png',
+        thumbnail: '/tiles/zigana/zigana-render.png',
         faces: [
           '',
         ],
@@ -15529,11 +17283,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Zigana Chêne 15x60',
+        name: 'Zigana Meşe 15x60',
         color: 'Chêne',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '/tiles/zigana/Zigana-render.png',
+        thumbnail: '/tiles/zigana/zigana-render.png',
         faces: [
           '',
         ],
@@ -15541,11 +17295,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Zigana Noyer 15x60',
+        name: 'Zigana Ceviz 15x60',
         color: 'Noyer',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: '/tiles/zigana/Zigana-render.png',
+        thumbnail: '/tiles/zigana/zigana-render.png',
         faces: [
           '',
         ],
@@ -15562,5 +17316,278 @@ export const collectionsData = {
       // rectifie: '',
       // typesProduit: '',
     }
+  },
+
+  'Carney 3D Plus': {
+    slug: 'carney-3d-plus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/carney-3d-plus/carney-white.jpg',
+    products: [
+      { id: 0, name: 'Carney Anthracite', color: 'Anthracite', size: '', surface: 'Mat', thumbnail: '/tiles/carney-3d-plus/carney-anthracite.jpg', faces: [''], specifications: {} },
+      { id: 1, name: 'Carney Grey', color: 'Gris', size: '', surface: 'Mat', thumbnail: '/tiles/carney-3d-plus/carney-grey.jpg', faces: [''], specifications: {} },
+      { id: 2, name: 'Carney White', color: 'Blanc', size: '', surface: 'Mat', thumbnail: '/tiles/carney-3d-plus/carney-white.jpg', faces: [''], specifications: {} },,
+      {
+        id: 3,
+        name: 'Carney Anthracite 3D Plus 60x120',
+        color: 'Anthracite',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/carney-3d-plus/carney-anthracite.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 4,
+        name: 'Carney Grey 3D Plus 60x120',
+        color: 'Grey',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/carney-3d-plus/carney-grey.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 5,
+        name: 'Carney White 3D Plus 60x120',
+        color: 'White',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/carney-3d-plus/carney-white.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Corten 3D': {
+    slug: 'corten-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: ['/tiles/corten-3d/corten-3d-render.jpg'],
+    mainImage: '/tiles/corten-3d/corten-3d-render.jpg',
+    products: [
+      { id: 0, name: 'Corten 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/corten-3d/corten-3D.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Corten 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/corten-3d/corten-3D.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Kelvin 3D Plus': {
+    slug: 'kelvin-3d-plus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg',
+    products: [
+      { id: 0, name: 'Kelvin 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Kelvin 3D Plus 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Madiolux 3D': {
+    slug: 'madiolux-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/madiolux-3d/madiolux.jpg',
+    products: [
+      { id: 0, name: 'Madiolux 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/madiolux-3d/madiolux.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Madiolux 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/madiolux-3d/madiolux.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Norm 3D': {
+    slug: 'norm-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/norm-3d/norm-pine.jpg',
+    products: [
+      { id: 0, name: 'Norm Cherry', color: 'Cerisier', size: '', surface: 'Mat', thumbnail: '/tiles/norm-3d/norm-cherry.jpg', faces: [''], specifications: {} },
+      { id: 1, name: 'Norm Pine', color: 'Pin', size: '', surface: 'Mat', thumbnail: '/tiles/norm-3d/norm-pine.jpg', faces: [''], specifications: {} },,
+      {
+        id: 2,
+        name: 'Norm Cherry 3D 60x120',
+        color: 'Cherry',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/norm-3d/norm-cherry.jpg',
+        faces: [''],
+        specifications: {}
+      },
+      {
+        id: 3,
+        name: 'Norm Pine 3D 60x120',
+        color: 'Pine',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/norm-3d/norm-pine.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Optima 3D Plus': {
+    slug: 'optima-3d-plus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/optima-3d-plus/optima.jpg',
+    products: [
+      { id: 0, name: 'Optima 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/optima-3d-plus/optima.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Optima 3D Plus 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/optima-3d-plus/optima.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Rigel 3D': {
+    slug: 'rigel-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg',
+    products: [
+      { id: 0, name: 'Rigel 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Rigel 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Selena 3D Plus': {
+    slug: 'selena-3d-plus',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg',
+    products: [
+      { id: 0, name: 'Selena 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Selena 3D Plus 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Serpegiante 3D': {
+    slug: 'serpegiante-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '',
+    products: [
+      {
+        id: 0,
+        name: 'Serpegiante 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Tempo 3D': {
+    slug: 'tempo-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg',
+    products: [
+      { id: 0, name: 'Tempo 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Tempo 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Timber 3D': {
+    slug: 'timber-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/timber-3d/timber.jpg',
+    products: [
+      { id: 0, name: 'Timber 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/timber-3d/timber.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Timber 3D 60x120',
+        color: '',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/timber-3d/timber.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
+  },
+  'Traverten 3D': {
+    slug: 'traverten-3d',
+    categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
+    renders: [],
+    mainImage: '/tiles/traverten-3d/traverten.jpg',
+    products: [
+      { id: 0, name: 'Traverten 3D', color: '', size: '', surface: 'Mat', thumbnail: '/tiles/traverten-3d/traverten.jpg', faces: [''], specifications: {} },,
+      {
+        id: 1,
+        name: 'Traverten Beige 3D 60x120',
+        color: 'Beige',
+        size: '60x120',
+        surface: null,
+        thumbnail: '/tiles/traverten-3d/traverten.jpg',
+        faces: [''],
+        specifications: {}
+      }
+    ],
+    documents: [], commonSpecs: {},
   },
 };
