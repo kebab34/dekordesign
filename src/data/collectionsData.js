@@ -2270,8 +2270,6 @@ export const collectionsData = {
           // À remplir depuis le PDF
         },
       },
-      
-      },
       {
         id: 3,
         name: 'Aristo Vizon 80x80',
