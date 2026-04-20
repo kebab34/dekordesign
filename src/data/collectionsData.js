@@ -19,7 +19,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -31,7 +31,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -43,7 +43,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-blanc-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -71,7 +71,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adel/adel-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {},
       },
@@ -83,7 +83,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adel/adel-ivory.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {},
       },
@@ -95,7 +95,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adel/adel-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {},
       },
@@ -123,7 +123,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -135,7 +135,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-blanc-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -147,7 +147,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -159,7 +159,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -171,7 +171,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -183,7 +183,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-anthracite-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -195,7 +195,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-white-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -434,7 +434,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-white-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -461,7 +461,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agreylion/agrilion-gris.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -473,7 +473,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agreylion/agrilion-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -485,7 +485,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agreylion/agrilion-bone.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -514,7 +514,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agusta/agusta-cafe.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -526,7 +526,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agusta/agusta-latte.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -714,7 +714,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alboran/alboran-beige.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -726,7 +726,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alboran/alboran-gris.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -845,7 +845,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -1127,7 +1127,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antibes/antibes.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -1909,7 +1909,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1921,7 +1921,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1933,7 +1933,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1945,7 +1945,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1957,7 +1957,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1969,7 +1969,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -1981,7 +1981,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2154,7 +2154,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2166,7 +2166,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-mix-dekor.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2187,7 +2187,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aren/aren-white.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2199,7 +2199,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aren/aren-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2211,7 +2211,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aren/aren-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2559,7 +2559,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2571,7 +2571,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-3.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2583,7 +2583,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2595,7 +2595,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2607,7 +2607,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2619,7 +2619,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2631,7 +2631,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2643,7 +2643,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2655,7 +2655,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2667,7 +2667,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekor.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2679,7 +2679,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2712,7 +2712,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-ash.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2724,7 +2724,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-teak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2736,7 +2736,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-walnut.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2748,7 +2748,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-pearl.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2780,7 +2780,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atlantik/atlantik.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2814,7 +2814,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2826,7 +2826,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2838,7 +2838,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2850,7 +2850,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -2944,7 +2944,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-gris-mozaik.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2956,7 +2956,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-black-mozaik.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2968,7 +2968,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/beligum-stone-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2980,7 +2980,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-black-mozaik-30x48,6.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -2992,7 +2992,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/beligum-stone-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3025,7 +3025,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belita/Belita.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3058,7 +3058,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bellatrix/Bellatrix.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3092,7 +3092,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3104,7 +3104,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-oxido-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3116,7 +3116,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3128,7 +3128,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-oxido-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3140,7 +3140,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3152,7 +3152,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-oxido-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3164,7 +3164,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-dekofon-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3176,7 +3176,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-dekor-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3209,7 +3209,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-bianco-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3221,7 +3221,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-gris-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3233,7 +3233,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-bianco-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3245,7 +3245,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3257,7 +3257,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-antrasit-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3269,7 +3269,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-bianco-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3281,7 +3281,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-gris-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3293,7 +3293,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/beton/beton-antrasit-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3327,7 +3327,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/black-star/black-star.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3361,7 +3361,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey-120x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3373,7 +3373,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-dark-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3385,7 +3385,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3397,7 +3397,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey-120x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3431,7 +3431,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3443,7 +3443,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3455,7 +3455,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3467,7 +3467,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3479,7 +3479,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3491,7 +3491,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3503,7 +3503,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3515,7 +3515,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3527,7 +3527,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3539,7 +3539,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3551,7 +3551,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3563,7 +3563,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3575,7 +3575,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3587,7 +3587,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3599,7 +3599,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3611,7 +3611,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-dekofon-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3623,7 +3623,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3635,7 +3635,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3647,7 +3647,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3659,7 +3659,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3671,7 +3671,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3683,7 +3683,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3695,7 +3695,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3707,7 +3707,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3719,7 +3719,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3731,7 +3731,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3743,7 +3743,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3755,7 +3755,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3767,7 +3767,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3779,7 +3779,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3841,7 +3841,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3853,7 +3853,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3865,7 +3865,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3877,7 +3877,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3889,7 +3889,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3901,7 +3901,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -3935,7 +3935,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-beige-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3947,7 +3947,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-wood-dekofon-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3959,7 +3959,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-grey-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3971,7 +3971,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-bazalt-dekofon-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3983,7 +3983,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-beige-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -3995,7 +3995,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-wood-dekofon-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4007,7 +4007,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-bazalt-dekofon-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4019,7 +4019,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4052,7 +4052,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bosco/Bosco.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4086,7 +4086,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4098,7 +4098,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4110,7 +4110,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4122,7 +4122,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-pergamon-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4134,7 +4134,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4166,7 +4166,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bravas/bravas-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4199,7 +4199,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4211,7 +4211,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4223,7 +4223,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-pergamon-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4235,7 +4235,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4264,7 +4264,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/buxy/buxy-gris-1.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4276,7 +4276,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/buxy/buxy-antrasit.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4310,7 +4310,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4322,7 +4322,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-dekofon-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4334,7 +4334,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4346,7 +4346,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4358,7 +4358,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4370,7 +4370,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4382,7 +4382,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-parlak-dekor.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4394,7 +4394,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmı-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4427,7 +4427,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/camouflage/camouflage-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4460,7 +4460,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/capella/capella-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4494,7 +4494,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-sand-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4506,7 +4506,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/capadoccia-sand-dekofon-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4518,7 +4518,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4530,7 +4530,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4542,7 +4542,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-sand-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4554,7 +4554,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4586,7 +4586,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/carbon/carbon-grey-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4598,7 +4598,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/carbon/carbon-anthracite-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4632,7 +4632,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-beige-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4644,7 +4644,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-beige-matis-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4656,7 +4656,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-grey-matis-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4668,7 +4668,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-grey-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4680,7 +4680,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-grey-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4692,7 +4692,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/casta/casta-beige-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4726,7 +4726,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/catalpa/catalpa-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4760,7 +4760,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/chakra/Chakra.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4772,7 +4772,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/chakra/chakre-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4806,7 +4806,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/charlotte/Charlotte.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4840,7 +4840,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/charm/charm-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4852,7 +4852,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/charm/charm-rust.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4886,7 +4886,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/chester/chester-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4898,7 +4898,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/chester/chester-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4932,7 +4932,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cleopatra/cleopatra-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4944,7 +4944,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cleopatra/cleopatra-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -4976,7 +4976,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/clio/clio-grey.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -4988,7 +4988,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/clio/clio-silver.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5022,7 +5022,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beyaz-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5034,7 +5034,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beige-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5046,7 +5046,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5058,7 +5058,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-acik-gris-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5070,7 +5070,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-gris-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5082,7 +5082,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-acik-gris-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5094,7 +5094,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-antrasit-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5106,7 +5106,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5118,7 +5118,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5130,7 +5130,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-60x60 (2).png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5142,7 +5142,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-acik-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5154,7 +5154,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5166,7 +5166,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-antrasit-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5178,7 +5178,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-antrasit-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5190,7 +5190,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-noir-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5202,7 +5202,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5214,7 +5214,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beige-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5226,7 +5226,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-30x60 (2).png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5238,7 +5238,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-gris-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5250,7 +5250,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-30x60 (3).png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5262,7 +5262,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5274,7 +5274,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-siyah-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5286,7 +5286,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-vizon-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5398,7 +5398,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-beige-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5410,7 +5410,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/concept/concept-gris-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5444,7 +5444,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/coper/coper-moss.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5456,7 +5456,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/coper/coper-sky.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5490,7 +5490,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/country/country-walnut.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5502,7 +5502,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/country/country-venge-.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5536,7 +5536,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-white.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5548,7 +5548,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-ivory.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5560,7 +5560,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-cotto.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5572,7 +5572,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-mocha.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5584,7 +5584,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5596,7 +5596,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crag/crag-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5630,7 +5630,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crotone/crotone-60x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5642,7 +5642,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/crotone/crotone-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5676,7 +5676,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/darkness/Darkness.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5710,7 +5710,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/delbin/delbin-beyaz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5722,7 +5722,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/delbin/delbin-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5734,7 +5734,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/delbin/delbin-fume.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5768,7 +5768,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/destiny/destiny-parlak-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5780,7 +5780,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/destiny/destiny-mat-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5792,7 +5792,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/destiny/destiny-parlak-beyaz-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5804,7 +5804,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/destiny/destiny-parlak-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5837,7 +5837,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dina/dina.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5871,7 +5871,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/diva/diva-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5905,7 +5905,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dora/dora-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -5939,7 +5939,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dove/dove-mat-beyaz-30x90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5951,7 +5951,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dove/dove-parlak-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5963,7 +5963,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dove/dove-mat-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5975,7 +5975,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dove/dove-mat-beyaz-20x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -5987,7 +5987,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dove/dove-parlak-20x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6021,7 +6021,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elan/elan-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6033,7 +6033,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elan/elan-brown.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6045,7 +6045,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elan/elan-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6057,7 +6057,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elan/elan-antrasit.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6091,7 +6091,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/eleganza/eleganza-maple.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6103,7 +6103,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/eleganza/eleganza-walnut.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6115,7 +6115,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/eleganza/eleganza-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6149,7 +6149,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elitra/elitra-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6183,7 +6183,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elora/elora.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6217,7 +6217,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6229,7 +6229,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-beyaz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6241,7 +6241,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6253,7 +6253,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6265,7 +6265,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-mix-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6277,7 +6277,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-white-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6311,7 +6311,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/epona/epona.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6345,7 +6345,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-latte.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6357,7 +6357,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-ruby.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6369,7 +6369,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-olive.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6381,7 +6381,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-azul.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6393,7 +6393,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6427,7 +6427,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-white-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6439,7 +6439,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/euope-beige-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6451,7 +6451,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-grey-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6463,7 +6463,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-black-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6475,7 +6475,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-white-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6487,7 +6487,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-black-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6499,7 +6499,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-grey-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6511,7 +6511,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/europe-greige-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6523,7 +6523,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/europe/eurpo-beige-30x40.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6557,7 +6557,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/everest/Everest.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6586,7 +6586,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-nero-dekor.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6598,7 +6598,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6610,7 +6610,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-nero-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6622,7 +6622,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6634,7 +6634,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6646,7 +6646,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6675,7 +6675,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/famous/famous-gris-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6687,7 +6687,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/famous/famous-gris-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6699,7 +6699,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/famous/famous-gris-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6711,7 +6711,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/famous/famous-gris-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6723,7 +6723,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/famous/famous-gris-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6752,7 +6752,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6764,7 +6764,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6776,7 +6776,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6788,7 +6788,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6817,7 +6817,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/flevo/flevo-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6846,7 +6846,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fortuna/fortuna-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6875,7 +6875,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fraxinus/fraxinus-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6904,7 +6904,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fresno/fresno-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6933,7 +6933,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fuji/fuji-antracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6945,7 +6945,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fuji/fuji-beige.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -6957,7 +6957,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fuji/fuji-antracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -6986,7 +6986,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gaudi/gaudi-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7015,7 +7015,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7027,7 +7027,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7039,7 +7039,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7051,7 +7051,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7063,7 +7063,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7075,7 +7075,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7104,7 +7104,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/geo-wood/geo-wood.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7133,7 +7133,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-bone-100x100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7145,7 +7145,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-vizon-100x100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7157,7 +7157,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-mid-gris-100x100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7169,7 +7169,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7181,7 +7181,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7193,7 +7193,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7205,7 +7205,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-dark-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7234,7 +7234,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grace/grace-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7246,7 +7246,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grace/grace-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7275,7 +7275,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7287,7 +7287,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-white-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7299,7 +7299,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7311,7 +7311,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7323,7 +7323,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-organic-dekofon-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7335,7 +7335,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7364,7 +7364,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-blue-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7376,7 +7376,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-green-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7388,7 +7388,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-blue-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7400,7 +7400,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-blue-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7449,7 +7449,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/greta/greta-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7478,7 +7478,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-bianco-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7490,7 +7490,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-latte-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7502,7 +7502,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7514,7 +7514,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7526,7 +7526,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7538,7 +7538,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-latte-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7550,7 +7550,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7562,7 +7562,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7574,7 +7574,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7586,7 +7586,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7598,7 +7598,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7610,7 +7610,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7622,7 +7622,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-anthracite-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7644,7 +7644,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-latte-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7673,7 +7673,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/harley/harley-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7702,7 +7702,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-dekofon-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7714,7 +7714,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-dekofon-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7726,7 +7726,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-grey-dekofon-30X60.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7738,7 +7738,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-grey-dekofon-30X60.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7750,7 +7750,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-taupe-dekofon-30X60.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7762,7 +7762,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-taupe-dekofon-30X60.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7774,7 +7774,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-dekofon-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7786,7 +7786,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-tapue-dekofon-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7798,7 +7798,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7810,7 +7810,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-tapue-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7822,7 +7822,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-taupe-30X60.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7851,7 +7851,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7863,7 +7863,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7875,7 +7875,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7887,7 +7887,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7899,7 +7899,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7911,7 +7911,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -7923,7 +7923,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helios/helios-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7952,7 +7952,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/herringwood/herringwood-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -7981,7 +7981,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/himalaya/himalaya-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8010,7 +8010,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hormigon-molde/hormigon-molde-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8039,7 +8039,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hypnos/hypnos-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8051,7 +8051,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hypnos/hypnos-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8063,7 +8063,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hypnos/hypnos-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8092,7 +8092,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8104,7 +8104,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8116,7 +8116,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8128,7 +8128,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8140,7 +8140,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8152,7 +8152,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8164,7 +8164,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8176,7 +8176,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8188,7 +8188,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8200,7 +8200,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8212,7 +8212,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-beyaz-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8241,7 +8241,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-beyaz-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8253,7 +8253,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-anthrasit-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8265,7 +8265,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-anthrasit-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8277,7 +8277,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-vizon-dekofon-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8289,7 +8289,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8301,7 +8301,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-anthrasit-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8313,7 +8313,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-beyaz-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8342,7 +8342,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/iroko/iroko-pearl-20X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8354,7 +8354,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/iroko/iroko-pearl-20X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8366,7 +8366,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/iroko/iroko-brown-20X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8395,7 +8395,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/joya/joya-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8407,7 +8407,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/joya/joya-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8436,7 +8436,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8448,7 +8448,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8460,7 +8460,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8472,7 +8472,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8484,7 +8484,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8496,7 +8496,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8508,7 +8508,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8520,7 +8520,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8532,7 +8532,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8560,7 +8560,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kaleidos/kaleidos-brown-80X80.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8572,7 +8572,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kaleidos/kaleidos-dark-grey-80X80.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8584,7 +8584,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kaleidos/kaleidos-grey-80X80.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8613,7 +8613,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kallos/kallos-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8652,7 +8652,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kapteyn/kapteyn-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8681,7 +8681,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/karsos/karsos.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8710,7 +8710,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-cool.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8722,7 +8722,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-cool.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8734,7 +8734,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-cool.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8763,7 +8763,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-black-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8775,7 +8775,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8787,7 +8787,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-white-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8799,7 +8799,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-black-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8827,7 +8827,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lamuna/lamuna.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8856,7 +8856,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larimar-ocean/larimar-ocean-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8885,7 +8885,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larix/larix-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -8914,7 +8914,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-carbon-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8926,7 +8926,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8938,7 +8938,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8950,7 +8950,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8962,7 +8962,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8974,7 +8974,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8986,7 +8986,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -8998,7 +8998,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9010,7 +9010,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9022,7 +9022,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-beige-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9034,7 +9034,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9046,7 +9046,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-anthracite-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9058,7 +9058,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-beige-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9070,7 +9070,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9082,7 +9082,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-anthracite-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9094,7 +9094,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9206,7 +9206,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9234,7 +9234,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9246,7 +9246,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9258,7 +9258,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9287,7 +9287,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-beige-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9299,7 +9299,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-gris-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9311,7 +9311,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-beige-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9323,7 +9323,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-gris-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9352,7 +9352,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lisbon/lisbon.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9381,7 +9381,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9393,7 +9393,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9405,7 +9405,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9417,7 +9417,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9446,7 +9446,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-dark-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9458,7 +9458,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-dark-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9470,7 +9470,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-light-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9482,7 +9482,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-dark-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9511,7 +9511,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loris/loris-30X90.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9523,7 +9523,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loris/loris-dekofon-30X90.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9552,7 +9552,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9564,7 +9564,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9576,7 +9576,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9588,7 +9588,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9600,7 +9600,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9612,7 +9612,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9624,7 +9624,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9636,7 +9636,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9648,7 +9648,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9677,7 +9677,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madero/madero-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9706,7 +9706,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madran-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9718,7 +9718,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madran-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9747,7 +9747,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magellan/magellan-bone-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9759,7 +9759,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magellan/magellan-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9771,7 +9771,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magellan/magellan-gris-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9783,7 +9783,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magellan/magelnlan-antrasit-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9812,7 +9812,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magnifique/magnifique-black-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9824,7 +9824,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magnifique/magnifique-black-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9836,7 +9836,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magnifique/magnifique-black-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9865,7 +9865,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9877,7 +9877,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-beige-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9889,7 +9889,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9901,7 +9901,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-beige-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9913,7 +9913,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9925,7 +9925,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9937,7 +9937,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -9966,7 +9966,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9978,7 +9978,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -9990,7 +9990,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10002,7 +10002,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-shadow-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10014,7 +10014,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10026,7 +10026,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10038,7 +10038,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10050,7 +10050,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marmol/marmol-oldlace-30X90.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10079,7 +10079,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10091,7 +10091,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10103,7 +10103,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10115,7 +10115,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-latte.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10127,7 +10127,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10139,7 +10139,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10168,7 +10168,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10180,7 +10180,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10192,7 +10192,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10204,7 +10204,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10216,7 +10216,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10228,7 +10228,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10240,7 +10240,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10269,7 +10269,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maryo/maryo-beige-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10281,7 +10281,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maryo/maryo-beige-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10310,7 +10310,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxy-beyaz-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10322,7 +10322,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxi-mat-beyaz-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10334,7 +10334,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxi-parlak-beyaz-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10346,7 +10346,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxi-parlak-beyaz-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10358,7 +10358,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxi-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10370,7 +10370,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/maxi/maxi-parlak-beyaz-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10399,7 +10399,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/merlo/merlo.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10428,7 +10428,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mia/mia-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10440,7 +10440,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mia/mia-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10479,7 +10479,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10491,7 +10491,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10503,7 +10503,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10515,7 +10515,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10527,7 +10527,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10556,7 +10556,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/minimo/minimo-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10585,7 +10585,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miramar/miramar-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10614,7 +10614,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miranda/miranda-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10643,7 +10643,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mirko/mirko-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10655,7 +10655,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mirko/mirko-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10684,7 +10684,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/modellato/modellato-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10713,7 +10713,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10725,7 +10725,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10737,7 +10737,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10749,7 +10749,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10761,7 +10761,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10773,7 +10773,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10785,7 +10785,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10797,7 +10797,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10809,7 +10809,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10821,7 +10821,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10833,7 +10833,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10845,7 +10845,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -10874,7 +10874,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mora/mora.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10913,7 +10913,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10925,7 +10925,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10937,7 +10937,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10949,7 +10949,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10961,7 +10961,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10973,7 +10973,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10985,7 +10985,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -10997,7 +10997,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11026,7 +11026,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11038,7 +11038,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11050,7 +11050,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mystone/MYSTONE-ANTHRACITE-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11062,7 +11062,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mystone/MYSTONE-COFFEE-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11091,7 +11091,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/naos/naos-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11103,7 +11103,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/naos/naos-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11132,7 +11132,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/napoli/napoli-fildisi.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11144,7 +11144,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/napoli/napoli-fildisi.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11173,7 +11173,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-birch.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11185,7 +11185,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11197,7 +11197,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-eboni.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11209,7 +11209,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-pine.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11238,7 +11238,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/neva/neva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11250,7 +11250,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/neva/neva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11262,7 +11262,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/neva/neva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11291,7 +11291,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nevada/nevada-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11303,7 +11303,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nevada/nevada-gris-clair.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11315,7 +11315,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nevada/nevada-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11344,7 +11344,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/new-metro/new-metro.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11373,7 +11373,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/newport/newport-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11385,7 +11385,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/newport/newport-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11414,7 +11414,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11426,7 +11426,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-anthracite-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11438,7 +11438,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11450,7 +11450,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11462,7 +11462,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-anthracite-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11474,7 +11474,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11486,7 +11486,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11515,7 +11515,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-antrasite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11527,7 +11527,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-antrasite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11539,7 +11539,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-antrasite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11551,7 +11551,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11650,7 +11650,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norden/norden-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11679,7 +11679,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nuvola/nuvola-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11691,7 +11691,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nuvola/nuvola-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11703,7 +11703,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nuvola/nuvola-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11715,7 +11715,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nuvola/nuvola-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11744,7 +11744,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11756,7 +11756,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11768,7 +11768,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11780,7 +11780,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11792,7 +11792,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11804,7 +11804,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11816,7 +11816,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11828,7 +11828,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11840,7 +11840,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11869,7 +11869,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/odin/odin-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11881,7 +11881,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/odin/odin-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11893,7 +11893,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/odin/odin-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11905,7 +11905,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/odin/odin-parlak-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11934,7 +11934,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olbia/olbia-gris-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11946,7 +11946,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olbia/olbia-gris-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -11975,7 +11975,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olivia/olivia-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -11987,7 +11987,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olivia/olivia-noir.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12016,7 +12016,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-bege.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12028,7 +12028,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-latte.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12040,7 +12040,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-bege.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12052,7 +12052,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-bege.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12064,7 +12064,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-bege.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12093,7 +12093,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onelia/onelia-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12122,7 +12122,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onixia/onixia-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12134,7 +12134,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onixia/onixia-sand.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12163,7 +12163,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12175,7 +12175,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12187,7 +12187,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12199,7 +12199,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12211,7 +12211,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12223,7 +12223,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12252,7 +12252,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12264,7 +12264,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12276,7 +12276,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12288,7 +12288,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12317,7 +12317,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/palazzo/palazzo-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12329,7 +12329,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/palazzo/palazzo-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12368,7 +12368,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/palmer/Palmer.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12397,7 +12397,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12409,7 +12409,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-antrasit.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12421,7 +12421,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12433,7 +12433,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12462,7 +12462,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12474,7 +12474,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12486,7 +12486,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12498,7 +12498,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12510,7 +12510,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12539,7 +12539,7 @@ export const collectionsData = {
         surface: 'Satiné',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-geo-dekor-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12551,7 +12551,7 @@ export const collectionsData = {
         surface: 'Satiné',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-file-dekor-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12563,7 +12563,7 @@ export const collectionsData = {
         surface: 'Satiné',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-mat-beyaz-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12575,7 +12575,7 @@ export const collectionsData = {
         surface: 'Satiné',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12587,7 +12587,7 @@ export const collectionsData = {
         surface: 'Satiné',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12616,7 +12616,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12628,7 +12628,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12640,7 +12640,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12652,7 +12652,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12664,7 +12664,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12676,7 +12676,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-taupe.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12705,7 +12705,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pastel/pastel-noir-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12717,7 +12717,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pastel/pastel-noir-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12746,7 +12746,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12758,7 +12758,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12770,7 +12770,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12782,7 +12782,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-SAND-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12811,7 +12811,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12823,7 +12823,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12835,7 +12835,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12847,7 +12847,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grey-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12859,7 +12859,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12871,7 +12871,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12883,7 +12883,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-beyaz-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12895,7 +12895,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grery.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12907,7 +12907,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -12936,7 +12936,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12948,7 +12948,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12960,7 +12960,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12972,7 +12972,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12984,7 +12984,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -12996,7 +12996,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13025,7 +13025,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/piegato/piegato-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13054,7 +13054,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-antrasit.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13066,7 +13066,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-antrasit.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13078,7 +13078,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13090,7 +13090,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13119,7 +13119,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quarzt-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13131,7 +13131,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13143,7 +13143,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13155,7 +13155,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quarzt-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13167,7 +13167,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13179,7 +13179,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-gris-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13191,7 +13191,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13219,7 +13219,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13258,7 +13258,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/regnum/regnum-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13286,7 +13286,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13298,7 +13298,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13310,7 +13310,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13322,7 +13322,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13334,7 +13334,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13346,7 +13346,7 @@ export const collectionsData = {
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13374,7 +13374,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-beige.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13386,7 +13386,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-dark.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13398,7 +13398,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-light.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13457,7 +13457,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13469,7 +13469,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13481,7 +13481,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-50x50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13510,7 +13510,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13522,7 +13522,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-silver-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13534,7 +13534,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13546,7 +13546,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13558,7 +13558,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13617,7 +13617,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13629,7 +13629,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13641,7 +13641,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13653,7 +13653,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-grey.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13682,7 +13682,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13694,7 +13694,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-light-beige.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13706,7 +13706,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13735,7 +13735,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sakura/sakura-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13747,7 +13747,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sakura/sakura-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13776,7 +13776,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salamanca/salamanca-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13805,7 +13805,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-almond.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13817,7 +13817,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-ice.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13829,7 +13829,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-taupe.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -13858,7 +13858,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13870,7 +13870,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13882,7 +13882,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13894,7 +13894,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13906,7 +13906,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13918,7 +13918,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13930,7 +13930,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13942,7 +13942,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13954,7 +13954,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13966,7 +13966,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13978,7 +13978,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -13990,7 +13990,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14002,7 +14002,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14031,7 +14031,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14043,7 +14043,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14055,7 +14055,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14067,7 +14067,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14096,7 +14096,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sarda/sarda-render-2.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14108,7 +14108,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sarda/sarda.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14136,7 +14136,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-lacivert.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14148,7 +14148,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-mavi.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14177,7 +14177,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sativa/sativa-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14189,7 +14189,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sativa/sativa-bone.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14218,7 +14218,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sealong/sealong-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14247,7 +14247,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14259,7 +14259,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-rosa-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14271,7 +14271,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-nero-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14283,7 +14283,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-grigio-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14295,7 +14295,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14307,7 +14307,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-nero-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14319,7 +14319,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14331,7 +14331,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-rosa-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14343,7 +14343,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14355,7 +14355,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14367,7 +14367,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14379,7 +14379,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14391,7 +14391,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14403,7 +14403,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-grigio-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14431,7 +14431,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-sand-60X120.webp',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14443,7 +14443,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-white-60X120.webp',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14491,7 +14491,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/shell/7BANTSEET-SHELL-BEIGE-60X120X2-ENG1504-BAS3001-GS4BINARY-SSB3-RGB-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14530,7 +14530,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/side/side-brown.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14542,7 +14542,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/side/side-brown.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14571,7 +14571,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/silyon/silyon-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14583,7 +14583,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/silyon/silyon-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14612,7 +14612,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/simirna/simirna-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14624,7 +14624,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/simirna/simirna-brown.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14653,7 +14653,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stacy/stacy-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14682,7 +14682,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star/star-bleu-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14694,7 +14694,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star/star-bleu-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14723,7 +14723,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14735,7 +14735,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14747,7 +14747,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14776,7 +14776,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14788,7 +14788,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14800,7 +14800,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14812,7 +14812,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14824,7 +14824,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/P015XDRSB00X0XMAAW50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14836,7 +14836,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/W168QDRSB0040XPAAW50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14848,7 +14848,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/P156ZDRSB0TX0XMXXW50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14870,7 +14870,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -14899,7 +14899,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14911,7 +14911,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-suolo.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14923,7 +14923,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14935,7 +14935,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-cotto.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14947,7 +14947,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-new-green.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -14959,7 +14959,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15038,7 +15038,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/strato/strato-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15067,7 +15067,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stuart/stuart-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15095,7 +15095,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/super-beyaz/super-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15107,7 +15107,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/super-beyaz/super-beyaz-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15119,7 +15119,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/super-beyaz/super-beyaz-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15148,7 +15148,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/swan/swan-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15176,7 +15176,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-CREAM-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15188,7 +15188,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-GOLD-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15200,7 +15200,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15212,7 +15212,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15224,7 +15224,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15236,7 +15236,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-CREAM-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15248,7 +15248,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-GOLD-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15260,7 +15260,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15272,7 +15272,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-LIGHT-GREY-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15284,7 +15284,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-NOCE-60X60X2-MAT-P1.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15313,7 +15313,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15325,7 +15325,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15337,7 +15337,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15349,7 +15349,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15361,7 +15361,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15373,7 +15373,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15402,7 +15402,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15414,7 +15414,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-sand-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15426,7 +15426,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15438,7 +15438,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15450,7 +15450,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-sand.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15479,7 +15479,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiana/tiana-blanc-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15491,7 +15491,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiana/tiana-blanc-40x120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15503,7 +15503,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiana/tiana-antrasit-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15515,7 +15515,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiana/tiana-antrasit-40X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15544,7 +15544,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiffany/tiffany-bleu.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15556,7 +15556,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiffany/tiffany-bleu.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15568,7 +15568,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiffany/tiffany-bleu.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15597,7 +15597,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tiger/Tiger.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15626,7 +15626,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tsuga/tsuga-almond.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15638,7 +15638,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tsuga/tsuga-almond.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15650,7 +15650,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tsuga/tsuga-almond.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15679,7 +15679,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/turin/turin-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15691,7 +15691,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/turin/turin-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15720,7 +15720,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/twist/twist-blanc.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15732,7 +15732,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/twist/twist-noir.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15744,7 +15744,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/twist/twist-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -15773,7 +15773,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15785,7 +15785,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15797,7 +15797,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15809,7 +15809,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-latte-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15821,7 +15821,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15833,7 +15833,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/D150XDRU010V0XMAAF50.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15845,7 +15845,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15857,7 +15857,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15869,7 +15869,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15881,7 +15881,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/D150XDRU010V0XMAAG60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15893,7 +15893,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15905,7 +15905,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15917,7 +15917,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15929,7 +15929,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15941,7 +15941,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15953,7 +15953,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-latte-30x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15965,7 +15965,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15977,7 +15977,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -15989,7 +15989,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16001,7 +16001,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16013,7 +16013,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16025,7 +16025,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-dunkel-19,7x19,7.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16054,7 +16054,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vales/vales-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16093,7 +16093,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16105,7 +16105,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16117,7 +16117,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16129,7 +16129,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-white-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16141,7 +16141,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-black-dekofon.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16169,7 +16169,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vedra-graphite/Vedra.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16198,7 +16198,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/venis/venis-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16210,7 +16210,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/venis/venis-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16258,7 +16258,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/venis/venis-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16270,7 +16270,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/venis/venis-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16282,7 +16282,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/venis/venis-anthracite.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16311,7 +16311,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/verona/verona-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16340,7 +16340,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vigo/vigo-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16352,7 +16352,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vigo/vigo-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16364,7 +16364,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vigo/vigo-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16392,7 +16392,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vintage/vintage-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16421,7 +16421,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/violeta/violeta-cafe-parlak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16433,7 +16433,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/violeta/violeta-cafe-parlak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16462,7 +16462,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vitray/vitray-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16491,7 +16491,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16503,7 +16503,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16515,7 +16515,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-grej-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16527,7 +16527,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16539,7 +16539,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-fume-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16551,7 +16551,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16563,7 +16563,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16575,7 +16575,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-fume-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16587,7 +16587,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16599,7 +16599,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16611,7 +16611,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16623,7 +16623,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-grej-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16635,7 +16635,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16647,7 +16647,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-gris-61X61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16659,7 +16659,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16671,7 +16671,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-fume-61x61.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16683,7 +16683,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-60X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16695,7 +16695,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-fume-60x60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16707,7 +16707,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16719,7 +16719,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16731,7 +16731,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16743,7 +16743,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16755,7 +16755,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-gris-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16767,7 +16767,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16779,7 +16779,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-60X120.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16807,7 +16807,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/volare/volare-gris.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16819,7 +16819,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/volare/volare-light-gris.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16831,7 +16831,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/volare/volare-taupe.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16843,7 +16843,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/volare/volare-white.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16872,7 +16872,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/walter/walter-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16884,7 +16884,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/walter/walter-anthracite.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16896,7 +16896,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/walter/walter-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16908,7 +16908,7 @@ export const collectionsData = {
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/walter/walter-acik-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16937,7 +16937,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/wario/wario-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16949,7 +16949,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/wario/wario-blue.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -16978,7 +16978,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/white-star/white-star-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -16990,7 +16990,7 @@ export const collectionsData = {
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/white-star/white-star-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -17019,7 +17019,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/windy/windy-render.jpg',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17058,7 +17058,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-oak.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17070,7 +17070,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-gris.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17082,7 +17082,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-ivory.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17094,7 +17094,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-yenge.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -17123,7 +17123,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17135,7 +17135,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17147,7 +17147,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17159,7 +17159,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17171,7 +17171,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17183,7 +17183,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
@@ -17212,7 +17212,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zenith/zenith-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17224,7 +17224,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zenith/zenith-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17236,7 +17236,7 @@ export const collectionsData = {
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zenith/zenith-30X60.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17275,7 +17275,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zigana/zigana-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17287,7 +17287,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zigana/zigana-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       },
@@ -17299,7 +17299,7 @@ export const collectionsData = {
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zigana/zigana-render.png',
         faces: [
-          '',
+          ''
         ],
         specifications: {}
       }
