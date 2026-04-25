@@ -354,6 +354,11 @@
   overflow: hidden;
 }
 
+.title-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .title-char {
   display: inline-block;
   opacity: 0;

@@ -110,15 +110,25 @@ const Carousel = () => {
 
               {/* Titre avec animation lettre par lettre */}
               <h2 className="slide-title">
-                {slide.title.split('').map((char, i) => (
-                  <span
-                    key={i}
-                    className="title-char"
-                    style={{ animationDelay: `${0.8 + i * 0.03}s` }}
-                  >
-                    {char === ' ' ? '\u00A0' : char}
-                  </span>
-                ))}
+                {slide.title.split(' ').map((word, wi) => {
+                  const offset = slide.title.split(' ').slice(0, wi).reduce((sum, w) => sum + w.length + 1, 0);
+                  return (
+                    <React.Fragment key={wi}>
+                      {wi > 0 && ' '}
+                      <span className="title-word">
+                        {word.split('').map((char, ci) => (
+                          <span
+                            key={ci}
+                            className="title-char"
+                            style={{ animationDelay: `${0.8 + (offset + ci) * 0.03}s` }}
+                          >
+                            {char}
+                          </span>
+                        ))}
+                      </span>
+                    </React.Fragment>
+                  );
+                })}
               </h2>
 
               {/* Sous-titre avec effet reveal */}
