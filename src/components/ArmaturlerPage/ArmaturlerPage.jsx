@@ -98,7 +98,7 @@ const ArmaturlerPage = () => {
     <section className="arm-page">
       <SEO
         title="Robinetterie de Luxe — Or Brossé, Noir Mat, Chrome"
-        description="Robinetterie haut de gamme : mitigeurs, thermostatiques, colonnes de douche. Finitions or brossé, noir mat, chrome poli. DekorDesign Alger."
+        description="Robinetterie haut de gamme : mitigeurs, thermostatiques, colonnes de douche. Finitions or brossé, noir mat, chrome poli. DekorDesign Cannes."
         canonical="/armaturler"
       />
       <div className="arm-header">

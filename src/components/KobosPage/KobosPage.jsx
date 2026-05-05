@@ -21,7 +21,7 @@ const KobosPage = () => {
     <section className="kobos-page">
       <SEO
         title="Meubles de Salle de Bain — Collections Kobos"
-        description="Collections Kobos : meubles de salle de bain élégants et fonctionnels. Vasques, miroirs, rangements sur mesure. Showroom DekorDesign Alger."
+        description="Collections Kobos : meubles de salle de bain élégants et fonctionnels. Vasques, miroirs, rangements sur mesure. Showroom DekorDesign Cannes."
         canonical="/meubles"
       />
       <div className="kobos-header">

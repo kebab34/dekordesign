@@ -61,8 +61,8 @@ const MenuiseriePage = () => {
   return (
     <section className="men-page">
       <SEO
-        title="Menuiserie PVC & Aluminium — Portes & Fenêtres Alger"
-        description="Menuiserie PVC et aluminium : portes, fenêtres, volets roulants, systèmes guillotine. Qualité européenne, installation professionnelle à Alger."
+        title="Menuiserie PVC & Aluminium — Portes & Fenêtres Cannes"
+        description="Menuiserie PVC et aluminium : portes, fenêtres, volets roulants, systèmes guillotine. Qualité européenne, installation professionnelle à Cannes."
         canonical="/menuiserie"
       />
 

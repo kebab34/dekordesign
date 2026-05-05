@@ -19,7 +19,7 @@ const TamamlayiciPage = () => {
     <section className="tamamlayici-page">
       <SEO
         title="Produits Complémentaires — Réservoirs & Accessoires"
-        description="Produits complémentaires salle de bain : réservoirs, plomberie et accessoires. Tout pour compléter votre installation sanitaire. DekorDesign Alger."
+        description="Produits complémentaires salle de bain : réservoirs, plomberie et accessoires. Tout pour compléter votre installation sanitaire. DekorDesign Cannes."
         canonical="/accessoires"
       />
       <div className="tamamlayici-header">

@@ -98,7 +98,7 @@ const AksesuarPage = () => {
     <section className="aks-page">
       <SEO
         title="Accessoires de Bain — Miroirs & Porte-Serviettes"
-        description="Accessoires de salle de bain design : miroirs, porte-serviettes, distributeurs. Collections complètes pour un espace harmonieux. DekorDesign Alger."
+        description="Accessoires de salle de bain design : miroirs, porte-serviettes, distributeurs. Collections complètes pour un espace harmonieux. DekorDesign Cannes."
         canonical="/bain-accessoires"
       />
       <div className="aks-header">

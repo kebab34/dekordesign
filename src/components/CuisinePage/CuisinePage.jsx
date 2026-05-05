@@ -122,7 +122,7 @@ const CuisinePage = () => {
     <section className="cui-page">
       <SEO
         title="Cuisines sur Mesure — Atölye Mutfak & Soprano"
-        description="Cuisines sur mesure haut de gamme : 31 modèles Atölye Mutfak & Soprano. Tous styles et finitions. Conception et installation à Alger."
+        description="Cuisines sur mesure haut de gamme : 31 modèles Atölye Mutfak & Soprano. Tous styles et finitions. Conception et installation à Cannes."
         canonical="/cuisines"
       />
       <div className="cui-header">

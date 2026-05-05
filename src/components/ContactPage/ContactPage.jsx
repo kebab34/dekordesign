@@ -58,8 +58,8 @@ const ContactPage = () => {
   return (
     <section className="contact-page">
       <SEO
-        title="Contact — Showroom DekorDesign Alger"
-        description="Contactez DekorDesign pour un devis, une visite showroom ou des renseignements. Notre équipe vous accompagne dans votre projet de rénovation à Alger."
+        title="Contact — Showroom DekorDesign Cannes"
+        description="Contactez DekorDesign pour un devis, une visite showroom ou des renseignements. Notre équipe vous accompagne dans votre projet de rénovation à Cannes."
         canonical="/contact"
       />
       <div className="contact-header">

@@ -98,7 +98,7 @@ const DusPage = () => {
     <section className="dus-page">
       <SEO
         title="Systèmes de Douche Premium — Colonnes & Parois"
-        description="Systèmes de douche premium : colonnes, parois en verre, receveurs extra-plats. Solutions douche complètes chez DekorDesign Alger."
+        description="Systèmes de douche premium : colonnes, parois en verre, receveurs extra-plats. Solutions douche complètes chez DekorDesign Cannes."
         canonical="/douche"
       />
       <div className="dus-header">

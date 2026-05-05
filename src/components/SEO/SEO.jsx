@@ -3,11 +3,11 @@ import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, canonical, image }) => {
   const siteName = 'DekorDesign';
-  const defaultDesc = 'DekorDesign — Carrelages, sanitaires, meubles de salle de bain, cuisines, menuiserie et pergolas. Showroom à Alger.';
+  const defaultDesc = 'DekorDesign — Carrelages, sanitaires, meubles de salle de bain, cuisines, menuiserie et pergolas. Showroom à Cannes.';
   const defaultImage = 'https://dekordesign.fr/logo-dekor.png';
   const baseUrl = 'https://dekordesign.fr';
 
-  const fullTitle = title ? `${title} | ${siteName}` : `${siteName} — Carrelage & Aménagement Intérieur Alger`;
+  const fullTitle = title ? `${title} | ${siteName}` : `${siteName} — Carrelage & Aménagement Intérieur Cannes`;
   const desc = description || defaultDesc;
   const img = image || defaultImage;
   const url = canonical ? `${baseUrl}${canonical}` : baseUrl;
@@ -37,7 +37,7 @@ const SEO = ({ title, description, canonical, image }) => {
       <meta name="robots" content="index, follow" />
       <meta name="language" content="French" />
       <meta name="geo.region" content="DZ" />
-      <meta name="geo.placename" content="Alger" />
+      <meta name="geo.placename" content="Cannes" />
     </Helmet>
   );
 };

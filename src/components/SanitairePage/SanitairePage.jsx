@@ -97,7 +97,7 @@ const SanitairePage = () => {
     <section className="san-page">
       <SEO
         title="Appareils Sanitaires — Baignoires, Vasques & WC"
-        description="Gamme d'appareils sanitaires haut de gamme : baignoires, vasques, WC suspendus. Design contemporain pour votre salle de bain. DekorDesign Alger."
+        description="Gamme d'appareils sanitaires haut de gamme : baignoires, vasques, WC suspendus. Design contemporain pour votre salle de bain. DekorDesign Cannes."
         canonical="/sanitaire"
       />
       <div className="san-header">

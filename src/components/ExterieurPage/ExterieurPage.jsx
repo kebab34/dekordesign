@@ -26,8 +26,8 @@ const ExterieurPage = () => {
   return (
     <section className="ext-page">
       <SEO
-        title="Pergolas & Protection Solaire — Genius Pergola Alger"
-        description="Pergolas motorisées, stores ZIP et vitrages guillotine pour terrasses. Solutions sur mesure Genius Pergola. DekorDesign Alger."
+        title="Pergolas & Protection Solaire — Genius Pergola Cannes"
+        description="Pergolas motorisées, stores ZIP et vitrages guillotine pour terrasses. Solutions sur mesure Genius Pergola. DekorDesign Cannes."
         canonical="/exterieur"
       />
       {/* Header */}
