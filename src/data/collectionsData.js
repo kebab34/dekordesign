@@ -300,145 +300,65 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'ADRIA ANTRASIT YER KAROSU',
-        color: 'Anthracite',
-        size: '',
-        surface: 'Sol',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-anthracite.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
         name: 'Adria Antrasit 30x90',
         color: 'Anthracite',
         size: '30x90',
         surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc-dekofon.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-anthracite.png',
+        faces: [''],
+        specifications: {},
       },
       {
-        id: 2,
+        id: 1,
         name: 'Adria Kahve 30x90',
         color: 'Brun',
         size: '30x90',
-        surface: 'Mural',
+        surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-cafe.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        faces: [''],
+        specifications: {},
       },
       {
-        id: 3,
-        name: 'ADRIA KAHVE YER KAROSU',
-        color: 'Brun',
-        size: '',
-        surface: 'Sol',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 4,
+        id: 2,
         name: 'Adria Mix Dekofon 30x90',
         color: 'Mix',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-mix-dekofon.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        faces: [''],
+        specifications: {},
       },
       {
-        id: 5,
+        id: 3,
         name: 'Adria Beyaz Dekofon 30x90',
         color: 'Blanc',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-white-60x60.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc-dekofon.png',
+        faces: [''],
+        specifications: {},
       },
       {
-        id: 6,
+        id: 4,
         name: 'Adria Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
-        surface: 'Mural',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc-dekofon.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
+        surface: null,
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc.png',
+        faces: [''],
+        specifications: {},
       },
       {
-        id: 7,
-        name: 'ADRIA WHITE YER KAROSU',
-        color: 'Blanc',
-        size: '',
-        surface: 'Sol',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc-dekofon.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 8,
+        id: 5,
         name: 'Adria Beyaz 60x60',
-        color: 'Beyaz',
+        color: 'Blanc',
         size: '60x60',
         surface: null,
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-white-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-    ],
+        faces: [''],
+        specifications: {},
+      },
+    ]
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
       { name: 'Renders', file: '', type: 'RAR' },
@@ -2557,7 +2477,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-60x60.png',
         faces: [
           ''
         ],
@@ -6584,7 +6504,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-nero-dekor.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekofon.png',
         faces: [
           ''
         ],
@@ -6750,7 +6670,7 @@ export const collectionsData = {
         color: 'Maple',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-maple.png',
         faces: [
           ''
         ],
@@ -6815,7 +6735,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/flevo/flevo-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/flevo/Flevo.png',
         faces: [
           ''
         ],
@@ -6844,7 +6764,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fortuna/fortuna-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fortuna/Fortuna.png',
         faces: [
           ''
         ],
@@ -6873,7 +6793,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fraxinus/fraxinus-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fraxinus/Fraxinus.png',
         faces: [
           ''
         ],
@@ -6902,7 +6822,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fresno/fresno-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fresno/Fresno.png',
         faces: [
           ''
         ],
@@ -6984,7 +6904,7 @@ export const collectionsData = {
         color: 'Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gaudi/gaudi-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gaudi/Gaudi.png',
         faces: [
           ''
         ],
@@ -7013,7 +6933,7 @@ export const collectionsData = {
         color: 'Perle',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-gold.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-pearl.png',
         faces: [
           ''
         ],
@@ -7273,7 +7193,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-white-40x120.png',
         faces: [
           ''
         ],
@@ -7362,7 +7282,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-blue-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grassland/grassland-green-60X60.png',
         faces: [
           ''
         ],
@@ -7447,7 +7367,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/greta/greta-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/greta/Greta.png',
         faces: [
           ''
         ],
@@ -7671,7 +7591,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/harley/harley-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/harley/harley.jpg',
         faces: [
           ''
         ],
@@ -7950,7 +7870,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/herringwood/herringwood-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/herringwood/Herringwood.png',
         faces: [
           ''
         ],
@@ -7979,7 +7899,7 @@ export const collectionsData = {
         color: 'Ice',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/himalaya/himalaya-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/himalaya/Himalaya.png',
         faces: [
           ''
         ],
@@ -8008,7 +7928,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hormigon-molde/hormigon-molde-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hormigon-molde/Hormigon Molde.png',
         faces: [
           ''
         ],
@@ -8037,7 +7957,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hypnos/hypnos-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hypnos/hypnos-60X120.png',
         faces: [
           ''
         ],
@@ -8090,7 +8010,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-gris-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/imperial/imperial-beyaz-dekor-30X60.png',
         faces: [
           ''
         ],
@@ -8239,7 +8159,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-beyaz-61x61.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/inca/inca-beyaz-30X60.png',
         faces: [
           ''
         ],
@@ -8393,7 +8313,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/joya/joya-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/joya/joya-60X120.png',
         faces: [
           ''
         ],
@@ -8611,7 +8531,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kallos/kallos-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kallos/Kallos.png',
         faces: [
           ''
         ],
@@ -8650,7 +8570,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kapteyn/kapteyn-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kapteyn/Kapteyn.png',
         faces: [
           ''
         ],
@@ -8761,7 +8681,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-black-30X90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-white-30X90.png',
         faces: [
           ''
         ],
@@ -8854,7 +8774,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larimar-ocean/larimar-ocean-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larimar-ocean/larimar.jpg',
         faces: [
           ''
         ],
@@ -8883,7 +8803,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larix/larix-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larix/Larix.png',
         faces: [
           ''
         ],
@@ -9444,7 +9364,7 @@ export const collectionsData = {
         color: 'Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-dark-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loreto/loreto-light-60X60.png',
         faces: [
           ''
         ],
@@ -9675,7 +9595,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madero/madero-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madero/Madero.png',
         faces: [
           ''
         ],
@@ -9704,7 +9624,7 @@ export const collectionsData = {
         color: 'Vanillia',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madran-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madran-vainillia.png',
         faces: [
           ''
         ],
@@ -9810,7 +9730,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magnifique/magnifique-black-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magnifique/magnifique-black-60X120.png',
         faces: [
           ''
         ],
@@ -9863,7 +9783,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-beige-45X90.png',
         faces: [
           ''
         ],
@@ -10077,7 +9997,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvel/marvel-latte-dekofon.png',
         faces: [
           ''
         ],
@@ -10166,7 +10086,7 @@ export const collectionsData = {
         color: 'Brillant',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/marvy/marvy-parlak-30X90.png',
         faces: [
           ''
         ],
@@ -10477,7 +10397,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-beige.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-white.png',
         faces: [
           ''
         ],
@@ -10554,7 +10474,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/minimo/minimo-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/minimo/Minimo.png',
         faces: [
           ''
         ],
@@ -10583,7 +10503,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miramar/miramar-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miramar/Miramar.png',
         faces: [
           ''
         ],
@@ -10612,7 +10532,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miranda/miranda-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/miranda/Miranda.png',
         faces: [
           ''
         ],
@@ -10682,7 +10602,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/modellato/modellato-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/modellato/modellato-rener2.png',
         faces: [
           ''
         ],
@@ -10711,7 +10631,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-anthracite.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-white.png',
         faces: [
           ''
         ],
@@ -11089,7 +11009,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/naos/naos-60X120.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/naos/naos-white-60X120.png',
         faces: [
           ''
         ],
@@ -11412,7 +11332,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-60X120.png',
         faces: [
           ''
         ],
@@ -11513,7 +11433,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-antrasite.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nomerles/nomerles-white.png',
         faces: [
           ''
         ],
@@ -11648,7 +11568,7 @@ export const collectionsData = {
         color: 'Teak',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norden/norden-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norden/Norden.png',
         faces: [
           ''
         ],
@@ -12014,7 +11934,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-bege.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-latte.png',
         faces: [
           ''
         ],
@@ -12091,7 +12011,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onelia/onelia-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onelia/onelia.png',
         faces: [
           ''
         ],
@@ -12120,7 +12040,7 @@ export const collectionsData = {
         color: 'Sable',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onixia/onixia-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/onixia/onixia-sand.png',
         faces: [
           ''
         ],
@@ -12161,7 +12081,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-beige.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-bone-60X60.png',
         faces: [
           ''
         ],
@@ -12250,7 +12170,7 @@ export const collectionsData = {
         color: 'Perla',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-perla.png',
         faces: [
           ''
         ],
@@ -12315,7 +12235,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/palazzo/palazzo-grey.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/palazzo/palazzo-ivory.png',
         faces: [
           ''
         ],
@@ -12460,7 +12380,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-60x60.png',
         faces: [
           ''
         ],
@@ -12614,7 +12534,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz-mozaik-30,5x30,5.png',
         faces: [
           ''
         ],
@@ -13023,7 +12943,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/piegato/piegato-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/piegato/Piegato.png',
         faces: [
           ''
         ],
@@ -13052,7 +12972,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-antrasit.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-bone.png',
         faces: [
           ''
         ],
@@ -13117,7 +13037,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quarzt-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
         faces: [
           ''
         ],
@@ -13256,7 +13176,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/regnum/regnum-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/regnum/Regnum.png',
         faces: [
           ''
         ],
@@ -13615,7 +13535,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-anthracite.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-bone.png',
         faces: [
           ''
         ],
@@ -13680,7 +13600,7 @@ export const collectionsData = {
         color: 'Clair Beige',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-anthracite.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-light-beige.png',
         faces: [
           ''
         ],
@@ -13774,7 +13694,7 @@ export const collectionsData = {
         color: '',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salamanca/salamanca-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salamanca/Salamanca.png',
         faces: [
           ''
         ],
@@ -13803,7 +13723,7 @@ export const collectionsData = {
         color: 'Ice',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-almond.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-ice.png',
         faces: [
           ''
         ],
@@ -13856,7 +13776,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-white-60x60.png',
         faces: [
           ''
         ],
@@ -14029,7 +13949,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-bone.png',
         faces: [
           ''
         ],
@@ -14094,7 +14014,7 @@ export const collectionsData = {
         color: '',
         size: '',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sarda/sarda-render-2.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sarda/sarda.jpg',
         faces: [
           ''
         ],
@@ -14134,7 +14054,7 @@ export const collectionsData = {
         color: 'Havuz Mavi',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-lacivert.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-mavi.png',
         faces: [
           ''
         ],
@@ -14216,7 +14136,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sealong/sealong-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sealong/sealong.png',
         faces: [
           ''
         ],
@@ -14528,7 +14448,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/side/side-brown.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/side/side-green.png',
         faces: [
           ''
         ],
@@ -14651,7 +14571,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stacy/stacy-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stacy/Stacy.png',
         faces: [
           ''
         ],
@@ -14721,7 +14641,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-dekofon.png',
         faces: [
           ''
         ],
@@ -14774,7 +14694,7 @@ export const collectionsData = {
         color: '',
         size: '100x100',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-30x60.png',
         faces: [
           ''
         ],
@@ -15036,7 +14956,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/strato/strato-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/strato/Strato.png',
         faces: [
           ''
         ],
@@ -15065,7 +14985,7 @@ export const collectionsData = {
         color: '',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stuart/stuart-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/stuart/Stuart.png',
         faces: [
           ''
         ],
@@ -15093,7 +15013,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/super-beyaz/super-beyaz-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/super-beyaz/super-beyaz-60X120.png',
         faces: [
           ''
         ],
@@ -15146,7 +15066,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/swan/swan-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/swan/Swan.png',
         faces: [
           ''
         ],
@@ -15311,7 +15231,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/terra/terra-white-60x60.png',
         faces: [
           ''
         ],
@@ -15400,7 +15320,7 @@ export const collectionsData = {
         color: 'Sable',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-acik-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/thanos/thanos-sand-60x60.png',
         faces: [
           ''
         ],
@@ -15624,7 +15544,7 @@ export const collectionsData = {
         color: 'Naturel',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tsuga/tsuga-almond.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tsuga/tsuga-natural.png',
         faces: [
           ''
         ],
@@ -15771,7 +15691,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-anthracite-19,7x19,7.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-60x60.png',
         faces: [
           ''
         ],
@@ -16052,7 +15972,7 @@ export const collectionsData = {
         color: '',
         size: '',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vales/vales-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vales/vales.jpg',
         faces: [
           ''
         ],
@@ -16091,7 +16011,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-black-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/valor/valor-white-60x60.png',
         faces: [
           ''
         ],
@@ -16309,7 +16229,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/verona/verona-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/verona/Verona.png',
         faces: [
           ''
         ],
@@ -16338,7 +16258,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vigo/vigo-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vigo/vigo-blanc-dekofon.png',
         faces: [
           ''
         ],
@@ -16390,7 +16310,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vintage/vintage-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vintage/vintage.jpg',
         faces: [
           ''
         ],
@@ -16460,7 +16380,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vitray/vitray-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/vitray/vitray.png',
         faces: [
           ''
         ],
@@ -16489,7 +16409,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '120x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-120X120.png',
         faces: [
           ''
         ],
@@ -16935,7 +16855,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/wario/wario-blue.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/wario/wario-green.png',
         faces: [
           ''
         ],
@@ -16976,7 +16896,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/white-star/white-star-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/white-star/white-star-60X120.png',
         faces: [
           ''
         ],
@@ -17017,7 +16937,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/windy/windy-render.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/windy/windy.png',
         faces: [
           ''
         ],
@@ -17056,7 +16976,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-oak.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-ivory.png',
         faces: [
           ''
         ],
@@ -17121,7 +17041,7 @@ export const collectionsData = {
         color: 'Blanc Dekofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yuta/yuta-blanc-dekofon.png',
         faces: [
           ''
         ],
@@ -17210,7 +17130,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zenith/zenith-30X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zenith/zenith-60X120.png',
         faces: [
           ''
         ],
@@ -17273,7 +17193,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zigana/zigana-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/zigana/zinadn-blanc.png',
         faces: [
           ''
         ],

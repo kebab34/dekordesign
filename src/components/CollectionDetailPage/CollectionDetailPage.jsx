@@ -79,12 +79,18 @@ const CollectionDetailPage = () => {
 
   const openRenders = () => setLightbox({ images: renders, index: heroIndex });
 
-  // Nettoie le nom produit (retire le préfixe collection)
-  const cleanName = (name) => name
-    .replace(new RegExp(`^${decodedName.toUpperCase()}\\s+`, 'i'), '')
-    .replace(/\s+/g, ' ').trim()
-    .toLowerCase()
-    .replace(/\b\w/g, c => c.toUpperCase());
+  // Construit le label traduit depuis les champs structurés
+  const buildProductLabel = (prod) => {
+    const colorLabel = prod.color ? t(`colors.${prod.color}`, prod.color) : '';
+    const surfaceLabel = prod.surface ? t(`surfaces.${prod.surface}`, prod.surface) : '';
+    const sizeLabel = prod.size || '';
+    const label = [colorLabel, surfaceLabel, sizeLabel].filter(Boolean).join(' ');
+    if (label.trim()) return label;
+    // Fallback : retire le préfixe collection du nom brut
+    return prod.name
+      .replace(new RegExp(`^${decodedName}\\s+`, 'i'), '')
+      .replace(/\s+/g, ' ').trim();
+  };
 
   return (
     <section className="cdp">
@@ -213,7 +219,7 @@ const CollectionDetailPage = () => {
                     </div>
                   </div>
                   <div className="cdp-card-info">
-                    <span className="cdp-card-name">{cleanName(prod.name)}</span>
+                    <span className="cdp-card-name">{buildProductLabel(prod)}</span>
                     <div className="cdp-card-tags">
                       {prod.color  && <span className="cdp-tag cdp-tag--color">{t(`colors.${prod.color}`, prod.color)}</span>}
                       {prod.surface && <span className="cdp-tag cdp-tag--surface">{t(`surfaces.${prod.surface}`, prod.surface)}</span>}
