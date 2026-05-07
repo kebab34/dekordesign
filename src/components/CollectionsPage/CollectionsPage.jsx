@@ -158,7 +158,7 @@ const CollectionsPage = () => {
     <section className="collections-page">
       <SEO
         title={t('collections.title')}
-        description="Explorez nos 244 collections de carrelages pour salle de bain, cuisine et intérieur. Marbre, grès cérame, bois, pierre naturelle. Livraison Cannes et toute l'Algérie."
+        description="Explorez nos 244 collections de carrelages pour salle de bain, cuisine et intérieur. Marbre, grès cérame, bois, pierre naturelle. Showroom à Cannes, Côte d'Azur."
         canonical="/collections"
       />
       <div className="collections-header">

@@ -36,7 +36,7 @@ const SEO = ({ title, description, canonical, image }) => {
       {/* General */}
       <meta name="robots" content="index, follow" />
       <meta name="language" content="French" />
-      <meta name="geo.region" content="DZ" />
+      <meta name="geo.region" content="FR-06" />
       <meta name="geo.placename" content="Cannes" />
     </Helmet>
   );
