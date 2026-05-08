@@ -4538,7 +4538,7 @@ export const collectionsData = {
         color: 'Gris Décofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
         faces: [
           ''
         ],
@@ -4562,7 +4562,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-60x60.png',
         faces: [
           ''
         ],
