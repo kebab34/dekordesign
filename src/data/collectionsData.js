@@ -425,7 +425,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 8,
         name: 'Adria Beyaz 60x60',
@@ -836,7 +837,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 3,
         name: 'Alin 60x60',
@@ -1009,7 +1011,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 3,
         name: 'Amethist Anthracite 60x120',
@@ -1330,7 +1333,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 9,
         name: 'Antique Carrara Parlak 61x61',
@@ -1541,7 +1545,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 10,
         name: 'Aqua Marin 60x120',
@@ -1800,7 +1805,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 13,
         name: 'Arcides Antrasit 61x61',
@@ -2410,7 +2416,8 @@ export const collectionsData = {
         specifications: {
           // À remplir depuis le PDF
         },
-      },
+      }
+,
       {
         id: 2,
         name: 'Artanes Oxide 60x120',
@@ -2983,7 +2990,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 11,
         name: 'Belgium Stone Light Grey 60x60',
@@ -3388,7 +3396,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 3,
         name: 'Boho Light Grey 20x120',
@@ -3782,7 +3791,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 30,
         name: 'Bona Dea Beige 60x120',
@@ -4320,7 +4330,7 @@ export const collectionsData = {
         color: 'Glossy Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-dekofon-30x90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
         faces: [
           ''
         ],
@@ -4332,7 +4342,7 @@ export const collectionsData = {
         color: 'Glossy Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekor.png',
         faces: [
           ''
         ],
@@ -4356,7 +4366,7 @@ export const collectionsData = {
         color: 'Mat Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-dekofon-30x60.png',
         faces: [
           ''
         ],
@@ -4380,7 +4390,7 @@ export const collectionsData = {
         color: 'Mat',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-parlak-dekor.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-mat-30x60.png',
         faces: [
           ''
         ],
@@ -5289,7 +5299,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 23,
         name: 'Concept Açık Gri 60x120',
@@ -5795,7 +5806,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 3,
         name: 'Destiny Parlak Beyaz 60x60',
@@ -7403,7 +7415,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 4,
         name: 'Grassland Blue 60x120',
@@ -7625,7 +7638,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 13,
         name: 'Hampton Açık Gri 61x61',
@@ -7813,7 +7827,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 10,
         name: 'Helen Taupe 60x60',
@@ -8616,7 +8631,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Kallos 60x120',
@@ -9097,7 +9113,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 16,
         name: 'Las Palmas Anthracite 60x120',
@@ -9928,7 +9945,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 6,
         name: 'Manhattan Dunkel Gri 60x60',
@@ -10443,7 +10461,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Mia 60x120',
@@ -10877,7 +10896,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Mora 60x120',
@@ -11041,7 +11061,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Mystone Anthracite 60x60',
@@ -11554,7 +11575,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 4,
         name: 'Nomerles Antrasit 60x120',
@@ -12332,7 +12354,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Palazzo Ivory 60x120',
@@ -12761,7 +12784,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Pebble Light Grey 60x60',
@@ -13222,7 +13246,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Radiance 60x120',
@@ -13313,7 +13338,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 3,
         name: 'Rhea Anthracite 60x60',
@@ -13401,7 +13427,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 3,
         name: 'Rio Beige 60x120',
@@ -13561,7 +13588,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 5,
         name: 'Root Ash 60x120',
@@ -14099,7 +14127,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Sarda 60x60',
@@ -14394,7 +14423,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 13,
         name: 'Sempre Grigio 60x60',
@@ -14446,7 +14476,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Serpantin Sand 60x120',
@@ -14494,7 +14525,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Shell 60x120',
@@ -14851,7 +14883,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 7,
         name: 'Statuario Goya 60x120',
@@ -14962,7 +14995,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 6,
         name: 'Storm Rock Anthracite 60x120',
@@ -15227,7 +15261,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 5,
         name: 'Tavas Cream 60x60',
@@ -15992,7 +16027,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 19,
         name: 'Urban Anthracite 19.7x19.7',
@@ -16057,7 +16093,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Vales 60x120',
@@ -16213,7 +16250,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 2,
         name: 'Venis Anthracite 60x120',
@@ -16770,7 +16808,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 24,
         name: 'Void Bone 20x120',
@@ -17022,7 +17061,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 1,
         name: 'Windy 60x120',
@@ -17239,7 +17279,8 @@ export const collectionsData = {
           ''
         ],
         specifications: {}
-      },
+      }
+,
       {
         id: 3,
         name: 'Zenith 60x120',
