@@ -13133,7 +13133,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-bone.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-brown.png',
         faces: [
           ''
         ],
@@ -13145,7 +13145,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-anthracite.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-grey.png',
         faces: [
           ''
         ],
@@ -13157,7 +13157,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-grey.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-anthracite.png',
         faces: [
           ''
         ],
@@ -13198,7 +13198,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-light-beige.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-grey.png',
         faces: [
           ''
         ],
@@ -13321,7 +13321,7 @@ export const collectionsData = {
         color: 'Almond',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-ice.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-almond.png',
         faces: [
           ''
         ],
@@ -13362,7 +13362,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-white-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-white.png',
         faces: [
           ''
         ],
@@ -13371,10 +13371,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Sante White Decor 30x90',
-        color: 'Blanc Decor',
+        color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-white-dekor.png',
         faces: [
           ''
         ],
@@ -13382,11 +13382,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Sante Turquiose 30x90',
-        color: 'Turquiose',
+        name: 'Sante Turquoise 30x90',
+        color: 'Turquoise',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-turquoise.png',
         faces: [
           ''
         ],
@@ -13394,11 +13394,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Sante Turquiose Decor 30x90',
-        color: 'Turquiose Decor',
+        name: 'Sante Turquoise Decor 30x90',
+        color: 'Turquoise',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-turquoise-dekor.png',
         faces: [
           ''
         ],
@@ -13410,7 +13410,7 @@ export const collectionsData = {
         color: 'Aqua',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua.png',
         faces: [
           ''
         ],
@@ -13419,9 +13419,9 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Sante Aqua Dekofon 30x90',
-        color: 'Aqua Dekofon',
+        color: 'Aqua',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
         faces: [
           ''
@@ -13431,10 +13431,10 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Sante Aqua Dekor 30x90',
-        color: 'Aqua Dekor',
+        color: 'Aqua',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekor.png',
         faces: [
           ''
         ],
@@ -13446,7 +13446,7 @@ export const collectionsData = {
         color: 'Honey',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-honey.png',
         faces: [
           ''
         ],
@@ -13455,10 +13455,10 @@ export const collectionsData = {
       {
         id: 8,
         name: 'Sante Honey Dekor 30x90',
-        color: 'Honey Dekor',
+        color: 'Honey',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-honey-dekor.png',
         faces: [
           ''
         ],
@@ -13470,7 +13470,7 @@ export const collectionsData = {
         color: 'Fumée',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-smoke.png',
         faces: [
           ''
         ],
@@ -13479,10 +13479,10 @@ export const collectionsData = {
       {
         id: 10,
         name: 'Sante Smoke Dekofon 30x90',
-        color: 'Fumée Dekofon',
+        color: 'Fumée',
         size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-smoke-dekofon.png',
         faces: [
           ''
         ],
@@ -13491,10 +13491,10 @@ export const collectionsData = {
       {
         id: 11,
         name: 'Sante Smoke Dekor 30x90',
-        color: 'Fumée Dekor',
+        color: 'Fumée',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-smoke-dekor.png',
         faces: [
           ''
         ],
@@ -13506,7 +13506,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-aqua-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-white-60x60.png',
         faces: [
           ''
         ],
@@ -13547,7 +13547,7 @@ export const collectionsData = {
         color: 'Brun',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-brown.png',
         faces: [
           ''
         ],
@@ -13559,7 +13559,7 @@ export const collectionsData = {
         color: 'Vert',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-green.png',
         faces: [
           ''
         ],
@@ -13571,7 +13571,7 @@ export const collectionsData = {
         color: 'Bleu',
         size: '60x120',
         surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-bone.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-blue.png',
         faces: [
           ''
         ],
@@ -13610,7 +13610,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Sarda 60x60',
-        color: 'Havuz Mavi',
+        color: 'Bleu',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sarda/sarda.jpg',
@@ -13638,7 +13638,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Saten Havuz Mavi 30x40',
-        color: 'Havuz Mavi',
+        color: 'Bleu Piscine',
         size: '30x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-mavi.png',
@@ -13650,10 +13650,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Saten Havuz Lacivert 30x40',
-        color: 'Havuz Marine',
+        color: 'Bleu Marine',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-mavi.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saten/saten-havuz-lacivert.png',
         faces: [
           ''
         ],
@@ -13694,7 +13694,7 @@ export const collectionsData = {
         color: 'Cool Gris',
         size: '50x50',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sativa/sativa-bone.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sativa/sativa-cool-gris.png',
         faces: [
           ''
         ],
@@ -13773,10 +13773,10 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Sempre Grigio 60x60',
-        color: 'Grisgio',
+        color: 'Grigio',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-nero-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-grigio-60X60.png',
         faces: [
           ''
         ],
@@ -13785,7 +13785,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Sempre Grigio 61x61',
-        color: 'Grisgio',
+        color: 'Grigio',
         size: '61x61',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-grigio-61x61.png',
@@ -13800,7 +13800,7 @@ export const collectionsData = {
         color: 'Nero',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-nero-60X60.png',
         faces: [
           ''
         ],
@@ -13824,7 +13824,7 @@ export const collectionsData = {
         color: 'Junior Bianca',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-biancaa-60X60.png',
         faces: [
           ''
         ],
@@ -13833,10 +13833,10 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Sempre Junior Grigio 60x60',
-        color: 'Junior Grisgio',
+        color: 'Junior Grigio',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-rosa-61X61.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-grigio-60X60.png',
         faces: [
           ''
         ],
@@ -13848,7 +13848,7 @@ export const collectionsData = {
         color: 'Junior Nero',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-nero-60X60.png',
         faces: [
           ''
         ],
@@ -13856,11 +13856,11 @@ export const collectionsData = {
       },
       {
         id: 9,
-        name: 'Sempre Junior Bianca 19.7x19.7',
+        name: 'Sempre Junior Bianca 19,7x19,7',
         color: 'Junior Bianca',
-        size: '19.7x19.7',
+        size: '19,7x19,7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-bianca-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -13868,11 +13868,11 @@ export const collectionsData = {
       },
       {
         id: 10,
-        name: 'Sempre Junior Rosa 19.7x19.7',
+        name: 'Sempre Junior Rosa 19,7x19,7',
         color: 'Junior Rosa',
-        size: '19.7x19.7',
+        size: '19,7x19,7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-rosa-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -13880,11 +13880,11 @@ export const collectionsData = {
       },
       {
         id: 11,
-        name: 'Sempre Junior Grigio 19.7x19.7',
-        color: 'Junior Grisgio',
-        size: '19.7x19.7',
+        name: 'Sempre Junior Grigio 19,7x19,7',
+        color: 'Junior Grigio',
+        size: '19,7x19,7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-grigio-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -13892,24 +13892,11 @@ export const collectionsData = {
       },
       {
         id: 12,
-        name: 'Sempre Junior Nero 19.7x19.7',
+        name: 'Sempre Junior Nero 19,7x19,7',
         color: 'Junior Nero',
-        size: '19.7x19.7',
+        size: '19,7x19,7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-bianca-60X60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 13,
-        name: 'Sempre Grigio 60x60',
-        color: 'Grisgio',
-        size: '60x60',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-grigio-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sempre/sempre-junior-nero-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -13928,50 +13915,25 @@ export const collectionsData = {
     }
   },
   'Serpantin': {
-    slug: 'serpatin',
+    slug: 'serpantin',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     products: [
       {
         id: 0,
-        name: 'Serpantin Sable ',
-        color: 'Sable ',
-        size: '',
-        surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-sand-60X120.webp',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
-        name: 'Serpantin Blanc ',
-        color: 'Blanc ',
-        size: '',
-        surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-white-60X120.webp',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 2,
         name: 'Serpantin Sand 60x120',
-        color: 'Sand',
+        color: 'Sable',
         size: '60x120',
-        surface: null,
+        surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-sand-60X120.webp',
         faces: [''],
         specifications: {}
       },
       {
-        id: 3,
+        id: 1,
         name: 'Serpantin White 60x120',
-        color: 'White',
+        color: 'Blanc',
         size: '60x120',
-        surface: null,
+        surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/serpantin/serpantin-white-60X120.webp',
         faces: [''],
         specifications: {}
@@ -13994,23 +13956,10 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Shell',
-        color: '',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/shell/7BANTSEET-SHELL-BEIGE-60X120X2-ENG1504-BAS3001-GS4BINARY-SSB3-RGB-P1.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 1,
         name: 'Shell 60x120',
         color: '',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/shell/7BANTSEET-SHELL-BEIGE-60X120X2-ENG1504-BAS3001-GS4BINARY-SSB3-RGB-P1.jpg',
         faces: [''],
         specifications: {}
@@ -14091,7 +14040,7 @@ export const collectionsData = {
         color: 'Or',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/silyon/silyon-blue.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/silyon/silyon-gold.png',
         faces: [
           ''
         ],
@@ -14186,11 +14135,11 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Star Kırmızı 19.7x19.7',
-        color: 'Kirmizi',
-        size: '19.7x19.7',
+        name: 'Star Rouge 19,7x19,7',
+        color: 'Rouge',
+        size: '19,7x19,7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star/star-bleu-19,7x19,7.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star/star-rouge-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -14198,9 +14147,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Star Mavi 19.7x19.7',
-        color: 'Mavi',
-        size: '19.7x19.7',
+        name: 'Star Bleu 19,7x19,7',
+        color: 'Bleu',
+        size: '19,7x19,7',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star/star-bleu-19,7x19,7.png',
         faces: [
@@ -14231,7 +14180,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line.png',
         faces: [
           ''
         ],
@@ -14240,10 +14189,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Star Line Dekofon 30x90',
-        color: 'Dekofon',
+        color: '',
         size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-dekofon.png',
         faces: [
           ''
         ],
@@ -14255,7 +14204,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-line-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/star-line/star-lıne-60x60.png',
         faces: [
           ''
         ],
@@ -14284,7 +14233,7 @@ export const collectionsData = {
         color: '',
         size: '100x100',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
           ''
         ],
@@ -14296,7 +14245,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
           ''
         ],
@@ -14341,9 +14290,9 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Statuario Goya Dekofon 40x120',
-        color: 'Dekofon',
+        color: '',
         size: '40x120',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/W168QDRSB0040XPAAW50.png',
         faces: [
           ''
@@ -14356,30 +14305,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/P156ZDRSB0TX0XMXXW50.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 7,
-        name: 'Statuario Goya 60x120',
-        color: '',
-        size: '60x120',
-        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-30x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 8,
-        name: 'Statuario Goya 60x60',
-        color: '',
-        size: '60x60',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/statuario-goya/statuario-goya-61x61.png',
         faces: [
           ''
         ],
@@ -14404,123 +14330,60 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Storm Rock Antracit',
-        color: 'Antracit',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
-        name: 'Storm Rock Cotto ',
-        color: 'Cotto ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-suolo.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 2,
-        name: 'Storm Rock Gris ',
-        color: 'Gris ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 3,
-        name: 'Storm Rock New Vert ',
-        color: 'New Vert ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-cotto.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 4,
         name: 'Storm Rock Suola 60x120',
         color: 'Suola',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-new-green.jpg',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-suolo.jpg',
+        faces: [''],
         specifications: {}
       },
       {
-        id: 5,
-        name: 'Storm Rock Blanc ',
-        color: 'Blanc ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 6,
+        id: 1,
         name: 'Storm Rock Anthracite 60x120',
         color: 'Anthracite',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-antracite.jpg',
         faces: [''],
         specifications: {}
       },
       {
-        id: 7,
+        id: 2,
         name: 'Storm Rock Cotto 60x120',
         color: 'Cotto',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-cotto.jpg',
         faces: [''],
         specifications: {}
       },
       {
-        id: 8,
-        name: 'Storm Rock Grey 60x120',
-        color: 'Grey',
+        id: 3,
+        name: 'Storm Rock Gris 60x120',
+        color: 'Gris',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-gris.jpg',
         faces: [''],
         specifications: {}
       },
       {
-        id: 9,
-        name: 'Storm Rock New Green 60x120',
-        color: 'New Green',
+        id: 4,
+        name: 'Storm Rock Nouveau Vert 60x120',
+        color: 'Nouveau Vert',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-new-green.jpg',
         faces: [''],
         specifications: {}
       },
       {
-        id: 10,
-        name: 'Storm Rock White 60x120',
-        color: 'White',
+        id: 5,
+        name: 'Storm Rock Blanc 60x120',
+        color: 'Blanc',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/storm-rock/storm-rock-white.jpg',
         faces: [''],
         specifications: {}
