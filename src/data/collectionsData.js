@@ -12542,8 +12542,8 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Picossa Akağaç 15x60',
-        color: 'Picossa Akagac',
+        name: 'Picasso Akağaç 15x60',
+        color: 'Akagac',
         size: '15x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
@@ -12558,7 +12558,7 @@ export const collectionsData = {
         color: 'Cira',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-cira.png',
         faces: [
           ''
         ],
@@ -12570,7 +12570,7 @@ export const collectionsData = {
         color: 'Vizon',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-vizon.png',
         faces: [
           ''
         ],
@@ -12579,10 +12579,10 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Picasso Mavi 15x60',
-        color: 'Mavi',
+        color: 'Bleu',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-mavi.png',
         faces: [
           ''
         ],
@@ -12594,7 +12594,7 @@ export const collectionsData = {
         color: 'Tinder Mosaic',
         size: '30.5x30.5',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-tinder-mosaic-30,5x30,5.png',
         faces: [
           ''
         ],
@@ -12606,7 +12606,7 @@ export const collectionsData = {
         color: 'Bleu Mosaic',
         size: '30.5x30.5',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-akagac.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-blue-mosaic-30,5x30,5.png',
         faces: [
           ''
         ],
@@ -12676,7 +12676,7 @@ export const collectionsData = {
         color: 'Moka',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-antrasit.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-moka.png',
         faces: [
           ''
         ],
@@ -12688,7 +12688,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-bone.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-gris.png',
         faces: [
           ''
         ],
@@ -12700,7 +12700,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-antrasit.png',
         faces: [
           ''
         ],
@@ -12729,7 +12729,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone.png',
         faces: [
           ''
         ],
@@ -12741,7 +12741,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-gris-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige.png',
         faces: [
           ''
         ],
@@ -12753,7 +12753,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '45x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-gris.png',
         faces: [
           ''
         ],
@@ -12765,7 +12765,7 @@ export const collectionsData = {
         color: 'Bone',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quarzt-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
         faces: [
           ''
         ],
@@ -12777,7 +12777,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige-60X60.png',
         faces: [
           ''
         ],
@@ -12801,7 +12801,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-beige.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-antrasit-60X60.png',
         faces: [
           ''
         ],
@@ -12825,25 +12825,14 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Radiance',
+        name: 'Radiance 60x120',
         color: '',
-        size: '',
+        size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
         faces: [
           ''
         ],
-        specifications: {}
-      }
-,
-      {
-        id: 1,
-        name: 'Radiance 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
-        faces: [''],
         specifications: {}
       }
     ],
@@ -12861,7 +12850,7 @@ export const collectionsData = {
   'Regnum': {
     slug: 'regnum',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/radiance/7BANT-RADIANCE-60X120X2-1504ENG-BAS3001-GS4BINARY-R6-RGB-P1.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/regnum/Regnum.png',
     products: [
       {
         id: 0,
@@ -12893,9 +12882,9 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Rhea Antracit ',
-        color: 'Antracit ',
-        size: '',
+        name: 'Rhea Anthracite 60x60',
+        color: 'Anthracite',
+        size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
         faces: [
@@ -12905,9 +12894,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Rhea Gris ',
-        color: 'Gris ',
-        size: '',
+        name: 'Rhea Grey 60x60',
+        color: 'Gris',
+        size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
         faces: [
@@ -12917,48 +12906,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Rhea Ivoire ',
-        color: 'Ivoire ',
-        size: '',
+        name: 'Rhea Ivory 60x60',
+        color: 'Ivoire',
+        size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 3,
-        name: 'Rhea Anthracite 60x60',
-        color: 'Anthracite',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 4,
-        name: 'Rhea Grey 60x60',
-        color: 'Grey',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 5,
-        name: 'Rhea Ivory 60x60',
-        color: 'Ivory',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-grey.jpg',
         faces: [
           ''
         ],
