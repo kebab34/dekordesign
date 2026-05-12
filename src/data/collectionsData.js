@@ -8479,7 +8479,7 @@ export const collectionsData = {
   'Kallos': {
     slug: 'kallos',
     categories: ['Jardin'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kaleidos/kaleidos-brown-80X80.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kallos/kallos-render.png',
     products: [
       {
         id: 0,
@@ -8499,7 +8499,7 @@ export const collectionsData = {
         name: 'Kallos 60x120',
         color: '',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kallos/Kallos.png',
         faces: [''],
         specifications: {}
@@ -8597,7 +8597,7 @@ export const collectionsData = {
         color: 'Fon',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-cool.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-fon.png',
         faces: [
           ''
         ],
@@ -8609,7 +8609,7 @@ export const collectionsData = {
         color: 'Naturel',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-cool.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-natural.png',
         faces: [
           ''
         ],
@@ -8650,7 +8650,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-render.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-black-30X90.png',
         faces: [
           ''
         ],
@@ -8659,10 +8659,10 @@ export const collectionsData = {
       {
         id: 2,
         name: 'La Vita Dekofon 30x90',
-        color: 'Dekofon',
+        color: '',
         size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-white-30X90.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-dekofon-30X90.png',
         faces: [
           ''
         ],
@@ -8674,7 +8674,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-black-30X90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/la-vita/la-vita-white-60X60.png',
         faces: [
           ''
         ],
@@ -8723,7 +8723,7 @@ export const collectionsData = {
   'Larimar Ocean': {
     slug: 'larimar-ocean',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lamuna/lamuna.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/larimar-ocean/larimar-ocean-render.jpg',
     products: [
       {
         id: 0,
@@ -8785,14 +8785,12 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Las Palmas Carbon 100x100',
-        color: 'Beige',
-        size: '120x120',
+        name: 'Las Palmas Carbon 60x120',
+        color: 'Carbon',
+        size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-carbon-60X120.png',
-        faces: [
-          ''
-        ],
+        faces: [''],
         specifications: {}
       },
       {
@@ -8801,10 +8799,8 @@ export const collectionsData = {
         color: 'Beige',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-120X120.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8813,10 +8809,8 @@ export const collectionsData = {
         color: 'Gris',
         size: '100x100',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-60X120.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8825,10 +8819,8 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-blanc-60X120.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8837,10 +8829,8 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-BEIGE-60X120---FACE-1.jpg',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8849,10 +8839,8 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-render.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-60X120.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8861,10 +8849,8 @@ export const collectionsData = {
         color: 'Moka',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-mocha-60X120.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8873,22 +8859,18 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-anthracite-60X120.png',
+        faces: [''],
         specifications: {}
       },
       {
         id: 8,
-        name: 'Las Palmas Carbon 60x120',
-        color: 'Carbon',
+        name: 'Las Palmas Anthracite Semilappato 60x120',
+        color: 'Anthracite',
         size: '60x120',
-        surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
-        faces: [
-          ''
-        ],
+        surface: 'Lappato',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8897,10 +8879,8 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-beige-120X120.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X60.png',
+        faces: [''],
         specifications: {}
       },
       {
@@ -8909,183 +8889,48 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
-        faces: [
-          ''
-        ],
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-60X60.png',
+        faces: [''],
         specifications: {}
       },
       {
         id: 11,
-        name: 'Las Palmas Anthracite 60x120',
-        color: 'Antracit',
-        size: '60x120',
+        name: 'Las Palmas Anthracite 100x100',
+        color: 'Anthracite',
+        size: '100x100',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-anthracite-60X120.png',
-        faces: [
-          ''
-        ],
+        faces: [''],
         specifications: {}
       },
       {
         id: 12,
-        name: 'Las Palmas Beige 60x120',
+        name: 'Las Palmas Beige 100x100',
         color: 'Beige',
-        size: '60x120',
+        size: '100x100',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-beige-120X120.png',
-        faces: [
-          ''
-        ],
+        faces: [''],
         specifications: {}
       },
       {
         id: 13,
-        name: 'Las Palmas Gri 60x120',
+        name: 'Las Palmas Gri 100x100',
         color: 'Gris',
-        size: '60x120',
+        size: '100x100',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-120X120.png',
-        faces: [
-          ''
-        ],
+        faces: [''],
         specifications: {}
       },
       {
         id: 14,
-        name: 'Las Palmas Anthracite 100x100',
-        color: 'Beige',
-        size: '100x100',
-        surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-anthracite-60X120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 15,
-        name: 'Las Palmas Gris 100x100',
-        color: 'Gris',
-        size: '100x100',
-        surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 16,
-        name: 'Las Palmas Anthracite 60x120',
-        color: 'Anthracite',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/LAS-PALMAS-ANTRASIT-SEMILAPPATO-60X120---FACE-1.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 17,
-        name: 'Las Palmas Bej 60x120',
-        color: 'Bej',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 18,
-        name: 'Las Palmas Bej 60x120',
-        color: 'Bej',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 19,
-        name: 'Las Palmas Carbon 60x120',
-        color: 'Carbon',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-carbon-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 20,
-        name: 'Las Palmas Carbon 60x120',
-        color: 'Carbon',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-carbon-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 21,
-        name: 'Las Palmas Grey 60x120',
-        color: 'Grey',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-gris-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 22,
-        name: 'Las Palmas Mocha 60x120',
-        color: 'Mocha',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-mocha-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 23,
-        name: 'Las Palmas Mocha 60x120',
-        color: 'Mocha',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-mocha-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 24,
-        name: 'Las Palmas White 60x120',
-        color: 'White',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-blanc-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 25,
-        name: 'Las Palmas White 60x120',
-        color: 'White',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-blanc-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 26,
         name: 'Las Palmas Bej 20x120',
-        color: 'Bej',
+        color: 'Beige',
         size: '20x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/las-palmas/las-palmas-bej-60X120.png',
-        faces: [
-          ''
-        ],
+        faces: [''],
         specifications: {}
       }
     ],
@@ -9122,7 +8967,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-GREY-60X60X2-MAT-P1.jpg',
         faces: [
           ''
         ],
@@ -9134,7 +8979,7 @@ export const collectionsData = {
         color: 'Ivoire',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-GREY-60X60X2-MAT-P1.jpg',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-IVORY-60X60X2-MAT-P1.jpg',
         faces: [
           ''
         ],
@@ -9155,7 +9000,7 @@ export const collectionsData = {
   'Limra': {
     slug: 'limra',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/lefke/LEFKE-COTTO-60X60X2-MAT-P1.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-render.png',
     products: [
       {
         id: 0,
@@ -9163,7 +9008,7 @@ export const collectionsData = {
         color: 'Beige',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-beige-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-ebige-60X120.png',
         faces: [
           ''
         ],
@@ -9199,7 +9044,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-gris-60X120.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/limra/limra-gris-60X60.png',
         faces: [
           ''
         ],
@@ -9269,7 +9114,7 @@ export const collectionsData = {
         color: 'Hazelnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-hazelnut.png',
         faces: [
           ''
         ],
@@ -9281,7 +9126,7 @@ export const collectionsData = {
         color: 'Clair Beige',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-light-beige.png',
         faces: [
           ''
         ],
@@ -9293,7 +9138,7 @@ export const collectionsData = {
         color: 'Special Walnut',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-special-walnut.png',
         faces: [
           ''
         ],
@@ -9396,9 +9241,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Loris Dekofon 30x90',
-        color: 'Dekofon ',
+        color: '',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/loris/loris-dekofon-30X90.jpg',
         faces: [
           ''
@@ -9440,7 +9285,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-light-grey-60X60.png',
         faces: [
           ''
         ],
@@ -9452,7 +9297,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-taupe-60X60.png',
         faces: [
           ''
         ],
@@ -9476,7 +9321,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-light-grey-60X60.png',
         faces: [
           ''
         ],
@@ -9488,7 +9333,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-taupe-60X60.png',
         faces: [
           ''
         ],
@@ -9512,7 +9357,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-light-grey-60X60.png',
         faces: [
           ''
         ],
@@ -9524,7 +9369,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '20x40',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-taupe-60X60.png',
         faces: [
           ''
         ],
