@@ -12934,9 +12934,9 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Rio Beige ',
-        color: 'Beige ',
-        size: '',
+        name: 'Rio Beige 60x120',
+        color: 'Beige',
+        size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-beige.jpg',
         faces: [
@@ -12946,9 +12946,9 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Rio Foncé ',
-        color: 'Foncé ',
-        size: '',
+        name: 'Rio Foncé 60x120',
+        color: 'Foncé',
+        size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-dark.jpg',
         faces: [
@@ -12958,45 +12958,14 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Rio Clair ',
-        color: 'Clair ',
-        size: '',
+        name: 'Rio Clair 60x120',
+        color: 'Clair',
+        size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-light.jpg',
         faces: [
           ''
         ],
-        specifications: {}
-      }
-,
-      {
-        id: 3,
-        name: 'Rio Beige 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-beige.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 4,
-        name: 'Rio Dark 60x120',
-        color: 'Dark',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-dark.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 5,
-        name: 'Rio Light 60x120',
-        color: 'Light',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rio/rio-light.jpg',
-        faces: [''],
         specifications: {}
       }
     ],
@@ -13014,7 +12983,7 @@ export const collectionsData = {
   'Riva': {
     slug: 'riva',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rhea/rhea-anthracite.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/Riva.png',
     products: [
       {
         id: 0,
@@ -13022,7 +12991,7 @@ export const collectionsData = {
         color: '',
         size: '30x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-50x50.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/Riva.png',
         faces: [
           ''
         ],
@@ -13031,10 +13000,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Riva Dekofon 30x60',
-        color: 'Dekofon',
+        color: '',
         size: '30x60',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-50x50.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/riva/riva-dekofon.png',
         faces: [
           ''
         ],
@@ -13099,7 +13068,7 @@ export const collectionsData = {
         color: 'Crema',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-crema-60X120.png',
         faces: [
           ''
         ],
@@ -13111,7 +13080,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-60X120.png',
         faces: [
           ''
         ],
@@ -13123,41 +13092,10 @@ export const collectionsData = {
         color: 'Argent',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-silver-60X120.png',
         faces: [
           ''
         ],
-        specifications: {}
-      }
-,
-      {
-        id: 5,
-        name: 'Root Ash 60x120',
-        color: 'Ash',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 6,
-        name: 'Root Crema 60x120',
-        color: 'Crema',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-crema-60X120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 7,
-        name: 'Root Silver 60x120',
-        color: 'Silver',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-silver-60X120.png',
-        faces: [''],
         specifications: {}
       }
     ],
