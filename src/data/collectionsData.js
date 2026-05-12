@@ -4240,7 +4240,7 @@ export const collectionsData = {
         color: 'Glossy Dekofon',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-dekofon-30x90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
         faces: [
           ''
         ],
@@ -4252,7 +4252,7 @@ export const collectionsData = {
         color: 'Glossy Dekor',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-parlak-dekor.png',
         faces: [
           ''
         ],
@@ -4299,8 +4299,8 @@ export const collectionsData = {
         name: 'Calacatta Marmi Mat 30x60',
         color: 'Mat',
         size: '30x60',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-parlak-dekor.png',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x60.png',
         faces: [
           ''
         ],
@@ -4448,7 +4448,7 @@ export const collectionsData = {
         color: 'Gris Décofon',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
         faces: [
           ''
         ],
@@ -4472,7 +4472,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-60x60.png',
         faces: [
           ''
         ],
