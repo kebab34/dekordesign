@@ -12023,7 +12023,7 @@ export const collectionsData = {
   'Pamfilya': {
     slug: 'pamfilya',
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine', 'Extérieur'],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris.png',
     products: [
       {
         id: 0,
@@ -12031,7 +12031,7 @@ export const collectionsData = {
         color: 'Gris Clairs',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris.png',
         faces: [
           ''
         ],
@@ -12043,7 +12043,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-antrasit.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-gris.png',
         faces: [
           ''
         ],
@@ -12055,7 +12055,7 @@ export const collectionsData = {
         color: 'Anthracite',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-antrasit.png',
         faces: [
           ''
         ],
@@ -12096,7 +12096,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white.png',
         faces: [
           ''
         ],
@@ -12105,10 +12105,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Paris White Dekofon 30x90',
-        color: 'Blanc Dekofon',
+        color: 'Blanc',
         size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-dekofon.png',
         faces: [
           ''
         ],
@@ -12120,7 +12120,7 @@ export const collectionsData = {
         color: 'Noir',
         size: '30x90',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black.png',
         faces: [
           ''
         ],
@@ -12129,10 +12129,10 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Paris Black Dekofon 30x90',
-        color: 'Noir Dekofon',
+        color: 'Noir',
         size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-dekofon.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
         faces: [
           ''
         ],
@@ -12144,7 +12144,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-black-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paris/paris-white-60x60.png',
         faces: [
           ''
         ],
@@ -12173,7 +12173,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '40x120',
         surface: 'Satiné',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-geo-dekor-40X120.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz.png',
         faces: [
           ''
         ],
@@ -12182,10 +12182,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Parisian Beyaz Dekofon 40x120',
-        color: 'Blanc Dekofon',
+        color: 'Blanc',
         size: '40x120',
-        surface: 'Satiné',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-file-dekor-40X120.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-dekofon.png',
         faces: [
           ''
         ],
@@ -12194,10 +12194,10 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Parisian Beyaz File Dekor 40x120',
-        color: 'Blanc File Dekor',
+        color: 'Blanc',
         size: '40x120',
-        surface: 'Satiné',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-mat-beyaz-60X60.png',
+        surface: 'Brillant',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-file-dekor-40X120.png',
         faces: [
           ''
         ],
@@ -12206,10 +12206,10 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Parisian Beyaz Geo Dekor 40x120',
-        color: 'Blanc Geo Dekor',
+        color: 'Blanc',
         size: '40x120',
-        surface: 'Satiné',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-dekofon.png',
+        surface: 'Brillant',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz-geo-dekor-40X120.png',
         faces: [
           ''
         ],
@@ -12218,10 +12218,10 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Parisian Mat Beyaz 60x60',
-        color: 'Mat Blanc',
+        color: 'Blanc',
         size: '60x60',
-        surface: 'Satiné',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-beyaz.png',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/parisian/parisian-mat-beyaz-60X60.png',
         faces: [
           ''
         ],
@@ -12250,7 +12250,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz-mozaik-30,5x30,5.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz.png',
         faces: [
           ''
         ],
@@ -12262,7 +12262,7 @@ export const collectionsData = {
         color: 'Taupe',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-taupe.png',
         faces: [
           ''
         ],
@@ -12286,7 +12286,7 @@ export const collectionsData = {
         color: 'Gris Foncés',
         size: '30x60',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-koyu-gris.png',
         faces: [
           ''
         ],
@@ -12295,10 +12295,10 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Paros Beyaz Mozaik 30.5x30.5',
-        color: 'Blanc Mozaik',
+        color: 'Blanc',
         size: '30.5x30.5',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-beyaz-mozaik-30,5x30,5.png',
         faces: [
           ''
         ],
@@ -12307,10 +12307,10 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Paros Koyu Gri Mozaik 30.5x30.5',
-        color: 'Gris Foncés Mozaik',
+        color: 'Gris Foncés',
         size: '30.5x30.5',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-taupe.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-koyu-gris-mozaik-30,5x30,5.png',
         faces: [
           ''
         ],
@@ -12336,10 +12336,10 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Pastel Kırmızı 19.7x19.7',
-        color: 'Kirmizi',
+        color: 'Rouge',
         size: '19.7x19.7',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pastel/pastel-noir-19,7x19,7.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pastel/pastel-rouge-19,7x19,7.png',
         faces: [
           ''
         ],
@@ -12376,33 +12376,8 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Pebble Clair Gris ',
-        color: 'Clair Gris ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
-        name: 'Pebble Sable ',
-        color: 'Sable ',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 2,
-        name: 'Pebble Light Grey 60x60',
-        color: 'Light Grey',
+        name: 'Pebble Gris Clair 60x60',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-LIGHT-GREY-60X60X2-MAT-P1.jpg',
@@ -12412,9 +12387,9 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 3,
-        name: 'Pebble Sand 60x60',
-        color: 'Sand',
+        id: 1,
+        name: 'Pebble Sable 60x60',
+        color: 'Sable',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pebble/PEBBLE-SAND-60X60X2-MAT-P1.jpg',
@@ -12446,7 +12421,7 @@ export const collectionsData = {
         color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-beyaz-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white.png',
         faces: [
           ''
         ],
@@ -12455,10 +12430,10 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Pera White Dekofon 30x90',
-        color: 'Blanc Dekofon',
+        color: 'Blanc',
         size: '30x90',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-beyaz-60x60.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white-dekofon.png',
         faces: [
           ''
         ],
@@ -12470,7 +12445,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey.png',
         faces: [
           ''
         ],
@@ -12479,10 +12454,10 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Pera Light Grey Dekofon 30x90',
-        color: 'Clair Gris Dekofon',
+        color: 'Gris Clair',
         size: '30x90',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grey-dekofon.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey-dekofon.png',
         faces: [
           ''
         ],
@@ -12494,7 +12469,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x90',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white-dekofon.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grery.png',
         faces: [
           ''
         ],
@@ -12503,10 +12478,10 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Pera Grey Dekofon 30x90',
-        color: 'Gris Dekofon',
+        color: 'Gris',
         size: '30x90',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-grey.png',
+        surface: 'Dekofon',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grey-dekofon.png',
         faces: [
           ''
         ],
@@ -12530,7 +12505,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-grery.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-light-gri-60x60.png',
         faces: [
           ''
         ],
@@ -12542,7 +12517,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-white.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pera/pera-gri-60x60.png',
         faces: [
           ''
         ],
