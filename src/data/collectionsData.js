@@ -16515,17 +16515,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg',
     products: [
-      { id: 0, name: 'Kelvin 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Kelvin 3D Plus 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Kelvin 3D Plus 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/kelvin-3d-plus/kelvin-3D-plus.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16535,17 +16525,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madiolux-3d/madiolux.jpg',
     products: [
-      { id: 0, name: 'Madiolux 3D', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madiolux-3d/madiolux.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Madiolux 3D 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madiolux-3d/madiolux.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Madiolux 3D 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madiolux-3d/madiolux.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16555,28 +16535,8 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-pine.jpg',
     products: [
-      { id: 0, name: 'Norm Cherry', color: 'Cerisier', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-cherry.jpg', faces: [''], specifications: {} },
-      { id: 1, name: 'Norm Pine', color: 'Pin', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-pine.jpg', faces: [''], specifications: {} },
-      {
-        id: 2,
-        name: 'Norm Cherry 3D 60x120',
-        color: 'Cherry',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-cherry.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 3,
-        name: 'Norm Pine 3D 60x120',
-        color: 'Pine',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-pine.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Norm Cherry 3D 60x120', color: 'Cerisier', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-cherry.jpg', faces: [''], specifications: {} },
+      { id: 1, name: 'Norm Pine 3D 60x120', color: 'Pin', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/norm-3d/norm-pine.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16586,17 +16546,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/optima-3d-plus/optima.jpg',
     products: [
-      { id: 0, name: 'Optima 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/optima-3d-plus/optima.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Optima 3D Plus 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/optima-3d-plus/optima.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Optima 3D Plus 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/optima-3d-plus/optima.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16606,17 +16556,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg',
     products: [
-      { id: 0, name: 'Rigel 3D', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Rigel 3D 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Rigel 3D 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rigel-3d/P156ZDRR61SX0XMAAW10-1.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16626,17 +16566,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg',
     products: [
-      { id: 0, name: 'Selena 3D Plus', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Selena 3D Plus 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Selena 3D Plus 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/selena-3d-plus/P156ZDRSI5SX0XPAAK30-1.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16646,16 +16576,7 @@ export const collectionsData = {
     renders: [],
     mainImage: '',
     products: [
-      {
-        id: 0,
-        name: 'Serpegiante 3D 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: '',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Serpegiante 3D 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: '', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16665,17 +16586,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg',
     products: [
-      { id: 0, name: 'Tempo 3D', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Tempo 3D 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Tempo 3D 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tempo-3d/P156ZDRD59SX0XMAAG40-1.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16685,17 +16596,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/timber-3d/timber.jpg',
     products: [
-      { id: 0, name: 'Timber 3D', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/timber-3d/timber.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Timber 3D 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/timber-3d/timber.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Timber 3D 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/timber-3d/timber.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
@@ -16705,17 +16606,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/traverten-3d/traverten.jpg',
     products: [
-      { id: 0, name: 'Traverten 3D', color: '', size: '', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/traverten-3d/traverten.jpg', faces: [''], specifications: {} },
-      {
-        id: 1,
-        name: 'Traverten Beige 3D 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/traverten-3d/traverten.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Traverten Beige 3D 60x120', color: 'Beige', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/traverten-3d/traverten.jpg', faces: [''], specifications: {} }
     ],
     documents: [], commonSpecs: {},
   },
