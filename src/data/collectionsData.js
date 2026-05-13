@@ -1109,420 +1109,27 @@ export const collectionsData = {
     ],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-render-2.png',
     products: [
-      {
-        id: 0,
-        name: 'Arcides Antrasit 60x60',
-        color: 'Anthracite',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
-        name: 'Arcides Antrasit 60x120',
-        color: 'Anthracite',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 2,
-        name: 'Arcides Bone 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 3,
-        name: 'Arcides Bone 60x60',
-        color: 'Beige',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 4,
-        name: 'Arcides Grey 60x60',
-        color: 'Gris',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 5,
-        name: 'Arcides Grey 60x120',
-        color: 'Gris',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 6,
-        name: 'ARCIDES LATTE-30X60',
-        color: 'Latte',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 7,
-        name: 'Arcides Latte 60x120',
-        color: 'Latte',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 8,
-        name: 'Arcides Latte 60x60',
-        color: 'Latte',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 9,
-        name: 'Arcides Smoke 30x60',
-        color: 'Fumé',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 10,
-        name: 'Arcides Smoke 60x120',
-        color: 'Fumé',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 11,
-        name: 'Arcides Smoke 60x60',
-        color: 'Fumé',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 12,
-        name: 'ARCIDES VIZON 60X120',
-        color: 'Vison',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
-,
-      {
-        id: 13,
-        name: 'Arcides Antrasit 61x61',
-        color: 'Anthracite',
-        size: '61x61',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 14,
-        name: 'Arcides Bone 61x61',
-        color: 'Bone',
-        size: '61x61',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 15,
-        name: 'Arcides Gris 61x61',
-        color: 'Gris',
-        size: '61x61',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris-60x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 16,
-        name: 'Arcides Latte 61x61',
-        color: 'Latte',
-        size: '61x61',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 17,
-        name: 'Arcides Smoke 61x61',
-        color: 'Smoke',
-        size: '61x61',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 18,
-        name: 'Arcides Antrasit 60x120',
-        color: 'Anthracite',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 19,
-        name: 'Arcides Bone 60x120',
-        color: 'Bone',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 20,
-        name: 'Arcides Grey 60x120',
-        color: 'Gris',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 21,
-        name: 'Arcides Latte 60x120',
-        color: 'Latte',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 22,
-        name: 'Arcides Smoke 60x120',
-        color: 'Smoke',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 23,
-        name: 'Arcides Antrasit 60x60',
-        color: 'Anthracite',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 24,
-        name: 'Arcides Bone 60x60',
-        color: 'Beige',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 25,
-        name: 'Arcides Latte 60x60',
-        color: 'Latte',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 26,
-        name: 'Arcides Smoke 60x60',
-        color: 'Fumé',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 27,
-        name: 'Arcides Antrasit 30x60',
-        color: 'Anthracite',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 28,
-        name: 'Arcides Bone 30x60',
-        color: 'Beige',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 29,
-        name: 'Arcides Grey 30x60',
-        color: 'Grey',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
+      { id: 0, name: 'Arcides Antrasit 60x60', color: 'Anthracite', size: '60x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png', faces: [''], specifications: {} },
+      { id: 1, name: 'Arcides Antrasit 60x120', color: 'Anthracite', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png', faces: [''], specifications: {} },
+      { id: 2, name: 'Arcides Bone 60x120', color: 'Beige', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png', faces: [''], specifications: {} },
+      { id: 3, name: 'Arcides Bone 60x60', color: 'Beige', size: '60x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png', faces: [''], specifications: {} },
+      { id: 4, name: 'Arcides Grey 60x60', color: 'Gris', size: '60x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris-60x60.png', faces: [''], specifications: {} },
+      { id: 5, name: 'Arcides Grey 60x120', color: 'Gris', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png', faces: [''], specifications: {} },
+      { id: 6, name: 'Arcides Latte 30x60', color: 'Latte', size: '30x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte.png', faces: [''], specifications: {} },
+      { id: 7, name: 'Arcides Latte 60x120', color: 'Latte', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte.png', faces: [''], specifications: {} },
+      { id: 8, name: 'Arcides Latte 60x60', color: 'Latte', size: '60x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png', faces: [''], specifications: {} },
+      { id: 9, name: 'Arcides Smoke 30x60', color: 'Fumé', size: '30x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke.png', faces: [''], specifications: {} },
+      { id: 10, name: 'Arcides Smoke 60x120', color: 'Fumé', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke.png', faces: [''], specifications: {} },
+      { id: 11, name: 'Arcides Smoke 60x60', color: 'Fumé', size: '60x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png', faces: [''], specifications: {} },
+      { id: 12, name: 'Arcides Vison 60x120', color: 'Vison', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png', faces: [''], specifications: {} },
+      { id: 13, name: 'Arcides Antrasit 61x61', color: 'Anthracite', size: '61x61', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite-60x60.png', faces: [''], specifications: {} },
+      { id: 14, name: 'Arcides Bone 61x61', color: 'Beige', size: '61x61', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png', faces: [''], specifications: {} },
+      { id: 15, name: 'Arcides Gris 61x61', color: 'Gris', size: '61x61', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris-60x60.png', faces: [''], specifications: {} },
+      { id: 16, name: 'Arcides Latte 61x61', color: 'Latte', size: '61x61', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-latte-60x60.png', faces: [''], specifications: {} },
+      { id: 17, name: 'Arcides Smoke 61x61', color: 'Fumé', size: '61x61', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-smoke-60x60.png', faces: [''], specifications: {} },
+      { id: 18, name: 'Arcides Antrasit 30x60', color: 'Anthracite', size: '30x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-anthracite.png', faces: [''], specifications: {} },
+      { id: 19, name: 'Arcides Bone 30x60', color: 'Beige', size: '30x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-bone.png', faces: [''], specifications: {} },
+      { id: 20, name: 'Arcides Grey 30x60', color: 'Gris', size: '30x60', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcides/arcides-gris.png', faces: [''], specifications: {} }
     ],
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
@@ -1546,7 +1153,7 @@ export const collectionsData = {
         name: 'Arcos Mocha 60x120',
         color: 'Moka',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcos/arcos-mocha.png',
         faces: [
           '',
@@ -1567,7 +1174,7 @@ export const collectionsData = {
         name: 'Arcos Silver 60x120',
         color: 'Argent',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcos/arcos-silver.png',
         faces: [
           '',
@@ -1588,7 +1195,7 @@ export const collectionsData = {
         name: 'Arcos Smoke 60x120',
         color: 'Fumé',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arcos/arcos-smoke.png',
         faces: [
           '',
@@ -1779,8 +1386,8 @@ export const collectionsData = {
         name: 'Aristo Gri 60x120',
         color: 'Gris',
         size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aristo/aristo-acik-gris.png',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aristo/aristo-gris.png',
         faces: [
           '',
           '',
@@ -1794,9 +1401,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Aristo Açık Gri 80x80',
-        color: 'Gris',
+        color: 'Gris Clair',
         size: '80x80',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aristo/aristo-acik-gris.png',
         faces: [
           '',
@@ -1809,11 +1416,11 @@ export const collectionsData = {
         },
       },
       {
-        id: 3,
+        id: 2,
         name: 'Aristo Vizon 80x80',
         color: 'Vison',
         size: '80x80',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aristo/aristo-vizon.png',
         faces: [
           '',
@@ -1826,11 +1433,11 @@ export const collectionsData = {
         },
       },
       {
-        id: 4,
+        id: 3,
         name: 'Aristo Vizon 60x120',
         color: 'Vison',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aristo/aristo-vizon-60x60.png',
         faces: [
           '',
@@ -1864,7 +1471,7 @@ export const collectionsData = {
         name: 'Arno 50x50',
         color: '',
         size: '50x50',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arno/arno.png',
         faces: [
           ''
@@ -1889,77 +1496,9 @@ export const collectionsData = {
     renders: [
       'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/artanes-oxide/artanes-oxide-render.jpg',
     ],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-render-2.png',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/artanes-oxide/artanes-oxide-render.jpg',
     products: [
-      {
-        id: 0,
-        name: 'Assos Dekofon 30x90',
-        color: '',
-        size: '30x90',
-        surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-dekofon-30x90.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
-        name: 'Assos 30x90',
-        color: '',
-        size: '30x90',
-        surface: 'Fon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-30x90.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
-,
-      {
-        id: 2,
-        name: 'Artanes Oxide 60x120',
-        color: 'Oxide',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/artanes-oxide/artane-oxide.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Artanes Oxide 60x120', color: 'Oxide', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/artanes-oxide/artane-oxide.jpg', faces: [''], specifications: {} }
     ],
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
@@ -2031,56 +1570,7 @@ export const collectionsData = {
         faces: [''],
         specifications: {},
       },
-      {
-        id: 5,
-        name: 'Assos 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-60x120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 6,
-        name: 'Assos Beige 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-beige-60x120.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 7,
-        name: 'Assos Grey 60x120',
-        color: 'Grey',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-gris-60x120.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 8,
-        name: 'Assos Noche 60x120',
-        color: 'Noche',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-noche-60x120.jpg',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 9,
-        name: 'Assos Silver 60x120',
-        color: 'Silver',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-silver-60x120.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 5, name: 'Assos 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/assos/assos-60x120.png', faces: [''], specifications: {} }
     ],
     documents: [],
     commonSpecs: {},
@@ -2090,138 +1580,17 @@ export const collectionsData = {
     categories: ['Salle de Bain', 'Intérieur', 'Cuisine'],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
     products: [
-      {
-        id: 0,
-        name: 'Astoria Crema 30x90',
-        color: 'Crema',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
-        name: 'Astoria Crema Dekofon 30x90',
-        color: 'Crema Dekofon',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-3.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 2,
-        name: 'Astoria Crema Dekor 30x90',
-        color: 'Crema Dekor',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 3,
-        name: 'Astoria Turkuaz 30x90',
-        color: 'Turkuaz',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 4,
-        name: 'Astoria Turkuaz Dekofon 30x90',
-        color: 'Turkuaz Dekofon',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 5,
-        name: 'Astoria Kahve 30x90',
-        color: 'Café',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 6,
-        name: 'Astoria Kahve Dekofon 30x90',
-        color: 'Café Dekofon',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 7,
-        name: 'Astoria Gri 30x90',
-        color: 'Gris',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekofon.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 8,
-        name: 'Astoria Gri Dekofon 30x90',
-        color: 'Gris Dekofon',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-dekofon.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 9,
-        name: 'Astoria Gri Dekor 30x90',
-        color: 'Gris Dekor',
-        size: '30x90',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekor.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 10,
-        name: 'Astoria Crema 60x60',
-        color: 'Crema',
-        size: '60x60',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
+      { id: 0, name: 'Astoria Crema 30x90', color: 'Crème', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema.png', faces: [''], specifications: {} },
+      { id: 1, name: 'Astoria Crema Dekofon 30x90', color: 'Crème', size: '30x90', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-dekofon.png', faces: [''], specifications: {} },
+      { id: 2, name: 'Astoria Crema Dekor 30x90', color: 'Crème', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-dekor.png', faces: [''], specifications: {} },
+      { id: 3, name: 'Astoria Turkuaz 30x90', color: 'Turquoise', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-turkuaz.png', faces: [''], specifications: {} },
+      { id: 4, name: 'Astoria Turkuaz Dekofon 30x90', color: 'Turquoise', size: '30x90', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-turkuaz-dekofon.png', faces: [''], specifications: {} },
+      { id: 5, name: 'Astoria Kahve 30x90', color: 'Café', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-kahve.png', faces: [''], specifications: {} },
+      { id: 6, name: 'Astoria Kahve Dekofon 30x90', color: 'Café', size: '30x90', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-kahve-dekofon.png', faces: [''], specifications: {} },
+      { id: 7, name: 'Astoria Gri 30x90', color: 'Gris', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris.png', faces: [''], specifications: {} },
+      { id: 8, name: 'Astoria Gri Dekofon 30x90', color: 'Gris', size: '30x90', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekofon.png', faces: [''], specifications: {} },
+      { id: 9, name: 'Astoria Gri Dekor 30x90', color: 'Gris', size: '30x90', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-gris-dekor.png', faces: [''], specifications: {} },
+      { id: 10, name: 'Astoria Crema 60x60', color: 'Crème', size: '60x60', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/astoria/astoria-crema-60x60.png', faces: [''], specifications: {} }
     ],
     documents: [
       // Exemple: { name: 'Fiche Produit', file: '/collections/astoria/docs/fiche.pdf', size: '' }
@@ -2249,7 +1618,7 @@ export const collectionsData = {
         color: 'Perle',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-ash.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-pearl.png',
         faces: [
           ''
         ],
@@ -2285,7 +1654,7 @@ export const collectionsData = {
         color: 'Ash',
         size: '15x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-pearl.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-ash.png',
         faces: [
           ''
         ],
