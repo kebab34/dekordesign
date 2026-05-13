@@ -400,7 +400,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Agrilion Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agreylion/agrilion-bone.jpg',
@@ -1651,7 +1651,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Atelier Ash 15x60',
-        color: 'Ash',
+        color: 'Cendré',
         size: '15x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/atelier/atelier-ash.png',
@@ -1996,7 +1996,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Bengal Perla 60x120',
-        color: 'Perla',
+        color: 'Perle',
         size: '60x120',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-60x120.png',
@@ -2020,7 +2020,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Bengal Perla 60x60',
-        color: 'Perla',
+        color: 'Perle',
         size: '60x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-60x60.png',
@@ -2044,7 +2044,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Bengal Perla 30x90',
-        color: 'Perla',
+        color: 'Perle',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-perla-30x90.png',
@@ -4420,7 +4420,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Elan Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/elan/elan-bone.png',
@@ -4514,7 +4514,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Eleganza Oak 20x120',
-        color: 'Oak',
+        color: 'Chêne',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/eleganza/eleganza-oak.png',
@@ -4664,9 +4664,9 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Enzo Mix Dekofon 30x90',
-        color: 'Mix Dekofon',
+        color: 'Mix',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/enzo/enzo-mix-dekofon.png',
         faces: [
           ''
@@ -4756,7 +4756,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Estel Ruby 30x90',
-        color: 'Ruby',
+        color: 'Rubis',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/estel/estel-ruby.png',
@@ -5011,7 +5011,7 @@ export const collectionsData = {
         name: 'Fair Gris Dekor 30x90',
         color: 'Gris',
         size: '30x90',
-        surface: 'Dekofon',
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-gris-dekor.png',
         faces: [
           ''
@@ -5047,7 +5047,7 @@ export const collectionsData = {
         name: 'Fair Nero Dekor 30x90',
         color: 'Noir',
         size: '30x90',
-        surface: 'Dekofon',
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fair/fair-nero-dekor.png',
         faces: [
           ''
@@ -5163,7 +5163,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Fenix Cherry 20x120',
-        color: 'Cherry',
+        color: 'Cerisier',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/fenix/fenix-cherry.png',
@@ -5385,9 +5385,9 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Gaudi Dekofon 30x90',
-        color: 'Dekofon',
+        color: '',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gaudi/Gaudi.png',
         faces: [
           ''
@@ -5438,7 +5438,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Gemma Peach 60x120',
-        color: 'Peach',
+        color: 'Pêche',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-peach.png',
@@ -5450,7 +5450,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Gemma Sky 60x120',
-        color: 'Sky',
+        color: 'Ciel',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-sky.png',
@@ -5462,7 +5462,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Gemma Mint 60x120',
-        color: 'Mint',
+        color: 'Menthe',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-mint.png',
@@ -5474,7 +5474,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Gemma Smoke 60x120',
-        color: 'Fumée',
+        color: 'Fumé',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gemma/gemma-smoke.png',
@@ -5532,7 +5532,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Gordion Bone 100x100',
-        color: 'Bone',
+        color: 'Beige',
         size: '100x100',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-bone-100x100.png',
@@ -5556,7 +5556,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Gordion Mid Grey 100x100',
-        color: 'Mid Gris',
+        color: 'Gris Moyen',
         size: '100x100',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/gordion/gordion-mid-gris-100x100.png',
@@ -5633,7 +5633,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Grace Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grace/grace-bone.png',
@@ -5698,7 +5698,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Grand Ash 40x120',
-        color: 'Ash',
+        color: 'Cendré',
         size: '40x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-40x120.png',
@@ -5710,7 +5710,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Grand Ash Organic Dekofon 40x120',
-        color: 'Ash',
+        color: 'Cendré',
         size: '40x120',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-organic-dekofon-40x120.png',
@@ -5734,7 +5734,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Grand Ash 60x60',
-        color: 'Ash',
+        color: 'Cendré',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/grand/grand-ash-60x60.png',
@@ -5938,7 +5938,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Hampton Grigio 60x120',
-        color: 'Grigio',
+        color: 'Gris',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-grigio-60X120.png',
@@ -6035,7 +6035,7 @@ export const collectionsData = {
       {
         id: 13,
         name: 'Hampton Açık Gri 61x61',
-        color: 'Açık Gri',
+        color: 'Gris Clair',
         size: '61x61',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-grigio-60X120.png',
@@ -6045,10 +6045,10 @@ export const collectionsData = {
       {
         id: 14,
         name: 'Hampton Açık Gri 60x60',
-        color: 'Açık Gri',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-latte-60X60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/hampton/hampton-grigio-60X120.png',
         faces: [
           ''
         ],
@@ -6103,7 +6103,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Helen Bone 40x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '40x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-40X120.png',
@@ -6127,7 +6127,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Helen Bone Dekofon 40x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '40x120',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-dekofon-40X120.png',
@@ -6151,7 +6151,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Helen Bone 30x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-30X60.jpg',
@@ -6163,7 +6163,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Helen Bone Dekofon 30x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x60',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/helen/helen-bone-dekoofn-30X60.jpg',
@@ -6383,7 +6383,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Himalaya Ice 60x120',
-        color: 'Ice',
+        color: 'Glace',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/himalaya/Himalaya.png',
@@ -6768,7 +6768,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Iroko Warm Grey 20x120',
-        color: 'Warm Gris',
+        color: 'Gris Chaud',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/iroko/iroko-warm-grey-20X120.png',
@@ -6838,7 +6838,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Juno Diamond Dekofon 30x90',
-        color: 'Diamond',
+        color: 'Diamant',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond-dekofon.png',
@@ -6850,7 +6850,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Juno Diamond 30x90',
-        color: 'Diamond',
+        color: 'Diamant',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-diamond.png',
@@ -6862,7 +6862,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Juno Emerald Dekofon 30x90',
-        color: 'Emerald',
+        color: 'Émeraude',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-emerald-dekofon.png',
@@ -6874,7 +6874,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Juno Emerald 30x90',
-        color: 'Emerald',
+        color: 'Émeraude',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-emerald.png',
@@ -6886,7 +6886,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Juno Mosaic Floral Dekofon 30x90',
-        color: 'Mosaic Floral',
+        color: 'Mosaïque Florale',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-mosaic-floral-dekofon.png',
@@ -6898,7 +6898,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Juno Ruby Dekofon 30x90',
-        color: 'Ruby',
+        color: 'Rubis',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-ruby-dekofon.png',
@@ -6910,7 +6910,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Juno Ruby 30x90',
-        color: 'Ruby',
+        color: 'Rubis',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-ruby.png',
@@ -6922,7 +6922,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Juno Sapphire Dekofon 30x90',
-        color: 'Sapphire',
+        color: 'Saphir',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-sapphire-dekofon.png',
@@ -6934,7 +6934,7 @@ export const collectionsData = {
       {
         id: 8,
         name: 'Juno Sapphire 30x90',
-        color: 'Sapphire',
+        color: 'Saphir',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/juno/juno-sapphire.png',
@@ -7125,7 +7125,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Klein Fon 20x120',
-        color: 'Fon',
+        color: '',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/klein/klein-fon.png',
@@ -7630,7 +7630,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Logs Golden Oak 20x120',
-        color: 'Doré Oak',
+        color: 'Chêne Doré',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-golden-oak.png',
@@ -7642,7 +7642,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Logs Hazelnut 20x120',
-        color: 'Hazelnut',
+        color: 'Noisette',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-hazelnut.png',
@@ -7654,7 +7654,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Logs Light Beige 20x120',
-        color: 'Clair Beige',
+        color: 'Beige Clair',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-light-beige.png',
@@ -7666,7 +7666,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Logs Special Walnut 20x120',
-        color: 'Special Walnut',
+        color: 'Noyer Spécial',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/logs/logs-special-walnut.png',
@@ -7801,7 +7801,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Luca Bone 60x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
@@ -7837,7 +7837,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Luca Bone 30x40',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
@@ -7873,7 +7873,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Luca Bone 20x40',
-        color: 'Bone',
+        color: 'Beige',
         size: '20x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/luca/luca-bone-60X60.png',
@@ -7955,7 +7955,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Madran Vanillia 60x120',
-        color: 'Vanillia',
+        color: 'Vanille',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madran-vainillia.png',
@@ -7967,7 +7967,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Madran Mink 60x120',
-        color: 'Mink',
+        color: 'Vison',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/madran/madaran-mink.png',
@@ -7996,7 +7996,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Magellan Bone 61x61',
-        color: 'Bone',
+        color: 'Beige',
         size: '61x61',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/magellan/magellan-bone-61X61.png',
@@ -8138,7 +8138,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Manhattan Dunkel Gri 45x90',
-        color: 'Dunkel Gris',
+        color: 'Gris Foncé',
         size: '45x90',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
@@ -8174,7 +8174,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Manhattan Dunkel Gris',
-        color: 'Dunkel Gris',
+        color: 'Gris Foncé',
         size: '',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-45X90.png',
@@ -8187,7 +8187,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Manhattan Dunkel Gri 60x60',
-        color: 'Dunkel Gri',
+        color: 'Gris Foncé',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/manhattan/manhattan-dunkel-gris-60X60.png',
@@ -8743,7 +8743,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Milenario Honey 20x120',
-        color: 'Honey',
+        color: 'Miel',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/milenario/milenario-honey.png',
@@ -9013,7 +9013,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Mood Oak Dekofon 30x90',
-        color: 'Oak',
+        color: 'Chêne',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-oak-dekofon.png',
@@ -9025,7 +9025,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Mood Faber Oak Dekofon 30x90',
-        color: 'Faber Oak',
+        color: 'Faber Chêne',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-faber-mix-oak-dekofon.png',
@@ -9037,7 +9037,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Mood Bamboo Dekofon 30x90',
-        color: 'Bamboo',
+        color: 'Bambou',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-bamboo-dekofon.png',
@@ -9049,7 +9049,7 @@ export const collectionsData = {
       {
         id: 8,
         name: 'Mood Faber Bamboo Dekofon 30x90',
-        color: 'Faber Bamboo',
+        color: 'Faber Bambou',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-faber-mix-bamboo-dekofon.png',
@@ -9061,7 +9061,7 @@ export const collectionsData = {
       {
         id: 9,
         name: 'Mood Faber Mix Wood Dekofon 30x90',
-        color: 'Faber Mix Wood',
+        color: 'Faber Mix Bois',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-faber-mix-wood-dekofon.png',
@@ -9073,7 +9073,7 @@ export const collectionsData = {
       {
         id: 10,
         name: 'Mood Cement Dekofon 30x90',
-        color: 'Cement',
+        color: 'Ciment',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-cerment-dekofon.png',
@@ -9085,7 +9085,7 @@ export const collectionsData = {
       {
         id: 11,
         name: 'Mood Faber Cement Dekofon 30x90',
-        color: 'Faber Cement',
+        color: 'Faber Ciment',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mood/mood-faber-cerment-dekofon.png',
@@ -9178,7 +9178,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Motto Bone 30x90',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x90',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-bone.png',
@@ -9190,7 +9190,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Motto Bone Dekofon 30x90',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/motto/motto-bone-dekofon.png',
@@ -9304,7 +9304,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Mystone Coffee 60x60',
-        color: 'Coffee',
+        color: 'Café',
         size: '60x60',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/mystone/MYSTONE-COFFEE-60X60X2-MAT-P1.jpg',
@@ -9374,7 +9374,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Napoli Fildişi 50x50',
-        color: 'Fildisi',
+        color: 'Ivoire',
         size: '50x50',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/napoli/napoli-fildisi.png',
@@ -9415,7 +9415,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Natura Wood Birch 20x120',
-        color: 'Birch',
+        color: 'Bouleau',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-birch.png',
@@ -9427,7 +9427,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Natura Wood Oak 20x120',
-        color: 'Oak',
+        color: 'Chêne',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-oak.png',
@@ -9439,7 +9439,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Natura Wood Pine 20x120',
-        color: 'Pine',
+        color: 'Pin',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-pine.png',
@@ -9451,7 +9451,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Natura Wood Eboni 20x120',
-        color: 'Eboni',
+        color: 'Ébène',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/natura-wood/natura-wood-eboni.png',
@@ -9533,7 +9533,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Nevada Bone 50x50',
-        color: 'Bone',
+        color: 'Beige',
         size: '50x50',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nevada/nevada-bone.png',
@@ -9545,7 +9545,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Nevada Açık Gri 50x50',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '50x50',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nevada/nevada-gris-clair.png',
@@ -9656,7 +9656,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Nile Açık Gri 60x120',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '60x120',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-60X120.png',
@@ -9692,7 +9692,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Nile Açık Gri 60x60',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-60X60.png',
@@ -9728,7 +9728,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Nile Açık Gri 30x60',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '30x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/nile/nile-acik-gris-30X60.png',
@@ -9916,7 +9916,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Oasis Lila 30x90',
-        color: 'Lila',
+        color: 'Lilas',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila.png',
@@ -9928,7 +9928,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Oasis Lila Dekofon 30x90',
-        color: 'Lila',
+        color: 'Lilas',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekofon.png',
@@ -9940,7 +9940,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Oasis Lila Dekor 30x90',
-        color: 'Lila',
+        color: 'Lilas',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-lila-dekor.png',
@@ -9952,7 +9952,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Oasis Mürdüm 30x90',
-        color: 'Murdum',
+        color: 'Prune',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-murdum.png',
@@ -9964,7 +9964,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Oasis Mürdüm Dekofon 30x90',
-        color: 'Murdum',
+        color: 'Prune',
         size: '30x90',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-murdum-dekofon.png',
@@ -9976,7 +9976,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Oasis Mürdüm Dekor 30x90',
-        color: 'Murdum',
+        color: 'Prune',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/oasis/oasis-murdum-dekor.png',
@@ -10212,7 +10212,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Olmo Chestnut 20x120',
-        color: 'Chestnut',
+        color: 'Marron',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-chestnut.png',
@@ -10224,7 +10224,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Olmo Tobacco 20x120',
-        color: 'Tobacco',
+        color: 'Tabac',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-tobacco.png',
@@ -10236,7 +10236,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Olmo Noce 20x120',
-        color: 'Noce',
+        color: 'Noix',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/olmo/olmo-noce.png',
@@ -10335,7 +10335,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Orfe Bone 40x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '40x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-bone.png',
@@ -10347,7 +10347,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Orfe Bone Dekofon 40x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '40x120',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-bone-dekofon.png',
@@ -10395,7 +10395,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Orfe Bone 60x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orfe/orfe-bone-60X60.png',
@@ -10424,7 +10424,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Orla Perla 60x120',
-        color: 'Perla',
+        color: 'Perle',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-perla.png',
@@ -10436,7 +10436,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Orla Bronz 60x120',
-        color: 'Bronz',
+        color: 'Bronze',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-bronz.png',
@@ -10460,7 +10460,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Orla Platinum 60x120',
-        color: 'Platinum',
+        color: 'Platine',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/orla/orla-platinum.png',
@@ -10559,7 +10559,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Pamfilya Açık Gri 60x120',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris.png',
@@ -10595,7 +10595,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Pamfilya Açık Gri 60x60',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/pamfilya/pamfilya-acik-gris-60X60.png',
@@ -10802,7 +10802,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Paros Açık Gri 30x60',
-        color: 'Gris Clairs',
+        color: 'Gris Clair',
         size: '30x60',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-acik-gris.png',
@@ -10814,7 +10814,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Paros Koyu Gri 30x60',
-        color: 'Gris Foncés',
+        color: 'Gris Foncé',
         size: '30x60',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-koyu-gris.png',
@@ -10838,7 +10838,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Paros Koyu Gri Mozaik 30.5x30.5',
-        color: 'Gris Foncés',
+        color: 'Gris Foncé',
         size: '30.5x30.5',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/paros/paros-koyu-gris-mozaik-30,5x30,5.png',
@@ -11134,7 +11134,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Picasso Blue Mosaic 30.5x30.5',
-        color: 'Bleu Mosaic',
+        color: 'Mosaïque Bleue',
         size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/picasso/picasso-blue-mosaic-30,5x30,5.png',
@@ -11192,7 +11192,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Quark Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quark/quark-bone.png',
@@ -11257,7 +11257,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Quarzt Bone 45x90',
-        color: 'Bone',
+        color: 'Beige',
         size: '45x90',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone.png',
@@ -11293,7 +11293,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Quarzt Bone 60x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/quarzt/quartz-bone-60X60.png',
@@ -11572,7 +11572,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Root Ash 100x100',
-        color: 'Ash',
+        color: 'Cendré',
         size: '100x100',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-100X100.png',
@@ -11608,7 +11608,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Root Ash 60x120',
-        color: 'Ash',
+        color: 'Cendré',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/root/root-ash-60X120.png',
@@ -11649,7 +11649,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Rubi Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Full Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/rubi/rubi-bone.png',
@@ -11714,7 +11714,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Saaga Light Beige 30x40',
-        color: 'Clair Beige',
+        color: 'Beige Clair',
         size: '30x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/saaga/saaga-light-beige.png',
@@ -11837,7 +11837,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Salt Cave Ice 60x120',
-        color: 'Ice',
+        color: 'Glace',
         size: '60x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/salt-cave/salt-cave-ice.png',
@@ -11974,7 +11974,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Sante Honey 30x90',
-        color: 'Honey',
+        color: 'Miel',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-honey.png',
@@ -11986,7 +11986,7 @@ export const collectionsData = {
       {
         id: 8,
         name: 'Sante Honey Dekor 30x90',
-        color: 'Honey',
+        color: 'Miel',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sante/sante-honey-dekor.png',
@@ -12063,7 +12063,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Sara Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sara/sara-bone.png',
@@ -12210,7 +12210,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Sativa Bone 50x50',
-        color: 'Bone',
+        color: 'Beige',
         size: '50x50',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/sativa/sativa-bone.png',
@@ -13117,7 +13117,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Tavas Noce 60x60',
-        color: 'Noce',
+        color: 'Noix',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/tavas/TAVAS-NOCE-60X60X2-MAT-P1.jpg',
@@ -13604,7 +13604,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Urban Bone 60x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-60x60.png',
@@ -13616,7 +13616,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Urban Bone 61x61',
-        color: 'Bone',
+        color: 'Beige',
         size: '61x61',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-61x61.png',
@@ -13643,7 +13643,7 @@ export const collectionsData = {
         color: 'Latte',
         size: '61x61',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-latte-61x61.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-latte-60x60.png',
         faces: [
           ''
         ],
@@ -13676,7 +13676,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Urban Bone 30x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-30x60.png',
@@ -13724,7 +13724,7 @@ export const collectionsData = {
       {
         id: 10,
         name: 'Urban Bone 30x40',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-30x40.png',
@@ -13760,7 +13760,7 @@ export const collectionsData = {
       {
         id: 13,
         name: 'Urban Bone 20x40',
-        color: 'Bone',
+        color: 'Beige',
         size: '20x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-20X40.png',
@@ -13808,7 +13808,7 @@ export const collectionsData = {
       {
         id: 17,
         name: 'Urban Bone 19,7x19,7',
-        color: 'Bone',
+        color: 'Beige',
         size: '19,7x19,7',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/urban/urban-bone-19,7x19,7.png',
@@ -14250,7 +14250,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Void Bone 120x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '120x120',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-120X120.png',
@@ -14262,7 +14262,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Void Bone 100x100',
-        color: 'Bone',
+        color: 'Beige',
         size: '100x100',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-100X100.png',
@@ -14310,7 +14310,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Void Bone 60x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x120',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-60X120.png',
@@ -14340,7 +14340,7 @@ export const collectionsData = {
       {
         id: 8,
         name: 'Void Bone 60x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '60x60',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-60X60.png',
@@ -14350,7 +14350,7 @@ export const collectionsData = {
       {
         id: 9,
         name: 'Void Bone 61x61',
-        color: 'Bone',
+        color: 'Beige',
         size: '61x61',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-61x61.png',
@@ -14440,7 +14440,7 @@ export const collectionsData = {
       {
         id: 18,
         name: 'Void Bone 30x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x60',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-30x60.png',
@@ -14450,7 +14450,7 @@ export const collectionsData = {
       {
         id: 19,
         name: 'Void Bone Dekofon 30x60',
-        color: 'Bone',
+        color: 'Beige',
         size: '30x60',
         surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/voidbone-dekofon-30X60.png',
@@ -14500,7 +14500,7 @@ export const collectionsData = {
       {
         id: 24,
         name: 'Void Bone 20x120',
-        color: 'Bone',
+        color: 'Beige',
         size: '20x120',
         surface: 'Lappato',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/void/void-bone-60X120.png',
@@ -14777,7 +14777,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Yoga Wood Oak 20x120',
-        color: 'Oak',
+        color: 'Chêne',
         size: '20x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/yoga-wood/yoga-wood-oak.png',
