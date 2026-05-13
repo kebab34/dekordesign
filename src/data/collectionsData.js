@@ -358,7 +358,7 @@ export const collectionsData = {
         faces: [''],
         specifications: {},
       },
-    ]
+    ],
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
       { name: 'Renders', file: '', type: 'RAR' },
