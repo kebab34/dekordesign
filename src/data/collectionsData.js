@@ -1732,7 +1732,7 @@ export const collectionsData = {
         color: '',
         size: '40x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos.png',
         faces: [
           ''
         ],
@@ -1741,9 +1741,9 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Avanos Dekofon 40x120',
-        color: 'Dekofon',
+        color: '',
         size: '40x120',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-dekofon.png',
         faces: [
           ''
@@ -1756,7 +1756,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/avanos/avanos-60x60.png',
         faces: [
           ''
         ],
@@ -1790,7 +1790,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-light-gris-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/beligum-stone-gris-60x60.png',
         faces: [],
         specifications: {}
       },
@@ -1800,7 +1800,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-gris-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-light-gris-30x60.png',
         faces: [],
         specifications: {}
       },
@@ -1810,7 +1810,7 @@ export const collectionsData = {
         color: 'Gris',
         size: '30x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-light-gris-30x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-gris-30x60.png',
         faces: [],
         specifications: {}
       },
@@ -1845,7 +1845,7 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 7,
+        id: 6,
         name: 'Belgium Stone Grey Mozaik 33x33',
         color: 'Gris',
         size: '33x33',
@@ -1857,9 +1857,9 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 8,
+        id: 7,
         name: 'Belgium Stone Black Mozaik 33x33',
-        color: 'Noir Mozaik',
+        color: 'Noir',
         size: '33x33',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-black-mozaik.png',
@@ -1869,7 +1869,7 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 9,
+        id: 8,
         name: 'Belgium Stone Grey Mozaik 30.5x30.5',
         color: 'Gris',
         size: '30.5x30.5',
@@ -1881,9 +1881,9 @@ export const collectionsData = {
         specifications: {}
       },
       {
-        id: 10,
+        id: 9,
         name: 'Belgium Stone Black Mozaik 30.5x30.5',
-        color: 'Noir Mozaik',
+        color: 'Noir',
         size: '30.5x30.5',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-black-mozaik-30x48,6.png',
@@ -1894,12 +1894,12 @@ export const collectionsData = {
       }
 ,
       {
-        id: 11,
+        id: 10,
         name: 'Belgium Stone Light Grey 60x60',
-        color: 'Light Grey',
+        color: 'Gris Clair',
         size: '60x60',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/beligum-stone-gris-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belgium-stone/belgium-stone-light-gris-60x60.png',
         faces: [
           ''
         ],
@@ -1932,7 +1932,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belita/Belita.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/belita/belita.png',
         faces: [
           ''
         ],
@@ -1965,7 +1965,7 @@ export const collectionsData = {
         color: '',
         size: '60x120',
         surface: 'Full Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bellatrix/Bellatrix.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bellatrix/bellatrix.png',
         faces: [
           ''
         ],
@@ -2068,9 +2068,9 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Bengal Dekofon 30x90',
-        color: 'Dekofon',
+        color: '',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-dekofon-30x90.png',
         faces: [
           ''
@@ -2080,7 +2080,7 @@ export const collectionsData = {
       {
         id: 7,
         name: 'Bengal Dekor 30x90',
-        color: 'Dekor',
+        color: '',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bengal/bengal-dekor-30x90.png',
@@ -2280,7 +2280,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-dark-grey.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey.png',
         faces: [
           ''
         ],
@@ -2292,7 +2292,7 @@ export const collectionsData = {
         color: 'Gris Foncé',
         size: '60x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-dark-grey.png',
         faces: [
           ''
         ],
@@ -2305,7 +2305,7 @@ export const collectionsData = {
         color: 'Gris Clair',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey-120x120.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/boho/boho-light-grey.png',
         faces: [
           ''
         ],
@@ -2333,489 +2333,38 @@ export const collectionsData = {
     ],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-render-2.png',
     products: [
-      {
-        id: 0,
-        name: 'Bona Dea Crema 120x120',
-        color: 'Crema',
-        size: '120x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 1,
-        name: 'Bona Dea Gris Clair 120x120',
-        color: 'Gris Clair',
-        size: '120x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 2,
-        name: 'Bona Dea Bianco 100x100',
-        color: 'Blanc',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 3,
-        name: 'Bona Dea Crema 100x100',
-        color: 'Crema',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 4,
-        name: 'Bona Dea Beige 100x100',
-        color: 'Beige',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 5,
-        name: 'Bona Dea Light Grey 100x100',
-        color: 'Gris Clair',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 6,
-        name: 'Bona Dea Dark Grey 100x100',
-        color: 'D. Gris',
-        size: '100x100',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 7,
-        name: 'Bona Dea Bianco 60x120',
-        color: 'Blanc',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 8,
-        name: 'Bona Dea Crema 60x120',
-        color: 'Crema',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-61x61.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 9,
-        name: 'Bona Dea Beige 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 10,
-        name: 'Bona Dea Light Grey 60x120',
-        color: 'Gris Clair',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 11,
-        name: 'Bona Dea Dark Grey 60x120',
-        color: 'D. Gris',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 12,
-        name: 'Bona Dea Bianco 60x60',
-        color: 'Blanc',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 13,
-        name: 'Bona Dea Bianco 61x61',
-        color: 'Blanc',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 14,
-        name: 'Bona Dea Ivory 61x61',
-        color: 'Ivoire',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-61x61.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 15,
-        name: 'Bona Dea Ivory Dekofon 61x61',
-        color: 'Ivoire Dekofon',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-dekofon-61x61.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 16,
-        name: 'Bona Dea Crema 60x60',
-        color: 'Crema',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 17,
-        name: 'Bona Dea Crema 61x61',
-        color: 'Crema',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 18,
-        name: 'Bona Dea Beige 60x60',
-        color: 'Beige',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 19,
-        name: 'Bona Dea Beige 61x61',
-        color: 'Beige',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 20,
-        name: 'Bona Dea Light Grey 60x60',
-        color: 'Gris Clair',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 21,
-        name: 'Bona Dea Light Grey Dekofon 60x60',
-        color: 'L. Gris Dekofon',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 22,
-        name: 'Bona Dea Light Grey 61x61',
-        color: 'Gris Clair',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-61x61.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 23,
-        name: 'Bona Dea Light Grey Dekofon 61x61',
-        color: 'L. Gris Dekofon',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-61x61.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 24,
-        name: 'Bona Dea Dark Grey 60x60',
-        color: 'D. Gris',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 25,
-        name: 'Bona Dea Dark Grey Dekofon 60x60',
-        color: 'D. Gris Dekofon',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 26,
-        name: 'Bona Dea Dark Grey 61x61',
-        color: 'D. Gris',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 27,
-        name: 'Bona Dea Dark Grey Dekofon 61x61',
-        color: 'D. Gris Dekofon',
-        size: '61x61',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 28,
-        name: 'Bona Dea Crema 30x60',
-        color: 'Crema',
-        size: '30x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 29,
-        name: 'Bona Dea Beige 30x60',
-        color: 'Beige',
-        size: '30x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-30x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
-,
-      {
-        id: 30,
-        name: 'Bona Dea Beige 60x120',
-        color: 'Beige',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 31,
-        name: 'Bona Dea Bianco 60x120',
-        color: 'Bianco',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 32,
-        name: 'Bona Dea Crema 60x120',
-        color: 'Crema',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 33,
-        name: 'Bona Dea Dark Grey 60x120',
-        color: 'Dark Grey',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 34,
-        name: 'Bona Dea Light Grey 60x120',
-        color: 'Light Grey',
-        size: '60x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png',
-        faces: [''],
-        specifications: {}
-      },
-      {
-        id: 35,
-        name: 'Bona Dea Crema 60x60',
-        color: 'Crema',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 36,
-        name: 'Bona Dea Dark Grey 60x60',
-        color: 'D. Gris',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 37,
-        name: 'Bona Dea Dark Grey Dekofon 60x60',
-        color: 'D. Gris Dekofon',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 38,
-        name: 'Bona Dea Light Grey Dekofon 60x60',
-        color: 'L. Gris Dekofon',
-        size: '60x60',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-60x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 39,
-        name: 'Bona Dea Crema 20x120',
-        color: 'Crema',
-        size: '20x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      },
-      {
-        id: 40,
-        name: 'Bona Dea Light Grey 20x120',
-        color: 'L. Gris',
-        size: '20x120',
-        surface: 'Lappato',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png',
-        faces: [
-          ''
-        ],
-        specifications: {}
-      }
+      { id: 0, name: 'Bona Dea Crema 120x120', color: 'Crema', size: '120x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png', faces: [''], specifications: {} },
+      { id: 1, name: 'Bona Dea Gris Clair 120x120', color: 'Gris Clair', size: '120x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png', faces: [''], specifications: {} },
+      { id: 2, name: 'Bona Dea Bianco 100x100', color: 'Blanc', size: '100x100', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png', faces: [''], specifications: {} },
+      { id: 3, name: 'Bona Dea Crema 100x100', color: 'Crema', size: '100x100', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png', faces: [''], specifications: {} },
+      { id: 4, name: 'Bona Dea Beige 100x100', color: 'Beige', size: '100x100', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png', faces: [''], specifications: {} },
+      { id: 5, name: 'Bona Dea Light Grey 100x100', color: 'Gris Clair', size: '100x100', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png', faces: [''], specifications: {} },
+      { id: 6, name: 'Bona Dea Dark Grey 100x100', color: 'Gris Foncé', size: '100x100', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png', faces: [''], specifications: {} },
+      { id: 7, name: 'Bona Dea Bianco 60x120', color: 'Blanc', size: '60x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x120.png', faces: [''], specifications: {} },
+      { id: 8, name: 'Bona Dea Crema 60x120', color: 'Crema', size: '60x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png', faces: [''], specifications: {} },
+      { id: 9, name: 'Bona Dea Beige 60x120', color: 'Beige', size: '60x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x120.png', faces: [''], specifications: {} },
+      { id: 10, name: 'Bona Dea Light Grey 60x120', color: 'Gris Clair', size: '60x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png', faces: [''], specifications: {} },
+      { id: 11, name: 'Bona Dea Dark Grey 60x120', color: 'Gris Foncé', size: '60x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x120.png', faces: [''], specifications: {} },
+      { id: 12, name: 'Bona Dea Bianco 60x60', color: 'Blanc', size: '60x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png', faces: [''], specifications: {} },
+      { id: 13, name: 'Bona Dea Bianco 61x61', color: 'Blanc', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-bianco-60x60.png', faces: [''], specifications: {} },
+      { id: 14, name: 'Bona Dea Ivory 61x61', color: 'Ivoire', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-61x61.png', faces: [''], specifications: {} },
+      { id: 15, name: 'Bona Dea Ivory Dekofon 61x61', color: 'Ivoire', size: '61x61', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-ivory-dekofon-61x61.png', faces: [''], specifications: {} },
+      { id: 16, name: 'Bona Dea Crema 60x60', color: 'Crema', size: '60x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png', faces: [''], specifications: {} },
+      { id: 17, name: 'Bona Dea Crema 61x61', color: 'Crema', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-60x60.png', faces: [''], specifications: {} },
+      { id: 18, name: 'Bona Dea Beige 60x60', color: 'Beige', size: '60x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png', faces: [''], specifications: {} },
+      { id: 19, name: 'Bona Dea Beige 61x61', color: 'Beige', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-60x60.png', faces: [''], specifications: {} },
+      { id: 20, name: 'Bona Dea Light Grey 60x60', color: 'Gris Clair', size: '60x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x60.png', faces: [''], specifications: {} },
+      { id: 21, name: 'Bona Dea Light Grey Dekofon 60x60', color: 'Gris Clair', size: '60x60', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-60x60.png', faces: [''], specifications: {} },
+      { id: 22, name: 'Bona Dea Light Grey 61x61', color: 'Gris Clair', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-61x61.png', faces: [''], specifications: {} },
+      { id: 23, name: 'Bona Dea Light Grey Dekofon 61x61', color: 'Gris Clair', size: '61x61', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-dekofon-61x61.png', faces: [''], specifications: {} },
+      { id: 24, name: 'Bona Dea Dark Grey 60x60', color: 'Gris Foncé', size: '60x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png', faces: [''], specifications: {} },
+      { id: 25, name: 'Bona Dea Dark Grey Dekofon 60x60', color: 'Gris Foncé', size: '60x60', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png', faces: [''], specifications: {} },
+      { id: 26, name: 'Bona Dea Dark Grey 61x61', color: 'Gris Foncé', size: '61x61', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-60x60.png', faces: [''], specifications: {} },
+      { id: 27, name: 'Bona Dea Dark Grey Dekofon 61x61', color: 'Gris Foncé', size: '61x61', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-dark-grey-dekofon-60x60.png', faces: [''], specifications: {} },
+      { id: 28, name: 'Bona Dea Crema 30x60', color: 'Crema', size: '30x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png', faces: [''], specifications: {} },
+      { id: 29, name: 'Bona Dea Beige 30x60', color: 'Beige', size: '30x60', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-beige-30x60.png', faces: [''], specifications: {} },
+      { id: 30, name: 'Bona Dea Crema 20x120', color: 'Crema', size: '20x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-crema-30x60.png', faces: [''], specifications: {} },
+      { id: 31, name: 'Bona Dea Light Grey 20x120', color: 'Gris Clair', size: '20x120', surface: 'Lappato', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bona-dea/bona-dea-light-grey-60x120.png', faces: [''], specifications: {} }
     ],
     documents: [
       // Exemple: { name: 'Fiche Produit', file: '/collections/bona-dea/docs/fiche.pdf', size: '' }
@@ -2853,9 +2402,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Bond Wood Dekofon 40x120',
-        color: 'Wood Dekofon',
+        color: 'Wood',
         size: '40x120',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-wood-dekofon-40x120.png',
         faces: [
           ''
@@ -2877,9 +2426,9 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Bond Bazalt Dekofon 40x120',
-        color: 'Bazalt Dekofon',
+        color: 'Bazalt',
         size: '40x120',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-bazalt-dekofon-40x120.png',
         faces: [
           ''
@@ -2901,9 +2450,9 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Bond Wood Dekofon 30x90',
-        color: 'Wood Dekofon',
+        color: 'Wood',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-wood-dekofon-30x90.png',
         faces: [
           ''
@@ -2913,9 +2462,9 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Bond Bazalt Dekofon 30x90',
-        color: 'Bazalt Dekofon',
+        color: 'Bazalt',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bond/bond-bazalt-dekofon-30x90.png',
         faces: [
           ''
@@ -2961,7 +2510,7 @@ export const collectionsData = {
         color: '',
         size: '20x120',
         surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bosco/Bosco.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/bosco/bosco.png',
         faces: [
           ''
         ],
@@ -2992,7 +2541,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Brano Mat Beyaz 40x120',
-        color: 'Mat Blanc',
+        color: 'Blanc',
         size: '40x120',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-40x120.png',
@@ -3004,7 +2553,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Brano Mat Beyaz 30x90',
-        color: 'Mat Blanc',
+        color: 'Blanc',
         size: '30x90',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x90.png',
@@ -3016,7 +2565,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Brano Mat Beyaz 30x60',
-        color: 'Mat Blanc',
+        color: 'Blanc',
         size: '30x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x60.png',
@@ -3028,7 +2577,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Brano Mat Pergamon 30x60',
-        color: 'Mat Pergamon',
+        color: 'Pergamon',
         size: '30x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-pergamon-30x60.png',
@@ -3040,7 +2589,7 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Brano Mat Beyaz 30x40',
-        color: 'Mat Blanc',
+        color: 'Blanc',
         size: '30x40',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brano/brano-mat-beyaz-30x40.png',
@@ -3105,7 +2654,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Brillo Parlak Beyaz 30x90',
-        color: 'Brillant Blanc',
+        color: 'Blanc',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x90.png',
@@ -3117,7 +2666,7 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Brillo Parlak Beyaz 30x60',
-        color: 'Brillant Blanc',
+        color: 'Blanc',
         size: '30x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x60.png',
@@ -3129,7 +2678,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Brillo Parlak Pergamon 30x60',
-        color: 'Brillant Pergamon',
+        color: 'Pergamon',
         size: '30x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-pergamon-30x60.png',
@@ -3141,7 +2690,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Brillo Parlak Beyaz 30x40',
-        color: 'Brillant Blanc',
+        color: 'Blanc',
         size: '30x40',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/brillo/brillo-parlak-beyaz-30x40.png',
@@ -3216,7 +2765,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Calacatta Marmi Parlak 30x90',
-        color: 'Glossy',
+        color: '',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-30x90.png',
@@ -3228,9 +2777,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Calacatta Marmi Parlak Dekofon 30x90',
-        color: 'Glossy Dekofon',
+        color: '',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-dekofon.png',
         faces: [
           ''
@@ -3240,7 +2789,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Calacatta Marmi Parlak Dekor 30x90',
-        color: 'Glossy Dekor',
+        color: '',
         size: '30x90',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calcatta-marmi-parlak-dekor.png',
@@ -3252,7 +2801,7 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Calacatta Marmi Mat 30x90',
-        color: 'Mat',
+        color: '',
         size: '30x90',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x90.png',
@@ -3264,10 +2813,10 @@ export const collectionsData = {
       {
         id: 4,
         name: 'Calacatta Marmi Mat Dekofon 30x90',
-        color: 'Mat Dekofon',
+        color: '',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x90.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-dekofon-30x90.png',
         faces: [
           ''
         ],
@@ -3276,7 +2825,7 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Calacatta Marmi Parlak 30x60',
-        color: 'Glossy',
+        color: '',
         size: '30x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-parlak-30x60.png',
@@ -3288,7 +2837,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Calacatta Marmi Mat 30x60',
-        color: 'Mat',
+        color: '',
         size: '30x60',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-mat-30x60.png',
@@ -3303,7 +2852,7 @@ export const collectionsData = {
         color: '',
         size: '60x60',
         surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmı-60x60.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/calacatta-marmi/calacatta-marmi-60x60.png',
         faces: [
           ''
         ],
@@ -3412,9 +2961,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Cappadocia Sand Decofon 30x90',
-        color: 'Sable Décofon',
+        color: 'Sable',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/capadoccia-sand-dekofon-30x90.png',
         faces: [
           ''
@@ -3436,9 +2985,9 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Cappadocia Grey Decofon 30x90',
-        color: 'Gris Décofon',
+        color: 'Gris',
         size: '30x90',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/cappadocia/cappadocia-grey-dekofon.png',
         faces: [
           ''
@@ -4602,7 +4151,7 @@ export const collectionsData = {
       {
         id: 2,
         name: 'Delbin Füme 30x60',
-        color: 'Fumée',
+        color: 'Fumé',
         size: '30x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/delbin/delbin-fume.png',
@@ -4755,7 +4304,7 @@ export const collectionsData = {
       {
         id: 0,
         name: 'Dora Parlak 60x60',
-        color: 'Brillant',
+        color: '',
         size: '60x60',
         surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/dora/dora-render.png',
