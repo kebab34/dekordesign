@@ -9,7 +9,7 @@ export const collectionsData = {
     renders: [
       'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-render.png',
     ],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adel/adel-render-2.png',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-render.png',
     products: [
       {
         id: 0,
@@ -28,7 +28,7 @@ export const collectionsData = {
         name: 'Abella Dekofon 40x120',
         color: 'Décor',
         size: '40x120',
-        surface: 'Mat',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/abella/abella-dekofon.png',
         faces: [
           ''
@@ -130,9 +130,9 @@ export const collectionsData = {
       {
         id: 1,
         name: 'Adela Beyaz Dekofon 30x90',
-        color: 'Blanc Dekofon',
+        color: 'Blanc',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-blanc-dekofon.png',
         faces: [
           ''
@@ -154,9 +154,9 @@ export const collectionsData = {
       {
         id: 3,
         name: 'Adela Grey Dekofon 30x90',
-        color: 'Gris Dekofon',
+        color: 'Gris',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-gris-dekofon.png',
         faces: [
           ''
@@ -178,9 +178,9 @@ export const collectionsData = {
       {
         id: 5,
         name: 'Adela Antrasit Dekofon 30x90',
-        color: 'Anthracite Dekofon',
+        color: 'Anthracite',
         size: '30x90',
-        surface: 'Brillant',
+        surface: 'Dekofon',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adela/adela-anthracite-dekofon.png',
         faces: [
           ''
@@ -225,7 +225,7 @@ export const collectionsData = {
         name: 'Adonis Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adonis/adonis-60x60.png',
         faces: [
           '',
@@ -263,7 +263,7 @@ export const collectionsData = {
         name: 'Adonis Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
-        surface: 'Fon',
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adonis/adonis-blanc.png',
         faces: [
           '',
@@ -303,7 +303,7 @@ export const collectionsData = {
         name: 'Adria Antrasit 30x90',
         color: 'Anthracite',
         size: '30x90',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-anthracite.png',
         faces: [''],
         specifications: {},
@@ -313,7 +313,7 @@ export const collectionsData = {
         name: 'Adria Kahve 30x90',
         color: 'Brun',
         size: '30x90',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-cafe.png',
         faces: [''],
         specifications: {},
@@ -343,7 +343,7 @@ export const collectionsData = {
         name: 'Adria Beyaz 30x90',
         color: 'Blanc',
         size: '30x90',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-blanc.png',
         faces: [''],
         specifications: {},
@@ -353,7 +353,7 @@ export const collectionsData = {
         name: 'Adria Beyaz 60x60',
         color: 'Blanc',
         size: '60x60',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/adria/adria-white-60x60.png',
         faces: [''],
         specifications: {},
@@ -371,7 +371,7 @@ export const collectionsData = {
   'Agrilion': {
     slug: 'agrilion',
     categories: ['Jardin'],
-    mainImage: '/collection/CONCEPT 60X120.jpg',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/agreylion/agrilion-gris.jpg',
     products: [
       {
         id: 0,
@@ -472,11 +472,11 @@ export const collectionsData = {
     products: [
       {
         id: 0,
-        name: 'Alba 19.7x19.7',
+        name: 'Alba 19,7x19,7',
         color: '',
-        size: '19.7x19.7',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-autumn.png',
+        size: '19,7x19,7',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba.png',
         faces: [
           ''
         ],
@@ -486,11 +486,11 @@ export const collectionsData = {
       },
       {
         id: 1,
-        name: 'Alba Autumn 19.7x19.7',
+        name: 'Alba Autumn 19,7x19,7',
         color: 'Automne',
-        size: '19.7x19.7',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-spring.png',
+        size: '19,7x19,7',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-autumn.png',
         faces: [
           ''
         ],
@@ -500,11 +500,11 @@ export const collectionsData = {
       },
       {
         id: 2,
-        name: 'Alba Spring 19.7x19.7',
+        name: 'Alba Spring 19,7x19,7',
         color: 'Printemps',
-        size: '19.7x19.7',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-summer.png',
+        size: '19,7x19,7',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-spring.png',
         faces: [
           ''
         ],
@@ -514,11 +514,11 @@ export const collectionsData = {
       },
       {
         id: 3,
-        name: 'Alba Summer 19.7x19.7',
+        name: 'Alba Summer 19,7x19,7',
         color: 'Été',
-        size: '19.7x19.7',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-winter.png',
+        size: '19,7x19,7',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-summer.png',
         faces: [
           ''
         ],
@@ -528,11 +528,11 @@ export const collectionsData = {
       },
       {
         id: 4,
-        name: 'Alba Winter 19.7x19.7',
+        name: 'Alba Winter 19,7x19,7',
         color: 'Hiver',
-        size: '19.7x19.7',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba.png',
+        size: '19,7x19,7',
+        surface: 'Mat',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alba/alba-winter.png',
         faces: [
           ''
         ],
@@ -564,7 +564,7 @@ export const collectionsData = {
         name: 'Albero Eboni 60x60',
         color: 'Ébène',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/albero/albero-eboni.png',
         faces: [
           '',
@@ -580,7 +580,7 @@ export const collectionsData = {
         name: 'Albero Grey 60x60',
         color: 'Gris',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/albero/albero-gris.png',
         faces: [
           '',
@@ -596,7 +596,7 @@ export const collectionsData = {
         name: 'Albero Oak 60x60',
         color: 'Chêne',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/albero/albero-oak.png',
         faces: [
           '',
@@ -675,7 +675,7 @@ export const collectionsData = {
         name: 'Aldonsa 60x120',
         color: 'Blanc',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aldonsa/aldonsa.png',
         faces: [
           '',
@@ -708,8 +708,8 @@ export const collectionsData = {
         name: 'Alin 30x90',
         color: '',
         size: '30x90',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin-60x60.png',
+        surface: 'Brillant',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin.png',
         faces: [
           '',
           '',
@@ -727,8 +727,8 @@ export const collectionsData = {
         name: 'ALIN 45X45',
         color: '',
         size: '45x45',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin-dekofon.png',
+        surface: 'Brillant',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin.png',
         faces: [
           '',
           '',
@@ -744,7 +744,7 @@ export const collectionsData = {
         color: '',
         size: '30x90',
         surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin.png',
+        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin-dekofon.png',
         faces: [
           '',
           '',
@@ -763,7 +763,7 @@ export const collectionsData = {
         name: 'Alin 60x60',
         color: '',
         size: '60x60',
-        surface: null,
+        surface: 'Brillant',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alin/alin-60x60.png',
         faces: [
           ''
@@ -793,7 +793,7 @@ export const collectionsData = {
         name: 'Altus 60x120',
         color: '',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/altus/altus.png',
         faces: [
           '',
@@ -827,7 +827,7 @@ export const collectionsData = {
         name: 'Alyssa Antrasit 60x60',
         color: 'Anthracite',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alyssa/alyssa-anthracite.png',
         faces: [
           '',
@@ -843,7 +843,7 @@ export const collectionsData = {
         name: 'Alyssa Bone 60x60',
         color: 'Beige',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alyssa/alyssa-bone.png',
         faces: [
           '',
@@ -859,7 +859,7 @@ export const collectionsData = {
         name: 'Alyssa Gri 60x60',
         color: 'Gris',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/alyssa/alyssa-gris.png',
         faces: [
           '',
@@ -887,67 +887,24 @@ export const collectionsData = {
       'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/amethist/amethist-render.jpg',
       'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/amethist/amethist-render-2.jpg',
     ],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antiasit/antiasit-render-2.png',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/amethist/amethist-render.jpg',
     products: [
       {
         id: 0,
-        name: 'Anti Asit_33x33 Beige',
-        color: 'Beige',
-        size: '33x33',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antiasit/antiasit-beige.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
-        name: 'Anti Asit_33x33 Blanc',
-        color: 'Blanc',
-        size: '33x33',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antiasit/antiasit-blanc.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 2,
-        name: 'Anti Asit_33x33 Grey',
-        color: 'Gris',
-        size: '33x33',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antiasit/antiasit-gris.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
-,
-      {
-        id: 3,
         name: 'Amethist Anthracite 60x120',
         color: 'Anthracite',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/amethist/amethist-anthracite.jpg',
         faces: [''],
         specifications: {}
       },
       {
-        id: 4,
-        name: 'Amethist Grey 60x120',
-        color: 'Grey',
+        id: 1,
+        name: 'Amethist Gris 60x120',
+        color: 'Gris',
         size: '60x120',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/amethist/amethist-gris.jpg',
         faces: [''],
         specifications: {}
@@ -969,26 +926,7 @@ export const collectionsData = {
     renders: [],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antares/antares.jpg',
     products: [
-      {
-        id: 0,
-        name: 'Antares',
-        color: '',
-        size: '',
-        surface: 'Mat',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antares/antares.jpg',
-        faces: [''],
-        specifications: {},
-      },
-      {
-        id: 1,
-        name: 'Antares 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antares/antares.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Antares 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antares/antares.jpg', faces: [''], specifications: {} }
     ],
     documents: [],
     commonSpecs: {},
@@ -1080,7 +1018,7 @@ export const collectionsData = {
         name: 'Anticatto Bianco 60x60',
         color: 'Blanc',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/anticatto/anticatto-bianco.png',
         faces: [
           '',
@@ -1096,7 +1034,7 @@ export const collectionsData = {
         name: 'Anticatto Misto 60x60',
         color: 'Mixte',
         size: '60x60',
-        surface: null,
+        surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/anticatto/anticatto-misto.png',
         faces: [
           '',
@@ -1125,145 +1063,13 @@ export const collectionsData = {
     ],
     mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-render.png',
     products: [
-      {
-        id: 0,
-        name: 'Antique Carrara Dekor 40x120',
-        color: '',
-        size: '40x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
-        name: 'Antique Carrara Polygon Dekor 40x120',
-        color: '',
-        size: '40x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-3.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 2,
-        name: 'Antique Carrara Parlak 60x60',
-        color: '',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-parlak-60x60.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 3,
-        name: 'Antique Carrara Dekofon 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-dekofon.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 4,
-        name: 'Antique Carrara Dekofon 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-dekor.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 5,
-        name: 'Antique Carrara Dekofon 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-polygon-dekor.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 6,
-        name: 'Antique Carrara 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Fon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 7,
-        name: 'Antique Carrara 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Fon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-3.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 8,
-        name: 'Antique Carrara 40x120',
-        color: '',
-        size: '40x120',
-        surface: 'Fon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-2.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
-,
-      {
-        id: 9,
-        name: 'Antique Carrara Parlak 61x61',
-        color: 'Parlak',
-        size: '61x61',
-        surface: 'Brillant',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-parlak-61x61.png',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Antique Carrara Dekor 40x120', color: '', size: '40x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-2.png', faces: [''], specifications: {} },
+      { id: 1, name: 'Antique Carrara Polygon Dekor 40x120', color: '', size: '40x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-3.png', faces: [''], specifications: {} },
+      { id: 2, name: 'Antique Carrara Parlak 60x60', color: '', size: '60x60', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-parlak-60x60.png', faces: [''], specifications: {} },
+      { id: 3, name: 'Antique Carrara Dekofon 40x120', color: '', size: '40x120', surface: 'Dekofon', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-dekofon.png', faces: [''], specifications: {} },
+      { id: 4, name: 'Antique Carrara Dekor 40x120', color: '', size: '40x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-dekor.png', faces: [''], specifications: {} },
+      { id: 5, name: 'Antique Carrara Polygon Dekor 40x120', color: '', size: '40x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-polygon-dekor.png', faces: [''], specifications: {} },
+      { id: 6, name: 'Antique Carrara Parlak 61x61', color: '', size: '61x61', surface: 'Brillant', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/antique-carrara/antique-carrara-parlak-61x61.png', faces: [''], specifications: {} }
     ],
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
@@ -1280,202 +1086,9 @@ export const collectionsData = {
     renders: [
       'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aqua-marin/aqua-marin-render.jpg',
     ],
-    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-render-2.png',
+    mainImage: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aqua-marin/aqua-marin-render.jpg',
     products: [
-      {
-        id: 0,
-        name: '40X40 ARCH GREY',
-        color: 'Gris',
-        size: '40x40',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-30x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 1,
-        name: 'ARCH A.GRI 40X40 MAT',
-        color: 'Gris anthracite',
-        size: '40x40',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-60x120.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 2,
-        name: 'ARCH ACIK GRI 30X60 PRLK',
-        color: 'Gris clair',
-        size: '30x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-gris-30x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 3,
-        name: 'Arch Açık Gri 60x120',
-        color: 'Gris',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-gris-dekofon.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 4,
-        name: 'Arch Açık Gri Parlak 60x60',
-        color: 'Gris',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-gris-parlak.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 5,
-        name: 'ARCH GREY  FON 30X60 PRLK',
-        color: 'Gris',
-        size: '30x60',
-        surface: 'Fon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-gris.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 6,
-        name: 'Arch Gri Dekofon 30x60',
-        color: 'Gris',
-        size: '30x60',
-        surface: 'Dekofon',
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-mix-dekor.png',
-        faces: [
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 7,
-        name: 'Arch Gri 60x120',
-        color: 'Gris',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-60x120.png',
-        faces: [
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 8,
-        name: 'Arch Gri Parlak 60x60',
-        color: 'Gris',
-        size: '60x60',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-30x60.png',
-        faces: [
-          '',
-          '',
-          '',
-          '',
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      },
-      {
-        id: 9,
-        name: 'ARCHMixDekor',
-        color: 'Mix',
-        size: '',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-mix-dekor.png',
-        faces: [
-          ''
-        ],
-        specifications: {
-          // À remplir depuis le PDF
-        },
-      }
-,
-      {
-        id: 10,
-        name: 'Aqua Marin 60x120',
-        color: '',
-        size: '60x120',
-        surface: null,
-        thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aqua-marin/aquamarin.jpg',
-        faces: [''],
-        specifications: {}
-      }
+      { id: 0, name: 'Aqua Marin 60x120', color: '', size: '60x120', surface: 'Mat', thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/aqua-marin/aquamarin.jpg', faces: [''], specifications: {} }
     ],
     documents: [
       { name: 'Fiche Produit', file: '', type: 'RAR' },
@@ -2074,7 +1687,7 @@ export const collectionsData = {
       {
         id: 6,
         name: 'Arch Açık Gri Mat 50x50',
-        color: 'Açık Gri',
+        color: 'Gris Clair',
         size: '50x50',
         surface: 'Mat',
         thumbnail: 'https://cdn.jsdelivr.net/gh/kebab34/dekordesign@main/public/tiles/arch/arch-acik-gris-30x60.png',
