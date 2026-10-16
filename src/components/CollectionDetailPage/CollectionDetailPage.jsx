@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { productsData } from '../../data/content';
+import { productsData } from '../../data/collectionsIndex';
 import { collectionsData } from '../../data/collectionsData';
+import { fichesTechniques } from '../../data/fichesTechniques';
+import { tileUrl, assetUrl } from '../../config/assets';
 import './CollectionDetailPage.css';
 
 const CollectionDetailPage = () => {
@@ -33,9 +35,13 @@ const CollectionDetailPage = () => {
   }, [lightbox, closeLightbox]);
 
   const hasProducts = collData ? collData.products && collData.products.length > 0 : false;
-  const mainImage = collData ? (collData.mainImage || (hasProducts ? collData.products[0].thumbnail : null) || product?.image) : null;
-  const renders = collData?.renders && collData.renders.length > 0 ? collData.renders : (mainImage ? [mainImage] : []);
-  const documents = collData?.documents || [];
+  const mainImage = collData ? (tileUrl(collData.mainImage || (hasProducts ? collData.products[0].thumbnail : null)) || product?.image) : null;
+  const renderKeys = (collData?.renders || []).filter(Boolean);
+  const renders = renderKeys.length > 0 ? renderKeys.map(k => tileUrl(k)) : (mainImage ? [mainImage] : []);
+  // Fiche technique PDF hébergée sur R2 si disponible ; sinon seulement les documents avec un vrai lien
+  const documents = collData && fichesTechniques.has(collData.slug)
+    ? [{ name: t('collectionDetail.techSheet', 'Fiche technique'), file: assetUrl(`fiches/${collData.slug}.pdf`), type: 'PDF' }]
+    : (collData?.documents || []).filter(d => d.file);
   const commonSpecs = collData?.commonSpecs || collData?.specs || {};
 
   // Auto-avance du slider hero
@@ -72,7 +78,7 @@ const CollectionDetailPage = () => {
 
   const openProduct = (prod) => {
     const validFaces = (prod.faces || []).filter(f => f && f.trim() !== '');
-    const images = validFaces.length > 0 ? validFaces : [prod.thumbnail].filter(Boolean);
+    const images = (validFaces.length > 0 ? validFaces : [prod.thumbnail]).filter(Boolean).map(k => tileUrl(k));
     if (images.length === 0) return;
     setLightbox({ images, index: 0 });
   };
@@ -207,7 +213,7 @@ const CollectionDetailPage = () => {
               {collData.products.map((prod) => (
                 <div key={prod.id} className="cdp-card" onClick={() => openProduct(prod)}>
                   <div className="cdp-card-img">
-                    <img src={prod.thumbnail} alt={prod.name} loading="lazy"
+                    <img src={tileUrl(prod.thumbnail, 'sm') || mainImage} alt={prod.name} loading="lazy"
                       onError={e => { if (e.target.src !== mainImage) e.target.src = mainImage; }} />
                     <div className="cdp-card-hover">
                       {prod.faces && prod.faces.filter(f => f && f.trim() !== '').length > 1 && (

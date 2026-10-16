@@ -130,7 +130,6 @@ const Header = () => {
           </NavDropdown>
 
           <Link to="/catalogues" className="nav-link">{t('nav.catalogues')}</Link>
-          <Link to="/realisations" className="nav-link">{t('nav.realizations')}</Link>
           <Link to="/contact" className="nav-link">{t('nav.contact')}</Link>
 
           <LangSwitcher />
@@ -245,7 +244,6 @@ const Header = () => {
           </div>
 
           <Link to="/catalogues" className="mobile-link" onClick={closeMenu}>{t('nav.catalogues')}</Link>
-          <Link to="/realisations" className="mobile-link" onClick={closeMenu}>{t('nav.realizations')}</Link>
           <Link to="/contact" className="mobile-link" onClick={closeMenu}>{t('nav.contact')}</Link>
 
           <div className="mobile-lang">

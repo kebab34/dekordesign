@@ -82,6 +82,7 @@ const fr = {
     home: 'Accueil',
     viewRender: 'Voir le render',
     documents: 'Documents',
+    techSheet: 'Fiche technique',
     file: 'Fichier',
     viewAll: 'Voir toutes nos collections',
     similarCollections: 'Collections similaires',

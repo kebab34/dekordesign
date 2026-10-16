@@ -1,5 +1,6 @@
 import React from 'react';
 import './CataloguePage.css';
+import { assetUrl } from '../../config/assets';
 import generalCatalogueImage from '../../image/catalogue/general.png';
 import boisCatalogueImage from '../../image/catalogue/bois.png';
 import oversizeCatalogueImage from '../../image/catalogue/oversize.png';
@@ -11,31 +12,31 @@ const catalogues = [
     id: 1,
     name: 'Catalogue Général',
     image: generalCatalogueImage,
-    pdf: '/catalogue/genel-katalog.pdf'
+    pdf: assetUrl('catalogues/genel-katalog.pdf')
   },
   {
     id: 2,
     name: 'Catalogue Bois',
     image: boisCatalogueImage,
-    pdf: '/catalogue/ahsap-katalogu.pdf'
+    pdf: assetUrl('catalogues/ahsap-katalogu.pdf')
   },
   {
     id: 3,
     name: 'Catalogue Oversize',
     image: oversizeCatalogueImage,
-    pdf: '/catalogue/oversize-katalogu.pdf'
+    pdf: assetUrl('catalogues/oversize-katalogu.pdf')
   },
   {
     id: 4,
     name: 'Catalogue Salle de Bain',
     image: salleDeBainCatalogueImage,
-    pdf: '/catalogue/banyo-katalogu.pdf'
+    pdf: assetUrl('catalogues/banyo-katalogu.pdf')
   },
   {
     id: 5,
     name: 'Catalogue Mural',
     image: muralCatalogueImage,
-    pdf: '/catalogue/duvar-katalogu.pdf'
+    pdf: assetUrl('catalogues/duvar-katalogu.pdf')
   }
 ];
 

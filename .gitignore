@@ -48,3 +48,9 @@ aderka_*.html
 collection_images_patch.txt
 demo/
 public/docs/
+
+# Clés Cloudflare R2 (ne jamais commiter)
+.env.r2
+
+# Images converties pour R2 (générées par scripts/r2/convert-images.js)
+.r2-build/

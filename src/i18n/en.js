@@ -82,6 +82,7 @@ const en = {
     home: 'Home',
     viewRender: 'View render',
     documents: 'Documents',
+    techSheet: 'Technical sheet',
     file: 'File',
     viewAll: 'View all our collections',
     similarCollections: 'Similar collections',

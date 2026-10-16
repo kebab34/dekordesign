@@ -2,13 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import SEO from '../SEO/SEO';
 import { useSearchParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import {
-  productsData,
-  roomCategoriesData,
-  collectionNames,
-  sizeOptions,
-  materialOptions
-} from '../../data/content';
+import { roomCategoriesData, collectionNames, materialOptions } from '../../data/content';
+import { productsData, sizeOptions } from '../../data/collectionsIndex';
 import './CollectionsPage.css';
 
 const CollectionsPage = () => {

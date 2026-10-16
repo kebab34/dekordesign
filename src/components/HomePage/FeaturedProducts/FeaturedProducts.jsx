@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { productsData } from '../../../data/content';
+import { collectionCards } from '../../../data/content';
 import './FeaturedProducts.css';
 
 const FeaturedProducts = () => {
@@ -9,7 +9,7 @@ const FeaturedProducts = () => {
 
   // Fonction pour obtenir 4 produits aléatoires
   const getRandomProducts = () => {
-    const shuffled = [...productsData].sort(() => Math.random() - 0.5);
+    const shuffled = [...collectionCards].sort(() => Math.random() - 0.5);
     return shuffled.slice(0, 4);
   };
 
@@ -52,7 +52,6 @@ const FeaturedProducts = () => {
               <div className="featured-overlay">
                 <div className="featured-hover">
                   <h4 className="featured-name">{product.name}</h4>
-                  <span className="featured-category">{product.category}</span>
                 </div>
               </div>
             </div>

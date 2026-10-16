@@ -1,5 +1,5 @@
 import React, { useEffect, lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation, useNavigationType, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -10,17 +10,7 @@ const CollectionsPage        = lazy(() => import('./components/CollectionsPage/C
 const CataloguePage          = lazy(() => import('./components/CataloguePage/CataloguePage'));
 const ContactPage            = lazy(() => import('./components/ContactPage/ContactPage'));
 const CollectionDetailPage   = lazy(() => import('./components/CollectionDetailPage/CollectionDetailPage'));
-const ProductDetailPage      = lazy(() => import('./components/ProductDetailPage/ProductDetailPage'));
-const SanitairePage          = lazy(() => import('./components/SanitairePage/SanitairePage'));
-const SanitaireDetailPage    = lazy(() => import('./components/SanitaireDetailPage/SanitaireDetailPage'));
 const TamamlayiciPage        = lazy(() => import('./components/TamamlayiciPage/TamamlayiciPage'));
-const TamamlayiciDetailPage  = lazy(() => import('./components/TamamlayiciDetailPage/TamamlayiciDetailPage'));
-const ArmaturlerPage         = lazy(() => import('./components/ArmaturlerPage/ArmaturlerPage'));
-const ArmaturlerDetailPage   = lazy(() => import('./components/ArmaturlerDetailPage/ArmaturlerDetailPage'));
-const DusPage                = lazy(() => import('./components/DusPage/DusPage'));
-const DusDetailPage          = lazy(() => import('./components/DusDetailPage/DusDetailPage'));
-const AksesuarPage           = lazy(() => import('./components/AksesuarPage/AksesuarPage'));
-const AksesuarDetailPage     = lazy(() => import('./components/AksesuarDetailPage/AksesuarDetailPage'));
 const CuisinePage            = lazy(() => import('./components/CuisinePage/CuisinePage'));
 const CuisineDetailPage      = lazy(() => import('./components/CuisineDetailPage/CuisineDetailPage'));
 const KobosPage              = lazy(() => import('./components/KobosPage/KobosPage'));
@@ -34,6 +24,37 @@ const ExterieurDetailPage    = lazy(() => import('./components/ExterieurDetailPa
 const AderkaSeriesPage       = lazy(() => import('./components/AderkaSeriesPage/AderkaSeriesPage'));
 const AderkaPage             = lazy(() => import('./components/AderkaPage/AderkaPage'));
 const AderkaDetailPage       = lazy(() => import('./components/AderkaDetailPage/AderkaDetailPage'));
+
+// Catalogues Bien Seramik : une page liste + une page détail génériques, configurées par univers.
+// Chaque config est chargée à la demande pour ne pas embarquer toutes les données dans le même chunk.
+const loadList   = () => import('./components/BienCatalog/BienListPage');
+const loadDetail = () => import('./components/BienCatalog/BienDetailPage');
+const catalogPage = (loadPage, loadCatalog) => lazy(async () => {
+  const [{ default: Page }, { default: catalog }] = await Promise.all([loadPage(), loadCatalog()]);
+  return { default: () => <Page catalog={catalog} /> };
+});
+
+const loadSanitaire   = () => import('./components/BienCatalog/catalogs/sanitaire');
+const loadDus         = () => import('./components/BienCatalog/catalogs/dus');
+const loadArmaturler  = () => import('./components/BienCatalog/catalogs/armaturler');
+const loadAksesuar    = () => import('./components/BienCatalog/catalogs/aksesuar');
+const loadTamamlayici = () => import('./components/BienCatalog/catalogs/tamamlayici');
+
+const SanitairePage         = catalogPage(loadList,   loadSanitaire);
+const SanitaireDetailPage   = catalogPage(loadDetail, loadSanitaire);
+const DusPage               = catalogPage(loadList,   loadDus);
+const DusDetailPage         = catalogPage(loadDetail, loadDus);
+const ArmaturlerPage        = catalogPage(loadList,   loadArmaturler);
+const ArmaturlerDetailPage  = catalogPage(loadDetail, loadArmaturler);
+const AksesuarPage          = catalogPage(loadList,   loadAksesuar);
+const AksesuarDetailPage    = catalogPage(loadDetail, loadAksesuar);
+const TamamlayiciDetailPage = catalogPage(loadDetail, loadTamamlayici);
+
+// Ancienne URL /product/:name (page supprimée, plus aucun lien interne) → fiche collection
+const ProductRedirect = () => {
+  const { productName } = useParams();
+  return <Navigate to={`/collection/${encodeURIComponent(productName)}`} replace />;
+};
 
 const ScrollToTop = () => {
   const location = useLocation();
@@ -58,7 +79,7 @@ const App = () => {
           <Route path="/catalogues" element={<CataloguePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/collection/:collectionName" element={<CollectionDetailPage />} />
-          <Route path="/product/:productName" element={<ProductDetailPage />} />
+          <Route path="/product/:productName" element={<ProductRedirect />} />
           <Route path="/sanitaire" element={<SanitairePage />} />
           <Route path="/sanitaire/:productId" element={<SanitaireDetailPage />} />
           <Route path="/accessoires" element={<TamamlayiciPage />} />
