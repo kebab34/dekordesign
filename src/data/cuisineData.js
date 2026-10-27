@@ -1,3 +1,5 @@
+import { ASSET_BASE } from '../config/assets.js';
+
 export const cuisineCategories = [
   'Moderne',
   'Classique',
@@ -11,7 +13,7 @@ export const cuisineData = [
     id: 1,
     name: 'Artus',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/artus-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/artus-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/artus/',
     description:
       "Artus propose la combinaison parfaite entre esthétique et fonctionnalité. Ses panneaux laqués lisses associés à un cadre en aluminium inox brossé confèrent une sophistication minimaliste à votre cuisine.",
@@ -28,7 +30,7 @@ export const cuisineData = [
     id: 2,
     name: 'Black',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/black-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/black-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/black/',
     description:
       "Black affirme un parti pris esthétique fort : façades naturelles contrastées par des cadres en métal noir, étagères métalliques et poignées noires. Un design industriel chic qui impose sa présence.",
@@ -45,7 +47,7 @@ export const cuisineData = [
     id: 3,
     name: 'Colesium',
     category: 'Classique',
-    image: 'https://www.atolyemutfak.com.tr/uploads/colesium-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/colesium-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/colesium/',
     description:
       "Colesium puise son inspiration dans l'Antiquité pour apporter une élégance intemporelle à votre cuisine. Ses éléments architecturaux classiques revisités en font une alternative distinguée pour les amateurs de style classique.",
@@ -62,7 +64,7 @@ export const cuisineData = [
     id: 4,
     name: 'Dena',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/dena-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/dena-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/dena/',
     description:
       "Dena allie style innovant et textures uniques. Ses façades en suntalam disponibles dans de multiples décors bois apportent chaleur et atmosphère naturelle, sublimées par l'option de portes en verre à cadre métal noir.",
@@ -79,7 +81,7 @@ export const cuisineData = [
     id: 5,
     name: 'Icon',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/icon-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/icon-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/icon/',
     description:
       "Icon incarne une interprétation magistrale du design contemporain. Ses surfaces en laqué mat soyeux associées à des portes sans poignées créent une esthétique épurée d'une sophistication absolue.",
@@ -96,7 +98,7 @@ export const cuisineData = [
     id: 6,
     name: 'Legno',
     category: 'Contemporain',
-    image: 'https://www.atolyemutfak.com.tr/uploads/legno-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/legno-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/legno/',
     description:
       "Legno est un modèle artisanal aux fines lignes gravées à la main sur un placage naturel noir. Ce travail de précision confère à votre cuisine un caractère unique et une élégance incomparable.",
@@ -113,7 +115,7 @@ export const cuisineData = [
     id: 7,
     name: 'Ole',
     category: 'Classique',
-    image: 'https://www.atolyemutfak.com.tr/uploads/ole-kitchen-12-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/ole-kitchen-12-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/ole/',
     description:
       "Ole réunit classicisme, modernité et minimalisme dans un même modèle. Sa peinture laquée mat sur MDF et son cadre à angle spécial anti-poussière conjuguent raffinement et praticité au quotidien.",
@@ -130,7 +132,7 @@ export const cuisineData = [
     id: 8,
     name: 'Oppo',
     category: 'Naturel',
-    image: 'https://www.atolyemutfak.com.tr/uploads/oppo-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/oppo-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/oppo/',
     description:
       "Oppo marie la chaleur du bois naturel dans les tons les plus doux avec des cadres slim contemporains. Les céramiques blanches vintage créent un contraste raffiné dans cette cuisine à l'atmosphère chaleureuse.",
@@ -147,7 +149,7 @@ export const cuisineData = [
     id: 9,
     name: 'Perla',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/perla-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/perla-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/perla/',
     description:
       "Perla représente la forme la plus élégante des lignes droites. Ses surfaces laquées brillantes ou mats témoignent d'une exécution irréprochable, pour une cuisine à la géométrie précise et lumineuse.",
@@ -164,7 +166,7 @@ export const cuisineData = [
     id: 10,
     name: 'Rustica',
     category: 'Rustique',
-    image: 'https://www.atolyemutfak.com.tr/uploads/rustica-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/rustica-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/rustica/',
     description:
       "Rustica invite la campagne dans votre cuisine avec ses motifs sculptés à la main, ses poignées en céramique et ses vitrines classiques. Un espace de vie chaleureux où cuisine rime avec convivialité.",
@@ -181,7 +183,7 @@ export const cuisineData = [
     id: 11,
     name: 'Shaker',
     category: 'Classique',
-    image: 'https://www.atolyemutfak.com.tr/uploads/shaker-mutfak-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/shaker-mutfak-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/shaker/',
     description:
       "Shaker propose une interprétation innovante des matériaux naturels. Son style vintage-moderne, ponctué d'éviers en céramique à l'ancienne, crée une atmosphère de cuisine moderne-classique pleine de caractère.",
@@ -198,7 +200,7 @@ export const cuisineData = [
     id: 12,
     name: 'Soft',
     category: 'Moderne',
-    image: 'https://www.atolyemutfak.com.tr/uploads/soft-kitchen-01-a-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/soft-kitchen-01-a-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/soft/',
     description:
       "Soft séduit par la finesse de ses lignes modernes. L'harmonie entre ses surfaces acryliques, ses poignées DORA et ses cadres métalliques LUNA combinée à une large palette de couleurs en fait un modèle captivant.",
@@ -215,7 +217,7 @@ export const cuisineData = [
     id: 13,
     name: 'Stone',
     category: 'Naturel',
-    image: 'https://www.atolyemutfak.com.tr/uploads/stone-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/stone-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/stone/',
     description:
       "Stone s'inspire directement de la pierre naturelle pour offrir un design minimaliste où chaque surface évoque la roche. Une cuisine épurée qui invite au calme, loin du chaos, dans une élégance naturelle.",
@@ -232,7 +234,7 @@ export const cuisineData = [
     id: 14,
     name: 'Tess',
     category: 'Contemporain',
-    image: 'https://www.atolyemutfak.com.tr/uploads/tess-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/tess-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/tess/',
     description:
       "Tess réunit l'élégance naturelle et le design moderne dans un même souffle. Son placage chêne naturel sans poignées dégage une chaleur authentique aux lignes minimalistes, pensées pour les intérieurs contemporains.",
@@ -249,7 +251,7 @@ export const cuisineData = [
     id: 15,
     name: 'Verona',
     category: 'Classique',
-    image: 'https://www.atolyemutfak.com.tr/uploads/verona-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/verona-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/verona/',
     description:
       "Verona trace les contours du passé dans le présent. Sa finition laquée mate et ses cadres galbés aux détails travaillés créent une cuisine classique intemporelle aux tons profonds et à la sérénité enveloppante.",
@@ -266,7 +268,7 @@ export const cuisineData = [
     id: 16,
     name: 'Vetro',
     category: 'Contemporain',
-    image: 'https://www.atolyemutfak.com.tr/uploads/vetro-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/vetro-kitchen-01-1200x791.webp`,
     href: 'https://www.atolyemutfak.com.tr/urunlerimiz/mutfaklar/vetro/',
     description:
       "Vetro marie la fluidité des lignes droites à la beauté unique du verre. Ses surfaces en verre renforcé et son design sans poignées forment un ensemble cohérent d'une modernité sophistiquée et lumineuse.",

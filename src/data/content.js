@@ -1,4 +1,4 @@
-import { tileUrl } from '../config/assets';
+import { ASSET_BASE, tileUrl } from '../config/assets';
 
 export const carouselData = [
   {
@@ -34,7 +34,7 @@ export const productCategoriesData = [
   {
     name: 'Cuisines sur Mesure',
     description: 'Atölye Mutfak & Soprano — 31 modèles, tous styles et finitions',
-    image: 'https://www.atolyemutfak.com.tr/uploads/artus-kitchen-01-1200x791.webp',
+    image: `${ASSET_BASE}/ext/atolye/artus-kitchen-01-1200x791.webp`,
     path: '/cuisines'
   },
   {
@@ -46,7 +46,7 @@ export const productCategoriesData = [
   {
     name: 'Meubles de Salle de Bain',
     description: 'Collections Kobos — élégance et fonctionnalité sur mesure',
-    image: 'https://cdn.techex.com.tr/www.kobosbanyo.com/uploads/33ebeda9-07f8-4d58-92ff-f5d1a6446031.jpg?boyut=800,800',
+    image: `${ASSET_BASE}/ext/kobos/33ebeda9-07f8-4d58-92ff-f5d1a6446031.webp`,
     path: '/meubles'
   },
   {
@@ -76,13 +76,13 @@ export const productCategoriesData = [
   {
     name: 'Menuiserie',
     description: 'Portes, fenêtres PVC & ALU, volets roulants et systèmes guillotine',
-    image: 'https://www.geniuspergola.com/img/_19365022112019_.jpg',
+    image: `${ASSET_BASE}/ext/genius/_19365022112019_.webp`,
     path: '/menuiserie'
   },
   {
     name: 'Extérieur & Pergolas',
     description: 'Pergolas motorisées, stores ZIP et vitrages guillotine pour vos terrasses',
-    image: 'https://www.geniuspergola.com/img/_1705122112019_.jpg',
+    image: `${ASSET_BASE}/ext/genius/_1705122112019_.webp`,
     path: '/exterieur'
   },
 ];

@@ -1,11 +1,13 @@
 // Généré automatiquement — ne pas éditer manuellement
+import { ASSET_BASE } from '../config/assets.js';
+
 export const sanitaireData = [
   {
     "id": 1,
     "name": "Leo",
     "fullName": "Leo - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/LEKA052H3VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/leka052h3vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/leo-asma-klozet-no-rim-leka052h3vp0w5000",
     "specs": {
       "Référence": "LEKA052H3VP0W5000",
@@ -25,7 +27,7 @@ export const sanitaireData = [
     "name": "Vokha",
     "fullName": "Vokha - Asma Klozet No-Rim Gizli Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/MDKA052N1VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mdka052n1vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/vokha-asma-klozet-no-rim-gizli-montaj-mdka052n1vp1w5000",
     "specs": {
       "Référence": "MDKA052N1VP1W5000",
@@ -45,7 +47,7 @@ export const sanitaireData = [
     "name": "Shine",
     "fullName": "Shine - Asma Klozet No-Rim Gizli Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/SHKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/shka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/shine-asma-klozet-no-rim-gizli-montaj-shka052n1vp0w5000",
     "specs": {
       "Référence": "SHKA052N1VP0W5000",
@@ -65,7 +67,7 @@ export const sanitaireData = [
     "name": "Kristal",
     "fullName": "Kristal - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/KRKA060N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/krka060n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/kristal-asma-klozet-no-rim-krka060n1vp0w5000",
     "specs": {
       "Référence": "KRKA060N1VP0W5000",
@@ -85,7 +87,7 @@ export const sanitaireData = [
     "name": "Flash",
     "fullName": "Flash - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/FLKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/flka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/flash-asma-klozet-no-rim-flka052n1vp0w5000",
     "specs": {
       "Référence": "FLKA052N1VP0W5000",
@@ -105,7 +107,7 @@ export const sanitaireData = [
     "name": "Pent",
     "fullName": "Pent - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/PNKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/pnka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/pent-asma-klozet-no-rim-pnka052n1vp0w5000",
     "specs": {
       "Référence": "PNKA052N1VP0W5000",
@@ -125,7 +127,7 @@ export const sanitaireData = [
     "name": "Moly",
     "fullName": "Moly - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/MLKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mlka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/moly-asma-klozet-no-rim-mlka052n1vp0w5000",
     "specs": {
       "Référence": "MLKA052N1VP0W5000",
@@ -145,7 +147,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Asma Klozet Vorteks Flush Sistem",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOKA052V1VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/soka052v1vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/solid-asma-klozet-vorteks-flush-sistem-soka052v1vp1w5000",
     "specs": {
       "Référence": "SOKA052V1VP1W5000",
@@ -165,7 +167,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/soka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/solid-asma-klozet-no-rim-soka052n1vp0w5000",
     "specs": {
       "Référence": "SOKA052N1VP0W5000",
@@ -185,7 +187,7 @@ export const sanitaireData = [
     "name": "Alesta",
     "fullName": "Alesta - Asma Klozet No-Rim",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/ALKA054N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/alka054n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/alesta-asma-klozet-no-rim-alka054n1vp0w5000",
     "specs": {
       "Référence": "ALKA054N1VP0W5000",
@@ -205,7 +207,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Asma Klozet Açık Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPKA052AMVP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npka052amvp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/neptun-asma-klozet-acik-montaj-npka052amvp1w5000",
     "specs": {
       "Référence": "NPKA052AMVP1W5000",
@@ -225,7 +227,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Asma Klozet No-Rim Gizli Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPKA052N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npka052n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/neptun-asma-klozet-no-rim-gizli-montaj-npka052n1vp0w5000",
     "specs": {
       "Référence": "NPKA052N1VP0W5000",
@@ -245,7 +247,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Klozet No-Rim Gizli Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRKA052N5VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrka052n5vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/harmony-asma-klozet-no-rim-gizli-montaj-hrka052n5vp1w5000",
     "specs": {
       "Référence": "HRKA052N5VP1W5000",
@@ -265,7 +267,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Klozet No-Rim Gizli Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRKA052N3VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrka052n3vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/harmony-asma-klozet-no-rim-gizli-montaj-hrka052n3vp1w5000",
     "specs": {
       "Référence": "HRKA052N3VP1W5000",
@@ -285,7 +287,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Klozet No-Rim Açık Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRKA052N2VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrka052n2vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/harmony-asma-klozet-no-rim-acik-montaj-hrka052n2vp1w5000",
     "specs": {
       "Référence": "HRKA052N2VP1W5000",
@@ -305,7 +307,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Klozet Açık Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRKA052AMVP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrka052amvp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/harmony-asma-klozet-acik-montaj-hrka052amvp1w5000",
     "specs": {
       "Référence": "HRKA052AMVP1W5000",
@@ -325,7 +327,7 @@ export const sanitaireData = [
     "name": "Dor",
     "fullName": "Dor - Asma Klozet No-Rim Açık Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/DRKA050N2VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/drka050n2vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/dor-asma-klozet-no-rim-acik-montaj-drka050n2vp1w5000",
     "specs": {
       "Référence": "DRKA050N2VP1W5000",
@@ -345,7 +347,7 @@ export const sanitaireData = [
     "name": "Ion",
     "fullName": "Ion - Asma Klozet No-Rim Açık Montaj",
     "category": "WC Suspendu",
-    "image": "https://bienseramik.b-cdn.net/uploads/IOKA050N2VP1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/ioka050n2vp1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/asma-klozetler/ion-asma-klozet-no-rim-acik-montaj-ioka050n2vp1w5000",
     "specs": {
       "Référence": "IOKA050N2VP1W5000",
@@ -365,7 +367,7 @@ export const sanitaireData = [
     "name": "Goya",
     "fullName": "Goya - Duvara Sıfır Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/GYKD06201VS1W5000.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/gykd06201vs1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/goya-duvara-sifir-klozet-gykd06201vs1w5000",
     "specs": {
       "Référence": "GYKD06201VS1W5000",
@@ -385,7 +387,7 @@ export const sanitaireData = [
     "name": "Goya",
     "fullName": "Goya - Duvara Sıfır Klozet No-Rim",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/GYKD062N1VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/gykd062n1vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/goya-duvara-sifir-klozet-no-rim-gykd062n1vp0w5000",
     "specs": {
       "Référence": "GYKD062N1VP0W5000",
@@ -405,7 +407,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Duvara Sıfır Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPKD06301VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npkd06301vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/neptun-duvara-sifir-klozet-npkd06301vp0w5000",
     "specs": {
       "Référence": "NPKD06301VP0W5000",
@@ -425,7 +427,7 @@ export const sanitaireData = [
     "name": "Capri",
     "fullName": "Capri - Duvara Sıfır Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/CPKD06202VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/cpkd06202vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/capri-duvara-sifir-klozet-cpkd06202vp0w5000",
     "specs": {
       "Référence": "CPKD06202VP0W5000",
@@ -445,7 +447,7 @@ export const sanitaireData = [
     "name": "Capri",
     "fullName": "Capri - Duvara Sıfır Klozet No-Rim",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/CPKD062N2VP0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/cpkd062n2vp0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/capri-duvara-sifir-klozet-no-rim-cpkd062n2vp0w5000",
     "specs": {
       "Référence": "CPKD062N2VP0W5000",
@@ -465,7 +467,7 @@ export const sanitaireData = [
     "name": "Venüs",
     "fullName": "Venüs - Duvara Sıfır Klozet No-Rim",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/VNKD064N1VS1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/vnkd064n1vs1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/venus-duvara-sifir-klozet-no-rim-vnkd064n1vs1w5000",
     "specs": {
       "Référence": "VNKD064N1VS1W5000",
@@ -485,7 +487,7 @@ export const sanitaireData = [
     "name": "Orion",
     "fullName": "Orion - Duvara Sıfır Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/ORKD06001VS1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/orkd06001vs1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/orion-duvara-sifir-klozet-orkd06001vs1w5000",
     "specs": {
       "Référence": "ORKD06001VS1W5000",
@@ -505,7 +507,7 @@ export const sanitaireData = [
     "name": "Vokha",
     "fullName": "Vokha - Duvara Sıfır Klozet No-Rim",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/MDKD063N1VS1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mdkd063n1vs1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/vokha-duvara-sifir-klozet-no-rim-mdkd063n1vs1w5000",
     "specs": {
       "Référence": "MDKD063N1VS1W5000",
@@ -525,7 +527,7 @@ export const sanitaireData = [
     "name": "Root",
     "fullName": "Root - Kombi Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/ROKK05001VP0W5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/rokk05001vp0w5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/root-kombi-klozet-rokk05001vp0w5sz0",
     "specs": {
       "Référence": "ROKK05001VP0W5SZ0",
@@ -545,7 +547,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Klozet No-Rim Gizli Montaj Easywash",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRKA052N5VE0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrka052n5ve0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/harmony-asma-klozet-no-rim-gizli-montaj-easywash-hrka052n5ve0w5000",
     "specs": {
       "Référence": "HRKA052N5VE0W5000",
@@ -565,7 +567,7 @@ export const sanitaireData = [
     "name": "Venüs",
     "fullName": "Venüs - Duvara Sıfır Klozet No-Rim Easywash",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/VNKD064N1VE0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/vnkd064n1ve0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/venus-duvara-sifir-klozet-no-rim-easywash-vnkd064n1ve0w5000",
     "specs": {
       "Référence": "VNKD064N1VE0W5000",
@@ -585,7 +587,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Duvara Sıfır Klozet Easywash",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPKD06301VE1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npkd06301ve1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/neptun-duvara-sifir-klozet-easywash-npkd06301ve1w5000",
     "specs": {
       "Référence": "NPKD06301VE1W5000",
@@ -605,7 +607,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Engelliler İçin Klozet",
     "category": "WC Compact",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPKE07001VS1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpke07001vs1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/duvara-sifir-klozetler/tek-parca-engiller-icin-klozet-tpke07001vs1w5000",
     "specs": {
       "Référence": "TPKE07001VS1W5000",
@@ -635,7 +637,7 @@ export const sanitaireData = [
     "name": "Capri",
     "fullName": "Capri - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/CPLS055B1VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/cpls055b1vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/capri-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-cpls055b1vd1w5000",
     "specs": {
       "Référence": "CPLS055B1VD1W5000",
@@ -655,7 +657,7 @@ export const sanitaireData = [
     "name": "Capri",
     "fullName": "Capri - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/CPLS060B1VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/cpls060b1vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/capri-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-cpls060b1vd1w5000",
     "specs": {
       "Référence": "CPLS060B1VD1W5000",
@@ -675,7 +677,7 @@ export const sanitaireData = [
     "name": "Dor",
     "fullName": "Dor - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/DRLS04501VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/drls04501vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/dor-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-drls04501vd1w5000",
     "specs": {
       "Référence": "DRLS04501VD1W5000",
@@ -695,7 +697,7 @@ export const sanitaireData = [
     "name": "Dor",
     "fullName": "Dor - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/DRLS06001VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/drls06001vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/dor-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-drls06001vd1w5000",
     "specs": {
       "Référence": "DRLS06001VD1W5000",
@@ -715,7 +717,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLG04601FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inlg04601fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-inlg04601fd1w5000",
     "specs": {
       "Référence": "INLG04601FD1W5000",
@@ -735,7 +737,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLG05001FD1W5000.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inlg05001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-inlg05001fd1w5000",
     "specs": {
       "Référence": "INLG05001FD1W5000",
@@ -755,7 +757,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLG06001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inlg06001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-inlg06001fd1w5000",
     "specs": {
       "Référence": "INLG06001FD1W5000",
@@ -775,7 +777,7 @@ export const sanitaireData = [
     "name": "Vokha",
     "fullName": "Vokha - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MDLS05501FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mdls05501fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/vokha-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-mdls05501fd1w5000",
     "specs": {
       "Référence": "MDLS05501FD1W5000",
@@ -795,7 +797,7 @@ export const sanitaireData = [
     "name": "Vokha",
     "fullName": "Vokha - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MDLS07001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mdls07001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/vokha-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-mdls07001fd1w5000",
     "specs": {
       "Référence": "MDLS07001FD1W5000",
@@ -815,7 +817,7 @@ export const sanitaireData = [
     "name": "Nicole",
     "fullName": "Nicole - Oblong Gövde Üstü Lavabo Tek Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NCLG06001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nclg06001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/nicole-oblong-govde-ustu-lavabo-tek-delikli-nclg06001fd1w5000",
     "specs": {
       "Référence": "NCLG06001FD1W5000",
@@ -835,7 +837,7 @@ export const sanitaireData = [
     "name": "Nicole",
     "fullName": "Nicole - Gövde Üstü Lavabo Tek Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NCLG06003FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nclg06003fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/nicole-gove-ustu-lavabo-tek-delikli-nclg06003fd1w5000",
     "specs": {
       "Référence": "NCLG06003FD1W5000",
@@ -855,7 +857,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Oblong Tam Tezgah Üstü Lavabo Deliksiz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOLG060S1FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/solg060s1fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/solid-oblong-tam-tezgah-ustu-lavabo-deliksiz-solg060s1fd0w5000",
     "specs": {
       "Référence": "SOLG060S1FD0W5000",
@@ -875,7 +877,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Tam Tezgah Üstü Lavabo Deliksiz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOLG060S3FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/solg060s3fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/solid-tam-tezgah-ustu-lavabo-deliksiz-solg060s3fd0w5000",
     "specs": {
       "Référence": "SOLG060S3FD0W5000",
@@ -895,7 +897,7 @@ export const sanitaireData = [
     "name": "Moly",
     "fullName": "Moly - Tam Tezgah Üstü Lavabo Deliksiz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MLLG06201FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mllg06201fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/moly-tam-tezgah-ustu-lavabo-deliksiz-mllg06201fd0w5000",
     "specs": {
       "Référence": "MLLG06201FD0W5000",
@@ -915,7 +917,7 @@ export const sanitaireData = [
     "name": "Pent",
     "fullName": "Pent - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/PNLG04901FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/pnlg04901fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/pent-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-pnlg04901fd0w5000",
     "specs": {
       "Référence": "PNLG04901FD0W5000",
@@ -935,7 +937,7 @@ export const sanitaireData = [
     "name": "Kristal",
     "fullName": "Kristal - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/KRLG04101FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/krlg04101fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/kristal-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-krlg04101fd0w5000",
     "specs": {
       "Référence": "KRLG04101FD0W5000",
@@ -955,7 +957,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRLG05901FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrlg05901fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/harmony-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-hrlg05901fd0w5000",
     "specs": {
       "Référence": "HRLG05901FD0W5000",
@@ -975,7 +977,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRLG05401FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrlg05401fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/harmony-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-hrlg05401fd0w5000",
     "specs": {
       "Référence": "HRLG05401FD0W5000",
@@ -995,7 +997,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRLG04501FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrlg04501fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/harmony-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-hrlg04501fd0w5000",
     "specs": {
       "Référence": "HRLG04501FD0W5000",
@@ -1015,7 +1017,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRLG04301FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrlg04301fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/harmony-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-hrlg04301fd0w5000",
     "specs": {
       "Référence": "HRLG04301FD0W5000",
@@ -1035,7 +1037,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRLG04001FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrlg04001fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/harmony-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-hrlg04001fd0w5000",
     "specs": {
       "Référence": "HRLG04001FD0W5000",
@@ -1055,7 +1057,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Oval Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG05005FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg05005fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-oval-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-mtlg05005fd1w5000",
     "specs": {
       "Référence": "MTLG05005FD1W5000",
@@ -1075,7 +1077,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Asimetrik Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG05004FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg05004fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-asimetrik-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg05004fd0w5000",
     "specs": {
       "Référence": "MTLG05004FD0W5000",
@@ -1095,7 +1097,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Dikdörtgen Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG05003FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg05003fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-dikdortgen-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg05003fd0w5000",
     "specs": {
       "Référence": "MTLG05003FD0W5000",
@@ -1115,7 +1117,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Oval Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG05002FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg05002fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-oval-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg05002fd0w5000",
     "specs": {
       "Référence": "MTLG05002FD0W5000",
@@ -1135,7 +1137,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Oblong Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG05001FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg05001fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-oblong-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg05001fd0w5000",
     "specs": {
       "Référence": "MTLG05001FD0W5000",
@@ -1155,7 +1157,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Yuvarlak Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG04202FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg04202fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-yuvarlak-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-mtlg04202fd1w5000",
     "specs": {
       "Référence": "MTLG04202FD1W5000",
@@ -1175,7 +1177,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Kare Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG04201FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg04201fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-kare-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-mtlg04201fd1w5000",
     "specs": {
       "Référence": "MTLG04201FD1W5000",
@@ -1195,7 +1197,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Yuvarlak Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG03802FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg03802fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-yuvarlak-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg03802fd0w5000",
     "specs": {
       "Référence": "MTLG03802FD0W5000",
@@ -1215,7 +1217,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Kare Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG03801FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg03801fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-kare-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-mtlg03801fd0w5000",
     "specs": {
       "Référence": "MTLG03801FD0W5000",
@@ -1235,7 +1237,7 @@ export const sanitaireData = [
     "name": "Motto",
     "fullName": "Motto - Dikdörtgen Gövde Üstü Lavabo Batarya Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MTLG06501FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mtlg06501fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/motto-dikdortgen-govde-ustu-lavabo-batarya-delikli-mtlg06501fd1w5000",
     "specs": {
       "Référence": "MTLG06501FD1W5000",
@@ -1255,7 +1257,7 @@ export const sanitaireData = [
     "name": "Dante",
     "fullName": "Dante - Monoblok Lavabo Tek Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/DTLM05501FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/dtlm05501fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/dante-monoblok-lavabo-tek-delikli-dtlm05501fd1w5000",
     "specs": {
       "Référence": "DTLM05501FD1W5000",
@@ -1275,7 +1277,7 @@ export const sanitaireData = [
     "name": "Mineral",
     "fullName": "Mineral - Monoblok Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/MNLM04501FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mnlm04501fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/mineral-monoblok-lavabo-batarya-delikli-tasma-kanalli-mnlm04501fd1w5000",
     "specs": {
       "Référence": "MNLM04501FD1W5000",
@@ -1295,7 +1297,7 @@ export const sanitaireData = [
     "name": "Lotus",
     "fullName": "Lotus - Monoblok Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/LTLM06001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/ltlm06001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/lotus-monoblok-lavabo-batarya-delikli-tasma-kanalli-ltlm06001fd1w5000",
     "specs": {
       "Référence": "LTLM06001FD1W5000",
@@ -1315,7 +1317,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Engelliler İçin Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLE06001VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tple06001vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-engelliler-icin-lavabo-batarya-delikli-tasma-kanalli-tple06001vd1w5000",
     "specs": {
       "Référence": "TPLE06001VD1W5000",
@@ -1335,7 +1337,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS04501VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls04501vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-delikli-tpls04501vd1w5000",
     "specs": {
       "Référence": "TPLS04501VD1W5000",
@@ -1355,7 +1357,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS04501VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls04501vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-deliksiz-tasma-kanalsiz-tpls04501vd0w5000",
     "specs": {
       "Référence": "TPLS04501VD0W5000",
@@ -1375,7 +1377,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS04101VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls04101vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-tpls04101vd1w5000",
     "specs": {
       "Référence": "TPLS04101VD1W5000",
@@ -1395,7 +1397,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Deliksiz Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS04101VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls04101vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-deliksiz-tasma-kanalsiz-tpls04101vd0w5000",
     "specs": {
       "Référence": "TPLS04101VD0W5000",
@@ -1415,7 +1417,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS03601VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls03601vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-delikli-tasma-kanalli-tpls03601vd1w5000",
     "specs": {
       "Référence": "TPLS03601VD1W5000",
@@ -1435,7 +1437,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Duvara Montajlı Lavabo Batarya Deliksiz Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLS03601VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpls03601vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-duvara-montajli-lavabo-batarya-deliksiz-tasma-kanalli-tpls03601vd0w5000",
     "specs": {
       "Référence": "TPLS03601VD0W5000",
@@ -1455,7 +1457,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Dolaplı Lavabo Batarya Delikli Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLK04501FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inlk04501fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-dolapli-lavabo-batarya-delikli-tasma-kanalsiz-inlk04501fd1w5000",
     "specs": {
       "Référence": "INLK04501FD1W5000",
@@ -1475,7 +1477,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Dolaplı Lavabo Batarya Delikli Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLK05001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inlk05001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-dolapli-lavabo-batarya-delikli-tasma-kanalsiz-inlk05001fd1w5000",
     "specs": {
       "Référence": "INLK05001FD1W5000",
@@ -1495,7 +1497,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPLK06001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nplk06001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/neptun-konsollu-lavabo-batarya-delikli-tasma-kanalli-nplk06001fd1w5000",
     "specs": {
       "Référence": "NPLK06001FD1W5000",
@@ -1515,7 +1517,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPLK080B1FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nplk080b1fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/neptun-konsollu-lavabo-batarya-delikli-tasma-kanalli-nplk080b1fd1w5000",
     "specs": {
       "Référence": "NPLK080B1FD1W5000",
@@ -1535,7 +1537,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPLK10001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nplk10001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/neptun-konsollu-lavabo-batarya-delikli-tasma-kanalli-nplk10001fd1w5000",
     "specs": {
       "Référence": "NPLK10001FD1W5000",
@@ -1555,7 +1557,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Konsollu Sağdan Etajerli Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPLK080B2FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nplk080b2fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/neptun-konsollu-sagdan-etajerli-lavabo-batarya-delikli-tasma-kanalli-nplk080b2fd1w5000",
     "specs": {
       "Référence": "NPLK080B2FD1W5000",
@@ -1575,7 +1577,7 @@ export const sanitaireData = [
     "name": "Ferra",
     "fullName": "Ferra - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FELK060B1FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/felk060b1fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/ferra-konsollu-lavabo-batarya-delikli-tasma-kanalli-felk060b1fd1w5000",
     "specs": {
       "Référence": "FELK060B1FD1W5000",
@@ -1595,7 +1597,7 @@ export const sanitaireData = [
     "name": "Ferra",
     "fullName": "Ferra - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FELK070B1FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/felk070b1fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/ferra-konsollu-lavabo-batarya-delikli-tasma-kanalli-felk070b1fd1w5000",
     "specs": {
       "Référence": "FELK070B1FD1W5000",
@@ -1615,7 +1617,7 @@ export const sanitaireData = [
     "name": "Ferra",
     "fullName": "Ferra - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FELK080B1FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/felk080b1fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/ferra-konsollu-lavabo-batarya-delikli-tasma-kanalli-felk080b1fd1w5000",
     "specs": {
       "Référence": "FELK080B1FD1W5000",
@@ -1635,7 +1637,7 @@ export const sanitaireData = [
     "name": "Ferra",
     "fullName": "Ferra - Konsollu Lavabo Batarya Delikli Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FELK10001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/felk10001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/ferra-konsollu-lavabo-batarya-delikli-tasma-kanalli-felk10001fd1w5000",
     "specs": {
       "Référence": "FELK10001FD1W5000",
@@ -1655,7 +1657,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Oblong Gövde Üstü Gömme Lavabo Tek Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOLU06001FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/solu06001fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/solid-oblong-govde-ustu-gomme-lavabo-tek-delikli-solu06001fd1w5000",
     "specs": {
       "Référence": "SOLU06001FD1W5000",
@@ -1675,7 +1677,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Gövde Üstü Gömme Lavabo Tek Delikli",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOLU06003FD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/solu06003fd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/solid-govde-ustu-gomme-lavabo-tek-delikli-solu06003fd1w5000",
     "specs": {
       "Référence": "SOLU06003FD1W5000",
@@ -1695,7 +1697,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Gömme Lavabo",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05601FD0W3SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05601fd0w3sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-gomme-lavabo-falg05601fd0w3sz0",
     "specs": {
       "Référence": "FALG05601FD0W3SZ0",
@@ -1715,7 +1717,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Deliksiz Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06003FD0W3SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06003fd0w3sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-deliksiz-tasma-kanalli-falg06003fd0w3sz0",
     "specs": {
       "Référence": "FALG06003FD0W3SZ0",
@@ -1735,7 +1737,7 @@ export const sanitaireData = [
     "name": "Infinitum",
     "fullName": "Infinitum - Tezgah Altı Lavabo Taşma Kanalsız",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/INLA04001FD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/inla04001fd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/infinitum-tezgah-alti-lavabo-tasma-kanalsiz-inla04001fd0w5000",
     "specs": {
       "Référence": "INLA04001FD0W5000",
@@ -1754,7 +1756,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tezgah Altı Lavabo Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLA04501VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpla04501vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-tezgah-alti-lavabo-tasma-kanalli-tpla04501vd0w5000",
     "specs": {
       "Référence": "TPLA04501VD0W5000",
@@ -1773,7 +1775,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tezgah Altı Lavabo Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLA05001VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpla05001vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-tezgah-alti-lavabo-tasma-kanalli-tpla05001vd0w5000",
     "specs": {
       "Référence": "TPLA05001VD0W5000",
@@ -1792,7 +1794,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tezgah Altı Lavabo Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPLA04101VD0W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpla04101vd0w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/tek-parca-tezgah-alti-lavabo-tasma-kanalli-tpla04101vd0w5000",
     "specs": {
       "Référence": "TPLA04101VD0W5000",
@@ -1811,7 +1813,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Tezgah Altı Lavabo Taşma Kanallı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05301FD0W3SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05301fd0w3sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-tezgah-alti-lavabo-tasma-kanalli-falg05301fd0w3sz0",
     "specs": {
       "Référence": "FALG05301FD0W3SZ0",
@@ -1830,7 +1832,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Tezgah Altı Lavabo Taşma Kanallı Rose Gold Dekorlu",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05301FD009SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05301fd009sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-tezgah-alti-lavabo-tasma-kanalli-rose-gold-dekorlu-falg05301fd009sz0",
     "specs": {
       "Référence": "FALG05301FD009SZ0",
@@ -1849,7 +1851,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Dış Mat Siyah İç Mat Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05101FD0BWSZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05101fd0bwsz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-dis-mat-siyah-ic-mat-beyaz-falg05101fd0bwsz0",
     "specs": {
       "Référence": "FALG05101FD0BWSZ0",
@@ -1869,7 +1871,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Dış Mat Siyah İç Mat Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1BWSZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1bwsz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-dis-mat-siyah-ic-mat-beyaz-eks.-falg06001fd1bwsz0",
     "specs": {
       "Référence": "FALG06001FD1BWSZ0",
@@ -1889,7 +1891,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-saten-beyaz-falg04301fd1w4sz0",
     "specs": {
       "Référence": "FALG04301FD1W4SZ0",
@@ -1909,7 +1911,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Altın Kaplamalı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1G0SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1g0sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-altin-kaplamali-falg04301fd1g0sz0",
     "specs": {
       "Référence": "FALG04301FD1G0SZ0",
@@ -1929,7 +1931,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Rose Gold Kaplamalı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1G3SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1g3sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-rose-gold-kaplamali-falg04301fd1g3sz0",
     "specs": {
       "Référence": "FALG04301FD1G3SZ0",
@@ -1949,7 +1951,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Altın Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1G2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1g2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-altin-kaplama-ic-beyaz-falg04301fd1g2sz0",
     "specs": {
       "Référence": "FALG04301FD1G2SZ0",
@@ -1969,7 +1971,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Platin Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1X2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1x2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-platin-kaplama-ic-beyaz-falg04301fd1x2sz0",
     "specs": {
       "Référence": "FALG04301FD1X2SZ0",
@@ -1989,7 +1991,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Rose Gold Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04301FD1G5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04301fd1g5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-rose-gold-kaplama-ic-beyaz-falg04301fd1g5sz0",
     "specs": {
       "Référence": "FALG04301FD1G5SZ0",
@@ -2009,7 +2011,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Platin Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04302FD1X2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04302fd1x2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-platin-kaplama-ic-beyaz-falg04302fd1x2sz0",
     "specs": {
       "Référence": "FALG04302FD1X2SZ0",
@@ -2029,7 +2031,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04302FD1W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04302fd1w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-saten-beyaz-falg04302fd1w4sz0",
     "specs": {
       "Référence": "FALG04302FD1W4SZ0",
@@ -2049,7 +2051,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Rose Gold Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04302FD1G5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04302fd1g5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-rose-gold-kaplama-ic-beyaz-falg04302fd1g5sz0",
     "specs": {
       "Référence": "FALG04302FD1G5SZ0",
@@ -2069,7 +2071,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Altın Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04302FD1G2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04302fd1g2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-altin-kaplama-ic-beyaz-falg04302fd1g2sz0",
     "specs": {
       "Référence": "FALG04302FD1G2SZ0",
@@ -2089,7 +2091,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Bakır Kaplama",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04201FD0C0SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04201fd0c0sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-bakir-kaplama-falg04201fd0c0sz0",
     "specs": {
       "Référence": "FALG04201FD0C0SZ0",
@@ -2109,7 +2111,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-saten-beyaz-falg06001fd1w4sz0",
     "specs": {
       "Référence": "FALG06001FD1W4SZ0",
@@ -2129,7 +2131,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Standart Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1W3SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1w3sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-standart-beyaz-falg06001fd1w3sz0",
     "specs": {
       "Référence": "FALG06001FD1W3SZ0",
@@ -2149,7 +2151,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Altın Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1G2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1g2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-altin-kaplama-ic-beyaz-falg06001fd1g2sz0",
     "specs": {
       "Référence": "FALG06001FD1G2SZ0",
@@ -2169,7 +2171,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deilkli Taşma Kanalsız Dış Platin Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1X2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1x2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deilkli-tasma-kanalsiz-dis-platin-kaplama-ic-beyaz-falg06001fd1x2sz0",
     "specs": {
       "Référence": "FALG06001FD1X2SZ0",
@@ -2189,7 +2191,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Taşma Kanalsız Dış Rose Gold Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06001FD1G5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06001fd1g5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-tasma-kanalsiz-dis-rose-gold-kaplama-ic-beyaz-falg06001fd1g5sz0",
     "specs": {
       "Référence": "FALG06001FD1G5SZ0",
@@ -2209,7 +2211,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05001FD0W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05001fd0w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-saten-beyaz-falg05001fd0w4sz0",
     "specs": {
       "Référence": "FALG05001FD0W4SZ0",
@@ -2229,7 +2231,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Altın Kaplamalı",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG05001FD0G0SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg05001fd0g0sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-altin-kaplamali-falg05001fd0g0sz0",
     "specs": {
       "Référence": "FALG05001FD0G0SZ0",
@@ -2249,7 +2251,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Dış Altın Dekorlu İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06002FD0G7SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06002fd0g7sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-dis-altin-dekorlu-ic-beyaz-falg06002fd0g7sz0",
     "specs": {
       "Référence": "FALG06002FD0G7SZ0",
@@ -2269,7 +2271,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Dış Mat Rose Gold Kaplama İç Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG06002FD0G8SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg06002fd0g8sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-dis-mat-rose-gold-kaplama-ic-saten-beyaz-falg06002fd0g8sz0",
     "specs": {
       "Référence": "FALG06002FD0G8SZ0",
@@ -2289,7 +2291,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04701FD0W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04701fd0w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-saten-beyaz-falg04701fd0w4sz0",
     "specs": {
       "Référence": "FALG04701FD0W4SZ0",
@@ -2309,7 +2311,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Rose Gold Dekorlu Hazne Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04701FD009SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04701fd009sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-rose-gold-dekorlu-hazne-beyaz-falg04701fd009sz0",
     "specs": {
       "Référence": "FALG04701FD009SZ0",
@@ -2329,7 +2331,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız İnci Mavisi",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04601FD0D0SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04601fd0d0sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-inci-mavisi-falg04601fd0d0sz0",
     "specs": {
       "Référence": "FALG04601FD0D0SZ0",
@@ -2349,7 +2351,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Dış Rose Gold Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04601FD0G5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04601fd0g5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-dis-rose-gold-kaplama-ic-beyaz-falg04601fd0g5sz0",
     "specs": {
       "Référence": "FALG04601FD0G5SZ0",
@@ -2369,7 +2371,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Deliksiz Taşma Kanalsız Dış Altın Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04601FD0G2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04601fd0g2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-deliksiz-tasma-kanalsiz-dis-altin-kaplama-ic-beyaz-falg04601fd0g2sz0",
     "specs": {
       "Référence": "FALG04601FD0G2SZ0",
@@ -2389,7 +2391,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Dış Altın Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04401FD1G2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04401fd1g2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-dis-altin-kaplama-ic-beyaz-falg04401fd1g2sz0",
     "specs": {
       "Référence": "FALG04401FD1G2SZ0",
@@ -2409,7 +2411,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Dış Platin Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04401FD1X2SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04401fd1x2sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-dis-platin-kaplama-ic-beyaz-falg04401fd1x2sz0",
     "specs": {
       "Référence": "FALG04401FD1X2SZ0",
@@ -2429,7 +2431,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Dış Rose Gold Kaplama İç Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04401FD1G5SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04401fd1g5sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-dis-rose-gold-kaplama-ic-beyaz-falg04401fd1g5sz0",
     "specs": {
       "Référence": "FALG04401FD1G5SZ0",
@@ -2449,7 +2451,7 @@ export const sanitaireData = [
     "name": "Flame",
     "fullName": "Flame - Gövde Üstü Lavabo Batarya Delikli Saten Beyaz",
     "category": "Lavabo",
-    "image": "https://bienseramik.b-cdn.net/uploads/FALG04401FD1W4SZ0.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/falg04401fd1w4sz0.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/lavabo/flame-govde-ustu-lavabo-batarya-delikli-saten-beyaz-falg04401fd1w4sz0",
     "specs": {
       "Référence": "FALG04401FD1W4SZ0",
@@ -2469,7 +2471,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Pisuvar Üstten Su Girişli",
     "category": "Urinoir & Cloisons",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPPS05201VSUW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npps05201vsuw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/pisuar-ve-ara-bolmeler/neptun-pisuvar-ustten-su-girisli-npps05201vsuw5000",
     "specs": {
       "Référence": "NPPS05201VSUW5000",
@@ -2487,7 +2489,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Pisuvar Arkadan Su Girişli",
     "category": "Urinoir & Cloisons",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPPS05201VSAW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/npps05201vsaw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/pisuar-ve-ara-bolmeler/neptun-pisuvar-arkadan-su-girisli-npps05201vsaw5000",
     "specs": {
       "Référence": "NPPS05201VSAW5000",
@@ -2505,7 +2507,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Pisuvar Arkadan Su Girişli Elektrikli / Pilli",
     "category": "Urinoir & Cloisons",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRPS06205VSAW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrps06205vsaw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/pisuar-ve-ara-bolmeler/harmony-pisuvar-arkadan-su-girisli-elektrikli---pilli-hrps06205vsaw5000",
     "specs": {
       "Référence": "HRPS06205VSAW5000",
@@ -2523,7 +2525,7 @@ export const sanitaireData = [
     "name": "Neptün",
     "fullName": "Neptün - Pisuvar Ara Bölme",
     "category": "Urinoir & Cloisons",
-    "image": "https://bienseramik.b-cdn.net/uploads/NPPA06801V00W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/nppa06801v00w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/pisuar-ve-ara-bolmeler/neptun-pisuvar-ara-bolme-nppa06801v00w5000",
     "specs": {
       "Référence": "NPPA06801V00W5000",
@@ -2541,7 +2543,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tek Parça Hela Taşı Çevre Yıkamalı Anahar Tipi Arkadan Su Girişli",
     "category": "Cuvette à la turque",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPHT05002VSAW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpht05002vsaw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/hela-taslari/tek-parca-tek-parca-hela-tasi-cevre-yikamali-anahar-tipi-arkadan-su-girisli-tpht05002vsaw5000",
     "specs": {
       "Référence": "TPHT05002VSAW5000",
@@ -2558,7 +2560,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tek Parça Hela Taşı Çevre Yıkamalı Ay Tipi Arkadan Su Girişli",
     "category": "Cuvette à la turque",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPHT05001VSAW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpht05001vsaw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/hela-taslari/tek-parca-tek-parca-hela-tasi-cevre-yikamali-ay-tipi-arkadan-su-girisli-tpht05001vsaw5000",
     "specs": {
       "Référence": "TPHT05001VSAW5000",
@@ -2575,7 +2577,7 @@ export const sanitaireData = [
     "name": "Tek Parça",
     "fullName": "Tek Parça - Tek Parça Hela Taşı Çevre Yıkamalı Arkadan Su Girişli",
     "category": "Cuvette à la turque",
-    "image": "https://bienseramik.b-cdn.net/uploads/TPHT06001VSAW5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/tpht06001vsaw5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/hela-taslari/tek-parca-tek-parca-hela-tasi-cevre-yikamali-arkadan-su-girisli-tpht06001vsaw5000",
     "specs": {
       "Référence": "TPHT06001VSAW5000",
@@ -2592,7 +2594,7 @@ export const sanitaireData = [
     "name": "Capri",
     "fullName": "Capri - Yerden Bide",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/CPBY06201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/cpby06201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/capri-yerden-bide-cpby06201vd1w5000",
     "specs": {
       "Référence": "CPBY06201VD1W5000",
@@ -2610,7 +2612,7 @@ export const sanitaireData = [
     "name": "Flash",
     "fullName": "Flash - Asma Bide",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/FLBA05201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/flba05201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/flash-asma-bide-flba05201vd1w5000",
     "specs": {
       "Référence": "FLBA05201VD1W5000",
@@ -2628,7 +2630,7 @@ export const sanitaireData = [
     "name": "Pent",
     "fullName": "Pent - Asma Bide",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/PNBA05201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/pnba05201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/pent-asma-bide-pnba05201vd1w5000",
     "specs": {
       "Référence": "PNBA05201VD1W5000",
@@ -2646,7 +2648,7 @@ export const sanitaireData = [
     "name": "Solid",
     "fullName": "Solid - Asma Bide Gizli Montaj",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/SOBA05201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/soba05201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/solid-asma-bide-gizli-montaj-soba05201vd1w5000",
     "specs": {
       "Référence": "SOBA05201VD1W5000",
@@ -2664,7 +2666,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Bide Gizli Montaj",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRBA05201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrba05201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/harmony-asma-bide-gizli-montaj-hrba05201vd1w5000",
     "specs": {
       "Référence": "HRBA05201VD1W5000",
@@ -2682,7 +2684,7 @@ export const sanitaireData = [
     "name": "Harmony",
     "fullName": "Harmony - Asma Bide Gizli Montaj",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/HRBA05203VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/hrba05203vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/harmony-asma-bide-gizli-montaj-hrba05203vd1w5000",
     "specs": {
       "Référence": "HRBA05203VD1W5000",
@@ -2700,7 +2702,7 @@ export const sanitaireData = [
     "name": "Alesta",
     "fullName": "Alesta - Asma Bide Gizli Montaj",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/ALBA05401VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/alba05401vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/alesta-asma-bide-gizli-montaj-alba05401vd1w5000",
     "specs": {
       "Référence": "ALBA05401VD1W5000",
@@ -2718,7 +2720,7 @@ export const sanitaireData = [
     "name": "Vokha",
     "fullName": "Vokha - Asma Bide Gizli Montaj",
     "category": "Bidet",
-    "image": "https://bienseramik.b-cdn.net/uploads/MDBA05201VD1W5000.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/mdba05201vd1w5000.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/seramik-saglik-gerecleri/bide/vokha-asma-bide-gizli-montaj-mdba05201vd1w5000",
     "specs": {
       "Référence": "MDBA05201VD1W5000",

@@ -1,6 +1,8 @@
 // Données Aderka — Portes Pivot Aluminium
+import { ASSET_BASE } from '../config/assets.js';
+
 const makeImg = (hash) =>
-  `https://static.wixstatic.com/media/${hash}/v1/fill/w_500,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/door.png`;
+  `${ASSET_BASE}/ext/aderka/${hash.replace(/~mv2\.\w+$/, '').toLowerCase()}.webp`;
 
 export const aderkaData = [
   // ── Exclusive (3 modèles) ──────────────────────────────────────
@@ -184,8 +186,8 @@ export const aderkaData = [
 ];
 
 export const seriesCovers = {
-  Exclusive: `https://static.wixstatic.com/media/79d85a_016317d6d2ec4f67bef7c7e913cec53d~mv2.png/v1/fill/w_500,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/door.png`,
-  Stoneline: `https://static.wixstatic.com/media/79d85a_997e8ace49c9493cbd2cb2a9279de793~mv2.png/v1/fill/w_500,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/door.png`,
-  Elegance:  `https://static.wixstatic.com/media/79d85a_930ee5369c6a4c2f800cd3b7f1e17f19~mv2.png/v1/fill/w_500,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/door.png`,
-  Woodline:  `https://static.wixstatic.com/media/79d85a_d6858c5b850240d081c9ea18498b3a1a~mv2.png/v1/fill/w_500,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/door.png`,
+  Exclusive: `${ASSET_BASE}/ext/aderka/79d85a_016317d6d2ec4f67bef7c7e913cec53d.webp`,
+  Stoneline: `${ASSET_BASE}/ext/aderka/79d85a_997e8ace49c9493cbd2cb2a9279de793.webp`,
+  Elegance:  `${ASSET_BASE}/ext/aderka/79d85a_930ee5369c6a4c2f800cd3b7f1e17f19.webp`,
+  Woodline:  `${ASSET_BASE}/ext/aderka/79d85a_d6858c5b850240d081c9ea18498b3a1a.webp`,
 };

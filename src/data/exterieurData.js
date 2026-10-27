@@ -1,4 +1,6 @@
-const B = 'https://www.geniuspergola.com/img';
+import { ASSET_BASE } from '../config/assets.js';
+
+const B = `${ASSET_BASE}/ext/genius`;
 
 export const exterieurCategories = [
   { slug: 'pergola',    name: 'Pergolas' },
@@ -11,7 +13,7 @@ export const exterieurProducts = [
     name: 'Pergola Entièrement Arrondie',
     mainCategory: 'pergola',
     cover: true,
-    image: `${B}/_1705122112019_.jpg`,
+    image: `${B}/_1705122112019_.webp`,
     description: 'Conçue pour apporter une esthétique unique aux espaces extérieurs, la pergola entièrement arrondie offre une protection optimale contre le soleil et la pluie. Sa structure en aluminium peint par électrolyse garantit une résistance durable aux intempéries.',
     specs: {
       'Matériau': 'Profilé aluminium',
@@ -27,7 +29,7 @@ export const exterieurProducts = [
     name: 'Pergola Droite',
     mainCategory: 'pergola',
     cover: true,
-    image: `${B}/_18571422112019_.jpg`,
+    image: `${B}/_18571422112019_.webp`,
     description: "La pergola droite classique alliant robustesse et élégance. Construite en profilés aluminium avec finition peinture électrostatique, elle s'adapte à tous les espaces extérieurs et offre une protection efficace contre les conditions climatiques.",
     specs: {
       'Matériau': 'Profilé aluminium',
@@ -43,7 +45,7 @@ export const exterieurProducts = [
     name: 'Pergola Droite Suspendue',
     mainCategory: 'pergola',
     cover: true,
-    image: `${B}/_1221126112019_.jpg`,
+    image: `${B}/_1221126112019_.webp`,
     description: "Modèle suspendu sans poteaux au sol, pour un espace dégagé et une vue imprenable. L'ouverture et la fermeture automatiques permettent une utilisation simple et confortable au quotidien.",
     specs: {
       'Matériau': 'Profilé aluminium',
@@ -58,7 +60,7 @@ export const exterieurProducts = [
     name: 'Pergola Arrondie',
     mainCategory: 'pergola',
     cover: true,
-    image: `${B}/_1201526112019_.jpg`,
+    image: `${B}/_1201526112019_.webp`,
     description: 'Structure à arche ovale adaptée aux grands espaces ouverts. Ce système offre une protection optimale contre le soleil et la pluie, tout en apportant une touche architecturale distinctive à vos terrasses et jardins.',
     specs: {
       'Matériau': 'Profilé aluminium',
@@ -74,7 +76,7 @@ export const exterieurProducts = [
     name: 'Pergola Arrondie Suspendue',
     mainCategory: 'pergola',
     cover: true,
-    image: `${B}/_1930622112019_.jpg`,
+    image: `${B}/_1930622112019_.webp`,
     description: 'Version suspendue de la pergola arrondie, sans poteaux porteurs. Ce modèle à grande portée convient aux vastes espaces et résiste aux conditions météorologiques les plus difficiles, tout en conservant une esthétique épurée.',
     specs: {
       'Matériau': 'Profilé aluminium',
@@ -90,7 +92,7 @@ export const exterieurProducts = [
     name: 'Store Zip',
     mainCategory: 'protection',
     cover: true,
-    image: `${B}/_19365022112019_.jpg`,
+    image: `${B}/_19365022112019_.webp`,
     description: "Store vertical à tissu transparent qui filtre les rayons du soleil tout en préservant la luminosité et la vue. Le système Zip motorisé se manoeuvre facilement et s'intègre parfaitement aux structures de pergola ou aux façades.",
     specs: {
       'Type': 'Store vertical ZIP',
@@ -105,7 +107,7 @@ export const exterieurProducts = [
     name: 'Vitrage Guillotine',
     mainCategory: 'protection',
     cover: true,
-    image: `${B}/_19385122112019_.jpg`,
+    image: `${B}/_19385122112019_.webp`,
     description: 'Système de vitrage automatique guillotine conçu pour fermer et protéger vos espaces extérieurs tout en maintenant la transparence. Idéal pour les terrasses et vérandas, il transforme un espace ouvert en espace clos en quelques secondes.',
     specs: {
       'Type': 'Vitrage automatique',

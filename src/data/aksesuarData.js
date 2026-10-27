@@ -1,11 +1,13 @@
 // Généré automatiquement — ne pas éditer manuellement
+import { ASSET_BASE } from '../config/assets.js';
+
 export const aksesuarData = [
   {
     "id": 1,
     "name": "Leda",
     "fullName": "Leda - Uzun Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010101.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010101.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-uzun-havluluk-krom-a0010101",
     "specs": {
       "Référence": "A0010101",
@@ -20,7 +22,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Yuvarlak Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010102.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010102.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-yuvarlak-havluluk-krom-a0010102",
     "specs": {
       "Référence": "A0010102",
@@ -35,7 +37,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Sabunluk Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010103.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010103.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-sabunluk-krom-a0010103",
     "specs": {
       "Référence": "A0010103",
@@ -50,7 +52,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Diş Fırçalık Krom",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010104.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010104.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-dis-fircalik-krom-a0010104",
     "specs": {
       "Référence": "A0010104",
@@ -65,7 +67,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Kapaksız Kağıtlık Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010105.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010105.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-kapaksiz-kagitlik-krom-a0010105",
     "specs": {
       "Référence": "A0010105",
@@ -80,7 +82,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Kağıtlık Kapaklı Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010106.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010106.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-kagitlik-kapakli-krom-a0010106",
     "specs": {
       "Référence": "A0010106",
@@ -95,7 +97,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - İkili V Askılık Krom",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010107.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010107.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-ikili-v-askilik-krom-a0010107",
     "specs": {
       "Référence": "A0010107",
@@ -110,7 +112,7 @@ export const aksesuarData = [
     "name": "Leda",
     "fullName": "Leda - Yedeklikli Kapaklı Kağıtlık Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0010108.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0010108.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/leda-yedeklikli-kapakli-kagitlik-krom-a0010108",
     "specs": {
       "Référence": "A0010108",
@@ -125,7 +127,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Uzun Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020101.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020101.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-uzun-havluluk-krom-a0020101",
     "specs": {
       "Référence": "A0020101",
@@ -140,7 +142,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Uzun Havluluk İpeksi Mat Siyah",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020701.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020701.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-uzun-havluluk-ipeksi-mat-siyah-a0020701",
     "specs": {
       "Référence": "A0020701",
@@ -155,7 +157,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Uzun Havluluk İpeksi Mat Beyaz",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020801.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020801.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-uzun-havluluk-ipeksi-mat-beyaz-a0020801",
     "specs": {
       "Référence": "A0020801",
@@ -170,7 +172,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Yuvarlak Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020102.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020102.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-yuvarlak-havluluk-krom-a0020102",
     "specs": {
       "Référence": "A0020102",
@@ -185,7 +187,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Yuvarlak Havluluk İpeksi Mat Siyah",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020702.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020702.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-yuvarlak-havluluk-ipeksi-mat-siyah-a0020702",
     "specs": {
       "Référence": "A0020702",
@@ -200,7 +202,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Yuvarlak Havluluk İpeksi Mat Beyaz",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020802.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020802.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-yuvarlak-havluluk-ipeksi-mat-beyaz-a0020802",
     "specs": {
       "Référence": "A0020802",
@@ -215,7 +217,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Sabunluk Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020103.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020103.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-sabunluk-krom-a0020103",
     "specs": {
       "Référence": "A0020103",
@@ -230,7 +232,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Sabunluk Krom İpeksi Mat Siyah",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020703.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020703.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-sabunluk-krom-ipeksi-mat-siyah-a0020703",
     "specs": {
       "Référence": "A0020703",
@@ -245,7 +247,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Sabunluk Krom İpeksi Mat Beyaz",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020803.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020803.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-sabunluk-krom-ipeksi-mat-beyaz-a0020803",
     "specs": {
       "Référence": "A0020803",
@@ -260,7 +262,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Diş Fırçalık Krom",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020104.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020104.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-dis-fircalik-krom-a0020104",
     "specs": {
       "Référence": "A0020104",
@@ -275,7 +277,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Diş Fırçalık İpeksi Mat Siyah",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020704.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020704.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-dis-fircalik-ipeksi-mat-siyah-a0020704",
     "specs": {
       "Référence": "A0020704",
@@ -290,7 +292,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Diş Fırçalık İpeksi Mat Beyaz",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020804.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020804.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-dis-fircalik-ipeksi-mat-beyaz-a0020804",
     "specs": {
       "Référence": "A0020804",
@@ -305,7 +307,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kapaksız Kağıtlık Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020105.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020105.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kapaksiz-kagitlik-krom-a0020105",
     "specs": {
       "Référence": "A0020105",
@@ -320,7 +322,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kapaksız Kağıtlık İpeksi Mat Siyah",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020705.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020705.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kapaksiz-kagitlik-ipeksi-mat-siyah-a0020705",
     "specs": {
       "Référence": "A0020705",
@@ -335,7 +337,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kapaksız Kağıtlık İpeksi Mat Beyaz",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020805.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020805.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kapaksiz-kagitlik-ipeksi-mat-beyaz-a0020805",
     "specs": {
       "Référence": "A0020805",
@@ -350,7 +352,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kağıtlık Kapaklı Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020106.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020106.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kagitlik-kapakli-krom-a0020106",
     "specs": {
       "Référence": "A0020106",
@@ -365,7 +367,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kağıtlık Kapaklı İpeksi Mat Siyah",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020706.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020706.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kagitlik-kapakli-ipeksi-mat-siyah-a0020706",
     "specs": {
       "Référence": "A0020706",
@@ -380,7 +382,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - Kağıtlık Kapaklı İpeksi Mat Beyaz",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020806.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020806.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-kagitlik-kapakli-ipeksi-mat-beyaz-a0020806",
     "specs": {
       "Référence": "A0020806",
@@ -395,7 +397,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - İkili Askılık Krom",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020107.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020107.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-ikili-askilik-krom-a0020107",
     "specs": {
       "Référence": "A0020107",
@@ -410,7 +412,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - İkili Askılık İpeksi Mat Siyah",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020707.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020707.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-ikili-askilik-ipeksi-mat-siyah-a0020707",
     "specs": {
       "Référence": "A0020707",
@@ -425,7 +427,7 @@ export const aksesuarData = [
     "name": "Aster",
     "fullName": "Aster - İkili Askılık İpeksi Mat Beyaz",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0020807.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0020807.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/aster-ikili-askilik-ipeksi-mat-beyaz-a0020807",
     "specs": {
       "Référence": "A0020807",
@@ -440,7 +442,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Uzun Havluluk",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030201.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030201.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-uzun-havluluk-a0030201",
     "specs": {
       "Référence": "A0030201",
@@ -455,7 +457,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Uzun Havluluk PVD Altın",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030302.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030302.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-uzun-havluluk-pvd-altin-a0030302",
     "specs": {
       "Référence": "A0030302",
@@ -470,7 +472,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Uzun Havluluk PVD Rose Gold",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030403.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030403.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-uzun-havluluk-pvd-rose-gold-a0030403",
     "specs": {
       "Référence": "A0030403",
@@ -485,7 +487,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Uzun Havluluk Mat Siyah",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030504.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030504.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-uzun-havluluk-mat-siyah-a0030504",
     "specs": {
       "Référence": "A0030504",
@@ -500,7 +502,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Sabunluk",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030205.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030205.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-sabunluk-a0030205",
     "specs": {
       "Référence": "A0030205",
@@ -515,7 +517,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Sabunluk PVD Altın",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030306.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030306.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-sabunluk-pvd-altin-a0030306",
     "specs": {
       "Référence": "A0030306",
@@ -530,7 +532,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Sabunluk PVD Rose Gold",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030407.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030407.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-sabunluk-pvd-rose-gold-a0030407",
     "specs": {
       "Référence": "A0030407",
@@ -545,7 +547,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Sabunluk Mat Siyah",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030508.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030508.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-sabunluk-mat-siyah-a0030508",
     "specs": {
       "Référence": "A0030508",
@@ -560,7 +562,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Diş Fırçalık",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030209.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030209.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-dis-fircalik-a0030209",
     "specs": {
       "Référence": "A0030209",
@@ -575,7 +577,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Diş Fırçalık PVD Altın",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030310.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030310.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-dis-fircalik-pvd-altin-a0030310",
     "specs": {
       "Référence": "A0030310",
@@ -590,7 +592,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Diş Fırçalık PVD Rose Gold",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030411.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030411.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-dis-fircalik-pvd-rose-gold-a0030411",
     "specs": {
       "Référence": "A0030411",
@@ -605,7 +607,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Diş Fırçalık Mat Siyah",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030512.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030512.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-dis-fircalik-mat-siyah-a0030512",
     "specs": {
       "Référence": "A0030512",
@@ -620,7 +622,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Kağıtlık",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030213.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030213.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-kagitlik-a0030213",
     "specs": {
       "Référence": "A0030213",
@@ -635,7 +637,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Kağıtlık PVD Altın",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030314.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030314.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-kagitlik-pvd-altin-a0030314",
     "specs": {
       "Référence": "A0030314",
@@ -650,7 +652,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Kağıtlık PVD Rose Gold",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030415.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030415.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-kagitlik-pvd-rose-gold-a0030415",
     "specs": {
       "Référence": "A0030415",
@@ -665,7 +667,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Kağıtlık Mat Siyah",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030516.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030516.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-kagitlik-mat-siyah-a0030516",
     "specs": {
       "Référence": "A0030516",
@@ -680,7 +682,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Tekli Askılık",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030217.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030217.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-tekli-askilik-a0030217",
     "specs": {
       "Référence": "A0030217",
@@ -695,7 +697,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Tekli Askılık PVD Altın",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030318.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030318.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-tekli-askilik-pvd-altin-a0030318",
     "specs": {
       "Référence": "A0030318",
@@ -710,7 +712,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Tekli Askılık PVD Rose Gold",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030419.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030419.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-tekli-askilik-pvd-rose-gold-a0030419",
     "specs": {
       "Référence": "A0030419",
@@ -725,7 +727,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Tekli Askılık Mat Siyah",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030520.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030520.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-tekli-askilik-mat-siyah-a0030520",
     "specs": {
       "Référence": "A0030520",
@@ -740,7 +742,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - İkili Askılık",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030221.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030221.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-ikili-askilik-a0030221",
     "specs": {
       "Référence": "A0030221",
@@ -755,7 +757,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - İkili Askılık PVD Altın",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030322.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030322.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-ikili-askilik-pvd-altin-a0030322",
     "specs": {
       "Référence": "A0030322",
@@ -770,7 +772,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - İkili Askılık PVD Rose Gold",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030423.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030423.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-ikili-askilik-pvd-rose-gold-a0030423",
     "specs": {
       "Référence": "A0030423",
@@ -785,7 +787,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - İkili Askılık Mat Siyah",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030524.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030524.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-ikili-askilik-mat-siyah-a0030524",
     "specs": {
       "Référence": "A0030524",
@@ -800,7 +802,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Klozet Fırçası",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030225.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030225.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-klozet-fircasi-a0030225",
     "specs": {
       "Référence": "A0030225",
@@ -815,7 +817,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Klozet Fırçası PVD Altın",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030326.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030326.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-klozet-fircasi-pvd-altin-a0030326",
     "specs": {
       "Référence": "A0030326",
@@ -830,7 +832,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Klozet Fırçası PVD Rose Gold",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030427.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030427.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-klozet-fircasi-pvd-rose-gold-a0030427",
     "specs": {
       "Référence": "A0030427",
@@ -845,7 +847,7 @@ export const aksesuarData = [
     "name": "Norma",
     "fullName": "Norma - Klozet Fırçası Mat Siyah",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0030528.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0030528.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/norma-klozet-fircasi-mat-siyah-a0030528",
     "specs": {
       "Référence": "A0030528",
@@ -860,7 +862,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Uzun Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040101.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040101.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-uzun-havluluk-krom-a0040101",
     "specs": {
       "Référence": "A0040101",
@@ -875,7 +877,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Uzun Havluluk Mat Siyah",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040502.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040502.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-uzun-havluluk-mat-siyah-a0040502",
     "specs": {
       "Référence": "A0040502",
@@ -890,7 +892,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Yuvarlak Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040103.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040103.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-yuvarlak-havluluk-krom-a0040103",
     "specs": {
       "Référence": "A0040103",
@@ -905,7 +907,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Yuvarlak Havluluk Mat Siyah",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040504.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040504.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-yuvarlak-havluluk-mat-siyah-a0040504",
     "specs": {
       "Référence": "A0040504",
@@ -920,7 +922,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Sabunluk Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040105.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040105.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-sabunluk-krom-a0040105",
     "specs": {
       "Référence": "A0040105",
@@ -935,7 +937,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Sabunluk Mat Siyah",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040506.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040506.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-sabunluk-mat-siyah-a0040506",
     "specs": {
       "Référence": "A0040506",
@@ -950,7 +952,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Diş Fırçalık Krom",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040107.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040107.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-dis-fircalik-krom-a0040107",
     "specs": {
       "Référence": "A0040107",
@@ -965,7 +967,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Diş Fırçalık Mat Siyah",
     "category": "Porte-brosses à dents",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040508.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040508.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-dis-fircalik-mat-siyah-a0040508",
     "specs": {
       "Référence": "A0040508",
@@ -980,7 +982,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Kağıtlık Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040109.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040109.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-kagitlik-krom-a0040109",
     "specs": {
       "Référence": "A0040109",
@@ -995,7 +997,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Kağıtlık Mat Siyah",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040510.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040510.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-kagitlik-mat-siyah-a0040510",
     "specs": {
       "Référence": "A0040510",
@@ -1010,7 +1012,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - İkili Askılık Krom",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040111.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040111.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-ikili-askilik-krom-a0040111",
     "specs": {
       "Référence": "A0040111",
@@ -1025,7 +1027,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - İkili Askılık Mat Siyah",
     "category": "Crochets",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040512.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040512.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-ikili-askilik-mat-siyah-a0040512",
     "specs": {
       "Référence": "A0040512",
@@ -1040,7 +1042,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Klozet Fırçası Krom",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040113.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040113.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-klozet-fircasi-krom-a0040113",
     "specs": {
       "Référence": "A0040113",
@@ -1055,7 +1057,7 @@ export const aksesuarData = [
     "name": "Pavo",
     "fullName": "Pavo - Klozet Fırçası Mat Siyah",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0040514.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0040514.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/pavo-klozet-fircasi-mat-siyah-a0040514",
     "specs": {
       "Référence": "A0040514",
@@ -1070,7 +1072,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Tekli Köşe Oval Süngerlik Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050101.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050101.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-tekli-kose-oval-sungerlik-krom-a0050101",
     "specs": {
       "Référence": "A0050101",
@@ -1086,7 +1088,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - İkili Köşe Oval Süngerlik Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050102.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050102.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-ikili-kose-oval-sungerlik-krom-a0050102",
     "specs": {
       "Référence": "A0050102",
@@ -1102,7 +1104,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Üçlü Köşe Oval Süngerlik Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050103.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050103.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-uclu-kose-oval-sungerlik-krom-a0050103",
     "specs": {
       "Référence": "A0050103",
@@ -1118,7 +1120,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Tekli Dikdörtgen Süngerlik Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050104.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050104.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-tekli-dikdortgen-sungerlik-krom-a0050104",
     "specs": {
       "Référence": "A0050104",
@@ -1133,7 +1135,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - İkili Dikdörtgen Süngerlik Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050105.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050105.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-ikili-dikdortgen-sungerlik-krom-a0050105",
     "specs": {
       "Référence": "A0050105",
@@ -1148,7 +1150,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Destekli Raf Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050106.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050106.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-destekli-raf-havluluk-krom-a0050106",
     "specs": {
       "Référence": "A0050106",
@@ -1163,7 +1165,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - U Destekli Raf Havluluk Krom",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050107.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050107.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-u-destekli-raf-havluluk-krom-a0050107",
     "specs": {
       "Référence": "A0050107",
@@ -1178,7 +1180,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Düz Küvet Tutamağı Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050108.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050108.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-duz-kuvet-tutamagi-krom-a0050108",
     "specs": {
       "Référence": "A0050108",
@@ -1194,7 +1196,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Düz Küvet Tutamağı Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050109.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050109.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-duz-kuvet-tutamagi-krom-a0050109",
     "specs": {
       "Référence": "A0050109",
@@ -1210,7 +1212,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Açılı Küvet Tutamağı Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050110.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050110.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-acili-kuvet-tutamagi-krom-a0050110",
     "specs": {
       "Référence": "A0050110",
@@ -1225,7 +1227,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Açılı ve Süngerlikli Küvet Tutamağı Krom",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050111.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050111.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-acili-ve-sungerlikli-kuvet-tutamagi-krom-a0050111",
     "specs": {
       "Référence": "A0050111",
@@ -1240,7 +1242,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Yedek Kağıtlık Krom",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050112.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050112.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-yedek-kagitlik-krom-a0050112",
     "specs": {
       "Référence": "A0050112",
@@ -1255,7 +1257,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Sıvı Sabunluk Montajlı Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050113.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050113.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-sivi-sabunluk-montajli-krom-a0050113",
     "specs": {
       "Référence": "A0050113",
@@ -1270,7 +1272,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Tezgah Üstü Sıvı Sabunluk Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050114.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050114.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-tezgah-ustu-sivi-sabunluk-krom-a0050114",
     "specs": {
       "Référence": "A0050114",
@@ -1285,7 +1287,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - WC Klozet Seti Parlak Paslanmaz Çelik",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050215.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050215.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-wc-klozet-seti-parlak-paslanmaz-celik-a0050215",
     "specs": {
       "Référence": "A0050215",
@@ -1300,7 +1302,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - WC Klozet Seti Mat Siyah",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050516.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050516.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-wc-klozet-seti-mat-siyah-a0050516",
     "specs": {
       "Référence": "A0050516",
@@ -1315,7 +1317,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 3 L Pedallı Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050217.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050217.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-3-l-pedalli-cop-kovasi-parlak-paslanmaz-celik-a0050217",
     "specs": {
       "Référence": "A0050217",
@@ -1330,7 +1332,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 5 L Pedallı Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050218.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050218.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-5-l-pedalli-cop-kovasi-parlak-paslanmaz-celik-a0050218",
     "specs": {
       "Référence": "A0050218",
@@ -1345,7 +1347,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 12 L Pedallı Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050219.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050219.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-12-l-pedalli-cop-kovasi-parlak-paslanmaz-celik-a0050219",
     "specs": {
       "Référence": "A0050219",
@@ -1360,7 +1362,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 3 L Çemberli Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050220.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050220.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-3-l-cemberli-cop-kovasi-parlak-paslanmaz-celik-a0050220",
     "specs": {
       "Référence": "A0050220",
@@ -1375,7 +1377,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 5 L Çemberli Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050221.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050221.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-5-l-cemberli-cop-kovasi-parlak-paslanmaz-celik-a0050221",
     "specs": {
       "Référence": "A0050221",
@@ -1390,7 +1392,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - 12 L Çemberli Çöp Kovası Parlak Paslanmaz Çelik",
     "category": "Poubelles",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050222.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050222.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-12-l-cemberli-cop-kovasi-parlak-paslanmaz-celik-a0050222",
     "specs": {
       "Référence": "A0050222",
@@ -1405,7 +1407,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Klozet Fırçası Yerden Parlak Paslanmaz Çelik",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050223.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050223.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-klozet-fircasi-yerden-parlak-paslanmaz-celik-a0050223",
     "specs": {
       "Référence": "A0050223",
@@ -1420,7 +1422,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Klozet Fırçası Duvara Montajlı Parlak Paslanmaz Çelik",
     "category": "Brosses WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050224.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050224.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-klozet-fircasi-duvara-montajli-parlak-paslanmaz-celik-a0050224",
     "specs": {
       "Référence": "A0050224",
@@ -1435,7 +1437,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Jumbo WC Kağıtlık Mat Paslanmaz Çelik",
     "category": "Dérouleurs papier WC",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050625.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050625.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-jumbo-wc-kagitlik-mat-paslanmaz-celik-a0050625",
     "specs": {
       "Référence": "A0050625",
@@ -1450,7 +1452,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - WC Kağıt Verici Mat Paslanmaz Çelik",
     "category": "Accessoires salle de bain",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050627.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050627.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-wc-kagit-verici-mat-paslanmaz-celik-a0050627",
     "specs": {
       "Référence": "A0050627",
@@ -1465,7 +1467,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - WC Kağıt Havluluk 400 Adet Mat Paslanmaz Çelik",
     "category": "Porte-serviettes",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050628.jpg?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050628.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-wc-kagit-havluluk-400-adet-mat-paslanmaz-celik-a0050628",
     "specs": {
       "Référence": "A0050628",
@@ -1480,7 +1482,7 @@ export const aksesuarData = [
     "name": "Lyra",
     "fullName": "Lyra - Ankastre Sıvı Sabunluk Krom",
     "category": "Porte-savons",
-    "image": "https://bienseramik.b-cdn.net/uploads/A0050129.png?width=800&height=800",
+    "image": `${ASSET_BASE}/ext/bienseramik/a0050129.webp`,
     "href": "https://www.bienseramik.com.tr/banyolar/banyo-aksesuarlari/lyra-ankastre-sivi-sabunluk-krom-a0050129",
     "specs": {
       "Référence": "A0050129",
