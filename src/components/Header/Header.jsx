@@ -35,7 +35,7 @@ const LangSwitcher = () => {
 
   const toggle = (lang) => {
     i18n.changeLanguage(lang);
-    localStorage.setItem('lang', lang);
+    try { localStorage.setItem('lang', lang); } catch { /* stockage indisponible */ }
   };
 
   return (

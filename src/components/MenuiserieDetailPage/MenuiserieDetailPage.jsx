@@ -5,8 +5,10 @@ import './MenuiserieDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { menuiserieSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
 const MenuiserieDetailPage = () => {
+  const { t } = useTranslation();
   const { productId } = useParams();
   const [lightbox, setLightbox] = useState(false);
   const [variantIdx, setVariantIdx] = useState(0);
@@ -14,6 +16,7 @@ const MenuiserieDetailPage = () => {
 
   const product = menuiserieProducts.find(p => p.id === productId);
   const catLabel = menuiserieCategories.find(c => c.slug === product?.mainCategory)?.name;
+  const catText = catLabel && t(`menuiserie.cats.${product.mainCategory}`, catLabel);
   const similar = product
     ? menuiserieProducts.filter(p => p.mainCategory === product.mainCategory && p.id !== product.id).slice(0, 4)
     : [];
@@ -49,9 +52,9 @@ const MenuiserieDetailPage = () => {
       <SEO {...menuiserieSeo(product, catLabel)} />
       {/* Breadcrumb */}
       <div className="mdet-breadcrumb">
-        <Link to="/menuiserie" className="mdet-bread-link">Menuiserie</Link>
+        <Link to="/menuiserie" className="mdet-bread-link">{t('menuiserie.crumb')}</Link>
         <span className="mdet-bread-sep">/</span>
-        <Link to={`/menuiserie?cat=${product.mainCategory}`} className="mdet-bread-link">{catLabel}</Link>
+        <Link to={`/menuiserie?cat=${product.mainCategory}`} className="mdet-bread-link">{catText}</Link>
         <span className="mdet-bread-sep">/</span>
         <span className="mdet-bread-current">{product.name}</span>
       </div>
@@ -62,7 +65,7 @@ const MenuiserieDetailPage = () => {
         <div
           className={`mdet-img-wrapper ${product.cover ? 'mdet-img-wrapper--cover' : ''}`}
           onClick={() => setLightbox(true)}
-          title="Voir en grand"
+          title={t('catalog.viewLarge')}
         >
           <img
             src={displayImage}
@@ -104,7 +107,7 @@ const MenuiserieDetailPage = () => {
             )}
           </div>
           <button className="mdet-desc-toggle" onClick={() => setDescExpanded(e => !e)}>
-            {descExpanded ? 'Voir moins' : 'Voir plus'}
+            {descExpanded ? t('catalog.seeLess') : t('catalog.seeMore')}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="13" height="13"
               style={{ transform: descExpanded ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>
               <path d="M6 9l6 6 6-6"/>
@@ -113,7 +116,7 @@ const MenuiserieDetailPage = () => {
 
           {displaySpecs && Object.keys(displaySpecs).length > 0 && (
             <div className="mdet-specs">
-              <h3 className="mdet-specs-title">CARACTÉRISTIQUES</h3>
+              <h3 className="mdet-specs-title">{t('catalog.specsTitle')}</h3>
               <table className="mdet-specs-table">
                 <tbody>
                   {Object.entries(displaySpecs).map(([key, val]) => (
@@ -127,14 +130,14 @@ const MenuiserieDetailPage = () => {
             </div>
           )}
 
-          <Link to={quoteUrl(product.name)} className="mdet-cta">Demander un devis</Link>
+          <Link to={quoteUrl(product.name)} className="mdet-cta">{t('catalog.requestQuote')}</Link>
         </div>
       </div>
 
       {/* Similar products */}
       {similar.length > 0 && (
         <div className="mdet-similar">
-          <h3 className="mdet-similar-title">AUTRES PRODUITS</h3>
+          <h3 className="mdet-similar-title">{t('catalog.otherProducts')}</h3>
           <div className="mdet-similar-grid">
             {similar.map(p => (
               <Link key={p.id} to={`/menuiserie/${p.id}`} className="mdet-similar-card">

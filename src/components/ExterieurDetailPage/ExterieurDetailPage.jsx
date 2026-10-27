@@ -5,13 +5,16 @@ import './ExterieurDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { exterieurSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
 const ExterieurDetailPage = () => {
+  const { t } = useTranslation();
   const { productId } = useParams();
   const [lightbox, setLightbox] = useState(false);
 
   const product = exterieurProducts.find(p => p.id === productId);
   const catLabel = exterieurCategories.find(c => c.slug === product?.mainCategory)?.name;
+  const catText = catLabel && t(`exterieur.cats.${product.mainCategory}`, catLabel);
   const similar = product
     ? exterieurProducts.filter(p => p.mainCategory === product.mainCategory && p.id !== product.id).slice(0, 4)
     : [];
@@ -35,9 +38,9 @@ const ExterieurDetailPage = () => {
       <SEO {...exterieurSeo(product, catLabel)} />
       {/* Breadcrumb */}
       <div className="edet-breadcrumb">
-        <Link to="/exterieur" className="edet-bread-link">Extérieur</Link>
+        <Link to="/exterieur" className="edet-bread-link">{t('exterieur.crumb')}</Link>
         <span className="edet-bread-sep">/</span>
-        <Link to={`/exterieur?cat=${product.mainCategory}`} className="edet-bread-link">{catLabel}</Link>
+        <Link to={`/exterieur?cat=${product.mainCategory}`} className="edet-bread-link">{catText}</Link>
         <span className="edet-bread-sep">/</span>
         <span className="edet-bread-current">{product.name}</span>
       </div>
@@ -48,7 +51,7 @@ const ExterieurDetailPage = () => {
         <div
           className="edet-img-wrapper"
           onClick={() => setLightbox(true)}
-          title="Voir en grand"
+          title={t('catalog.viewLarge')}
         >
           <img
             src={product.image}
@@ -64,7 +67,7 @@ const ExterieurDetailPage = () => {
         </div>
 
         <div className="edet-info">
-          <span className="edet-cat">{catLabel}</span>
+          <span className="edet-cat">{catText}</span>
           <h1 className="edet-name">{product.name}</h1>
           <div className="edet-gold-line"></div>
 
@@ -72,7 +75,7 @@ const ExterieurDetailPage = () => {
 
           {product.specs && Object.keys(product.specs).length > 0 && (
             <div className="edet-specs">
-              <h3 className="edet-specs-title">CARACTÉRISTIQUES</h3>
+              <h3 className="edet-specs-title">{t('catalog.specsTitle')}</h3>
               <table className="edet-specs-table">
                 <tbody>
                   {Object.entries(product.specs).map(([key, val]) => (
@@ -86,14 +89,14 @@ const ExterieurDetailPage = () => {
             </div>
           )}
 
-          <Link to={quoteUrl(product.name)} className="edet-cta">Demander un devis</Link>
+          <Link to={quoteUrl(product.name)} className="edet-cta">{t('catalog.requestQuote')}</Link>
         </div>
       </div>
 
       {/* Similar products */}
       {similar.length > 0 && (
         <div className="edet-similar">
-          <h3 className="edet-similar-title">AUTRES PRODUITS</h3>
+          <h3 className="edet-similar-title">{t('catalog.otherProducts')}</h3>
           <div className="edet-similar-grid">
             {similar.map(p => (
               <Link key={p.id} to={`/exterieur/${p.id}`} className="edet-similar-card">

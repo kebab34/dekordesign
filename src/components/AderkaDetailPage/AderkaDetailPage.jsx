@@ -5,29 +5,10 @@ import './AderkaDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { aderkaDoorSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
-const SERIES_SPECS = {
-  Exclusive: {
-    finition: 'Laquée mat',
-    style: 'Architecturale',
-    description: "La série Exclusive incarne l'alliance entre rigueur architecturale et sophistication absolue. Ses lignes épurées et ses proportions maîtrisées en font un élément signature pour les entrées haut de gamme. Chaque modèle est conçu pour s'imposer comme une pièce maîtresse, alliant résistance et esthétique intemporelle.",
-  },
-  Stoneline: {
-    finition: 'Effet pierre naturelle',
-    style: 'Minérale',
-    description: "Stoneline réinvente la porte pivot en intégrant une finition effet pierre naturelle d'une authenticité remarquable. Ce traitement de surface unique confère à chaque porte un caractère minéral fort, transformant l'entrée en une déclaration artistique tout en conservant toutes les performances techniques de l'aluminium.",
-  },
-  Elegance: {
-    finition: 'Moderne élégante',
-    style: 'Contemporaine',
-    description: "La série Elegance décline la porte pivot en dix expressions distinctes, toutes animées par un même fil conducteur : l'élégance contemporaine sans ostentation. Des formes travaillées, des jeux de matières subtils et une finition soignée font de chaque modèle une invitation à l'entrée qui marque les esprits durablement.",
-  },
-  Woodline: {
-    finition: 'Effet bois authentique',
-    style: 'Naturelle',
-    description: "Woodline combine la chaleur du bois avec les performances inégalées de l'aluminium. Sa texture bois authentique est obtenue par un procédé de thermolaquage haute définition qui reproduit fidèlement les veines et nuances du bois naturel. Idéale pour les intérieurs modernes qui recherchent la chaleur sans les contraintes d'entretien.",
-  },
-};
+// Textes des séries (finition, style, description) : i18n aderka.series.<Série>
+const SERIES_KEYS = ['Exclusive', 'Stoneline', 'Elegance', 'Woodline'];
 
 const FEATURES = [
   {
@@ -36,8 +17,7 @@ const FEATURES = [
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
       </svg>
     ),
-    label: 'Aluminium haute résistance',
-    sub: 'Profilés aluminium renforcés',
+    id: 'aluminium',
   },
   {
     icon: (
@@ -46,8 +26,7 @@ const FEATURES = [
         <path d="M12 8v4l3 3" />
       </svg>
     ),
-    label: 'Système pivot haute performance',
-    sub: 'Rotation 360° — pivot dissimulé',
+    id: 'pivot',
   },
   {
     icon: (
@@ -56,8 +35,7 @@ const FEATURES = [
         <path d="M9 3v18M15 3v18M3 9h18M3 15h18" />
       </svg>
     ),
-    label: 'Isolation thermique & acoustique',
-    sub: 'Rupture de pont thermique',
+    id: 'insulation',
   },
   {
     icon: (
@@ -65,25 +43,26 @@ const FEATURES = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
-    label: 'Finitions sur-mesure',
-    sub: 'Coloris RAL au choix',
+    id: 'finishes',
   },
 ];
 
 const AderkaDetailPage = () => {
+  const { t } = useTranslation();
   const { series, slug } = useParams();
   const door = aderkaData.find(d => d.slug === slug);
 
   if (!door) {
     return (
       <div className="adkd-notfound">
-        <p>Modèle introuvable.</p>
-        <Link to="/portes-pivot">← Retour aux séries</Link>
+        <p>{t('catalog.modelNotFound')}</p>
+        <Link to="/portes-pivot">{t('aderka.back')}</Link>
       </div>
     );
   }
 
-  const specs = SERIES_SPECS[door.series] || SERIES_SPECS.Elegance;
+  const seriesKey = SERIES_KEYS.includes(door.series) ? door.series : 'Elegance';
+  const st = key => t(`aderka.series.${seriesKey}.${key}`);
 
   const sameSeries = aderkaData.filter(d => d.slug !== slug && d.series === door.series);
   const otherSeries = aderkaData.filter(d => d.slug !== slug && d.series !== door.series);
@@ -109,9 +88,9 @@ const AderkaDetailPage = () => {
         <div className="adkd-hero-info-col">
           {/* Breadcrumb */}
           <nav className="adkd-breadcrumb">
-            <Link to="/">Accueil</Link>
+            <Link to="/">{t('catalog.home')}</Link>
             <span>›</span>
-            <Link to="/portes-pivot">Portes Pivot</Link>
+            <Link to="/portes-pivot">{t('aderka.crumb')}</Link>
             <span>›</span>
             <Link to={`/portes-pivot/${series}`}>{door.series}</Link>
             <span>›</span>
@@ -122,43 +101,43 @@ const AderkaDetailPage = () => {
           <span className="adkd-series-badge">{door.series} Series</span>
           <h1 className="adkd-name">{door.name.toUpperCase()}</h1>
 
-          <p className="adkd-description">{specs.description}</p>
+          <p className="adkd-description">{st('description')}</p>
 
           {/* Specs grid */}
           <div className="adkd-specs">
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Matériau</span>
-              <span className="adkd-spec-value">Aluminium</span>
+              <span className="adkd-spec-label">{t('aderka.specs.material')}</span>
+              <span className="adkd-spec-value">{t('aderka.specs.aluminium')}</span>
             </div>
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Finition</span>
-              <span className="adkd-spec-value">{specs.finition}</span>
+              <span className="adkd-spec-label">{t('aderka.specs.finish')}</span>
+              <span className="adkd-spec-value">{st('finish')}</span>
             </div>
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Style</span>
-              <span className="adkd-spec-value">{specs.style}</span>
+              <span className="adkd-spec-label">{t('aderka.specs.style')}</span>
+              <span className="adkd-spec-value">{st('style')}</span>
             </div>
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Dimensions</span>
-              <span className="adkd-spec-value">Sur-mesure</span>
+              <span className="adkd-spec-label">{t('aderka.specs.dimensions')}</span>
+              <span className="adkd-spec-value">{t('aderka.specs.custom')}</span>
             </div>
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Série</span>
+              <span className="adkd-spec-label">{t('aderka.specs.series')}</span>
               <span className="adkd-spec-value">{door.series}</span>
             </div>
             <div className="adkd-spec-item">
-              <span className="adkd-spec-label">Usage</span>
-              <span className="adkd-spec-value">Extérieur</span>
+              <span className="adkd-spec-label">{t('aderka.specs.usage')}</span>
+              <span className="adkd-spec-value">{t('aderka.specs.exterior')}</span>
             </div>
           </div>
 
           {/* CTA */}
           <div className="adkd-cta">
             <Link to={quoteUrl(`Porte pivot Aderka ${door.name}`)} className="adkd-btn-gold">
-              Demander un devis
+              {t('catalog.requestQuote')}
             </Link>
             <Link to={`/portes-pivot/${series}`} className="adkd-btn-outline">
-              Série {door.series}
+              {t('aderka.specs.series')} {door.series}
             </Link>
           </div>
         </div>
@@ -170,8 +149,8 @@ const AderkaDetailPage = () => {
           <div key={i} className="adkd-feature-item">
             <div className="adkd-feature-icon">{f.icon}</div>
             <div>
-              <p className="adkd-feature-label">{f.label}</p>
-              <p className="adkd-feature-sub">{f.sub}</p>
+              <p className="adkd-feature-label">{t(`aderka.features.${f.id}.label`)}</p>
+              <p className="adkd-feature-sub">{t(`aderka.features.${f.id}.sub`)}</p>
             </div>
           </div>
         ))}
@@ -182,7 +161,7 @@ const AderkaDetailPage = () => {
         <div className="adkd-related">
           <div className="adkd-related-header">
             <div className="adkd-gold-line" />
-            <h2 className="adkd-related-title">MODÈLES DE LA MÊME GAMME</h2>
+            <h2 className="adkd-related-title">{t('aderka.sameRange')}</h2>
           </div>
           <div className="adkd-related-grid">
             {related.map(r => (
@@ -190,7 +169,7 @@ const AderkaDetailPage = () => {
                 <div className="adkd-related-img-wrap">
                   <img src={r.image} alt={r.name} loading="lazy" />
                   <div className="adkd-related-overlay">
-                    <span>Voir le modèle</span>
+                    <span>{t('catalog.viewModel')}</span>
                   </div>
                 </div>
                 <div className="adkd-related-info">

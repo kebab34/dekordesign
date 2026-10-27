@@ -2,8 +2,17 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { carouselData } from '../../../data/content';
 import './Carousel.css';
+import { useTranslation } from 'react-i18next';
 
 const Carousel = () => {
+  const { t } = useTranslation();
+  // Textes des slides traduits (i18n carousel.slideN), images et liens dans data/content.js
+  const localizedSlides = carouselData.map((s, i) => ({
+    ...s,
+    title: t(`carousel.slide${i}.title`, s.title),
+    subtitle: t(`carousel.slide${i}.subtitle`, s.subtitle),
+    cta: { ...s.cta, label: t(`carousel.slide${i}.cta`, s.cta.label) },
+  }));
   const [slides, setSlides] = useState({
     current: 0,
     previous: null
@@ -84,7 +93,7 @@ const Carousel = () => {
       </div>
 
       {/* Slides */}
-      {carouselData.map((slide, index) => (
+      {localizedSlides.map((slide, index) => (
         <div
           key={index}
           className={getSlideClass(index)}

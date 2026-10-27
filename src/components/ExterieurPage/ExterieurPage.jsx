@@ -4,8 +4,10 @@ import SEO from '../SEO/SEO';
 import { exterieurProducts, exterieurCategories } from '../../data/exterieurData';
 import './ExterieurPage.css';
 import { PAGE_SEO } from '../../config/seoPages';
+import { useTranslation } from 'react-i18next';
 
 const ExterieurPage = () => {
+  const { t } = useTranslation();
   const location = useLocation();
   const [activeCat, setActiveCat] = useState('');
   const [search, setSearch] = useState('');
@@ -22,7 +24,8 @@ const ExterieurPage = () => {
     return true;
   });
 
-  const catLabel = exterieurCategories.find(c => c.slug === activeCat)?.name || '';
+  const catName = slug => t(`exterieur.cats.${slug}`, exterieurCategories.find(c => c.slug === slug)?.name || '');
+  const catLabel = activeCat ? catName(activeCat) : '';
 
   return (
     <section className="ext-page">
@@ -30,8 +33,8 @@ const ExterieurPage = () => {
       {/* Header */}
       <div className="ext-header">
         <div className="ext-gold-line"></div>
-        <h1 className="ext-title">EXTÉRIEUR</h1>
-        <p className="ext-subtitle">PERGOLAS &amp; PROTECTION SOLAIRE</p>
+        <h1 className="ext-title">{t('exterieur.title')}</h1>
+        <p className="ext-subtitle">{t('exterieur.subtitle')}</p>
       </div>
 
       {/* Category tabs */}
@@ -41,7 +44,7 @@ const ExterieurPage = () => {
             className={`ext-cat-btn ${activeCat === '' ? 'active' : ''}`}
             onClick={() => setActiveCat('')}
           >
-            Tout voir
+            {t('catalog.seeAll')}
           </button>
           {exterieurCategories.map(cat => (
             <button
@@ -49,7 +52,7 @@ const ExterieurPage = () => {
               className={`ext-cat-btn ${activeCat === cat.slug ? 'active' : ''}`}
               onClick={() => setActiveCat(cat.slug)}
             >
-              {cat.name}
+              {catName(cat.slug)}
             </button>
           ))}
         </div>
@@ -64,7 +67,7 @@ const ExterieurPage = () => {
           <input
             type="text"
             className="ext-search-input"
-            placeholder="Rechercher..."
+            placeholder={t('catalog.search')}
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -73,10 +76,10 @@ const ExterieurPage = () => {
           )}
         </div>
         <div className="ext-toolbar-right">
-          <span className="ext-count">{filtered.length} produit{filtered.length !== 1 ? 's' : ''}</span>
+          <span className="ext-count">{t('catalog.productsFound', { count: filtered.length })}</span>
           {(activeCat || search) && (
             <button className="ext-clear-btn" onClick={() => { setActiveCat(''); setSearch(''); }}>
-              Réinitialiser
+              {t('catalog.reset')}
             </button>
           )}
         </div>
@@ -116,7 +119,7 @@ const ExterieurPage = () => {
               </div>
               <div className="ext-card-info">
                 <span className="ext-card-cat">
-                  {exterieurCategories.find(c => c.slug === p.mainCategory)?.name}
+                  {catName(p.mainCategory)}
                 </span>
                 <h3 className="ext-card-name">{p.name}</h3>
               </div>
@@ -125,8 +128,8 @@ const ExterieurPage = () => {
         </div>
       ) : (
         <div className="ext-empty">
-          <p>Aucun produit trouvé.</p>
-          <button onClick={() => { setActiveCat(''); setSearch(''); }}>Réinitialiser les filtres</button>
+          <p>{t('catalog.noResults')}</p>
+          <button onClick={() => { setActiveCat(''); setSearch(''); }}>{t('catalog.resetFilters')}</button>
         </div>
       )}
     </section>

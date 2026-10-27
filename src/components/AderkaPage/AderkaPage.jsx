@@ -5,6 +5,7 @@ import './AderkaPage.css';
 import SEO from '../SEO/SEO';
 import { aderkaSeriesSeo } from '../../config/seo';
 import { PAGE_SEO } from '../../config/seoPages';
+import { useTranslation } from 'react-i18next';
 
 const SERIES = [
   { slug: 'exclusive', name: 'Exclusive' },
@@ -14,6 +15,7 @@ const SERIES = [
 ];
 
 const AderkaPage = () => {
+  const { t } = useTranslation();
   const { series } = useParams();
   const navigate = useNavigate();
 
@@ -32,10 +34,10 @@ const AderkaPage = () => {
       <div className="ade-header">
         <div className="ade-gold-line" />
         <h1 className="ade-title">
-          {currentSeries ? currentSeries.name.toUpperCase() : 'PORTES PIVOT'}
+          {currentSeries ? currentSeries.name.toUpperCase() : t('aderka.crumb').toUpperCase()}
         </h1>
         <p className="ade-subtitle">
-          {filtered.length} modèle{filtered.length > 1 ? 's' : ''} — Aderka Door Systems
+          {t('catalog.modelsFound', { count: filtered.length })} — Aderka Door Systems
         </p>
       </div>
 
@@ -54,7 +56,7 @@ const AderkaPage = () => {
 
       {/* Back link */}
       <div className="ade-back">
-        <Link to="/portes-pivot" className="ade-back-link">← Toutes les séries</Link>
+        <Link to="/portes-pivot" className="ade-back-link">{t('aderka.allSeries')}</Link>
       </div>
 
       {/* Grid */}
@@ -71,7 +73,7 @@ const AderkaPage = () => {
               />
               {/* Hover overlay */}
               <div className="ade-overlay">
-                <span className="ade-overlay-label">Voir le modèle</span>
+                <span className="ade-overlay-label">{t('catalog.viewModel')}</span>
               </div>
               {/* Name at bottom (mobile) */}
               <div className="ade-name-overlay">

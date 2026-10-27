@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SEO from '../SEO/SEO';
 import './BienDetailPage.css';
 import { quoteUrl } from '../../config/company';
@@ -7,7 +8,8 @@ import { bienProductSeo } from '../../config/seo';
 
 // Page détail générique pour les catalogues Bien Seramik (voir ./catalogs/ pour la configuration)
 const BienDetailPage = ({ catalog }) => {
-  const { data, basePath, crumbLabel, backLabel, description } = catalog;
+  const { t } = useTranslation();
+  const { key, data, basePath } = catalog;
   const { productId } = useParams();
   const [lightbox, setLightbox] = useState(false);
 
@@ -17,8 +19,8 @@ const BienDetailPage = ({ catalog }) => {
     return (
       <section className="bcd-page">
         <div className="bcd-not-found">
-          <h2>Produit non trouvé</h2>
-          <Link to={basePath} className="bcd-back-link">{backLabel}</Link>
+          <h2>{t('catalog.notFound')}</h2>
+          <Link to={basePath} className="bcd-back-link">{t(`bien.${key}.back`)}</Link>
         </div>
       </section>
     );
@@ -47,9 +49,9 @@ const BienDetailPage = ({ catalog }) => {
       )}
 
       <div className="bcd-breadcrumb">
-        <Link to="/">Accueil</Link>
+        <Link to="/">{t('catalog.home')}</Link>
         <span>/</span>
-        <Link to={basePath}>{crumbLabel}</Link>
+        <Link to={basePath}>{t(`bien.${key}.crumb`)}</Link>
         <span>/</span>
         <span>{product.name}</span>
       </div>
@@ -84,7 +86,7 @@ const BienDetailPage = ({ catalog }) => {
               </div>
             ))}
             <div className="bcd-spec-row">
-              <span className="bcd-spec-label">Marque</span>
+              <span className="bcd-spec-label">{t('catalog.brand')}</span>
               <span className="bcd-spec-value">Bien Seramik</span>
             </div>
           </div>
@@ -92,8 +94,7 @@ const BienDetailPage = ({ catalog }) => {
           <div className="bcd-divider"></div>
 
           <p className="bcd-desc">
-            {description}
-            {' '}Pour plus d'informations ou pour obtenir un devis, contactez notre showroom.
+            {t(`bien.${key}.description`)} {t('catalog.contactShowroom')}
           </p>
 
           <div className="bcd-actions">
@@ -104,11 +105,11 @@ const BienDetailPage = ({ catalog }) => {
                   <polyline points="7 10 12 15 17 10"/>
                   <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
-                Fiche produit (.rar)
+                {t('catalog.productSheet')}
               </a>
             )}
             <Link to={quoteUrl(`${product.fullName} (réf. ${product.specs?.['Référence'] || product.id})`)} className="bcd-contact-btn">
-              Demander un devis
+              {t('catalog.requestQuote')}
             </Link>
           </div>
         </div>
@@ -118,7 +119,7 @@ const BienDetailPage = ({ catalog }) => {
         <div className="bcd-similar">
           <div className="bcd-section-header">
             <div className="bcd-gold-line"></div>
-            <h2 className="bcd-section-title">PRODUITS SIMILAIRES</h2>
+            <h2 className="bcd-section-title">{t('catalog.similar')}</h2>
           </div>
           <div className="bcd-similar-grid">
             {similar.map(p => (

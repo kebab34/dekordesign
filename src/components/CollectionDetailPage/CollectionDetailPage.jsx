@@ -60,7 +60,7 @@ const CollectionDetailPage = () => {
     return (
       <section className="cdp">
         <div className="cdp-not-found">
-          <h2>Collection non trouvée</h2>
+          <h2>{t('collectionDetail.notFound')}</h2>
           <Link to="/collections" className="cdp-back-btn">{t('collectionDetail.back')}</Link>
         </div>
       </section>
@@ -113,7 +113,7 @@ const CollectionDetailPage = () => {
           </button>
           <img
             src={lightbox.images[lightbox.index]}
-            alt="Vue agrandie"
+            alt={t('collectionDetail.zoomAlt')}
             className="cdp-lb-img"
             onClick={e => e.stopPropagation()}
           />

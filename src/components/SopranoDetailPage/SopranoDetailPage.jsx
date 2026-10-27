@@ -5,8 +5,10 @@ import './SopranoDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { sopranoSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
 const SopranoDetailPage = () => {
+  const { t } = useTranslation();
   const { slug } = useParams();
   const product = sopranoData.find(p => p.slug === slug);
   const [activeImg, setActiveImg] = useState(0);
@@ -15,8 +17,8 @@ const SopranoDetailPage = () => {
   if (!product) {
     return (
       <div className="spd-notfound">
-        <p>Modèle introuvable.</p>
-        <Link to="/cuisines-soprano">← Retour aux cuisines</Link>
+        <p>{t('catalog.modelNotFound')}</p>
+        <Link to="/cuisines-soprano">{t('soprano.back')}</Link>
       </div>
     );
   }
@@ -28,9 +30,9 @@ const SopranoDetailPage = () => {
       <SEO {...sopranoSeo(product)} />
       {/* Breadcrumb */}
       <nav className="spd-breadcrumb">
-        <Link to="/">Accueil</Link>
+        <Link to="/">{t('catalog.home')}</Link>
         <span>›</span>
-        <Link to="/cuisines-soprano">Cuisines sur Mesure</Link>
+        <Link to="/cuisines-soprano">{t('soprano.crumb')}</Link>
         <span>›</span>
         <span>{product.name}</span>
       </nav>
@@ -65,7 +67,7 @@ const SopranoDetailPage = () => {
           <div className="spd-gold-line"></div>
           <span className="spd-style-tag">{product.style}</span>
           <h1 className="spd-name">{product.name.toUpperCase()}</h1>
-          <p className="spd-category">Cuisine sur mesure · Soprano</p>
+          <p className="spd-category">{t('soprano.category')}</p>
 
           {product.description && (
             <p className="spd-description">{product.description}</p>
@@ -73,7 +75,7 @@ const SopranoDetailPage = () => {
 
           {product.colors.length > 0 && (
             <div className="spd-specs-block">
-              <h3 className="spd-specs-title">FINITIONS DISPONIBLES</h3>
+              <h3 className="spd-specs-title">{t('soprano.finishes')}</h3>
               <div className="spd-colors">
                 {product.colors.map(c => (
                   <span key={c} className="spd-color-badge">{c}</span>
@@ -83,12 +85,12 @@ const SopranoDetailPage = () => {
           )}
 
           <div className="spd-specs-block">
-            <h3 className="spd-specs-title">FABRICATION</h3>
-            <p className="spd-material">Sur mesure · Laque mate, bois, MDF premium</p>
+            <h3 className="spd-specs-title">{t('soprano.making')}</h3>
+            <p className="spd-material">{t('soprano.makingText')}</p>
           </div>
 
           <div className="spd-cta">
-            <Link to={quoteUrl(`Cuisine Soprano ${product.name}`)} className="spd-btn-gold">Demander un devis</Link>
+            <Link to={quoteUrl(`Cuisine Soprano ${product.name}`)} className="spd-btn-gold">{t('catalog.requestQuote')}</Link>
           </div>
         </div>
       </div>
@@ -109,7 +111,7 @@ const SopranoDetailPage = () => {
 
       {/* Modèles similaires */}
       <div className="spd-similar">
-        <h2 className="spd-similar-title">AUTRES MODÈLES</h2>
+        <h2 className="spd-similar-title">{t('catalog.otherModels')}</h2>
         <div className="spd-similar-grid">
           {similar.map(p => (
             <Link key={p.id} to={`/cuisines-soprano/${p.slug}`} className="spd-similar-card">

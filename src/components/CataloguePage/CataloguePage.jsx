@@ -8,48 +8,50 @@ import salleDeBainCatalogueImage from '../../image/catalogue/bain.png';
 import muralCatalogueImage from '../../image/catalogue/mur.png';  
 import SEO from '../SEO/SEO';
 import { PAGE_SEO } from '../../config/seoPages';
+import { useTranslation } from 'react-i18next';
 
 const catalogues = [
   {
     id: 1,
-    name: 'Catalogue Général',
+    key: 'general',
     image: generalCatalogueImage,
     pdf: assetUrl('catalogues/genel-katalog.pdf')
   },
   {
     id: 2,
-    name: 'Catalogue Bois',
+    key: 'bois',
     image: boisCatalogueImage,
     pdf: assetUrl('catalogues/ahsap-katalogu.pdf')
   },
   {
     id: 3,
-    name: 'Catalogue Oversize',
+    key: 'oversize',
     image: oversizeCatalogueImage,
     pdf: assetUrl('catalogues/oversize-katalogu.pdf')
   },
   {
     id: 4,
-    name: 'Catalogue Salle de Bain',
+    key: 'bain',
     image: salleDeBainCatalogueImage,
     pdf: assetUrl('catalogues/banyo-katalogu.pdf')
   },
   {
     id: 5,
-    name: 'Catalogue Mural',
+    key: 'mural',
     image: muralCatalogueImage,
     pdf: assetUrl('catalogues/duvar-katalogu.pdf')
   }
 ];
 
 const CataloguePage = () => {
+  const { t } = useTranslation();
   return (
     <section className="catalogue-page">
       <SEO {...PAGE_SEO['/catalogues']} canonical="/catalogues" />
       <div className="catalogue-header">
         <div className="gold-line"></div>
-        <h2 className="catalogue-title">NOS CATALOGUES</h2>
-        <p className="catalogue-subtitle">Téléchargez nos catalogues pour découvrir l'ensemble de nos collections</p>
+        <h1 className="catalogue-title">{t('catalogues.title')}</h1>
+        <p className="catalogue-subtitle">{t('catalogues.subtitle')}</p>
       </div>
 
       <div className="catalogue-grid">
@@ -63,7 +65,7 @@ const CataloguePage = () => {
             >
               <img
                 src={catalogue.image}
-                alt={catalogue.name}
+                alt={t(`catalogues.names.${catalogue.key}`)}
                 className="catalogue-image"
               />
               <div className="catalogue-overlay">
@@ -71,20 +73,21 @@ const CataloguePage = () => {
                   <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
                   <circle cx="12" cy="12" r="3"/>
                 </svg>
-                <span>Voir le catalogue</span>
+                <span>{t('catalogues.view')}</span>
               </div>
             </a>
             <div className="catalogue-info">
-              <h3 className="catalogue-name">{catalogue.name}</h3>
+              <h3 className="catalogue-name">{t(`catalogues.names.${catalogue.key}`)}</h3>
               <a
                 href={catalogue.pdf}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="catalogue-download-btn"
               >
                 <svg className="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
                 </svg>
-                Télécharger
+                {t('catalogues.download')}
               </a>
             </div>
           </div>

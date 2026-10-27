@@ -4,8 +4,10 @@ import SEO from '../SEO/SEO';
 import { menuiserieCategories, menuiserieProducts } from '../../data/menuiserieData';
 import './MenuiseriePage.css';
 import { PAGE_SEO } from '../../config/seoPages';
+import { useTranslation } from 'react-i18next';
 
 const MenuiseriePage = () => {
+  const { t } = useTranslation();
   const location = useLocation();
 
   const [activeCat, setActiveCat]       = useState('');
@@ -57,7 +59,8 @@ const MenuiseriePage = () => {
     setSearch('');
   };
 
-  const activeCatLabel = menuiserieCategories.find(c => c.slug === activeCat)?.name;
+  const catName = slug => t(`menuiserie.cats.${slug}`, menuiserieCategories.find(c => c.slug === slug)?.name || '');
+  const activeCatLabel = activeCat ? catName(activeCat) : '';
 
   return (
     <section className="men-page">
@@ -66,8 +69,8 @@ const MenuiseriePage = () => {
       {/* ── Header ─────────────────────────────────────────────── */}
       <div className="men-header">
         <div className="men-gold-line"></div>
-        <h1 className="men-title">MENUISERIE</h1>
-        <p className="men-subtitle">Fenêtres, portes et solutions sur mesure</p>
+        <h1 className="men-title">{t('menuiserie.title')}</h1>
+        <p className="men-subtitle">{t('menuiserie.subtitle')}</p>
       </div>
 
       {/* ── Catégories principales ──────────────────────────────── */}
@@ -77,7 +80,7 @@ const MenuiseriePage = () => {
             className={`men-cat-btn ${!activeCat ? 'active' : ''}`}
             onClick={() => handleMainCat('')}
           >
-            Tous
+            {t('catalog.all')}
           </button>
           {menuiserieCategories.map(cat => (
             <button
@@ -85,7 +88,7 @@ const MenuiseriePage = () => {
               className={`men-cat-btn ${activeCat === cat.slug ? 'active' : ''}`}
               onClick={() => handleMainCat(cat.slug)}
             >
-              {cat.name}
+              {catName(cat.slug)}
             </button>
           ))}
         </div>
@@ -99,7 +102,7 @@ const MenuiseriePage = () => {
               className={`men-subcat-btn ${!activeSubCat ? 'active' : ''}`}
               onClick={() => setActiveSubCat('')}
             >
-              Tout
+              {t('catalog.allShort')}
             </button>
             {subCats.map(sc => (
               <button
@@ -122,7 +125,7 @@ const MenuiseriePage = () => {
           </svg>
           <input
             type="text"
-            placeholder="Rechercher un produit..."
+            placeholder={t('catalog.searchProduct')}
             value={search}
             onChange={e => setSearch(e.target.value)}
             className="men-search-input"
@@ -134,10 +137,10 @@ const MenuiseriePage = () => {
 
         <div className="men-toolbar-right">
           <span className="men-count">
-            {filtered.length} produit{filtered.length > 1 ? 's' : ''}
+            {t('catalog.productsFound', { count: filtered.length })}
           </span>
           {hasFilters && (
-            <button className="men-clear-btn" onClick={clearAll}>Tout effacer</button>
+            <button className="men-clear-btn" onClick={clearAll}>{t('catalog.clearAll')}</button>
           )}
         </div>
       </div>
@@ -181,7 +184,7 @@ const MenuiseriePage = () => {
             </div>
             <div className="men-card-info">
               <span className="men-card-cat">
-                {menuiserieCategories.find(c => c.slug === product.mainCategory)?.name}
+                {catName(product.mainCategory)}
               </span>
               <h3 className="men-card-name">{product.name}</h3>
               {product.subCategory !== menuiserieCategories.find(c => c.slug === product.mainCategory)?.name && (
@@ -194,8 +197,8 @@ const MenuiseriePage = () => {
 
       {filtered.length === 0 && (
         <div className="men-empty">
-          <p>Aucun produit trouvé.</p>
-          <button onClick={clearAll}>Réinitialiser les filtres</button>
+          <p>{t('catalog.noResults')}</p>
+          <button onClick={clearAll}>{t('catalog.resetFilters')}</button>
         </div>
       )}
     </section>

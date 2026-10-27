@@ -2,11 +2,11 @@ import { tamamlayiciData, tamamlayiciCategories } from '../../../data/tamamlayic
 
 // La liste /accessoires garde sa propre page (TamamlayiciPage) ; seule la page détail est générique
 const tamamlayici = {
+  key: 'tamamlayici', // textes affichés : i18n bien.tamamlayici.*
   data: tamamlayiciData,
   categories: tamamlayiciCategories,
   basePath: '/accessoires',
-  crumbLabel: 'Accessoires salle de bain',
-  backLabel: 'Retour aux accessoires',
+  // Description des fiches pour le SEO (le texte affiché vient de i18n bien.<key>.description)
   description: 'Accessoire de salle de bain de qualité supérieure.',
 };
 

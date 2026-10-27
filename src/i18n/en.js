@@ -81,6 +81,8 @@ const en = {
 
   // ── Collection detail page ───────────────────────────────────────────────────
   collectionDetail: {
+    notFound: "Collection not found",
+    zoomAlt: "Enlarged view",
     back: 'Back to collections',
     home: 'Home',
     viewRender: 'View render',
@@ -102,6 +104,227 @@ const en = {
     quoteText: 'Area, size, colour: our team will prepare a tailored quote and welcome you to the showroom to see the tiles in person.',
     quoteButton: 'Request a quote',
     otherCollections: 'OTHER COLLECTIONS',
+  },
+
+  // ── Product lists and pages (shared) ───────────────────────────────────────────
+  catalog: {
+    allFem: "All",
+    searchTitle: "SEARCH",
+    modelPlaceholder: "Model name...",
+    collectionPlaceholder: "Collection name...",
+    finish: "FINISH",
+    brandTitle: "BRAND",
+    noModels: "No models found.",
+    noCollections: "No collections found.",
+    seeAll: "See all",
+    discover: "Discover",
+    viewLarge: "View larger",
+    seeMore: "Show more",
+    seeLess: "Show less",
+    specsTitle: "SPECIFICATIONS",
+    otherProducts: "OTHER PRODUCTS",
+    otherModels: "OTHER MODELS",
+    otherCollections: "OTHER COLLECTIONS",
+    sameStyle: "IN THE SAME STYLE",
+    modelNotFound: "Model not found.",
+    collectionNotFound: "Collection not found.",
+    viewModel: "View model",
+    collectionsAvailable_one: "{{count}} collection available",
+    collectionsAvailable_other: "{{count}} collections available",
+    all: 'All',
+    allShort: 'All',
+    search: 'Search...',
+    searchProduct: 'Search for a product...',
+    filters: 'Filters',
+    filtersTitle: 'FILTERS',
+    clearAll: 'Clear all',
+    close: 'Close',
+    category: 'CATEGORY',
+    series: 'SERIES / COLLECTION',
+    color: 'COLOUR',
+    colorFinish: 'COLOUR / FINISH',
+    type: 'PRODUCT TYPE',
+    style: 'STYLE',
+    noResults: 'No products found.',
+    resetFilters: 'Reset filters',
+    reset: 'Reset',
+    productsFound_one: '{{count}} product found',
+    productsFound_other: '{{count}} products found',
+    modelsFound_one: '{{count}} model',
+    modelsFound_other: '{{count}} models',
+    photos_one: '{{count}} photo',
+    photos_other: '{{count}} photos',
+    home: 'Home',
+    notFound: 'Product not found',
+    similar: 'SIMILAR PRODUCTS',
+    brand: 'Brand',
+    requestQuote: 'Request a quote',
+    productSheet: 'Product sheet (.rar)',
+    contactShowroom: 'For more information or a quote, please contact our showroom.',
+    viewDetails: 'View details',
+    specs: 'Specifications',
+    description: 'Description',
+    readMore: 'Read more',
+    readLess: 'Show less',
+    zoom: 'Enlarge',
+  },
+
+  // ── Bien Seramik ranges ────────────────────────────────────────────────────────
+  bien: {
+    sanitaire:   { title: 'BATHROOM', crumb: 'Bathroom', back: 'Back to bathroom', description: 'Premium sanitary ware combining contemporary design and durability.' },
+    dus:         { title: 'SHOWER SYSTEMS', crumb: 'Shower systems', back: 'Back to shower systems', description: 'Premium shower system designed to combine aesthetics and performance.' },
+    armaturler:  { title: 'TAPS & SHOWERS', crumb: 'Taps & Showers', back: 'Back to taps', description: 'Premium tap designed to combine aesthetics and performance.' },
+    aksesuar:    { title: 'BATHROOM ACCESSORIES', crumb: 'Bathroom accessories', back: 'Back to accessories', description: 'Premium bathroom accessory combining design and functionality.' },
+    tamamlayici: { title: 'COMPLEMENTARY PRODUCTS', crumb: 'Complementary products', back: 'Back to complementary products', description: 'Premium complementary product for your sanitary installation.' },
+  },
+
+  // ── Pages par univers ──────────────────────────────────────────────────────────
+  kobos: {
+    "title": "BATHROOM FURNITURE",
+    "crumb": "Bathroom furniture",
+    "back": "← Back to furniture",
+    "category": "Bathroom furniture · Kobos",
+    "dimensions": "AVAILABLE SIZES",
+    "finishes": "FINISHES",
+    "material": "MATERIAL"
+  },
+  soprano: {
+    "title": "BESPOKE KITCHENS",
+    "crumb": "Bespoke kitchens",
+    "back": "← Back to kitchens",
+    "category": "Bespoke kitchen · Soprano",
+    "finishes": "AVAILABLE FINISHES",
+    "making": "MANUFACTURING",
+    "makingText": "Made to measure · Matt lacquer, wood, premium MDF"
+  },
+  cuisine: {
+    "title": "BESPOKE KITCHENS",
+    "crumb": "Kitchens",
+    "back": "Back to kitchens"
+  },
+  menuiserie: {
+    "title": "JOINERY",
+    "subtitle": "Windows, doors and made-to-measure solutions",
+    "crumb": "Joinery",
+    "cats": {
+      "pvc": "PVC Doors & Windows",
+      "alu": "Aluminium Doors & Windows",
+      "volets": "Roller Shutters",
+      "guillotine": "Guillotine Systems",
+      "portes-garage": "Garage Doors",
+      "portes-entree": "Entrance Doors",
+      "moustiquaires": "Insect Screens",
+      "solutions-verre": "Glass Solutions"
+    }
+  },
+  exterieur: {
+    "title": "OUTDOOR",
+    "subtitle": "PERGOLAS & SUN PROTECTION",
+    "crumb": "Outdoor",
+    "cats": {
+      "pergola": "Pergolas",
+      "protection": "Sun Protection"
+    }
+  },
+  aderka: {
+    "title": "ALUMINIUM PIVOT DOORS",
+    "subtitle": "Aderka Door Systems — 4 series, 19 models",
+    "discoverSeries": "Discover the series",
+    "allSeries": "← All series",
+    "back": "← Back to series",
+    "crumb": "Pivot Doors",
+    "sameRange": "MODELS IN THE SAME RANGE",
+    "specs": {
+      "material": "Material",
+      "aluminium": "Aluminium",
+      "finish": "Finish",
+      "style": "Style",
+      "dimensions": "Dimensions",
+      "custom": "Made to measure",
+      "series": "Series",
+      "usage": "Use",
+      "exterior": "Exterior"
+    },
+    "seriesDesc": {
+      "Exclusive": "Clean architectural lines",
+      "Stoneline": "Natural stone effect finish",
+      "Elegance": "Contemporary elegance",
+      "Woodline": "Wood texture on aluminium frame"
+    },
+    "series": {
+      "Exclusive": {
+        "finish": "Matt lacquered",
+        "style": "Architectural",
+        "description": "The Exclusive series embodies the union of architectural rigour and absolute sophistication. Its clean lines and controlled proportions make it a signature element for high-end entrances. Each model is designed to stand out as a centrepiece, combining strength and timeless aesthetics."
+      },
+      "Stoneline": {
+        "finish": "Natural stone effect",
+        "style": "Mineral",
+        "description": "Stoneline reinvents the pivot door with a remarkably authentic natural stone effect finish. This unique surface treatment gives every door a strong mineral character, turning the entrance into an artistic statement while keeping all the technical performance of aluminium."
+      },
+      "Elegance": {
+        "finish": "Elegant modern",
+        "style": "Contemporary",
+        "description": "The Elegance series offers the pivot door in ten distinct expressions, all driven by the same idea: understated contemporary elegance. Crafted shapes, a subtle interplay of materials and a careful finish make each model an entrance that leaves a lasting impression."
+      },
+      "Woodline": {
+        "finish": "Authentic wood effect",
+        "style": "Natural",
+        "description": "Woodline combines the warmth of wood with the unrivalled performance of aluminium. Its authentic wood texture is achieved through a high-definition powder-coating process that faithfully reproduces the grain and shades of natural wood. Ideal for modern interiors seeking warmth without the maintenance."
+      }
+    },
+    "features": {
+      "aluminium": {
+        "label": "High-strength aluminium",
+        "sub": "Reinforced aluminium profiles"
+      },
+      "pivot": {
+        "label": "High-performance pivot system",
+        "sub": "360° rotation — concealed pivot"
+      },
+      "insulation": {
+        "label": "Thermal & acoustic insulation",
+        "sub": "Thermal break"
+      },
+      "finishes": {
+        "label": "Made-to-measure finishes",
+        "sub": "Any RAL colour"
+      }
+    }
+  },
+  catalogues: {
+    "title": "OUR CATALOGUES",
+    "subtitle": "Download our catalogues to discover all our collections",
+    "view": "View catalogue",
+    "download": "Download",
+    "names": {
+      "general": "General Catalogue",
+      "bois": "Wood Catalogue",
+      "oversize": "Oversize Catalogue",
+      "bain": "Bathroom Catalogue",
+      "mural": "Wall Catalogue"
+    }
+  },
+  featured: {
+    "title": "SIGNATURE COLLECTIONS",
+    "subtitle": "Our most iconic creations"
+  },
+  carousel: {
+    "slide0": {
+      "title": "Excellence for Your Spaces",
+      "subtitle": "Contemporary design and timeless refinement",
+      "cta": "Discover our collections"
+    },
+    "slide1": {
+      "title": "Exceptional Kitchens",
+      "subtitle": "Where culinary art meets design",
+      "cta": "Discover our kitchens"
+    },
+    "slide2": {
+      "title": "Wellness Sanctuaries",
+      "subtitle": "Bathrooms sculpted in elegance",
+      "cta": "Discover our bathrooms"
+    }
   },
 
   // ── Contact ──────────────────────────────────────────────────────────────────

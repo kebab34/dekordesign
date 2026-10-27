@@ -81,6 +81,8 @@ const fr = {
 
   // ── Collection detail page ───────────────────────────────────────────────────
   collectionDetail: {
+    notFound: "Collection non trouvée",
+    zoomAlt: "Vue agrandie",
     back: 'Retour aux collections',
     home: 'Accueil',
     viewRender: 'Voir le render',
@@ -102,6 +104,227 @@ const fr = {
     quoteText: 'Surface, format, coloris : notre équipe vous établit un devis personnalisé et vous accueille au showroom pour voir les carreaux en vrai.',
     quoteButton: 'Demander un devis',
     otherCollections: 'AUTRES COLLECTIONS',
+  },
+
+  // ── Listes et fiches produits (commun) ─────────────────────────────────────────
+  catalog: {
+    allFem: "Toutes",
+    searchTitle: "RECHERCHE",
+    modelPlaceholder: "Nom du modèle...",
+    collectionPlaceholder: "Nom de la collection...",
+    finish: "FINITION",
+    brandTitle: "MARQUE",
+    noModels: "Aucun modèle trouvé.",
+    noCollections: "Aucune collection trouvée.",
+    seeAll: "Tout voir",
+    discover: "Découvrir",
+    viewLarge: "Voir en grand",
+    seeMore: "Voir plus",
+    seeLess: "Voir moins",
+    specsTitle: "CARACTÉRISTIQUES",
+    otherProducts: "AUTRES PRODUITS",
+    otherModels: "AUTRES MODÈLES",
+    otherCollections: "AUTRES COLLECTIONS",
+    sameStyle: "DANS LE MÊME STYLE",
+    modelNotFound: "Modèle introuvable.",
+    collectionNotFound: "Collection introuvable.",
+    viewModel: "Voir le modèle",
+    collectionsAvailable_one: "{{count}} collection disponible",
+    collectionsAvailable_other: "{{count}} collections disponibles",
+    all: 'Tous',
+    allShort: 'Tout',
+    search: 'Rechercher...',
+    searchProduct: 'Rechercher un produit...',
+    filters: 'Filtres',
+    filtersTitle: 'FILTRES',
+    clearAll: 'Effacer tout',
+    close: 'Fermer',
+    category: 'CATÉGORIE',
+    series: 'SÉRIE / COLLECTION',
+    color: 'COULEUR',
+    colorFinish: 'COULEUR / FINITION',
+    type: 'TYPE DE PRODUIT',
+    style: 'STYLE',
+    noResults: 'Aucun produit trouvé.',
+    resetFilters: 'Réinitialiser les filtres',
+    reset: 'Réinitialiser',
+    productsFound_one: '{{count}} produit trouvé',
+    productsFound_other: '{{count}} produits trouvés',
+    modelsFound_one: '{{count}} modèle',
+    modelsFound_other: '{{count}} modèles',
+    photos_one: '{{count}} photo',
+    photos_other: '{{count}} photos',
+    home: 'Accueil',
+    notFound: 'Produit non trouvé',
+    similar: 'PRODUITS SIMILAIRES',
+    brand: 'Marque',
+    requestQuote: 'Demander un devis',
+    productSheet: 'Fiche produit (.rar)',
+    contactShowroom: "Pour plus d'informations ou pour obtenir un devis, contactez notre showroom.",
+    viewDetails: 'Voir le détail',
+    specs: 'Caractéristiques',
+    description: 'Description',
+    readMore: 'Lire la suite',
+    readLess: 'Réduire',
+    zoom: 'Agrandir',
+  },
+
+  // ── Univers Bien Seramik ───────────────────────────────────────────────────────
+  bien: {
+    sanitaire:   { title: 'SALLE DE BAIN', crumb: 'Salle de Bain', back: 'Retour à la salle de bain', description: 'Produit sanitaire de qualité supérieure, alliant design contemporain et durabilité.' },
+    dus:         { title: 'SYSTÈMES DE DOUCHE', crumb: 'Systèmes de douche', back: 'Retour aux systèmes de douche', description: 'Système de douche de qualité supérieure, conçu pour allier esthétique et performance.' },
+    armaturler:  { title: 'ROBINETTERIE & DOUCHE', crumb: 'Robinetterie & Douche', back: 'Retour à la robinetterie', description: 'Robinet de qualité supérieure, conçu pour allier esthétique et performance.' },
+    aksesuar:    { title: 'ACCESSOIRES SALLE DE BAIN', crumb: 'Accessoires Salle de Bain', back: 'Retour aux accessoires', description: 'Accessoire de salle de bain de qualité supérieure, alliant design et fonctionnalité.' },
+    tamamlayici: { title: 'PRODUITS COMPLÉMENTAIRES', crumb: 'Produits complémentaires', back: 'Retour aux produits complémentaires', description: 'Produit complémentaire de qualité supérieure pour votre installation sanitaire.' },
+  },
+
+  // ── Pages par univers ──────────────────────────────────────────────────────────
+  kobos: {
+    "title": "MEUBLES DE SALLE DE BAIN",
+    "crumb": "Meubles de salle de bain",
+    "back": "← Retour aux meubles",
+    "category": "Meuble de salle de bain · Kobos",
+    "dimensions": "DIMENSIONS DISPONIBLES",
+    "finishes": "FINITIONS",
+    "material": "MATÉRIAU"
+  },
+  soprano: {
+    "title": "CUISINES SUR MESURE",
+    "crumb": "Cuisines sur mesure",
+    "back": "← Retour aux cuisines",
+    "category": "Cuisine sur mesure · Soprano",
+    "finishes": "FINITIONS DISPONIBLES",
+    "making": "FABRICATION",
+    "makingText": "Sur mesure · Laque mate, bois, MDF premium"
+  },
+  cuisine: {
+    "title": "CUISINES SUR MESURE",
+    "crumb": "Cuisines",
+    "back": "Retour aux cuisines"
+  },
+  menuiserie: {
+    "title": "MENUISERIE",
+    "subtitle": "Fenêtres, portes et solutions sur mesure",
+    "crumb": "Menuiserie",
+    "cats": {
+      "pvc": "Portes & Fenêtres PVC",
+      "alu": "Portes & Fenêtres ALU",
+      "volets": "Volets Roulants",
+      "guillotine": "Systèmes Guillotine",
+      "portes-garage": "Portes de Garage",
+      "portes-entree": "Portes d'Entrée",
+      "moustiquaires": "Moustiquaires",
+      "solutions-verre": "Solutions Verre"
+    }
+  },
+  exterieur: {
+    "title": "EXTÉRIEUR",
+    "subtitle": "PERGOLAS & PROTECTION SOLAIRE",
+    "crumb": "Extérieur",
+    "cats": {
+      "pergola": "Pergolas",
+      "protection": "Protection Solaire"
+    }
+  },
+  aderka: {
+    "title": "PORTES PIVOT ALUMINIUM",
+    "subtitle": "Aderka Door Systems — 4 séries, 19 modèles",
+    "discoverSeries": "Découvrir la série",
+    "allSeries": "← Toutes les séries",
+    "back": "← Retour aux séries",
+    "crumb": "Portes Pivot",
+    "sameRange": "MODÈLES DE LA MÊME GAMME",
+    "specs": {
+      "material": "Matériau",
+      "aluminium": "Aluminium",
+      "finish": "Finition",
+      "style": "Style",
+      "dimensions": "Dimensions",
+      "custom": "Sur-mesure",
+      "series": "Série",
+      "usage": "Usage",
+      "exterior": "Extérieur"
+    },
+    "seriesDesc": {
+      "Exclusive": "Lignes architecturales épurées",
+      "Stoneline": "Finition effet pierre naturelle",
+      "Elegance": "Élégance contemporaine",
+      "Woodline": "Texture bois sur châssis aluminium"
+    },
+    "series": {
+      "Exclusive": {
+        "finish": "Laquée mat",
+        "style": "Architecturale",
+        "description": "La série Exclusive incarne l'alliance entre rigueur architecturale et sophistication absolue. Ses lignes épurées et ses proportions maîtrisées en font un élément signature pour les entrées haut de gamme. Chaque modèle est conçu pour s'imposer comme une pièce maîtresse, alliant résistance et esthétique intemporelle."
+      },
+      "Stoneline": {
+        "finish": "Effet pierre naturelle",
+        "style": "Minérale",
+        "description": "Stoneline réinvente la porte pivot en intégrant une finition effet pierre naturelle d'une authenticité remarquable. Ce traitement de surface unique confère à chaque porte un caractère minéral fort, transformant l'entrée en une déclaration artistique tout en conservant toutes les performances techniques de l'aluminium."
+      },
+      "Elegance": {
+        "finish": "Moderne élégante",
+        "style": "Contemporaine",
+        "description": "La série Elegance décline la porte pivot en dix expressions distinctes, toutes animées par un même fil conducteur : l'élégance contemporaine sans ostentation. Des formes travaillées, des jeux de matières subtils et une finition soignée font de chaque modèle une invitation à l'entrée qui marque les esprits durablement."
+      },
+      "Woodline": {
+        "finish": "Effet bois authentique",
+        "style": "Naturelle",
+        "description": "Woodline combine la chaleur du bois avec les performances inégalées de l'aluminium. Sa texture bois authentique est obtenue par un procédé de thermolaquage haute définition qui reproduit fidèlement les veines et nuances du bois naturel. Idéale pour les intérieurs modernes qui recherchent la chaleur sans les contraintes d'entretien."
+      }
+    },
+    "features": {
+      "aluminium": {
+        "label": "Aluminium haute résistance",
+        "sub": "Profilés aluminium renforcés"
+      },
+      "pivot": {
+        "label": "Système pivot haute performance",
+        "sub": "Rotation 360° — pivot dissimulé"
+      },
+      "insulation": {
+        "label": "Isolation thermique & acoustique",
+        "sub": "Rupture de pont thermique"
+      },
+      "finishes": {
+        "label": "Finitions sur-mesure",
+        "sub": "Coloris RAL au choix"
+      }
+    }
+  },
+  catalogues: {
+    "title": "NOS CATALOGUES",
+    "subtitle": "Téléchargez nos catalogues pour découvrir l'ensemble de nos collections",
+    "view": "Voir le catalogue",
+    "download": "Télécharger",
+    "names": {
+      "general": "Catalogue Général",
+      "bois": "Catalogue Bois",
+      "oversize": "Catalogue Oversize",
+      "bain": "Catalogue Salle de Bain",
+      "mural": "Catalogue Mural"
+    }
+  },
+  featured: {
+    "title": "COLLECTIONS SIGNATURE",
+    "subtitle": "Nos créations les plus emblématiques"
+  },
+  carousel: {
+    "slide0": {
+      "title": "L'Excellence au Service de Vos Espaces",
+      "subtitle": "Design contemporain et raffinement intemporel",
+      "cta": "Découvrir nos collections"
+    },
+    "slide1": {
+      "title": "Cuisines d'Exception",
+      "subtitle": "Où l'art culinaire rencontre le design",
+      "cta": "Découvrir nos cuisines"
+    },
+    "slide2": {
+      "title": "Sanctuaires de Bien-Être",
+      "subtitle": "Salles de bain sculptées dans l'élégance",
+      "cta": "Découvrir nos salles de bain"
+    }
   },
 
   // ── Contact ──────────────────────────────────────────────────────────────────

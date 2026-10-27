@@ -5,8 +5,10 @@ import './KobosDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { kobosSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
 const KobosDetailPage = () => {
+  const { t } = useTranslation();
   const { slug } = useParams();
   const product = kobosData.find(p => p.slug === slug);
   const [activeImg, setActiveImg] = useState(0);
@@ -15,8 +17,8 @@ const KobosDetailPage = () => {
   if (!product) {
     return (
       <div className="kd-notfound">
-        <p>Collection introuvable.</p>
-        <Link to="/meubles">← Retour aux meubles</Link>
+        <p>{t('catalog.collectionNotFound')}</p>
+        <Link to="/meubles">{t('kobos.back')}</Link>
       </div>
     );
   }
@@ -28,9 +30,9 @@ const KobosDetailPage = () => {
       <SEO {...kobosSeo(product)} />
       {/* Breadcrumb */}
       <nav className="kd-breadcrumb">
-        <Link to="/">Accueil</Link>
+        <Link to="/">{t('catalog.home')}</Link>
         <span>›</span>
-        <Link to="/meubles">Meubles de Salle de Bain</Link>
+        <Link to="/meubles">{t('kobos.crumb')}</Link>
         <span>›</span>
         <span>{product.name}</span>
       </nav>
@@ -75,7 +77,7 @@ const KobosDetailPage = () => {
         <div className="kd-info">
           <div className="kd-gold-line"></div>
           <h1 className="kd-name">{product.name.toUpperCase()}</h1>
-          <p className="kd-category">Meuble de salle de bain · Kobos</p>
+          <p className="kd-category">{t('kobos.category')}</p>
 
           {product.description && (
             <p className="kd-description">{product.description}</p>
@@ -83,7 +85,7 @@ const KobosDetailPage = () => {
 
           {/* Dimensions */}
           <div className="kd-specs-block">
-            <h3 className="kd-specs-title">DIMENSIONS DISPONIBLES</h3>
+            <h3 className="kd-specs-title">{t('kobos.dimensions')}</h3>
             <div className="kd-dims">
               {product.dimensions.map(d => (
                 <span key={d} className="kd-dim-badge">{d}</span>
@@ -94,7 +96,7 @@ const KobosDetailPage = () => {
           {/* Finitions */}
           {product.colors.length > 0 && (
             <div className="kd-specs-block">
-              <h3 className="kd-specs-title">FINITIONS</h3>
+              <h3 className="kd-specs-title">{t('kobos.finishes')}</h3>
               <div className="kd-colors">
                 {product.colors.map(c => (
                   <span key={c} className="kd-color-badge">{c}</span>
@@ -106,7 +108,7 @@ const KobosDetailPage = () => {
           {/* Matériau */}
           {product.material && (
             <div className="kd-specs-block">
-              <h3 className="kd-specs-title">MATÉRIAU</h3>
+              <h3 className="kd-specs-title">{t('kobos.material')}</h3>
               <p className="kd-material">{product.material}</p>
             </div>
           )}
@@ -114,7 +116,7 @@ const KobosDetailPage = () => {
           {/* CTA */}
           <div className="kd-cta">
             <Link to={quoteUrl(`Meuble de salle de bain Kobos ${product.name}`)} className="kd-btn-gold">
-              Demander un devis
+              {t('catalog.requestQuote')}
             </Link>
           </div>
         </div>
@@ -147,7 +149,7 @@ const KobosDetailPage = () => {
 
       {/* Collections similaires */}
       <div className="kd-similar">
-        <h2 className="kd-similar-title">AUTRES COLLECTIONS</h2>
+        <h2 className="kd-similar-title">{t('catalog.otherCollections')}</h2>
         <div className="kd-similar-grid">
           {similar.map(p => (
             <Link key={p.id} to={`/meubles/${p.slug}`} className="kd-similar-card">

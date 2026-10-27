@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SEO from '../SEO/SEO';
 import './BienListPage.css';
 
@@ -11,6 +12,7 @@ const uniqueVals = (data, field) =>
   [...new Set(data.map(p => p.specs[field]).filter(Boolean))].sort();
 
 const FilterDropdown = ({ title, options, active, onSelect }) => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState('');
 
@@ -24,7 +26,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
           className={`bc-dropdown-trigger ${open ? 'open' : ''}`}
           onClick={() => setOpen(o => !o)}
         >
-          <span>{active || 'Tous'}</span>
+          <span>{active || t('catalog.all')}</span>
           <svg className="bc-dropdown-arrow" viewBox="0 0 10 6">
             <path d="M0 0l5 6 5-6z" fill="currentColor"/>
           </svg>
@@ -34,7 +36,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
             {options.length > 6 && (
               <input
                 className="bc-dropdown-search"
-                placeholder="Rechercher..."
+                placeholder={t('catalog.search')}
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 autoFocus
@@ -45,7 +47,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
                 className={`bc-dropdown-item ${!active ? 'active' : ''}`}
                 onClick={() => { onSelect(''); setOpen(false); setSearch(''); }}
               >
-                Tous
+                {t('catalog.all')}
               </div>
               {filtered.map(opt => (
                 <div
@@ -65,7 +67,8 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
 };
 
 const BienListPage = ({ catalog }) => {
-  const { data, categories, basePath, seo, title, colorLabel, cardName, cardMetaField, dense } = catalog;
+  const { t } = useTranslation();
+  const { key, data, categories, basePath, seo, colorLabel, cardName, cardMetaField, dense } = catalog;
 
   const SERIES = useMemo(() => uniqueVals(data, 'Série'),   [data]);
   const COLORS = useMemo(() => uniqueVals(data, 'Couleur'), [data]);
@@ -103,9 +106,9 @@ const BienListPage = ({ catalog }) => {
       <SEO title={seo.title} description={seo.description} canonical={basePath} />
       <div className="bc-header">
         <div className="bc-gold-line"></div>
-        <h2 className="bc-title">{title}</h2>
+        <h1 className="bc-title">{t(`bien.${key}.title`)}</h1>
         <p className="bc-subtitle">
-          {filtered.length} produit{filtered.length > 1 ? 's' : ''} trouvé{filtered.length > 1 ? 's' : ''}
+          {t('catalog.productsFound', { count: filtered.length })}
         </p>
       </div>
 
@@ -113,17 +116,17 @@ const BienListPage = ({ catalog }) => {
         {/* ── Sidebar ─────────────────────────────────────── */}
         <aside className={`bc-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="bc-sidebar-header">
-            <h3 className="bc-sidebar-title">FILTRES</h3>
+            <h3 className="bc-sidebar-title">{t('catalog.filtersTitle')}</h3>
             {activeCount > 0 && (
-              <button className="bc-clear-btn" onClick={clearAll}>Effacer tout</button>
+              <button className="bc-clear-btn" onClick={clearAll}>{t('catalog.clearAll')}</button>
             )}
           </div>
 
-          <FilterDropdown title="CATÉGORIE"          options={categories} active={activeCategory} onSelect={setActiveCategory} />
-          <FilterDropdown title="SÉRIE / COLLECTION" options={SERIES}     active={activeSerie}    onSelect={setActiveSerie} />
-          <FilterDropdown title={colorLabel}         options={COLORS}     active={activeColor}    onSelect={setActiveColor} />
+          <FilterDropdown title={t('catalog.category')} options={categories} active={activeCategory} onSelect={setActiveCategory} />
+          <FilterDropdown title={t('catalog.series')} options={SERIES}     active={activeSerie}    onSelect={setActiveSerie} />
+          <FilterDropdown title={t(`catalog.${colorLabel}`)} options={COLORS}     active={activeColor}    onSelect={setActiveColor} />
           {TYPES.length > 0 && (
-            <FilterDropdown title="TYPE DE PRODUIT"  options={TYPES}      active={activeType}     onSelect={setActiveType} />
+            <FilterDropdown title={t('catalog.type')} options={TYPES}      active={activeType}     onSelect={setActiveType} />
           )}
 
           {/* Filtres actifs */}
@@ -136,7 +139,7 @@ const BienListPage = ({ catalog }) => {
               {search         && <span className="bc-tag">"{search}" <button onClick={() => setSearch('')}>×</button></span>}
             </div>
           )}
-          <button className="bc-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
+          <button className="bc-filters-close-btn" onClick={() => setSidebarOpen(false)}>{t('catalog.close')}</button>
         </aside>
 
         {sidebarOpen && (
@@ -152,7 +155,7 @@ const BienListPage = ({ catalog }) => {
               </svg>
               <input
                 type="text"
-                placeholder="Rechercher un produit..."
+                placeholder={t('catalog.searchProduct')}
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 className="bc-search-input"
@@ -186,8 +189,8 @@ const BienListPage = ({ catalog }) => {
 
           {filtered.length === 0 && (
             <div className="bc-empty">
-              <p>Aucun produit trouvé.</p>
-              <button onClick={clearAll}>Réinitialiser les filtres</button>
+              <p>{t('catalog.noResults')}</p>
+              <button onClick={clearAll}>{t('catalog.resetFilters')}</button>
             </div>
           )}
         </div>
@@ -197,7 +200,7 @@ const BienListPage = ({ catalog }) => {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
           <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
         </svg>
-        Filtres
+        {t('catalog.filters')}
         {activeCount > 0 && <span className="bc-filters-fab-badge">{activeCount}</span>}
       </button>
     </section>

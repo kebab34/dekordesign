@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { collectionCards } from '../../../data/content';
 import './FeaturedProducts.css';
+import { useTranslation } from 'react-i18next';
 
 const FeaturedProducts = () => {
+  const { t } = useTranslation();
   const [displayProducts, setDisplayProducts] = useState([]);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -36,8 +38,8 @@ const FeaturedProducts = () => {
     <section className="section featured-section">
       <div className="section-header">
         <div className="gold-line"></div>
-        <h2 className="section-title">COLLECTIONS SIGNATURE</h2>
-        <p className="section-subtitle">Nos créations les plus emblématiques</p>
+        <h2 className="section-title">{t('featured.title')}</h2>
+        <p className="section-subtitle">{t('featured.subtitle')}</p>
       </div>
 
       <div className={`featured-grid ${isAnimating ? 'fade-out' : 'fade-in'}`}>

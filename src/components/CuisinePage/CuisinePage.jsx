@@ -5,6 +5,7 @@ import { cuisineData } from '../../data/cuisineData';
 import { sopranoData } from '../../data/sopranoData';
 import './CuisinePage.css';
 import { PAGE_SEO } from '../../config/seoPages';
+import { useTranslation } from 'react-i18next';
 
 // ── Normalisation des deux sources ───────────────────────────────────────────
 const allProducts = [
@@ -36,6 +37,7 @@ const COULEURS  = [...new Set(sopranoData.flatMap(p => p.colors))].filter(Boolea
 
 // ── Dropdown générique ────────────────────────────────────────────────────────
 const FilterDropdown = ({ title, options, active, onSelect }) => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   return (
     <div className="cui-filter-group">
@@ -45,7 +47,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
           className={`cui-dropdown-trigger ${open ? 'open' : ''}`}
           onClick={() => setOpen(o => !o)}
         >
-          <span>{active || 'Tous'}</span>
+          <span>{active || t('catalog.all')}</span>
           <svg className="cui-dropdown-arrow" viewBox="0 0 10 6">
             <path d="M0 0l5 6 5-6z" fill="currentColor"/>
           </svg>
@@ -57,7 +59,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
                 className={`cui-dropdown-item ${!active ? 'active' : ''}`}
                 onClick={() => { onSelect(''); setOpen(false); }}
               >
-                Tous
+                {t('catalog.all')}
               </div>
               {options.map(opt => (
                 <div
@@ -78,6 +80,7 @@ const FilterDropdown = ({ title, options, active, onSelect }) => {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 const CuisinePage = () => {
+  const { t } = useTranslation();
   const location = useLocation();
   const [activeMarque,   setActiveMarque]   = useState('');
   const [activeStyle,    setActiveStyle]    = useState('');
@@ -124,31 +127,31 @@ const CuisinePage = () => {
       <SEO {...PAGE_SEO['/cuisines']} canonical="/cuisines" />
       <div className="cui-header">
         <div className="cui-gold-line"></div>
-        <h2 className="cui-title">CUISINES SUR MESURE</h2>
+        <h1 className="cui-title">{t('cuisine.title')}</h1>
         <p className="cui-subtitle">
-          {filtered.length} modèle{filtered.length > 1 ? 's' : ''} trouvé{filtered.length > 1 ? 's' : ''}
+          {t('catalog.modelsFound', { count: filtered.length })}
         </p>
       </div>
 
       <div className="cui-layout">
         <aside className={`cui-sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="cui-sidebar-header">
-            <h3 className="cui-sidebar-title">FILTRES</h3>
+            <h3 className="cui-sidebar-title">{t('catalog.filtersTitle')}</h3>
             {hasFilters && (
-              <button className="cui-clear-btn" onClick={clearAll}>Effacer tout</button>
+              <button className="cui-clear-btn" onClick={clearAll}>{t('catalog.clearAll')}</button>
             )}
           </div>
 
           {/* Recherche */}
           <div className="cui-filter-group">
-            <p className="cui-filter-label">RECHERCHE</p>
+            <p className="cui-filter-label">{t('catalog.searchTitle')}</p>
             <div className="cui-search">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
               <input
                 type="text"
-                placeholder="Nom du modèle..."
+                placeholder={t('catalog.modelPlaceholder')}
                 value={search}
                 onChange={e => setSearch(e.target.value)}
                 className="cui-search-input"
@@ -159,7 +162,7 @@ const CuisinePage = () => {
 
           {/* Marque */}
           <div className="cui-filter-group">
-            <p className="cui-filter-label">MARQUE</p>
+            <p className="cui-filter-label">{t('catalog.brandTitle')}</p>
             <div className="cui-option-list">
               {['Atölye Mutfak', 'Soprano'].map(m => (
                 <div
@@ -177,14 +180,14 @@ const CuisinePage = () => {
             </div>
           </div>
 
-          <FilterDropdown title="STYLE" options={STYLES} active={activeStyle} onSelect={setActiveStyle} />
+          <FilterDropdown title={t('catalog.style')} options={STYLES} active={activeStyle} onSelect={setActiveStyle} />
 
           {showFinition && (
-            <FilterDropdown title="FINITION" options={FINITIONS} active={activeFinition} onSelect={setActiveFinition} />
+            <FilterDropdown title={t('catalog.finish')} options={FINITIONS} active={activeFinition} onSelect={setActiveFinition} />
           )}
 
           {showCouleur && (
-            <FilterDropdown title="COULEUR" options={COULEURS} active={activeCouleur} onSelect={setActiveCouleur} />
+            <FilterDropdown title={t('catalog.color')} options={COULEURS} active={activeCouleur} onSelect={setActiveCouleur} />
           )}
 
           {hasFilters && (
@@ -197,7 +200,7 @@ const CuisinePage = () => {
             </div>
           )}
 
-          <button className="cui-filters-close-btn" onClick={() => setSidebarOpen(false)}>Fermer</button>
+          <button className="cui-filters-close-btn" onClick={() => setSidebarOpen(false)}>{t('catalog.close')}</button>
         </aside>
 
         {sidebarOpen && (
@@ -217,7 +220,7 @@ const CuisinePage = () => {
                     onError={e => { e.target.style.opacity = '0.3'; }}
                   />
                   <div className="cui-card-overlay">
-                    <span className="cui-card-discover">Découvrir</span>
+                    <span className="cui-card-discover">{t('catalog.discover')}</span>
                   </div>
                   <span className="cui-marque-badge">{product.marque}</span>
                 </div>
@@ -234,8 +237,8 @@ const CuisinePage = () => {
 
           {filtered.length === 0 && (
             <div className="cui-empty">
-              <p>Aucun modèle trouvé.</p>
-              <button onClick={clearAll}>Réinitialiser les filtres</button>
+              <p>{t('catalog.noModels')}</p>
+              <button onClick={clearAll}>{t('catalog.resetFilters')}</button>
             </div>
           )}
         </div>
@@ -245,7 +248,7 @@ const CuisinePage = () => {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="16" height="16">
           <line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="14" y2="12"/><line x1="4" y1="18" x2="10" y2="18"/>
         </svg>
-        Filtres
+        {t('catalog.filters')}
         {[activeMarque, activeStyle, activeFinition, activeCouleur, search].filter(Boolean).length > 0 && (
           <span className="cui-filters-fab-badge">
             {[activeMarque, activeStyle, activeFinition, activeCouleur, search].filter(Boolean).length}

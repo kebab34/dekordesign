@@ -5,8 +5,10 @@ import './CuisineDetailPage.css';
 import { quoteUrl } from '../../config/company';
 import SEO from '../SEO/SEO';
 import { cuisineSeo } from '../../config/seo';
+import { useTranslation } from 'react-i18next';
 
 const CuisineDetailPage = () => {
+  const { t } = useTranslation();
   const { productId } = useParams();
   const [lightbox, setLightbox] = useState(false);
 
@@ -16,8 +18,8 @@ const CuisineDetailPage = () => {
     return (
       <section className="cuisine-detail-page">
         <div className="cdet-not-found">
-          <h2>Modèle non trouvé</h2>
-          <Link to="/cuisines" className="cdet-back-link">Retour aux cuisines</Link>
+          <h2>{t('catalog.modelNotFound')}</h2>
+          <Link to="/cuisines" className="cdet-back-link">{t('cuisine.back')}</Link>
         </div>
       </section>
     );
@@ -45,9 +47,9 @@ const CuisineDetailPage = () => {
 
       {/* Breadcrumb */}
       <div className="cdet-breadcrumb">
-        <Link to="/">Accueil</Link>
+        <Link to="/">{t('catalog.home')}</Link>
         <span>/</span>
-        <Link to="/cuisines">Cuisines</Link>
+        <Link to="/cuisines">{t('cuisine.crumb')}</Link>
         <span>/</span>
         <span>{product.name}</span>
       </div>
@@ -91,7 +93,7 @@ const CuisineDetailPage = () => {
 
           <div className="cdet-actions">
             <Link to={quoteUrl(`Cuisine ${product.name}`)} className="cdet-contact-btn">
-              Demander un devis
+              {t('catalog.requestQuote')}
             </Link>
           </div>
         </div>
@@ -102,7 +104,7 @@ const CuisineDetailPage = () => {
         <div className="cdet-similar">
           <div className="cdet-section-header">
             <div className="cdet-gold-line"></div>
-            <h2 className="cdet-section-title">DANS LE MÊME STYLE</h2>
+            <h2 className="cdet-section-title">{t('catalog.sameStyle')}</h2>
           </div>
           <div className="cdet-similar-grid">
             {similar.map(p => (
