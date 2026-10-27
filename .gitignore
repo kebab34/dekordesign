@@ -59,3 +59,6 @@ public/docs/
 # Gardés en local pour scripts/r2/convert-images.js et upload.js
 public/tiles/
 public/catalogue/
+
+# Fichiers de workspace VS Code personnels
+*.code-workspace
