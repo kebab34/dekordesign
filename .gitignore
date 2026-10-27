@@ -54,3 +54,8 @@ public/docs/
 
 # Images converties pour R2 (générées par scripts/r2/convert-images.js)
 .r2-build/
+
+# Sources des images et catalogues, désormais servis par R2 (assets.dekordesign.fr)
+# Gardés en local pour scripts/r2/convert-images.js et upload.js
+public/tiles/
+public/catalogue/
