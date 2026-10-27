@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import SEO from '../SEO/SEO';
 import { exterieurProducts, exterieurCategories } from '../../data/exterieurData';
 import './ExterieurPage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const ExterieurPage = () => {
   const location = useLocation();
@@ -25,11 +26,7 @@ const ExterieurPage = () => {
 
   return (
     <section className="ext-page">
-      <SEO
-        title="Pergolas & Protection Solaire — Genius Pergola Cannes"
-        description="Pergolas motorisées, stores ZIP et vitrages guillotine pour terrasses. Solutions sur mesure Genius Pergola. DekorDesign Cannes."
-        canonical="/exterieur"
-      />
+      <SEO {...PAGE_SEO['/exterieur']} canonical="/exterieur" />
       {/* Header */}
       <div className="ext-header">
         <div className="ext-gold-line"></div>

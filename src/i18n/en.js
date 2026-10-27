@@ -38,7 +38,10 @@ const en = {
     byAppointment: 'By appointment only',
     contact: 'CONTACT',
     followUs: 'FOLLOW US',
-    rights: '© 2025 Dekor & Design. All rights reserved.',
+    rights: '© {{year}} Dekor & Design. All rights reserved.',
+    legal: 'Legal notice',
+    privacy: 'Privacy',
+    directions: 'Directions',
   },
 
   // ── HomePage ─────────────────────────────────────────────────────────────────
@@ -95,7 +98,49 @@ const en = {
     about: 'About',
     aboutText: 'The {{name}} collection combines contemporary aesthetics with technical performance. Available in multiple formats and colours, it adapts to all your indoor and outdoor spaces.',
     specs: 'Specifications',
+    quoteTitle: 'Your project',
+    quoteText: 'Area, size, colour: our team will prepare a tailored quote and welcome you to the showroom to see the tiles in person.',
+    quoteButton: 'Request a quote',
     otherCollections: 'OTHER COLLECTIONS',
+  },
+
+  // ── Contact ──────────────────────────────────────────────────────────────────
+  contact: {
+    title: 'CONTACT US',
+    subtitle: 'Our team is at your disposal to answer all your questions',
+    details: 'Our details',
+    address: 'Address',
+    phoneEmail: 'Phone & e-mail',
+    hours: 'Opening hours',
+    closed: 'Closed',
+    days: { Monday: 'Monday', Tuesday: 'Tuesday', Wednesday: 'Wednesday', Thursday: 'Thursday', Friday: 'Friday', Saturday: 'Saturday', Sunday: 'Sunday' },
+    formTitle: 'Send us a message',
+    quoteTitle: 'Request a quote',
+    quoteFor: 'Product:',
+    quoteSubject: 'Quote request — {{product}}',
+    quoteMessage: 'Hello,\n\nI would like to receive a quote for: {{product}}.\n\nApproximate quantity / area: \nProject location: \n\nThank you.',
+    name: 'Full name',
+    email: 'E-mail',
+    phone: 'Phone',
+    subject: 'Subject',
+    message: 'Message',
+    consent: 'I agree that my data will be used to process my request, in accordance with the',
+    privacyLink: 'privacy policy',
+    send: 'Send message',
+    sending: 'Sending...',
+    success: 'Your message has been sent. We will get back to you as soon as possible.',
+    error: 'An error occurred while sending. Please try again or write to us directly at',
+    mapTitle: 'Dekor & Design showroom location',
+    showMap: 'Show map',
+    openMaps: 'Open in Google Maps',
+    mapNote: 'Displaying the map loads Google content that may set cookies.',
+  },
+
+  // ── 404 ──────────────────────────────────────────────────────────────────────
+  notFound: {
+    title: 'Page not found',
+    text: 'The page you are looking for does not exist or has been moved. Explore our ranges below.',
+    home: 'Back to home',
   },
 
   // ── Generic ──────────────────────────────────────────────────────────────────

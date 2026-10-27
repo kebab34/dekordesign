@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { cuisineData } from '../../data/cuisineData';
 import './CuisineDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { cuisineSeo } from '../../config/seo';
 
 const CuisineDetailPage = () => {
   const { productId } = useParams();
@@ -26,6 +29,7 @@ const CuisineDetailPage = () => {
 
   return (
     <section className="cuisine-detail-page">
+      <SEO {...cuisineSeo(product)} />
       {/* Lightbox */}
       {lightbox && (
         <div className="cdet-lightbox" onClick={() => setLightbox(false)}>
@@ -86,7 +90,7 @@ const CuisineDetailPage = () => {
           <div className="cdet-divider"></div>
 
           <div className="cdet-actions">
-            <Link to="/contact" className="cdet-contact-btn">
+            <Link to={quoteUrl(`Cuisine ${product.name}`)} className="cdet-contact-btn">
               Demander un devis
             </Link>
           </div>

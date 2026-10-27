@@ -2,6 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { sopranoData } from '../../data/sopranoData';
 import './SopranoPage.css';
+import SEO from '../SEO/SEO';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const allStyles = [...new Set(sopranoData.map(p => p.style))].sort();
 const allColors = [...new Set(sopranoData.flatMap(p => p.colors))].filter(Boolean).sort();
@@ -24,6 +26,7 @@ const SopranoPage = () => {
 
   return (
     <section className="sop-page">
+      <SEO {...PAGE_SEO['/cuisines-soprano']} canonical="/cuisines-soprano" />
       <div className="sop-header">
         <div className="sop-gold-line"></div>
         <h2 className="sop-title">CUISINES SUR MESURE</h2>

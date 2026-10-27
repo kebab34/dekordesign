@@ -78,7 +78,7 @@
   color: #d4af37;
 }
 
-.info-content h4 {
+.info-content h3 {
   font-size: 14px;
   font-weight: 500;
   color: #d4af37;
@@ -315,4 +315,100 @@
   .contact-map iframe {
     height: 300px;
   }
+}
+
+/* Liens d'information sur leur propre ligne (téléphone, e-mail, itinéraire) */
+.info-content a { display: block; margin-top: 4px; }
+
+/* Produit concerné par la demande de devis */
+.contact-product {
+  margin: -10px 0 24px;
+  padding: 12px 16px;
+  border-left: 2px solid #d4af37;
+  background: rgba(212, 175, 55, 0.06);
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.contact-product strong { color: #fff; font-weight: 400; }
+
+/* Consentement RGPD */
+.form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 4px 0 24px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #888;
+  cursor: pointer;
+}
+
+.form-consent input {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  flex-shrink: 0;
+  accent-color: #d4af37;
+  cursor: pointer;
+}
+
+.form-consent a { color: #d4af37; }
+
+.error-message a { color: inherit; text-decoration: underline; }
+
+/* Carte chargée à la demande */
+.map-placeholder {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  text-align: center;
+  padding: 20px;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(212, 175, 55, 0.08), transparent 60%),
+    #111;
+  border-top: 1px solid #1d1d1d;
+}
+
+.map-placeholder p {
+  color: #ccc;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.map-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.map-actions button,
+.map-actions a {
+  padding: 12px 28px;
+  border: 1px solid #d4af37;
+  background: transparent;
+  color: #d4af37;
+  font-family: inherit;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.map-actions button:hover,
+.map-actions a:hover { background: #d4af37; color: #0a0a0a; }
+
+.map-note {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 0.5px;
+  max-width: 420px;
 }

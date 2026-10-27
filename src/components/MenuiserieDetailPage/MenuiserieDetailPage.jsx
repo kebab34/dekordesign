@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { menuiserieProducts, menuiserieCategories } from '../../data/menuiserieData';
 import './MenuiserieDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { menuiserieSeo } from '../../config/seo';
 
 const MenuiserieDetailPage = () => {
   const { productId } = useParams();
@@ -43,6 +46,7 @@ const MenuiserieDetailPage = () => {
 
   return (
     <section className="mdet-page">
+      <SEO {...menuiserieSeo(product, catLabel)} />
       {/* Breadcrumb */}
       <div className="mdet-breadcrumb">
         <Link to="/menuiserie" className="mdet-bread-link">Menuiserie</Link>
@@ -123,7 +127,7 @@ const MenuiserieDetailPage = () => {
             </div>
           )}
 
-          <Link to="/contact" className="mdet-cta">Demander un devis</Link>
+          <Link to={quoteUrl(product.name)} className="mdet-cta">Demander un devis</Link>
         </div>
       </div>
 

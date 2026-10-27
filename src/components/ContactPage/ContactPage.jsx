@@ -1,77 +1,76 @@
 import React, { useState, useRef } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import SEO from '../SEO/SEO';
 import emailjs from '@emailjs/browser';
+import { company } from '../../config/company';
 import './ContactPage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
-// Configuration EmailJS - À remplacer par tes identifiants
+// Configuration EmailJS
 const EMAILJS_SERVICE_ID = 'service_lple8rp';
 const EMAILJS_TEMPLATE_ID = 'template_vuyv4fh';
 const EMAILJS_PUBLIC_KEY = '9tPG038VQ7DsyqKAq';
 
+const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const MAP_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(`${company.address.street}, ${company.address.postalCode} ${company.address.city}`)}&output=embed`;
+
 const ContactPage = () => {
+  const { t } = useTranslation();
   const formRef = useRef();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
-  });
+  const [searchParams] = useSearchParams();
+  // Demande de devis depuis une fiche produit : /contact?produit=Nom%20du%20produit
+  const product = searchParams.get('produit') || '';
+
+  const emptyForm = { name: '', email: '', phone: '', subject: '', message: '' };
+  const [formData, setFormData] = useState(() => product ? {
+    ...emptyForm,
+    subject: t('contact.quoteSubject', { product }),
+    message: t('contact.quoteMessage', { product }),
+  } : emptyForm);
+  const [consent, setConsent] = useState(false);
+  const [showMap, setShowMap] = useState(false);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setErrorMessage('');
 
-    emailjs.sendForm(
-      EMAILJS_SERVICE_ID,
-      EMAILJS_TEMPLATE_ID,
-      formRef.current,
-      EMAILJS_PUBLIC_KEY
-    )
+    emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, formRef.current, EMAILJS_PUBLIC_KEY)
       .then(() => {
         setIsSubmitting(false);
         setSubmitStatus('success');
-        setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
-        setTimeout(() => setSubmitStatus(null), 5000);
+        setFormData(emptyForm);
+        setConsent(false);
+        setTimeout(() => setSubmitStatus(null), 6000);
       })
       .catch((error) => {
         setIsSubmitting(false);
         setSubmitStatus('error');
-        setErrorMessage('Une erreur est survenue. Veuillez réessayer.');
         console.error('EmailJS Error:', error);
-        setTimeout(() => setSubmitStatus(null), 5000);
+        setTimeout(() => setSubmitStatus(null), 6000);
       });
   };
 
   return (
     <section className="contact-page">
-      <SEO
-        title="Contact — Showroom DekorDesign Cannes"
-        description="Contactez DekorDesign pour un devis, une visite showroom ou des renseignements. Notre équipe vous accompagne dans votre projet de rénovation à Cannes."
-        canonical="/contact"
-      />
+      <SEO {...PAGE_SEO['/contact']} canonical="/contact" />
       <div className="contact-header">
         <div className="gold-line"></div>
-        <h2 className="contact-title">CONTACTEZ-NOUS</h2>
-        <p className="contact-subtitle">Notre équipe est à votre disposition pour répondre à toutes vos questions</p>
+        <h1 className="contact-title">{t('contact.title')}</h1>
+        <p className="contact-subtitle">{t('contact.subtitle')}</p>
       </div>
 
       <div className="contact-content">
         {/* Informations de contact */}
         <div className="contact-info">
-          <h3 className="info-title">Nos Coordonnées</h3>
+          <h2 className="info-title">{t('contact.details')}</h2>
 
           <div className="info-item">
             <div className="info-icon">
@@ -81,9 +80,10 @@ const ContactPage = () => {
               </svg>
             </div>
             <div className="info-content">
-              <h4>Adresse</h4>
-              <p>4 Bd Étienne Astegiano</p>
-              <p>06150 Cannes</p>
+              <h3>{t('contact.address')}</h3>
+              <p>{company.address.street}</p>
+              <p>{company.address.postalCode} {company.address.city}</p>
+              <a href={company.mapsUrl} target="_blank" rel="noopener noreferrer">{t('footer.directions')} →</a>
             </div>
           </div>
 
@@ -94,8 +94,9 @@ const ContactPage = () => {
               </svg>
             </div>
             <div className="info-content">
-              <h4>Téléphone</h4>
-              <a href="tel:0987594858">09 87 59 48 58</a>
+              <h3>{t('contact.phoneEmail')}</h3>
+              <a href={`tel:${company.phoneHref}`}>{company.phone}</a>
+              <a href={`mailto:${company.email}`}>{company.email}</a>
             </div>
           </div>
 
@@ -107,36 +108,17 @@ const ContactPage = () => {
               </svg>
             </div>
             <div className="info-content">
-              <h4>Horaires d'ouverture</h4>
+              <h3>{t('contact.hours')}</h3>
               <div className="horaires">
-                <div className="horaire-row">
-                  <span className="jour">Lundi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row">
-                  <span className="jour">Mardi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row">
-                  <span className="jour">Mercredi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row">
-                  <span className="jour">Jeudi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row">
-                  <span className="jour">Vendredi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row">
-                  <span className="jour">Samedi</span>
-                  <span className="heures">09:30–12:00, 14:00–18:30</span>
-                </div>
-                <div className="horaire-row ferme">
-                  <span className="jour">Dimanche</span>
-                  <span className="heures">Fermé</span>
-                </div>
+                {DAYS.map(day => {
+                  const slots = company.hours[day] || [];
+                  return (
+                    <div key={day} className={`horaire-row ${slots.length ? '' : 'ferme'}`}>
+                      <span className="jour">{t(`contact.days.${day}`)}</span>
+                      <span className="heures">{slots.length ? slots.map(s => s.join('–')).join(', ') : t('contact.closed')}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -144,101 +126,81 @@ const ContactPage = () => {
 
         {/* Formulaire de contact */}
         <div className="contact-form-container">
-          <h3 className="form-title">Envoyez-nous un message</h3>
+          <h2 className="form-title">{product ? t('contact.quoteTitle') : t('contact.formTitle')}</h2>
+          {product && <p className="contact-product">{t('contact.quoteFor')} <strong>{product}</strong></p>}
 
-          {submitStatus === 'success' && (
-            <div className="success-message">
-              Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.
-            </div>
-          )}
-
+          {submitStatus === 'success' && <div className="success-message" role="status">{t('contact.success')}</div>}
           {submitStatus === 'error' && (
-            <div className="error-message">
-              {errorMessage}
+            <div className="error-message" role="alert">
+              {t('contact.error')} <a href={`mailto:${company.email}`}>{company.email}</a>
             </div>
           )}
 
           <form ref={formRef} className="contact-form" onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="form-group">
-                <label htmlFor="name">Nom complet *</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
+                <label htmlFor="name">{t('contact.name')} *</label>
+                <input type="text" id="name" name="name" autoComplete="name" value={formData.name} onChange={handleChange} required />
               </div>
               <div className="form-group">
-                <label htmlFor="email">Email *</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
+                <label htmlFor="email">{t('contact.email')} *</label>
+                <input type="email" id="email" name="email" autoComplete="email" value={formData.email} onChange={handleChange} required />
               </div>
             </div>
 
             <div className="form-row">
               <div className="form-group">
-                <label htmlFor="phone">Téléphone</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                />
+                <label htmlFor="phone">{t('contact.phone')}</label>
+                <input type="tel" id="phone" name="phone" autoComplete="tel" value={formData.phone} onChange={handleChange} />
               </div>
               <div className="form-group">
-                <label htmlFor="subject">Sujet *</label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                />
+                <label htmlFor="subject">{t('contact.subject')} *</label>
+                <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
               </div>
             </div>
 
             <div className="form-group">
-              <label htmlFor="message">Message *</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                value={formData.message}
-                onChange={handleChange}
-                required
-              ></textarea>
+              <label htmlFor="message">{t('contact.message')} *</label>
+              <textarea id="message" name="message" rows="6" value={formData.message} onChange={handleChange} required></textarea>
             </div>
 
-            <button type="submit" className="submit-btn" disabled={isSubmitting}>
-              {isSubmitting ? 'Envoi en cours...' : 'Envoyer le message'}
+            <label className="form-consent">
+              <input type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} required />
+              <span>
+                {t('contact.consent')} <Link to="/confidentialite">{t('contact.privacyLink')}</Link>.
+              </span>
+            </label>
+
+            <button type="submit" className="submit-btn" disabled={isSubmitting || !consent}>
+              {isSubmitting ? t('contact.sending') : t('contact.send')}
             </button>
           </form>
         </div>
       </div>
 
-      {/* Google Maps */}
+      {/* Google Maps : chargée seulement sur demande (aucun cookie Google sans action du visiteur) */}
       <div className="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.8876!2d7.0194!3d43.5558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce81b8b8b8b8b8%3A0x0!2s4%20Bd%20%C3%89tienne%20Astegiano%2C%2006150%20Cannes!5e0!3m2!1sfr!2sfr!4v1234567890"
-          width="100%"
-          height="400"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Localisation Dekor Design"
-        ></iframe>
+        {showMap ? (
+          <iframe
+            src={MAP_EMBED}
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title={t('contact.mapTitle')}
+          ></iframe>
+        ) : (
+          <div className="map-placeholder">
+            <p>{company.address.street}, {company.address.postalCode} {company.address.city}</p>
+            <div className="map-actions">
+              <button type="button" onClick={() => setShowMap(true)}>{t('contact.showMap')}</button>
+              <a href={company.mapsUrl} target="_blank" rel="noopener noreferrer">{t('contact.openMaps')}</a>
+            </div>
+            <span className="map-note">{t('contact.mapNote')}</span>
+          </div>
+        )}
       </div>
     </section>
   );

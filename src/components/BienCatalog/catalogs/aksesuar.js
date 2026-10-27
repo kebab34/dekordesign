@@ -1,5 +1,5 @@
-import { aksesuarData, aksesuarCategories } from '../../../data/aksesuarData';
-import { fullNameSuffix } from './shared';
+import { aksesuarData, aksesuarCategories } from '../../../data/aksesuarData.js';
+import { fullNameSuffix } from './shared.js';
 
 const aksesuar = {
   data: aksesuarData,

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../SEO/SEO';
 import { kobosData } from '../../data/kobosData';
 import './KobosPage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const allColors = [...new Set(kobosData.flatMap(p => p.colors))].filter(Boolean).sort();
 
@@ -19,11 +20,7 @@ const KobosPage = () => {
 
   return (
     <section className="kobos-page">
-      <SEO
-        title="Meubles de Salle de Bain — Collections Kobos"
-        description="Collections Kobos : meubles de salle de bain élégants et fonctionnels. Vasques, miroirs, rangements sur mesure. Showroom DekorDesign Cannes."
-        canonical="/meubles"
-      />
+      <SEO {...PAGE_SEO['/meubles']} canonical="/meubles" />
       <div className="kobos-header">
         <div className="kobos-gold-line"></div>
         <h2 className="kobos-title">MEUBLES DE SALLE DE BAIN</h2>

@@ -1,4 +1,4 @@
-import { sanitaireData, sanitaireCategories } from '../../../data/sanitaireData';
+import { sanitaireData, sanitaireCategories } from '../../../data/sanitaireData.js';
 
 const sanitaire = {
   data: sanitaireData,

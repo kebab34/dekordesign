@@ -2,6 +2,9 @@ import React, { useMemo } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { aderkaData } from '../../data/aderkaData';
 import './AderkaPage.css';
+import SEO from '../SEO/SEO';
+import { aderkaSeriesSeo } from '../../config/seo';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const SERIES = [
   { slug: 'exclusive', name: 'Exclusive' },
@@ -25,6 +28,7 @@ const AderkaPage = () => {
 
   return (
     <section className="ade-page">
+      <SEO {...(currentSeries ? aderkaSeriesSeo(currentSeries.slug, currentSeries.name, filtered) : { ...PAGE_SEO['/portes-pivot'], canonical: '/portes-pivot' })} />
       <div className="ade-header">
         <div className="ade-gold-line" />
         <h1 className="ade-title">

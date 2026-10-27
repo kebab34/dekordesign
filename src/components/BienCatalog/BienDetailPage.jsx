@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../SEO/SEO';
 import './BienDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import { bienProductSeo } from '../../config/seo';
 
 // Page détail générique pour les catalogues Bien Seramik (voir ./catalogs/ pour la configuration)
 const BienDetailPage = ({ catalog }) => {
@@ -30,12 +32,7 @@ const BienDetailPage = ({ catalog }) => {
 
   return (
     <section className="bcd-page">
-      <SEO
-        title={`${product.name} — ${product.category}`}
-        description={`${product.fullName} — ${description}`}
-        canonical={`${basePath}/${product.id}`}
-        image={product.image}
-      />
+      <SEO {...bienProductSeo(catalog, product)} />
 
       {lightbox && (
         <div className="bcd-lightbox" onClick={() => setLightbox(false)}>
@@ -110,7 +107,7 @@ const BienDetailPage = ({ catalog }) => {
                 Fiche produit (.rar)
               </a>
             )}
-            <Link to="/contact" className="bcd-contact-btn">
+            <Link to={quoteUrl(`${product.fullName} (réf. ${product.specs?.['Référence'] || product.id})`)} className="bcd-contact-btn">
               Demander un devis
             </Link>
           </div>

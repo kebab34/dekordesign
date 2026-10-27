@@ -1,5 +1,5 @@
-import { armaturlerData, armaturlerCategories } from '../../../data/armaturlerData';
-import { fullNameSuffix } from './shared';
+import { armaturlerData, armaturlerCategories } from '../../../data/armaturlerData.js';
+import { fullNameSuffix } from './shared.js';
 
 const armaturler = {
   data: armaturlerData,

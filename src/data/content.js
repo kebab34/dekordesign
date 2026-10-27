@@ -1,4 +1,4 @@
-import { ASSET_BASE, tileUrl } from '../config/assets';
+import { ASSET_BASE, tileUrl } from '../config/assets.js';
 
 export const carouselData = [
   {

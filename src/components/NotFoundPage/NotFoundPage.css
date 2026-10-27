@@ -1,0 +1,80 @@
+.nf-page {
+  min-height: 70vh;
+  padding: 100px 20px;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nf-code {
+  font-size: 120px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  color: transparent;
+  -webkit-text-stroke: 1px #d4af37;
+  line-height: 1;
+}
+
+.nf-line {
+  width: 60px;
+  height: 2px;
+  background: #d4af37;
+  margin: 30px auto;
+}
+
+.nf-title {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.nf-text {
+  font-size: 15px;
+  color: #888;
+  letter-spacing: 0.5px;
+  max-width: 480px;
+  line-height: 1.7;
+  margin: 0 0 36px;
+}
+
+.nf-home {
+  padding: 14px 40px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nf-home:hover { background: #d4af37; color: #0a0a0a; }
+
+.nf-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 28px;
+  margin-top: 48px;
+}
+
+.nf-links a {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+  transition: color 0.2s;
+}
+
+.nf-links a:hover { color: #d4af37; }
+
+@media (max-width: 576px) {
+  .nf-code { font-size: 80px; letter-spacing: 6px; }
+  .nf-title { font-size: 20px; letter-spacing: 3px; }
+}

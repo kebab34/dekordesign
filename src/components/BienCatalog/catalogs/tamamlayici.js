@@ -1,4 +1,4 @@
-import { tamamlayiciData, tamamlayiciCategories } from '../../../data/tamamlayiciData';
+import { tamamlayiciData, tamamlayiciCategories } from '../../../data/tamamlayiciData.js';
 
 // La liste /accessoires garde sa propre page (TamamlayiciPage) ; seule la page détail est générique
 const tamamlayici = {

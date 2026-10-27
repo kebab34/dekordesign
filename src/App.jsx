@@ -1,6 +1,7 @@
 import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation, useNavigationType, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
@@ -24,6 +25,9 @@ const ExterieurDetailPage    = lazy(() => import('./components/ExterieurDetailPa
 const AderkaSeriesPage       = lazy(() => import('./components/AderkaSeriesPage/AderkaSeriesPage'));
 const AderkaPage             = lazy(() => import('./components/AderkaPage/AderkaPage'));
 const AderkaDetailPage       = lazy(() => import('./components/AderkaDetailPage/AderkaDetailPage'));
+const MentionsLegales        = lazy(() => import('./components/LegalPage/MentionsLegales'));
+const Confidentialite        = lazy(() => import('./components/LegalPage/Confidentialite'));
+const NotFoundPage           = lazy(() => import('./components/NotFoundPage/NotFoundPage'));
 
 // Catalogues Bien Seramik : une page liste + une page détail génériques, configurées par univers.
 // Chaque config est chargée à la demande pour ne pas embarquer toutes les données dans le même chunk.
@@ -103,9 +107,14 @@ const App = () => {
           <Route path="/portes-pivot" element={<AderkaSeriesPage />} />
           <Route path="/portes-pivot/:series" element={<AderkaPage />} />
           <Route path="/portes-pivot/:series/:slug" element={<AderkaDetailPage />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/confidentialite" element={<Confidentialite />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         </Suspense>
         <Footer />
+        {/* Mesure d'audience anonyme sans cookie (à activer dans Vercel > Analytics) */}
+        <Analytics />
       </div>
     </Router>
     </HelmetProvider>

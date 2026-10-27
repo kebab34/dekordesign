@@ -2,6 +2,9 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { aderkaData } from '../../data/aderkaData';
 import './AderkaDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { aderkaDoorSeo } from '../../config/seo';
 
 const SERIES_SPECS = {
   Exclusive: {
@@ -88,6 +91,7 @@ const AderkaDetailPage = () => {
 
   return (
     <div className="adkd-page">
+      <SEO {...aderkaDoorSeo(series, door)} />
       {/* ── Hero split ── */}
       <div className="adkd-hero">
         {/* Left — full-height image */}
@@ -150,7 +154,7 @@ const AderkaDetailPage = () => {
 
           {/* CTA */}
           <div className="adkd-cta">
-            <Link to="/contact" className="adkd-btn-gold">
+            <Link to={quoteUrl(`Porte pivot Aderka ${door.name}`)} className="adkd-btn-gold">
               Demander un devis
             </Link>
             <Link to={`/portes-pivot/${series}`} className="adkd-btn-outline">

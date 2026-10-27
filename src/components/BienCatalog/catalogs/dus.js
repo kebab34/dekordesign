@@ -1,5 +1,5 @@
-import { dusData, dusCategories } from '../../../data/dusData';
-import { fullNameSuffix } from './shared';
+import { dusData, dusCategories } from '../../../data/dusData.js';
+import { fullNameSuffix } from './shared.js';
 
 const dus = {
   data: dusData,

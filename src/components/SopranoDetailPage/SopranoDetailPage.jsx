@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { sopranoData } from '../../data/sopranoData';
 import './SopranoDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { sopranoSeo } from '../../config/seo';
 
 const SopranoDetailPage = () => {
   const { slug } = useParams();
@@ -22,6 +25,7 @@ const SopranoDetailPage = () => {
 
   return (
     <section className="spd-page">
+      <SEO {...sopranoSeo(product)} />
       {/* Breadcrumb */}
       <nav className="spd-breadcrumb">
         <Link to="/">Accueil</Link>
@@ -84,7 +88,7 @@ const SopranoDetailPage = () => {
           </div>
 
           <div className="spd-cta">
-            <Link to="/contact" className="spd-btn-gold">Demander un devis</Link>
+            <Link to={quoteUrl(`Cuisine Soprano ${product.name}`)} className="spd-btn-gold">Demander un devis</Link>
           </div>
         </div>
       </div>

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { exterieurProducts, exterieurCategories } from '../../data/exterieurData';
 import './ExterieurDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { exterieurSeo } from '../../config/seo';
 
 const ExterieurDetailPage = () => {
   const { productId } = useParams();
@@ -29,6 +32,7 @@ const ExterieurDetailPage = () => {
 
   return (
     <section className="edet-page">
+      <SEO {...exterieurSeo(product, catLabel)} />
       {/* Breadcrumb */}
       <div className="edet-breadcrumb">
         <Link to="/exterieur" className="edet-bread-link">Extérieur</Link>
@@ -82,7 +86,7 @@ const ExterieurDetailPage = () => {
             </div>
           )}
 
-          <Link to="/contact" className="edet-cta">Demander un devis</Link>
+          <Link to={quoteUrl(product.name)} className="edet-cta">Demander un devis</Link>
         </div>
       </div>
 

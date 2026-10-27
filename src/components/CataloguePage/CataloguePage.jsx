@@ -6,6 +6,8 @@ import boisCatalogueImage from '../../image/catalogue/bois.png';
 import oversizeCatalogueImage from '../../image/catalogue/oversize.png';
 import salleDeBainCatalogueImage from '../../image/catalogue/bain.png';
 import muralCatalogueImage from '../../image/catalogue/mur.png';  
+import SEO from '../SEO/SEO';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const catalogues = [
   {
@@ -43,6 +45,7 @@ const catalogues = [
 const CataloguePage = () => {
   return (
     <section className="catalogue-page">
+      <SEO {...PAGE_SEO['/catalogues']} canonical="/catalogues" />
       <div className="catalogue-header">
         <div className="gold-line"></div>
         <h2 className="catalogue-title">NOS CATALOGUES</h2>

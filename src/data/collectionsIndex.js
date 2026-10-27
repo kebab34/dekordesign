@@ -1,8 +1,8 @@
 // Index des collections dépendant de collectionsData (≈470 Ko).
 // Séparé de content.js pour que le Header et la page d'accueil ne chargent pas toute la base carrelage.
-import { collectionsData } from './collectionsData';
-import { collectionNames, collectionImages } from './content';
-import { tileUrl } from '../config/assets';
+import { collectionsData } from './collectionsData.js';
+import { collectionNames, collectionImages } from './content.js';
+import { tileUrl } from '../config/assets.js';
 
 // Liste des tailles disponibles (depuis les vraies données collections)
 const _allSizes = Object.values(collectionsData).flatMap(c => (c.products || []).map(p => p.size)).filter(Boolean);

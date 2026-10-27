@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import SEO from '../SEO/SEO';
 import { menuiserieCategories, menuiserieProducts } from '../../data/menuiserieData';
 import './MenuiseriePage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const MenuiseriePage = () => {
   const location = useLocation();
@@ -60,11 +61,7 @@ const MenuiseriePage = () => {
 
   return (
     <section className="men-page">
-      <SEO
-        title="Menuiserie PVC & Aluminium — Portes & Fenêtres Cannes"
-        description="Menuiserie PVC et aluminium : portes, fenêtres, volets roulants, systèmes guillotine. Qualité européenne, installation professionnelle à Cannes."
-        canonical="/menuiserie"
-      />
+      <SEO {...PAGE_SEO['/menuiserie']} canonical="/menuiserie" />
 
       {/* ── Header ─────────────────────────────────────────────── */}
       <div className="men-header">

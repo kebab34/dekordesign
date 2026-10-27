@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { kobosData } from '../../data/kobosData';
 import './KobosDetailPage.css';
+import { quoteUrl } from '../../config/company';
+import SEO from '../SEO/SEO';
+import { kobosSeo } from '../../config/seo';
 
 const KobosDetailPage = () => {
   const { slug } = useParams();
@@ -22,6 +25,7 @@ const KobosDetailPage = () => {
 
   return (
     <section className="kd-page">
+      <SEO {...kobosSeo(product)} />
       {/* Breadcrumb */}
       <nav className="kd-breadcrumb">
         <Link to="/">Accueil</Link>
@@ -109,7 +113,7 @@ const KobosDetailPage = () => {
 
           {/* CTA */}
           <div className="kd-cta">
-            <Link to="/contact" className="kd-btn-gold">
+            <Link to={quoteUrl(`Meuble de salle de bain Kobos ${product.name}`)} className="kd-btn-gold">
               Demander un devis
             </Link>
           </div>

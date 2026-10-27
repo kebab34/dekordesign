@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { roomCategoriesData, collectionNames, materialOptions } from '../../data/content';
 import { productsData, sizeOptions } from '../../data/collectionsIndex';
 import './CollectionsPage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
 const CollectionsPage = () => {
   const { t } = useTranslation();
@@ -151,11 +152,7 @@ const CollectionsPage = () => {
 
   return (
     <section className="collections-page">
-      <SEO
-        title={t('collections.title')}
-        description="Explorez nos 244 collections de carrelages pour salle de bain, cuisine et intérieur. Marbre, grès cérame, bois, pierre naturelle. Showroom à Cannes, Côte d'Azur."
-        canonical="/collections"
-      />
+      <SEO {...PAGE_SEO['/collections']} canonical="/collections" />
       <div className="collections-header">
         <div className="gold-line"></div>
         <h2 className="collections-title">

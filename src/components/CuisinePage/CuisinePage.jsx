@@ -4,6 +4,7 @@ import SEO from '../SEO/SEO';
 import { cuisineData } from '../../data/cuisineData';
 import { sopranoData } from '../../data/sopranoData';
 import './CuisinePage.css';
+import { PAGE_SEO } from '../../config/seoPages';
 
 // ── Normalisation des deux sources ───────────────────────────────────────────
 const allProducts = [
@@ -120,11 +121,7 @@ const CuisinePage = () => {
 
   return (
     <section className="cui-page">
-      <SEO
-        title="Cuisines sur Mesure — Atölye Mutfak & Soprano"
-        description="Cuisines sur mesure haut de gamme : 31 modèles Atölye Mutfak & Soprano. Tous styles et finitions. Conception et installation à Cannes."
-        canonical="/cuisines"
-      />
+      <SEO {...PAGE_SEO['/cuisines']} canonical="/cuisines" />
       <div className="cui-header">
         <div className="cui-gold-line"></div>
         <h2 className="cui-title">CUISINES SUR MESURE</h2>

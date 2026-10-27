@@ -38,7 +38,10 @@ const fr = {
     byAppointment: 'Sur rendez-vous uniquement',
     contact: 'CONTACT',
     followUs: 'SUIVEZ-NOUS',
-    rights: '© 2025 Dekor & Design. Tous droits réservés.',
+    rights: '© {{year}} Dekor & Design. Tous droits réservés.',
+    legal: 'Mentions légales',
+    privacy: 'Confidentialité',
+    directions: 'Itinéraire',
   },
 
   // ── HomePage ─────────────────────────────────────────────────────────────────
@@ -95,7 +98,49 @@ const fr = {
     about: 'À propos',
     aboutText: "La collection {{name}} allie esthétique contemporaine et performance technique. Disponible en plusieurs formats et coloris, elle s'adapte à tous vos espaces intérieurs et extérieurs.",
     specs: 'Caractéristiques',
+    quoteTitle: 'Votre projet',
+    quoteText: 'Surface, format, coloris : notre équipe vous établit un devis personnalisé et vous accueille au showroom pour voir les carreaux en vrai.',
+    quoteButton: 'Demander un devis',
     otherCollections: 'AUTRES COLLECTIONS',
+  },
+
+  // ── Contact ──────────────────────────────────────────────────────────────────
+  contact: {
+    title: 'CONTACTEZ-NOUS',
+    subtitle: 'Notre équipe est à votre disposition pour répondre à toutes vos questions',
+    details: 'Nos coordonnées',
+    address: 'Adresse',
+    phoneEmail: 'Téléphone & e-mail',
+    hours: "Horaires d'ouverture",
+    closed: 'Fermé',
+    days: { Monday: 'Lundi', Tuesday: 'Mardi', Wednesday: 'Mercredi', Thursday: 'Jeudi', Friday: 'Vendredi', Saturday: 'Samedi', Sunday: 'Dimanche' },
+    formTitle: 'Envoyez-nous un message',
+    quoteTitle: 'Demande de devis',
+    quoteFor: 'Produit concerné :',
+    quoteSubject: 'Demande de devis — {{product}}',
+    quoteMessage: "Bonjour,\n\nJe souhaite recevoir un devis pour : {{product}}.\n\nQuantité / surface approximative : \nLocalisation du chantier : \n\nMerci.",
+    name: 'Nom complet',
+    email: 'E-mail',
+    phone: 'Téléphone',
+    subject: 'Sujet',
+    message: 'Message',
+    consent: "J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la",
+    privacyLink: 'politique de confidentialité',
+    send: 'Envoyer le message',
+    sending: 'Envoi en cours...',
+    success: 'Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.',
+    error: "Une erreur est survenue lors de l'envoi. Réessayez ou écrivez-nous directement à",
+    mapTitle: 'Localisation du showroom Dekor & Design',
+    showMap: 'Afficher la carte',
+    openMaps: 'Ouvrir dans Google Maps',
+    mapNote: "L'affichage de la carte charge un contenu Google susceptible de déposer des cookies.",
+  },
+
+  // ── 404 ──────────────────────────────────────────────────────────────────────
+  notFound: {
+    title: 'Page introuvable',
+    text: "La page que vous recherchez n'existe pas ou a été déplacée. Découvrez nos univers ci-dessous.",
+    home: "Retour à l'accueil",
   },
 
   // ── Generic ──────────────────────────────────────────────────────────────────
