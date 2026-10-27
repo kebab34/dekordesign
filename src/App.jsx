@@ -28,6 +28,7 @@ const AderkaDetailPage       = lazy(() => import('./components/AderkaDetailPage/
 const MentionsLegales        = lazy(() => import('./components/LegalPage/MentionsLegales'));
 const Confidentialite        = lazy(() => import('./components/LegalPage/Confidentialite'));
 const NotFoundPage           = lazy(() => import('./components/NotFoundPage/NotFoundPage'));
+const SearchPage             = lazy(() => import('./components/SearchPage/SearchPage'));
 
 // Catalogues Bien Seramik : une page liste + une page détail génériques, configurées par univers.
 // Chaque config est chargée à la demande pour ne pas embarquer toutes les données dans le même chunk.
@@ -109,6 +110,7 @@ const App = () => {
           <Route path="/portes-pivot/:series/:slug" element={<AderkaDetailPage />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
+          <Route path="/recherche" element={<SearchPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         </Suspense>

@@ -327,6 +327,25 @@ const en = {
     }
   },
 
+  // ── Recherche globale ──────────────────────────────────────────────────────────
+  search: {
+    "title": "Search",
+    "placeholder": "Collection, product, colour, size, reference…",
+    "hint": "Type at least 2 characters: collection name, colour, size (60x120), product type…",
+    "results_one": "{{count}} result for “{{query}}”",
+    "results_other": "{{count}} results for “{{query}}”",
+    "none": "No results for “{{query}}”.",
+    "askUs": "Ask our showroom",
+    "showAll": "Show all {{count}} results",
+    "open": "Search",
+    "groups": {
+      "tiles": "Tiles",
+      "bathroom": "Bathroom",
+      "kitchens": "Kitchens",
+      "joinery": "Joinery & outdoor"
+    }
+  },
+
   // ── Contact ──────────────────────────────────────────────────────────────────
   contact: {
     title: 'CONTACT US',

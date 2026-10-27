@@ -132,10 +132,18 @@ const Header = () => {
           <Link to="/catalogues" className="nav-link">{t('nav.catalogues')}</Link>
           <Link to="/contact" className="nav-link">{t('nav.contact')}</Link>
 
+          <Link to="/recherche" className="nav-link header-search" aria-label={t('search.open')} title={t('search.open')}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </Link>
+
           <LangSwitcher />
         </nav>
 
-        {/* Hamburger button */}
+        {/* Mobile : recherche + hamburger */}
+        <div className="header-mobile-actions">
+        <Link to="/recherche" className="header-search header-search--mobile" onClick={closeMenu} aria-label={t('search.open')}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </Link>
         <button
           className={`hamburger ${menuOpen ? 'open' : ''}`}
           onClick={() => setMenuOpen(o => !o)}
@@ -145,6 +153,7 @@ const Header = () => {
           <span></span>
           <span></span>
         </button>
+        </div>
       </div>
 
       {/* Mobile menu */}

@@ -327,6 +327,25 @@ const fr = {
     }
   },
 
+  // ── Recherche globale ──────────────────────────────────────────────────────────
+  search: {
+    "title": "Recherche",
+    "placeholder": "Collection, produit, couleur, format, référence…",
+    "hint": "Saisissez au moins 2 caractères : nom de collection, couleur, format (60x120), type de produit…",
+    "results_one": "{{count}} résultat pour « {{query}} »",
+    "results_other": "{{count}} résultats pour « {{query}} »",
+    "none": "Aucun résultat pour « {{query}} ».",
+    "askUs": "Demandez à notre showroom",
+    "showAll": "Voir les {{count}} résultats",
+    "open": "Rechercher",
+    "groups": {
+      "tiles": "Carrelage",
+      "bathroom": "Salle de bain",
+      "kitchens": "Cuisines",
+      "joinery": "Menuiserie & extérieur"
+    }
+  },
+
   // ── Contact ──────────────────────────────────────────────────────────────────
   contact: {
     title: 'CONTACTEZ-NOUS',

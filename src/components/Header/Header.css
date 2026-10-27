@@ -362,3 +362,26 @@
 .mobile-lang .lang-btn {
   font-size: 13px;
 }
+
+/* ── Recherche ─────────────────────────────────────────────────────────────── */
+.header-search {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header-search:hover { color: #d4af37; }
+
+.header-mobile-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.header-search--mobile { display: none; }
+
+@media (max-width: 900px) {
+  .header-search--mobile { display: flex; }
+}
