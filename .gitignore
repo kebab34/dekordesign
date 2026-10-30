@@ -62,3 +62,6 @@ public/catalogue/
 
 # Fichiers de workspace VS Code personnels
 *.code-workspace
+
+# Photos sources des réalisations (envoyées sur R2 par scripts/r2/realisations.js)
+/realisations/

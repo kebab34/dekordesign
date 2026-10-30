@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { roomCategoriesData } from '../../data/content';
 import './Header.css';
 import logo from '../../image/logo2.png';
+import { realisations } from '../../data/realisations';
 
 const NavDropdown = ({ label, to, children }) => {
   const [open, setOpen] = useState(false);
@@ -130,6 +131,7 @@ const Header = () => {
           </NavDropdown>
 
           <Link to="/catalogues" className="nav-link">{t('nav.catalogues')}</Link>
+          {realisations.length > 0 && <Link to="/realisations" className="nav-link">{t('nav.realizations')}</Link>}
           <Link to="/contact" className="nav-link">{t('nav.contact')}</Link>
 
           <Link to="/recherche" className="nav-link header-search" aria-label={t('search.open')} title={t('search.open')}>
@@ -253,6 +255,7 @@ const Header = () => {
           </div>
 
           <Link to="/catalogues" className="mobile-link" onClick={closeMenu}>{t('nav.catalogues')}</Link>
+          {realisations.length > 0 && <Link to="/realisations" className="mobile-link" onClick={closeMenu}>{t('nav.realizations')}</Link>}
           <Link to="/contact" className="mobile-link" onClick={closeMenu}>{t('nav.contact')}</Link>
 
           <div className="mobile-lang">

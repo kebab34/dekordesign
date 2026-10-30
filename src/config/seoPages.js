@@ -47,6 +47,10 @@ export const PAGE_SEO = {
     title: 'Portes Pivot Aluminium — Aderka Door Systems',
     description: 'Portes pivot aluminium Aderka : 4 séries exclusives, 19 modèles. Exclusive, Stoneline, Elegance, Woodline. Design architectural haut de gamme à Cannes.',
   },
+  '/realisations': {
+    title: "Réalisations — Nos chantiers à Cannes et sur la Côte d'Azur",
+    description: "Salles de bain, cuisines, carrelage et menuiserie : découvrez des projets réalisés par DekorDesign à Cannes et sur la Côte d'Azur.",
+  },
   '/mentions-legales': {
     title: 'Mentions légales',
     description: 'Mentions légales du site DekorDesign : éditeur, hébergement, propriété intellectuelle.',

@@ -327,6 +327,25 @@ const en = {
     }
   },
 
+  // ── Réalisations ──────────────────────────────────────────────────────────────
+  realisations: {
+    "title": "Projects",
+    "subtitle": "Our work on the French Riviera",
+    "crumb": "Projects",
+    "soon": "Our completed projects will be showcased here soon. Meanwhile, visit our showroom or tell us about your project.",
+    "cta": "Tell us about your project",
+    "yourProject": "A similar project in mind? Our team supports you from design to installation.",
+    "productsUsed": "Products used",
+    "others": "Other projects",
+    "categories": {
+      "bathroom": "Bathroom",
+      "kitchen": "Kitchen",
+      "interior": "Interior",
+      "exterior": "Exterior",
+      "joinery": "Joinery"
+    }
+  },
+
   // ── Recherche globale ──────────────────────────────────────────────────────────
   search: {
     "title": "Search",

@@ -89,3 +89,10 @@ export const aderkaDoorSeo = (seriesSlug, door) => ({
   canonical: `/portes-pivot/${seriesSlug}/${door.slug}`,
   image: door.image,
 });
+
+export const realisationSeo = r => ({
+  title: `${r.title} — Réalisation`,
+  description: truncate(r.description || `${r.title}, réalisé par DekorDesign à ${r.city}.`),
+  canonical: `/realisations/${r.slug}`,
+  image: tileUrl(r.cover),
+});

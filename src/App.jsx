@@ -29,6 +29,8 @@ const MentionsLegales        = lazy(() => import('./components/LegalPage/Mention
 const Confidentialite        = lazy(() => import('./components/LegalPage/Confidentialite'));
 const NotFoundPage           = lazy(() => import('./components/NotFoundPage/NotFoundPage'));
 const SearchPage             = lazy(() => import('./components/SearchPage/SearchPage'));
+const RealisationsPage       = lazy(() => import('./components/RealisationsPage/RealisationsPage'));
+const RealisationDetailPage  = lazy(() => import('./components/RealisationsPage/RealisationDetailPage'));
 
 // Catalogues Bien Seramik : une page liste + une page détail génériques, configurées par univers.
 // Chaque config est chargée à la demande pour ne pas embarquer toutes les données dans le même chunk.
@@ -111,6 +113,8 @@ const App = () => {
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
           <Route path="/recherche" element={<SearchPage />} />
+          <Route path="/realisations" element={<RealisationsPage />} />
+          <Route path="/realisations/:slug" element={<RealisationDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         </Suspense>

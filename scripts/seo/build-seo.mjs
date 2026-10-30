@@ -29,6 +29,7 @@ const { sopranoData } = await load('data/sopranoData.js');
 const { menuiserieProducts, menuiserieCategories } = await load('data/menuiserieData.js');
 const { exterieurProducts, exterieurCategories } = await load('data/exterieurData.js');
 const { aderkaData } = await load('data/aderkaData.js');
+const { realisations } = await load('data/realisations.js');
 const catalogs = await Promise.all(['sanitaire', 'dus', 'armaturler', 'aksesuar', 'tamamlayici']
   .map(n => load(`components/BienCatalog/catalogs/${n}.js`).then(m => m.default)));
 
@@ -37,6 +38,7 @@ const pages = [];
 const add = (meta, priority = 0.6) => pages.push({ ...meta, priority });
 
 for (const [canonical, meta] of Object.entries(PAGE_SEO)) {
+  if (canonical === '/realisations' && !realisations.length) continue; // page masquée tant qu'elle est vide
   const legal = canonical === '/mentions-legales' || canonical === '/confidentialite';
   add({ ...meta, canonical }, canonical === '/' ? 1 : legal ? 0.2 : 0.8);
 }
@@ -64,6 +66,8 @@ for (const name of seriesNames) {
   add(seo.aderkaSeriesSeo(slug, name, doors), 0.7);
   doors.forEach(d => add(seo.aderkaDoorSeo(slug, d)));
 }
+
+realisations.forEach(r => add(seo.realisationSeo(r), 0.7));
 
 // Doublons éventuels : on garde la première occurrence
 const seen = new Set();

@@ -327,6 +327,25 @@ const fr = {
     }
   },
 
+  // ── Réalisations ──────────────────────────────────────────────────────────────
+  realisations: {
+    "title": "Réalisations",
+    "subtitle": "Nos chantiers sur la Côte d'Azur",
+    "crumb": "Réalisations",
+    "soon": "Nos réalisations seront bientôt présentées ici. En attendant, venez découvrir nos produits au showroom ou parlez-nous de votre projet.",
+    "cta": "Parlons de votre projet",
+    "yourProject": "Un projet similaire ? Notre équipe vous accompagne de la conception à la pose.",
+    "productsUsed": "Produits utilisés",
+    "others": "Autres réalisations",
+    "categories": {
+      "bathroom": "Salle de bain",
+      "kitchen": "Cuisine",
+      "interior": "Intérieur",
+      "exterior": "Extérieur",
+      "joinery": "Menuiserie"
+    }
+  },
+
   // ── Recherche globale ──────────────────────────────────────────────────────────
   search: {
     "title": "Recherche",
