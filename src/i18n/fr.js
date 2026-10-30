@@ -178,6 +178,19 @@ const fr = {
     tamamlayici: { title: 'PRODUITS COMPLÉMENTAIRES', crumb: 'Produits complémentaires', back: 'Retour aux produits complémentaires', description: 'Produit complémentaire de qualité supérieure pour votre installation sanitaire.' },
   },
 
+  // ── Accueil : « L'art de la pose » ──────────────────────────────────────────
+  pose: {
+    "kicker": "L'art de la pose",
+    "title": "Chaque carreau trouve sa place",
+    "text": "Du choix du format à la dernière ligne de joint, nous sélectionnons des matières qui traversent le temps. Venez les toucher au showroom de Cannes.",
+    "stats": {
+      "collections": "collections",
+      "references": "références",
+      "brands": "marques partenaires"
+    },
+    "cta": "Explorer les collections"
+  },
+
   // ── Pages par univers ──────────────────────────────────────────────────────────
   kobos: {
     "title": "MEUBLES DE SALLE DE BAIN",

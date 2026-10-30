@@ -1,0 +1,221 @@
+/* ══ « L'art de la pose » ═════════════════════════════════════════════════════ */
+.pose {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  align-items: center;
+  gap: 60px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 120px 60px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 30% 60%, rgba(212, 175, 55, 0.07), transparent 60%),
+    #0a0a0a;
+}
+
+/* ── Le sol en perspective ── */
+.pose-floor-wrap {
+  perspective: 1400px;
+  perspective-origin: 50% 0%;
+}
+
+.pose-floor {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 3px;
+  padding: 3px;
+  transform: rotateX(52deg) rotateZ(-14deg);
+  transform-origin: 50% 60%;
+  transform-style: preserve-3d;
+}
+
+/* Joints : un fond doré révélé de gauche à droite une fois les carreaux posés */
+.pose-grout {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #8a6d1d, #d4af37 50%, #8a6d1d);
+  clip-path: inset(0 100% 0 0);
+  opacity: 0.85;
+}
+
+.pose--in .pose-grout {
+  animation: poseGrout 1.4s var(--ease-out) 2.1s both;
+}
+
+@keyframes poseGrout {
+  to { clip-path: inset(0 0 0 0); }
+}
+
+.pose-tile {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: #1a1a1a;
+  opacity: 0;
+  transform: translateZ(140px) rotateX(-22deg) scale(1.06);
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.6);
+}
+
+.pose-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  user-select: none;
+}
+
+/* Chaque carreau descend, se plaque dans la colle (léger rebond) et son ombre se resserre */
+.pose--in .pose-tile {
+  animation: poseLay 0.9s var(--ease-settle) var(--d) both;
+}
+
+@keyframes poseLay {
+  0%   { opacity: 0; transform: translateZ(140px) rotateX(-22deg) scale(1.06); box-shadow: 0 40px 50px rgba(0, 0, 0, 0.6); }
+  35%  { opacity: 1; }
+  100% { opacity: 1; transform: translateZ(0) rotateX(0) scale(1); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+}
+
+/* Reflet de lumière qui balaie le sol poli, en boucle lente */
+.pose-sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.28) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 62%);
+  background-size: 250% 100%;
+  background-position: 120% 0;
+  mix-blend-mode: soft-light;
+  opacity: 0;
+}
+
+.pose--in .pose-sheen {
+  animation: poseSheen 6.5s ease-in-out 3.2s infinite;
+}
+
+@keyframes poseSheen {
+  0%   { opacity: 0; background-position: 120% 0; }
+  10%  { opacity: 1; }
+  55%  { opacity: 1; background-position: -20% 0; }
+  65%, 100% { opacity: 0; background-position: -20% 0; }
+}
+
+/* ── Texte ── */
+.pose-content { position: relative; z-index: 1; }
+
+.pose-content > * {
+  opacity: 0;
+  translate: 0 24px;
+}
+
+.pose--in .pose-content > * {
+  animation: motionReveal 0.9s var(--ease-out) both;
+}
+
+.pose--in .pose-content > :nth-child(1) { animation-delay: 0.3s; }
+.pose--in .pose-content > :nth-child(2) { animation-delay: 0.45s; }
+.pose--in .pose-content > :nth-child(3) { animation-delay: 0.6s; }
+.pose--in .pose-content > :nth-child(4) { animation-delay: 0.75s; }
+.pose--in .pose-content > :nth-child(5) { animation-delay: 0.9s; }
+.pose--in .pose-content > :nth-child(6) { animation-delay: 1.05s; }
+
+.pose-kicker {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #d4af37;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.pose-title {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 0 0 24px;
+}
+
+.pose-line {
+  width: 60px;
+  height: 1px;
+  background: #d4af37;
+  margin-bottom: 24px;
+  transform-origin: left;
+}
+
+.pose--in .pose-line { animation: poseLineIn 1s var(--ease-out) 0.6s both; }
+
+@keyframes poseLineIn {
+  from { opacity: 1; translate: 0 0; scale: 0 1; }
+  to   { opacity: 1; translate: 0 0; scale: 1 1; }
+}
+
+.pose-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #999;
+  letter-spacing: 0.3px;
+  max-width: 460px;
+  margin: 0 0 40px;
+}
+
+.pose-stats {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 44px;
+}
+
+.pose-stat { display: flex; flex-direction: column; gap: 6px; }
+
+.pose-num {
+  font-size: 40px;
+  font-weight: 300;
+  color: #d4af37;
+  letter-spacing: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pose-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.pose-cta {
+  display: inline-block;
+  padding: 15px 38px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.pose-cta:hover { background: #d4af37; color: #0a0a0a; }
+
+/* ── Responsive ── */
+@media (max-width: 1100px) {
+  .pose { grid-template-columns: 1fr; gap: 20px; padding: 90px 30px; }
+  .pose-floor-wrap { max-width: 720px; margin: 0 auto; width: 100%; }
+}
+
+@media (max-width: 576px) {
+  .pose { padding: 70px 16px; }
+  .pose-floor { transform: rotateX(48deg) rotateZ(-10deg); }
+  .pose-title { font-size: 32px; }
+  .pose-stats { gap: 24px; }
+  .pose-num { font-size: 30px; }
+}
+
+/* « Réduire les animations » : carreaux et texte apparaissent en fondu, sans chute 3D ni reflet */
+html.motion-reduce .pose-tile { transform: none; box-shadow: none; }
+html.motion-reduce .pose--in .pose-tile { animation: motionFade 0.6s ease var(--d) both; }
+html.motion-reduce .pose-content > * { translate: none; }
+html.motion-reduce .pose--in .pose-content > * { animation-name: motionFade; }
+html.motion-reduce .pose--in .pose-line { animation: motionFade 0.6s ease 0.6s both; }
+html.motion-reduce .pose--in .pose-grout { animation: motionFade 0.8s ease 2.1s both; clip-path: none; }
+html.motion-reduce .pose-sheen { display: none; }

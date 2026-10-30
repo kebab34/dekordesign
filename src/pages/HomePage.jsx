@@ -5,6 +5,7 @@ import RoomCategories from '../components/HomePage/RoomCategories/RoomCategories
 import ProductCategories from '../components/HomePage/ProductCategories/ProductCategories';
 import FeaturedProducts from '../components/HomePage/FeaturedProducts/FeaturedProducts';
 import CTASection from '../components/HomePage/CTASection/CTASection';
+import PoseSection from '../components/HomePage/PoseSection/PoseSection';
 import { PAGE_SEO } from '../config/seoPages';
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Carousel />
       <RoomCategories />
       <ProductCategories />
+      <PoseSection />
       <FeaturedProducts />
       <CTASection />
     </>

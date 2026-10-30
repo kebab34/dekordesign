@@ -2,6 +2,7 @@ import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation, useNavigationType, useParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
+import MotionEngine from './motion/MotionEngine';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
@@ -63,6 +64,12 @@ const ProductRedirect = () => {
   return <Navigate to={`/collection/${encodeURIComponent(productName)}`} replace />;
 };
 
+// Fondu d'entrée à chaque changement de page (pas lors d'un simple changement de filtre ?cat=…)
+const PageTransition = ({ children }) => {
+  const { pathname } = useLocation();
+  return <div key={pathname} className="page-transition">{children}</div>;
+};
+
 const ScrollToTop = () => {
   const location = useLocation();
   const navType = useNavigationType();
@@ -78,8 +85,10 @@ const App = () => {
     <Router>
       <div className="app-container">
         <ScrollToTop />
+        <MotionEngine />
         <Header />
         <Suspense fallback={<div style={{ minHeight: '60vh' }} />}>
+        <PageTransition>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
@@ -117,6 +126,7 @@ const App = () => {
           <Route path="/realisations/:slug" element={<RealisationDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        </PageTransition>
         </Suspense>
         <Footer />
         {/* Mesure d'audience anonyme sans cookie (à activer dans Vercel > Analytics) */}

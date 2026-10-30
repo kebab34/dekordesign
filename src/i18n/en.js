@@ -178,6 +178,19 @@ const en = {
     tamamlayici: { title: 'COMPLEMENTARY PRODUCTS', crumb: 'Complementary products', back: 'Back to complementary products', description: 'Premium complementary product for your sanitary installation.' },
   },
 
+  // ── Accueil : « L'art de la pose » ──────────────────────────────────────────
+  pose: {
+    "kicker": "The art of laying",
+    "title": "Every tile finds its place",
+    "text": "From choosing the size to the last grout line, we select materials built to last. Come and feel them at our Cannes showroom.",
+    "stats": {
+      "collections": "collections",
+      "references": "references",
+      "brands": "partner brands"
+    },
+    "cta": "Explore the collections"
+  },
+
   // ── Pages par univers ──────────────────────────────────────────────────────────
   kobos: {
     "title": "BATHROOM FURNITURE",
