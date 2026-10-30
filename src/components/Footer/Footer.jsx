@@ -16,12 +16,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-column">
-          <img src={logo} alt="DEKOR & DESIGN" className="logo" />
+          <img src={logo} alt="DEKOR & DESIGN" className="logo" width="361" height="81" />
           <p className="footer-tagline">{t('footer.tagline')}</p>
           <div className="gold-line"></div>
         </div>
         <div className="footer-column">
-          <h4 className="footer-title">{t('footer.showroom')}</h4>
+          <h2 className="footer-title">{t('footer.showroom')}</h2>
           <p className="footer-text">Cannes, Côte d'Azur</p>
           <p className="footer-text">{t('footer.byAppointment')}</p>
           <a href={company.mapsUrl} target="_blank" rel="noopener noreferrer" className="footer-text footer-link">
@@ -29,14 +29,14 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-column">
-          <h4 className="footer-title">{t('footer.contact')}</h4>
+          <h2 className="footer-title">{t('footer.contact')}</h2>
           <a href={`mailto:${company.email}`} className="footer-text footer-link">{company.email}</a>
           <a href={`tel:${company.phoneHref}`} className="footer-text footer-link">{company.phone}</a>
           <p className="footer-text">{fullAddress}</p>
         </div>
         {socials.length > 0 && (
           <div className="footer-column">
-            <h4 className="footer-title">{t('footer.followUs')}</h4>
+            <h2 className="footer-title">{t('footer.followUs')}</h2>
             <div className="social-links">
               {socials.map(([key, url]) => (
                 <a key={key} href={url} target="_blank" rel="noopener noreferrer" className="social-link">{SOCIAL_LABELS[key]}</a>

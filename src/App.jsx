@@ -91,7 +91,7 @@ const App = () => {
         <ScrollProgress />
         <PageWipe />
         <Header />
-        <Suspense fallback={<div style={{ minHeight: '60vh' }} />}>
+        <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
         <PageTransition>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -131,8 +131,9 @@ const App = () => {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         </PageTransition>
-        </Suspense>
+        {/* Dans le Suspense : le pied de page arrive avec la page, sans être repoussé (pas de décalage de mise en page) */}
         <Footer />
+        </Suspense>
         {/* Mesure d'audience anonyme sans cookie (à activer dans Vercel > Analytics) */}
         <Analytics />
       </div>

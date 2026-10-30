@@ -22,12 +22,13 @@
 
 .footer-tagline {
   font-size: 14px;
-  color: #666;
+  color: #8c8c8c;
   margin-bottom: 20px;
   font-style: italic;
 }
 
 .footer-title {
+  margin-top: 1.33em;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -72,7 +73,7 @@
 
 .footer-copy {
   font-size: 12px;
-  color: #555;
+  color: #7a7a7a;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -105,7 +106,7 @@
 }
 
 .footer-legal a {
-  color: #666;
+  color: #8c8c8c;
   text-decoration: none;
   letter-spacing: 1px;
   transition: color 0.2s;

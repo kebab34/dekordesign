@@ -4,6 +4,9 @@ import { carouselData } from '../../../data/content';
 import './Carousel.css';
 import { useTranslation } from 'react-i18next';
 
+// Largeurs servies par Unsplash : le navigateur choisit selon l'écran (mobile ≈ 640–960 px)
+const SLIDE_WIDTHS = [640, 960, 1280, 1920];
+
 const Carousel = () => {
   const { t } = useTranslation();
   // Textes des slides traduits (i18n carousel.slideN), images et liens dans data/content.js
@@ -101,6 +104,8 @@ const Carousel = () => {
           <div className="slide-image-wrapper">
             <img
               src={slide.url}
+              srcSet={SLIDE_WIDTHS.map(w => `${slide.url.replace(/w=\d+/, `w=${w}`)} ${w}w`).join(', ')}
+              sizes="100vw"
               alt={slide.title}
               className="slide-image"
               loading={index === 0 ? 'eager' : 'lazy'}

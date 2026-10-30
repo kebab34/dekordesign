@@ -72,7 +72,7 @@
 
 .bcd-specs { display: flex; flex-direction: column; gap: 14px; }
 .bcd-spec-row { display: flex; justify-content: space-between; align-items: center; font-size: 14px; }
-.bcd-spec-label { color: #666; letter-spacing: 1px; }
+.bcd-spec-label { color: #8c8c8c; letter-spacing: 1px; }
 .bcd-spec-value { color: #fff; letter-spacing: 1px; }
 
 .bcd-desc { font-size: 14px; color: #888; line-height: 1.8; letter-spacing: 0.5px; margin: 0 0 30px 0; }

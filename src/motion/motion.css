@@ -12,6 +12,10 @@
   --gold: #d4af37;
 }
 
+/* Les animations démarrent à 1 % d'opacité, pas 0 : invisible à l'œil, mais le navigateur compte le contenu
+   comme affiché dès son arrivée (indicateur LCP de Google), au lieu d'attendre la fin de l'animation.
+   Les éléments pas encore apparus restent à 0 (ignorés par les outils d'accessibilité). */
+
 /* ── 1. Cartes et blocs : montée en fondu, en cascade ──────────────────────── */
 html.motion-ready [data-reveal]:not(.is-in) { opacity: 0; translate: 0 36px; }
 
@@ -21,7 +25,7 @@ html.motion-ready [data-reveal].is-in {
 }
 
 @keyframes motionReveal {
-  from { opacity: 0; translate: 0 36px; }
+  from { opacity: 0.01; translate: 0 36px; }
   to   { opacity: 1; translate: 0 0; }
 }
 
@@ -150,11 +154,13 @@ html.motion-ready:not(.motion-reduce) [data-magnetic] { transition: all 0.35s va
 }
 
 /* ── 9. Entrée de page (sous le pavage qui se retourne) ────────────────────── */
+/* Fondu seul : un déplacement ferait de la page le repère des panneaux position: fixed (filtres mobiles)
+   pendant l'animation, d'où un décalage de mise en page */
 html.motion-ready .page-transition { animation: motionPage 0.7s var(--ease-out) 0.15s backwards; }
 
 @keyframes motionPage {
-  from { opacity: 0; translate: 0 18px; }
-  to   { opacity: 1; translate: 0 0; }
+  from { opacity: 0.01; }
+  to   { opacity: 1; }
 }
 
 /* ── 10. Transition « carrelage » : un pavage se retourne en diagonale ─────── */
@@ -219,6 +225,6 @@ html.motion-reduce :is(.bc-img-wrapper, .cdp-card-img, .kobos-img-wrapper, .sop-
     .featured-image-wrapper, .room-card, :has(> img.men-img), :has(> img.ext-img))::before { display: none; }
 
 @keyframes motionFade {
-  from { opacity: 0; }
+  from { opacity: 0.01; }
   to   { opacity: 1; }
 }

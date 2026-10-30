@@ -88,7 +88,7 @@ const Header = () => {
     <header className={`header ${compact ? 'is-compact' : ''} ${hidden && !menuOpen ? 'is-hidden' : ''}`}>
       <div className="header-content">
         <Link to="/" onClick={closeMenu}>
-          <img src={logo} alt="DEKOR & DESIGN" className="logo" />
+          <img src={logo} alt="DEKOR & DESIGN" className="logo" width="361" height="81" />
         </Link>
 
         {/* Desktop nav */}

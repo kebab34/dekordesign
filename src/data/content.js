@@ -2,19 +2,19 @@ import { ASSET_BASE, tileUrl } from '../config/assets.js';
 
 export const carouselData = [
   {
-    url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80',
+    url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=75&auto=format&fit=crop',
     title: 'L\'Excellence au Service de Vos Espaces',
     subtitle: 'Design contemporain et raffinement intemporel',
     cta: { label: 'Découvrir nos collections', to: '/collections' }
   },
   {
-    url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&q=80',
+    url: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&q=75&auto=format&fit=crop',
     title: 'Cuisines d\'Exception',
     subtitle: 'Où l\'art culinaire rencontre le design',
     cta: { label: 'Découvrir nos cuisines', to: '/cuisines' }
   },
   {
-    url: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&q=80',
+    url: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&q=75&auto=format&fit=crop',
     title: 'Sanctuaires de Bien-Être',
     subtitle: 'Salles de bain sculptées dans l\'élégance',
     cta: { label: 'Découvrir nos salles de bain', to: '/sanitaire' }
@@ -22,12 +22,12 @@ export const carouselData = [
 ];
 
 export const roomCategoriesData = [
-  { name: 'Cuisine', image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80' },
-  { name: 'Salle de Bain', image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80' },
-  { name: 'Intérieur', image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80' },
-  { name: 'Extérieur', image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80' },
-  { name: 'Jardin', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80' },
-  { name: 'Terrasse', image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80' }
+  { name: 'Cuisine', image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=75&auto=format&fit=crop' },
+  { name: 'Salle de Bain', image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=75&auto=format&fit=crop' },
+  { name: 'Intérieur', image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=75&auto=format&fit=crop' },
+  { name: 'Extérieur', image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=75&auto=format&fit=crop' },
+  { name: 'Jardin', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=75&auto=format&fit=crop' },
+  { name: 'Terrasse', image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=75&auto=format&fit=crop' }
 ];
 
 export const productCategoriesData = [
@@ -40,7 +40,7 @@ export const productCategoriesData = [
   {
     name: 'Appareils Sanitaires',
     description: 'Baignoires, vasques et WC aux lignes architecturales épurées',
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=75&auto=format&fit=crop',
     path: '/sanitaire'
   },
   {
@@ -52,25 +52,25 @@ export const productCategoriesData = [
   {
     name: 'Robinetterie de Luxe',
     description: 'Finitions sophistiquées — or brossé, noir mat, chrome poli',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=75&auto=format&fit=crop',
     path: '/armaturler'
   },
   {
     name: 'Systèmes de Douche',
     description: 'Solutions douche premium — colonnes, parois et receveurs d\'exception',
-    image: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=75&auto=format&fit=crop',
     path: '/douche'
   },
   {
     name: 'Produits Complémentaires',
     description: 'Accessoires et compléments pour sublimer votre salle de bain',
-    image: 'https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=600&q=75&auto=format&fit=crop',
     path: '/accessoires'
   },
   {
     name: 'Accessoires de Bain',
     description: 'Miroirs, porte-serviettes et accessoires design pour votre espace',
-    image: 'https://images.unsplash.com/photo-1620626011761-996317702b4b?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1620626011761-996317702b4b?w=600&q=75&auto=format&fit=crop',
     path: '/bain-accessoires'
   },
   {

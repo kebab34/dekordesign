@@ -53,7 +53,7 @@ const FeaturedProducts = () => {
               <img src={product.image} alt={product.name} className="featured-image" loading="lazy" />
               <div className="featured-overlay">
                 <div className="featured-hover">
-                  <h4 className="featured-name">{product.name}</h4>
+                  <h3 className="featured-name">{product.name}</h3>
                 </div>
               </div>
             </div>
