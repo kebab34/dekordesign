@@ -200,58 +200,6 @@ html.motion-ready .page-transition { animation: motionPage 0.7s var(--ease-out) 
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
 }
 
-/* ── 12. Curseur sur mesure (ordinateur) ───────────────────────────────────── */
-html.has-cursor, html.has-cursor * { cursor: none !important; }
-html.has-cursor :is(input, textarea, select, [contenteditable]) { cursor: text !important; }
-
-.cursor-dot, .cursor-ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  pointer-events: none;
-  border-radius: 50%;
-  translate: var(--cx, -100px) var(--cy, -100px);
-}
-
-.cursor-dot {
-  width: 6px;
-  height: 6px;
-  margin: -3px 0 0 -3px;
-  background: var(--gold);
-  transition: opacity 0.2s;
-}
-
-.cursor-ring {
-  width: 36px;
-  height: 36px;
-  margin: -18px 0 0 -18px;
-  border: 1px solid rgba(212, 175, 55, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 9px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #0a0a0a;
-  transition: width 0.35s var(--ease-out), height 0.35s var(--ease-out), margin 0.35s var(--ease-out),
-              background 0.3s, border-color 0.3s, opacity 0.3s;
-}
-
-.cursor-ring span { opacity: 0; transition: opacity 0.2s; }
-
-/* Sur un lien ou un bouton : l'anneau s'ouvre */
-.cursor-ring.is-link { width: 56px; height: 56px; margin: -28px 0 0 -28px; border-color: var(--gold); background: rgba(212, 175, 55, 0.08); }
-
-/* Sur une image cliquable : disque doré avec « Voir » */
-.cursor-ring.is-view { width: 78px; height: 78px; margin: -39px 0 0 -39px; background: var(--gold); border-color: var(--gold); }
-.cursor-ring.is-view span { opacity: 1; }
-.cursor-ring.is-view + .cursor-dot { opacity: 0; }
-
-.cursor-ring.is-text { opacity: 0; }
-.cursor-ring.is-down { width: 26px; height: 26px; margin: -13px 0 0 -13px; }
-.cursor-ring.is-off, .cursor-ring.is-off + .cursor-dot { opacity: 0; }
-
 /* ══ « Réduire les animations » : fondus seuls, aucun déplacement ═════════════ */
 html.motion-reduce [data-reveal]:not(.is-in),
 html.motion-reduce [data-reveal-title]:not(.is-in) { translate: none; clip-path: none; }

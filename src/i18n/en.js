@@ -191,11 +191,6 @@ const en = {
     "cta": "Explore the collections"
   },
 
-  // ── Curseur ───────────────────────────────────────────────────────────────────
-  motion: {
-    view: 'View',
-  },
-
   // ── Pages par univers ──────────────────────────────────────────────────────────
   kobos: {
     "title": "BATHROOM FURNITURE",
