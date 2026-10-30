@@ -108,6 +108,7 @@ const fr = {
 
   // ── Listes et fiches produits (commun) ─────────────────────────────────────────
   catalog: {
+    requestSheet: 'Demander la fiche technique',
     allFem: "Toutes",
     searchTitle: "RECHERCHE",
     modelPlaceholder: "Nom du modèle...",
@@ -159,7 +160,6 @@ const fr = {
     similar: 'PRODUITS SIMILAIRES',
     brand: 'Marque',
     requestQuote: 'Demander un devis',
-    productSheet: 'Fiche produit (.rar)',
     contactShowroom: "Pour plus d'informations ou pour obtenir un devis, contactez notre showroom.",
     viewDetails: 'Voir le détail',
     specs: 'Caractéristiques',
@@ -376,6 +376,9 @@ const fr = {
     closed: 'Fermé',
     days: { Monday: 'Lundi', Tuesday: 'Mardi', Wednesday: 'Mercredi', Thursday: 'Jeudi', Friday: 'Vendredi', Saturday: 'Samedi', Sunday: 'Dimanche' },
     formTitle: 'Envoyez-nous un message',
+    sheetTitle: 'Demande de fiche technique',
+    sheetSubject: 'Demande de fiche technique — {{product}}',
+    sheetMessage: 'Bonjour,\n\nPourriez-vous me transmettre la fiche technique de : {{product}} ?\n\nMerci.',
     quoteTitle: 'Demande de devis',
     quoteFor: 'Produit concerné :',
     quoteSubject: 'Demande de devis — {{product}}',

@@ -57,5 +57,6 @@ export const company = {
 
 export const fullAddress = `${company.address.street}, ${company.address.postalCode} ${company.address.city}`;
 
-// Lien « Demander un devis » préremplissant le formulaire de contact avec le produit
-export const quoteUrl = product => `/contact?produit=${encodeURIComponent(product)}`;
+// Lien préremplissant le formulaire de contact avec le produit : demande de devis, ou de fiche technique (kind 'fiche')
+export const quoteUrl = (product, kind) =>
+  `/contact?produit=${encodeURIComponent(product)}${kind === 'fiche' ? '&demande=fiche' : ''}`;

@@ -21,12 +21,13 @@ const ContactPage = () => {
   const [searchParams] = useSearchParams();
   // Demande de devis depuis une fiche produit : /contact?produit=Nom%20du%20produit
   const product = searchParams.get('produit') || '';
+  const isSheet = searchParams.get('demande') === 'fiche';
 
   const emptyForm = { name: '', email: '', phone: '', subject: '', message: '' };
   const [formData, setFormData] = useState(() => product ? {
     ...emptyForm,
-    subject: t('contact.quoteSubject', { product }),
-    message: t('contact.quoteMessage', { product }),
+    subject: t(isSheet ? 'contact.sheetSubject' : 'contact.quoteSubject', { product }),
+    message: t(isSheet ? 'contact.sheetMessage' : 'contact.quoteMessage', { product }),
   } : emptyForm);
   const [consent, setConsent] = useState(false);
   const [showMap, setShowMap] = useState(false);
@@ -126,7 +127,7 @@ const ContactPage = () => {
 
         {/* Formulaire de contact */}
         <div className="contact-form-container">
-          <h2 className="form-title">{product ? t('contact.quoteTitle') : t('contact.formTitle')}</h2>
+          <h2 className="form-title">{product ? t(isSheet ? 'contact.sheetTitle' : 'contact.quoteTitle') : t('contact.formTitle')}</h2>
           {product && <p className="contact-product">{t('contact.quoteFor')} <strong>{product}</strong></p>}
 
           {submitStatus === 'success' && <div className="success-message" role="status">{t('contact.success')}</div>}

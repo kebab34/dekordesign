@@ -108,6 +108,7 @@ const en = {
 
   // ── Product lists and pages (shared) ───────────────────────────────────────────
   catalog: {
+    requestSheet: 'Request the technical sheet',
     allFem: "All",
     searchTitle: "SEARCH",
     modelPlaceholder: "Model name...",
@@ -159,7 +160,6 @@ const en = {
     similar: 'SIMILAR PRODUCTS',
     brand: 'Brand',
     requestQuote: 'Request a quote',
-    productSheet: 'Product sheet (.rar)',
     contactShowroom: 'For more information or a quote, please contact our showroom.',
     viewDetails: 'View details',
     specs: 'Specifications',
@@ -376,6 +376,9 @@ const en = {
     closed: 'Closed',
     days: { Monday: 'Monday', Tuesday: 'Tuesday', Wednesday: 'Wednesday', Thursday: 'Thursday', Friday: 'Friday', Saturday: 'Saturday', Sunday: 'Sunday' },
     formTitle: 'Send us a message',
+    sheetTitle: 'Technical sheet request',
+    sheetSubject: 'Technical sheet request — {{product}}',
+    sheetMessage: 'Hello,\n\nCould you send me the technical sheet for: {{product}}?\n\nThank you.',
     quoteTitle: 'Request a quote',
     quoteFor: 'Product:',
     quoteSubject: 'Quote request — {{product}}',
