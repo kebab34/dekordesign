@@ -92,10 +92,12 @@ const MotionEngine = () => {
       const pick = (sel, attr, observe = true) => {
         const found = scope.matches?.(sel) ? [scope] : [];
         scope.querySelectorAll?.(sel).forEach(el => found.push(el));
+        // Un élément déjà repéré est de nouveau observé : l'effet peut être relancé (StrictMode, remontage)
+        // avec un nouvel observateur, sinon il resterait caché
         return found.filter(el => {
-          if (el.hasAttribute(attr) || el.closest(EXCLUDE)) return false;
+          if (el.closest(EXCLUDE)) return false;
           el.setAttribute(attr, '');
-          if (observe) io.observe(el);
+          if (observe && !el.classList.contains('is-in')) io.observe(el);
           return true;
         });
       };
