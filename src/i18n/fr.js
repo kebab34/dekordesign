@@ -191,6 +191,11 @@ const fr = {
     "cta": "Explorer les collections"
   },
 
+  // ── Curseur ───────────────────────────────────────────────────────────────────
+  motion: {
+    view: 'Voir',
+  },
+
   // ── Pages par univers ──────────────────────────────────────────────────────────
   kobos: {
     "title": "MEUBLES DE SALLE DE BAIN",

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { roomCategoriesData } from '../../data/content';
@@ -62,13 +62,30 @@ const Header = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileExpanded, setMobileExpanded] = useState('');
+  const [compact, setCompact] = useState(false);
+  const [hidden, setHidden] = useState(false);
+
+  // En-tête intelligent : compact dès qu'on quitte le haut de page, masqué quand on descend,
+  // de retour dès qu'on remonte (jamais masqué menu ouvert)
+  useEffect(() => {
+    let last = window.scrollY, ticking = false;
+    const update = () => {
+      ticking = false;
+      const y = window.scrollY, delta = y - last;
+      setCompact(y > 40);
+      if (Math.abs(delta) > 6) { setHidden(delta > 0 && y > 320); last = y; }
+    };
+    const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const closeMenu = () => { setMenuOpen(false); setMobileExpanded(''); };
   const toggleSection = (key) =>
     setMobileExpanded(prev => (prev === key ? '' : key));
 
   return (
-    <header className="header">
+    <header className={`header ${compact ? 'is-compact' : ''} ${hidden && !menuOpen ? 'is-hidden' : ''}`}>
       <div className="header-content">
         <Link to="/" onClick={closeMenu}>
           <img src={logo} alt="DEKOR & DESIGN" className="logo" />

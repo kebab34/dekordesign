@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation, useNavig
 import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
 import MotionEngine from './motion/MotionEngine';
+import PageWipe from './motion/PageWipe';
+import ScrollProgress from './motion/ScrollProgress';
+import Cursor from './motion/Cursor';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
@@ -86,6 +89,9 @@ const App = () => {
       <div className="app-container">
         <ScrollToTop />
         <MotionEngine />
+        <ScrollProgress />
+        <PageWipe />
+        <Cursor />
         <Header />
         <Suspense fallback={<div style={{ minHeight: '60vh' }} />}>
         <PageTransition>
