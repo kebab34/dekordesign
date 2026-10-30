@@ -5,6 +5,7 @@
  * Usage :
  *   node scripts/r2/upload.js tiles        → .r2-build/tiles/**          → tiles/…
  *   node scripts/r2/upload.js catalogues   → public/catalogue/*.pdf      → catalogues/…
+ *   node scripts/r2/upload.js catalogues-build → .r2-build/catalogues/** (catalogues-prep.py) → catalogues/…
  *   node scripts/r2/upload.js fiches       → public/docs/<slug>/<slug>-foy.pdf → fiches/<slug>.pdf
  */
 
@@ -25,6 +26,10 @@ const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => {
 
 // Construit la liste { file, key } selon la cible
 const TARGETS = {
+  'catalogues-build': () => {
+    const base = path.join(ROOT, '.r2-build', 'catalogues');
+    return walk(base).map(f => ({ file: f, key: 'catalogues/' + path.relative(base, f).split(path.sep).join('/') }));
+  },
   tiles: () => {
     const base = path.join(ROOT, '.r2-build', 'tiles');
     return walk(base)

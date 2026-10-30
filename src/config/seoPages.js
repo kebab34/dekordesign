@@ -12,8 +12,8 @@ export const PAGE_SEO = {
     description: "Explorez nos 244 collections de carrelages pour salle de bain, cuisine et intérieur. Marbre, grès cérame, bois, pierre naturelle. Showroom à Cannes, Côte d'Azur.",
   },
   '/catalogues': {
-    title: 'Catalogues PDF — Carrelage, Salle de bain, Bois',
-    description: 'Téléchargez nos catalogues : catalogue général, carrelage effet bois, grands formats oversize, salle de bain et revêtements muraux.',
+    title: 'Catalogues PDF 2026 — Salle de bains, Cuisines, Carrelage, Pierre',
+    description: "Téléchargez nos 16 catalogues : collections 2026 salle de bains, cuisines, sols & murs, menuiserie, portes d'entrée, extérieur, pierre naturelle, granit et carrelage.",
   },
   '/contact': {
     title: 'Contact — Showroom DekorDesign Cannes',
